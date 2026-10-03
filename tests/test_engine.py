@@ -150,7 +150,13 @@ def test_context_parsers_and_nudge():
     C = {"games": g, "inj": inj, "news": news, "buzz": buzz, "trend": {}}
     g["DENSF"]["wx"] = wx
     ctx, rs, st = context.assess({"game": "DENSF", "team": "SF", "opp": "DEN", "stat": "rush", "pos": "RB", "player": "Christian McCaffrey"}, C)
-    assert ctx > 0 and any("favored" in t for _, t in rs)
+    assert ctx > 0
+    import script
+    sx, srs = script.game_script("SF", "rush", "RB", g["DENSF"])
+    assert sx > 0 and any("favored" in t for _, t in srs)
+    sx2, _ = script.game_script("DEN", "recyds", "WR", g["DENSF"])
+    sx3, _ = script.game_script("DEN", "rush", "RB", g["DENSF"])
+    assert sx2 > 0 and sx3 < 0, "underdog should throw more and run less"
     ctx2, rs2, _ = context.assess({"game": "DENSF", "team": "SF", "opp": "DEN", "stat": "pass", "pos": "QB", "player": "Brock Purdy"}, C)
     assert any("Windy" in t for _, t in rs2) and any("Surtain" in t for _, t in rs2)
     assert context.assess({"game": "DENSF", "team": "SF", "opp": "DEN", "stat": "pass", "pos": "QB", "player": "X"}, None) == (0.0, [], None)
@@ -162,7 +168,7 @@ def test_context_parsers_and_nudge():
     for r in engine.run(data, ov)["top"]:
         b = base.get((r["player"], r["stat"]))
         if b:
-            assert abs(r["score"] / b["score"] - 1) <= 0.0401
+            assert abs(r["score"] / b["score"] - 1) <= 1.04 * 1.08 - 1 + 1e-3   # context +/-4% x game script +/-8%
             assert r["why"]
     assert build.american(75) == "−300" and build.american(40) == "+150"
 
@@ -199,6 +205,40 @@ def test_usage_and_last_season():
     assert mu < 30 and info["share"] == [20]
 
 
+def test_qb_change_game_script_and_kickoff_lock():
+    import copy, datetime as dt, random, script, learn, tempfile
+    # QB change: no games with the backup = penalty; strong history with him = no penalty
+    st = {("X", 1): ("a", "A"), ("X", 2): ("a", "A"), ("X", 3): ("a", "A")}
+    f0, note0, _ = script.receiver_qb({1: 60, 2: 70, 3: 65}, "X", 40, [1, 2, 3], st, ("b", "B"), {}, {}, ("a", "A"), "Out")
+    assert f0 == script.NO_HISTORY and "no games together" in note0
+    pst = {("X", w): ("b", "B") for w in range(1, 5)}
+    f1, note1, _ = script.receiver_qb({1: 60, 2: 70, 3: 65}, "X", 40, [1, 2, 3], st, ("b", "B"), {1: 80, 2: 75, 3: 70, 4: 90}, pst, ("a", "A"), "Out")
+    assert f1 >= 0 and "4 of 4" in note1
+    f2, _, info = script.receiver_qb({1: 60}, "X", 40, [1], st, ("a", "A"), {}, {}, ("a", "A"), "")
+    assert f2 == 0 and info["same"]
+    # engine: starting QB ruled out -> that team's receivers drop, unless they have history with the backup
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    for s_ in data["stats"]:
+        s_["tgt"] = round(s_["rec"] / 0.68) if s_["rec"] else 0
+        s_["att"] = round(s_["rush_yd"] / 4.4) if s_["rush_yd"] > 0 else 0
+        s_["patt"] = round(s_["pass_yd"] / 7) if s_["pass_yd"] > 0 else 0
+    base = engine.run(copy.deepcopy(data), ov)["all"]
+    team = next(r["team"] for r in base if r["stat"] == "recyds" and r["pos"] == "WR")
+    qb = max((p for p in data["proj"] if p["team"] == team and p["pos"] == "QB"), key=lambda p: p.get("pass") or 0)
+    data["context"] = {"games": {}, "inj": {team: [{"name": qb["name"], "pos": "QB", "status": "Out"}]}}
+    after = engine.run(copy.deepcopy(data), ov)["all"]
+    b = {(r["player"], r["stat"], r["line"]): r["score"] for r in base}
+    hit = [r for r in after if r["team"] == team and r["stat"] in ("rec", "recyds") and r.get("qinfo") and not r["qinfo"]["same"]]
+    if True:
+        assert hit and all(r["score"] < b[(r["player"], r["stat"], r["line"])] for r in hit if r["qf"] < 0)
+        assert all("QB change" in r["qnote"] for r in hit)
+    # kickoff lock: a game is editable until 2 minutes before its real kickoff
+    now = dt.datetime(2026, 10, 4, 13, 20, tzinfo=dt.timezone(dt.timedelta(hours=-7)))
+    assert learn._open_game("2026-10-04", now, "2026-10-04T20:25Z")        # 1:25 PM PT game still open at 1:20
+    assert not learn._open_game("2026-10-04", now, "2026-10-04T17:00Z")    # 10 AM game locked
+
+
 if __name__ == "__main__":
     test_week4_reproduces_published_board()
     test_page_cards_match_published_board()
@@ -208,4 +248,5 @@ if __name__ == "__main__":
     test_kalshi_signing_and_quote_flow()
     test_context_parsers_and_nudge()
     test_usage_and_last_season()
-    print("PASS: engine reproduces the published Week 4 top 50 exactly; grading, learning, price-fill, Kalshi quote, game-context and usage checks pass")
+    test_qb_change_game_script_and_kickoff_lock()
+    print("PASS: engine reproduces the published Week 4 top 50 exactly; grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
