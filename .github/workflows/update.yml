@@ -2,9 +2,10 @@ name: Update prop board
 
 on:
   schedule:
-    - cron: "0 1 * * 5"    # Thu 6:00 PM PT
-    - cron: "0 16 * * 6"   # Sat 9:00 AM PT
-    - cron: "0 15 * * 0"   # Sun 8:00 AM PT
+    # Times are UTC. During daylight time (until Nov 1) these are:
+    - cron: "0 20 * * 4"   # Thu 1:00 PM PT  - before Thursday Night Football
+    - cron: "0 16 * * 5"   # Fri 9:00 AM PT  - Sunday + Monday games
+    - cron: "0 16 * * 6"   # Sat 9:00 AM PT  - Sunday + Monday games
   workflow_dispatch:
     inputs:
       week:
