@@ -64,3 +64,16 @@ You can also hit *Run workflow* any time for fresh prices.
 headlines (ESPN), most-added players (Sleeper) and Reddit buzz. Each card gets a short "why" line, and the score
 moves at most ±4% (`CTX_WEIGHT` in engine.py; set it to 0 to turn the nudge off). Players listed out are dropped.
 If any source fails, the rest still run; if all fail, the board is scored exactly as before.
+
+## Usage model and last season
+
+`usage.py` turns Sleeper's targets, carries, pass attempts and snaps into an expected stat line
+(share of team volume x team volume x efficiency, shrunk toward position averages) and blends that chance
+50/50 with the Sleeper projection. Last season's box scores are pulled once into `data/prev_season.json`;
+they add to the hit rate at a quarter game each (capped at 3 games total) and to efficiency at half weight.
+If either is missing the model falls back to the original formula.
+
+## Schedule
+
+Thu 1 PM PT (TNF), Fri and Sat 9 AM PT, and Sun 8:45 AM PT (injury news before the 10 AM kickoffs).
+The cron times are UTC: after daylight time ends (Nov 1) they run an hour earlier in Pacific time.

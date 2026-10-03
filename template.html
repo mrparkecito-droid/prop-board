@@ -180,7 +180,8 @@ input[type=range]{width:100%;height:36px;accent-color:var(--gold);margin:0}
 <details class="how"><summary>How the score works</summary>
  <ul>
   <li><b>Sleeper projection ({{W_PROJ}}).</b> Sleeper's Week {{WEEK}} projection turned into a chance of clearing the line.</li>
-  <li><b>Player hit rate ({{W_HIT}}).</b> His games over this line this season.</li>
+  <li><b>Player hit rate ({{W_HIT}}).</b> His games over this line this season, plus last season's games at a quarter weight each (all together worth at most 3 games), so one fluky game can't swing it.</li>
+  <li><b>Usage model (shares the projection weight).</b> His recent share of the team's targets or carries times the team's volume per game, times his catch rate and yards per touch (shrunk toward a normal rate so one long play doesn't inflate it). Recent weeks count more. Blended 50/50 with the Sleeper projection.</li>
   <li><b>Defense vs line ({{W_DEF}}).</b> How many of the opponent's 3 games the same role went over this exact line. Roles are by team depth: QB, lead RB, WR1, WR2, TE1, so a WR2 is compared to WR2s.</li>
   <li><b>Price value (17%).</b> The model's chance against the Kalshi price.</li>
   <li><b>Defense rank ({{W_RANK}}).</b> Where the defense ranks among 32 teams in pass or rush yards allowed per game.</li>

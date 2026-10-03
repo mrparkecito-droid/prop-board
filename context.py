@@ -248,7 +248,7 @@ def ordinal(n):
 
 def why(r, rs):
     """One or two short sentences for the card."""
-    bits = [f"Cleared {r['line']}+ in {r['over']} of {r['n']} games"]
+    bits = [f"Cleared {r['line']}+ in {r['over']} of {r['n']} games" + (f" ({r['po']} of {r['pn']} last season)" if r.get("pn") else "")]
     if r["proj"] >= r["line"]:
         bits.append(f"Sleeper projects {r['proj']:g}")
     if r.get("dn"):
@@ -256,6 +256,9 @@ def why(r, rs):
     if r["most"] <= 10:
         bits.append(f"{r['opp']} allows the {ordinal(r['most']) + ' ' if r['most'] > 1 else ''}most {r['dstat']}")
     s = ", ".join(bits) + "."
+    u = r.get("uinfo") or {}
+    if u.get("note"):
+        s += " " + u["note"]
     good = [t for w, t in sorted(rs, key=lambda x: -x[0]) if w > 0][:2]
     bad = [t for w, t in sorted(rs, key=lambda x: x[0]) if w < 0][:2]
     news = [t for w, t in rs if w == 0][:1]

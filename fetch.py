@@ -174,6 +174,40 @@ def sleeper_league(stats):
     return {t: [len(v["wks"]), round(v["pass"]), round(v["rush"])] for t, v in agg.items() if t}
 
 
+def stat_row(wk, r):
+    st = r["stats"]
+    g = lambda k: st.get(k, 0) or 0
+    return {"wk": wk, "name": r["name"], "pos": r["pos"], "team": r["team"], "opp": r["opp"],
+            "pass_yd": g("pass_yd"), "rush_yd": g("rush_yd"), "rec": g("rec"), "rec_yd": g("rec_yd"),
+            # usage: targets, carries, pass attempts, offensive snaps and the team's offensive snaps
+            "tgt": g("rec_tgt"), "att": g("rush_att"), "patt": g("pass_att"), "snp": g("off_snp"), "tsnp": g("tm_off_snp")}
+
+
+def prev_season(season):
+    """Last regular season's weekly box scores. Fetched once and kept in data/prev_season.json."""
+    path = os.path.join(HERE, "data", "prev_season.json")
+    try:
+        old = json.load(open(path))
+        if old.get("season") == season - 1 and len(old.get("weeks", [])) >= 18 and old.get("v") == 1:
+            return old["stats"]
+    except (OSError, ValueError):
+        pass
+    rows, weeks = [], []
+    for wk in range(1, 19):
+        try:
+            for r in sleeper_rows("stats", season - 1, wk):
+                if played(r["pos"], r["stats"]):
+                    rows.append(stat_row(wk, r))
+            weeks.append(wk)
+        except Exception as e:
+            print(f"last season week {wk} unavailable:", e)
+    if len(weeks) >= 18:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        json.dump({"v": 1, "season": season - 1, "weeks": weeks, "stats": rows}, open(path, "w"), separators=(",", ":"))
+    print(f"last season: {len(rows)} stat lines from {len(weeks)} weeks")
+    return rows
+
+
 # ---------------------------------------------------------------- main
 def main():
     now = dt.datetime.now(PT)
@@ -189,10 +223,12 @@ def main():
             st = r["stats"]
             if not played(r["pos"], st):
                 continue
-            stats.append({"wk": wk, "name": r["name"], "pos": r["pos"], "team": r["team"], "opp": r["opp"],
-                          "pass_yd": st.get("pass_yd", 0) or 0, "rush_yd": st.get("rush_yd", 0) or 0,
-                          "rec": st.get("rec", 0) or 0, "rec_yd": st.get("rec_yd", 0) or 0})
+            stats.append(stat_row(wk, r))
     print("stat lines:", len(stats))
+    try:
+        prev_season(season)          # cached in data/prev_season.json; engine.py reads it
+    except Exception as e:
+        print("last season unavailable:", e)
 
     proj = []
     for r in sleeper_rows("projections", season, week):

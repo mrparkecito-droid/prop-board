@@ -17,6 +17,7 @@ Board = best lines sorted by score, max 2 props per player, top 50.
 """
 import csv, json, math, os, re, sys
 import context
+import usage
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -143,6 +144,13 @@ def run(data, overrides=None, learned=None):
         most = 1 + sum(1 for v in league.values() if per(v) > me + 1e-9)
         return most, round(me, 1)
 
+    # usage (targets/carries/snaps) and last season, when the data has them
+    U = usage.build(data["stats"], norm) if usage.has_usage(data["stats"]) else None
+    prev_rows = {}
+    for s in data.get("prev_stats") or []:
+        prev_rows.setdefault(norm(s["name"]), []).append(s)
+    prev_tot = usage.totals(data.get("prev_stats") or [], norm)
+
     games = {g["key"]: g for g in data["games"]}
     est_asks = fill_missing_asks(data["markets"], proj)
     rows, skipped = [], set()
@@ -180,6 +188,10 @@ def run(data, overrides=None, learned=None):
         line = m["line"]
         over = sum(1 for v in played if v >= line); n = len(played)
         h = (over + 1) / (n + 2)
+        po = pn = 0
+        if prev_rows.get(k):
+            wo, wn, po, pn = usage.prev_hits(prev_rows[k], STATKEY[stat], line, pos)
+            h = (over + wo + 1) / (n + wn + 2)
         # role on depth chart, by Sleeper projection within team and position
         if pos in ("WR", "TE", "RB"):
             keyf = "recyds" if pos != "RB" else "rush"
@@ -202,6 +214,11 @@ def run(data, overrides=None, learned=None):
         rank_s = (32 - most) / 31
         pv = pj[stat]
         pp = Phi((pv - line + 0.5) / sd_for(stat, pos, pv))
+        pp_raw, pu, uinfo = pp, None, None
+        uc = usage.chance(k, pos, team, stat, line, U, prev_tot, sd_for)
+        if uc:
+            pu, _, uinfo = uc
+            pp = 0.5 * pp + 0.5 * pu          # projection signal = Sleeper projection + usage model
         dh_u = dh if dh is not None else 0.5
         p = (0.40 * pp + 0.30 * h + 0.30 * dh_u) if dh is not None else (0.55 * pp + 0.45 * h)
         p = min(p, P_CAP)
@@ -234,7 +251,9 @@ def run(data, overrides=None, learned=None):
                          agree=int(agree), score=round(score, 1), flags=flags,
                          pc=round(p, 4), praw=round(p_raw, 4), rg=rg, est=est,
                          mid=mid_price(m), tk=m.get("ticker"), ev=m.get("event"),
-                         ctx=ctx, cxs=round(50 + 50 * ctx), reasons=reasons, status=status))
+                         ctx=ctx, cxs=round(50 + 50 * ctx), reasons=reasons, status=status,
+                         ppj=round(pp_raw * 100), pu=(round(pu * 100) if pu is not None else None), uinfo=uinfo,
+                         po=po, pn=pn))
 
     lad = {}
     for r in rows:
@@ -359,6 +378,14 @@ def fill_missing_asks(markets, proj):
 if __name__ == "__main__":
     src = sys.argv[1] if len(sys.argv) > 1 else os.path.join(DATA, "data.json")
     data = json.load(open(src))
+    ppath = os.path.join(DATA, "prev_season.json")
+    if os.path.exists(ppath) and len(sys.argv) <= 1:
+        try:
+            P = json.load(open(ppath))
+            if P.get("season") == data["season"] - 1:
+                data["prev_stats"] = P["stats"]
+        except (OSError, ValueError, KeyError):
+            pass
     cpath = os.path.join(DATA, "context.json")
     if os.path.exists(cpath) and len(sys.argv) <= 1:
         C = json.load(open(cpath))

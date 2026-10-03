@@ -1,5 +1,6 @@
 """Renders data/out.json into docs/index.html using template.html (the same cards as the Week 4 board)."""
 import datetime as dt, html, json, os, sys
+import usage
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -40,8 +41,15 @@ def cards_html(top, extras=True):
         rk = f'<p class="rk"><b>{r["opp"]} D rank:</b> {ordn(r["most"])} most {r["dstat"]} allowed ({r["per"]:g}/game)</p>'
         flags = "".join(f'<p class="flag">{html.escape(f)}</p>' for f in r["flags"])
         price = f'<div><dt>Kalshi yes</dt><dd>{r["ask"]}¢</dd></div>'
-        whyp = cxbar = ""
+        whyp = cxbar = ubar = uline = ""
         if extras:
+            if r.get("pu") is not None:
+                ubar = f'\n   <li><span>Usage model</span><meter min="0" max="100" value="{r["pu"]}"></meter><b>{r["pu"]}</b></li>'
+            if r.get("uinfo"):
+                uline = f'<p class="rk"><b>Usage:</b> {html.escape(usage.usage_line(r["uinfo"], r["pos"]))}</p>'
+            if r.get("pn"):
+                uline += f'<p class="rk"><b>Last season:</b> cleared {r["line"]}+ in {r["po"]} of {r["pn"]} games</p>'
+
             price = f'<div><dt>Kalshi</dt><dd>{r["ask"]}%<small>{american(r["ask"])}</small></dd></div>'
             pct = 100 * 0.04 * r.get("ctx", 0)
             pill = f'<span class="cx {"up" if pct > 0 else "dn"}">Context {"+" if pct > 0 else "−"}{abs(pct):.1f}%</span> ' if abs(pct) >= 0.05 else ""
@@ -66,11 +74,11 @@ def cards_html(top, extras=True):
   <div><dt>Return</dt><dd class="{"pos" if r["roi"] >= 15 else ("neg" if r["roi"] <= -10 else "")}">{"+" if r["roi"] > 0 else ""}{r["roi"]}%</dd></div>
   <div><dt>D vs line</dt><dd>{(str(r["dhit"]) + "/" + str(r["dn"])) if r["dn"] else "–"}</dd></div>
  </dl>
- <div class="cov">{dline}{rk}</div>
+ <div class="cov">{dline}{rk}{uline}</div>
  {flags}
  <details><summary>Score breakdown</summary>
   <ul class="bars">
-   <li><span>Sleeper projection</span><meter min="0" max="100" value="{r["pp"]}"></meter><b>{r["pp"]}</b></li>
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="{r.get("ppj", r["pp"])}"></meter><b>{r.get("ppj", r["pp"])}</b></li>{ubar}
    <li><span>Player hit rate</span><meter min="0" max="100" value="{r["hs"]}"></meter><b>{r["hs"]}</b></li>
    <li><span>Defense vs line</span><meter min="0" max="100" value="{r["dhs"]}"></meter><b>{r["dhs"]}</b></li>
    <li><span>Defense rank</span><meter min="0" max="100" value="{r["rks"]}"></meter><b>{r["rks"]}</b></li>
