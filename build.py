@@ -41,8 +41,11 @@ def cards_html(top, extras=True):
         rk = f'<p class="rk"><b>{r["opp"]} D rank:</b> {ordn(r["most"])} most {r["dstat"]} allowed ({r["per"]:g}/game)</p>'
         flags = "".join(f'<p class="flag">{html.escape(f)}</p>' for f in r["flags"])
         price = f'<div><dt>Kalshi yes</dt><dd>{r["ask"]}¢</dd></div>'
-        whyp = cxbar = ubar = uline = ""
+        whyp = cxbar = ubar = uline = face = ""
         if extras:
+            if r.get("pid"):
+                face = f'<img class="face" src="https://sleepercdn.com/content/nfl/players/thumb/{html.escape(str(r["pid"]))}.jpg" alt="" loading="lazy" onerror="this.remove()">'
+
             if r.get("pu") is not None:
                 ubar = f'\n   <li><span>Usage model</span><meter min="0" max="100" value="{r["pu"]}"></meter><b>{r["pu"]}</b></li>'
             if r.get("uinfo"):
@@ -62,7 +65,7 @@ def cards_html(top, extras=True):
         cards.append(f'''<article class="card" data-game="{r["game"]}" data-stat="{r["stat"]}">
  <div class="top">
   <div class="score {tier(r["score"])}" aria-label="Score {r["score"]:.0f}"><b>{r["score"]:.0f}</b><small>#{r["rank"]}</small></div>
-  <div class="who"><h3>{html.escape(r["player"])}</h3><p class="tm">{r["team"]} · {r["role"]} · {r["glabel"]}</p>
+  {face}<div class="who"><h3>{html.escape(r["player"])}</h3><p class="tm">{r["team"]} · {r["role"]} · {r["glabel"]}</p>
    <p class="prop">{r["prop"]} <strong>{r["line"]}+</strong></p></div>
  </div>{whyp}
  <div class="games">{gchips}</div>

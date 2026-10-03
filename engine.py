@@ -253,7 +253,7 @@ def run(data, overrides=None, learned=None):
                          mid=mid_price(m), tk=m.get("ticker"), ev=m.get("event"),
                          ctx=ctx, cxs=round(50 + 50 * ctx), reasons=reasons, status=status,
                          ppj=round(pp_raw * 100), pu=(round(pu * 100) if pu is not None else None), uinfo=uinfo,
-                         po=po, pn=pn))
+                         po=po, pn=pn, pid=pj.get("id")))
 
     lad = {}
     for r in rows:
@@ -300,7 +300,7 @@ def parlay_legs(out):
         legs.append({"pl": r["player"], "tm": r["team"], "g": r["game"], "gl": r["glabel"], "st": r["stat"],
                      "pr": r["prop"], "ln": r["line"], "ask": r["ask"], "q": r["mid"], "p": r["pc"], "sc": r["score"],
                      "est": 1 if r["est"] else 0, "tk": r["tk"], "ev": r["ev"],
-                     "wy": context.why(r, r.get("reasons") or [])[0]})
+                     "wy": context.why(r, r.get("reasons") or [])[0], "id": r.get("pid")})
     return legs
 
 
