@@ -128,7 +128,7 @@ def kalshi_markets(today):
                     continue
                 ask = cents(mk, "yes_ask"); bid = cents(mk, "yes_bid")
                 markets.append({"game": key, "series": stat, "name": mm.group(1).strip(), "line": int(mm.group(2)),
-                                "ask": ask or 0, "bid": bid})
+                                "ask": ask or 0, "bid": bid, "ticker": mk.get("ticker"), "event": ev["event_ticker"]})
     return list(games.values()), markets
 
 

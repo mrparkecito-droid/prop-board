@@ -56,6 +56,112 @@ def cards_html(top):
     return "\n".join(cards), opts
 
 
+def money(v):
+    return ("+" if v >= 0 else "−") + f"${abs(v):,.0f}"
+
+
+def pct(h, n):
+    return f"{round(100 * h / n)}%" if n else "–"
+
+
+def rec_rows(items):
+    rows = []
+    for t in items:
+        n = t["hit"] + t["miss"]
+        rows.append(f'<li><span>{html.escape(t["label"])}</span><meter min="0" max="100" value="{round(100 * t["hit"] / n) if n else 0}"></meter>'
+                    f'<b>{t["hit"]}–{t["miss"]}</b></li>')
+    return "".join(rows)
+
+
+def results_html(track):
+    """The Results tab: last week's grade, why picks missed, calibration, and what the model changed."""
+    if not track:
+        return ""
+    L = track.get("learn") or {}
+    parts = []
+    weeks = track.get("weeks") or []
+    if not weeks:
+        parts.append('<section class="panel"><h2>No graded weeks yet</h2><p>This week\'s picks are saved as they\'re posted. '
+                     'Once the games are played, the next update grades every pick against the box scores, shows the record here, '
+                     'and starts adjusting the model from what hit and what missed.</p></section>')
+    else:
+        w = weeks[0]
+        n = w["hit"] + w["miss"]
+        parts.append(f'''<section class="panel"><h2>Week {w["week"]} results</h2>
+ <dl class="tiles">
+  <div><dt>Board record</dt><dd>{w["hit"]}–{w["miss"]}</dd></div>
+  <div><dt>Hit rate</dt><dd>{pct(w["hit"], n)}</dd></div>
+  <div><dt>Model expected</dt><dd>{w["exp"]}%</dd></div>
+  <div><dt>$10 on each</dt><dd class="{"pos" if w["profit"] >= 0 else "neg"}">{money(w["profit"])}</dd></div>
+  <div><dt>Top 10</dt><dd>{w["top10"][0]}–{w["top10"][1]}</dd></div>
+ </dl>
+ <p class="sub">{n} graded picks{f", {w['void']} voided (player didn't play)" if w["void"] else ""}. Profit assumes $10 at the posted Kalshi price, before fees.</p>
+ <div class="two"><div><h3>By score</h3><ul class="bars rec">{rec_rows(w["tiers"])}</ul></div>
+ <div><h3>By stat</h3><ul class="bars rec">{rec_rows(w["stats"])}</ul></div></div>
+</section>''')
+        last = track.get("last") or {}
+        misses = [p for p in last.get("picks", []) if p["res"] == "miss"]
+        if misses:
+            cats = "".join(f'<span class="tag">{html.escape(c)} ×{k}</span>' for c, k in last.get("cats", []))
+            items = "".join(f'''<li><div><b>{html.escape(p["pl"])}</b> <span class="mono">{STATW[p["st"]]} {p["ln"]}+</span> <span class="g miss">{p["act"]:g}</span></div>
+  <p>{html.escape(p["note"])}</p><small>Score {p["sc"]} · model {p["p"]}% · {p["ask"]}¢ · {html.escape(p["gl"])}</small></li>''' for p in misses)
+            parts.append(f'<section class="panel"><h2>Why picks missed</h2><div class="tags">{cats}</div><ul class="misses">{items}</ul></section>')
+        allp = "".join(f'''<li class="{p["res"]}"><span class="g {"hit" if p["res"] == "hit" else ("miss" if p["res"] == "miss" else "dnp")}">{"–" if p["act"] is None else f'{p["act"]:g}'}</span>
+  <span>{html.escape(p["pl"])} · {STATW[p["st"]]} {p["ln"]}+</span><b>{p["sc"]}</b></li>''' for p in last.get("picks", []))
+        parts.append(f'<details class="panel all"><summary>All Week {last.get("week", "")} picks, graded</summary><ul class="graded">{allp}</ul></details>')
+        if track.get("calib"):
+            rows = "".join(f'''<li><span>Said {c["label"]}</span><div class="cal"><meter min="0" max="100" value="{c["pred"]}"></meter><meter class="act" min="0" max="100" value="{c["act"]}"></meter></div>
+  <b>{c["pred"]}→{c["act"]}%</b><small>{c["n"]}</small></li>''' for c in track["calib"])
+            parts.append(f'''<section class="panel"><h2>Do the percentages hold up?</h2><p class="sub">Board picks grouped by the model's chance. Top bar: what it said. Bottom bar: how often they actually hit. All graded weeks.</p>
+ <ul class="bars calib">{rows}</ul></section>''')
+    if L:
+        wrows = "".join(f'''<tr><td>{html.escape(x["name"])}</td><td>{x["prior"]}%</td><td><b>{x["now"]}%</b></td>
+  <td class="{"up" if x["now"] > x["prior"] else ("down" if x["now"] < x["prior"] else "")}">{"▲" if x["now"] > x["prior"] else ("▼" if x["now"] < x["prior"] else "·")}</td></tr>''' for x in L["weights"])
+        if L.get("changed"):
+            lead = (f'Learned from {L["n"]} graded ladders (week{"s" if len(L["weeks"]) > 1 else ""} {", ".join(map(str, L["weeks"]))}). '
+                    f'Results now count for {L["trust"]}% of the weights; that share grows each week up to 60%, so one odd week can\'t swing it.')
+        else:
+            lead = f'Nothing changed yet. The model starts adjusting once at least {L["min"]} props have been graded.'
+        adj = "".join(f"<li>{html.escape(a)}</li>" for a in L.get("adjust", []))
+        parts.append(f'''<section class="panel"><h2>What the model learned</h2><p class="sub">{lead}</p>
+ <table class="wt"><thead><tr><th>Signal</th><th>Start</th><th>Now</th><th></th></tr></thead><tbody>{wrows}</tbody></table>
+ {f'<ul class="adj">{adj}</ul>' if adj else ''}
+ <p class="sub">Every week it checks which signals actually separated hits from misses and shifts weight toward them, then corrects the model's chances by stat and by role (lead RB, WR2, and so on) where they ran high or low.</p></section>''')
+    if len(weeks) > 1:
+        hist = "".join(f'<li><span>Week {w["week"]}</span><b>{w["hit"]}–{w["miss"]}</b><span>{pct(w["hit"], w["hit"] + w["miss"])}</span>'
+                       f'<span class="{"pos" if w["profit"] >= 0 else "neg"}">{money(w["profit"])}</span></li>' for w in weeks)
+        parts.append(f'<section class="panel"><h2>Week by week</h2><ul class="wbw">{hist}</ul></section>')
+    return "\n".join(parts)
+
+
+def _tlabel(ts):
+    try:
+        return dt.datetime.fromisoformat(ts).strftime("%a %-I:%M %p")
+    except Exception:
+        return ""
+
+
+def kalshi_json(out):
+    k = dict(out.get("kalshi") or {})
+    k["tlabel"] = _tlabel(k.get("ts", ""))
+    return json.dumps(k, separators=(",", ":")).replace("</", "<\\/")
+
+
+def kalshi_status(out):
+    k = out.get("kalshi") or {}
+    K = k.get("K") or {}
+    n, real = K.get("n", 0), len(k.get("quoted") or [])
+    learned = (f"Expected prices use Kalshi's markup learned from {n} real quote{'s' if n != 1 else ''} "
+               f"(about {100 * (2.718281828 ** K.get('k', 0.035) - 1):.1f}% per leg)." if n else
+               "Expected prices use a starting markup of about 3.5% per leg until real quotes come in.")
+    st = k.get("status")
+    if st == "ok":
+        return html.escape(f"Real Kalshi prices for {real} of {k.get('asked', 0)} parlays, as of {_tlabel(k.get('ts', ''))}. {learned}")
+    if st == "error":
+        return html.escape(f"Couldn't get Kalshi quotes on the last update, so every parlay shows the expected Kalshi price. {learned}")
+    return html.escape(f"Kalshi quotes are off (no API key yet), so every parlay shows the expected Kalshi price. {learned}")
+
+
 def render(out, template):
     meta = out.get("meta", {})
     week = meta.get("week", "")
@@ -75,7 +181,18 @@ def render(out, template):
         updated = t.strftime("%a %b %-d, %-I:%M %p PT")
     except Exception:
         pass
+    W = {x["name"]: (x["now"], x["prior"]) for x in ((out.get("track") or {}).get("learn") or {}).get("weights", [])}
+    wtxt = lambda nm, d: f"{W.get(nm, (d, d))[0]}%" + ("" if W.get(nm, (d, d))[0] == d else f", started at {d}%")
+    legs = json.dumps(out.get("parlay", []), separators=(",", ":")).replace("</", "<\\/")
     vals = {
+        "{{W_PROJ}}": wtxt("Sleeper projection", 28),
+        "{{W_HIT}}": wtxt("Player hit rate", 20),
+        "{{W_DEF}}": wtxt("Defense vs line", 20),
+        "{{W_RANK}}": wtxt("Defense rank", 10),
+        "{{LEGS}}": legs,
+        "{{KALSHI}}": kalshi_json(out),
+        "{{KSTATUS}}": kalshi_status(out),
+        "{{RESULTS}}": results_html(out.get("track")),
         "{{TITLE}}": f"Week {week} Prop Board",
         "{{EYEBROW}}": html.escape(meta.get("eyebrow") or f"Prop cheat sheet · Week {week}"),
         "{{H1}}": f"Week {week} top {len(out['top'])} props",

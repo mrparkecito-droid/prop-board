@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>[hidden]{display:none!important} body{margin:0}</style>
- <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Prop Board">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -92,6 +92,77 @@ meter{width:100%;height:8px}
 .sel select{flex:1;min-height:40px;font:600 14px var(--body);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:0 10px}
 .notes{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:70ch}
 .notes p{margin:0}
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;display:flex;gap:4px;background:var(--navy);border-radius:12px;padding:4px;box-shadow:0 2px 8px rgb(0 0 0 / .12)}
+.tabs button{flex:1;font:600 15px var(--display);letter-spacing:.06em;text-transform:uppercase;border:0;background:transparent;color:#cdd8ff;padding:10px 6px;border-radius:9px;min-height:44px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--gold);color:#2a1f00}
+.tabs button:focus-visible{outline:2px solid #fff;outline-offset:1px}
+.view{display:grid;gap:14px}
+#v-props .bar{top:calc(env(safe-area-inset-top,0px) + 56px)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;gap:10px;min-width:0}
+.panel h2{margin:0;font-family:var(--display);font-weight:600;font-size:20px;letter-spacing:.02em}
+.panel h3{margin:0 0 6px;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.panel p{margin:0}
+.sub{font-size:13px;color:var(--muted)}
+.mono{font-family:var(--mono);font-size:13px}
+.odds{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.odds output{font-family:var(--display);font-size:44px;font-weight:600;line-height:1;color:var(--navy)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .odds output{color:var(--gold)}}
+:root[data-theme="dark"] .odds output{color:var(--gold)}
+.odds span{font-size:13px;color:var(--muted);text-align:right}
+input[type=range]{width:100%;height:36px;accent-color:var(--navy);margin:0}
+.quick{display:flex;gap:6px;flex-wrap:wrap}
+.quick button{flex:1 0 auto;font:600 14px var(--mono);border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:8px 12px;min-height:40px;cursor:pointer}
+.go{font:600 17px var(--display);letter-spacing:.06em;text-transform:uppercase;border:0;border-radius:12px;background:var(--gold);color:#2a1f00;min-height:52px;cursor:pointer;width:100%}
+.go:active{transform:translateY(1px)}
+.plist{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px}
+.pcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:grid;min-width:0}
+.phead{background:var(--navy);color:#fff;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;gap:10px;border-bottom:3px solid var(--gold)}
+.phead h3{margin:0;font-family:var(--display);font-weight:500;font-size:15px;letter-spacing:.06em;text-transform:uppercase}
+.phead b{font-family:var(--display);font-size:28px;font-weight:600;color:var(--gold);line-height:1}
+.pstats{margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:12px 14px 0}
+.pstats div{background:var(--chip);border-radius:8px;padding:6px 8px}
+.pstats dt{font-size:11px;color:var(--muted)} .pstats dd{margin:0;font-family:var(--mono);font-weight:700;font-size:15px}
+.legs{list-style:none;margin:0;padding:8px 14px 14px;display:grid}
+.legs li{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:9px 0;border-bottom:1px solid var(--line)}
+.legs li:last-child{border-bottom:0}
+.legs b{font-size:15px} .legs .mono{text-align:right;font-weight:700}
+.legs small{color:var(--muted);font-size:12px}
+.srcrow{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 14px 0;flex-wrap:wrap}
+.srcrow small{font-size:12px;color:var(--muted);font-family:var(--mono)}
+.src{font-size:12px;font-weight:700;border-radius:999px;padding:3px 10px;background:var(--chip);color:var(--muted);border:1px solid var(--line)}
+.src.real{background:var(--hit);color:var(--hit-ink);border-color:transparent}
+.estn{grid-column:1 / -1;color:var(--warn-ink)!important;background:var(--warn);border-radius:6px;padding:2px 6px;margin-top:2px}
+.kstat{margin:0;font-size:13px;color:var(--muted);padding:0 2px}
+.empty{background:var(--warn);color:var(--warn-ink);border-radius:12px;padding:12px 14px;margin:0}
+.tiles{margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:8px}
+.tiles div{background:var(--chip);border-radius:10px;padding:8px 10px}
+.tiles dt{font-size:11px;color:var(--muted)} .tiles dd{margin:0;font-family:var(--display);font-weight:600;font-size:24px}
+.pos{color:var(--t1)} .neg{color:var(--miss-ink)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.rec li{grid-template-columns:90px 1fr 44px}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:12px;font-weight:700;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+.misses{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.misses li{border-top:1px solid var(--line);padding-top:10px;display:grid;gap:3px}
+.misses .g{display:inline-flex;font-size:13px;padding:1px 8px;margin-left:4px}
+.misses small{color:var(--muted);font-size:12px}
+.all summary{font-size:15px;color:var(--ink);font-weight:700}
+.graded{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:4px;font-size:14px}
+.graded li{display:grid;grid-template-columns:56px 1fr auto;gap:8px;align-items:center}
+.graded .g{justify-content:center;font-size:13px;padding:3px 4px}
+.graded b{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.calib li{grid-template-columns:84px 1fr 66px 22px}
+.calib small{color:var(--muted);font-family:var(--mono);font-size:11px;text-align:right}
+.cal{display:grid;gap:3px}
+.wt{width:100%;border-collapse:collapse;font-size:14px}
+.wt th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;padding:4px 0}
+.wt td{padding:7px 0;border-top:1px solid var(--line);font-family:var(--mono);font-size:13px}
+.wt td:first-child{font-family:var(--body);font-size:14px}
+.wt .up{color:var(--t1)} .wt .down{color:var(--miss-ink)}
+.adj{margin:0;padding-left:18px;display:grid;gap:4px;font-size:14px}
+.wbw{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.wbw li{display:grid;grid-template-columns:1fr auto 48px 64px;gap:10px;font-family:var(--mono);font-size:14px;padding:6px 0;border-top:1px solid var(--line)}
+.wbw li span:first-child{font-family:var(--body)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 <div class="wrap">
@@ -101,15 +172,23 @@ meter{width:100%;height:8px}
  <p>Every Kalshi yardage and receptions ladder across {{NGAMES}} games, scored for how likely it is to hit and whether the price still pays. One best line per player and stat, two props max per player.</p>
 </header>
 
+<nav class="tabs" role="tablist" aria-label="Sections">
+ <button type="button" role="tab" id="t-props" aria-controls="v-props" aria-selected="true">Props</button>
+ <button type="button" role="tab" id="t-parlay" aria-controls="v-parlay" aria-selected="false">Parlay</button>
+ <button type="button" role="tab" id="t-results" aria-controls="v-results" aria-selected="false">Results</button>
+</nav>
+
+<div class="view" id="v-props" role="tabpanel" aria-labelledby="t-props">
 <details class="how"><summary>How the score works</summary>
  <ul>
-  <li><b>Sleeper projection (28%).</b> Sleeper's Week {{WEEK}} projection turned into a chance of clearing the line.</li>
-  <li><b>Player hit rate (20%).</b> His games over this line this season.</li>
-  <li><b>Defense vs line (20%).</b> How many of the opponent's 3 games the same role went over this exact line. Roles are by team depth: QB, lead RB, WR1, WR2, TE1, so a WR2 is compared to WR2s.</li>
+  <li><b>Sleeper projection ({{W_PROJ}}).</b> Sleeper's Week {{WEEK}} projection turned into a chance of clearing the line.</li>
+  <li><b>Player hit rate ({{W_HIT}}).</b> His games over this line this season.</li>
+  <li><b>Defense vs line ({{W_DEF}}).</b> How many of the opponent's 3 games the same role went over this exact line. Roles are by team depth: QB, lead RB, WR1, WR2, TE1, so a WR2 is compared to WR2s.</li>
   <li><b>Price value (17%).</b> The model's chance against the Kalshi price.</li>
-  <li><b>Defense rank (10%).</b> Where the defense ranks among 32 teams in pass or rush yards allowed per game.</li>
+  <li><b>Defense rank ({{W_RANK}}).</b> Where the defense ranks among 32 teams in pass or rush yards allowed per game.</li>
   <li><b>Agreement (5%).</b> A small bonus when the projection, his history and the defense all say yes.</li>
   <li><b>Safety penalties.</b> Each game he missed the line costs 8%, each defense miss 5%, and thin markets (wide bid/ask) 10%.</li>
+  <li><b>It learns.</b> After each week the picks are graded and these weights and the model's chances are adjusted. See the Results tab.</li>
   <li>Only lines priced 35¢ to 88¢ are eligible; anything pricier pays too little. Touchdown props are left out because they're too volatile to call safe.</li>
  </ul>
 </details>
@@ -137,7 +216,122 @@ meter{width:100%;height:8px}
  <p>Stats: Sleeper weekly stats{{OVR_NOTE}}. Projections: Sleeper (Rotowire). Defense ranks: {{LEAGUE_SRC}}. Prices: Kalshi yes ask, updated {{UPDATED}}.</p>
 </div>
 </div>
+
+<div class="view" id="v-parlay" role="tabpanel" aria-labelledby="t-parlay" hidden>
+ <section class="panel">
+  <div class="odds"><output id="odds" for="target">+500</output><span id="pays">$10 pays about $60</span></div>
+  <input type="range" id="target" min="100" max="2000" step="25" value="500" aria-label="Target parlay odds">
+  <div class="quick" role="group" aria-label="Quick odds">
+   <button type="button" data-o="200">+200</button><button type="button" data-o="300">+300</button><button type="button" data-o="500">+500</button><button type="button" data-o="1000">+1000</button>
+  </div>
+  <label class="sel"><span>Games</span><select id="pgame"><option value="all">All games</option>{{OPTS}}</select></label>
+  <button type="button" class="go" id="make">Create parlay</button>
+ </section>
+ <p class="kstat">{{KSTATUS}}</p>
+ <div class="plist" id="parlays" aria-live="polite"></div>
+ <div class="notes">
+  <p><b>Where the odds come from.</b> On each update the board builds the best parlays at +150 through +2000 and asks Kalshi for a real quote on each. Kalshi creates the combo, market makers quote it, and the request is cancelled without buying anything. Parlays with a quote show <i>Kalshi quote</i>. Any other parlay shows <i>Expected Kalshi price</i>: the legs' fair prices multiplied, plus the markup Kalshi has actually been adding to combos, learned from every real quote so far. If a leg has no seller showing, its price is estimated from the lines above and below it on the same ladder.</p>
+  <p><b>How legs are picked.</b> Only board props, using whichever line on each ladder gets you to your odds with the best chance. Each leg's chance is a 50/50 blend of the model and Kalshi's price, with a 3% safety discount per leg. Rules: one leg per player, at most two per game (unless you pick one game), 2 to 6 legs. The three options share at most one player, and no player is in all three.</p>
+  <p>Quotes are as of the last update ({{UPDATED}}) and move with the market, so confirm the price in Kalshi before you place it.</p>
+ </div>
+</div>
+
+<div class="view" id="v-results" role="tabpanel" aria-labelledby="t-results" hidden>
+{{RESULTS}}
+</div>
+</div>
+<script type="application/json" id="legs-data">{{LEGS}}</script>
+<script type="application/json" id="kalshi-data">{{KALSHI}}</script>
 <script>
+(function(){
+ var tabs=[].slice.call(document.querySelectorAll("[role=tab]"));
+ function show(t){tabs.forEach(function(x){var on=x===t;x.setAttribute("aria-selected",on);document.getElementById(x.getAttribute("aria-controls")).hidden=!on;});try{localStorage.setItem("pb-tab",t.id)}catch(e){}window.scrollTo(0,0);}
+ tabs.forEach(function(t){t.addEventListener("click",function(){show(t)});});
+ try{var saved=document.getElementById(localStorage.getItem("pb-tab"));if(saved&&saved.id!=="t-props")show(saved)}catch(e){}
+})();
+(function(){
+ var LEGS=JSON.parse(document.getElementById("legs-data").textContent||"[]");
+ var KX=JSON.parse(document.getElementById("kalshi-data").textContent||"{}");
+ var K=KX.K||{b:0,k:0.035,s:0.04};
+ var HAIR=0.97,MAXL=6,MINL=2,BEAM=300,BAND=1.35;
+ var rng=document.getElementById("target"),out=document.getElementById("odds"),pays=document.getElementById("pays"),box=document.getElementById("parlays"),pg=document.getElementById("pgame");
+ var SW={pass:"Pass yds",rush:"Rush yds",recyds:"Rec yds",rec:"Catches"};
+ function lk(x){return x.pl+"~"+x.st+"~"+x.ln}
+ function key(p){return p.map(lk).sort().join("|")}
+ var BY={};LEGS.forEach(function(x){BY[lk(x)]=x});
+ var QUOTED=[],QMAP={};
+ (KX.quoted||[]).forEach(function(q){var legs=q.key.split("|").map(function(k){return BY[k]});if(legs.every(Boolean)){var o={legs:legs,price:q.price,src:q.src};QUOTED.push(o);QMAP[q.key]=o;}});
+ function chance(x){return 0.5*x.p+0.5*x.q/100}
+ function pairs(p){var n=0;for(var i=0;i<p.length;i++)for(var j=i+1;j<p.length;j++)if(p[i].tm===p[j].tm)n++;return n}
+ function expPrice(p){var z=K.b+K.k*p.length+K.s*pairs(p);p.forEach(function(x){z+=Math.log(x.q/100)});return Math.min(Math.exp(z),0.99)}
+ function am(dec){return dec>=2?"+"+Math.round((dec-1)*100):"−"+Math.round(100/(dec-1));}
+ function sync(){var v=+rng.value;out.textContent="+"+v;pays.textContent="$10 pays about $"+Math.round(10*(1+v/100));}
+ function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]});}
+ function search(target,game){
+  var D=1+target/100,W=Math.log(D),TOP=W+Math.log(BAND),perGame=game==="all"?2:MAXL,L=[];
+  LEGS.forEach(function(x){if(game!=="all"&&x.g!==game)return;var w=-Math.log(x.q/100)-K.k;if(w>0.01)L.push({x:x,w:w,c:-Math.log(chance(x)*HAIR)})});
+  L.sort(function(a,b){return a.c/a.w-b.c/b.w});
+  if(!L.length)return[];
+  var mr=L[0].c/L[0].w,beam=[{ix:[],w:0,c:0,pl:{},gm:{},last:-1}],done=[];
+  for(var d=1;d<=MAXL&&beam.length;d++){
+   var nx=[];
+   beam.forEach(function(s){
+    for(var j=s.last+1;j<L.length;j++){
+     var l=L[j],x=l.x;if(s.pl[x.pl]||(s.gm[x.g]||0)>=perGame)continue;
+     var nw=s.w+l.w;if(nw>TOP+0.25)continue;
+     var pl=Object.assign({},s.pl),gm=Object.assign({},s.gm);pl[x.pl]=1;gm[x.g]=(gm[x.g]||0)+1;
+     var ns={ix:s.ix.concat(j),w:nw,c:s.c+l.c,pl:pl,gm:gm,last:j};
+     if(nw>=W-0.25&&d>=MINL){var p=ns.ix.map(function(i){return L[i].x}),dec=1/expPrice(p);if(dec>=D&&dec<=D*BAND)done.push({c:ns.c,p:p});}
+     if(nw<TOP&&d<MAXL)nx.push(ns);
+    }
+   });
+   nx.sort(function(a,b){return(a.c+Math.max(W-a.w,0)*mr)-(b.c+Math.max(W-b.w,0)*mr)});
+   beam=nx.slice(0,BEAM);
+  }
+  done.sort(function(a,b){return a.c-b.c||a.p.length-b.p.length});
+  return done.map(function(o){return o.p});
+ }
+ function pick(all){
+  var chosen=[];
+  [1,99].forEach(function(lim){
+   all.forEach(function(o){
+    if(chosen.length>=3||chosen.indexOf(o)>=0)return;
+    var p=o.legs;
+    var ok=chosen.every(function(c){var shared=c.legs.filter(function(x){return p.some(function(y){return y.pl===x.pl})}).length;return shared<=Math.min(lim,p.length-1)&&key(c.legs)!==key(p)});
+    if(ok&&lim===1)ok=p.every(function(y){return chosen.filter(function(c){return c.legs.some(function(x){return x.pl===y.pl})}).length<2});
+    if(ok)chosen.push(o);
+   });
+  });
+  return chosen;
+ }
+ function make(){
+  var t=+rng.value,g=pg.value,D=1+t/100,pool=[],seen={};
+  function add(p){
+   var k=key(p);if(seen[k])return;seen[k]=1;
+   var q=QMAP[k],price=q?q.price:expPrice(p),dec=1/price;
+   if(dec<D||dec>D*BAND)return;
+   var ch=1;p.forEach(function(x){ch*=chance(x)*HAIR});
+   pool.push({legs:p,price:price,src:q?q.src:"est",ch:ch,rank:ch*(q?1.02:1)});
+  }
+  search(t,g).slice(0,80).forEach(add);
+  QUOTED.forEach(function(q){if(g==="all"||q.legs.every(function(x){return x.g===g}))add(q.legs)});
+  pool.sort(function(a,b){return b.rank-a.rank});
+  var res=pick(pool);
+  if(!res.length){box.innerHTML='<p class="empty">Couldn\'t reach +'+t+' with 2 to 6 legs from '+(g==="all"?"this board":"this game")+'. Try different odds'+(g==="all"?"":" or all games")+'.</p>';return;}
+  box.innerHTML=res.map(function(o,i){
+   var p=o.legs.slice().sort(function(a,b){return b.p-a.p}),raw=1;p.forEach(function(x){raw*=x.ask/100});
+   var badge=o.src==="quote"?'<span class="src real">Kalshi quote · '+esc(KX.tlabel||"")+'</span>':(o.src==="book"?'<span class="src real">Kalshi price · '+esc(KX.tlabel||"")+'</span>':'<span class="src">Expected Kalshi price</span>');
+   return '<article class="pcard"><div class="phead"><h3>'+(i?"Option "+(i+1):"Safest")+" · "+p.length+' legs</h3><b>'+am(1/o.price)+'</b></div>'+
+    '<div class="srcrow">'+badge+'<small>Legs multiplied: '+am(1/raw)+'</small></div>'+
+    '<dl class="pstats"><div><dt>Est. chance</dt><dd>'+Math.round(o.ch*100)+'%</dd></div><div><dt>Kalshi price</dt><dd>'+Math.round(o.price*100)+'¢</dd></div><div><dt>$10 pays</dt><dd>$'+(10/o.price).toFixed(0)+'</dd></div></dl>'+
+    '<ul class="legs">'+p.map(function(x){return '<li><b>'+esc(x.pl)+'</b><span class="mono">'+(x.est?"~":"")+x.ask+'¢</span><small>'+SW[x.st]+' <strong>'+x.ln+'+</strong> · '+esc(x.gl)+'</small><small>model '+Math.round(x.p*100)+'%</small>'+(x.est?'<small class="estn">No seller showing on this line; price estimated from the lines above and below it.</small>':'')+'</li>'}).join("")+'</ul></article>';
+  }).join("");
+ }
+ rng.addEventListener("input",sync);
+ document.querySelectorAll("[data-o]").forEach(function(b){b.addEventListener("click",function(){rng.value=b.dataset.o;sync();make();});});
+ document.getElementById("make").addEventListener("click",make);
+ sync();
+})();
 (function(){
  var s="all",g="all",cards=[].slice.call(document.querySelectorAll(".card")),out=document.getElementById("count"),sel=document.getElementById("game");
  function apply(){var n=0;cards.forEach(function(c){var ok=(s==="all"||c.dataset.stat===s)&&(g==="all"||c.dataset.game===g);c.hidden=!ok;if(ok)n++;});out.textContent=n+" props, highest score first";}

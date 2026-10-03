@@ -14,7 +14,19 @@ It uses the same model and the same page as the Week 4 2026 board. `tests/test_e
    - 28% Sleeper projection, 20% player hit rate, 20% defense vs this exact line (same depth-chart role), 10% defense rank, 17% price value, 5% agreement bonus
    - minus 8% per game the player missed the line, 5% per defense miss, 10% for wide bid/ask spreads, 15% for stale prices
    - one best line per player and stat, priced 35¢–88¢, max 2 props per player, top 50
-3. **build.py** renders `docs/index.html`, which GitHub Pages hosts.
+3. **learn.py** keeps the track record and makes the model learn:
+   - Every run saves that week's scored props to `data/history.json` (only for games that haven't kicked off).
+   - Once a week is played, the next run grades every saved prop against Sleeper box scores and gives each board miss a reason: close call, offense down, usage dropped, below projection, or defense held.
+   - It refits how much the projection, hit rate, defense-vs-line and defense-rank signals are worth, based on which ones actually separated hits from misses. It also recalibrates the model's chances overall, by stat and by role. Results are blended with the original weights; their share grows each week and is capped at 60%. Nothing changes until at least 40 props are graded. The current settings are in `data/learned.json`.
+4. **parlay.py** prices parlays for the Parlay tab:
+   - It builds the best parlays at +150 through +2000 and, if a Kalshi API key is set, gets a real Kalshi quote for each. It creates the combo, requests a 1-contract quote, reads the market makers' quotes (YES price = 1 − best NO bid), then cancels the request. It never accepts a quote, so nothing is bought.
+   - Every real quote is logged to `data/quote_log.json`. From those quotes it learns Kalshi's usual combo markup, which prices any parlay that has no quote.
+   - Legs with no seller showing get a price estimated from the other lines on the same ladder.
+   - To turn quotes on, add repo secrets `KALSHI_KEY_ID` and `KALSHI_PRIVATE_KEY` (the full private key text).
+5. **build.py** renders `docs/index.html`, which GitHub Pages hosts. The page has three tabs:
+   - **Props:** the board.
+   - **Parlay:** an odds slider. It builds up to 3 parlays from board props that hit the target with the highest chance (1 leg per player, max 2 per game, 2–6 legs).
+   - **Results:** last week's record, why picks missed, whether the percentages held up, and what the model changed.
 
 ## One-time setup (about 15 minutes)
 
@@ -27,9 +39,9 @@ It uses the same model and the same page as the Week 4 2026 board. `tests/test_e
 6. **Run it once now.** Actions tab → *Update prop board* → *Run workflow*. Watch the run; when it's green, refresh your link.
 
 Share that link with friends. It updates itself:
-- Thursday 6:00 PM PT
-- Saturday 9:00 AM PT
-- Sunday 8:00 AM PT
+- Thursday 1:00 PM PT (for Thursday Night Football)
+- Friday 9:00 AM PT (Sunday and Monday games)
+- Saturday 9:00 AM PT (Sunday and Monday games)
 
 You can also hit *Run workflow* any time for fresh prices.
 
@@ -37,7 +49,7 @@ You can also hit *Run workflow* any time for fresh prices.
 
 - **Fix a bad stat line:** add a row to `overrides.csv`, e.g. `Tee Higgins,2,rec_yd,95,PFR box score`. Use `DNP` as the value to mark a week a player didn't play. The page footer notes how many corrections are applied.
 - **Score a different week:** *Run workflow* and type the week number.
-- **Change the model:** the weights and limits are the constants at the top of `engine.py`. Changing them will make the Week 4 regression test fail on purpose. Update `tests/expected_week4_top50.json` if you mean to keep the change.
+- **Change the model:** the weights and limits are the constants at the top of `engine.py`. Changing them will make the Week 4 regression test fail on purpose. Learned adjustments don't affect that test. Update `tests/expected_week4_top50.json` if you mean to keep the change.
 
 ## Known limits
 

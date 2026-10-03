@@ -30,6 +30,8 @@ MAX_PER_PLAYER, BOARD_SIZE = 2, 50
 MIN_GAMES = 2
 P_CAP = 0.97
 
+DEFAULT_W = {"proj": W_PROJ, "hit": W_HIT, "def": W_DEF, "rank": W_RANK}
+
 Phi = lambda z: 0.5 * (1 + math.erf(z / math.sqrt(2)))
 STATKEY = {"pass": "pass_yd", "rush": "rush_yd", "rec": "rec", "recyds": "rec_yd"}
 LBL = {"pass": "Passing Yards", "rush": "Rushing Yards", "rec": "Receptions", "recyds": "Receiving Yards"}
@@ -51,6 +53,28 @@ def sd_for(stat, pos, pv):
     return max(0.55 * pv, 12)
 
 
+def role_group(pos, role):
+    if pos in ("QB", "TE"):
+        return pos
+    if role in ("RB1", "WR1", "WR2"):
+        return role
+    return "RB2" if pos == "RB" else "WR3"
+
+
+def logit(x):
+    x = min(max(x, 0.02), 0.98)
+    return math.log(x / (1 - x))
+
+
+def calibrate(p, ask, stat, rg, learned):
+    """Learned correction of the model chance (identity until results have been graded)."""
+    c = (learned or {}).get("calib")
+    if not c:
+        return p
+    z = c["a"] + c["b"] * logit(p) + c["c"] * logit(ask / 100) + c["stat"].get(stat, 0) + c["role"].get(rg, 0)
+    return min(1 / (1 + math.exp(-z)), P_CAP)
+
+
 def load_overrides(path):
     """Manual corrections: name,wk,field,value,source. value may be DNP."""
     out = []
@@ -61,7 +85,9 @@ def load_overrides(path):
     return out
 
 
-def run(data, overrides=None):
+def run(data, overrides=None, learned=None):
+    W = dict(DEFAULT_W)
+    W.update((learned or {}).get("weights") or {})
     weeks = data["completed_weeks"]
     # ---------- game logs ----------
     logs, teamgames = {}, {}
@@ -115,6 +141,7 @@ def run(data, overrides=None):
         return most, round(me, 1)
 
     games = {g["key"]: g for g in data["games"]}
+    est_asks = fill_missing_asks(data["markets"], proj)
     rows, skipped = [], set()
     for m in data["markets"]:
         k = norm(m["name"]); lg = logs.get(k); pj = proj.get(k)
@@ -127,8 +154,11 @@ def run(data, overrides=None):
         opp = g["home"] if team == g["away"] else g["away"]
         if stat not in pj or pj[stat] is None:
             continue
-        if m["ask"] <= 0:
-            continue
+        est = False
+        if no_ask(m):
+            if id(m) not in est_asks:
+                continue
+            m = dict(m, ask=est_asks[id(m)], bid=None); est = True
         # player log. QB missing = DNP; other positions missing = counted as a miss (shown as -)
         vals = []
         for wk in weeks:
@@ -172,11 +202,14 @@ def run(data, overrides=None):
         dh_u = dh if dh is not None else 0.5
         p = (0.40 * pp + 0.30 * h + 0.30 * dh_u) if dh is not None else (0.55 * pp + 0.45 * h)
         p = min(p, P_CAP)
+        p_raw = p
+        rg = role_group(pos, role)
+        p = calibrate(p_raw, m["ask"], stat, rg, learned)
         roi = p / (m["ask"] / 100) - 1
         value = min(max(0.5 + roi / 1.0, 0), 1)
         agree = (pp >= 0.6) + (over == n) + (dh is not None and dc == dn)
         spread = (m["ask"] - m["bid"]) if m.get("bid") is not None else 0
-        score = 100 * (W_PROJ * pp + W_HIT * h + W_DEF * dh_u + W_RANK * rank_s + W_VALUE * value + W_AGREE * (agree / 3))
+        score = 100 * (W["proj"] * pp + W["hit"] * h + W["def"] * dh_u + W["rank"] * rank_s + W_VALUE * value + W_AGREE * (agree / 3))
         misses_p = n - over; misses_d = (dn - dc) if dh is not None else 0
         score *= (1 - MISS_PENALTY_PLAYER * misses_p - MISS_PENALTY_DEF * misses_d)
         flags = []
@@ -189,10 +222,14 @@ def run(data, overrides=None):
                          most=most, per=per, dstat=("pass yds" if idx == 1 else "rush yds"),
                          p=round(p * 100), roi=round(roi * 100), pp=round(pp * 100), hs=round(h * 100),
                          dhs=round(dh_u * 100), rks=round(rank_s * 100), vs=round(value * 100),
-                         agree=int(agree), score=round(score, 1), flags=flags))
+                         agree=int(agree), score=round(score, 1), flags=flags,
+                         pc=round(p, 4), praw=round(p_raw, 4), rg=rg, est=est,
+                         mid=mid_price(m), tk=m.get("ticker"), ev=m.get("event")))
 
     lad = {}
     for r in rows:
+        if r["est"]:
+            continue          # estimated prices are for parlays only, never the board
         lad.setdefault((r["player"], r["stat"]), []).append(r)
     for L in lad.values():
         L.sort(key=lambda x: x["line"])
@@ -215,17 +252,112 @@ def run(data, overrides=None):
         top.append(r)
     for i, r in enumerate(top):
         r["rank"] = i + 1
-    return {"top": top[:BOARD_SIZE], "rows": len(rows), "ladders": len(lad), "skipped": sorted(skipped)}
+    return {"top": top[:BOARD_SIZE], "rows": len(rows), "ladders": len(lad), "skipped": sorted(skipped), "all": rows}
+
+
+PARLAY_ASK_MAX = 92
+
+
+def parlay_legs(out):
+    """Rungs the parlay builder may use: every fair-priced rung on the ladders that made the board."""
+    on_board = {(r["player"], r["stat"]) for r in out["top"]}
+    legs = []
+    for r in out["all"]:
+        if (r["player"], r["stat"]) not in on_board or r.get("stale"):
+            continue
+        if not (ASK_MIN <= r["ask"] <= PARLAY_ASK_MAX) or r["pc"] < r["mid"] / 100 - 0.02:
+            continue
+        legs.append({"pl": r["player"], "tm": r["team"], "g": r["game"], "gl": r["glabel"], "st": r["stat"],
+                     "pr": r["prop"], "ln": r["line"], "ask": r["ask"], "q": r["mid"], "p": r["pc"], "sc": r["score"],
+                     "est": 1 if r["est"] else 0, "tk": r["tk"], "ev": r["ev"]})
+    return legs
+
+
+def no_ask(m):
+    """No sellers showing: Kalshi reports 0 (or 100) when a rung has no yes offers."""
+    return m["ask"] <= 0 or m["ask"] >= 99
+
+
+def mid_price(m):
+    """Fair price of one leg in cents: bid/ask midpoint when the market is tight, else just under the ask."""
+    a, b = m["ask"], m.get("bid")
+    if b and 0 < b < a and a - b <= 10:
+        return round((a + b) / 2, 1)
+    return round(max(a - 1.5, 1), 1)
+
+
+def _ppf(p):
+    """Inverse normal CDF (Acklam), accurate to ~1e-9."""
+    p = min(max(p, 1e-6), 1 - 1e-6)
+    a = [-3.969683028665376e+01, 2.209460984245205e+02, -2.759285104469687e+02, 1.383577518672690e+02, -3.066479806614716e+01, 2.506628277459239e+00]
+    b = [-5.447609879822406e+01, 1.615858368580409e+02, -1.556989798598866e+02, 6.680131188771972e+01, -1.328068155288572e+01]
+    c = [-7.784894002430293e-03, -3.223964580411365e-01, -2.400758277161838e+00, -2.549732539343734e+00, 4.374664141464968e+00, 2.938163982698783e+00]
+    d = [7.784695709041462e-03, 3.224671290700398e-01, 2.445134137142996e+00, 3.754408661907416e+00]
+    if p < 0.02425:
+        q = math.sqrt(-2 * math.log(p))
+        return (((((c[0] * q + c[1]) * q + c[2]) * q + c[3]) * q + c[4]) * q + c[5]) / ((((d[0] * q + d[1]) * q + d[2]) * q + d[3]) * q + 1)
+    if p > 1 - 0.02425:
+        return -_ppf(1 - p)
+    q = p - 0.5; r = q * q
+    return (((((a[0] * r + a[1]) * r + a[2]) * r + a[3]) * r + a[4]) * r + a[5]) * q / (((((b[0] * r + b[1]) * r + b[2]) * r + b[3]) * r + b[4]) * r + 1)
+
+
+def fill_missing_asks(markets, proj):
+    """Estimate a price for rungs with no ask from the rest of the same ladder.
+
+    Each priced rung says how likely the player is to clear that line. On a normal-curve scale those
+    chances fall along a straight line as the yardage goes up, so:
+      - a rung between two priced rungs gets the point between them (the 'middle', weighted by yardage),
+      - a rung above or below all priced rungs follows the slope of the whole ladder,
+      - a ladder with only one priced rung uses the model's usual spread for that stat.
+    Returns {id(market): estimated ask in cents}."""
+    lad = {}
+    for m in markets:
+        lad.setdefault((m["game"], m["series"], norm(m["name"])), []).append(m)
+    out = {}
+    for (g, stat, k), L in lad.items():
+        miss = [m for m in L if no_ask(m)]
+        known = sorted([m for m in L if not no_ask(m)], key=lambda m: m["line"])
+        if not miss or not known:
+            continue
+        pts = [(m["line"], _ppf(min(max(m["ask"], 2), 98) / 100)) for m in known]
+        if len(pts) >= 2:
+            n = len(pts); mx = sum(x for x, _ in pts) / n; my = sum(y for _, y in pts) / n
+            sxx = sum((x - mx) ** 2 for x, _ in pts)
+            slope = sum((x - mx) * (y - my) for x, y in pts) / sxx if sxx else 0
+        else:
+            slope = 0
+        if slope >= 0:   # prices should fall as the line rises; fall back to the stat's usual spread
+            pj = proj.get(k) or {}
+            pv = pj.get(stat) or known[0]["line"]
+            slope = -1 / sd_for(stat, pj.get("pos", ""), pv)
+        for m in miss:
+            x = m["line"]
+            lo = [p for p in pts if p[0] < x]; hi = [p for p in pts if p[0] > x]
+            if lo and hi:
+                (x0, y0), (x1, y1) = lo[-1], hi[0]
+                z = y0 + (y1 - y0) * (x - x0) / (x1 - x0)
+            else:
+                x0, y0 = (lo[-1] if lo else hi[0])
+                z = y0 + slope * (x - x0)
+            out[id(m)] = int(round(min(max(Phi(z) * 100, 3), 97)))
+    return out
 
 
 if __name__ == "__main__":
     src = sys.argv[1] if len(sys.argv) > 1 else os.path.join(DATA, "data.json")
     data = json.load(open(src))
-    out = run(data, load_overrides(os.path.join(HERE, "overrides.csv")))
     ov = load_overrides(os.path.join(HERE, "overrides.csv"))
+    import learn
+    learned, track = learn.prepare(data, ov)        # grade past picks, refit weights + calibration
+    out = run(data, ov, learned)
+    learn.snapshot(data, out)                        # save this week's picks so they get graded later
+    out["parlay"] = parlay_legs(out)
+    out["track"] = track
     out["meta"] = {k: data[k] for k in ("season", "week", "completed_weeks", "generated", "league_source", "notes", "eyebrow") if k in data}
     out["meta"]["games"] = [g["label"] for g in data["games"]]
     out["meta"]["ovr_note"] = f", with {len(ov)} manual corrections from overrides.csv" if ov else ""
+    out.pop("all", None)
     json.dump(out, open(os.path.join(DATA, "out.json"), "w"), indent=1)
     print(f"scored {out['rows']} props on {out['ladders']} ladders; board has {len(out['top'])}")
     for r in out["top"][:10]:
