@@ -11,7 +11,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 15,
-   "ask": 57,
+   "ask": 56,
    "bid": 55,
    "vals": [
     64.0,
@@ -44,23 +44,29 @@
    "per": 291.0,
    "dstat": "pass yds",
    "p": 81,
-   "roi": 41,
+   "roi": 44,
    "pp": 81,
    "hs": 80,
    "dhs": 80,
    "rks": 94,
-   "vs": 91,
+   "vs": 94,
    "agree": 3,
-   "score": 84.6,
+   "score": 85.1,
    "flags": [],
    "pc": 0.8051,
    "praw": 0.8051,
    "rg": "WR3",
    "est": false,
-   "mid": 56.0,
+   "mid": 55.5,
    "tk": "KXNFLRECYDS-26OCT04INDWAS-WASAWILLIAMS14-15",
    "ev": "KXNFLRECYDS-26OCT04INDWAS",
-   "rank": 1
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "rank": 1,
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 28.4, IND let 3 of 3 WR3s reach it, IND allows the 3rd most pass yds.",
+   "news": ""
   },
   {
    "game": "DETCAR",
@@ -113,7 +119,7 @@
    "rks": 100,
    "vs": 66,
    "agree": 3,
-   "score": 82.2,
+   "score": 83.1,
    "flags": [],
    "pc": 0.8229,
    "praw": 0.8229,
@@ -122,7 +128,34 @@
    "mid": 69.5,
    "tk": "KXNFLRECYDS-26OCT04DETCAR-CARDWALLER88-15",
    "ev": "KXNFLRECYDS-26OCT04DETCAR",
-   "rank": 2
+   "ctx": 0.28,
+   "cxs": 64,
+   "reasons": [
+    [
+     -0.15,
+     "Rain likely (77% chance)"
+    ],
+    [
+     0.15,
+     "DET secondary missing S Brian Branch"
+    ],
+    [
+     0.2,
+     "Xavier Legette out, more targets to go around"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#7 most added)"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+    ]
+   ],
+   "status": null,
+   "rank": 2,
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 35.1, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance).",
+   "news": "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
   },
   {
    "game": "DETCAR",
@@ -135,7 +168,7 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 2,
-   "ask": 81,
+   "ask": 80,
    "bid": 77,
    "vals": [
     2.0,
@@ -168,23 +201,50 @@
    "per": 326.3,
    "dstat": "pass yds",
    "p": 84,
-   "roi": 3,
+   "roi": 5,
    "pp": 89,
    "hs": 80,
    "dhs": 80,
    "rks": 100,
-   "vs": 53,
+   "vs": 55,
    "agree": 3,
-   "score": 81.1,
+   "score": 82.3,
    "flags": [],
    "pc": 0.8378,
    "praw": 0.8378,
    "rg": "TE",
    "est": false,
-   "mid": 79.0,
+   "mid": 78.5,
    "tk": "KXNFLREC-26OCT04DETCAR-CARDWALLER88-2",
    "ev": "KXNFLREC-26OCT04DETCAR",
-   "rank": 3
+   "ctx": 0.28,
+   "cxs": 64,
+   "reasons": [
+    [
+     -0.15,
+     "Rain likely (77% chance)"
+    ],
+    [
+     0.15,
+     "DET secondary missing S Brian Branch"
+    ],
+    [
+     0.2,
+     "Xavier Legette out, more targets to go around"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#7 most added)"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+    ]
+   ],
+   "status": null,
+   "rank": 3,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 3.4, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance).",
+   "news": "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
   },
   {
    "game": "MIAMIN",
@@ -198,7 +258,7 @@
    "prop": "Passing Yards",
    "line": 100,
    "ask": 88,
-   "bid": 85,
+   "bid": 86,
    "vals": [
     220.0,
     197.0,
@@ -237,16 +297,35 @@
    "rks": 81,
    "vs": 49,
    "agree": 3,
-   "score": 80.8,
+   "score": 81.1,
    "flags": [],
    "pc": 0.8711,
    "praw": 0.8711,
    "rg": "QB",
    "est": false,
-   "mid": 86.5,
+   "mid": 87.0,
    "tk": "KXNFLPASSYDS-26OCT04MIAMIN-MIAMWILLIS2-100",
    "ev": "KXNFLPASSYDS-26OCT04MIAMIN",
-   "rank": 4
+   "ctx": 0.1,
+   "cxs": 55,
+   "reasons": [
+    [
+     -0.25,
+     "MIA projected for only 14 pts (O/U 38.5)"
+    ],
+    [
+     0.2,
+     "MIA a 10-pt underdog, trailing teams throw more"
+    ],
+    [
+     0.15,
+     "MIN secondary missing CB Charles Demmings"
+    ]
+   ],
+   "status": null,
+   "rank": 4,
+   "why": "Cleared 100+ in 3 of 3 games, Sleeper projects 189.9, MIN let 3 of 3 QBs reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. MIN secondary missing CB Charles Demmings. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "news": ""
   },
   {
    "game": "DENSF",
@@ -299,7 +378,7 @@
    "rks": 94,
    "vs": 52,
    "agree": 3,
-   "score": 80.2,
+   "score": 80.5,
    "flags": [],
    "pc": 0.8365,
    "praw": 0.8365,
@@ -308,69 +387,18 @@
    "mid": 81.0,
    "tk": "KXNFLRSHYDS-26OCT04DENSF-SFKBLACK26-10",
    "ev": "KXNFLRSHYDS-26OCT04DENSF",
-   "rank": 5
-  },
-  {
-   "game": "ARINYG",
-   "glabel": "ARI @ NYG",
-   "player": "Darnell Mooney",
-   "team": "NYG",
-   "opp": "ARI",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 58,
-   "bid": 56,
-   "vals": [
-    27.0,
-    48.0,
-    20.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 24.4,
-   "al": [
+   "ctx": 0.12,
+   "cxs": 56,
+   "reasons": [
     [
-     1,
-     "LAC",
-     20.0
-    ],
-    [
-     2,
-     "SEA",
-     35.0
-    ],
-    [
-     3,
-     "SF",
-     60.0
+     0.12,
+     "DEN front missing LB Dondrea Tillman"
     ]
    ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 10,
-   "per": 247.0,
-   "dstat": "pass yds",
-   "p": 79,
-   "roi": 36,
-   "pp": 77,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 71,
-   "vs": 86,
-   "agree": 3,
-   "score": 80.2,
-   "flags": [],
-   "pc": 0.7878,
-   "praw": 0.7878,
-   "rg": "WR2",
-   "est": false,
-   "mid": 57.0,
-   "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-15",
-   "ev": "KXNFLRECYDS-26OCT04ARINYG",
-   "rank": 6
+   "status": null,
+   "rank": 5,
+   "why": "Cleared 10+ in 3 of 3 games, Sleeper projects 29.5, DEN let 3 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. DEN front missing LB Dondrea Tillman.",
+   "news": ""
   },
   {
    "game": "JAXCIN",
@@ -423,7 +451,7 @@
    "rks": 90,
    "vs": 53,
    "agree": 3,
-   "score": 80.0,
+   "score": 80.4,
    "flags": [],
    "pc": 0.8357,
    "praw": 0.8357,
@@ -432,7 +460,237 @@
    "mid": 80.5,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACBSTRANGE85-15",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "rank": 7
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "CIN secondary missing S Kyle Dugger"
+    ]
+   ],
+   "status": null,
+   "rank": 6,
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 44.2, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger.",
+   "news": ""
+  },
+  {
+   "game": "ARINYG",
+   "glabel": "ARI @ NYG",
+   "player": "Darnell Mooney",
+   "team": "NYG",
+   "opp": "ARI",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 59,
+   "bid": 56,
+   "vals": [
+    27.0,
+    48.0,
+    20.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 24.4,
+   "al": [
+    [
+     1,
+     "LAC",
+     20.0
+    ],
+    [
+     2,
+     "SEA",
+     35.0
+    ],
+    [
+     3,
+     "SF",
+     60.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 10,
+   "per": 247.0,
+   "dstat": "pass yds",
+   "p": 79,
+   "roi": 34,
+   "pp": 77,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 71,
+   "vs": 84,
+   "agree": 3,
+   "score": 80.3,
+   "flags": [],
+   "pc": 0.7878,
+   "praw": 0.7878,
+   "rg": "WR2",
+   "est": false,
+   "mid": 57.5,
+   "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-15",
+   "ev": "KXNFLRECYDS-26OCT04ARINYG",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "ARI secondary missing S Dadrion Taylor-Demerson"
+    ]
+   ],
+   "status": null,
+   "rank": 7,
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 24.4, ARI let 3 of 3 WR2s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson.",
+   "news": ""
+  },
+  {
+   "game": "JAXCIN",
+   "glabel": "JAX @ CIN",
+   "player": "Brenton Strange",
+   "team": "JAX",
+   "opp": "CIN",
+   "pos": "TE",
+   "role": "TE1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 85,
+   "bid": 83,
+   "vals": [
+    2.0,
+    2.0,
+    3.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 3.7,
+   "al": [
+    [
+     1,
+     "TB",
+     3.0
+    ],
+    [
+     2,
+     "HOU",
+     12.0
+    ],
+    [
+     3,
+     "PIT",
+     3.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 4,
+   "per": 287.0,
+   "dstat": "pass yds",
+   "p": 84,
+   "roi": -1,
+   "pp": 91,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 90,
+   "vs": 49,
+   "agree": 3,
+   "score": 80.2,
+   "flags": [],
+   "pc": 0.8422,
+   "praw": 0.8422,
+   "rg": "TE",
+   "est": false,
+   "mid": 84.0,
+   "tk": "KXNFLREC-26OCT04JACCIN-JACBSTRANGE85-2",
+   "ev": "KXNFLREC-26OCT04JACCIN",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "CIN secondary missing S Kyle Dugger"
+    ]
+   ],
+   "status": null,
+   "rank": 8,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 3.7, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger.",
+   "news": ""
+  },
+  {
+   "game": "INDWAS",
+   "glabel": "IND @ WAS",
+   "player": "Stefon Diggs",
+   "team": "WAS",
+   "opp": "IND",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 87,
+   "bid": 84,
+   "vals": [
+    55.0,
+    47.0,
+    33.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 58.8,
+   "al": [
+    [
+     1,
+     "BAL",
+     53.0
+    ],
+    [
+     2,
+     "KC",
+     83.0
+    ],
+    [
+     3,
+     "HOU",
+     21.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 3,
+   "per": 291.0,
+   "dstat": "pass yds",
+   "p": 85,
+   "roi": -3,
+   "pp": 91,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 94,
+   "vs": 47,
+   "agree": 3,
+   "score": 80.0,
+   "flags": [],
+   "pc": 0.8459,
+   "praw": 0.8459,
+   "rg": "WR2",
+   "est": false,
+   "mid": 85.5,
+   "tk": "KXNFLRECYDS-26OCT04INDWAS-WASSDIGGS3-15",
+   "ev": "KXNFLRECYDS-26OCT04INDWAS",
+   "ctx": 0.0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.0,
+     "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+    ]
+   ],
+   "status": null,
+   "rank": 9,
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 58.8, IND let 3 of 3 WR2s reach it, IND allows the 3rd most pass yds.",
+   "news": "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
   },
   {
    "game": "ATLNO",
@@ -494,44 +752,50 @@
    "mid": 68.0,
    "tk": "KXNFLREC-26OCT05ATLNO-NOJJOHNSON83-3",
    "ev": "KXNFLREC-26OCT05ATLNO",
-   "rank": 8
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "rank": 10,
+   "why": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.3, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds.",
+   "news": ""
   },
   {
    "game": "JAXCIN",
    "glabel": "JAX @ CIN",
-   "player": "Brenton Strange",
+   "player": "Jakobi Meyers",
    "team": "JAX",
    "opp": "CIN",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 85,
-   "bid": 83,
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 25,
+   "ask": 73,
+   "bid": 72,
    "vals": [
-    2.0,
-    2.0,
-    3.0
+    40.0,
+    28.0,
+    64.0
    ],
    "over": 3,
    "n": 3,
-   "proj": 3.7,
+   "proj": 49.0,
    "al": [
     [
      1,
      "TB",
-     3.0
+     40.0
     ],
     [
      2,
      "HOU",
-     12.0
+     37.0
     ],
     [
      3,
      "PIT",
-     3.0
+     31.0
     ]
    ],
    "dhit": 3,
@@ -539,24 +803,35 @@
    "most": 4,
    "per": 287.0,
    "dstat": "pass yds",
-   "p": 84,
-   "roi": -1,
-   "pp": 91,
+   "p": 81,
+   "roi": 11,
+   "pp": 82,
    "hs": 80,
    "dhs": 80,
    "rks": 90,
-   "vs": 49,
+   "vs": 61,
    "agree": 3,
    "score": 79.7,
    "flags": [],
-   "pc": 0.8422,
-   "praw": 0.8422,
-   "rg": "TE",
+   "pc": 0.8073,
+   "praw": 0.8073,
+   "rg": "WR2",
    "est": false,
-   "mid": 84.0,
-   "tk": "KXNFLREC-26OCT04JACCIN-JACBSTRANGE85-2",
-   "ev": "KXNFLREC-26OCT04JACCIN",
-   "rank": 9
+   "mid": 72.5,
+   "tk": "KXNFLRECYDS-26OCT04JACCIN-JACJMEYERS3-25",
+   "ev": "KXNFLRECYDS-26OCT04JACCIN",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "CIN secondary missing S Kyle Dugger"
+    ]
+   ],
+   "status": null,
+   "rank": 11,
+   "why": "Cleared 25+ in 3 of 3 games, Sleeper projects 49, CIN let 3 of 3 WR2s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger.",
+   "news": ""
   },
   {
    "game": "ATLNO",
@@ -618,69 +893,13 @@
    "mid": 71.0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOJJOHNSON83-25",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "rank": 10
-  },
-  {
-   "game": "JAXCIN",
-   "glabel": "JAX @ CIN",
-   "player": "Jakobi Meyers",
-   "team": "JAX",
-   "opp": "CIN",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 86,
-   "bid": 83,
-   "vals": [
-    40.0,
-    28.0,
-    64.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 49.0,
-   "al": [
-    [
-     1,
-     "TB",
-     40.0
-    ],
-    [
-     2,
-     "HOU",
-     37.0
-    ],
-    [
-     3,
-     "PIT",
-     31.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 4,
-   "per": 287.0,
-   "dstat": "pass yds",
-   "p": 84,
-   "roi": -2,
-   "pp": 90,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 90,
-   "vs": 48,
-   "agree": 3,
-   "score": 79.3,
-   "flags": [],
-   "pc": 0.8399,
-   "praw": 0.8399,
-   "rg": "WR2",
-   "est": false,
-   "mid": 84.5,
-   "tk": "KXNFLRECYDS-26OCT04JACCIN-JACJMEYERS3-15",
-   "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "rank": 11
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "rank": 12,
+   "why": "Cleared 25+ in 3 of 3 games, Sleeper projects 52.4, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds.",
+   "news": ""
   },
   {
    "game": "DETCAR",
@@ -742,7 +961,196 @@
    "mid": 84.5,
    "tk": "KXNFLPASSYDS-26OCT04DETCAR-CARBYOUNG9-175",
    "ev": "KXNFLPASSYDS-26OCT04DETCAR",
-   "rank": 12
+   "ctx": 0.0,
+   "cxs": 50,
+   "reasons": [
+    [
+     -0.15,
+     "Rain likely (77% chance)"
+    ],
+    [
+     0.15,
+     "DET secondary missing S Brian Branch"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+    ]
+   ],
+   "status": null,
+   "rank": 13,
+   "why": "Cleared 175+ in 3 of 3 games, Sleeper projects 229.3, DET let 3 of 3 QBs reach it, DET allows the most pass yds. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance).",
+   "news": "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+  },
+  {
+   "game": "MIAMIN",
+   "glabel": "MIA @ MIN",
+   "player": "Malik Washington",
+   "team": "MIA",
+   "opp": "MIN",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 83,
+   "bid": 82,
+   "vals": [
+    53.0,
+    43.0,
+    56.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 38.2,
+   "al": [
+    [
+     1,
+     "GB",
+     147.0
+    ],
+    [
+     2,
+     "CHI",
+     43.0
+    ],
+    [
+     3,
+     "TB",
+     62.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 7,
+   "per": 265.3,
+   "dstat": "pass yds",
+   "p": 83,
+   "roi": 0,
+   "pp": 87,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 81,
+   "vs": 50,
+   "agree": 3,
+   "score": 79.1,
+   "flags": [],
+   "pc": 0.8281,
+   "praw": 0.8281,
+   "rg": "WR1",
+   "est": false,
+   "mid": 82.5,
+   "tk": "KXNFLRECYDS-26OCT04MIAMIN-MIAMWASHINGTON6-15",
+   "ev": "KXNFLRECYDS-26OCT04MIAMIN",
+   "ctx": 0.38,
+   "cxs": 69,
+   "reasons": [
+    [
+     -0.25,
+     "MIA projected for only 14 pts (O/U 38.5)"
+    ],
+    [
+     0.2,
+     "MIA a 10-pt underdog, trailing teams throw more"
+    ],
+    [
+     0.15,
+     "MIN secondary missing CB Charles Demmings"
+    ],
+    [
+     0.2,
+     "Caleb Douglas out, more targets to go around"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#21 most added)"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football last-minute pickups for Week 4: Raymond, Allen, Waller among top options\""
+    ]
+   ],
+   "status": null,
+   "rank": 14,
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 38.2, MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "news": "In the news: \"Fantasy football last-minute pickups for Week 4: Raymond, Allen, Waller among top options\""
+  },
+  {
+   "game": "NEBUF",
+   "glabel": "NE @ BUF",
+   "player": "Mack Hollins",
+   "team": "NE",
+   "opp": "BUF",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 88,
+   "bid": 85,
+   "vals": [
+    4.0,
+    2.0,
+    6.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 3.5,
+   "al": [
+    [
+     1,
+     "HOU",
+     3.0
+    ],
+    [
+     2,
+     "DET",
+     2.0
+    ],
+    [
+     3,
+     "LAC",
+     4.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 5,
+   "per": 275.7,
+   "dstat": "pass yds",
+   "p": 84,
+   "roi": -5,
+   "pp": 90,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 87,
+   "vs": 45,
+   "agree": 3,
+   "score": 79.1,
+   "flags": [],
+   "pc": 0.8386,
+   "praw": 0.8386,
+   "rg": "WR2",
+   "est": false,
+   "mid": 86.5,
+   "tk": "KXNFLREC-26OCT04NEBUF-NEMHOLLINS13-2",
+   "ev": "KXNFLREC-26OCT04NEBUF",
+   "ctx": 0.2,
+   "cxs": 60,
+   "reasons": [
+    [
+     0.2,
+     "NE a 7-pt underdog, trailing teams throw more"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football last-minute pickups for Week 4: Raymond, Allen, Waller among top options\""
+    ]
+   ],
+   "status": null,
+   "rank": 15,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 3.5, BUF let 3 of 3 WR2s reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more.",
+   "news": "In the news: \"Fantasy football last-minute pickups for Week 4: Raymond, Allen, Waller among top options\""
   },
   {
    "game": "TENBAL",
@@ -795,7 +1203,7 @@
    "rks": 58,
    "vs": 55,
    "agree": 3,
-   "score": 78.9,
+   "score": 78.8,
    "flags": [],
    "pc": 0.8621,
    "praw": 0.8621,
@@ -804,69 +1212,172 @@
    "mid": 81.5,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-125",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL",
-   "rank": 13
+   "ctx": -0.05,
+   "cxs": 48,
+   "reasons": [
+    [
+     -0.25,
+     "TEN projected for only 16 pts (O/U 42.5)"
+    ],
+    [
+     0.2,
+     "TEN a 11.5-pt underdog, trailing teams throw more"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+    ]
+   ],
+   "status": null,
+   "rank": 16,
+   "why": "Cleared 125+ in 3 of 3 games, Sleeper projects 200.9, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "news": "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
   },
   {
-   "game": "NEBUF",
-   "glabel": "NE @ BUF",
-   "player": "Mack Hollins",
-   "team": "NE",
-   "opp": "BUF",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
+   "game": "DALHOU",
+   "glabel": "DAL @ HOU",
+   "player": "Jake Ferguson",
+   "team": "DAL",
+   "opp": "HOU",
+   "pos": "TE",
+   "role": "TE1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
    "ask": 85,
-   "bid": 80,
+   "bid": 82,
    "vals": [
-    51.0,
-    18.0,
-    87.0
+    2.0,
+    4.0,
+    3.0
    ],
    "over": 3,
    "n": 3,
-   "proj": 44.8,
+   "proj": 3.6,
    "al": [
     [
      1,
-     "HOU",
-     53.0
+     "BUF",
+     5.0
     ],
     [
      2,
-     "DET",
-     33.0
+     "CIN",
+     2.0
     ],
     [
      3,
-     "LAC",
-     66.0
+     "IND",
+     9.0
     ]
    ],
    "dhit": 3,
    "dn": 3,
-   "most": 5,
-   "per": 275.7,
+   "most": 8,
+   "per": 258.7,
    "dstat": "pass yds",
    "p": 84,
-   "roi": -2,
-   "pp": 89,
+   "roi": -1,
+   "pp": 90,
    "hs": 80,
    "dhs": 80,
-   "rks": 87,
-   "vs": 48,
+   "rks": 77,
+   "vs": 49,
    "agree": 3,
-   "score": 78.9,
+   "score": 78.8,
    "flags": [],
-   "pc": 0.8362,
-   "praw": 0.8362,
-   "rg": "WR2",
+   "pc": 0.8408,
+   "praw": 0.8408,
+   "rg": "TE",
+   "est": false,
+   "mid": 83.5,
+   "tk": "KXNFLREC-26OCT04DALHOU-DALJFERGUSON87-2",
+   "ev": "KXNFLREC-26OCT04DALHOU",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "HOU secondary missing S M.J. Stewart"
+    ]
+   ],
+   "status": null,
+   "rank": 17,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 3.6, HOU let 3 of 3 TE1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "news": ""
+  },
+  {
+   "game": "JAXCIN",
+   "glabel": "JAX @ CIN",
+   "player": "Chase Brown",
+   "team": "CIN",
+   "opp": "JAX",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 84,
+   "bid": 81,
+   "vals": [
+    5.0,
+    3.0,
+    2.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 3.9,
+   "al": [
+    [
+     1,
+     "CLE",
+     3.0
+    ],
+    [
+     2,
+     "DEN",
+     3.0
+    ],
+    [
+     3,
+     "NE",
+     3.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 11,
+   "per": 246.0,
+   "dstat": "pass yds",
+   "p": 85,
+   "roi": 1,
+   "pp": 92,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 68,
+   "vs": 51,
+   "agree": 3,
+   "score": 78.8,
+   "flags": [],
+   "pc": 0.8461,
+   "praw": 0.8461,
+   "rg": "RB1",
    "est": false,
    "mid": 82.5,
-   "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-15",
-   "ev": "KXNFLRECYDS-26OCT04NEBUF",
-   "rank": 14
+   "tk": "KXNFLREC-26OCT04JACCIN-CINCBROWN30-2",
+   "ev": "KXNFLREC-26OCT04JACCIN",
+   "ctx": 0.25,
+   "cxs": 62,
+   "reasons": [
+    [
+     0.25,
+     "CIN projected for 27 pts (O/U 51.5)"
+    ]
+   ],
+   "status": null,
+   "rank": 18,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 3.9, JAX let 3 of 3 lead RBs reach it. CIN projected for 27 pts (O/U 51.5).",
+   "news": ""
   },
   {
    "game": "DENSF",
@@ -928,44 +1439,200 @@
    "mid": 82.0,
    "tk": "KXNFLPASSYDS-26OCT04DENSF-SFBPURDY13-175",
    "ev": "KXNFLPASSYDS-26OCT04DENSF",
-   "rank": 15
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "rank": 19,
+   "why": "Cleared 175+ in 3 of 3 games, Sleeper projects 247, DEN let 3 of 3 QBs reach it, DEN allows the 9th most pass yds.",
+   "news": ""
+  },
+  {
+   "game": "JAXCIN",
+   "glabel": "JAX @ CIN",
+   "player": "Tee Higgins",
+   "team": "CIN",
+   "opp": "JAX",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 50,
+   "ask": 64,
+   "bid": 61,
+   "vals": [
+    59.0,
+    95.0,
+    90.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 79.8,
+   "al": [
+    [
+     1,
+     "CLE",
+     59.0
+    ],
+    [
+     2,
+     "DEN",
+     138.0
+    ],
+    [
+     3,
+     "NE",
+     87.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 11,
+   "per": 246.0,
+   "dstat": "pass yds",
+   "p": 78,
+   "roi": 22,
+   "pp": 75,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 68,
+   "vs": 72,
+   "agree": 3,
+   "score": 78.6,
+   "flags": [],
+   "pc": 0.782,
+   "praw": 0.782,
+   "rg": "WR1",
+   "est": false,
+   "mid": 62.5,
+   "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-50",
+   "ev": "KXNFLRECYDS-26OCT04JACCIN",
+   "ctx": 0.45,
+   "cxs": 72,
+   "reasons": [
+    [
+     0.25,
+     "CIN projected for 27 pts (O/U 51.5)"
+    ],
+    [
+     0.2,
+     "Colbie Young out, more targets to go around"
+    ]
+   ],
+   "status": null,
+   "rank": 20,
+   "why": "Cleared 50+ in 3 of 3 games, Sleeper projects 79.8, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
+   "news": ""
+  },
+  {
+   "game": "ARINYG",
+   "glabel": "ARI @ NYG",
+   "player": "Malachi Fields",
+   "team": "NYG",
+   "opp": "ARI",
+   "pos": "WR",
+   "role": "WR3",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 63,
+   "bid": 62,
+   "vals": [
+    25.0,
+    30.0,
+    19.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 23.8,
+   "al": [
+    [
+     1,
+     "LAC",
+     17.0
+    ],
+    [
+     2,
+     "SEA",
+     20.0
+    ],
+    [
+     3,
+     "SF",
+     34.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 10,
+   "per": 247.0,
+   "dstat": "pass yds",
+   "p": 78,
+   "roi": 25,
+   "pp": 76,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 71,
+   "vs": 75,
+   "agree": 3,
+   "score": 78.5,
+   "flags": [],
+   "pc": 0.7844,
+   "praw": 0.7844,
+   "rg": "WR3",
+   "est": false,
+   "mid": 62.5,
+   "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGMFIELDS88-15",
+   "ev": "KXNFLRECYDS-26OCT04ARINYG",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "ARI secondary missing S Dadrion Taylor-Demerson"
+    ]
+   ],
+   "status": null,
+   "rank": 21,
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 23.8, ARI let 3 of 3 WR3s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson.",
+   "news": ""
   },
   {
    "game": "NEBUF",
    "glabel": "NE @ BUF",
-   "player": "Mack Hollins",
+   "player": "Drake Maye",
    "team": "NE",
    "opp": "BUF",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 88,
-   "bid": 85,
+   "pos": "QB",
+   "role": "QB",
+   "stat": "pass",
+   "prop": "Passing Yards",
+   "line": 175,
+   "ask": 81,
+   "bid": 78,
    "vals": [
-    4.0,
-    2.0,
-    6.0
+    178.0,
+    208.0,
+    199.0
    ],
    "over": 3,
    "n": 3,
-   "proj": 3.5,
+   "proj": 222.0,
    "al": [
     [
      1,
      "HOU",
-     3.0
+     274.0
     ],
     [
      2,
      "DET",
-     2.0
+     327.0
     ],
     [
      3,
      "LAC",
-     4.0
+     226.0
     ]
    ],
    "dhit": 3,
@@ -973,86 +1640,39 @@
    "most": 5,
    "per": 275.7,
    "dstat": "pass yds",
-   "p": 84,
-   "roi": -5,
-   "pp": 90,
+   "p": 81,
+   "roi": 0,
+   "pp": 83,
    "hs": 80,
    "dhs": 80,
    "rks": 87,
-   "vs": 45,
-   "agree": 3,
-   "score": 78.5,
-   "flags": [],
-   "pc": 0.8386,
-   "praw": 0.8386,
-   "rg": "WR2",
-   "est": false,
-   "mid": 86.5,
-   "tk": "KXNFLREC-26OCT04NEBUF-NEMHOLLINS13-2",
-   "ev": "KXNFLREC-26OCT04NEBUF",
-   "rank": 16
-  },
-  {
-   "game": "DALHOU",
-   "glabel": "DAL @ HOU",
-   "player": "Jake Ferguson",
-   "team": "DAL",
-   "opp": "HOU",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 85,
-   "bid": 82,
-   "vals": [
-    2.0,
-    4.0,
-    3.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 3.6,
-   "al": [
-    [
-     1,
-     "BUF",
-     5.0
-    ],
-    [
-     2,
-     "CIN",
-     2.0
-    ],
-    [
-     3,
-     "IND",
-     9.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 8,
-   "per": 258.7,
-   "dstat": "pass yds",
-   "p": 84,
-   "roi": -1,
-   "pp": 90,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 77,
-   "vs": 49,
+   "vs": 50,
    "agree": 3,
    "score": 78.3,
    "flags": [],
-   "pc": 0.8408,
-   "praw": 0.8408,
-   "rg": "TE",
+   "pc": 0.8139,
+   "praw": 0.8139,
+   "rg": "QB",
    "est": false,
-   "mid": 83.5,
-   "tk": "KXNFLREC-26OCT04DALHOU-DALJFERGUSON87-2",
-   "ev": "KXNFLREC-26OCT04DALHOU",
-   "rank": 17
+   "mid": 79.5,
+   "tk": "KXNFLPASSYDS-26OCT04NEBUF-NEDMAYE10-175",
+   "ev": "KXNFLPASSYDS-26OCT04NEBUF",
+   "ctx": 0.2,
+   "cxs": 60,
+   "reasons": [
+    [
+     0.2,
+     "NE a 7-pt underdog, trailing teams throw more"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football Week 4 inactives: Daniels, DeVonta to sit; McConkey questionable\""
+    ]
+   ],
+   "status": null,
+   "rank": 22,
+   "why": "Cleared 175+ in 3 of 3 games, Sleeper projects 222, BUF let 3 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more.",
+   "news": "In the news: \"Fantasy football Week 4 inactives: Daniels, DeVonta to sit; McConkey questionable\""
   },
   {
    "game": "ATLNO",
@@ -1114,106 +1734,55 @@
    "mid": 80.5,
    "tk": "KXNFLPASSYDS-26OCT05ATLNO-NOTSHOUGH6-200",
    "ev": "KXNFLPASSYDS-26OCT05ATLNO",
-   "rank": 18
-  },
-  {
-   "game": "ARINYG",
-   "glabel": "ARI @ NYG",
-   "player": "Malachi Fields",
-   "team": "NYG",
-   "opp": "ARI",
-   "pos": "WR",
-   "role": "WR3",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 63,
-   "bid": 62,
-   "vals": [
-    25.0,
-    30.0,
-    19.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 23.8,
-   "al": [
+   "ctx": 0.0,
+   "cxs": 50,
+   "reasons": [
     [
-     1,
-     "LAC",
-     17.0
-    ],
-    [
-     2,
-     "SEA",
-     20.0
-    ],
-    [
-     3,
-     "SF",
-     34.0
+     0.0,
+     "In the news: \"Falcons vs Saints: Where to watch 'Monday Night Football'\""
     ]
    ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 10,
-   "per": 247.0,
-   "dstat": "pass yds",
-   "p": 78,
-   "roi": 25,
-   "pp": 76,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 71,
-   "vs": 75,
-   "agree": 3,
-   "score": 78.1,
-   "flags": [],
-   "pc": 0.7844,
-   "praw": 0.7844,
-   "rg": "WR3",
-   "est": false,
-   "mid": 62.5,
-   "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGMFIELDS88-15",
-   "ev": "KXNFLRECYDS-26OCT04ARINYG",
-   "rank": 19
+   "status": null,
+   "rank": 23,
+   "why": "Cleared 200+ in 3 of 3 games, Sleeper projects 260.3, ATL let 3 of 3 QBs reach it, ATL allows the 6th most pass yds.",
+   "news": "In the news: \"Falcons vs Saints: Where to watch 'Monday Night Football'\""
   },
   {
    "game": "JAXCIN",
    "glabel": "JAX @ CIN",
-   "player": "Chase Brown",
+   "player": "Tee Higgins",
    "team": "CIN",
    "opp": "JAX",
-   "pos": "RB",
-   "role": "RB1",
+   "pos": "WR",
+   "role": "WR1",
    "stat": "rec",
    "prop": "Receptions",
-   "line": 2,
-   "ask": 84,
-   "bid": 81,
+   "line": 3,
+   "ask": 82,
+   "bid": 80,
    "vals": [
-    5.0,
     3.0,
-    2.0
+    5.0,
+    6.0
    ],
    "over": 3,
    "n": 3,
-   "proj": 3.9,
+   "proj": 4.9,
    "al": [
     [
      1,
      "CLE",
-     3.0
+     4.0
     ],
     [
      2,
      "DEN",
-     3.0
+     8.0
     ],
     [
      3,
      "NE",
-     3.0
+     6.0
     ]
    ],
    "dhit": 3,
@@ -1221,148 +1790,189 @@
    "most": 11,
    "per": 246.0,
    "dstat": "pass yds",
-   "p": 85,
+   "p": 82,
    "roi": 1,
-   "pp": 92,
+   "pp": 86,
    "hs": 80,
    "dhs": 80,
    "rks": 68,
    "vs": 51,
    "agree": 3,
-   "score": 78.0,
-   "flags": [],
-   "pc": 0.8461,
-   "praw": 0.8461,
-   "rg": "RB1",
-   "est": false,
-   "mid": 82.5,
-   "tk": "KXNFLREC-26OCT04JACCIN-CINCBROWN30-2",
-   "ev": "KXNFLREC-26OCT04JACCIN",
-   "rank": 20
-  },
-  {
-   "game": "MIAMIN",
-   "glabel": "MIA @ MIN",
-   "player": "Malik Washington",
-   "team": "MIA",
-   "opp": "MIN",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 83,
-   "bid": 82,
-   "vals": [
-    53.0,
-    43.0,
-    56.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 38.2,
-   "al": [
-    [
-     1,
-     "GB",
-     147.0
-    ],
-    [
-     2,
-     "CHI",
-     43.0
-    ],
-    [
-     3,
-     "TB",
-     62.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 7,
-   "per": 265.3,
-   "dstat": "pass yds",
-   "p": 83,
-   "roi": 0,
-   "pp": 87,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 81,
-   "vs": 50,
-   "agree": 3,
    "score": 77.9,
    "flags": [],
-   "pc": 0.8281,
-   "praw": 0.8281,
+   "pc": 0.8249,
+   "praw": 0.8249,
    "rg": "WR1",
    "est": false,
-   "mid": 82.5,
-   "tk": "KXNFLRECYDS-26OCT04MIAMIN-MIAMWASHINGTON6-15",
-   "ev": "KXNFLRECYDS-26OCT04MIAMIN",
-   "rank": 21
+   "mid": 81.0,
+   "tk": "KXNFLREC-26OCT04JACCIN-CINTHIGGINS5-3",
+   "ev": "KXNFLREC-26OCT04JACCIN",
+   "ctx": 0.45,
+   "cxs": 72,
+   "reasons": [
+    [
+     0.25,
+     "CIN projected for 27 pts (O/U 51.5)"
+    ],
+    [
+     0.2,
+     "Colbie Young out, more targets to go around"
+    ]
+   ],
+   "status": null,
+   "rank": 24,
+   "why": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.9, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
+   "news": ""
   },
   {
-   "game": "NEBUF",
-   "glabel": "NE @ BUF",
-   "player": "Drake Maye",
-   "team": "NE",
-   "opp": "BUF",
-   "pos": "QB",
-   "role": "QB",
-   "stat": "pass",
-   "prop": "Passing Yards",
-   "line": 175,
-   "ask": 81,
-   "bid": 78,
+   "game": "DALHOU",
+   "glabel": "DAL @ HOU",
+   "player": "Javonte Williams",
+   "team": "DAL",
+   "opp": "HOU",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 76,
+   "bid": 74,
    "vals": [
-    178.0,
-    208.0,
-    199.0
+    5.0,
+    3.0,
+    2.0
    ],
    "over": 3,
    "n": 3,
-   "proj": 222.0,
+   "proj": 2.6,
    "al": [
     [
      1,
-     "HOU",
-     274.0
+     "BUF",
+     3.0
     ],
     [
      2,
-     "DET",
-     327.0
+     "CIN",
+     3.0
     ],
     [
      3,
-     "LAC",
-     226.0
+     "IND",
+     2.0
     ]
    ],
    "dhit": 3,
    "dn": 3,
-   "most": 5,
-   "per": 275.7,
+   "most": 8,
+   "per": 258.7,
    "dstat": "pass yds",
    "p": 81,
-   "roi": 0,
-   "pp": 83,
+   "roi": 6,
+   "pp": 82,
    "hs": 80,
    "dhs": 80,
-   "rks": 87,
-   "vs": 50,
+   "rks": 77,
+   "vs": 56,
    "agree": 3,
    "score": 77.7,
    "flags": [],
-   "pc": 0.8139,
-   "praw": 0.8139,
-   "rg": "QB",
+   "pc": 0.8073,
+   "praw": 0.8073,
+   "rg": "RB1",
    "est": false,
-   "mid": 79.5,
-   "tk": "KXNFLPASSYDS-26OCT04NEBUF-NEDMAYE10-175",
-   "ev": "KXNFLPASSYDS-26OCT04NEBUF",
-   "rank": 22
+   "mid": 75.0,
+   "tk": "KXNFLREC-26OCT04DALHOU-DALJWILLIAMS33-2",
+   "ev": "KXNFLREC-26OCT04DALHOU",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "HOU secondary missing S M.J. Stewart"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+    ]
+   ],
+   "status": null,
+   "rank": 25,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 2.6, HOU let 3 of 3 lead RBs reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "news": "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+  },
+  {
+   "game": "INDWAS",
+   "glabel": "IND @ WAS",
+   "player": "Jacory Croskey-Merritt",
+   "team": "WAS",
+   "opp": "IND",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rush",
+   "prop": "Rushing Yards",
+   "line": 30,
+   "ask": 85,
+   "bid": 84,
+   "vals": [
+    63.0,
+    43.0,
+    36.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 59.7,
+   "al": [
+    [
+     1,
+     "BAL",
+     144.0
+    ],
+    [
+     2,
+     "KC",
+     117.0
+    ],
+    [
+     3,
+     "HOU",
+     33.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 4,
+   "per": 140.3,
+   "dstat": "rush yds",
+   "p": 81,
+   "roi": -5,
+   "pp": 82,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 90,
+   "vs": 45,
+   "agree": 3,
+   "score": 77.6,
+   "flags": [],
+   "pc": 0.8085,
+   "praw": 0.8085,
+   "rg": "RB1",
+   "est": false,
+   "mid": 84.5,
+   "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-30",
+   "ev": "KXNFLRSHYDS-26OCT04INDWAS",
+   "ctx": 0.3,
+   "cxs": 65,
+   "reasons": [
+    [
+     0.3,
+     "Rachaad White out, more carries for him"
+    ]
+   ],
+   "status": null,
+   "rank": 26,
+   "why": "Cleared 30+ in 3 of 3 games, Sleeper projects 59.7, IND let 3 of 3 lead RBs reach it, IND allows the 4th most rush yds. Rachaad White out, more carries for him.",
+   "news": ""
   },
   {
    "game": "ATLNO",
@@ -1424,193 +2034,13 @@
    "mid": 75.0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NODVELE14-25",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "rank": 23
-  },
-  {
-   "game": "TENBAL",
-   "glabel": "TEN @ BAL",
-   "player": "Gunnar Helm",
-   "team": "TEN",
-   "opp": "BAL",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 79,
-   "bid": 75,
-   "vals": [
-    4.0,
-    2.0,
-    2.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 3.5,
-   "al": [
-    [
-     1,
-     "IND",
-     3.0
-    ],
-    [
-     2,
-     "NO",
-     4.0
-    ],
-    [
-     3,
-     "DAL",
-     3.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 14,
-   "per": 231.3,
-   "dstat": "pass yds",
-   "p": 84,
-   "roi": 6,
-   "pp": 90,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 58,
-   "vs": 56,
-   "agree": 3,
-   "score": 77.5,
-   "flags": [],
-   "pc": 0.8392,
-   "praw": 0.8392,
-   "rg": "TE",
-   "est": false,
-   "mid": 77.0,
-   "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-2",
-   "ev": "KXNFLREC-26OCT04TENBAL",
-   "rank": 24
-  },
-  {
-   "game": "JAXCIN",
-   "glabel": "JAX @ CIN",
-   "player": "Tee Higgins",
-   "team": "CIN",
-   "opp": "JAX",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 50,
-   "ask": 64,
-   "bid": 61,
-   "vals": [
-    59.0,
-    95.0,
-    90.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 79.8,
-   "al": [
-    [
-     1,
-     "CLE",
-     59.0
-    ],
-    [
-     2,
-     "DEN",
-     138.0
-    ],
-    [
-     3,
-     "NE",
-     87.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 11,
-   "per": 246.0,
-   "dstat": "pass yds",
-   "p": 78,
-   "roi": 22,
-   "pp": 75,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 68,
-   "vs": 72,
-   "agree": 3,
-   "score": 77.2,
-   "flags": [],
-   "pc": 0.782,
-   "praw": 0.782,
-   "rg": "WR1",
-   "est": false,
-   "mid": 62.5,
-   "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-50",
-   "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "rank": 25
-  },
-  {
-   "game": "DALHOU",
-   "glabel": "DAL @ HOU",
-   "player": "Javonte Williams",
-   "team": "DAL",
-   "opp": "HOU",
-   "pos": "RB",
-   "role": "RB1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 76,
-   "bid": 74,
-   "vals": [
-    5.0,
-    3.0,
-    2.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 2.6,
-   "al": [
-    [
-     1,
-     "BUF",
-     3.0
-    ],
-    [
-     2,
-     "CIN",
-     3.0
-    ],
-    [
-     3,
-     "IND",
-     2.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 8,
-   "per": 258.7,
-   "dstat": "pass yds",
-   "p": 81,
-   "roi": 6,
-   "pp": 82,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 77,
-   "vs": 56,
-   "agree": 3,
-   "score": 77.2,
-   "flags": [],
-   "pc": 0.8073,
-   "praw": 0.8073,
-   "rg": "RB1",
-   "est": false,
-   "mid": 75.0,
-   "tk": "KXNFLREC-26OCT04DALHOU-DALJWILLIAMS33-2",
-   "ev": "KXNFLREC-26OCT04DALHOU",
-   "rank": 26
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "rank": 27,
+   "why": "Cleared 25+ in 3 of 3 games, Sleeper projects 46.9, ATL let 3 of 3 WR2s reach it, ATL allows the 6th most pass yds.",
+   "news": ""
   },
   {
    "game": "DALHOU",
@@ -1663,7 +2093,7 @@
    "rks": 77,
    "vs": 46,
    "agree": 3,
-   "score": 77.0,
+   "score": 77.4,
    "flags": [],
    "pc": 0.8282,
    "praw": 0.8282,
@@ -1672,131 +2102,95 @@
    "mid": 85.0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALGPICKENS3-3",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "rank": 27
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "HOU secondary missing S M.J. Stewart"
+    ]
+   ],
+   "status": null,
+   "rank": 28,
+   "why": "Cleared 3+ in 3 of 3 games, Sleeper projects 5.1, HOU let 3 of 3 WR2s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "news": ""
   },
   {
-   "game": "KCLV",
-   "glabel": "KC @ LV",
-   "player": "Kenneth Walker",
-   "team": "KC",
-   "opp": "LV",
-   "pos": "RB",
-   "role": "RB1",
+   "game": "TENBAL",
+   "glabel": "TEN @ BAL",
+   "player": "Gunnar Helm",
+   "team": "TEN",
+   "opp": "BAL",
+   "pos": "TE",
+   "role": "TE1",
    "stat": "rec",
    "prop": "Receptions",
    "line": 2,
-   "ask": 80,
-   "bid": 78,
+   "ask": 79,
+   "bid": 75,
    "vals": [
-    3.0,
-    6.0,
+    4.0,
+    2.0,
     2.0
    ],
    "over": 3,
    "n": 3,
-   "proj": 4.1,
+   "proj": 3.5,
    "al": [
     [
      1,
-     "MIA",
+     "IND",
+     3.0
+    ],
+    [
+     2,
+     "NO",
      4.0
     ],
     [
-     2,
-     "LAC",
-     2.0
-    ],
-    [
      3,
-     "NO",
-     2.0
+     "DAL",
+     3.0
     ]
    ],
    "dhit": 3,
    "dn": 3,
-   "most": 18,
-   "per": 222.3,
+   "most": 14,
+   "per": 231.3,
    "dstat": "pass yds",
-   "p": 85,
+   "p": 84,
    "roi": 6,
-   "pp": 92,
+   "pp": 90,
    "hs": 80,
    "dhs": 80,
-   "rks": 45,
+   "rks": 58,
    "vs": 56,
    "agree": 3,
-   "score": 76.8,
+   "score": 77.4,
    "flags": [],
-   "pc": 0.8478,
-   "praw": 0.8478,
-   "rg": "RB1",
+   "pc": 0.8392,
+   "praw": 0.8392,
+   "rg": "TE",
    "est": false,
-   "mid": 79.0,
-   "tk": "KXNFLREC-26OCT04KCLV-KCKWALKER9-2",
-   "ev": "KXNFLREC-26OCT04KCLV",
-   "rank": 28
-  },
-  {
-   "game": "INDWAS",
-   "glabel": "IND @ WAS",
-   "player": "Jacory Croskey-Merritt",
-   "team": "WAS",
-   "opp": "IND",
-   "pos": "RB",
-   "role": "RB1",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 30,
-   "ask": 85,
-   "bid": 84,
-   "vals": [
-    63.0,
-    43.0,
-    36.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 59.7,
-   "al": [
+   "mid": 77.0,
+   "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-2",
+   "ev": "KXNFLREC-26OCT04TENBAL",
+   "ctx": -0.05,
+   "cxs": 48,
+   "reasons": [
     [
-     1,
-     "BAL",
-     144.0
+     -0.25,
+     "TEN projected for only 16 pts (O/U 42.5)"
     ],
     [
-     2,
-     "KC",
-     117.0
-    ],
-    [
-     3,
-     "HOU",
-     33.0
+     0.2,
+     "TEN a 11.5-pt underdog, trailing teams throw more"
     ]
    ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 4,
-   "per": 140.3,
-   "dstat": "rush yds",
-   "p": 81,
-   "roi": -5,
-   "pp": 82,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 90,
-   "vs": 45,
-   "agree": 3,
-   "score": 76.7,
-   "flags": [],
-   "pc": 0.8085,
-   "praw": 0.8085,
-   "rg": "RB1",
-   "est": false,
-   "mid": 84.5,
-   "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-30",
-   "ev": "KXNFLRSHYDS-26OCT04INDWAS",
-   "rank": 29
+   "status": null,
+   "rank": 29,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "news": ""
   },
   {
    "game": "LARPHI",
@@ -1849,7 +2243,7 @@
    "rks": 77,
    "vs": 60,
    "agree": 3,
-   "score": 76.6,
+   "score": 77.0,
    "flags": [],
    "pc": 0.7902,
    "praw": 0.7902,
@@ -1858,131 +2252,90 @@
    "mid": 70.5,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-40",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI",
-   "rank": 30
+   "ctx": 0.12,
+   "cxs": 56,
+   "reasons": [
+    [
+     0.12,
+     "PHI front missing LB Zack Baun"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+    ]
+   ],
+   "status": null,
+   "rank": 30,
+   "why": "Cleared 40+ in 3 of 3 games, Sleeper projects 67.7, PHI let 3 of 3 lead RBs reach it, PHI allows the 8th most rush yds. PHI front missing LB Zack Baun.",
+   "news": "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
   },
   {
-   "game": "JAXCIN",
-   "glabel": "JAX @ CIN",
-   "player": "Tee Higgins",
-   "team": "CIN",
-   "opp": "JAX",
-   "pos": "WR",
-   "role": "WR1",
+   "game": "KCLV",
+   "glabel": "KC @ LV",
+   "player": "Kenneth Walker",
+   "team": "KC",
+   "opp": "LV",
+   "pos": "RB",
+   "role": "RB1",
    "stat": "rec",
    "prop": "Receptions",
-   "line": 3,
-   "ask": 82,
-   "bid": 80,
+   "line": 2,
+   "ask": 79,
+   "bid": 78,
    "vals": [
     3.0,
-    5.0,
-    6.0
+    6.0,
+    2.0
    ],
    "over": 3,
    "n": 3,
-   "proj": 4.9,
+   "proj": 4.1,
    "al": [
     [
      1,
-     "CLE",
+     "MIA",
      4.0
     ],
     [
      2,
-     "DEN",
-     8.0
-    ],
-    [
-     3,
-     "NE",
-     6.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 11,
-   "per": 246.0,
-   "dstat": "pass yds",
-   "p": 82,
-   "roi": 1,
-   "pp": 86,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 68,
-   "vs": 51,
-   "agree": 3,
-   "score": 76.5,
-   "flags": [],
-   "pc": 0.8249,
-   "praw": 0.8249,
-   "rg": "WR1",
-   "est": false,
-   "mid": 81.0,
-   "tk": "KXNFLREC-26OCT04JACCIN-CINTHIGGINS5-3",
-   "ev": "KXNFLREC-26OCT04JACCIN",
-   "rank": 31
-  },
-  {
-   "game": "NEBUF",
-   "glabel": "NE @ BUF",
-   "player": "Rhamondre Stevenson",
-   "team": "NE",
-   "opp": "BUF",
-   "pos": "RB",
-   "role": "RB1",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 20,
-   "ask": 75,
-   "bid": 69,
-   "vals": [
-    51.0,
-    43.0,
-    22.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 49.4,
-   "al": [
-    [
-     1,
-     "HOU",
-     60.0
-    ],
-    [
-     2,
-     "DET",
-     52.0
-    ],
-    [
-     3,
      "LAC",
-     56.0
+     2.0
+    ],
+    [
+     3,
+     "NO",
+     2.0
     ]
    ],
    "dhit": 3,
    "dn": 3,
-   "most": 17,
-   "per": 107.0,
-   "dstat": "rush yds",
-   "p": 83,
-   "roi": 10,
-   "pp": 86,
+   "most": 18,
+   "per": 222.3,
+   "dstat": "pass yds",
+   "p": 85,
+   "roi": 7,
+   "pp": 92,
    "hs": 80,
    "dhs": 80,
-   "rks": 48,
-   "vs": 60,
+   "rks": 45,
+   "vs": 57,
    "agree": 3,
-   "score": 76.3,
+   "score": 77.0,
    "flags": [],
-   "pc": 0.8258,
-   "praw": 0.8258,
+   "pc": 0.8478,
+   "praw": 0.8478,
    "rg": "RB1",
    "est": false,
-   "mid": 72.0,
-   "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-20",
-   "ev": "KXNFLRSHYDS-26OCT04NEBUF",
-   "rank": 32
+   "mid": 78.5,
+   "tk": "KXNFLREC-26OCT04KCLV-KCKWALKER9-2",
+   "ev": "KXNFLREC-26OCT04KCLV",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "rank": 31,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 4.1, LV let 3 of 3 lead RBs reach it.",
+   "news": ""
   },
   {
    "game": "DALHOU",
@@ -2035,7 +2388,7 @@
    "rks": 77,
    "vs": 47,
    "agree": 3,
-   "score": 76.3,
+   "score": 76.8,
    "flags": [],
    "pc": 0.8162,
    "praw": 0.8162,
@@ -2044,69 +2397,18 @@
    "mid": 83.0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-40",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
-   "rank": 33
-  },
-  {
-   "game": "TENBAL",
-   "glabel": "TEN @ BAL",
-   "player": "Carnell Tate",
-   "team": "TEN",
-   "opp": "BAL",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 85,
-   "bid": 84,
-   "vals": [
-    38.0,
-    27.0,
-    58.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 47.7,
-   "al": [
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
     [
-     1,
-     "IND",
-     61.0
-    ],
-    [
-     2,
-     "NO",
-     86.0
-    ],
-    [
-     3,
-     "DAL",
-     112.0
+     0.15,
+     "HOU secondary missing S M.J. Stewart"
     ]
    ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 14,
-   "per": 231.3,
-   "dstat": "pass yds",
-   "p": 84,
-   "roi": -1,
-   "pp": 90,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 58,
-   "vs": 49,
-   "agree": 3,
-   "score": 76.2,
-   "flags": [],
-   "pc": 0.8388,
-   "praw": 0.8388,
-   "rg": "WR1",
-   "est": false,
-   "mid": 84.5,
-   "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-15",
-   "ev": "KXNFLRECYDS-26OCT04TENBAL",
-   "rank": 34
+   "status": null,
+   "rank": 32,
+   "why": "Cleared 40+ in 3 of 3 games, Sleeper projects 87.5, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "news": ""
   },
   {
    "game": "DALHOU",
@@ -2159,7 +2461,7 @@
    "rks": 77,
    "vs": 47,
    "agree": 3,
-   "score": 75.8,
+   "score": 76.3,
    "flags": [],
    "pc": 0.8087,
    "praw": 0.8087,
@@ -2168,7 +2470,172 @@
    "mid": 81.5,
    "tk": "KXNFLREC-26OCT04DALHOU-DALCLAMB88-4",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "rank": 35
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "HOU secondary missing S M.J. Stewart"
+    ]
+   ],
+   "status": null,
+   "rank": 33,
+   "why": "Cleared 4+ in 3 of 3 games, Sleeper projects 6, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "news": ""
+  },
+  {
+   "game": "DALHOU",
+   "glabel": "DAL @ HOU",
+   "player": "Kayshon Boutte",
+   "team": "HOU",
+   "opp": "DAL",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 67,
+   "bid": 63,
+   "vals": [
+    21.0,
+    37.0,
+    21.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 33.1,
+   "al": [
+    [
+     1,
+     "NYG",
+     27.0
+    ],
+    [
+     2,
+     "WAS",
+     47.0
+    ],
+    [
+     3,
+     "BAL",
+     37.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 24,
+   "per": 207.7,
+   "dstat": "pass yds",
+   "p": 82,
+   "roi": 22,
+   "pp": 85,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 26,
+   "vs": 72,
+   "agree": 3,
+   "score": 76.0,
+   "flags": [],
+   "pc": 0.8186,
+   "praw": 0.8186,
+   "rg": "WR2",
+   "est": false,
+   "mid": 65.0,
+   "tk": "KXNFLRECYDS-26OCT04DALHOU-HOUKBOUTTE14-15",
+   "ev": "KXNFLRECYDS-26OCT04DALHOU",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "DAL secondary missing CB Cobie Durant"
+    ]
+   ],
+   "status": null,
+   "rank": 34,
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 33.1, DAL let 3 of 3 WR2s reach it. DAL secondary missing CB Cobie Durant.",
+   "news": ""
+  },
+  {
+   "game": "NEBUF",
+   "glabel": "NE @ BUF",
+   "player": "Rhamondre Stevenson",
+   "team": "NE",
+   "opp": "BUF",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rush",
+   "prop": "Rushing Yards",
+   "line": 20,
+   "ask": 75,
+   "bid": 69,
+   "vals": [
+    51.0,
+    43.0,
+    22.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 49.4,
+   "al": [
+    [
+     1,
+     "HOU",
+     60.0
+    ],
+    [
+     2,
+     "DET",
+     52.0
+    ],
+    [
+     3,
+     "LAC",
+     56.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 17,
+   "per": 107.0,
+   "dstat": "rush yds",
+   "p": 83,
+   "roi": 10,
+   "pp": 86,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 48,
+   "vs": 60,
+   "agree": 3,
+   "score": 75.9,
+   "flags": [],
+   "pc": 0.8258,
+   "praw": 0.8258,
+   "rg": "RB1",
+   "est": false,
+   "mid": 72.0,
+   "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-20",
+   "ev": "KXNFLRSHYDS-26OCT04NEBUF",
+   "ctx": -0.13,
+   "cxs": 44,
+   "reasons": [
+    [
+     -0.25,
+     "NE a 7-pt underdog, may have to abandon the run"
+    ],
+    [
+     0.12,
+     "BUF front missing DT T.J. Sanders"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+    ]
+   ],
+   "status": null,
+   "rank": 35,
+   "why": "Cleared 20+ in 3 of 3 games, Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run.",
+   "news": "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
   },
   {
    "game": "ATLNO",
@@ -2230,69 +2697,13 @@
    "mid": 78.0,
    "tk": "KXNFLREC-26OCT05ATLNO-NODVELE14-3",
    "ev": "KXNFLREC-26OCT05ATLNO",
-   "rank": 36
-  },
-  {
-   "game": "DALHOU",
-   "glabel": "DAL @ HOU",
-   "player": "Kayshon Boutte",
-   "team": "HOU",
-   "opp": "DAL",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 67,
-   "bid": 62,
-   "vals": [
-    21.0,
-    37.0,
-    21.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 33.1,
-   "al": [
-    [
-     1,
-     "NYG",
-     27.0
-    ],
-    [
-     2,
-     "WAS",
-     47.0
-    ],
-    [
-     3,
-     "BAL",
-     37.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 24,
-   "per": 207.7,
-   "dstat": "pass yds",
-   "p": 82,
-   "roi": 22,
-   "pp": 85,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 26,
-   "vs": 72,
-   "agree": 3,
-   "score": 75.6,
-   "flags": [],
-   "pc": 0.8186,
-   "praw": 0.8186,
-   "rg": "WR2",
-   "est": false,
-   "mid": 64.5,
-   "tk": "KXNFLRECYDS-26OCT04DALHOU-HOUKBOUTTE14-15",
-   "ev": "KXNFLRECYDS-26OCT04DALHOU",
-   "rank": 37
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "rank": 36,
+   "why": "Cleared 3+ in 3 of 3 games, Sleeper projects 3.9, ATL let 3 of 3 WR2s reach it, ATL allows the 6th most pass yds.",
+   "news": ""
   },
   {
    "game": "ATLNO",
@@ -2354,7 +2765,13 @@
    "mid": 80.5,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-50",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "rank": 38
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "rank": 37,
+   "why": "Cleared 50+ in 3 of 3 games, Sleeper projects 89.5, ATL let 3 of 3 WR1s reach it, ATL allows the 6th most pass yds.",
+   "news": ""
   },
   {
    "game": "KCLV",
@@ -2416,7 +2833,13 @@
    "mid": 84.0,
    "tk": "KXNFLPASSYDS-26OCT04KCLV-KCPMAHOMES15-175",
    "ev": "KXNFLPASSYDS-26OCT04KCLV",
-   "rank": 39
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "rank": 38,
+   "why": "Cleared 175+ in 3 of 3 games, Sleeper projects 246.2, LV let 3 of 3 QBs reach it.",
+   "news": ""
   },
   {
    "game": "KCLV",
@@ -2478,69 +2901,167 @@
    "mid": 78.0,
    "tk": "KXNFLRECYDS-26OCT04KCLV-KCXWORTHY1-15",
    "ev": "KXNFLRECYDS-26OCT04KCLV",
-   "rank": 40
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "rank": 39,
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 38.1, LV let 3 of 3 WR2s reach it.",
+   "news": ""
   },
   {
-   "game": "GBTB",
-   "glabel": "GB @ TB",
-   "player": "Emeka Egbuka",
-   "team": "TB",
-   "opp": "GB",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 82,
-   "bid": 81,
+   "game": "TENBAL",
+   "glabel": "TEN @ BAL",
+   "player": "Lamar Jackson",
+   "team": "BAL",
+   "opp": "TEN",
+   "pos": "QB",
+   "role": "QB",
+   "stat": "rush",
+   "prop": "Rushing Yards",
+   "line": 30,
+   "ask": 55,
+   "bid": 51,
    "vals": [
-    63.0,
-    16.0,
-    62.0
+    40.0,
+    34.0,
+    50.0
    ],
    "over": 3,
    "n": 3,
-   "proj": 49.4,
+   "proj": 54.0,
+   "al": [],
+   "dhit": null,
+   "dn": null,
+   "most": 9,
+   "per": 126.3,
+   "dstat": "rush yds",
+   "p": 79,
+   "roi": 43,
+   "pp": 78,
+   "hs": 80,
+   "dhs": 50,
+   "rks": 74,
+   "vs": 93,
+   "agree": 2,
+   "score": 75.0,
+   "flags": [],
+   "pc": 0.7864,
+   "praw": 0.7864,
+   "rg": "QB",
+   "est": false,
+   "mid": 53.0,
+   "tk": "KXNFLRSHYDS-26OCT04TENBAL-BALLJACKSON8-30",
+   "ev": "KXNFLRSHYDS-26OCT04TENBAL",
+   "ctx": 0.25,
+   "cxs": 62,
+   "reasons": [
+    [
+     0.25,
+     "BAL projected for 27 pts (O/U 42.5)"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football Week 4 inactives: Daniels, DeVonta to sit; McConkey questionable\""
+    ]
+   ],
+   "status": null,
+   "rank": 40,
+   "why": "Cleared 30+ in 3 of 3 games, Sleeper projects 54, TEN allows the 9th most rush yds. BAL projected for 27 pts (O/U 42.5).",
+   "news": "In the news: \"Fantasy football Week 4 inactives: Daniels, DeVonta to sit; McConkey questionable\""
+  },
+  {
+   "game": "MIAMIN",
+   "glabel": "MIA @ MIN",
+   "player": "Malik Washington",
+   "team": "MIA",
+   "opp": "MIN",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 3,
+   "ask": 80,
+   "bid": 78,
+   "vals": [
+    3.0,
+    4.0,
+    5.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 3.5,
    "al": [
     [
      1,
-     "MIN",
-     92.0
+     "GB",
+     6.0
     ],
     [
      2,
-     "NYJ",
-     63.0
+     "CHI",
+     5.0
     ],
     [
      3,
-     "ATL",
-     194.0
+     "TB",
+     5.0
     ]
    ],
    "dhit": 3,
    "dn": 3,
-   "most": 21,
-   "per": 218.0,
+   "most": 7,
+   "per": 265.3,
    "dstat": "pass yds",
-   "p": 84,
-   "roi": 2,
-   "pp": 90,
+   "p": 78,
+   "roi": -3,
+   "pp": 74,
    "hs": 80,
    "dhs": 80,
-   "rks": 35,
-   "vs": 52,
+   "rks": 81,
+   "vs": 47,
    "agree": 3,
-   "score": 74.7,
+   "score": 74.8,
    "flags": [],
-   "pc": 0.8402,
-   "praw": 0.8402,
+   "pc": 0.7755,
+   "praw": 0.7755,
    "rg": "WR1",
    "est": false,
-   "mid": 81.5,
-   "tk": "KXNFLRECYDS-26OCT04GBTB-TBEEGBUKA2-15",
-   "ev": "KXNFLRECYDS-26OCT04GBTB",
-   "rank": 41
+   "mid": 79.0,
+   "tk": "KXNFLREC-26OCT04MIAMIN-MIAMWASHINGTON6-3",
+   "ev": "KXNFLREC-26OCT04MIAMIN",
+   "ctx": 0.38,
+   "cxs": 69,
+   "reasons": [
+    [
+     -0.25,
+     "MIA projected for only 14 pts (O/U 38.5)"
+    ],
+    [
+     0.2,
+     "MIA a 10-pt underdog, trailing teams throw more"
+    ],
+    [
+     0.15,
+     "MIN secondary missing CB Charles Demmings"
+    ],
+    [
+     0.2,
+     "Caleb Douglas out, more targets to go around"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#21 most added)"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football last-minute pickups for Week 4: Raymond, Allen, Waller among top options\""
+    ]
+   ],
+   "status": null,
+   "rank": 41,
+   "why": "Cleared 3+ in 3 of 3 games, Sleeper projects 3.5, MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "news": "In the news: \"Fantasy football last-minute pickups for Week 4: Raymond, Allen, Waller among top options\""
   },
   {
    "game": "ATLNO",
@@ -2602,53 +3123,176 @@
    "mid": 83.5,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-ATLBROBINSON7-50",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
-   "rank": 42
+   "ctx": 0.0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.0,
+     "In the news: \"Falcons vs Saints: Where to watch 'Monday Night Football'\""
+    ]
+   ],
+   "status": null,
+   "rank": 42,
+   "why": "Cleared 50+ in 3 of 3 games, Sleeper projects 86.3, NO let 3 of 3 lead RBs reach it, NO allows the 6th most rush yds.",
+   "news": "In the news: \"Falcons vs Saints: Where to watch 'Monday Night Football'\""
   },
   {
-   "game": "TENBAL",
-   "glabel": "TEN @ BAL",
-   "player": "Lamar Jackson",
-   "team": "BAL",
-   "opp": "TEN",
-   "pos": "QB",
-   "role": "QB",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 30,
-   "ask": 55,
-   "bid": 51,
+   "game": "GBTB",
+   "glabel": "GB @ TB",
+   "player": "Emeka Egbuka",
+   "team": "TB",
+   "opp": "GB",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 82,
+   "bid": 81,
    "vals": [
-    40.0,
-    34.0,
-    50.0
+    63.0,
+    16.0,
+    62.0
    ],
    "over": 3,
    "n": 3,
-   "proj": 54.0,
-   "al": [],
-   "dhit": null,
-   "dn": null,
-   "most": 9,
-   "per": 126.3,
-   "dstat": "rush yds",
-   "p": 79,
-   "roi": 43,
-   "pp": 78,
+   "proj": 49.4,
+   "al": [
+    [
+     1,
+     "MIN",
+     92.0
+    ],
+    [
+     2,
+     "NYJ",
+     63.0
+    ],
+    [
+     3,
+     "ATL",
+     194.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 21,
+   "per": 218.0,
+   "dstat": "pass yds",
+   "p": 84,
+   "roi": 2,
+   "pp": 90,
    "hs": 80,
-   "dhs": 50,
-   "rks": 74,
-   "vs": 93,
-   "agree": 2,
-   "score": 74.3,
+   "dhs": 80,
+   "rks": 35,
+   "vs": 52,
+   "agree": 3,
+   "score": 74.5,
    "flags": [],
-   "pc": 0.7864,
-   "praw": 0.7864,
-   "rg": "QB",
+   "pc": 0.8402,
+   "praw": 0.8402,
+   "rg": "WR1",
    "est": false,
-   "mid": 53.0,
-   "tk": "KXNFLRSHYDS-26OCT04TENBAL-BALLJACKSON8-30",
-   "ev": "KXNFLRSHYDS-26OCT04TENBAL",
-   "rank": 43
+   "mid": 81.5,
+   "tk": "KXNFLRECYDS-26OCT04GBTB-TBEEGBUKA2-15",
+   "ev": "KXNFLRECYDS-26OCT04GBTB",
+   "ctx": -0.05,
+   "cxs": 48,
+   "reasons": [
+    [
+     -0.25,
+     "TB projected for only 18 pts (O/U 39.5)"
+    ],
+    [
+     0.2,
+     "Ko Kieft out, more targets to go around"
+    ]
+   ],
+   "status": null,
+   "rank": 43,
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 49.4, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "news": ""
+  },
+  {
+   "game": "NYJCHI",
+   "glabel": "NYJ @ CHI",
+   "player": "Garrett Wilson",
+   "team": "NYJ",
+   "opp": "CHI",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 40,
+   "ask": 83,
+   "bid": 82,
+   "vals": [
+    79.0,
+    57.0,
+    107.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 87.4,
+   "al": [
+    [
+     1,
+     "CAR",
+     138.0
+    ],
+    [
+     2,
+     "MIN",
+     55.0
+    ],
+    [
+     3,
+     "PHI",
+     65.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 20,
+   "per": 219.0,
+   "dstat": "pass yds",
+   "p": 82,
+   "roi": -2,
+   "pp": 84,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 39,
+   "vs": 48,
+   "agree": 3,
+   "score": 74.1,
+   "flags": [],
+   "pc": 0.8162,
+   "praw": 0.8162,
+   "rg": "WR1",
+   "est": false,
+   "mid": 82.5,
+   "tk": "KXNFLRECYDS-26OCT04NYJCHI-NYJGWILSON5-40",
+   "ev": "KXNFLRECYDS-26OCT04NYJCHI",
+   "ctx": 0.5,
+   "cxs": 75,
+   "reasons": [
+    [
+     0.3,
+     "CHI secondary missing CB Cam Lewis, CB Kyler Gordon"
+    ],
+    [
+     0.2,
+     "Adonai Mitchell out, more targets to go around"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+    ]
+   ],
+   "status": null,
+   "rank": 44,
+   "why": "Cleared 40+ in 3 of 3 games, Sleeper projects 87.4, CHI let 3 of 3 WR1s reach it. CHI secondary missing CB Cam Lewis, CB Kyler Gordon. Adonai Mitchell out, more targets to go around.",
+   "news": "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
   },
   {
    "game": "TENBAL",
@@ -2701,7 +3345,7 @@
    "rks": 58,
    "vs": 49,
    "agree": 3,
-   "score": 74.2,
+   "score": 74.1,
    "flags": [],
    "pc": 0.8102,
    "praw": 0.8102,
@@ -2710,69 +3354,22 @@
    "mid": 80.0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-3",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "rank": 44
-  },
-  {
-   "game": "GBTB",
-   "glabel": "GB @ TB",
-   "player": "Cade Otton",
-   "team": "TB",
-   "opp": "GB",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 80,
-   "bid": 77,
-   "vals": [
-    3.0,
-    5.0,
-    3.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 3.1,
-   "al": [
+   "ctx": -0.05,
+   "cxs": 48,
+   "reasons": [
     [
-     1,
-     "MIN",
-     4.0
+     -0.25,
+     "TEN projected for only 16 pts (O/U 42.5)"
     ],
     [
-     2,
-     "NYJ",
-     2.0
-    ],
-    [
-     3,
-     "ATL",
-     2.0
+     0.2,
+     "TEN a 11.5-pt underdog, trailing teams throw more"
     ]
    ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 21,
-   "per": 218.0,
-   "dstat": "pass yds",
-   "p": 83,
-   "roi": 4,
-   "pp": 87,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 35,
-   "vs": 54,
-   "agree": 3,
-   "score": 74.1,
-   "flags": [],
-   "pc": 0.8294,
-   "praw": 0.8294,
-   "rg": "TE",
-   "est": false,
-   "mid": 78.5,
-   "tk": "KXNFLREC-26OCT04GBTB-TBCOTTON88-2",
-   "ev": "KXNFLREC-26OCT04GBTB",
-   "rank": 45
+   "status": null,
+   "rank": 45,
+   "why": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "news": ""
   },
   {
    "game": "ARINYG",
@@ -2834,7 +3431,95 @@
    "mid": 79.5,
    "tk": "KXNFLREC-26OCT04ARINYG-ARIJLOVE4-2",
    "ev": "KXNFLREC-26OCT04ARINYG",
-   "rank": 46
+   "ctx": 0.0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.0,
+     "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+    ]
+   ],
+   "status": null,
+   "rank": 46,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 2.7, NYG let 3 of 3 lead RBs reach it.",
+   "news": "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+  },
+  {
+   "game": "GBTB",
+   "glabel": "GB @ TB",
+   "player": "Cade Otton",
+   "team": "TB",
+   "opp": "GB",
+   "pos": "TE",
+   "role": "TE1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 80,
+   "bid": 77,
+   "vals": [
+    3.0,
+    5.0,
+    3.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 3.1,
+   "al": [
+    [
+     1,
+     "MIN",
+     4.0
+    ],
+    [
+     2,
+     "NYJ",
+     2.0
+    ],
+    [
+     3,
+     "ATL",
+     2.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 21,
+   "per": 218.0,
+   "dstat": "pass yds",
+   "p": 83,
+   "roi": 4,
+   "pp": 87,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 35,
+   "vs": 54,
+   "agree": 3,
+   "score": 74.0,
+   "flags": [],
+   "pc": 0.8294,
+   "praw": 0.8294,
+   "rg": "TE",
+   "est": false,
+   "mid": 78.5,
+   "tk": "KXNFLREC-26OCT04GBTB-TBCOTTON88-2",
+   "ev": "KXNFLREC-26OCT04GBTB",
+   "ctx": -0.05,
+   "cxs": 48,
+   "reasons": [
+    [
+     -0.25,
+     "TB projected for only 18 pts (O/U 39.5)"
+    ],
+    [
+     0.2,
+     "Ko Kieft out, more targets to go around"
+    ]
+   ],
+   "status": null,
+   "rank": 47,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 3.1, GB let 3 of 3 TE1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "news": ""
   },
   {
    "game": "GBTB",
@@ -2887,7 +3572,7 @@
    "rks": 35,
    "vs": 49,
    "agree": 3,
-   "score": 74.0,
+   "score": 73.9,
    "flags": [],
    "pc": 0.8399,
    "praw": 0.8399,
@@ -2896,69 +3581,22 @@
    "mid": 83.5,
    "tk": "KXNFLREC-26OCT04GBTB-TBEEGBUKA2-2",
    "ev": "KXNFLREC-26OCT04GBTB",
-   "rank": 47
-  },
-  {
-   "game": "MIAMIN",
-   "glabel": "MIA @ MIN",
-   "player": "Malik Washington",
-   "team": "MIA",
-   "opp": "MIN",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 3,
-   "ask": 79,
-   "bid": 78,
-   "vals": [
-    3.0,
-    4.0,
-    5.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 3.5,
-   "al": [
+   "ctx": -0.05,
+   "cxs": 48,
+   "reasons": [
     [
-     1,
-     "GB",
-     6.0
+     -0.25,
+     "TB projected for only 18 pts (O/U 39.5)"
     ],
     [
-     2,
-     "CHI",
-     5.0
-    ],
-    [
-     3,
-     "TB",
-     5.0
+     0.2,
+     "Ko Kieft out, more targets to go around"
     ]
    ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 7,
-   "per": 265.3,
-   "dstat": "pass yds",
-   "p": 78,
-   "roi": -2,
-   "pp": 74,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 81,
-   "vs": 48,
-   "agree": 3,
-   "score": 73.9,
-   "flags": [],
-   "pc": 0.7755,
-   "praw": 0.7755,
-   "rg": "WR1",
-   "est": false,
-   "mid": 78.5,
-   "tk": "KXNFLREC-26OCT04MIAMIN-MIAMWASHINGTON6-3",
-   "ev": "KXNFLREC-26OCT04MIAMIN",
-   "rank": 48
+   "status": null,
+   "rank": 48,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 3.5, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "news": ""
   },
   {
    "game": "LACSEA",
@@ -3020,69 +3658,90 @@
    "mid": 85.5,
    "tk": "KXNFLRECYDS-26OCT04LACSEA-SEAJSMITHNJIGBA11-50",
    "ev": "KXNFLRECYDS-26OCT04LACSEA",
-   "rank": 49
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "rank": 49,
+   "why": "Cleared 50+ in 3 of 3 games, Sleeper projects 98.3, LAC let 3 of 3 WR1s reach it.",
+   "news": ""
   },
   {
-   "game": "DENSF",
-   "glabel": "DEN @ SF",
-   "player": "Courtland Sutton",
-   "team": "DEN",
-   "opp": "SF",
+   "game": "NYJCHI",
+   "glabel": "NYJ @ CHI",
+   "player": "Kalif Raymond",
+   "team": "CHI",
+   "opp": "NYJ",
    "pos": "WR",
    "role": "WR2",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 84,
-   "bid": 81,
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 25,
+   "ask": 62,
+   "bid": 59,
    "vals": [
-    2.0,
-    3.0,
-    3.0
+    84.0,
+    40.0,
+    90.0
    ],
    "over": 3,
    "n": 3,
-   "proj": 3.3,
+   "proj": 43.6,
    "al": [
     [
      1,
-     "LAR",
-     3.0
+     "TEN",
+     38.0
     ],
     [
      2,
-     "MIA",
-     2.0
+     "GB",
+     41.0
     ],
     [
      3,
-     "ARI",
-     3.0
+     "DET",
+     49.0
     ]
    ],
    "dhit": 3,
    "dn": 3,
-   "most": 22,
-   "per": 215.0,
+   "most": 29,
+   "per": 184.7,
    "dstat": "pass yds",
-   "p": 83,
-   "roi": -1,
-   "pp": 89,
+   "p": 79,
+   "roi": 28,
+   "pp": 79,
    "hs": 80,
    "dhs": 80,
-   "rks": 32,
-   "vs": 49,
+   "rks": 10,
+   "vs": 78,
    "agree": 3,
-   "score": 73.4,
+   "score": 73.5,
    "flags": [],
-   "pc": 0.8342,
-   "praw": 0.8342,
+   "pc": 0.7948,
+   "praw": 0.7948,
    "rg": "WR2",
    "est": false,
-   "mid": 82.5,
-   "tk": "KXNFLREC-26OCT04DENSF-DENCSUTTON14-2",
-   "ev": "KXNFLREC-26OCT04DENSF",
-   "rank": 50
+   "mid": 60.5,
+   "tk": "KXNFLRECYDS-26OCT04NYJCHI-CHIKRAYMOND14-25",
+   "ev": "KXNFLRECYDS-26OCT04NYJCHI",
+   "ctx": 0.08,
+   "cxs": 54,
+   "reasons": [
+    [
+     0.08,
+     "Trending on Sleeper (#25 most added)"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
+    ]
+   ],
+   "status": null,
+   "rank": 50,
+   "why": "Cleared 25+ in 3 of 3 games, Sleeper projects 43.6, NYJ let 3 of 3 WR2s reach it. Trending on Sleeper (#25 most added).",
+   "news": "In the news: \"Fantasy football buzz: How will absence of DeVonta Smith affect other Eagles?\""
   }
  ],
  "rows": 3334,
@@ -3104,7 +3763,7 @@
    "ask": 81,
    "q": 79.5,
    "p": 0.8139,
-   "sc": 77.7,
+   "sc": 78.3,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04NEBUF-NEDMAYE10-175",
    "ev": "KXNFLPASSYDS-26OCT04NEBUF"
@@ -3136,7 +3795,7 @@
    "ask": 58,
    "q": 57.5,
    "p": 0.6487,
-   "sc": 54.1,
+   "sc": 54.0,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-175",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL"
@@ -3152,7 +3811,7 @@
    "ask": 73,
    "q": 72.0,
    "p": 0.7694,
-   "sc": 65.3,
+   "sc": 65.2,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-150",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL"
@@ -3168,7 +3827,7 @@
    "ask": 82,
    "q": 81.5,
    "p": 0.8621,
-   "sc": 78.9,
+   "sc": 78.8,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-125",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL"
@@ -3184,7 +3843,7 @@
    "ask": 46,
    "q": 45.0,
    "p": 0.6735,
-   "sc": 69.9,
+   "sc": 70.1,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04MIAMIN-MIAMWILLIS2-175",
    "ev": "KXNFLPASSYDS-26OCT04MIAMIN"
@@ -3200,7 +3859,7 @@
    "ask": 64,
    "q": 63.0,
    "p": 0.7461,
-   "sc": 69.9,
+   "sc": 70.1,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04MIAMIN-MIAMWILLIS2-150",
    "ev": "KXNFLPASSYDS-26OCT04MIAMIN"
@@ -3216,7 +3875,7 @@
    "ask": 80,
    "q": 77.5,
    "p": 0.8507,
-   "sc": 80.6,
+   "sc": 80.9,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04MIAMIN-MIAMWILLIS2-125",
    "ev": "KXNFLPASSYDS-26OCT04MIAMIN"
@@ -3230,9 +3889,9 @@
    "pr": "Passing Yards",
    "ln": 100,
    "ask": 88,
-   "q": 86.5,
+   "q": 87.0,
    "p": 0.8711,
-   "sc": 80.8,
+   "sc": 81.1,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04MIAMIN-MIAMWILLIS2-100",
    "ev": "KXNFLPASSYDS-26OCT04MIAMIN"
@@ -3357,10 +4016,10 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 200,
-   "ask": 74,
-   "q": 73.0,
+   "ask": 73,
+   "q": 72.5,
    "p": 0.769,
-   "sc": 76.4,
+   "sc": 76.6,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04DETCAR-CARBYOUNG9-200",
    "ev": "KXNFLPASSYDS-26OCT04DETCAR"
@@ -3440,7 +4099,7 @@
    "ask": 39,
    "q": 38.5,
    "p": 0.3931,
-   "sc": 31.5,
+   "sc": 31.9,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-70",
    "ev": "KXNFLRSHYDS-26OCT04INDWAS"
@@ -3456,7 +4115,7 @@
    "ask": 51,
    "q": 50.5,
    "p": 0.501,
-   "sc": 40.5,
+   "sc": 41.0,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-60",
    "ev": "KXNFLRSHYDS-26OCT04INDWAS"
@@ -3472,7 +4131,7 @@
    "ask": 35,
    "q": 33.5,
    "p": 0.4922,
-   "sc": 46.4,
+   "sc": 46.6,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-70",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI"
@@ -3485,10 +4144,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 60,
-   "ask": 48,
-   "q": 47.5,
+   "ask": 49,
+   "q": 48.5,
    "p": 0.6548,
-   "sc": 63.1,
+   "sc": 62.9,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-60",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI"
@@ -3504,7 +4163,7 @@
    "ask": 60,
    "q": 58.5,
    "p": 0.695,
-   "sc": 64.0,
+   "sc": 64.3,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-50",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI"
@@ -3520,7 +4179,7 @@
    "ask": 72,
    "q": 70.5,
    "p": 0.7902,
-   "sc": 76.6,
+   "sc": 77.0,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-40",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI"
@@ -3534,9 +4193,9 @@
    "pr": "Rushing Yards",
    "ln": 30,
    "ask": 84,
-   "q": 82.5,
+   "q": 83.0,
    "p": 0.819,
-   "sc": 76.5,
+   "sc": 76.9,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-30",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI"
@@ -3552,7 +4211,7 @@
    "ask": 39,
    "q": 37.5,
    "p": 0.6769,
-   "sc": 65.5,
+   "sc": 65.1,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-40",
    "ev": "KXNFLRSHYDS-26OCT04NEBUF"
@@ -3565,10 +4224,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 30,
-   "ask": 55,
-   "q": 54.5,
+   "ask": 56,
+   "q": 55.0,
    "p": 0.7272,
-   "sc": 65.9,
+   "sc": 65.2,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-30",
    "ev": "KXNFLRSHYDS-26OCT04NEBUF"
@@ -3584,7 +4243,7 @@
    "ask": 66,
    "q": 63.0,
    "p": 0.7481,
-   "sc": 64.3,
+   "sc": 64.0,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-25",
    "ev": "KXNFLRSHYDS-26OCT04NEBUF"
@@ -3600,7 +4259,7 @@
    "ask": 75,
    "q": 72.0,
    "p": 0.8258,
-   "sc": 76.3,
+   "sc": 75.9,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-20",
    "ev": "KXNFLRSHYDS-26OCT04NEBUF"
@@ -3616,7 +4275,7 @@
    "ask": 82,
    "q": 80.0,
    "p": 0.8402,
-   "sc": 76.0,
+   "sc": 75.6,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-15",
    "ev": "KXNFLRSHYDS-26OCT04NEBUF"
@@ -3632,7 +4291,7 @@
    "ask": 36,
    "q": 35.5,
    "p": 0.64,
-   "sc": 61.6,
+   "sc": 62.2,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04TENBAL-BALLJACKSON8-40",
    "ev": "KXNFLRSHYDS-26OCT04TENBAL"
@@ -3648,7 +4307,7 @@
    "ask": 55,
    "q": 53.0,
    "p": 0.7864,
-   "sc": 74.3,
+   "sc": 75.0,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04TENBAL-BALLJACKSON8-30",
    "ev": "KXNFLRSHYDS-26OCT04TENBAL"
@@ -3662,9 +4321,9 @@
    "pr": "Rushing Yards",
    "ln": 25,
    "ask": 65,
-   "q": 62.0,
+   "q": 61.0,
    "p": 0.8103,
-   "sc": 72.4,
+   "sc": 73.1,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04TENBAL-BALLJACKSON8-25",
    "ev": "KXNFLRSHYDS-26OCT04TENBAL"
@@ -3680,7 +4339,7 @@
    "ask": 73,
    "q": 71.5,
    "p": 0.8311,
-   "sc": 71.6,
+   "sc": 72.3,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04TENBAL-BALLJACKSON8-20",
    "ev": "KXNFLRSHYDS-26OCT04TENBAL"
@@ -3693,10 +4352,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 15,
-   "ask": 82,
-   "q": 80.0,
+   "ask": 83,
+   "q": 80.5,
    "p": 0.8487,
-   "sc": 70.7,
+   "sc": 71.2,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04TENBAL-BALLJACKSON8-15",
    "ev": "KXNFLRSHYDS-26OCT04TENBAL"
@@ -3712,7 +4371,7 @@
    "ask": 40,
    "q": 39.5,
    "p": 0.3803,
-   "sc": 29.7,
+   "sc": 29.8,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04DENSF-SFKBLACK26-30",
    "ev": "KXNFLRSHYDS-26OCT04DENSF"
@@ -3728,7 +4387,7 @@
    "ask": 47,
    "q": 46.5,
    "p": 0.4886,
-   "sc": 41.3,
+   "sc": 41.5,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04DENSF-SFKBLACK26-25",
    "ev": "KXNFLRSHYDS-26OCT04DENSF"
@@ -3744,7 +4403,7 @@
    "ask": 59,
    "q": 58.0,
    "p": 0.5926,
-   "sc": 49.3,
+   "sc": 49.5,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04DENSF-SFKBLACK26-20",
    "ev": "KXNFLRSHYDS-26OCT04DENSF"
@@ -3760,7 +4419,7 @@
    "ask": 70,
    "q": 69.5,
    "p": 0.749,
-   "sc": 69.7,
+   "sc": 70.1,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04DENSF-SFKBLACK26-15",
    "ev": "KXNFLRSHYDS-26OCT04DENSF"
@@ -3776,7 +4435,7 @@
    "ask": 82,
    "q": 81.0,
    "p": 0.8365,
-   "sc": 80.2,
+   "sc": 80.5,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04DENSF-SFKBLACK26-10",
    "ev": "KXNFLRSHYDS-26OCT04DENSF"
@@ -3837,12 +4496,92 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 57,
-   "q": 56.0,
+   "ask": 56,
+   "q": 55.5,
    "p": 0.8051,
-   "sc": 84.6,
+   "sc": 85.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04INDWAS-WASAWILLIAMS14-15",
+   "ev": "KXNFLRECYDS-26OCT04INDWAS"
+  },
+  {
+   "pl": "Stefon Diggs",
+   "tm": "WAS",
+   "g": "INDWAS",
+   "gl": "IND @ WAS",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 60,
+   "ask": 35,
+   "q": 34.0,
+   "p": 0.3765,
+   "sc": 29.6,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04INDWAS-WASSDIGGS3-60",
+   "ev": "KXNFLRECYDS-26OCT04INDWAS"
+  },
+  {
+   "pl": "Stefon Diggs",
+   "tm": "WAS",
+   "g": "INDWAS",
+   "gl": "IND @ WAS",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 50,
+   "ask": 49,
+   "q": 48.5,
+   "p": 0.5453,
+   "sc": 46.3,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04INDWAS-WASSDIGGS3-50",
+   "ev": "KXNFLRECYDS-26OCT04INDWAS"
+  },
+  {
+   "pl": "Stefon Diggs",
+   "tm": "WAS",
+   "g": "INDWAS",
+   "gl": "IND @ WAS",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 40,
+   "ask": 63,
+   "q": 61.0,
+   "p": 0.6499,
+   "sc": 56.0,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04INDWAS-WASSDIGGS3-40",
+   "ev": "KXNFLRECYDS-26OCT04INDWAS"
+  },
+  {
+   "pl": "Stefon Diggs",
+   "tm": "WAS",
+   "g": "INDWAS",
+   "gl": "IND @ WAS",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 25,
+   "ask": 76,
+   "q": 74.5,
+   "p": 0.7622,
+   "sc": 69.5,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04INDWAS-WASSDIGGS3-25",
+   "ev": "KXNFLRECYDS-26OCT04INDWAS"
+  },
+  {
+   "pl": "Stefon Diggs",
+   "tm": "WAS",
+   "g": "INDWAS",
+   "gl": "IND @ WAS",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 15,
+   "ask": 87,
+   "q": 85.5,
+   "p": 0.8459,
+   "sc": 80.0,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04INDWAS-WASSDIGGS3-15",
    "ev": "KXNFLRECYDS-26OCT04INDWAS"
   },
   {
@@ -3856,7 +4595,7 @@
    "ask": 41,
    "q": 39.5,
    "p": 0.5586,
-   "sc": 51.9,
+   "sc": 52.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-25",
    "ev": "KXNFLRECYDS-26OCT04ARINYG"
@@ -3869,10 +4608,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 58,
-   "q": 57.0,
+   "ask": 59,
+   "q": 57.5,
    "p": 0.7878,
-   "sc": 80.2,
+   "sc": 80.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-15",
    "ev": "KXNFLRECYDS-26OCT04ARINYG"
@@ -3888,7 +4627,7 @@
    "ask": 49,
    "q": 48.0,
    "p": 0.4912,
-   "sc": 40.2,
+   "sc": 40.4,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGMFIELDS88-25",
    "ev": "KXNFLRECYDS-26OCT04ARINYG"
@@ -3904,7 +4643,7 @@
    "ask": 63,
    "q": 62.5,
    "p": 0.7844,
-   "sc": 78.1,
+   "sc": 78.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGMFIELDS88-15",
    "ev": "KXNFLRECYDS-26OCT04ARINYG"
@@ -3920,7 +4659,7 @@
    "ask": 51,
    "q": 50.5,
    "p": 0.6326,
-   "sc": 51.7,
+   "sc": 52.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-HOUKBOUTTE14-25",
    "ev": "KXNFLRECYDS-26OCT04DALHOU"
@@ -3934,9 +4673,9 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 67,
-   "q": 64.5,
+   "q": 65.0,
    "p": 0.8186,
-   "sc": 75.6,
+   "sc": 76.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-HOUKBOUTTE14-15",
    "ev": "KXNFLRECYDS-26OCT04DALHOU"
@@ -3952,7 +4691,7 @@
    "ask": 38,
    "q": 36.5,
    "p": 0.5532,
-   "sc": 53.5,
+   "sc": 53.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-90",
    "ev": "KXNFLRECYDS-26OCT04DALHOU"
@@ -3968,7 +4707,7 @@
    "ask": 44,
    "q": 43.5,
    "p": 0.5863,
-   "sc": 53.7,
+   "sc": 54.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-80",
    "ev": "KXNFLRECYDS-26OCT04DALHOU"
@@ -3984,7 +4723,7 @@
    "ask": 56,
    "q": 54.5,
    "p": 0.6782,
-   "sc": 63.7,
+   "sc": 64.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-70",
    "ev": "KXNFLRECYDS-26OCT04DALHOU"
@@ -3998,9 +4737,9 @@
    "pr": "Receiving Yards",
    "ln": 60,
    "ask": 64,
-   "q": 63.0,
+   "q": 62.5,
    "p": 0.7078,
-   "sc": 64.0,
+   "sc": 64.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-60",
    "ev": "KXNFLRECYDS-26OCT04DALHOU"
@@ -4016,7 +4755,7 @@
    "ask": 75,
    "q": 74.0,
    "p": 0.734,
-   "sc": 63.7,
+   "sc": 64.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-50",
    "ev": "KXNFLRECYDS-26OCT04DALHOU"
@@ -4032,7 +4771,7 @@
    "ask": 84,
    "q": 83.0,
    "p": 0.8162,
-   "sc": 76.3,
+   "sc": 76.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-40",
    "ev": "KXNFLRECYDS-26OCT04DALHOU"
@@ -4045,10 +4784,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 50,
-   "ask": 38,
+   "ask": 37,
    "q": 36.5,
    "p": 0.6194,
-   "sc": 59.0,
+   "sc": 58.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-TBEEGBUKA2-50",
    "ev": "KXNFLRECYDS-26OCT04GBTB"
@@ -4064,7 +4803,7 @@
    "ask": 49,
    "q": 48.0,
    "p": 0.6769,
-   "sc": 62.4,
+   "sc": 62.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-TBEEGBUKA2-40",
    "ev": "KXNFLRECYDS-26OCT04GBTB"
@@ -4080,7 +4819,7 @@
    "ask": 68,
    "q": 67.5,
    "p": 0.7481,
-   "sc": 62.6,
+   "sc": 62.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-TBEEGBUKA2-25",
    "ev": "KXNFLRECYDS-26OCT04GBTB"
@@ -4096,7 +4835,7 @@
    "ask": 82,
    "q": 81.5,
    "p": 0.8402,
-   "sc": 74.7,
+   "sc": 74.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-TBEEGBUKA2-15",
    "ev": "KXNFLRECYDS-26OCT04GBTB"
@@ -4112,7 +4851,7 @@
    "ask": 46,
    "q": 45.0,
    "p": 0.4709,
-   "sc": 35.6,
+   "sc": 35.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACBSTRANGE85-40",
    "ev": "KXNFLRECYDS-26OCT04JACCIN"
@@ -4125,10 +4864,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 68,
-   "q": 66.5,
+   "ask": 69,
+   "q": 67.0,
    "p": 0.6766,
-   "sc": 56.2,
+   "sc": 56.4,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACBSTRANGE85-25",
    "ev": "KXNFLRECYDS-26OCT04JACCIN"
@@ -4144,7 +4883,7 @@
    "ask": 81,
    "q": 80.5,
    "p": 0.8357,
-   "sc": 80.0,
+   "sc": 80.4,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACBSTRANGE85-15",
    "ev": "KXNFLRECYDS-26OCT04JACCIN"
@@ -4160,7 +4899,7 @@
    "ask": 38,
    "q": 36.5,
    "p": 0.377,
-   "sc": 29.8,
+   "sc": 30.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACJMEYERS3-50",
    "ev": "KXNFLRECYDS-26OCT04JACCIN"
@@ -4173,8 +4912,8 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 51,
-   "q": 50.0,
+   "ask": 52,
+   "q": 50.5,
    "p": 0.5551,
    "sc": 48.0,
    "est": 0,
@@ -4192,7 +4931,7 @@
    "ask": 73,
    "q": 72.5,
    "p": 0.8073,
-   "sc": 79.2,
+   "sc": 79.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACJMEYERS3-25",
    "ev": "KXNFLRECYDS-26OCT04JACCIN"
@@ -4205,10 +4944,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 86,
-   "q": 84.5,
+   "ask": 87,
+   "q": 85.0,
    "p": 0.8399,
-   "sc": 79.3,
+   "sc": 79.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACJMEYERS3-15",
    "ev": "KXNFLRECYDS-26OCT04JACCIN"
@@ -4221,10 +4960,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 80,
-   "ask": 35,
-   "q": 33.5,
+   "ask": 36,
+   "q": 34.0,
    "p": 0.5611,
-   "sc": 53.8,
+   "sc": 54.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-80",
    "ev": "KXNFLRECYDS-26OCT04JACCIN"
@@ -4240,7 +4979,7 @@
    "ask": 44,
    "q": 43.0,
    "p": 0.5971,
-   "sc": 53.9,
+   "sc": 54.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-70",
    "ev": "KXNFLRECYDS-26OCT04JACCIN"
@@ -4256,7 +4995,7 @@
    "ask": 53,
    "q": 52.5,
    "p": 0.6312,
-   "sc": 55.0,
+   "sc": 56.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-60",
    "ev": "KXNFLRECYDS-26OCT04JACCIN"
@@ -4272,7 +5011,7 @@
    "ask": 64,
    "q": 62.5,
    "p": 0.782,
-   "sc": 77.2,
+   "sc": 78.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-50",
    "ev": "KXNFLRECYDS-26OCT04JACCIN"
@@ -4288,154 +5027,154 @@
    "ask": 74,
    "q": 72.5,
    "p": 0.8083,
-   "sc": 76.8,
+   "sc": 78.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-40",
    "ev": "KXNFLRECYDS-26OCT04JACCIN"
   },
   {
-   "pl": "Mack Hollins",
-   "tm": "NE",
-   "g": "NEBUF",
-   "gl": "NE @ BUF",
+   "pl": "Garrett Wilson",
+   "tm": "NYJ",
+   "g": "NYJCHI",
+   "gl": "NYJ @ CHI",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 90,
+   "ask": 37,
+   "q": 35.5,
+   "p": 0.433,
+   "sc": 33.8,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04NYJCHI-NYJGWILSON5-90",
+   "ev": "KXNFLRECYDS-26OCT04NYJCHI"
+  },
+  {
+   "pl": "Garrett Wilson",
+   "tm": "NYJ",
+   "g": "NYJCHI",
+   "gl": "NYJ @ CHI",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 80,
+   "ask": 45,
+   "q": 44.0,
+   "p": 0.4661,
+   "sc": 33.8,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04NYJCHI-NYJGWILSON5-80",
+   "ev": "KXNFLRECYDS-26OCT04NYJCHI"
+  },
+  {
+   "pl": "Garrett Wilson",
+   "tm": "NYJ",
+   "g": "NYJCHI",
+   "gl": "NYJ @ CHI",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 70,
+   "ask": 55,
+   "q": 54.5,
+   "p": 0.5581,
+   "sc": 43.8,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04NYJCHI-NYJGWILSON5-70",
+   "ev": "KXNFLRECYDS-26OCT04NYJCHI"
+  },
+  {
+   "pl": "Garrett Wilson",
+   "tm": "NYJ",
+   "g": "NYJCHI",
+   "gl": "NYJ @ CHI",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 60,
+   "ask": 64,
+   "q": 63.5,
+   "p": 0.6477,
+   "sc": 51.8,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04NYJCHI-NYJGWILSON5-60",
+   "ev": "KXNFLRECYDS-26OCT04NYJCHI"
+  },
+  {
+   "pl": "Garrett Wilson",
+   "tm": "NYJ",
+   "g": "NYJCHI",
+   "gl": "NYJ @ CHI",
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 50,
-   "ask": 42,
-   "q": 40.5,
-   "p": 0.5295,
-   "sc": 50.0,
+   "ask": 74,
+   "q": 73.0,
+   "p": 0.7939,
+   "sc": 74.0,
    "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-50",
-   "ev": "KXNFLRECYDS-26OCT04NEBUF"
+   "tk": "KXNFLRECYDS-26OCT04NYJCHI-NYJGWILSON5-50",
+   "ev": "KXNFLRECYDS-26OCT04NYJCHI"
   },
   {
-   "pl": "Mack Hollins",
-   "tm": "NE",
-   "g": "NEBUF",
-   "gl": "NE @ BUF",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 45,
-   "ask": 48,
-   "q": 47.5,
-   "p": 0.5617,
-   "sc": 50.7,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-45",
-   "ev": "KXNFLRECYDS-26OCT04NEBUF"
-  },
-  {
-   "pl": "Mack Hollins",
-   "tm": "NE",
-   "g": "NEBUF",
-   "gl": "NE @ BUF",
+   "pl": "Garrett Wilson",
+   "tm": "NYJ",
+   "g": "NYJCHI",
+   "gl": "NYJ @ CHI",
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 55,
-   "q": 53.0,
-   "p": 0.5939,
-   "sc": 51.3,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-40",
-   "ev": "KXNFLRECYDS-26OCT04NEBUF"
-  },
-  {
-   "pl": "Mack Hollins",
-   "tm": "NE",
-   "g": "NEBUF",
-   "gl": "NE @ BUF",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 25,
-   "ask": 76,
-   "q": 72.5,
-   "p": 0.7379,
-   "sc": 64.7,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-25",
-   "ev": "KXNFLRECYDS-26OCT04NEBUF"
-  },
-  {
-   "pl": "Mack Hollins",
-   "tm": "NE",
-   "g": "NEBUF",
-   "gl": "NE @ BUF",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 15,
-   "ask": 85,
+   "ask": 83,
    "q": 82.5,
-   "p": 0.8362,
-   "sc": 78.9,
+   "p": 0.8162,
+   "sc": 74.1,
    "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-15",
-   "ev": "KXNFLRECYDS-26OCT04NEBUF"
+   "tk": "KXNFLRECYDS-26OCT04NYJCHI-NYJGWILSON5-40",
+   "ev": "KXNFLRECYDS-26OCT04NYJCHI"
   },
   {
-   "pl": "Carnell Tate",
-   "tm": "TEN",
-   "g": "TENBAL",
-   "gl": "TEN @ BAL",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 50,
-   "ask": 41,
-   "q": 39.0,
-   "p": 0.5489,
-   "sc": 49.5,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-50",
-   "ev": "KXNFLRECYDS-26OCT04TENBAL"
-  },
-  {
-   "pl": "Carnell Tate",
-   "tm": "TEN",
-   "g": "TENBAL",
-   "gl": "TEN @ BAL",
+   "pl": "Kalif Raymond",
+   "tm": "CHI",
+   "g": "NYJCHI",
+   "gl": "NYJ @ CHI",
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 55,
-   "q": 53.5,
-   "p": 0.6089,
-   "sc": 51.1,
+   "ask": 39,
+   "q": 38.0,
+   "p": 0.6471,
+   "sc": 60.5,
    "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-40",
-   "ev": "KXNFLRECYDS-26OCT04TENBAL"
+   "tk": "KXNFLRECYDS-26OCT04NYJCHI-CHIKRAYMOND14-40",
+   "ev": "KXNFLRECYDS-26OCT04NYJCHI"
   },
   {
-   "pl": "Carnell Tate",
-   "tm": "TEN",
-   "g": "TENBAL",
-   "gl": "TEN @ BAL",
+   "pl": "Kalif Raymond",
+   "tm": "CHI",
+   "g": "NYJCHI",
+   "gl": "NYJ @ CHI",
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 73,
-   "q": 70.5,
-   "p": 0.8046,
-   "sc": 75.8,
+   "ask": 62,
+   "q": 60.5,
+   "p": 0.7948,
+   "sc": 73.5,
    "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-25",
-   "ev": "KXNFLRECYDS-26OCT04TENBAL"
+   "tk": "KXNFLRECYDS-26OCT04NYJCHI-CHIKRAYMOND14-25",
+   "ev": "KXNFLRECYDS-26OCT04NYJCHI"
   },
   {
-   "pl": "Carnell Tate",
-   "tm": "TEN",
-   "g": "TENBAL",
-   "gl": "TEN @ BAL",
+   "pl": "Kalif Raymond",
+   "tm": "CHI",
+   "g": "NYJCHI",
+   "gl": "NYJ @ CHI",
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 85,
-   "q": 84.5,
-   "p": 0.8388,
-   "sc": 76.2,
+   "ask": 77,
+   "q": 76.5,
+   "p": 0.835,
+   "sc": 73.0,
    "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-15",
-   "ev": "KXNFLRECYDS-26OCT04TENBAL"
+   "tk": "KXNFLRECYDS-26OCT04NYJCHI-CHIKRAYMOND14-15",
+   "ev": "KXNFLRECYDS-26OCT04NYJCHI"
   },
   {
    "pl": "Malik Washington",
@@ -4448,7 +5187,7 @@
    "ask": 36,
    "q": 35.5,
    "p": 0.4781,
-   "sc": 47.3,
+   "sc": 48.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04MIAMIN-MIAMWASHINGTON6-50",
    "ev": "KXNFLRECYDS-26OCT04MIAMIN"
@@ -4464,7 +5203,7 @@
    "ask": 50,
    "q": 49.5,
    "p": 0.6701,
-   "sc": 71.0,
+   "sc": 72.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04MIAMIN-MIAMWASHINGTON6-40",
    "ev": "KXNFLRECYDS-26OCT04MIAMIN"
@@ -4480,7 +5219,7 @@
    "ask": 72,
    "q": 70.5,
    "p": 0.7771,
-   "sc": 75.7,
+   "sc": 76.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04MIAMIN-MIAMWASHINGTON6-25",
    "ev": "KXNFLRECYDS-26OCT04MIAMIN"
@@ -4496,7 +5235,7 @@
    "ask": 83,
    "q": 82.5,
    "p": 0.8281,
-   "sc": 77.9,
+   "sc": 79.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04MIAMIN-MIAMWASHINGTON6-15",
    "ev": "KXNFLRECYDS-26OCT04MIAMIN"
@@ -4640,7 +5379,7 @@
    "ask": 58,
    "q": 57.5,
    "p": 0.7636,
-   "sc": 80.7,
+   "sc": 81.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DETCAR-CARDWALLER88-25",
    "ev": "KXNFLRECYDS-26OCT04DETCAR"
@@ -4656,7 +5395,7 @@
    "ask": 71,
    "q": 69.5,
    "p": 0.8229,
-   "sc": 82.2,
+   "sc": 83.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DETCAR-CARDWALLER88-15",
    "ev": "KXNFLRECYDS-26OCT04DETCAR"
@@ -4733,10 +5472,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 50,
-   "ask": 45,
-   "q": 43.5,
+   "ask": 46,
+   "q": 44.0,
    "p": 0.5438,
-   "sc": 49.8,
+   "sc": 49.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NODVELE14-50",
    "ev": "KXNFLRECYDS-26OCT05ATLNO"
@@ -4861,10 +5600,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 100,
-   "ask": 39,
-   "q": 37.0,
+   "ask": 38,
+   "q": 36.5,
    "p": 0.5278,
-   "sc": 51.0,
+   "sc": 51.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-100",
    "ev": "KXNFLRECYDS-26OCT05ATLNO"
@@ -4928,7 +5667,7 @@
    "ask": 51,
    "q": 50.5,
    "p": 0.572,
-   "sc": 49.7,
+   "sc": 50.0,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALJWILLIAMS33-3",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -4944,7 +5683,7 @@
    "ask": 76,
    "q": 75.0,
    "p": 0.8073,
-   "sc": 77.2,
+   "sc": 77.7,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALJWILLIAMS33-2",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -4960,7 +5699,7 @@
    "ask": 45,
    "q": 44.5,
    "p": 0.5089,
-   "sc": 41.9,
+   "sc": 42.2,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALJFERGUSON87-4",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -4976,7 +5715,7 @@
    "ask": 67,
    "q": 66.0,
    "p": 0.66,
-   "sc": 54.5,
+   "sc": 54.8,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALJFERGUSON87-3",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -4992,7 +5731,7 @@
    "ask": 85,
    "q": 83.5,
    "p": 0.8408,
-   "sc": 78.3,
+   "sc": 78.8,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALJFERGUSON87-2",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -5008,7 +5747,7 @@
    "ask": 38,
    "q": 37.5,
    "p": 0.4108,
-   "sc": 35.1,
+   "sc": 35.3,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALGPICKENS3-6",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -5024,7 +5763,7 @@
    "ask": 55,
    "q": 54.5,
    "p": 0.6001,
-   "sc": 52.4,
+   "sc": 52.7,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALGPICKENS3-5",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -5040,7 +5779,7 @@
    "ask": 74,
    "q": 72.0,
    "p": 0.7221,
-   "sc": 62.8,
+   "sc": 63.2,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALGPICKENS3-4",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -5056,7 +5795,7 @@
    "ask": 39,
    "q": 38.5,
    "p": 0.4694,
-   "sc": 42.3,
+   "sc": 42.5,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALCLAMB88-7",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -5072,7 +5811,7 @@
    "ask": 54,
    "q": 53.5,
    "p": 0.5883,
-   "sc": 50.2,
+   "sc": 50.5,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALCLAMB88-6",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -5088,7 +5827,7 @@
    "ask": 71,
    "q": 69.5,
    "p": 0.7635,
-   "sc": 74.4,
+   "sc": 74.8,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALCLAMB88-5",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -5104,7 +5843,7 @@
    "ask": 83,
    "q": 81.5,
    "p": 0.8087,
-   "sc": 75.8,
+   "sc": 76.3,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALCLAMB88-4",
    "ev": "KXNFLREC-26OCT04DALHOU"
@@ -5120,7 +5859,7 @@
    "ask": 46,
    "q": 45.5,
    "p": 0.624,
-   "sc": 57.1,
+   "sc": 57.0,
    "est": 0,
    "tk": "KXNFLREC-26OCT04GBTB-TBEEGBUKA2-4",
    "ev": "KXNFLREC-26OCT04GBTB"
@@ -5136,7 +5875,7 @@
    "ask": 68,
    "q": 66.5,
    "p": 0.7772,
-   "sc": 72.3,
+   "sc": 72.1,
    "est": 0,
    "tk": "KXNFLREC-26OCT04GBTB-TBEEGBUKA2-3",
    "ev": "KXNFLREC-26OCT04GBTB"
@@ -5152,7 +5891,7 @@
    "ask": 85,
    "q": 83.5,
    "p": 0.8399,
-   "sc": 74.0,
+   "sc": 73.9,
    "est": 0,
    "tk": "KXNFLREC-26OCT04GBTB-TBEEGBUKA2-2",
    "ev": "KXNFLREC-26OCT04GBTB"
@@ -5184,7 +5923,7 @@
    "ask": 58,
    "q": 57.5,
    "p": 0.6257,
-   "sc": 53.4,
+   "sc": 53.3,
    "est": 0,
    "tk": "KXNFLREC-26OCT04GBTB-TBCOTTON88-3",
    "ev": "KXNFLREC-26OCT04GBTB"
@@ -5200,7 +5939,7 @@
    "ask": 80,
    "q": 78.5,
    "p": 0.8294,
-   "sc": 74.1,
+   "sc": 74.0,
    "est": 0,
    "tk": "KXNFLREC-26OCT04GBTB-TBCOTTON88-2",
    "ev": "KXNFLREC-26OCT04GBTB"
@@ -5216,7 +5955,7 @@
    "ask": 67,
    "q": 66.0,
    "p": 0.6643,
-   "sc": 55.5,
+   "sc": 55.8,
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-JACBSTRANGE85-3",
    "ev": "KXNFLREC-26OCT04JACCIN"
@@ -5232,7 +5971,7 @@
    "ask": 85,
    "q": 84.0,
    "p": 0.8422,
-   "sc": 79.7,
+   "sc": 80.2,
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-JACBSTRANGE85-2",
    "ev": "KXNFLREC-26OCT04JACCIN"
@@ -5248,7 +5987,7 @@
    "ask": 49,
    "q": 48.0,
    "p": 0.5894,
-   "sc": 51.1,
+   "sc": 52.1,
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINTHIGGINS5-5",
    "ev": "KXNFLREC-26OCT04JACCIN"
@@ -5261,10 +6000,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 4,
-   "ask": 67,
-   "q": 65.5,
+   "ask": 68,
+   "q": 66.0,
    "p": 0.7153,
-   "sc": 63.0,
+   "sc": 63.8,
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINTHIGGINS5-4",
    "ev": "KXNFLREC-26OCT04JACCIN"
@@ -5280,7 +6019,7 @@
    "ask": 82,
    "q": 81.0,
    "p": 0.8249,
-   "sc": 76.5,
+   "sc": 77.9,
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINTHIGGINS5-3",
    "ev": "KXNFLREC-26OCT04JACCIN"
@@ -5296,7 +6035,7 @@
    "ask": 44,
    "q": 43.5,
    "p": 0.4184,
-   "sc": 29.8,
+   "sc": 30.1,
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINCBROWN30-4",
    "ev": "KXNFLREC-26OCT04JACCIN"
@@ -5309,10 +6048,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 3,
-   "ask": 64,
-   "q": 63.5,
+   "ask": 65,
+   "q": 64.0,
    "p": 0.7363,
-   "sc": 65.6,
+   "sc": 66.0,
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINCBROWN30-3",
    "ev": "KXNFLREC-26OCT04JACCIN"
@@ -5328,7 +6067,7 @@
    "ask": 84,
    "q": 82.5,
    "p": 0.8461,
-   "sc": 78.0,
+   "sc": 78.8,
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINCBROWN30-2",
    "ev": "KXNFLREC-26OCT04JACCIN"
@@ -5344,7 +6083,7 @@
    "ask": 51,
    "q": 50.5,
    "p": 0.4969,
-   "sc": 41.5,
+   "sc": 41.8,
    "est": 0,
    "tk": "KXNFLREC-26OCT04NEBUF-NEMHOLLINS13-4",
    "ev": "KXNFLREC-26OCT04NEBUF"
@@ -5357,10 +6096,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 4,
-   "ask": 36,
-   "q": 34.5,
+   "ask": 35,
+   "q": 34.0,
    "p": 0.44,
-   "sc": 35.6,
+   "sc": 35.9,
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-4",
    "ev": "KXNFLREC-26OCT04TENBAL"
@@ -5376,7 +6115,7 @@
    "ask": 56,
    "q": 55.5,
    "p": 0.6549,
-   "sc": 54.7,
+   "sc": 54.6,
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-3",
    "ev": "KXNFLREC-26OCT04TENBAL"
@@ -5392,7 +6131,7 @@
    "ask": 79,
    "q": 77.0,
    "p": 0.8392,
-   "sc": 77.5,
+   "sc": 77.4,
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-2",
    "ev": "KXNFLREC-26OCT04TENBAL"
@@ -5408,7 +6147,7 @@
    "ask": 45,
    "q": 44.5,
    "p": 0.5452,
-   "sc": 47.5,
+   "sc": 47.4,
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-5",
    "ev": "KXNFLREC-26OCT04TENBAL"
@@ -5424,7 +6163,7 @@
    "ask": 65,
    "q": 64.0,
    "p": 0.6854,
-   "sc": 59.9,
+   "sc": 59.8,
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-4",
    "ev": "KXNFLREC-26OCT04TENBAL"
@@ -5440,7 +6179,7 @@
    "ask": 82,
    "q": 80.0,
    "p": 0.8102,
-   "sc": 74.2,
+   "sc": 74.1,
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-3",
    "ev": "KXNFLREC-26OCT04TENBAL"
@@ -5453,10 +6192,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 5,
-   "ask": 47,
-   "q": 46.0,
+   "ask": 46,
+   "q": 45.0,
    "p": 0.4662,
-   "sc": 41.6,
+   "sc": 42.5,
    "est": 0,
    "tk": "KXNFLREC-26OCT04MIAMIN-MIAMWASHINGTON6-5",
    "ev": "KXNFLREC-26OCT04MIAMIN"
@@ -5472,7 +6211,7 @@
    "ask": 63,
    "q": 62.5,
    "p": 0.621,
-   "sc": 55.3,
+   "sc": 56.1,
    "est": 0,
    "tk": "KXNFLREC-26OCT04MIAMIN-MIAMWASHINGTON6-4",
    "ev": "KXNFLREC-26OCT04MIAMIN"
@@ -5485,45 +6224,13 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 3,
-   "ask": 79,
-   "q": 78.5,
+   "ask": 80,
+   "q": 79.0,
    "p": 0.7755,
-   "sc": 73.9,
+   "sc": 74.8,
    "est": 0,
    "tk": "KXNFLREC-26OCT04MIAMIN-MIAMWASHINGTON6-3",
    "ev": "KXNFLREC-26OCT04MIAMIN"
-  },
-  {
-   "pl": "Courtland Sutton",
-   "tm": "DEN",
-   "g": "DENSF",
-   "gl": "DEN @ SF",
-   "st": "rec",
-   "pr": "Receptions",
-   "ln": 3,
-   "ask": 66,
-   "q": 64.5,
-   "p": 0.6398,
-   "sc": 49.1,
-   "est": 0,
-   "tk": "KXNFLREC-26OCT04DENSF-DENCSUTTON14-3",
-   "ev": "KXNFLREC-26OCT04DENSF"
-  },
-  {
-   "pl": "Courtland Sutton",
-   "tm": "DEN",
-   "g": "DENSF",
-   "gl": "DEN @ SF",
-   "st": "rec",
-   "pr": "Receptions",
-   "ln": 2,
-   "ask": 84,
-   "q": 82.5,
-   "p": 0.8342,
-   "sc": 73.4,
-   "est": 0,
-   "tk": "KXNFLREC-26OCT04DENSF-DENCSUTTON14-2",
-   "ev": "KXNFLREC-26OCT04DENSF"
   },
   {
    "pl": "Kenneth Walker",
@@ -5533,10 +6240,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 4,
-   "ask": 38,
-   "q": 37.0,
+   "ask": 37,
+   "q": 36.5,
    "p": 0.4882,
-   "sc": 39.1,
+   "sc": 39.6,
    "est": 0,
    "tk": "KXNFLREC-26OCT04KCLV-KCKWALKER9-4",
    "ev": "KXNFLREC-26OCT04KCLV"
@@ -5565,10 +6272,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 2,
-   "ask": 80,
-   "q": 79.0,
+   "ask": 79,
+   "q": 78.5,
    "p": 0.8478,
-   "sc": 76.8,
+   "sc": 77.0,
    "est": 0,
    "tk": "KXNFLREC-26OCT04KCLV-KCKWALKER9-2",
    "ev": "KXNFLREC-26OCT04KCLV"
@@ -5584,7 +6291,7 @@
    "ask": 41,
    "q": 40.5,
    "p": 0.5528,
-   "sc": 53.4,
+   "sc": 54.0,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DETCAR-CARDWALLER88-4",
    "ev": "KXNFLREC-26OCT04DETCAR"
@@ -5600,7 +6307,7 @@
    "ask": 60,
    "q": 59.0,
    "p": 0.7106,
-   "sc": 67.4,
+   "sc": 68.2,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DETCAR-CARDWALLER88-3",
    "ev": "KXNFLREC-26OCT04DETCAR"
@@ -5613,10 +6320,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 2,
-   "ask": 81,
-   "q": 79.0,
+   "ask": 80,
+   "q": 78.5,
    "p": 0.8378,
-   "sc": 81.1,
+   "sc": 82.3,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DETCAR-CARDWALLER88-2",
    "ev": "KXNFLREC-26OCT04DETCAR"
@@ -5761,7 +6468,7 @@
    2,
    3
   ],
-  "generated": "2026-10-02T21:27:22-07:00",
+  "generated": "2026-10-02T21:53:32-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 4 \u00b7 Sun Oct 4 \u2013 Mon Oct 5",
@@ -5782,80 +6489,106 @@
    "TEN @ BAL",
    "ATL @ NO (Mon)"
   ],
+  "ctx_sources": {
+   "lines": "15 games",
+   "weather": "10 outdoor games",
+   "injuries": "147 players listed",
+   "news": "68 players in headlines",
+   "sleeper_trending": "41 board players trending",
+   "reddit": "unavailable"
+  },
   "ovr_note": ""
  },
  "kalshi": {
   "status": "ok",
   "K": {
-   "b": -0.0107,
-   "k": 0.0291,
+   "b": -0.0208,
+   "k": 0.029,
    "s": 0.04,
-   "n": 55
+   "n": 115
   },
   "quoted": [
    {
-    "key": "Darren Waller~recyds~15|Lamar Jackson~rush~30",
-    "price": 0.387,
-    "src": "quote",
-    "nq": 9
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Kayshon Boutte~recyds~15",
-    "price": 0.379,
+    "key": "Antonio Williams~recyds~15|Juwan Johnson~rec~3",
+    "price": 0.382,
     "src": "quote",
     "nq": 5
    },
    {
-    "key": "Darnell Mooney~recyds~15|Kayshon Boutte~recyds~15",
-    "price": 0.385,
-    "src": "quote",
-    "nq": 7
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Emeka Egbuka~rec~3",
-    "price": 0.377,
-    "src": "quote",
-    "nq": 7
-   },
-   {
-    "key": "Juwan Johnson~rec~3|Lamar Jackson~rush~30",
-    "price": 0.377,
-    "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Lamar Jackson~rush~30",
-    "price": 0.311,
-    "src": "quote",
-    "nq": 8
-   },
-   {
-    "key": "Darnell Mooney~recyds~15|Lamar Jackson~rush~30",
-    "price": 0.316,
-    "src": "quote",
-    "nq": 12
-   },
-   {
-    "key": "Cam Ward~pass~125|Rhamondre Stevenson~rush~40",
-    "price": 0.306,
+    "key": "Juwan Johnson~recyds~25|Lamar Jackson~rush~30",
+    "price": 0.382,
     "src": "quote",
     "nq": 10
    },
    {
-    "key": "Darren Waller~recyds~25|Lamar Jackson~rush~30",
-    "price": 0.309,
+    "key": "Lamar Jackson~rush~25|Malachi Fields~recyds~15",
+    "price": 0.391,
     "src": "quote",
-    "nq": 12
+    "nq": 10
    },
    {
-    "key": "Chase Brown~rec~2|Rhamondre Stevenson~rush~40",
-    "price": 0.314,
+    "key": "Darnell Mooney~recyds~15|Kayshon Boutte~recyds~15",
+    "price": 0.38,
     "src": "quote",
-    "nq": 6
+    "nq": 10
+   },
+   {
+    "key": "Lamar Jackson~rush~25|Tee Higgins~recyds~50",
+    "price": 0.41,
+    "src": "quote",
+    "nq": 9
+   },
+   {
+    "key": "Darnell Mooney~recyds~15|Lamar Jackson~rush~30",
+    "price": 0.31,
+    "src": "quote",
+    "nq": 13
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Lamar Jackson~rush~30",
+    "price": 0.298,
+    "src": "quote",
+    "nq": 9
+   },
+   {
+    "key": "Patrick Mahomes~pass~175|Rhamondre Stevenson~rush~40",
+    "price": 0.316,
+    "src": "quote",
+    "nq": 7
+   },
+   {
+    "key": "Juwan Johnson~recyds~15|Rhamondre Stevenson~rush~40",
+    "price": 0.316,
+    "src": "quote",
+    "nq": 8
+   },
+   {
+    "key": "Brenton Strange~rec~2|Rhamondre Stevenson~rush~40",
+    "price": 0.311,
+    "src": "quote",
+    "nq": 9
+   },
+   {
+    "key": "Lamar Jackson~rush~20|Rhamondre Stevenson~rush~40",
+    "price": 0.27,
+    "src": "quote",
+    "nq": 7
+   },
+   {
+    "key": "Rhamondre Stevenson~rush~40|Tee Higgins~recyds~40",
+    "price": 0.274,
+    "src": "quote",
+    "nq": 8
+   },
+   {
+    "key": "Jakobi Meyers~recyds~25|Rhamondre Stevenson~rush~40",
+    "price": 0.273,
+    "src": "quote",
+    "nq": 7
    },
    {
     "key": "Juwan Johnson~recyds~25|Rhamondre Stevenson~rush~40",
-    "price": 0.271,
+    "price": 0.268,
     "src": "quote",
     "nq": 8
    },
@@ -5863,268 +6596,280 @@
     "key": "Darren Waller~recyds~15|Rhamondre Stevenson~rush~40",
     "price": 0.275,
     "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Carnell Tate~recyds~25|Rhamondre Stevenson~rush~40",
-    "price": 0.282,
-    "src": "quote",
     "nq": 7
-   },
-   {
-    "key": "Kyren Williams~rush~40|Rhamondre Stevenson~rush~40",
-    "price": 0.278,
-    "src": "quote",
-    "nq": 9
-   },
-   {
-    "key": "Juwan Johnson~rec~3|Rhamondre Stevenson~rush~40",
-    "price": 0.267,
-    "src": "quote",
-    "nq": 5
    },
    {
     "key": "Lamar Jackson~rush~25|Rhamondre Stevenson~rush~40",
-    "price": 0.251,
+    "price": 0.236,
+    "src": "quote",
+    "nq": 6
+   },
+   {
+    "key": "Malachi Fields~recyds~15|Rhamondre Stevenson~rush~40",
+    "price": 0.235,
     "src": "quote",
     "nq": 7
+   },
+   {
+    "key": "Rhamondre Stevenson~rush~40|Tee Higgins~recyds~50",
+    "price": 0.236,
+    "src": "quote",
+    "nq": 8
+   },
+   {
+    "key": "Kalif Raymond~recyds~25|Rhamondre Stevenson~rush~40",
+    "price": 0.229,
+    "src": "quote",
+    "nq": 8
    },
    {
     "key": "Kayshon Boutte~recyds~15|Lamar Jackson~rush~40",
     "price": 0.239,
     "src": "quote",
-    "nq": 7
+    "nq": 6
    },
    {
-    "key": "Antonio Williams~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.214,
+    "key": "Antonio Williams~recyds~15|Tee Higgins~recyds~80",
+    "price": 0.19,
     "src": "quote",
     "nq": 7
    },
    {
-    "key": "Darnell Mooney~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.218,
+    "key": "Malik Washington~recyds~40|Rhamondre Stevenson~rush~40",
+    "price": 0.188,
+    "src": "quote",
+    "nq": 8
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Lamar Jackson~rush~30|Malachi Fields~recyds~15",
+    "price": 0.188,
+    "src": "quote",
+    "nq": 7
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Lamar Jackson~rush~30|Tee Higgins~recyds~50",
+    "price": 0.188,
+    "src": "quote",
+    "nq": 8
+   },
+   {
+    "key": "Darnell Mooney~recyds~15|Kalif Raymond~recyds~25|Lamar Jackson~rush~30",
+    "price": 0.189,
+    "src": "quote",
+    "nq": 10
+   },
+   {
+    "key": "Lamar Jackson~rush~30|Malik Willis~pass~125|Rhamondre Stevenson~rush~40",
+    "price": 0.17,
+    "src": "quote",
+    "nq": 9
+   },
+   {
+    "key": "Gunnar Helm~rec~2|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
+    "price": 0.173,
+    "src": "quote",
+    "nq": 6
+   },
+   {
+    "key": "Kalif Raymond~recyds~40|Rhamondre Stevenson~rush~40",
+    "price": 0.145,
+    "src": "quote",
+    "nq": 10
+   },
+   {
+    "key": "Darnell Mooney~recyds~15|Lamar Jackson~rush~20|Rhamondre Stevenson~rush~40",
+    "price": 0.157,
+    "src": "quote",
+    "nq": 10
+   },
+   {
+    "key": "Kalif Raymond~recyds~15|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
+    "price": 0.155,
+    "src": "quote",
+    "nq": 10
+   },
+   {
+    "key": "Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
+    "price": 0.136,
+    "src": "quote",
+    "nq": 11
+   },
+   {
+    "key": "Kalif Raymond~recyds~40|Lamar Jackson~rush~40",
+    "price": 0.14,
+    "src": "quote",
+    "nq": 13
+   },
+   {
+    "key": "Darnell Mooney~recyds~15|Lamar Jackson~rush~25|Rhamondre Stevenson~rush~40",
+    "price": 0.137,
     "src": "quote",
     "nq": 12
    },
    {
-    "key": "Darren Waller~recyds~25|Rhamondre Stevenson~rush~40",
-    "price": 0.224,
-    "src": "quote",
-    "nq": 11
-   },
-   {
-    "key": "Malik Washington~recyds~40|Rhamondre Stevenson~rush~40",
-    "price": 0.194,
-    "src": "quote",
-    "nq": 9
-   },
-   {
-    "key": "Emeka Egbuka~recyds~40|Rhamondre Stevenson~rush~40",
-    "price": 0.19,
-    "src": "quote",
-    "nq": 11
-   },
-   {
-    "key": "Kyren Williams~rush~60|Rhamondre Stevenson~rush~40",
-    "price": 0.186,
-    "src": "quote",
-    "nq": 9
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Lamar Jackson~rush~30",
-    "price": 0.18,
-    "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
-    "price": 0.173,
-    "src": "quote",
-    "nq": 11
-   },
-   {
-    "key": "Kayshon Boutte~recyds~15|Lamar Jackson~rush~25|Rhamondre Stevenson~rush~40",
-    "price": 0.155,
-    "src": "quote",
-    "nq": 11
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Juwan Johnson~recyds~25|Rhamondre Stevenson~rush~40",
-    "price": 0.159,
-    "src": "quote",
-    "nq": 5
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Darren Waller~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.157,
-    "src": "quote",
-    "nq": 5
-   },
-   {
-    "key": "Darnell Mooney~recyds~15|Darren Waller~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.159,
-    "src": "quote",
-    "nq": 9
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Carnell Tate~recyds~25|Rhamondre Stevenson~rush~40",
-    "price": 0.161,
-    "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
-    "price": 0.14,
-    "src": "quote",
-    "nq": 9
-   },
-   {
     "key": "Kayshon Boutte~recyds~15|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
-    "price": 0.143,
-    "src": "quote",
-    "nq": 9
-   },
-   {
-    "key": "Emeka Egbuka~recyds~50|Lamar Jackson~rush~40",
-    "price": 0.134,
+    "price": 0.132,
     "src": "quote",
     "nq": 11
    },
    {
-    "key": "Antonio Williams~recyds~15|Kayshon Boutte~recyds~15|Lamar Jackson~rush~40",
+    "key": "Antonio Williams~recyds~15|Lamar Jackson~rush~25|Rhamondre Stevenson~rush~40",
     "price": 0.137,
     "src": "quote",
-    "nq": 6
+    "nq": 7
    },
    {
-    "key": "Lamar Jackson~rush~30|Malachi Fields~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.134,
+    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~50|Lamar Jackson~rush~30",
+    "price": 0.115,
     "src": "quote",
-    "nq": 10
+    "nq": 7
    },
    {
-    "key": "Kenneth Walker~rec~2|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
+    "key": "Cam Ward~pass~125|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
+    "price": 0.118,
+    "src": "quote",
+    "nq": 7
+   },
+   {
+    "key": "Emeka Egbuka~recyds~15|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
     "price": 0.112,
-    "src": "quote",
-    "nq": 10
-   },
-   {
-    "key": "Darren Waller~rec~2|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
-    "price": 0.113,
     "src": "quote",
     "nq": 9
    },
    {
-    "key": "Lamar Jackson~rush~40|Malik Willis~pass~125|Rhamondre Stevenson~rush~40",
-    "price": 0.112,
+    "key": "Antonio Williams~recyds~15|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~30",
+    "price": 0.111,
+    "src": "quote",
+    "nq": 8
+   },
+   {
+    "key": "Kaelon Black~rush~10|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
+    "price": 0.111,
+    "src": "quote",
+    "nq": 9
+   },
+   {
+    "key": "Lamar Jackson~rush~40|Malachi Fields~recyds~15|Rhamondre Stevenson~rush~40",
+    "price": 0.087,
+    "src": "quote",
+    "nq": 10
+   },
+   {
+    "key": "Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40|Tee Higgins~recyds~50",
+    "price": 0.087,
     "src": "quote",
     "nq": 11
    },
    {
-    "key": "Lamar Jackson~rush~25|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
-    "price": 0.109,
+    "key": "Darnell Mooney~recyds~15|Kalif Raymond~recyds~40|Rhamondre Stevenson~rush~40",
+    "price": 0.086,
+    "src": "quote",
+    "nq": 12
+   },
+   {
+    "key": "Emeka Egbuka~recyds~50|Lamar Jackson~rush~25|Rhamondre Stevenson~rush~40",
+    "price": 0.091,
     "src": "quote",
     "nq": 10
    },
    {
-    "key": "Cade Otton~rec~2|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
-    "price": 0.109,
+    "key": "Antonio Williams~recyds~15|Kalif Raymond~recyds~40|Rhamondre Stevenson~rush~40",
+    "price": 0.083,
     "src": "quote",
-    "nq": 10
+    "nq": 6
    },
    {
-    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
-    "price": 0.068,
+    "key": "Emeka Egbuka~recyds~40|Kalif Raymond~recyds~40|Rhamondre Stevenson~rush~40",
+    "price": 0.073,
     "src": "quote",
-    "nq": 8
+    "nq": 9
    },
    {
     "key": "Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40|Tee Higgins~recyds~80",
-    "price": 0.076,
-    "src": "quote",
-    "nq": 8
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Darren Waller~recyds~25|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
-    "price": 0.072,
-    "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Lamar Jackson~rush~40|Malik Washington~recyds~40|Rhamondre Stevenson~rush~40",
     "price": 0.071,
     "src": "quote",
     "nq": 8
    },
    {
-    "key": "Antonio Williams~recyds~15|Lamar Jackson~rush~40|Tee Higgins~recyds~80",
-    "price": 0.072,
+    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
+    "price": 0.067,
     "src": "quote",
-    "nq": 5
+    "nq": 8
    },
    {
-    "key": "Antonio Williams~recyds~15|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40|Tee Higgins~recyds~40",
-    "price": 0.06,
+    "key": "Darnell Mooney~recyds~15|Darren Waller~recyds~25|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
+    "price": 0.074,
     "src": "quote",
-    "nq": 6
+    "nq": 8
    },
    {
-    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
-    "price": 0.059,
-    "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Jakobi Meyers~recyds~25|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
-    "price": 0.059,
+    "key": "Antonio Williams~recyds~15|Darren Waller~recyds~25|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
+    "price": 0.068,
     "src": "quote",
     "nq": 7
    },
    {
-    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~40|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
+    "key": "Antonio Williams~recyds~15|Juwan Johnson~recyds~25|Kalif Raymond~recyds~40|Rhamondre Stevenson~rush~40",
+    "price": 0.062,
+    "src": "quote",
+    "nq": 7
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Darren Waller~recyds~15|Kalif Raymond~recyds~40|Rhamondre Stevenson~rush~40",
     "price": 0.061,
     "src": "quote",
     "nq": 6
    },
    {
-    "key": "Antonio Williams~recyds~15|Juwan Johnson~recyds~25|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
-    "price": 0.059,
+    "key": "Darren Waller~recyds~15|Kalif Raymond~recyds~25|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
+    "price": 0.063,
     "src": "quote",
-    "nq": 6
+    "nq": 8
    },
    {
-    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~50|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
+    "key": "Antonio Williams~recyds~15|Javonte Williams~rec~2|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
+    "price": 0.06,
+    "src": "quote",
+    "nq": 8
+   },
+   {
+    "key": "Kalif Raymond~recyds~40|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
+    "price": 0.056,
+    "src": "quote",
+    "nq": 8
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
+    "price": 0.046,
+    "src": "quote",
+    "nq": 7
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Kalif Raymond~recyds~40|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
     "price": 0.048,
+    "src": "quote",
+    "nq": 7
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Darren Waller~recyds~25|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
+    "price": 0.047,
     "src": "quote",
     "nq": 6
    },
    {
     "key": "Darnell Mooney~recyds~15|Emeka Egbuka~recyds~50|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
-    "price": 0.049,
+    "price": 0.048,
     "src": "quote",
     "nq": 9
    },
    {
-    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Emeka Egbuka~recyds~50|Lamar Jackson~rush~40",
-    "price": 0.047,
-    "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Emeka Egbuka~recyds~40|Kayshon Boutte~recyds~15|Lamar Jackson~rush~40|Rhamondre Stevenson~rush~40",
-    "price": 0.047,
-    "src": "quote",
-    "nq": 12
-   },
-   {
-    "key": "Juwan Johnson~rec~3|Lamar Jackson~rush~40|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
+    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~50|Lamar Jackson~rush~30|Rhamondre Stevenson~rush~40",
     "price": 0.046,
     "src": "quote",
-    "nq": 8
+    "nq": 6
    }
   ],
   "asked": 60,
-  "ts": "2026-10-02T21:27:53-07:00"
+  "ts": "2026-10-02T21:54:11-07:00"
  }
 }
