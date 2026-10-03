@@ -171,24 +171,7 @@ def assess(r, C, proj_status=None):
     add = lambda w, t: rs.append((round(w, 2), t))
     g = (C.get("games") or {}).get(r["game"])
     if g:
-        sp, tot = g.get("spread", {}).get(team), g.get("total")
-        if sp is not None and tot:
-            itt = tot / 2 - sp / 2
-            if itt >= 26.5:
-                add(0.25, f"{team} projected for {itt:.0f} pts (O/U {tot:g})")
-            elif itt <= 18.5:
-                add(-0.25, f"{team} projected for only {itt:.0f} pts (O/U {tot:g})")
-        if sp is not None:
-            if stat == "rush" and pos == "RB":
-                if sp <= -6.5:
-                    add(0.3, f"{team} favored by {-sp:g}, should lean on the run with a lead")
-                elif sp >= 6.5:
-                    add(-0.25, f"{team} a {sp:g}-pt underdog, may have to abandon the run")
-            elif passy:
-                if sp >= 6.5:
-                    add(0.2, f"{team} a {sp:g}-pt underdog, trailing teams throw more")
-                elif sp <= -9.5:
-                    add(-0.15, f"{team} favored by {-sp:g}, may not need to throw late")
+        # spread and over/under are scored separately as game script (script.py)
         wx = g.get("wx")
         if wx and not g.get("indoor"):
             if wx["wind"] >= 15:
@@ -256,6 +239,8 @@ def why(r, rs):
     if r["most"] <= 10:
         bits.append(f"{r['opp']} allows the {ordinal(r['most']) + ' ' if r['most'] > 1 else ''}most {r['dstat']}")
     s = ", ".join(bits) + "."
+    if r.get("qnote"):
+        s += " " + r["qnote"]
     u = r.get("uinfo") or {}
     if u.get("note"):
         s += " " + u["note"]

@@ -37,7 +37,8 @@ SHORT = {"pass": "Pass", "rush": "Rush", "recyds": "Rec yds", "rec": "Catches"}
 
 
 # ------------------------------------------------------------------ history file
-COLS = ["pl", "tm", "op", "gm", "gl", "pos", "rl", "rg", "st", "ln", "ask", "p", "pr", "pp", "hs", "dh", "rk", "sc", "proj", "rank"]
+COLS = ["pl", "tm", "op", "gm", "gl", "pos", "rl", "rg", "st", "ln", "ask", "p", "pr", "pp", "hs", "dh", "rk", "sc", "proj", "rank",
+        "cx", "sx", "qf"]
 
 
 def load_history():
@@ -59,8 +60,15 @@ def save_history(h):
     open(HIST, "w").write(s)
 
 
-def _open_game(gdate, now):
-    """True if the game hasn't kicked off yet, so its prices are pre-game."""
+def _open_game(gdate, now, kick=None):
+    """True if the game hasn't kicked off yet, so its prices are pre-game.
+    Uses the real kickoff time (ESPN, via context.py) when known: picks keep updating until 2 minutes before it."""
+    if kick:
+        try:
+            k = dt.datetime.fromisoformat(kick.replace("Z", "+00:00"))
+            return now < k - dt.timedelta(minutes=2)
+        except ValueError:
+            pass
     d = dt.date.fromisoformat(gdate)
     if d > now.date():
         return True
@@ -81,7 +89,8 @@ def snapshot(data, out, now=None):
     hist = load_history()
     key = f'{data["season"]}-{data["week"]}'
     wk = hist["weeks"].setdefault(key, {"season": data["season"], "week": data["week"], "rows": []})
-    fresh = {g["key"] for g in data["games"] if not g.get("date") or _open_game(g["date"], now)}
+    kicks = {k: (v or {}).get("kick") for k, v in (((data.get("context") or {}).get("games")) or {}).items()}
+    fresh = {g["key"] for g in data["games"] if not g.get("date") or _open_game(g["date"], now, kicks.get(g["key"]))}
     if not fresh:
         return hist
     keep = [r for r in wk["rows"] if r["gm"] not in fresh]
@@ -93,11 +102,32 @@ def snapshot(data, out, now=None):
         new.append({"pl": r["player"], "tm": r["team"], "op": r["opp"], "gm": r["game"], "gl": r["glabel"],
                     "pos": r["pos"], "rl": r["role"], "rg": r["rg"], "st": r["stat"], "ln": r["line"], "ask": r["ask"],
                     "p": r["pc"], "pr": r["praw"], "pp": r["pp"], "hs": r["hs"], "dh": r["dhs"], "rk": r["rks"],
-                    "sc": r["score"], "proj": r["proj"], "cx": r.get("ctx", 0), "rank": rank.get((r["player"], r["stat"], r["line"]), 0)})
+                    "sc": r["score"], "proj": r["proj"], "cx": r.get("ctx", 0), "sx": r.get("sx", 0), "qf": r.get("qf", 0), "rank": rank.get((r["player"], r["stat"], r["line"]), 0)})
     wk["rows"] = keep + new
     wk["updated"] = now.isoformat(timespec="seconds")
+    wk.setdefault("locked", {})
+    for g in fresh:
+        wk["locked"][g] = now.isoformat(timespec="seconds")      # last save before kickoff = the locked board
     save_history(hist)
+    write_locked_csv(hist)
     return hist
+
+
+_RES = {}   # (season, week, player, stat, line) -> (result, actual), filled in by prepare()
+
+
+def write_locked_csv(hist):
+    """data/locked_picks.csv: every week's top-50 picks as they stood right before each game kicked off."""
+    import csv
+    path = os.path.join(os.path.dirname(HIST), "locked_picks.csv")
+    with open(path, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["week", "game", "locked_at", "rank", "player", "team", "stat", "line", "kalshi_ask", "model_pct", "score", "result", "actual"])
+        for key, wk in sorted(hist["weeks"].items(), key=lambda kv: (kv[1]["season"], kv[1]["week"])):
+            for r in sorted([r for r in wk["rows"] if r.get("rank")], key=lambda r: r["rank"]):
+                res, act = _RES.get((wk["season"], wk["week"], r["pl"], r["st"], r["ln"]), ("", ""))
+                w.writerow([wk["week"], r["gl"], (wk.get("locked") or {}).get(r["gm"], ""), r["rank"], r["pl"], r["tm"], r["st"],
+                            r["ln"], r["ask"], round(100 * r["p"]), r["sc"], res, act])
 
 
 # ------------------------------------------------------------------ grading
@@ -311,6 +341,10 @@ def report(graded, learned):
 def prepare(data, overrides):
     hist = load_history()
     graded = grade(hist, data, overrides)
+    for g in graded:
+        _RES[(data["season"], g["wk"], g["pl"], g["st"], g["ln"])] = (g["res"], g.get("act", ""))
+    if hist["weeks"]:
+        write_locked_csv(hist)
     learned = fit(graded)
     os.makedirs(os.path.dirname(LEARNED), exist_ok=True)
     json.dump(learned, open(LEARNED, "w"), indent=1)

@@ -32,6 +32,7 @@ HAIR, MAXL, MINL, BEAM, BAND = 0.97, 6, 2, 300, 1.35
 PRIOR = {"b": 0.0, "k": 0.035, "s": 0.04}   # before any real quotes: ~3.5% markup per leg, a bit more for same-team legs
 RIDGE = 15                                  # how many quotes it takes to move halfway off the prior
 LOG_KEEP = 1500
+LAST = os.path.join(HERE, "data", "last_quotes.json")   # quotes from the last full run, reused by quick runs
 
 
 # ------------------------------------------------------------------ pricing model (mirrored in template.html)
@@ -254,6 +255,20 @@ def main():
                 seen.add(k); cands.append(p)
     cands = cands[:MAX_QUOTES]
 
+    if os.environ.get("QUOTES") == "0":
+        # quick refresh: don't ask Kalshi again; keep the last full run's quotes for parlays still on the board
+        have = {f'{l["pl"]}~{l["st"]}~{l["ln"]}' for l in legs}
+        try:
+            last = json.load(open(LAST))
+        except (OSError, ValueError):
+            last = {}
+        keep = [q for q in last.get("quoted", []) if all(x in have for x in q["key"].split("|"))]
+        out["kalshi"] = {"status": last.get("status", "off"), "K": K, "quoted": keep, "asked": last.get("asked", 0),
+                         "ts": last.get("ts", now.isoformat(timespec="seconds"))}
+        json.dump(out, open(OUT, "w"), indent=1)
+        print(f"quick run: reused {len(keep)} Kalshi quotes from {last.get('ts', 'never')}")
+        return
+
     status, quotes = "", {}
     kid, pem = os.environ.get("KALSHI_KEY_ID"), os.environ.get("KALSHI_PRIVATE_KEY")
     if not (kid and pem):
@@ -285,6 +300,7 @@ def main():
     out["kalshi"] = {"status": status, "K": K2, "quoted": quoted, "asked": len(cands) if status == "ok" else 0,
                      "ts": now.isoformat(timespec="seconds")}
     json.dump(out, open(OUT, "w"), indent=1)
+    json.dump(out["kalshi"], open(LAST, "w"), separators=(",", ":"))
     print(f"markup model: b={K2['b']} k={K2['k']} s={K2['s']} from {K2['n']} logged quotes")
 
 

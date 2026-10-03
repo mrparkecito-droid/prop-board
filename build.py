@@ -55,6 +55,14 @@ def cards_html(top, extras=True, tlabel=""):
                 ubar = f'\n   <li><span>Usage model</span><meter min="0" max="100" value="{r["pu"]}"></meter><b>{r["pu"]}</b></li>'
             if r.get("uinfo"):
                 uline = f'<p class="rk"><b>Usage:</b> {html.escape(usage.usage_line(r["uinfo"], r["pos"]))}</p>'
+            q = r.get("qinfo")
+            if q:
+                uline += (f'<p class="rk"><b>QB:</b> {html.escape(q["qb"])}' + (f' (started {q["n"]} of his games)' if q.get("same") else
+                          f' starting instead of {html.escape(q["usual"])} · {q["with"]} game{"s" if q["with"] != 1 else ""} together') + '</p>')
+            if r.get("sx") or r.get("qinfo"):
+                ubar += f'\n   <li><span>Game script</span><meter min="0" max="100" value="{r.get("sxs", 50)}"></meter><b>{r.get("sxs", 50)}</b></li>'
+            if q:
+                ubar += f'\n   <li><span>QB situation</span><meter min="0" max="100" value="{r.get("qfs", 50)}"></meter><b>{r.get("qfs", 50)}</b></li>'
             if r.get("pn"):
                 uline += f'<p class="rk"><b>Last season:</b> cleared {r["line"]}+ in {r["po"]} of {r["pn"]} games</p>'
 
@@ -123,7 +131,7 @@ def results_html(track):
     parts = []
     weeks = track.get("weeks") or []
     if not weeks:
-        parts.append('<section class="panel"><h2>No graded weeks yet</h2><p>This week\'s picks are saved as they\'re posted. '
+        parts.append('<section class="panel"><h2>No graded weeks yet</h2><p>The board is saved every update and each game\'s picks lock at its kickoff, so what gets graded is the board as it stood right before the game started (all of them are listed in data/locked_picks.csv in the repo). '
                      'Once the games are played, the next update grades every pick against the box scores, shows the record here, '
                      'and starts adjusting the model from what hit and what missed.</p></section>')
     else:

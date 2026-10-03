@@ -77,3 +77,19 @@ If either is missing the model falls back to the original formula.
 
 Thu 1 PM PT (TNF), Fri and Sat 9 AM PT, and Sun 8:45 AM PT (injury news before the 10 AM kickoffs).
 The cron times are UTC: after daylight time ends (Nov 1) they run an hour earlier in Pacific time.
+
+## Game script and QB situation (script.py)
+
+Game script: the spread and over/under move props up to ±8% (favorites run more, underdogs throw more,
+high/low team totals lift/sink yardage). QB situation: for receivers, if the usual starting QB is out or not
+projected to start, the receiver's games with the new QB decide it (up to ±10%; no games together = penalty).
+
+## Locked picks
+
+Picks for each game keep updating until 2 minutes before that game's real kickoff (ESPN time), then lock.
+Grading and learning use the locked board. `data/locked_picks.csv` lists every week's locked top 50 with results.
+
+## Schedule
+
+Quick refresh every 20 minutes (reuses the last real parlay quotes), plus full runs Thu 1:05 PM, Fri/Sat 9:05 AM
+and Sun 8:50 AM PT that also ask Kalshi for parlay quotes. Cron times are UTC.

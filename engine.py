@@ -18,6 +18,7 @@ Board = best lines sorted by score, max 2 props per player, top 50.
 import csv, json, math, os, re, sys
 import context
 import usage
+import script
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -150,6 +151,21 @@ def run(data, overrides=None, learned=None):
     for s in data.get("prev_stats") or []:
         prev_rows.setdefault(norm(s["name"]), []).append(s)
     prev_tot = usage.totals(data.get("prev_stats") or [], norm)
+    # quarterbacks: who started each game, who usually starts, who starts this week
+    QB = None
+    if U:
+        C = data.get("context") or {}
+        status_of = {}
+        for tm_, L in (C.get("inj") or {}).items():
+            for x in L:
+                status_of[norm(x["name"])] = x["status"]
+        for p_ in data["proj"]:
+            st_ = SLEEPER_STATUS.get(p_.get("inj") or "")
+            if st_ and norm(p_["name"]) not in status_of:
+                status_of[norm(p_["name"])] = st_
+        out_names = {n for n, v in status_of.items() if v in ("Out", "Doubtful")}
+        QB = {"st": script.starters(data["stats"], norm), "pst": script.starters(data.get("prev_stats") or [], norm),
+              "status": status_of, "out": out_names, "now": {}, "usual": {}}
 
     games = {g["key"]: g for g in data["games"]}
     est_asks = fill_missing_asks(data["markets"], proj)
@@ -212,6 +228,21 @@ def run(data, overrides=None, learned=None):
         idx = 1 if stat in ("pass", "rec", "recyds") else 2
         most, per = drank(opp, idx)
         rank_s = (32 - most) / 31
+        # game script (spread + over/under) and, for receivers, the quarterback situation
+        sx, srs = script.game_script(team, stat, pos, ((data.get("context") or {}).get("games") or {}).get(m["game"]))
+        qf, qnote, qinfo = 0.0, "", None
+        if QB and stat in ("rec", "recyds") and pos in ("WR", "TE", "RB"):
+            if team not in QB["now"]:
+                QB["now"][team] = script.this_week(team, data["proj"], QB["out"], norm)
+                QB["usual"][team] = script.usual(team, weeks, QB["st"])
+                uq_ = QB["usual"][team]
+                if QB["now"][team] is None and uq_ and uq_[0] in QB["out"]:
+                    QB["now"][team] = ("?", "the backup")        # starter out, backup not projected yet
+            uq = QB["usual"][team]
+            qf, qnote, qinfo = script.receiver_qb(
+                {w: lg["wk"][w].get(STATKEY[stat], 0) for w in weeks if w in lg["wk"]}, team, line, weeks, QB["st"],
+                QB["now"][team], {r_["wk"]: r_.get(STATKEY[stat], 0) or 0 for r_ in prev_rows.get(k, []) if r_["team"] == team},
+                QB["pst"], uq, QB["status"].get(uq[0], "") if uq else "")
         pv = pj[stat]
         pp = Phi((pv - line + 0.5) / sd_for(stat, pos, pv))
         pp_raw, pu, uinfo = pp, None, None
@@ -221,6 +252,7 @@ def run(data, overrides=None, learned=None):
             pp = 0.5 * pp + 0.5 * pu          # projection signal = Sleeper projection + usage model
         dh_u = dh if dh is not None else 0.5
         p = (0.40 * pp + 0.30 * h + 0.30 * dh_u) if dh is not None else (0.55 * pp + 0.45 * h)
+        p = p * (1 + script.P_SCRIPT * sx) * (1 + script.P_QB * qf)
         p = min(p, P_CAP)
         p_raw = p
         rg = role_group(pos, role)
@@ -236,6 +268,8 @@ def run(data, overrides=None, learned=None):
             {"game": m["game"], "team": team, "opp": opp, "stat": stat, "pos": pos, "player": lg["name"]},
             data.get("context"), SLEEPER_STATUS.get(pj.get("inj") or ""))
         score *= 1 + CTX_WEIGHT * ctx
+        score *= (1 + script.SCRIPT_W * sx) * (1 + script.QB_W * qf)
+        reasons = reasons + srs
         flags = []
         if status in ("Out", "Doubtful"):
             flags.append(f"Listed {status.lower()} this week")
@@ -253,7 +287,8 @@ def run(data, overrides=None, learned=None):
                          mid=mid_price(m), tk=m.get("ticker"), ev=m.get("event"),
                          ctx=ctx, cxs=round(50 + 50 * ctx), reasons=reasons, status=status,
                          ppj=round(pp_raw * 100), pu=(round(pu * 100) if pu is not None else None), uinfo=uinfo,
-                         po=po, pn=pn, pid=pj.get("id")))
+                         po=po, pn=pn, pid=pj.get("id"),
+                         sx=sx, sxs=round(50 + 50 * sx), qf=qf, qfs=round(50 + 50 * qf), qnote=qnote, qinfo=qinfo))
 
     lad = {}
     for r in rows:
