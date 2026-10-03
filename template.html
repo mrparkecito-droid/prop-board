@@ -1,0 +1,135 @@
+<title>{{TITLE}}</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: phone-first stack of prop cards ranked by overall score, sticky filter bar, multi-column on wide screens */
+:root{
+ --bg:#eef1f7; --panel:#ffffff; --ink:#14203a; --muted:#5b6782; --line:#d7ddea; --chip:#f2f4f9;
+ --navy:#1438a6; --gold:#f2c230;
+ --t1:#0f8a4c; --t2:#5b9a1e; --t3:#c08a00; --t4:#9aa3b8;
+ --hit:#d4f0e0; --hit-ink:#0d5a33; --miss:#f6dcdc; --miss-ink:#8a1f1f; --warn:#fff1c9; --warn-ink:#7a5a00;
+ --display:"Oswald","Arial Narrow",Arial,sans-serif; --body:"Source Sans 3",-apple-system,"Segoe UI",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+ --bg:#0b1120; --panel:#141c31; --ink:#e7ecf6; --muted:#9aa6c2; --line:#26304a; --chip:#1b2440; --navy:#2a55d6;
+ --t1:#2fbf73; --t2:#8cc63f; --t3:#e0b23a; --t4:#5d6883;
+ --hit:#123d29; --hit-ink:#8fe0b5; --miss:#3d1717; --miss-ink:#f0a3a3; --warn:#3b3010; --warn-ink:#f2d27a; color-scheme:dark}}
+:root[data-theme="dark"]{
+ --bg:#0b1120; --panel:#141c31; --ink:#e7ecf6; --muted:#9aa6c2; --line:#26304a; --chip:#1b2440; --navy:#2a55d6;
+ --t1:#2fbf73; --t2:#8cc63f; --t3:#e0b23a; --t4:#5d6883;
+ --hit:#123d29; --hit-ink:#8fe0b5; --miss:#3d1717; --miss-ink:#f0a3a3; --warn:#3b3010; --warn-ink:#f2d27a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;-webkit-text-size-adjust:100%}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px));padding-block:16px 40px;display:grid;gap:14px}
+header{background:var(--navy);color:#fff;border-radius:14px;padding:18px;display:grid;gap:6px;border-bottom:4px solid var(--gold)}
+.eyebrow{font-family:var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-size:12px}
+h1{margin:0;font-family:var(--display);font-weight:600;font-size:clamp(26px,7vw,40px);line-height:1.1;text-wrap:balance}
+header p{margin:0;color:#dbe4ff;font-size:14px;max-width:65ch}
+.how{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.how summary{font-weight:700;cursor:pointer;min-height:28px;display:flex;align-items:center}
+.how ul{margin:8px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px;color:var(--muted)}
+.how b{color:var(--ink)}
+.matchups{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.mu{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:6px;min-width:0}
+.mu h2{margin:0;font-family:var(--display);font-weight:500;font-size:16px;letter-spacing:.04em;text-transform:uppercase}
+.mu dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:14px}
+.mu dt{color:var(--muted)} .mu dd{margin:0;font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding-block:8px;display:grid;gap:6px;margin-inline:-4px;padding-inline:4px}
+.seg{display:flex;gap:4px;background:var(--chip);border:1px solid var(--line);border-radius:10px;padding:3px;overflow-x:auto;scrollbar-width:none}
+.seg button{flex:1 0 auto;font:600 14px var(--body);border:0;background:transparent;color:var(--muted);padding:9px 12px;border-radius:8px;min-height:40px;cursor:pointer;white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 2px rgb(0 0 0 / .12)}
+.seg button:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+.count{font-size:12px;color:var(--muted);padding-left:2px}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:10px;min-width:0}
+.top{display:flex;gap:12px;align-items:flex-start}
+.score{flex:0 0 58px;height:58px;border-radius:12px;display:grid;place-items:center;align-content:center;color:#fff;line-height:1}
+.score b{font-family:var(--display);font-size:26px;font-weight:600}
+.score small{font-family:var(--mono);font-size:10px;opacity:.85;margin-top:2px}
+.t1{background:var(--t1)} .t2{background:var(--t2)} .t3{background:var(--t3)} .t4{background:var(--t4)}
+.who{min-width:0;display:grid;gap:1px}
+.who h3{margin:0;font-size:17px;font-weight:700;line-height:1.2}
+.tm{margin:0;font-size:12px;color:var(--muted)}
+.prop{margin:2px 0 0;font-size:15px}
+.prop strong{font-family:var(--mono);font-size:16px}
+.best{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:var(--gold);color:#3a2a00;border-radius:999px;padding:2px 8px;margin-left:4px;vertical-align:2px}
+.games{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.g{border-radius:8px;padding:5px 8px;font-family:var(--mono);font-weight:700;font-size:15px;display:flex;justify-content:space-between;align-items:baseline;font-variant-numeric:tabular-nums}
+.g i{font-style:normal;font-family:var(--body);font-weight:600;font-size:11px;opacity:.75}
+.hit{background:var(--hit);color:var(--hit-ink)} .miss{background:var(--miss);color:var(--miss-ink)} .dnp{background:var(--chip);color:var(--muted)}
+.kpis{margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(64px,1fr));gap:6px}
+.kpis div{background:var(--chip);border-radius:8px;padding:6px 8px}
+.kpis dt{font-size:11px;color:var(--muted)} .kpis dd{margin:0;font-family:var(--mono);font-weight:700;font-size:15px;font-variant-numeric:tabular-nums}
+.kpis .pos{color:var(--t1)} .kpis .neg{color:var(--miss-ink)}
+.def{margin:0;font-size:13px;color:var(--muted)} .def span{font-weight:700;color:var(--ink);margin-right:6px}
+.flag{margin:0;font-size:13px;background:var(--warn);color:var(--warn-ink);border-radius:8px;padding:6px 8px}
+details summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--muted);min-height:32px;display:flex;align-items:center}
+.bars{list-style:none;margin:4px 0 0;padding:0;display:grid;gap:6px;font-size:13px}
+.bars li{display:grid;grid-template-columns:132px 1fr 30px;gap:8px;align-items:center}
+.bars b{font-family:var(--mono);text-align:right}
+meter{width:100%;height:8px}
+.cov{display:grid;gap:4px;font-size:13px;border-top:1px solid var(--line);padding-top:8px}
+.cov p{margin:0}
+.who span{display:block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.allow{color:var(--muted)}
+.al span{display:inline-block;font-family:var(--mono);font-weight:700;color:var(--ink);background:var(--chip);border-radius:6px;padding:0 6px;margin-right:4px}
+.al .ok{background:var(--hit);color:var(--hit-ink)} .al .no{background:var(--miss);color:var(--miss-ink)}
+.rk{color:var(--muted)} .rk b,.allow b{color:var(--ink)}
+.cnote{color:var(--muted);font-style:italic}
+.sel{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+.sel select{flex:1;min-height:40px;font:600 14px var(--body);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:0 10px}
+.notes{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:70ch}
+.notes p{margin:0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<div class="wrap">
+<header>
+ <div class="eyebrow">{{EYEBROW}}</div>
+ <h1>{{H1}}</h1>
+ <p>Every Kalshi yardage and receptions ladder across {{NGAMES}} games, scored for how likely it is to hit and whether the price still pays. One best line per player and stat, two props max per player.</p>
+</header>
+
+<details class="how"><summary>How the score works</summary>
+ <ul>
+  <li><b>Sleeper projection (28%).</b> Sleeper's Week {{WEEK}} projection turned into a chance of clearing the line.</li>
+  <li><b>Player hit rate (20%).</b> His games over this line this season.</li>
+  <li><b>Defense vs line (20%).</b> How many of the opponent's 3 games the same role went over this exact line. Roles are by team depth: QB, lead RB, WR1, WR2, TE1, so a WR2 is compared to WR2s.</li>
+  <li><b>Price value (17%).</b> The model's chance against the Kalshi price.</li>
+  <li><b>Defense rank (10%).</b> Where the defense ranks among 32 teams in pass or rush yards allowed per game.</li>
+  <li><b>Agreement (5%).</b> A small bonus when the projection, his history and the defense all say yes.</li>
+  <li><b>Safety penalties.</b> Each game he missed the line costs 8%, each defense miss 5%, and thin markets (wide bid/ask) 10%.</li>
+  <li>Only lines priced 35¢ to 88¢ are eligible; anything pricier pays too little. Touchdown props are left out because they're too volatile to call safe.</li>
+ </ul>
+</details>
+
+<div class="bar">
+ <div class="seg" role="group" aria-label="Stat">
+  <button type="button" id="s-all" data-s="all" aria-pressed="true">All</button>
+  <button type="button" id="s-pass" data-s="pass" aria-pressed="false">Passing</button>
+  <button type="button" id="s-rush" data-s="rush" aria-pressed="false">Rushing</button>
+  <button type="button" id="s-recyds" data-s="recyds" aria-pressed="false">Rec yds</button>
+  <button type="button" id="s-rec" data-s="rec" aria-pressed="false">Catches</button>
+ </div>
+ <label class="sel"><span>Game</span><select id="game"><option value="all">All games</option>{{OPTS}}</select></label>
+ <div class="count" id="count" aria-live="polite"></div>
+</div>
+
+<section class="list" id="list">
+{{CARDS}}
+</section>
+
+<div class="notes">
+ <p>{{SAMPLE_NOTE}} A "—" means the player wasn't in Sleeper's stat feed for that week, which happens on very low-volume games; it counts as a miss.</p>
+ {{MARKET_NOTE}}
+ <p>Injury news isn't modeled. Check Sunday morning inactives, especially for anyone listed questionable.</p>
+ <p>Stats: Sleeper weekly stats{{OVR_NOTE}}. Projections: Sleeper (Rotowire). Defense ranks: {{LEAGUE_SRC}}. Prices: Kalshi yes ask, updated {{UPDATED}}.</p>
+</div>
+</div>
+<script>
+(function(){
+ var s="all",g="all",cards=[].slice.call(document.querySelectorAll(".card")),out=document.getElementById("count"),sel=document.getElementById("game");
+ function apply(){var n=0;cards.forEach(function(c){var ok=(s==="all"||c.dataset.stat===s)&&(g==="all"||c.dataset.game===g);c.hidden=!ok;if(ok)n++;});out.textContent=n+" props, highest score first";}
+ document.querySelectorAll("[data-s]").forEach(function(b){b.addEventListener("click",function(){s=b.dataset.s;document.querySelectorAll("[data-s]").forEach(function(x){x.setAttribute("aria-pressed",x===b)});apply();});});
+ sel.addEventListener("change",function(){g=sel.value;apply();});
+ apply();
+})();
+</script>

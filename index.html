@@ -1,0 +1,1484 @@
+<title>Week 4 Prop Board</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: phone-first stack of prop cards ranked by overall score, sticky filter bar, multi-column on wide screens */
+:root{
+ --bg:#eef1f7; --panel:#ffffff; --ink:#14203a; --muted:#5b6782; --line:#d7ddea; --chip:#f2f4f9;
+ --navy:#1438a6; --gold:#f2c230;
+ --t1:#0f8a4c; --t2:#5b9a1e; --t3:#c08a00; --t4:#9aa3b8;
+ --hit:#d4f0e0; --hit-ink:#0d5a33; --miss:#f6dcdc; --miss-ink:#8a1f1f; --warn:#fff1c9; --warn-ink:#7a5a00;
+ --display:"Oswald","Arial Narrow",Arial,sans-serif; --body:"Source Sans 3",-apple-system,"Segoe UI",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+ --bg:#0b1120; --panel:#141c31; --ink:#e7ecf6; --muted:#9aa6c2; --line:#26304a; --chip:#1b2440; --navy:#2a55d6;
+ --t1:#2fbf73; --t2:#8cc63f; --t3:#e0b23a; --t4:#5d6883;
+ --hit:#123d29; --hit-ink:#8fe0b5; --miss:#3d1717; --miss-ink:#f0a3a3; --warn:#3b3010; --warn-ink:#f2d27a; color-scheme:dark}}
+:root[data-theme="dark"]{
+ --bg:#0b1120; --panel:#141c31; --ink:#e7ecf6; --muted:#9aa6c2; --line:#26304a; --chip:#1b2440; --navy:#2a55d6;
+ --t1:#2fbf73; --t2:#8cc63f; --t3:#e0b23a; --t4:#5d6883;
+ --hit:#123d29; --hit-ink:#8fe0b5; --miss:#3d1717; --miss-ink:#f0a3a3; --warn:#3b3010; --warn-ink:#f2d27a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;-webkit-text-size-adjust:100%}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px));padding-block:16px 40px;display:grid;gap:14px}
+header{background:var(--navy);color:#fff;border-radius:14px;padding:18px;display:grid;gap:6px;border-bottom:4px solid var(--gold)}
+.eyebrow{font-family:var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-size:12px}
+h1{margin:0;font-family:var(--display);font-weight:600;font-size:clamp(26px,7vw,40px);line-height:1.1;text-wrap:balance}
+header p{margin:0;color:#dbe4ff;font-size:14px;max-width:65ch}
+.how{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.how summary{font-weight:700;cursor:pointer;min-height:28px;display:flex;align-items:center}
+.how ul{margin:8px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px;color:var(--muted)}
+.how b{color:var(--ink)}
+.matchups{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.mu{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:6px;min-width:0}
+.mu h2{margin:0;font-family:var(--display);font-weight:500;font-size:16px;letter-spacing:.04em;text-transform:uppercase}
+.mu dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:14px}
+.mu dt{color:var(--muted)} .mu dd{margin:0;font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding-block:8px;display:grid;gap:6px;margin-inline:-4px;padding-inline:4px}
+.seg{display:flex;gap:4px;background:var(--chip);border:1px solid var(--line);border-radius:10px;padding:3px;overflow-x:auto;scrollbar-width:none}
+.seg button{flex:1 0 auto;font:600 14px var(--body);border:0;background:transparent;color:var(--muted);padding:9px 12px;border-radius:8px;min-height:40px;cursor:pointer;white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 2px rgb(0 0 0 / .12)}
+.seg button:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+.count{font-size:12px;color:var(--muted);padding-left:2px}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:10px;min-width:0}
+.top{display:flex;gap:12px;align-items:flex-start}
+.score{flex:0 0 58px;height:58px;border-radius:12px;display:grid;place-items:center;align-content:center;color:#fff;line-height:1}
+.score b{font-family:var(--display);font-size:26px;font-weight:600}
+.score small{font-family:var(--mono);font-size:10px;opacity:.85;margin-top:2px}
+.t1{background:var(--t1)} .t2{background:var(--t2)} .t3{background:var(--t3)} .t4{background:var(--t4)}
+.who{min-width:0;display:grid;gap:1px}
+.who h3{margin:0;font-size:17px;font-weight:700;line-height:1.2}
+.tm{margin:0;font-size:12px;color:var(--muted)}
+.prop{margin:2px 0 0;font-size:15px}
+.prop strong{font-family:var(--mono);font-size:16px}
+.best{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:var(--gold);color:#3a2a00;border-radius:999px;padding:2px 8px;margin-left:4px;vertical-align:2px}
+.games{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.g{border-radius:8px;padding:5px 8px;font-family:var(--mono);font-weight:700;font-size:15px;display:flex;justify-content:space-between;align-items:baseline;font-variant-numeric:tabular-nums}
+.g i{font-style:normal;font-family:var(--body);font-weight:600;font-size:11px;opacity:.75}
+.hit{background:var(--hit);color:var(--hit-ink)} .miss{background:var(--miss);color:var(--miss-ink)} .dnp{background:var(--chip);color:var(--muted)}
+.kpis{margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(64px,1fr));gap:6px}
+.kpis div{background:var(--chip);border-radius:8px;padding:6px 8px}
+.kpis dt{font-size:11px;color:var(--muted)} .kpis dd{margin:0;font-family:var(--mono);font-weight:700;font-size:15px;font-variant-numeric:tabular-nums}
+.kpis .pos{color:var(--t1)} .kpis .neg{color:var(--miss-ink)}
+.def{margin:0;font-size:13px;color:var(--muted)} .def span{font-weight:700;color:var(--ink);margin-right:6px}
+.flag{margin:0;font-size:13px;background:var(--warn);color:var(--warn-ink);border-radius:8px;padding:6px 8px}
+details summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--muted);min-height:32px;display:flex;align-items:center}
+.bars{list-style:none;margin:4px 0 0;padding:0;display:grid;gap:6px;font-size:13px}
+.bars li{display:grid;grid-template-columns:132px 1fr 30px;gap:8px;align-items:center}
+.bars b{font-family:var(--mono);text-align:right}
+meter{width:100%;height:8px}
+.cov{display:grid;gap:4px;font-size:13px;border-top:1px solid var(--line);padding-top:8px}
+.cov p{margin:0}
+.who span{display:block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.allow{color:var(--muted)}
+.al span{display:inline-block;font-family:var(--mono);font-weight:700;color:var(--ink);background:var(--chip);border-radius:6px;padding:0 6px;margin-right:4px}
+.al .ok{background:var(--hit);color:var(--hit-ink)} .al .no{background:var(--miss);color:var(--miss-ink)}
+.rk{color:var(--muted)} .rk b,.allow b{color:var(--ink)}
+.cnote{color:var(--muted);font-style:italic}
+.sel{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+.sel select{flex:1;min-height:40px;font:600 14px var(--body);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:0 10px}
+.notes{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:70ch}
+.notes p{margin:0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<div class="wrap">
+<header>
+ <div class="eyebrow">Prop cheat sheet · Week 4 · Sun Oct 4 – Mon Oct 5</div>
+ <h1>Week 4 top 50 props</h1>
+ <p>Every Kalshi yardage and receptions ladder across 15 games, scored for how likely it is to hit and whether the price still pays. One best line per player and stat, two props max per player.</p>
+</header>
+
+<details class="how"><summary>How the score works</summary>
+ <ul>
+  <li><b>Sleeper projection (28%).</b> Sleeper's Week 4 projection turned into a chance of clearing the line.</li>
+  <li><b>Player hit rate (20%).</b> His games over this line this season.</li>
+  <li><b>Defense vs line (20%).</b> How many of the opponent's 3 games the same role went over this exact line. Roles are by team depth: QB, lead RB, WR1, WR2, TE1, so a WR2 is compared to WR2s.</li>
+  <li><b>Price value (17%).</b> The model's chance against the Kalshi price.</li>
+  <li><b>Defense rank (10%).</b> Where the defense ranks among 32 teams in pass or rush yards allowed per game.</li>
+  <li><b>Agreement (5%).</b> A small bonus when the projection, his history and the defense all say yes.</li>
+  <li><b>Safety penalties.</b> Each game he missed the line costs 8%, each defense miss 5%, and thin markets (wide bid/ask) 10%.</li>
+  <li>Only lines priced 35¢ to 88¢ are eligible; anything pricier pays too little. Touchdown props are left out because they're too volatile to call safe.</li>
+ </ul>
+</details>
+
+<div class="bar">
+ <div class="seg" role="group" aria-label="Stat">
+  <button type="button" id="s-all" data-s="all" aria-pressed="true">All</button>
+  <button type="button" id="s-pass" data-s="pass" aria-pressed="false">Passing</button>
+  <button type="button" id="s-rush" data-s="rush" aria-pressed="false">Rushing</button>
+  <button type="button" id="s-recyds" data-s="recyds" aria-pressed="false">Rec yds</button>
+  <button type="button" id="s-rec" data-s="rec" aria-pressed="false">Catches</button>
+ </div>
+ <label class="sel"><span>Game</span><select id="game"><option value="all">All games</option><option value="ATLNO">ATL @ NO (Mon)</option><option value="DALHOU">DAL @ HOU</option><option value="DENSF">DEN @ SF</option><option value="DETCAR">DET @ CAR</option><option value="INDWAS">IND @ WAS</option><option value="JACCIN">JAX @ CIN</option><option value="KCLV">KC @ LV</option><option value="LACSEA">LAC @ SEA</option><option value="LARPHI">LAR @ PHI</option><option value="MIAMIN">MIA @ MIN</option><option value="NEBUF">NE @ BUF</option><option value="NYJCHI">NYJ @ CHI</option><option value="TENBAL">TEN @ BAL</option></select></label>
+ <div class="count" id="count" aria-live="polite"></div>
+</div>
+
+<section class="list" id="list">
+<article class="card" data-game="NEBUF" data-stat="pass">
+ <div class="top">
+  <div class="score t1" aria-label="Score 79"><b>79</b><small>#1</small></div>
+  <div class="who"><h3>Drake Maye</h3><p class="tm">NE · QB · NE @ BUF</p>
+   <p class="prop">Passing Yards <strong>175+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>178</span><span class="g hit"><i>W2</i>208</span><span class="g hit"><i>W3</i>199</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>81¢</dd></div>
+  <div><dt>Model</dt><dd>83%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>236.4</dd></div>
+  <div><dt>Return</dt><dd class="">+3%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs BUF (pass yds): <span class="al"><span class="ok" title="W1 HOU">274</span><span class="ok" title="W2 DET">327</span><span class="ok" title="W3 LAC">226</span></span></p><p class="rk"><b>BUF D rank:</b> 6th most pass yds allowed (254.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="88"></meter><b>88</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="84"></meter><b>84</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="53"></meter><b>53</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DENSF" data-stat="pass">
+ <div class="top">
+  <div class="score t1" aria-label="Score 79"><b>79</b><small>#2</small></div>
+  <div class="who"><h3>Brock Purdy</h3><p class="tm">SF · QB · DEN @ SF</p>
+   <p class="prop">Passing Yards <strong>175+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>205</span><span class="g hit"><i>W2</i>287</span><span class="g hit"><i>W3</i>297</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>81¢</dd></div>
+  <div><dt>Model</dt><dd>84%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>243.6</dd></div>
+  <div><dt>Return</dt><dd class="">+4%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs DEN (pass yds): <span class="al"><span class="ok" title="W1 KC">184</span><span class="ok" title="W2 JAX">189</span><span class="ok" title="W3 LAR">390</span></span></p><p class="rk"><b>DEN D rank:</b> 8th most pass yds allowed (237/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="90"></meter><b>90</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="77"></meter><b>77</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="54"></meter><b>54</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DETCAR" data-stat="pass">
+ <div class="top">
+  <div class="score t1" aria-label="Score 79"><b>79</b><small>#3</small></div>
+  <div class="who"><h3>Bryce Young</h3><p class="tm">CAR · QB · DET @ CAR</p>
+   <p class="prop">Passing Yards <strong>175+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>361</span><span class="g hit"><i>W2</i>287</span><span class="g hit"><i>W3</i>291</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>86¢</dd></div>
+  <div><dt>Model</dt><dd>82%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>229.4</dd></div>
+  <div><dt>Return</dt><dd class="">-4%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs DET (pass yds): <span class="al"><span class="ok" title="W1 NO">410</span><span class="ok" title="W2 BUF">248</span><span class="ok" title="W3 NYJ">321</span></span></p><p class="rk"><b>DET D rank:</b> 1st most pass yds allowed (299.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="86"></meter><b>86</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="100"></meter><b>100</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="46"></meter><b>46</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="ATLNO" data-stat="pass">
+ <div class="top">
+  <div class="score t1" aria-label="Score 79"><b>79</b><small>#4</small></div>
+  <div class="who"><h3>Tyler Shough</h3><p class="tm">NO · QB · ATL @ NO (Mon)</p>
+   <p class="prop">Passing Yards <strong>200+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>410</span><span class="g hit"><i>W2</i>252</span><span class="g hit"><i>W3</i>255</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>81¢</dd></div>
+  <div><dt>Model</dt><dd>82%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>260.3</dd></div>
+  <div><dt>Return</dt><dd class="">+2%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs ATL (pass yds): <span class="al"><span class="ok" title="W1 PIT">221</span><span class="ok" title="W2 CAR">287</span><span class="ok" title="W3 GB">312</span></span></p><p class="rk"><b>ATL D rank:</b> 4th most pass yds allowed (263/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="86"></meter><b>86</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="90"></meter><b>90</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="52"></meter><b>52</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="MIAMIN" data-stat="pass">
+ <div class="top">
+  <div class="score t1" aria-label="Score 79"><b>79</b><small>#5</small></div>
+  <div class="who"><h3>Malik Willis</h3><p class="tm">MIA · QB · MIA @ MIN</p>
+   <p class="prop">Passing Yards <strong>125+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>220</span><span class="g hit"><i>W2</i>197</span><span class="g hit"><i>W3</i>210</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>80¢</dd></div>
+  <div><dt>Model</dt><dd>85%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>186.8</dd></div>
+  <div><dt>Return</dt><dd class="">+6%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs MIN (pass yds): <span class="al"><span class="ok" title="W1 GB">387</span><span class="ok" title="W2 CHI">138</span><span class="ok" title="W3 TB">217</span></span></p><p class="rk"><b>MIN D rank:</b> 12th most pass yds allowed (234/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="92"></meter><b>92</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="65"></meter><b>65</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="56"></meter><b>56</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="JACCIN" data-stat="rec">
+ <div class="top">
+  <div class="score t1" aria-label="Score 78"><b>78</b><small>#6</small></div>
+  <div class="who"><h3>Chase Brown</h3><p class="tm">CIN · RB1 · JAX @ CIN</p>
+   <p class="prop">Receptions <strong>2+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>5</span><span class="g hit"><i>W2</i>3</span><span class="g hit"><i>W3</i>2</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>86¢</dd></div>
+  <div><dt>Model</dt><dd>85%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>3.9</dd></div>
+  <div><dt>Return</dt><dd class="">-2%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs JAX (catches): <span class="al"><span class="ok" title="W1 CLE">3</span><span class="ok" title="W2 DEN">3</span><span class="ok" title="W3 NE">3</span></span></p><p class="rk"><b>JAX D rank:</b> 9th most pass yds allowed (235.7/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="92"></meter><b>92</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="74"></meter><b>74</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="48"></meter><b>48</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="JACCIN" data-stat="recyds">
+ <div class="top">
+  <div class="score t1" aria-label="Score 78"><b>78</b><small>#7</small></div>
+  <div class="who"><h3>Tee Higgins</h3><p class="tm">CIN · WR1 · JAX @ CIN</p>
+   <p class="prop">Receiving Yards <strong>50+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>59</span><span class="g hit"><i>W2</i>95</span><span class="g hit"><i>W3</i>90</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>64¢</dd></div>
+  <div><dt>Model</dt><dd>78%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>79.8</dd></div>
+  <div><dt>Return</dt><dd class="pos">+22%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · WR1s vs JAX (rec yds): <span class="al"><span class="ok" title="W1 CLE">59</span><span class="ok" title="W2 DEN">138</span><span class="ok" title="W3 NE">87</span></span></p><p class="rk"><b>JAX D rank:</b> 9th most pass yds allowed (235.7/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="75"></meter><b>75</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="74"></meter><b>74</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="72"></meter><b>72</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="TENBAL" data-stat="pass">
+ <div class="top">
+  <div class="score t1" aria-label="Score 78"><b>78</b><small>#8</small></div>
+  <div class="who"><h3>Cam Ward</h3><p class="tm">TEN · QB · TEN @ BAL</p>
+   <p class="prop">Passing Yards <strong>125+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>140</span><span class="g hit"><i>W2</i>183</span><span class="g hit"><i>W3</i>181</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>86¢</dd></div>
+  <div><dt>Model</dt><dd>86%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>201.4</dd></div>
+  <div><dt>Return</dt><dd class="">0%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs BAL (pass yds): <span class="al"><span class="ok" title="W1 IND">166</span><span class="ok" title="W2 NO">252</span><span class="ok" title="W3 DAL">276</span></span></p><p class="rk"><b>BAL D rank:</b> 16th most pass yds allowed (216.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="96"></meter><b>96</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="52"></meter><b>52</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="50"></meter><b>50</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="KCLV" data-stat="rec">
+ <div class="top">
+  <div class="score t2" aria-label="Score 75"><b>75</b><small>#9</small></div>
+  <div class="who"><h3>Kenneth Walker</h3><p class="tm">KC · RB1 · KC @ LV</p>
+   <p class="prop">Receptions <strong>2+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>3</span><span class="g hit"><i>W2</i>6</span><span class="g hit"><i>W3</i>2</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>80¢</dd></div>
+  <div><dt>Model</dt><dd>85%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>4.1</dd></div>
+  <div><dt>Return</dt><dd class="">+6%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs LV (catches): <span class="al"><span class="ok" title="W1 MIA">4</span><span class="ok" title="W2 LAC">2</span><span class="ok" title="W3 NO">2</span></span></p><p class="rk"><b>LV D rank:</b> 24th most pass yds allowed (200.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="92"></meter><b>92</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="26"></meter><b>26</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="56"></meter><b>56</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="TENBAL" data-stat="recyds">
+ <div class="top">
+  <div class="score t2" aria-label="Score 74"><b>74</b><small>#10</small></div>
+  <div class="who"><h3>Carnell Tate</h3><p class="tm">TEN · WR1 · TEN @ BAL</p>
+   <p class="prop">Receiving Yards <strong>25+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>38</span><span class="g hit"><i>W2</i>27</span><span class="g hit"><i>W3</i>58</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>76¢</dd></div>
+  <div><dt>Model</dt><dd>80%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>47.7</dd></div>
+  <div><dt>Return</dt><dd class="">+6%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · WR1s vs BAL (rec yds): <span class="al"><span class="ok" title="W1 IND">61</span><span class="ok" title="W2 NO">86</span><span class="ok" title="W3 DAL">112</span></span></p><p class="rk"><b>BAL D rank:</b> 16th most pass yds allowed (216.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="81"></meter><b>81</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="52"></meter><b>52</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="56"></meter><b>56</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="LACSEA" data-stat="recyds">
+ <div class="top">
+  <div class="score t2" aria-label="Score 73"><b>73</b><small>#11</small></div>
+  <div class="who"><h3>Jaxon Smith-Njigba</h3><p class="tm">SEA · WR1 · LAC @ SEA</p>
+   <p class="prop">Receiving Yards <strong>50+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>122</span><span class="g hit"><i>W2</i>155</span><span class="g hit"><i>W3</i>128</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>86¢</dd></div>
+  <div><dt>Model</dt><dd>81%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>98.3</dd></div>
+  <div><dt>Return</dt><dd class="">-6%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · WR1s vs LAC (rec yds): <span class="al"><span class="ok" title="W1 ARI">75</span><span class="ok" title="W2 LV">119</span><span class="ok" title="W3 BUF">67</span></span></p><p class="rk"><b>LAC D rank:</b> 13th most pass yds allowed (233/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="82"></meter><b>82</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="61"></meter><b>61</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="44"></meter><b>44</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="KCLV" data-stat="pass">
+ <div class="top">
+  <div class="score t2" aria-label="Score 73"><b>73</b><small>#12</small></div>
+  <div class="who"><h3>Patrick Mahomes</h3><p class="tm">KC · QB · KC @ LV</p>
+   <p class="prop">Passing Yards <strong>175+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>184</span><span class="g hit"><i>W2</i>382</span><span class="g hit"><i>W3</i>246</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>85¢</dd></div>
+  <div><dt>Model</dt><dd>84%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>246.2</dd></div>
+  <div><dt>Return</dt><dd class="">-1%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs LV (pass yds): <span class="al"><span class="ok" title="W1 MIA">220</span><span class="ok" title="W2 LAC">192</span><span class="ok" title="W3 NO">255</span></span></p><p class="rk"><b>LV D rank:</b> 24th most pass yds allowed (200.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="91"></meter><b>91</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="26"></meter><b>26</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="49"></meter><b>49</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DETCAR" data-stat="rush">
+ <div class="top">
+  <div class="score t2" aria-label="Score 73"><b>73</b><small>#13</small></div>
+  <div class="who"><h3>Chuba Hubbard</h3><p class="tm">CAR · RB1 · DET @ CAR</p>
+   <p class="prop">Rushing Yards <strong>40+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>49</span><span class="g hit"><i>W2</i>53</span><span class="g hit"><i>W3</i>82</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>82¢</dd></div>
+  <div><dt>Model</dt><dd>79%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>65.3</dd></div>
+  <div><dt>Return</dt><dd class="">-4%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs DET (rush yds): <span class="al"><span class="ok" title="W1 NO">46</span><span class="ok" title="W2 BUF">135</span><span class="ok" title="W3 NYJ">52</span></span></p><p class="rk"><b>DET D rank:</b> 10th most rush yds allowed (117.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="76"></meter><b>76</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="71"></meter><b>71</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="46"></meter><b>46</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="TENBAL" data-stat="rush">
+ <div class="top">
+  <div class="score t2" aria-label="Score 73"><b>73</b><small>#14</small></div>
+  <div class="who"><h3>Lamar Jackson</h3><p class="tm">BAL · QB · TEN @ BAL</p>
+   <p class="prop">Rushing Yards <strong>30+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>40</span><span class="g hit"><i>W2</i>34</span><span class="g hit"><i>W3</i>50</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>59¢</dd></div>
+  <div><dt>Model</dt><dd>79%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>53.8</dd></div>
+  <div><dt>Return</dt><dd class="pos">+33%</dd></div>
+  <div><dt>D vs line</dt><dd>–</dd></div>
+ </dl>
+ <div class="cov"><p class="allow">QB rushing has no defense-vs-line check; QBs face too many different styles to compare.</p><p class="rk"><b>TEN D rank:</b> 9th most rush yds allowed (126.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="77"></meter><b>77</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="50"></meter><b>50</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="74"></meter><b>74</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="83"></meter><b>83</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DENSF" data-stat="rush">
+ <div class="top">
+  <div class="score t2" aria-label="Score 73"><b>73</b><small>#15</small></div>
+  <div class="who"><h3>Brock Purdy</h3><p class="tm">SF · QB · DEN @ SF</p>
+   <p class="prop">Rushing Yards <strong>15+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>29</span><span class="g hit"><i>W2</i>30</span><span class="g hit"><i>W3</i>34</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>57¢</dd></div>
+  <div><dt>Model</dt><dd>75%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>21.9</dd></div>
+  <div><dt>Return</dt><dd class="pos">+32%</dd></div>
+  <div><dt>D vs line</dt><dd>–</dd></div>
+ </dl>
+ <div class="cov"><p class="allow">QB rushing has no defense-vs-line check; QBs face too many different styles to compare.</p><p class="rk"><b>DEN D rank:</b> 3rd most rush yds allowed (143.7/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="71"></meter><b>71</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="50"></meter><b>50</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="94"></meter><b>94</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="82"></meter><b>82</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="TENBAL" data-stat="rush">
+ <div class="top">
+  <div class="score t2" aria-label="Score 72"><b>72</b><small>#16</small></div>
+  <div class="who"><h3>Tony Pollard</h3><p class="tm">TEN · RB1 · TEN @ BAL</p>
+   <p class="prop">Rushing Yards <strong>25+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>35</span><span class="g hit"><i>W2</i>64</span><span class="g hit"><i>W3</i>74</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>83¢</dd></div>
+  <div><dt>Model</dt><dd>81%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>51.1</dd></div>
+  <div><dt>Return</dt><dd class="">-2%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs BAL (rush yds): <span class="al"><span class="ok" title="W1 IND">98</span><span class="ok" title="W2 NO">25</span><span class="ok" title="W3 DAL">98</span></span></p><p class="rk"><b>BAL D rank:</b> 19th most rush yds allowed (105/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="83"></meter><b>83</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="42"></meter><b>42</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="48"></meter><b>48</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DENSF" data-stat="recyds">
+ <div class="top">
+  <div class="score t2" aria-label="Score 72"><b>72</b><small>#17</small></div>
+  <div class="who"><h3>RJ Harvey</h3><p class="tm">DEN · RB1 · DEN @ SF</p>
+   <p class="prop">Receiving Yards <strong>15+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>23</span><span class="g dnp"><i>W2</i>DNP</span><span class="g hit"><i>W3</i>41</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/2</dd></div>
+  <div><dt>Kalshi yes</dt><dd>64¢</dd></div>
+  <div><dt>Model</dt><dd>76%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>22</dd></div>
+  <div><dt>Return</dt><dd class="pos">+18%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs SF (rec yds): <span class="al"><span class="ok" title="W1 LAR">24</span><span class="ok" title="W2 MIA">19</span><span class="ok" title="W3 ARI">19</span></span></p><p class="rk"><b>SF D rank:</b> 19th most pass yds allowed (207.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="73"></meter><b>73</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="75"></meter><b>75</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="42"></meter><b>42</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="68"></meter><b>68</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DENSF" data-stat="rec">
+ <div class="top">
+  <div class="score t2" aria-label="Score 72"><b>72</b><small>#18</small></div>
+  <div class="who"><h3>RJ Harvey</h3><p class="tm">DEN · RB1 · DEN @ SF</p>
+   <p class="prop">Receptions <strong>2+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>4</span><span class="g dnp"><i>W2</i>DNP</span><span class="g hit"><i>W3</i>6</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/2</dd></div>
+  <div><dt>Kalshi yes</dt><dd>85¢</dd></div>
+  <div><dt>Model</dt><dd>81%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>3</dd></div>
+  <div><dt>Return</dt><dd class="">-5%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs SF (catches): <span class="al"><span class="ok" title="W1 LAR">3</span><span class="ok" title="W2 MIA">3</span><span class="ok" title="W3 ARI">5</span></span></p><p class="rk"><b>SF D rank:</b> 19th most pass yds allowed (207.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="87"></meter><b>87</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="75"></meter><b>75</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="42"></meter><b>42</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="45"></meter><b>45</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="KCLV" data-stat="rec">
+ <div class="top">
+  <div class="score t2" aria-label="Score 72"><b>72</b><small>#19</small></div>
+  <div class="who"><h3>Ashton Jeanty</h3><p class="tm">LV · RB1 · KC @ LV</p>
+   <p class="prop">Receptions <strong>2+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>6</span><span class="g hit"><i>W2</i>4</span><span class="g hit"><i>W3</i>3</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>85¢</dd></div>
+  <div><dt>Model</dt><dd>84%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>3.5</dd></div>
+  <div><dt>Return</dt><dd class="">-1%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs KC (catches): <span class="al"><span class="ok" title="W1 DEN">4</span><span class="ok" title="W2 IND">4</span><span class="ok" title="W3 MIA">3</span></span></p><p class="rk"><b>KC D rank:</b> 27th most pass yds allowed (178.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="90"></meter><b>90</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="16"></meter><b>16</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="49"></meter><b>49</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="NYJCHI" data-stat="recyds">
+ <div class="top">
+  <div class="score t2" aria-label="Score 72"><b>72</b><small>#20</small></div>
+  <div class="who"><h3>Kalif Raymond</h3><p class="tm">CHI · WR2 · NYJ @ CHI</p>
+   <p class="prop">Receiving Yards <strong>15+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>84</span><span class="g hit"><i>W2</i>40</span><span class="g hit"><i>W3</i>90</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>81¢</dd></div>
+  <div><dt>Model</dt><dd>84%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>46.3</dd></div>
+  <div><dt>Return</dt><dd class="">+3%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · WR2s vs NYJ (rec yds): <span class="al"><span class="ok" title="W1 TEN">38</span><span class="ok" title="W2 GB">41</span><span class="ok" title="W3 DET">49</span></span></p><p class="rk"><b>NYJ D rank:</b> 30th most pass yds allowed (171/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="89"></meter><b>89</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="6"></meter><b>6</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="53"></meter><b>53</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="NYJCHI" data-stat="recyds">
+ <div class="top">
+  <div class="score t2" aria-label="Score 72"><b>72</b><small>#21</small></div>
+  <div class="who"><h3>Garrett Wilson</h3><p class="tm">NYJ · WR1 · NYJ @ CHI</p>
+   <p class="prop">Receiving Yards <strong>40+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>79</span><span class="g hit"><i>W2</i>57</span><span class="g hit"><i>W3</i>107</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>86¢</dd></div>
+  <div><dt>Model</dt><dd>82%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>86.8</dd></div>
+  <div><dt>Return</dt><dd class="">-5%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · WR1s vs CHI (rec yds): <span class="al"><span class="ok" title="W1 CAR">138</span><span class="ok" title="W2 MIN">55</span><span class="ok" title="W3 PHI">65</span></span></p><p class="rk"><b>CHI D rank:</b> 21st most pass yds allowed (207/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="84"></meter><b>84</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="35"></meter><b>35</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="45"></meter><b>45</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DALHOU" data-stat="rush">
+ <div class="top">
+  <div class="score t2" aria-label="Score 72"><b>72</b><small>#22</small></div>
+  <div class="who"><h3>C.J. Stroud</h3><p class="tm">HOU · QB · DAL @ HOU</p>
+   <p class="prop">Rushing Yards <strong>10+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>15</span><span class="g hit"><i>W2</i>29</span><span class="g hit"><i>W3</i>10</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>57¢</dd></div>
+  <div><dt>Model</dt><dd>74%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>14.3</dd></div>
+  <div><dt>Return</dt><dd class="pos">+29%</dd></div>
+  <div><dt>D vs line</dt><dd>–</dd></div>
+ </dl>
+ <div class="cov"><p class="allow">QB rushing has no defense-vs-line check; QBs face too many different styles to compare.</p><p class="rk"><b>DAL D rank:</b> 2nd most rush yds allowed (179.7/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="68"></meter><b>68</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="50"></meter><b>50</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="97"></meter><b>97</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="79"></meter><b>79</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="KCLV" data-stat="rush">
+ <div class="top">
+  <div class="score t2" aria-label="Score 71"><b>71</b><small>#23</small></div>
+  <div class="who"><h3>Ashton Jeanty</h3><p class="tm">LV · RB1 · KC @ LV</p>
+   <p class="prop">Rushing Yards <strong>30+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>102</span><span class="g hit"><i>W2</i>48</span><span class="g hit"><i>W3</i>56</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>86¢</dd></div>
+  <div><dt>Model</dt><dd>82%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>64.7</dd></div>
+  <div><dt>Return</dt><dd class="">-5%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs KC (rush yds): <span class="al"><span class="ok" title="W1 DEN">36</span><span class="ok" title="W2 IND">92</span><span class="ok" title="W3 MIA">41</span></span></p><p class="rk"><b>KC D rank:</b> 23rd most rush yds allowed (99.7/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="84"></meter><b>84</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="29"></meter><b>29</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="45"></meter><b>45</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="NEBUF" data-stat="pass">
+ <div class="top">
+  <div class="score t2" aria-label="Score 69"><b>69</b><small>#24</small></div>
+  <div class="who"><h3>Josh Allen</h3><p class="tm">BUF · QB · NE @ BUF</p>
+   <p class="prop">Passing Yards <strong>175+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>334</span><span class="g hit"><i>W2</i>248</span><span class="g hit"><i>W3</i>204</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>86¢</dd></div>
+  <div><dt>Model</dt><dd>82%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>226.9</dd></div>
+  <div><dt>Return</dt><dd class="">-5%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs NE (pass yds): <span class="al"><span class="ok" title="W1 SEA">187</span><span class="ok" title="W2 PIT">187</span><span class="ok" title="W3 JAX">182</span></span></p><p class="rk"><b>NE D rank:</b> 31st most pass yds allowed (170/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="85"></meter><b>85</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="3"></meter><b>3</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="45"></meter><b>45</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="INDWAS" data-stat="recyds">
+ <div class="top">
+  <div class="score t2" aria-label="Score 68"><b>68</b><small>#25</small></div>
+  <div class="who"><h3>Terry McLaurin</h3><p class="tm">WAS · WR1 · IND @ WAS</p>
+   <p class="prop">Receiving Yards <strong>50+</strong></p></div>
+ </div>
+ <div class="games"><span class="g miss"><i>W1</i>14</span><span class="g hit"><i>W2</i>50</span><span class="g hit"><i>W3</i>77</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>48¢</dd></div>
+  <div><dt>Model</dt><dd>68%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>62.7</dd></div>
+  <div><dt>Return</dt><dd class="pos">+42%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · WR1s vs IND (rec yds): <span class="al"><span class="ok" title="W1 BAL">150</span><span class="ok" title="W2 KC">86</span><span class="ok" title="W3 HOU">51</span></span></p><p class="rk"><b>IND D rank:</b> 3rd most pass yds allowed (276/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="65"></meter><b>65</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="94"></meter><b>94</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="92"></meter><b>92</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="LACSEA" data-stat="rush">
+ <div class="top">
+  <div class="score t2" aria-label="Score 68"><b>68</b><small>#26</small></div>
+  <div class="who"><h3>Omarion Hampton</h3><p class="tm">LAC · RB1 · LAC @ SEA</p>
+   <p class="prop">Rushing Yards <strong>25+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>43</span><span class="g hit"><i>W2</i>94</span><span class="g hit"><i>W3</i>56</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>82¢</dd></div>
+  <div><dt>Model</dt><dd>79%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>42.2</dd></div>
+  <div><dt>Return</dt><dd class="">-4%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs SEA (rush yds): <span class="al"><span class="ok" title="W1 NE">51</span><span class="ok" title="W2 ARI">29</span><span class="ok" title="W3 WAS">36</span></span></p><p class="rk"><b>SEA D rank:</b> 27th most rush yds allowed (87/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="78"></meter><b>78</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="16"></meter><b>16</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="46"></meter><b>46</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="LARPHI" data-stat="rush">
+ <div class="top">
+  <div class="score t3" aria-label="Score 68"><b>68</b><small>#27</small></div>
+  <div class="who"><h3>Kyren Williams</h3><p class="tm">LAR · RB1 · LAR @ PHI</p>
+   <p class="prop">Rushing Yards <strong>40+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>41</span><span class="g hit"><i>W2</i>85</span><span class="g hit"><i>W3</i>88</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>77¢</dd></div>
+  <div><dt>Model</dt><dd>79%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>67.2</dd></div>
+  <div><dt>Return</dt><dd class="">+2%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs PHI (rush yds): <span class="al"><span class="ok" title="W1 WAS">63</span><span class="ok" title="W2 TEN">64</span><span class="ok" title="W3 CHI">84</span></span></p><p class="rk"><b>PHI D rank:</b> 8th most rush yds allowed (127.3/game)</p></div>
+ <p class="flag">Wide bid/ask spread, thin market</p>
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="77"></meter><b>77</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="77"></meter><b>77</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="52"></meter><b>52</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="JACCIN" data-stat="recyds">
+ <div class="top">
+  <div class="score t3" aria-label="Score 68"><b>68</b><small>#28</small></div>
+  <div class="who"><h3>Parker Washington</h3><p class="tm">JAX · WR1 · JAX @ CIN</p>
+   <p class="prop">Receiving Yards <strong>40+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>83</span><span class="g hit"><i>W2</i>98</span><span class="g hit"><i>W3</i>40</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>81¢</dd></div>
+  <div><dt>Model</dt><dd>76%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>91.4</dd></div>
+  <div><dt>Return</dt><dd class="">-6%</dd></div>
+  <div><dt>D vs line</dt><dd>2/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 2/3</b> · WR1s vs CIN (rec yds): <span class="al"><span class="ok" title="W1 TB">40</span><span class="no" title="W2 HOU">37</span><span class="ok" title="W3 PIT">60</span></span></p><p class="rk"><b>CIN D rank:</b> 5th most pass yds allowed (260/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="85"></meter><b>85</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="87"></meter><b>87</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="44"></meter><b>44</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="INDWAS" data-stat="recyds">
+ <div class="top">
+  <div class="score t3" aria-label="Score 67"><b>67</b><small>#29</small></div>
+  <div class="who"><h3>Keenan Allen</h3><p class="tm">IND · WR2 · IND @ WAS</p>
+   <p class="prop">Receiving Yards <strong>15+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>32</span><span class="g miss"><i>W2</i>5</span><span class="g hit"><i>W3</i>63</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>81¢</dd></div>
+  <div><dt>Model</dt><dd>77%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>38.2</dd></div>
+  <div><dt>Return</dt><dd class="">-5%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · WR2s vs WAS (rec yds): <span class="al"><span class="ok" title="W1 PHI">53</span><span class="ok" title="W2 DAL">40</span><span class="ok" title="W3 SEA">46</span></span></p><p class="rk"><b>WAS D rank:</b> 2nd most pass yds allowed (280.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="87"></meter><b>87</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="97"></meter><b>97</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="45"></meter><b>45</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DALHOU" data-stat="rush">
+ <div class="top">
+  <div class="score t3" aria-label="Score 67"><b>67</b><small>#30</small></div>
+  <div class="who"><h3>Woody Marks</h3><p class="tm">HOU · RB2 · DAL @ HOU</p>
+   <p class="prop">Rushing Yards <strong>15+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>42</span><span class="g miss"><i>W2</i>8</span><span class="g hit"><i>W3</i>15</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>85¢</dd></div>
+  <div><dt>Model</dt><dd>77%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>42.2</dd></div>
+  <div><dt>Return</dt><dd class="">-9%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · No. 2 RBs vs DAL (rush yds): <span class="al"><span class="ok" title="W1 NYG">16</span><span class="ok" title="W2 WAS">43</span><span class="ok" title="W3 BAL">33</span></span></p><p class="rk"><b>DAL D rank:</b> 2nd most rush yds allowed (179.7/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="88"></meter><b>88</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="97"></meter><b>97</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="41"></meter><b>41</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="INDWAS" data-stat="pass">
+ <div class="top">
+  <div class="score t3" aria-label="Score 67"><b>67</b><small>#31</small></div>
+  <div class="who"><h3>Marcus Mariota</h3><p class="tm">WAS · QB · IND @ WAS</p>
+   <p class="prop">Passing Yards <strong>150+</strong></p></div>
+ </div>
+ <div class="games"><span class="g dnp"><i>W1</i>DNP</span><span class="g miss"><i>W2</i>111</span><span class="g hit"><i>W3</i>183</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>1/2</dd></div>
+  <div><dt>Kalshi yes</dt><dd>82¢</dd></div>
+  <div><dt>Model</dt><dd>77%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>231.3</dd></div>
+  <div><dt>Return</dt><dd class="">-6%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs IND (pass yds): <span class="al"><span class="ok" title="W1 BAL">324</span><span class="ok" title="W2 KC">382</span><span class="ok" title="W3 HOU">167</span></span></p><p class="rk"><b>IND D rank:</b> 3rd most pass yds allowed (276/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="95"></meter><b>95</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="50"></meter><b>50</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="94"></meter><b>94</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="44"></meter><b>44</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DALHOU" data-stat="rush">
+ <div class="top">
+  <div class="score t3" aria-label="Score 67"><b>67</b><small>#32</small></div>
+  <div class="who"><h3>David Montgomery</h3><p class="tm">HOU · RB1 · DAL @ HOU</p>
+   <p class="prop">Rushing Yards <strong>30+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>60</span><span class="g miss"><i>W2</i>10</span><span class="g hit"><i>W3</i>33</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>73¢</dd></div>
+  <div><dt>Model</dt><dd>74%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>57.2</dd></div>
+  <div><dt>Return</dt><dd class="">+2%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs DAL (rush yds): <span class="al"><span class="ok" title="W1 NYG">81</span><span class="ok" title="W2 WAS">43</span><span class="ok" title="W3 BAL">89</span></span></p><p class="rk"><b>DAL D rank:</b> 2nd most rush yds allowed (179.7/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="81"></meter><b>81</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="97"></meter><b>97</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="52"></meter><b>52</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="JACCIN" data-stat="pass">
+ <div class="top">
+  <div class="score t3" aria-label="Score 67"><b>67</b><small>#33</small></div>
+  <div class="who"><h3>Joe Burrow</h3><p class="tm">CIN · QB · JAX @ CIN</p>
+   <p class="prop">Passing Yards <strong>200+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>254</span><span class="g hit"><i>W2</i>207</span><span class="g hit"><i>W3</i>282</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>85¢</dd></div>
+  <div><dt>Model</dt><dd>77%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>268.1</dd></div>
+  <div><dt>Return</dt><dd class="">-9%</dd></div>
+  <div><dt>D vs line</dt><dd>2/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 2/3</b> · QBs vs JAX (pass yds): <span class="al"><span class="ok" title="W1 CLE">205</span><span class="ok" title="W2 DEN">288</span><span class="no" title="W3 NE">199</span></span></p><p class="rk"><b>JAX D rank:</b> 9th most pass yds allowed (235.7/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="88"></meter><b>88</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="74"></meter><b>74</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="41"></meter><b>41</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="MIAMIN" data-stat="rec">
+ <div class="top">
+  <div class="score t3" aria-label="Score 66"><b>66</b><small>#34</small></div>
+  <div class="who"><h3>Greg Dulcich</h3><p class="tm">MIA · TE1 · MIA @ MIN</p>
+   <p class="prop">Receptions <strong>2+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>2</span><span class="g hit"><i>W2</i>2</span><span class="g hit"><i>W3</i>5</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>80¢</dd></div>
+  <div><dt>Model</dt><dd>76%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>2.9</dd></div>
+  <div><dt>Return</dt><dd class="">-4%</dd></div>
+  <div><dt>D vs line</dt><dd>2/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 2/3</b> · TE1s vs MIN (catches): <span class="al"><span class="ok" title="W1 GB">3</span><span class="no" title="W2 CHI">1</span><span class="ok" title="W3 TB">3</span></span></p><p class="rk"><b>MIN D rank:</b> 12th most pass yds allowed (234/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="86"></meter><b>86</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="65"></meter><b>65</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="46"></meter><b>46</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DALHOU" data-stat="pass">
+ <div class="top">
+  <div class="score t3" aria-label="Score 66"><b>66</b><small>#35</small></div>
+  <div class="who"><h3>Dak Prescott</h3><p class="tm">DAL · QB · DAL @ HOU</p>
+   <p class="prop">Passing Yards <strong>200+</strong></p></div>
+ </div>
+ <div class="games"><span class="g miss"><i>W1</i>175</span><span class="g hit"><i>W2</i>279</span><span class="g hit"><i>W3</i>276</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>86¢</dd></div>
+  <div><dt>Model</dt><dd>78%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>280.4</dd></div>
+  <div><dt>Return</dt><dd class="">-9%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs HOU (pass yds): <span class="al"><span class="ok" title="W1 BUF">334</span><span class="ok" title="W2 CIN">207</span><span class="ok" title="W3 IND">235</span></span></p><p class="rk"><b>HOU D rank:</b> 7th most pass yds allowed (238.7/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="91"></meter><b>91</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="81"></meter><b>81</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="41"></meter><b>41</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="INDWAS" data-stat="pass">
+ <div class="top">
+  <div class="score t3" aria-label="Score 66"><b>66</b><small>#36</small></div>
+  <div class="who"><h3>Daniel Jones</h3><p class="tm">IND · QB · IND @ WAS</p>
+   <p class="prop">Passing Yards <strong>175+</strong></p></div>
+ </div>
+ <div class="games"><span class="g miss"><i>W1</i>166</span><span class="g hit"><i>W2</i>210</span><span class="g hit"><i>W3</i>235</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>80¢</dd></div>
+  <div><dt>Model</dt><dd>75%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>219.9</dd></div>
+  <div><dt>Return</dt><dd class="">-6%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs WAS (pass yds): <span class="al"><span class="ok" title="W1 PHI">203</span><span class="ok" title="W2 DAL">279</span><span class="ok" title="W3 SEA">379</span></span></p><p class="rk"><b>WAS D rank:</b> 2nd most pass yds allowed (280.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="83"></meter><b>83</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="97"></meter><b>97</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="44"></meter><b>44</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="LARPHI" data-stat="rush">
+ <div class="top">
+  <div class="score t3" aria-label="Score 66"><b>66</b><small>#37</small></div>
+  <div class="who"><h3>Jalen Hurts</h3><p class="tm">PHI · QB · LAR @ PHI</p>
+   <p class="prop">Rushing Yards <strong>10+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>46</span><span class="g hit"><i>W2</i>16</span><span class="g hit"><i>W3</i>25</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>85¢</dd></div>
+  <div><dt>Model</dt><dd>84%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>31.2</dd></div>
+  <div><dt>Return</dt><dd class="">-1%</dd></div>
+  <div><dt>D vs line</dt><dd>–</dd></div>
+ </dl>
+ <div class="cov"><p class="allow">QB rushing has no defense-vs-line check; QBs face too many different styles to compare.</p><p class="rk"><b>LAR D rank:</b> 22nd most rush yds allowed (101.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="88"></meter><b>88</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="50"></meter><b>50</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="32"></meter><b>32</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="49"></meter><b>49</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="NYJCHI" data-stat="pass">
+ <div class="top">
+  <div class="score t3" aria-label="Score 66"><b>66</b><small>#38</small></div>
+  <div class="who"><h3>Geno Smith</h3><p class="tm">NYJ · QB · NYJ @ CHI</p>
+   <p class="prop">Passing Yards <strong>150+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>215</span><span class="g hit"><i>W2</i>247</span><span class="g hit"><i>W3</i>321</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>87¢</dd></div>
+  <div><dt>Model</dt><dd>80%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>241.2</dd></div>
+  <div><dt>Return</dt><dd class="">-8%</dd></div>
+  <div><dt>D vs line</dt><dd>2/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 2/3</b> · QBs vs CHI (pass yds): <span class="al"><span class="ok" title="W1 CAR">361</span><span class="no" title="W2 MIN">143</span><span class="ok" title="W3 PHI">153</span></span></p><p class="rk"><b>CHI D rank:</b> 21st most pass yds allowed (207/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="96"></meter><b>96</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="35"></meter><b>35</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="42"></meter><b>42</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DENSF" data-stat="rec">
+ <div class="top">
+  <div class="score t3" aria-label="Score 65"><b>65</b><small>#39</small></div>
+  <div class="who"><h3>Christian McCaffrey</h3><p class="tm">SF · RB1 · DEN @ SF</p>
+   <p class="prop">Receptions <strong>3+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>5</span><span class="g hit"><i>W2</i>4</span><span class="g hit"><i>W3</i>4</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>85¢</dd></div>
+  <div><dt>Model</dt><dd>75%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>4.4</dd></div>
+  <div><dt>Return</dt><dd class="neg">-12%</dd></div>
+  <div><dt>D vs line</dt><dd>2/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 2/3</b> · lead RBs vs DEN (catches): <span class="al"><span class="ok" title="W1 KC">3</span><span class="no" title="W2 JAX">2</span><span class="ok" title="W3 LAR">6</span></span></p><p class="rk"><b>DEN D rank:</b> 8th most pass yds allowed (237/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="83"></meter><b>83</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="77"></meter><b>77</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="38"></meter><b>38</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DENSF" data-stat="rush">
+ <div class="top">
+  <div class="score t3" aria-label="Score 64"><b>64</b><small>#40</small></div>
+  <div class="who"><h3>Christian McCaffrey</h3><p class="tm">SF · RB1 · DEN @ SF</p>
+   <p class="prop">Rushing Yards <strong>40+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>68</span><span class="g miss"><i>W2</i>23</span><span class="g hit"><i>W3</i>75</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>79¢</dd></div>
+  <div><dt>Model</dt><dd>73%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>69.3</dd></div>
+  <div><dt>Return</dt><dd class="">-7%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs DEN (rush yds): <span class="al"><span class="ok" title="W1 KC">173</span><span class="ok" title="W2 JAX">65</span><span class="ok" title="W3 LAR">88</span></span></p><p class="rk"><b>DEN D rank:</b> 3rd most rush yds allowed (143.7/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="78"></meter><b>78</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="94"></meter><b>94</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="43"></meter><b>43</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DETCAR" data-stat="recyds">
+ <div class="top">
+  <div class="score t3" aria-label="Score 64"><b>64</b><small>#41</small></div>
+  <div class="who"><h3>Tetairoa McMillan</h3><p class="tm">CAR · WR1 · DET @ CAR</p>
+   <p class="prop">Receiving Yards <strong>60+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>75</span><span class="g hit"><i>W2</i>101</span><span class="g miss"><i>W3</i>17</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>61¢</dd></div>
+  <div><dt>Model</dt><dd>67%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>73.5</dd></div>
+  <div><dt>Return</dt><dd class="">+11%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · WR1s vs DET (rec yds): <span class="al"><span class="ok" title="W1 NO">182</span><span class="ok" title="W2 BUF">63</span><span class="ok" title="W3 NYJ">107</span></span></p><p class="rk"><b>DET D rank:</b> 1st most pass yds allowed (299.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="64"></meter><b>64</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="100"></meter><b>100</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="61"></meter><b>61</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="TENBAL" data-stat="pass">
+ <div class="top">
+  <div class="score t3" aria-label="Score 64"><b>64</b><small>#42</small></div>
+  <div class="who"><h3>Lamar Jackson</h3><p class="tm">BAL · QB · TEN @ BAL</p>
+   <p class="prop">Passing Yards <strong>150+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>324</span><span class="g hit"><i>W2</i>235</span><span class="g hit"><i>W3</i>186</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>88¢</dd></div>
+  <div><dt>Model</dt><dd>80%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>236.9</dd></div>
+  <div><dt>Return</dt><dd class="">-9%</dd></div>
+  <div><dt>D vs line</dt><dd>2/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 2/3</b> · QBs vs TEN (pass yds): <span class="al"><span class="ok" title="W1 NYJ">215</span><span class="ok" title="W2 PHI">264</span><span class="no" title="W3 NYG">118</span></span></p><p class="rk"><b>TEN D rank:</b> 26th most pass yds allowed (189/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="95"></meter><b>95</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="19"></meter><b>19</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="41"></meter><b>41</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="TENBAL" data-stat="rush">
+ <div class="top">
+  <div class="score t3" aria-label="Score 63"><b>63</b><small>#43</small></div>
+  <div class="who"><h3>Derrick Henry</h3><p class="tm">BAL · RB1 · TEN @ BAL</p>
+   <p class="prop">Rushing Yards <strong>60+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>144</span><span class="g hit"><i>W2</i>68</span><span class="g hit"><i>W3</i>89</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>84¢</dd></div>
+  <div><dt>Model</dt><dd>73%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>102.3</dd></div>
+  <div><dt>Return</dt><dd class="neg">-13%</dd></div>
+  <div><dt>D vs line</dt><dd>2/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 2/3</b> · lead RBs vs TEN (rush yds): <span class="al"><span class="ok" title="W1 NYJ">102</span><span class="no" title="W2 PHI">33</span><span class="ok" title="W3 NYG">60</span></span></p><p class="rk"><b>TEN D rank:</b> 9th most rush yds allowed (126.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="78"></meter><b>78</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="74"></meter><b>74</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="37"></meter><b>37</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DENSF" data-stat="pass">
+ <div class="top">
+  <div class="score t3" aria-label="Score 63"><b>63</b><small>#44</small></div>
+  <div class="who"><h3>Bo Nix</h3><p class="tm">DEN · QB · DEN @ SF</p>
+   <p class="prop">Passing Yards <strong>150+</strong></p></div>
+ </div>
+ <div class="games"><span class="g miss"><i>W1</i>131</span><span class="g hit"><i>W2</i>288</span><span class="g hit"><i>W3</i>186</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>87¢</dd></div>
+  <div><dt>Model</dt><dd>80%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>225.9</dd></div>
+  <div><dt>Return</dt><dd class="">-9%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · QBs vs SF (pass yds): <span class="al"><span class="ok" title="W1 LAR">155</span><span class="ok" title="W2 MIA">197</span><span class="ok" title="W3 ARI">280</span></span></p><p class="rk"><b>SF D rank:</b> 19th most pass yds allowed (207.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="94"></meter><b>94</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="42"></meter><b>42</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="41"></meter><b>41</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="TENBAL" data-stat="recyds">
+ <div class="top">
+  <div class="score t3" aria-label="Score 63"><b>63</b><small>#45</small></div>
+  <div class="who"><h3>Wan&#x27;Dale Robinson</h3><p class="tm">TEN · WR2 · TEN @ BAL</p>
+   <p class="prop">Receiving Yards <strong>15+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>38</span><span class="g miss"><i>W2</i>9</span><span class="g hit"><i>W3</i>57</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>85¢</dd></div>
+  <div><dt>Model</dt><dd>78%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>44.8</dd></div>
+  <div><dt>Return</dt><dd class="">-9%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · WR2s vs BAL (rec yds): <span class="al"><span class="ok" title="W1 IND">37</span><span class="ok" title="W2 NO">64</span><span class="ok" title="W3 DAL">82</span></span></p><p class="rk"><b>BAL D rank:</b> 16th most pass yds allowed (216.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="89"></meter><b>89</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="52"></meter><b>52</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="41"></meter><b>41</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="DETCAR" data-stat="rush">
+ <div class="top">
+  <div class="score t3" aria-label="Score 63"><b>63</b><small>#46</small></div>
+  <div class="who"><h3>Jahmyr Gibbs</h3><p class="tm">DET · RB1 · DET @ CAR</p>
+   <p class="prop">Rushing Yards <strong>60+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>156</span><span class="g miss"><i>W2</i>52</span><span class="g hit"><i>W3</i>99</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>84¢</dd></div>
+  <div><dt>Model</dt><dd>72%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>95.2</dd></div>
+  <div><dt>Return</dt><dd class="neg">-14%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs CAR (rush yds): <span class="al"><span class="ok" title="W1 CHI">124</span><span class="ok" title="W2 ATL">72</span><span class="ok" title="W3 CLE">70</span></span></p><p class="rk"><b>CAR D rank:</b> 1st most rush yds allowed (193.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="75"></meter><b>75</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="100"></meter><b>100</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="36"></meter><b>36</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="LARPHI" data-stat="pass">
+ <div class="top">
+  <div class="score t3" aria-label="Score 62"><b>62</b><small>#47</small></div>
+  <div class="who"><h3>Jalen Hurts</h3><p class="tm">PHI · QB · LAR @ PHI</p>
+   <p class="prop">Passing Yards <strong>125+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>203</span><span class="g hit"><i>W2</i>264</span><span class="g hit"><i>W3</i>153</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>88¢</dd></div>
+  <div><dt>Model</dt><dd>80%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>196.2</dd></div>
+  <div><dt>Return</dt><dd class="">-9%</dd></div>
+  <div><dt>D vs line</dt><dd>2/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 2/3</b> · QBs vs LAR (pass yds): <span class="al"><span class="ok" title="W1 SF">205</span><span class="no" title="W2 NYG">111</span><span class="ok" title="W3 DEN">186</span></span></p><p class="rk"><b>LAR D rank:</b> 29th most pass yds allowed (171.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="94"></meter><b>94</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="10"></meter><b>10</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="41"></meter><b>41</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="LACSEA" data-stat="pass">
+ <div class="top">
+  <div class="score t3" aria-label="Score 62"><b>62</b><small>#48</small></div>
+  <div class="who"><h3>Justin Herbert</h3><p class="tm">LAC · QB · LAC @ SEA</p>
+   <p class="prop">Passing Yards <strong>125+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>209</span><span class="g hit"><i>W2</i>192</span><span class="g hit"><i>W3</i>226</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>88¢</dd></div>
+  <div><dt>Model</dt><dd>81%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>206.1</dd></div>
+  <div><dt>Return</dt><dd class="">-8%</dd></div>
+  <div><dt>D vs line</dt><dd>2/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 2/3</b> · QBs vs SEA (pass yds): <span class="al"><span class="ok" title="W1 NE">178</span><span class="no" title="W2 ARI">95</span><span class="ok" title="W3 WAS">183</span></span></p><p class="rk"><b>SEA D rank:</b> 32nd most pass yds allowed (141.7/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="96"></meter><b>96</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="0"></meter><b>0</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="42"></meter><b>42</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="LACSEA" data-stat="rush">
+ <div class="top">
+  <div class="score t3" aria-label="Score 62"><b>62</b><small>#49</small></div>
+  <div class="who"><h3>Jadarian Price</h3><p class="tm">SEA · RB1 · LAC @ SEA</p>
+   <p class="prop">Rushing Yards <strong>20+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>52</span><span class="g hit"><i>W2</i>52</span><span class="g miss"><i>W3</i>15</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>2/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>83¢</dd></div>
+  <div><dt>Model</dt><dd>75%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>39</dd></div>
+  <div><dt>Return</dt><dd class="neg">-10%</dd></div>
+  <div><dt>D vs line</dt><dd>3/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 3/3</b> · lead RBs vs LAC (rush yds): <span class="al"><span class="ok" title="W1 ARI">61</span><span class="ok" title="W2 LV">48</span><span class="ok" title="W3 BUF">154</span></span></p><p class="rk"><b>LAC D rank:</b> 12th most rush yds allowed (116.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="82"></meter><b>82</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="65"></meter><b>65</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="40"></meter><b>40</b></li>
+  </ul>
+ </details>
+</article>
+<article class="card" data-game="KCLV" data-stat="rush">
+ <div class="top">
+  <div class="score t3" aria-label="Score 62"><b>62</b><small>#50</small></div>
+  <div class="who"><h3>Kenneth Walker</h3><p class="tm">KC · RB1 · KC @ LV</p>
+   <p class="prop">Rushing Yards <strong>50+</strong></p></div>
+ </div>
+ <div class="games"><span class="g hit"><i>W1</i>173</span><span class="g hit"><i>W2</i>117</span><span class="g hit"><i>W3</i>70</span></div>
+ <dl class="kpis">
+  <div><dt>Hit rate</dt><dd>3/3</dd></div>
+  <div><dt>Kalshi yes</dt><dd>85¢</dd></div>
+  <div><dt>Model</dt><dd>72%</dd></div>
+  <div><dt>Sleeper proj</dt><dd>80.2</dd></div>
+  <div><dt>Return</dt><dd class="neg">-15%</dd></div>
+  <div><dt>D vs line</dt><dd>2/3</dd></div>
+ </dl>
+ <div class="cov"><p class="allow"><b>Defense vs this line: 2/3</b> · lead RBs vs LV (rush yds): <span class="al"><span class="no" title="W1 MIA">36</span><span class="ok" title="W2 LAC">94</span><span class="ok" title="W3 NO">57</span></span></p><p class="rk"><b>LV D rank:</b> 12th most rush yds allowed (116.3/game)</p></div>
+ 
+ <details><summary>Score breakdown</summary>
+  <ul class="bars">
+   <li><span>Sleeper projection</span><meter min="0" max="100" value="76"></meter><b>76</b></li>
+   <li><span>Player hit rate</span><meter min="0" max="100" value="80"></meter><b>80</b></li>
+   <li><span>Defense vs line</span><meter min="0" max="100" value="60"></meter><b>60</b></li>
+   <li><span>Defense rank</span><meter min="0" max="100" value="65"></meter><b>65</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="35"></meter><b>35</b></li>
+  </ul>
+ </details>
+</article>
+</section>
+
+<div class="notes">
+ <p>Weeks 1–3 only, so three games is the whole sample. A "—" means the player wasn't in Sleeper's stat feed for that week, which happens on very low-volume games; it counts as a miss.</p>
+ <p>Some markets weren't open when this was pulled: ATL–NO only has passing ladders, and a few games have no receiving or receptions markets yet. KC–LV receiving yards had no prices.</p>
+ <p>Injury news isn't modeled. Check Sunday morning inactives, especially for anyone listed questionable.</p>
+ <p>Stats: Sleeper weekly stats, cross-checked against Sleeper player logs, with Pro Football Reference box scores settling conflicts. Projections: Sleeper (Rotowire). Defense ranks: Pro Football Reference. Prices: Kalshi yes ask, Friday afternoon.</p>
+</div>
+</div>
+<script>
+(function(){
+ var s="all",g="all",cards=[].slice.call(document.querySelectorAll(".card")),out=document.getElementById("count"),sel=document.getElementById("game");
+ function apply(){var n=0;cards.forEach(function(c){var ok=(s==="all"||c.dataset.stat===s)&&(g==="all"||c.dataset.game===g);c.hidden=!ok;if(ok)n++;});out.textContent=n+" props, highest score first";}
+ document.querySelectorAll("[data-s]").forEach(function(b){b.addEventListener("click",function(){s=b.dataset.s;document.querySelectorAll("[data-s]").forEach(function(x){x.setAttribute("aria-pressed",x===b)});apply();});});
+ sel.addEventListener("change",function(){g=sel.value;apply();});
+ apply();
+})();
+</script>
