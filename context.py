@@ -135,7 +135,9 @@ def parse_news(j, names, now):
             continue
         text = f'{a.get("headline", "")} {a.get("description", "")}'
         tagged = {norm(c.get("description")) for c in a.get("categories", []) if c.get("type") == "athlete"}
-        low = norm(text)
+        if len(tagged) > 2:
+            tagged = set()      # roundup stories tag lots of players; only trust a tag on a story about 1-2 players
+        low = norm(a.get("headline", ""))
         for n in names:
             if n in tagged or (len(n.split()) >= 2 and re.search(rf"\b{re.escape(n)}\b", low)):
                 if n not in out:
