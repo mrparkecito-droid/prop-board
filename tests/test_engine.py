@@ -19,7 +19,7 @@ def test_page_cards_match_published_board():
     import build
     data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
     out = engine.run(data, json.load(open(os.path.join(HERE, "fixture_overrides.json"))))
-    cards, _ = build.cards_html(out["top"])
+    cards, _ = build.cards_html(out["top"], extras=False)
     published = open(os.path.join(HERE, "published_week4.html")).read()
     assert cards in published, "card markup differs from the published Week 4 board"
 
@@ -119,6 +119,54 @@ def test_kalshi_signing_and_quote_flow():
     assert K["k"] > parlay.PRIOR["k"] or K["b"] > 0      # Kalshi charged more than the legs -> markup goes up
 
 
+def test_context_parsers_and_nudge():
+    """ESPN / Open-Meteo / Reddit payloads in the shapes those APIs return, then the capped score nudge."""
+    import datetime as dt, context, build
+    sb = {"events": [{"competitions": [{"date": "2026-10-04T20:25Z", "neutralSite": False,
+          "venue": {"indoor": False, "address": {"city": "Santa Clara"}},
+          "competitors": [{"homeAway": "home", "team": {"abbreviation": "SF"}}, {"homeAway": "away", "team": {"abbreviation": "DEN"}}],
+          "odds": [{"details": "SF -7.5", "overUnder": 47.5, "spread": -7.5}]}]},
+                     {"competitions": [{"date": "2026-10-04T17:00Z", "venue": {"indoor": True},
+          "competitors": [{"homeAway": "home", "team": {"abbreviation": "WSH"}}, {"homeAway": "away", "team": {"abbreviation": "IND"}}],
+          "odds": [{"details": "EVEN", "overUnder": 44}]}]}]}
+    g = context.parse_scoreboard(sb)
+    assert g["DENSF"]["spread"] == {"SF": -7.5, "DEN": 7.5} and g["DENSF"]["total"] == 47.5
+    assert g["INDWAS"]["spread"] == {"WAS": 0.0, "IND": 0.0}
+    hours = [f"2026-10-04T{h:02d}:00" for h in range(24)]
+    wx = context.parse_weather({"hourly": {"time": hours, "wind_speed_10m": [18] * 24, "wind_gusts_10m": [30] * 24,
+                                "precipitation_probability": [10] * 24, "precipitation": [0] * 24, "temperature_2m": [61] * 24}}, "2026-10-04T20:25Z")
+    assert wx["wind"] == 18 and wx["gust"] == 30
+    inj = context.parse_injuries({"injuries": [{"displayName": "Denver Broncos", "injuries": [
+        {"status": "Out", "athlete": {"displayName": "Pat Surtain II", "position": {"abbreviation": "CB"}, "team": {"abbreviation": "DEN"}}},
+        {"status": "Injured Reserve", "athlete": {"displayName": "Old Guy", "position": {"abbreviation": "S"}}}]}]},
+        {"Denver Broncos": "DEN"})
+    assert inj == {"DEN": [{"name": "Pat Surtain II", "pos": "CB", "status": "Out"}]}
+    now = dt.datetime(2026, 10, 3, tzinfo=dt.timezone.utc)
+    news = context.parse_news({"articles": [{"headline": "Christian McCaffrey set for full workload", "published": "2026-10-02T12:00:00Z",
+                                             "categories": [{"type": "athlete", "description": "Christian McCaffrey"}]}]}, {"christian mccaffrey"}, now)
+    assert "christian mccaffrey" in news
+    buzz = context.parse_reddit([{"data": {"children": [{"data": {"title": "Christian McCaffrey smash spot"}}] * 4}}], {"christian mccaffrey"})
+    assert buzz == {"christian mccaffrey": 4}
+    C = {"games": g, "inj": inj, "news": news, "buzz": buzz, "trend": {}}
+    g["DENSF"]["wx"] = wx
+    ctx, rs, st = context.assess({"game": "DENSF", "team": "SF", "opp": "DEN", "stat": "rush", "pos": "RB", "player": "Christian McCaffrey"}, C)
+    assert ctx > 0 and any("favored" in t for _, t in rs)
+    ctx2, rs2, _ = context.assess({"game": "DENSF", "team": "SF", "opp": "DEN", "stat": "pass", "pos": "QB", "player": "Brock Purdy"}, C)
+    assert any("Windy" in t for _, t in rs2) and any("Surtain" in t for _, t in rs2)
+    assert context.assess({"game": "DENSF", "team": "SF", "opp": "DEN", "stat": "pass", "pos": "QB", "player": "X"}, None) == (0.0, [], None)
+    # the nudge is capped at +/-4% and never reshuffles which rung of a ladder is best
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    base = {(r["player"], r["stat"]): r for r in engine.run(data, ov)["top"]}
+    data["context"] = C
+    for r in engine.run(data, ov)["top"]:
+        b = base.get((r["player"], r["stat"]))
+        if b:
+            assert abs(r["score"] / b["score"] - 1) <= 0.0401
+            assert r["why"]
+    assert build.american(75) == "−300" and build.american(40) == "+150"
+
+
 if __name__ == "__main__":
     test_week4_reproduces_published_board()
     test_page_cards_match_published_board()
@@ -126,4 +174,5 @@ if __name__ == "__main__":
     test_learning_grades_and_stays_bounded()
     test_missing_price_filled_from_ladder()
     test_kalshi_signing_and_quote_flow()
-    print("PASS: engine reproduces the published Week 4 top 50 exactly; grading, learning, price-fill and Kalshi quote checks pass")
+    test_context_parsers_and_nudge()
+    print("PASS: engine reproduces the published Week 4 top 50 exactly; grading, learning, price-fill, Kalshi quote and game-context checks pass")
