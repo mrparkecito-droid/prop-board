@@ -7,36 +7,30 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Prop Board">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="theme-color" content="#1438a6">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0e1311">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
 <title>{{TITLE}}</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
 <style>
 /* Layout: phone-first stack of prop cards ranked by overall score, sticky filter bar, multi-column on wide screens */
 :root{
- --bg:#eef1f7; --panel:#ffffff; --ink:#14203a; --muted:#5b6782; --line:#d7ddea; --chip:#f2f4f9;
- --navy:#1438a6; --gold:#f2c230;
- --t1:#0f8a4c; --t2:#5b9a1e; --t3:#c08a00; --t4:#9aa3b8;
- --hit:#d4f0e0; --hit-ink:#0d5a33; --miss:#f6dcdc; --miss-ink:#8a1f1f; --warn:#fff1c9; --warn-ink:#7a5a00;
- --display:"Oswald","Arial Narrow",Arial,sans-serif; --body:"Source Sans 3",-apple-system,"Segoe UI",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+ /* Evergreen: one dark forest theme everywhere (no light mode) */
+ --bg:#0e1311; --panel:#151c19; --chip:#1c2521; --line:#24302b; --ink:#e1e6e2; --muted:#8f9c95;
+ --navy:#18221e; --gold:#6fa587; --on-accent:#0c1a13; --head-sub:#a7b3ad;
+ --t1:#2fbf73; --t2:#8cc63f; --t3:#e0b23a; --t4:#5f6e66;
+ --hit:#123d29; --hit-ink:#8fe0b5; --miss:#3d1717; --miss-ink:#f0a3a3; --warn:#3b3010; --warn-ink:#f2d27a;
+ --display:"Bebas Neue","Oswald","Arial Narrow",Arial,sans-serif; --body:"DM Sans",-apple-system,"Segoe UI",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+ color-scheme:dark;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
- --bg:#0b1120; --panel:#141c31; --ink:#e7ecf6; --muted:#9aa6c2; --line:#26304a; --chip:#1b2440; --navy:#2a55d6;
- --t1:#2fbf73; --t2:#8cc63f; --t3:#e0b23a; --t4:#5d6883;
- --hit:#123d29; --hit-ink:#8fe0b5; --miss:#3d1717; --miss-ink:#f0a3a3; --warn:#3b3010; --warn-ink:#f2d27a; color-scheme:dark}}
-:root[data-theme="dark"]{
- --bg:#0b1120; --panel:#141c31; --ink:#e7ecf6; --muted:#9aa6c2; --line:#26304a; --chip:#1b2440; --navy:#2a55d6;
- --t1:#2fbf73; --t2:#8cc63f; --t3:#e0b23a; --t4:#5d6883;
- --hit:#123d29; --hit-ink:#8fe0b5; --miss:#3d1717; --miss-ink:#f0a3a3; --warn:#3b3010; --warn-ink:#f2d27a; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;-webkit-text-size-adjust:100%}
 .wrap{max-width:1180px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px));padding-block:16px 40px;display:grid;gap:14px}
-header{background:var(--navy);color:#fff;border-radius:14px;padding:18px;display:grid;gap:6px;border-bottom:4px solid var(--gold)}
+header{background:linear-gradient(160deg,#1f3029,#121a17);color:#fff;border-radius:14px;padding:18px;display:grid;gap:6px;border:1px solid var(--line);border-bottom:3px solid var(--gold)}
 .eyebrow{font-family:var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-size:12px}
-h1{margin:0;font-family:var(--display);font-weight:600;font-size:clamp(26px,7vw,40px);line-height:1.1;text-wrap:balance}
-header p{margin:0;color:#dbe4ff;font-size:14px;max-width:65ch}
+h1{margin:0;font-family:var(--display);font-weight:400;letter-spacing:.02em;font-size:clamp(26px,7vw,40px);line-height:1.1;text-wrap:balance}
+header p{margin:0;color:var(--head-sub);font-size:14px;max-width:65ch}
 .how{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
 .how summary{font-weight:700;cursor:pointer;min-height:28px;display:flex;align-items:center}
 .how ul{margin:8px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px;color:var(--muted)}
@@ -64,7 +58,7 @@ header p{margin:0;color:#dbe4ff;font-size:14px;max-width:65ch}
 .tm{margin:0;font-size:12px;color:var(--muted)}
 .prop{margin:2px 0 0;font-size:15px}
 .prop strong{font-family:var(--mono);font-size:16px}
-.best{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:var(--gold);color:#3a2a00;border-radius:999px;padding:2px 8px;margin-left:4px;vertical-align:2px}
+.best{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:var(--gold);color:var(--on-accent);border-radius:999px;padding:2px 8px;margin-left:4px;vertical-align:2px}
 .games{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
 .g{border-radius:8px;padding:5px 8px;font-family:var(--mono);font-weight:700;font-size:15px;display:flex;justify-content:space-between;align-items:baseline;font-variant-numeric:tabular-nums}
 .g i{font-style:normal;font-family:var(--body);font-weight:600;font-size:11px;opacity:.75}
@@ -97,9 +91,9 @@ meter{width:100%;height:8px}
 .sel select{flex:1;min-height:40px;font:600 14px var(--body);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:0 10px}
 .notes{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:70ch}
 .notes p{margin:0}
-.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;display:flex;gap:4px;background:var(--navy);border-radius:12px;padding:4px;box-shadow:0 2px 8px rgb(0 0 0 / .12)}
-.tabs button{flex:1;font:600 15px var(--display);letter-spacing:.06em;text-transform:uppercase;border:0;background:transparent;color:#cdd8ff;padding:10px 6px;border-radius:9px;min-height:44px;cursor:pointer}
-.tabs button[aria-selected="true"]{background:var(--gold);color:#2a1f00}
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;display:flex;gap:4px;background:var(--navy);border-radius:12px;padding:4px;box-shadow:0 2px 8px rgb(0 0 0 / .12);border:1px solid var(--line)}
+.tabs button{flex:1;font:600 15px var(--display);letter-spacing:.06em;text-transform:uppercase;border:0;background:transparent;color:var(--head-sub);padding:10px 6px;border-radius:9px;min-height:44px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--gold);color:var(--on-accent)}
 .tabs button:focus-visible{outline:2px solid #fff;outline-offset:1px}
 .view{display:grid;gap:14px}
 #v-props .bar{top:calc(env(safe-area-inset-top,0px) + 56px)}
@@ -110,14 +104,12 @@ meter{width:100%;height:8px}
 .sub{font-size:13px;color:var(--muted)}
 .mono{font-family:var(--mono);font-size:13px}
 .odds{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
-.odds output{font-family:var(--display);font-size:44px;font-weight:600;line-height:1;color:var(--navy)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .odds output{color:var(--gold)}}
-:root[data-theme="dark"] .odds output{color:var(--gold)}
+.odds output{font-family:var(--display);font-size:44px;font-weight:600;line-height:1;color:var(--gold)}
 .odds span{font-size:13px;color:var(--muted);text-align:right}
-input[type=range]{width:100%;height:36px;accent-color:var(--navy);margin:0}
+input[type=range]{width:100%;height:36px;accent-color:var(--gold);margin:0}
 .quick{display:flex;gap:6px;flex-wrap:wrap}
 .quick button{flex:1 0 auto;font:600 14px var(--mono);border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:8px 12px;min-height:40px;cursor:pointer}
-.go{font:600 17px var(--display);letter-spacing:.06em;text-transform:uppercase;border:0;border-radius:12px;background:var(--gold);color:#2a1f00;min-height:52px;cursor:pointer;width:100%}
+.go{font:600 17px var(--display);letter-spacing:.06em;text-transform:uppercase;border:0;border-radius:12px;background:var(--gold);color:var(--on-accent);min-height:52px;cursor:pointer;width:100%}
 .go:active{transform:translateY(1px)}
 .plist{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px}
 .pcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:grid;min-width:0}
@@ -132,6 +124,7 @@ input[type=range]{width:100%;height:36px;accent-color:var(--navy);margin:0}
 .legs li:last-child{border-bottom:0}
 .legs b{font-size:15px} .legs .mono{text-align:right;font-weight:700}
 .legs small{color:var(--muted);font-size:12px}
+.lwhy{grid-column:1 / -1;color:var(--ink)!important;opacity:.85;font-size:12.5px!important;line-height:1.4;margin-top:3px}
 .srcrow{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 14px 0;flex-wrap:wrap}
 .srcrow small{font-size:12px;color:var(--muted);font-family:var(--mono)}
 .src{font-size:12px;font-weight:700;border-radius:999px;padding:3px 10px;background:var(--chip);color:var(--muted);border:1px solid var(--line)}
@@ -331,7 +324,7 @@ input[type=range]{width:100%;height:36px;accent-color:var(--navy);margin:0}
    return '<article class="pcard"><div class="phead"><h3>'+(i?"Option "+(i+1):"Safest")+" · "+p.length+' legs</h3><b>'+am(1/o.price)+'</b></div>'+
     '<div class="srcrow">'+badge+'<small>Legs multiplied: '+am(1/raw)+'</small></div>'+
     '<dl class="pstats"><div><dt>Est. chance</dt><dd>'+Math.round(o.ch*100)+'%</dd></div><div><dt>Kalshi price</dt><dd>'+Math.round(o.price*100)+'¢</dd></div><div><dt>$10 pays</dt><dd>$'+(10/o.price).toFixed(0)+'</dd></div></dl>'+
-    '<ul class="legs">'+p.map(function(x){return '<li><b>'+esc(x.pl)+'</b><span class="mono">'+(x.est?"~":"")+x.ask+'¢</span><small>'+SW[x.st]+' <strong>'+x.ln+'+</strong> · '+esc(x.gl)+'</small><small>model '+Math.round(x.p*100)+'%</small>'+(x.est?'<small class="estn">No seller showing on this line; price estimated from the lines above and below it.</small>':'')+'</li>'}).join("")+'</ul></article>';
+    '<ul class="legs">'+p.map(function(x){return '<li><b>'+esc(x.pl)+'</b><span class="mono">'+(x.est?"~":"")+x.ask+'¢</span><small>'+SW[x.st]+' <strong>'+x.ln+'+</strong> · '+esc(x.gl)+'</small><small>model '+Math.round(x.p*100)+'%</small>'+(x.wy?'<small class="lwhy">'+esc(x.wy)+'</small>':'')+(x.est?'<small class="estn">No seller showing on this line; price estimated from the lines above and below it.</small>':'')+'</li>'}).join("")+'</ul></article>';
   }).join("");
  }
  rng.addEventListener("input",sync);
