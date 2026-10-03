@@ -59,7 +59,8 @@ def sleeper_rows(kind, season, week):
             continue
         name = f"{p.get('first_name', '')} {p.get('last_name', '')}".strip()
         st = e.get("stats") or {}
-        out.append({"name": name, "pos": pos, "team": T(e.get("team") or p.get("team")), "opp": T(e.get("opponent")), "stats": st})
+        out.append({"name": name, "pos": pos, "team": T(e.get("team") or p.get("team")), "opp": T(e.get("opponent")), "stats": st,
+                    "id": e.get("player_id"), "inj": p.get("injury_status")})
     return out
 
 
@@ -196,7 +197,7 @@ def main():
     proj = []
     for r in sleeper_rows("projections", season, week):
         st = r["stats"]
-        p = {"name": r["name"], "pos": r["pos"], "team": r["team"], "opp": r["opp"]}
+        p = {"name": r["name"], "pos": r["pos"], "team": r["team"], "opp": r["opp"], "id": r["id"], "inj": r["inj"]}
         if r["pos"] == "QB":
             p["pass"] = st.get("pass_yd"); p["rush"] = st.get("rush_yd")
         else:

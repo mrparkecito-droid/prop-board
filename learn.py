@@ -93,7 +93,7 @@ def snapshot(data, out, now=None):
         new.append({"pl": r["player"], "tm": r["team"], "op": r["opp"], "gm": r["game"], "gl": r["glabel"],
                     "pos": r["pos"], "rl": r["role"], "rg": r["rg"], "st": r["stat"], "ln": r["line"], "ask": r["ask"],
                     "p": r["pc"], "pr": r["praw"], "pp": r["pp"], "hs": r["hs"], "dh": r["dhs"], "rk": r["rks"],
-                    "sc": r["score"], "proj": r["proj"], "rank": rank.get((r["player"], r["stat"], r["line"]), 0)})
+                    "sc": r["score"], "proj": r["proj"], "cx": r.get("ctx", 0), "rank": rank.get((r["player"], r["stat"], r["line"]), 0)})
     wk["rows"] = keep + new
     wk["updated"] = now.isoformat(timespec="seconds")
     save_history(hist)

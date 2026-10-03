@@ -57,3 +57,10 @@ You can also hit *Run workflow* any time for fresh prices.
 - Injuries aren't modeled. Check Sunday inactives.
 - One rule is a deliberate safety choice: a non-QB with no stat line in a week his team played counts as a miss, not a DNP. If someone was injured, add a `DNP` override.
 - Kalshi availability varies by state.
+
+## Game context (testing)
+
+`context.py` pulls point spreads and over/unders (ESPN), kickoff weather (Open-Meteo), injury reports (ESPN),
+headlines (ESPN), most-added players (Sleeper) and Reddit buzz. Each card gets a short "why" line, and the score
+moves at most ±4% (`CTX_WEIGHT` in engine.py; set it to 0 to turn the nudge off). Players listed out are dropped.
+If any source fails, the rest still run; if all fail, the board is scored exactly as before.

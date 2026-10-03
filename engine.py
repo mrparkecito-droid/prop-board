@@ -16,6 +16,7 @@ Best line = top score on each player/stat ladder priced 35c-88c and not stale.
 Board = best lines sorted by score, max 2 props per player, top 50.
 """
 import csv, json, math, os, re, sys
+import context
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -29,6 +30,8 @@ ASK_MIN, ASK_MAX = 35, 88
 MAX_PER_PLAYER, BOARD_SIZE = 2, 50
 MIN_GAMES = 2
 P_CAP = 0.97
+CTX_WEIGHT = 0.04      # game context (lines, weather, injuries, news, buzz) moves a score at most +/-4%
+SLEEPER_STATUS = {"Questionable": "Questionable", "Doubtful": "Doubtful", "Out": "Out", "IR": "Out", "PUP": "Out", "Sus": "Out"}
 
 DEFAULT_W = {"proj": W_PROJ, "hit": W_HIT, "def": W_DEF, "rank": W_RANK}
 
@@ -212,7 +215,13 @@ def run(data, overrides=None, learned=None):
         score = 100 * (W["proj"] * pp + W["hit"] * h + W["def"] * dh_u + W["rank"] * rank_s + W_VALUE * value + W_AGREE * (agree / 3))
         misses_p = n - over; misses_d = (dn - dc) if dh is not None else 0
         score *= (1 - MISS_PENALTY_PLAYER * misses_p - MISS_PENALTY_DEF * misses_d)
+        ctx, reasons, status = context.assess(
+            {"game": m["game"], "team": team, "opp": opp, "stat": stat, "pos": pos, "player": lg["name"]},
+            data.get("context"), SLEEPER_STATUS.get(pj.get("inj") or ""))
+        score *= 1 + CTX_WEIGHT * ctx
         flags = []
+        if status in ("Out", "Doubtful"):
+            flags.append(f"Listed {status.lower()} this week")
         if spread >= SPREAD_LIMIT:
             score *= SPREAD_PENALTY; flags.append("Wide bid/ask spread, thin market")
         rows.append(dict(game=m["game"], glabel=g["label"], player=lg["name"], team=team, opp=opp, pos=pos, role=role,
@@ -224,7 +233,8 @@ def run(data, overrides=None, learned=None):
                          dhs=round(dh_u * 100), rks=round(rank_s * 100), vs=round(value * 100),
                          agree=int(agree), score=round(score, 1), flags=flags,
                          pc=round(p, 4), praw=round(p_raw, 4), rg=rg, est=est,
-                         mid=mid_price(m), tk=m.get("ticker"), ev=m.get("event")))
+                         mid=mid_price(m), tk=m.get("ticker"), ev=m.get("event"),
+                         ctx=ctx, cxs=round(50 + 50 * ctx), reasons=reasons, status=status))
 
     lad = {}
     for r in rows:
@@ -240,7 +250,7 @@ def run(data, overrides=None, learned=None):
                 a["stale"] = True
     best = []
     for L in lad.values():
-        c = [r for r in L if ASK_MIN <= r["ask"] <= ASK_MAX and not r.get("stale")]
+        c = [r for r in L if ASK_MIN <= r["ask"] <= ASK_MAX and not r.get("stale") and r["status"] != "Out"]
         if c:
             best.append(max(c, key=lambda r: r["score"]))
     best.sort(key=lambda r: -r["score"])
@@ -252,6 +262,7 @@ def run(data, overrides=None, learned=None):
         top.append(r)
     for i, r in enumerate(top):
         r["rank"] = i + 1
+        r["why"], r["news"] = context.why(r, r["reasons"])
     return {"top": top[:BOARD_SIZE], "rows": len(rows), "ladders": len(lad), "skipped": sorted(skipped), "all": rows}
 
 
@@ -347,6 +358,16 @@ def fill_missing_asks(markets, proj):
 if __name__ == "__main__":
     src = sys.argv[1] if len(sys.argv) > 1 else os.path.join(DATA, "data.json")
     data = json.load(open(src))
+    cpath = os.path.join(DATA, "context.json")
+    if os.path.exists(cpath) and len(sys.argv) <= 1:
+        C = json.load(open(cpath))
+        try:      # never use a stale context file (e.g. if context.py failed this run)
+            import datetime as _dt
+            age = abs(_dt.datetime.fromisoformat(data["generated"]) - _dt.datetime.fromisoformat(C["generated"]))
+            if age < _dt.timedelta(hours=12):
+                data["context"] = C
+        except Exception:
+            pass
     ov = load_overrides(os.path.join(HERE, "overrides.csv"))
     import learn
     learned, track = learn.prepare(data, ov)        # grade past picks, refit weights + calibration
@@ -356,6 +377,7 @@ if __name__ == "__main__":
     out["track"] = track
     out["meta"] = {k: data[k] for k in ("season", "week", "completed_weeks", "generated", "league_source", "notes", "eyebrow") if k in data}
     out["meta"]["games"] = [g["label"] for g in data["games"]]
+    out["meta"]["ctx_sources"] = (data.get("context") or {}).get("sources")
     out["meta"]["ovr_note"] = f", with {len(ov)} manual corrections from overrides.csv" if ov else ""
     out.pop("all", None)
     json.dump(out, open(os.path.join(DATA, "out.json"), "w"), indent=1)

@@ -13,7 +13,21 @@ ROLE = {"QB": "QBs", "RB1": "lead RBs", "RB2": "No. 2 RBs", "WR1": "WR1s", "WR2"
 STATW = {"pass": "pass yds", "rush": "rush yds", "rec": "catches", "recyds": "rec yds"}
 
 
-def cards_html(top):
+def ctx_src(out):
+    src = (out.get("meta") or {}).get("ctx_sources")
+    if not src:
+        return "Context data wasn't available this run, so it had no effect."
+    return "This run: " + html.escape("; ".join(f"{k.replace('_', ' ')} {v}" for k, v in src.items())) + "."
+
+
+def american(c):
+    """Kalshi price in cents -> sportsbook odds for buying YES at that price (before Kalshi fees)."""
+    if c >= 50:
+        return f"−{round(100 * c / (100 - c))}"
+    return f"+{round(100 * (100 - c) / c)}"
+
+
+def cards_html(top, extras=True):
     cards, games = [], {}
     for r in top:
         games[r["game"]] = r["glabel"]
@@ -25,16 +39,28 @@ def cards_html(top):
             dline = '<p class="allow">QB rushing has no defense-vs-line check; QBs face too many different styles to compare.</p>'
         rk = f'<p class="rk"><b>{r["opp"]} D rank:</b> {ordn(r["most"])} most {r["dstat"]} allowed ({r["per"]:g}/game)</p>'
         flags = "".join(f'<p class="flag">{html.escape(f)}</p>' for f in r["flags"])
+        price = f'<div><dt>Kalshi yes</dt><dd>{r["ask"]}¢</dd></div>'
+        whyp = cxbar = ""
+        if extras:
+            price = f'<div><dt>Kalshi</dt><dd>{r["ask"]}%<small>{american(r["ask"])}</small></dd></div>'
+            pct = 100 * 0.04 * r.get("ctx", 0)
+            pill = f'<span class="cx {"up" if pct > 0 else "dn"}">Context {"+" if pct > 0 else "−"}{abs(pct):.1f}%</span> ' if abs(pct) >= 0.05 else ""
+            whyp = f'<p class="why">{pill}{html.escape(r.get("why", ""))}</p>'
+            if r.get("news"):
+                whyp += f'<p class="news">{html.escape(r["news"])}</p>'
+            if r.get("reasons") is not None:
+                cxbar = f'\n   <li><span>Game context</span><meter min="0" max="100" value="{r.get("cxs", 50)}"></meter><b>{r.get("cxs", 50)}</b></li>'
+
         cards.append(f'''<article class="card" data-game="{r["game"]}" data-stat="{r["stat"]}">
  <div class="top">
   <div class="score {tier(r["score"])}" aria-label="Score {r["score"]:.0f}"><b>{r["score"]:.0f}</b><small>#{r["rank"]}</small></div>
   <div class="who"><h3>{html.escape(r["player"])}</h3><p class="tm">{r["team"]} · {r["role"]} · {r["glabel"]}</p>
    <p class="prop">{r["prop"]} <strong>{r["line"]}+</strong></p></div>
- </div>
+ </div>{whyp}
  <div class="games">{gchips}</div>
  <dl class="kpis">
   <div><dt>Hit rate</dt><dd>{r["over"]}/{r["n"]}</dd></div>
-  <div><dt>Kalshi yes</dt><dd>{r["ask"]}¢</dd></div>
+  {price}
   <div><dt>Model</dt><dd>{r["p"]}%</dd></div>
   <div><dt>Sleeper proj</dt><dd>{r["proj"]:g}</dd></div>
   <div><dt>Return</dt><dd class="{"pos" if r["roi"] >= 15 else ("neg" if r["roi"] <= -10 else "")}">{"+" if r["roi"] > 0 else ""}{r["roi"]}%</dd></div>
@@ -48,7 +74,7 @@ def cards_html(top):
    <li><span>Player hit rate</span><meter min="0" max="100" value="{r["hs"]}"></meter><b>{r["hs"]}</b></li>
    <li><span>Defense vs line</span><meter min="0" max="100" value="{r["dhs"]}"></meter><b>{r["dhs"]}</b></li>
    <li><span>Defense rank</span><meter min="0" max="100" value="{r["rks"]}"></meter><b>{r["rks"]}</b></li>
-   <li><span>Price value</span><meter min="0" max="100" value="{r["vs"]}"></meter><b>{r["vs"]}</b></li>
+   <li><span>Price value</span><meter min="0" max="100" value="{r["vs"]}"></meter><b>{r["vs"]}</b></li>{cxbar}
   </ul>
  </details>
 </article>''')
@@ -204,6 +230,7 @@ def render(out, template):
         "{{LEAGUE_SRC}}": html.escape(meta.get("league_source", "")),
         "{{UPDATED}}": html.escape(updated),
         "{{CARDS}}": cards,
+        "{{CTX_SRC}}": ctx_src(out),
         "{{OPTS}}": opts,
     }
     page = template
