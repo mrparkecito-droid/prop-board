@@ -219,7 +219,7 @@ def quote_all(api, parlays, log_fn=print):
             time.sleep(2)
             for legs, tk, book, rid in open_rfqs:
                 try:
-                    qs = api.call("GET", "/communications/quotes", params={"rfq_id": rid}).get("quotes", [])
+                    qs = api.call("GET", "/communications/quotes", params={"rfq_id": rid, "rfq_user_filter": "self"}).get("quotes", [])
                     nb = [dollars(q.get("no_bid_dollars")) for q in qs if q.get("status") in (None, "open")]
                     nb = [x for x in nb if 0 < x < 1]
                     if nb:
