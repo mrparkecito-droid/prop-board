@@ -24,21 +24,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
+
       - run: pip install -r requirements.txt
+
       - name: Check the model still matches the published Week 4 board
         run: python tests/test_engine.py
+
       - name: Pull Kalshi, Sleeper and PFR data
         env:
           WEEK: ${{ github.event.inputs.week }}
         run: python fetch.py
+
       - name: Score props
         run: python engine.py
+
+      - name: Get Kalshi parlay quotes
+        continue-on-error: true
+        env:
+          KALSHI_KEY_ID: ${{ secrets.KALSHI_KEY_ID }}
+          KALSHI_PRIVATE_KEY: ${{ secrets.KALSHI_PRIVATE_KEY }}
+        run: python parlay.py
+
       - name: Build page
         run: python build.py
+
       - name: Publish
         run: |
           git config user.name "prop-board-bot"
