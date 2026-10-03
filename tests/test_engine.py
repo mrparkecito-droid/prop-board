@@ -167,6 +167,38 @@ def test_context_parsers_and_nudge():
     assert build.american(75) == "−300" and build.american(40) == "+150"
 
 
+def test_usage_and_last_season():
+    """Usage model + last season: off when the data lacks them (board above unchanged), sane when present."""
+    import copy, random, usage, build
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    base = {(r["player"], r["stat"]): r["score"] for r in engine.run(copy.deepcopy(data), ov)["top"]}
+    random.seed(4)
+    for s in data["stats"]:
+        s["tgt"] = round(s["rec"] / 0.68) if s["rec"] else 0
+        s["att"] = round(s["rush_yd"] / 4.4) if s["rush_yd"] > 0 else 0
+        s["patt"] = round(s["pass_yd"] / 7) if s["pass_yd"] > 0 else 0
+        s["snp"], s["tsnp"] = random.randint(40, 65), 65
+    data["prev_stats"] = [dict(s, wk=w) for w in range(1, 18) for s in data["stats"] if s["wk"] == 1]
+    out = engine.run(data, ov)
+    top = out["top"]
+    assert len(top) == 50
+    assert all(r["pu"] is not None and 0 <= r["pu"] <= 100 for r in top)
+    assert sum(1 for r in top if r["pn"]) >= 40
+    shared = [k for k in base if k in {(r["player"], r["stat"]) for r in top}]
+    assert len(shared) >= 35, "usage/last season should refine the board, not replace it"
+    # last season is capped: 17 old games can't outweigh 3 current ones
+    r = top[0]
+    assert r["hs"] <= 100
+    cards, _ = build.cards_html(top)
+    assert "Usage:" in cards and "Last season:" in cards and "Usage model" in cards
+    # efficiency shrinkage: one 80-yard catch on 2 targets doesn't make a 40-yards-per-target receiver
+    U = usage.build([{"wk": 1, "name": "A B", "team": "X", "tgt": 2, "rec": 1, "rec_yd": 80},
+                     {"wk": 1, "name": "C D", "team": "X", "tgt": 8, "rec": 6, "rec_yd": 60}], lambda n: n.lower())
+    pu, mu, info = usage.chance("a b", "WR", "X", "recyds", 30, U, {}, engine.sd_for)
+    assert mu < 30 and info["share"] == [20]
+
+
 if __name__ == "__main__":
     test_week4_reproduces_published_board()
     test_page_cards_match_published_board()
@@ -175,4 +207,5 @@ if __name__ == "__main__":
     test_missing_price_filled_from_ladder()
     test_kalshi_signing_and_quote_flow()
     test_context_parsers_and_nudge()
-    print("PASS: engine reproduces the published Week 4 top 50 exactly; grading, learning, price-fill, Kalshi quote and game-context checks pass")
+    test_usage_and_last_season()
+    print("PASS: engine reproduces the published Week 4 top 50 exactly; grading, learning, price-fill, Kalshi quote, game-context and usage checks pass")
