@@ -300,7 +300,8 @@ def parlay_legs(out):
         legs.append({"pl": r["player"], "tm": r["team"], "g": r["game"], "gl": r["glabel"], "st": r["stat"],
                      "pr": r["prop"], "ln": r["line"], "ask": r["ask"], "q": r["mid"], "p": r["pc"], "sc": r["score"],
                      "est": 1 if r["est"] else 0, "tk": r["tk"], "ev": r["ev"],
-                     "wy": context.why(r, r.get("reasons") or [])[0], "id": r.get("pid")})
+                     "wy": context.why(r, r.get("reasons") or [])[0], "id": r.get("pid"),
+                     "cx": r.get("ctx", 0), "nw": context.why(r, r.get("reasons") or [])[1]})
     return legs
 
 

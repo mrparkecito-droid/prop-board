@@ -28,7 +28,7 @@ def american(c):
     return f"+{round(100 * (100 - c) / c)}"
 
 
-def cards_html(top, extras=True):
+def cards_html(top, extras=True, tlabel=""):
     cards, games = [], {}
     for r in top:
         games[r["game"]] = r["glabel"]
@@ -41,8 +41,13 @@ def cards_html(top, extras=True):
         rk = f'<p class="rk"><b>{r["opp"]} D rank:</b> {ordn(r["most"])} most {r["dstat"]} allowed ({r["per"]:g}/game)</p>'
         flags = "".join(f'<p class="flag">{html.escape(f)}</p>' for f in r["flags"])
         price = f'<div><dt>Kalshi yes</dt><dd>{r["ask"]}¢</dd></div>'
-        whyp = cxbar = ubar = uline = face = ""
+        whyp = cxbar = ubar = uline = face = krow = ""
         if extras:
+            k = f'{r["player"]}~{r["stat"]}~{r["line"]}'
+            bid = f'bid {r["bid"]}¢ · ' if r.get("bid") is not None else ""
+            krow = (f'\n <div class="krow"><span class="src real">Kalshi quote{" · " + html.escape(tlabel) if tlabel else ""}</span>'
+                    f'<small>{bid}ask {r["ask"]}¢</small>'
+                    f'<button type="button" class="add" data-k="{html.escape(k)}" aria-pressed="false">+ Add</button></div>')
             if r.get("pid"):
                 face = f'<img class="face" src="https://sleepercdn.com/content/nfl/players/thumb/{html.escape(str(r["pid"]))}.jpg" alt="" loading="lazy" onerror="this.remove()">'
 
@@ -67,7 +72,7 @@ def cards_html(top, extras=True):
   <div class="score {tier(r["score"])}" aria-label="Score {r["score"]:.0f}"><b>{r["score"]:.0f}</b><small>#{r["rank"]}</small></div>
   {face}<div class="who"><h3>{html.escape(r["player"])}</h3><p class="tm">{r["team"]} · {r["role"]} · {r["glabel"]}</p>
    <p class="prop">{r["prop"]} <strong>{r["line"]}+</strong></p></div>
- </div>{whyp}
+ </div>{krow}{whyp}
  <div class="games">{gchips}</div>
  <dl class="kpis">
   <div><dt>Hit rate</dt><dd>{r["over"]}/{r["n"]}</dd></div>
@@ -178,6 +183,14 @@ def _tlabel(ts):
         return ""
 
 
+def board_json(out):
+    """The board's props for the build-your-own parlay slip."""
+    rows = [{"pl": r["player"], "tm": r["team"], "g": r["game"], "gl": r["glabel"], "st": r["stat"], "ln": r["line"],
+             "ask": r["ask"], "q": r.get("mid", r["ask"]), "p": r.get("pc", r["p"] / 100), "id": r.get("pid"),
+             "wy": r.get("why", ""), "cx": r.get("ctx", 0), "sc": r["score"]} for r in out["top"]]
+    return json.dumps(rows, separators=(",", ":")).replace("</", "<\\/")
+
+
 def kalshi_json(out):
     k = dict(out.get("kalshi") or {})
     k["tlabel"] = _tlabel(k.get("ts", ""))
@@ -204,7 +217,7 @@ def render(out, template):
     week = meta.get("week", "")
     weeks = meta.get("completed_weeks", [])
     ngames = len(meta.get("games", []))
-    cards, opts = cards_html(out["top"])
+    cards, opts = cards_html(out["top"], tlabel=_tlabel((out.get("meta") or {}).get("generated", "")))
     n = len(weeks)
     word = {1: "one game", 2: "two games", 3: "three games", 4: "four games", 5: "five games"}.get(n, f"{n} games")
     sample = f"Weeks {weeks[0]}–{weeks[-1]} only, so {word} is the whole sample." if n > 1 else f"Week {weeks[0]} only, so one game is the whole sample." if n else ""
@@ -240,7 +253,9 @@ def render(out, template):
         "{{OVR_NOTE}}": meta.get("ovr_note", ""),
         "{{LEAGUE_SRC}}": html.escape(meta.get("league_source", "")),
         "{{UPDATED}}": html.escape(updated),
+        "{{BUILD}}": html.escape(str(meta.get("generated", ""))),
         "{{CARDS}}": cards,
+        "{{BOARD}}": board_json(out),
         "{{CTX_SRC}}": ctx_src(out),
         "{{OPTS}}": opts,
     }
@@ -255,4 +270,6 @@ if __name__ == "__main__":
     page = render(out, open(os.path.join(HERE, "template.html")).read())
     os.makedirs(os.path.join(HERE, "docs"), exist_ok=True)
     open(os.path.join(HERE, "docs", "index.html"), "w").write(page)
+    # tiny version file the page checks so the Home Screen app reloads itself when there's a new board
+    json.dump({"v": str((out.get("meta") or {}).get("generated", ""))}, open(os.path.join(HERE, "docs", "version.json"), "w"))
     print("wrote docs/index.html with", len(out["top"]), "props")

@@ -122,10 +122,37 @@ input[type=range]{width:100%;height:36px;accent-color:var(--gold);margin:0}
 .legs{list-style:none;margin:0;padding:8px 14px 14px;display:grid}
 .legs li{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:9px 0;border-bottom:1px solid var(--line)}
 .legs li:last-child{border-bottom:0}
+/* Kalshi row + build-your-own parlay slip */
+.krow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.krow small{font:500 12px var(--mono);color:var(--muted);white-space:nowrap}
+.krow .add{margin-left:auto}
+.add{font:600 14px var(--body);border:1px solid var(--gold);background:transparent;color:var(--gold);border-radius:999px;padding:6px 14px;min-height:36px;cursor:pointer}
+.add[aria-pressed="true"]{background:var(--gold);color:var(--on-accent)}
+.slipbar{position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px max(16px,env(safe-area-inset-left,0px)) calc(10px + env(safe-area-inset-bottom,0px));background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line)}
+.slipbar button{width:100%;max-width:1180px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--gold);color:var(--on-accent);border:0;border-radius:12px;padding:12px 16px;min-height:52px;font:600 15px var(--body);cursor:pointer}
+.slipbar b{font:400 26px var(--display);letter-spacing:.02em}
+body.has-slip .wrap{padding-bottom:96px}
+.sheet{position:fixed;inset:0;z-index:30;background:rgb(0 0 0 / .55);display:flex;align-items:flex-end;justify-content:center}
+.sheet>div{background:var(--panel);border:1px solid var(--line);border-radius:18px 18px 0 0;width:100%;max-width:640px;max-height:88vh;overflow:auto;padding:16px 16px calc(18px + env(safe-area-inset-bottom,0px));display:grid;gap:12px}
+.shead{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.shead h2{margin:0;font:400 26px var(--display);letter-spacing:.03em}
+.shead .x{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;width:40px;height:40px;font-size:20px;cursor:pointer}
+.sodds{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-bottom:3px solid var(--gold);padding-bottom:8px}
+.sodds b{font:400 46px var(--display);color:var(--gold);line-height:1}
+.slegs{list-style:none;margin:0;padding:0;display:grid}
+.slegs li{display:grid;grid-template-columns:1fr auto auto;gap:2px 10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.slegs small{grid-column:1 / -1;color:var(--muted);font-size:12px}
+.slegs .rm{border:1px solid var(--line);background:var(--chip);color:var(--muted);border-radius:999px;width:32px;height:32px;cursor:pointer}
+.stake{display:flex;align-items:center;gap:10px;font-weight:600}
+.stake input{font:600 16px var(--mono);width:110px;background:var(--chip);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.swarn{margin:0;font-size:13px;background:var(--warn);color:var(--warn-ink);border-radius:8px;padding:6px 8px}
+.snote{margin:0;font-size:12.5px;color:var(--muted)}
+.sclear{justify-self:start;border:0;background:transparent;color:var(--miss-ink);font:600 14px var(--body);cursor:pointer;padding:6px 0}
 .face{flex:0 0 58px;width:58px;height:58px;border-radius:50%;object-fit:cover;object-position:top;background:var(--chip);border:2px solid var(--line)}
 .lface{width:30px;height:30px;border-radius:50%;object-fit:cover;object-position:top;background:var(--chip);vertical-align:middle;margin-right:8px;border:1px solid var(--line)}
 .legs b{font-size:15px} .legs .mono{text-align:right;font-weight:700}
 .legs small{color:var(--muted);font-size:12px}
+.lwhy.news{font-style:italic;color:var(--muted)!important}
 .lwhy{grid-column:1 / -1;color:var(--ink)!important;opacity:.85;font-size:12.5px!important;line-height:1.4;margin-top:3px}
 .srcrow{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 14px 0;flex-wrap:wrap}
 .srcrow small{font-size:12px;color:var(--muted);font-family:var(--mono)}
@@ -243,9 +270,19 @@ input[type=range]{width:100%;height:36px;accent-color:var(--gold);margin:0}
 {{RESULTS}}
 </div>
 </div>
+<div class="slipbar" id="slipbar" hidden><button type="button" id="slipopen"><span id="slipcount">1 pick</span><b id="slipodds">+0</b><span>View slip ›</span></button></div>
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-h"><div id="sheetbody"></div></div>
+<script type="application/json" id="board-data">{{BOARD}}</script>
 <script type="application/json" id="legs-data">{{LEGS}}</script>
 <script type="application/json" id="kalshi-data">{{KALSHI}}</script>
 <script>
+/* Home Screen app: iPhone keeps the old page around, so check for a newer board whenever the app is opened */
+(function(){var BUILD="{{BUILD}}";
+ function chk(){if(!window.fetch)return;fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(j){
+  if(j.v&&j.v!==BUILD&&location.search.indexOf(encodeURIComponent(j.v))<0){location.replace(location.pathname+"?v="+encodeURIComponent(j.v)+location.hash)}}).catch(function(){})}
+ document.addEventListener("visibilitychange",function(){if(!document.hidden)chk()});
+ window.addEventListener("pageshow",chk);chk();})();
+
 (function(){
  var tabs=[].slice.call(document.querySelectorAll("[role=tab]"));
  function show(t){tabs.forEach(function(x){var on=x===t;x.setAttribute("aria-selected",on);document.getElementById(x.getAttribute("aria-controls")).hidden=!on;});try{localStorage.setItem("pb-tab",t.id)}catch(e){}window.scrollTo(0,0);}
@@ -269,6 +306,7 @@ input[type=range]{width:100%;height:36px;accent-color:var(--gold);margin:0}
  function expPrice(p){var z=K.b+K.k*p.length+K.s*pairs(p);p.forEach(function(x){z+=Math.log(x.q/100)});return Math.min(Math.exp(z),0.99)}
  function am(dec){return dec>=2?"+"+Math.round((dec-1)*100):"−"+Math.round(100/(dec-1));}
  function sync(){var v=+rng.value;out.textContent="+"+v;pays.textContent="$10 pays about $"+Math.round(10*(1+v/100));}
+ function cxpill(c){var v=4*(c||0);return Math.abs(v)>=0.05?'<span class="cx '+(v>0?"up":"dn")+'">Context '+(v>0?"+":"−")+Math.abs(v).toFixed(1)+'%</span> ':""}
  function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]});}
  function search(target,game){
   var D=1+target/100,W=Math.log(D),TOP=W+Math.log(BAND),perGame=game==="all"?2:MAXL,L=[];
@@ -327,7 +365,7 @@ input[type=range]{width:100%;height:36px;accent-color:var(--gold);margin:0}
    return '<article class="pcard"><div class="phead"><h3>'+(i?"Option "+(i+1):"Safest")+" · "+p.length+' legs</h3><b>'+am(1/o.price)+'</b></div>'+
     '<div class="srcrow">'+badge+'<small>Legs multiplied: '+am(1/raw)+'</small></div>'+
     '<dl class="pstats"><div><dt>Est. chance</dt><dd>'+Math.round(o.ch*100)+'%</dd></div><div><dt>Kalshi price</dt><dd>'+Math.round(o.price*100)+'¢</dd></div><div><dt>$10 pays</dt><dd>$'+(10/o.price).toFixed(0)+'</dd></div></dl>'+
-    '<ul class="legs">'+p.map(function(x){return '<li><b>'+(x.id?'<img class="lface" src="https://sleepercdn.com/content/nfl/players/thumb/'+esc(String(x.id))+'.jpg" alt="" loading="lazy" onerror="this.remove()">':'')+esc(x.pl)+'</b><span class="mono">'+(x.est?"~":"")+x.ask+'¢</span><small>'+SW[x.st]+' <strong>'+x.ln+'+</strong> · '+esc(x.gl)+'</small><small>model '+Math.round(x.p*100)+'%</small>'+(x.wy?'<small class="lwhy">'+esc(x.wy)+'</small>':'')+(x.est?'<small class="estn">No seller showing on this line; price estimated from the lines above and below it.</small>':'')+'</li>'}).join("")+'</ul></article>';
+    '<ul class="legs">'+p.map(function(x){return '<li><b>'+(x.id?'<img class="lface" src="https://sleepercdn.com/content/nfl/players/thumb/'+esc(String(x.id))+'.jpg" alt="" onerror="this.remove()">':'')+esc(x.pl)+'</b><span class="mono">'+(x.est?"~":"")+x.ask+'¢</span><small>'+SW[x.st]+' <strong>'+x.ln+'+</strong> · '+esc(x.gl)+'</small><small>model '+Math.round(x.p*100)+'%</small>'+(x.wy?'<small class="lwhy">'+cxpill(x.cx)+esc(x.wy)+'</small>':'')+(x.nw?'<small class="lwhy news">'+esc(x.nw)+'</small>':'')+(x.est?'<small class="estn">No seller showing on this line; price estimated from the lines above and below it.</small>':'')+'</li>'}).join("")+'</ul></article>';
   }).join("");
  }
  rng.addEventListener("input",sync);
@@ -341,5 +379,64 @@ input[type=range]{width:100%;height:36px;accent-color:var(--gold);margin:0}
  document.querySelectorAll("[data-s]").forEach(function(b){b.addEventListener("click",function(){s=b.dataset.s;document.querySelectorAll("[data-s]").forEach(function(x){x.setAttribute("aria-pressed",x===b)});apply();});});
  sel.addEventListener("change",function(){g=sel.value;apply();});
  apply();
+})();
+(function(){
+ /* Build-your-own parlay: tap + Add on any prop, see the combined Kalshi odds in the slip */
+ var BOARD=JSON.parse(document.getElementById("board-data").textContent||"[]");
+ var KX=JSON.parse(document.getElementById("kalshi-data").textContent||"{}");
+ var K=KX.K||{b:0,k:0.035,s:0.04},HAIR=0.97,MAX=10,STORE="pb-slip-{{WEEK}}";
+ var SW={pass:"Pass yds",rush:"Rush yds",recyds:"Rec yds",rec:"Catches"};
+ var BY={};BOARD.forEach(function(x){BY[x.pl+"~"+x.st+"~"+x.ln]=x});
+ var QMAP={};(KX.quoted||[]).forEach(function(q){QMAP[q.key]=q});
+ var slip=[];try{slip=(JSON.parse(localStorage.getItem(STORE)||"[]")||[]).filter(function(k){return BY[k]})}catch(e){}
+ var bar=document.getElementById("slipbar"),sheet=document.getElementById("sheet"),body=document.getElementById("sheetbody"),stake=10;
+ function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+ function am(dec){return dec>=2?"+"+Math.round((dec-1)*100):"−"+Math.round(100/(dec-1))}
+ function chance(x){return 0.5*x.p+0.5*x.q/100}
+ function legs(){return slip.map(function(k){return BY[k]})}
+ function pairs(p){var n=0;for(var i=0;i<p.length;i++)for(var j=i+1;j<p.length;j++)if(p[i].tm===p[j].tm)n++;return n}
+ function price(p){
+  if(p.length===1)return{v:p[0].ask/100,src:"single"};
+  var q=QMAP[slip.slice().sort().join("|")];if(q)return{v:q.price,src:"quote"};
+  var z=K.b+K.k*p.length+K.s*pairs(p);p.forEach(function(x){z+=Math.log(x.q/100)});return{v:Math.min(Math.exp(z),0.99),src:"est"};
+ }
+ function save(){try{localStorage.setItem(STORE,JSON.stringify(slip))}catch(e){}}
+ function paint(){
+  document.querySelectorAll(".add").forEach(function(b){var on=slip.indexOf(b.dataset.k)>=0;b.setAttribute("aria-pressed",on);b.textContent=on?"✓ Added":"+ Add";});
+  var p=legs(),onProps=!document.getElementById("v-props").hidden;
+  bar.hidden=!p.length||!onProps;document.body.classList.toggle("has-slip",!bar.hidden);
+  if(p.length){var pr=price(p);document.getElementById("slipcount").textContent=p.length+(p.length===1?" pick":"-leg parlay");document.getElementById("slipodds").textContent=am(1/pr.v);}
+  if(!sheet.hidden)render();
+ }
+ function render(){
+  var p=legs();if(!p.length){close();return;}
+  var pr=price(p),ch=1,raw=1;p.forEach(function(x){ch*=chance(x)*(p.length>1?HAIR:1);raw*=x.ask/100});
+  var players={},games={},warn=[];
+  p.forEach(function(x){players[x.pl]=(players[x.pl]||0)+1;games[x.g]=(games[x.g]||0)+1});
+  Object.keys(players).forEach(function(n){if(players[n]>1)warn.push(n+" is in this twice. Those legs rise and fall together, and Kalshi may not allow both in one combo.")});
+  Object.keys(games).forEach(function(g){if(games[g]>2)warn.push(games[g]+" legs from one game: if that game goes sideways, they can all miss together.")});
+  if(p.length>MAX)warn.push("Kalshi combos top out around "+MAX+" legs.");
+  var badge=pr.src==="quote"?'<span class="src real">Kalshi quote · '+esc(KX.tlabel||"")+'</span>':pr.src==="single"?'<span class="src real">Kalshi price</span>':'<span class="src">Expected Kalshi price</span>';
+  body.innerHTML='<div class="shead"><h2 id="sheet-h">'+(p.length===1?"Your pick":"Your parlay · "+p.length+" legs")+'</h2><button type="button" class="x" id="sx" aria-label="Close">×</button></div>'+
+   '<div class="sodds"><b>'+am(1/pr.v)+'</b>'+badge+'</div>'+
+   '<dl class="pstats"><div><dt>Est. chance</dt><dd>'+Math.round(ch*100)+'%</dd></div><div><dt>Kalshi price</dt><dd>'+Math.round(pr.v*100)+'¢</dd></div><div><dt>Legs multiplied</dt><dd>'+am(1/raw)+'</dd></div></dl>'+
+   '<label class="stake">Stake $<input id="stk" type="number" inputmode="decimal" min="1" step="1" value="'+stake+'"><span id="win">pays $'+(stake/pr.v).toFixed(2)+'</span></label>'+
+   warn.map(function(w){return '<p class="swarn">'+esc(w)+'</p>'}).join("")+
+   '<ul class="slegs">'+p.map(function(x){var k=x.pl+"~"+x.st+"~"+x.ln;return '<li><b>'+(x.id?'<img class="lface" src="https://sleepercdn.com/content/nfl/players/thumb/'+esc(String(x.id))+'.jpg" alt="" onerror="this.remove()">':'')+esc(x.pl)+'</b><span class="mono">'+x.ask+'¢ · '+am(100/x.ask)+'</span><button type="button" class="rm" data-rm="'+esc(k)+'" aria-label="Remove '+esc(x.pl)+'">×</button><small>'+SW[x.st]+' <strong>'+x.ln+'+</strong> · '+esc(x.gl)+' · model '+Math.round(x.p*100)+'%</small></li>'}).join("")+'</ul>'+
+   '<p class="snote">'+(p.length===1?"Add another prop to make it a parlay. ":"")+(pr.src==="est"?"Kalshi prices combos when you build them, so this is the expected price: the legs multiplied plus the markup Kalshi has been adding. Check the price in Kalshi before you place it.":pr.src==="quote"?"This exact combo got a real Kalshi quote at the last update; prices move, so check it in Kalshi.":"Straight Kalshi price for this prop.")+'</p>'+
+   '<button type="button" class="sclear" id="sclr">Clear slip</button>';
+  document.getElementById("sx").onclick=close;
+  document.getElementById("sclr").onclick=function(){slip=[];save();paint();};
+  var inp=document.getElementById("stk");inp.oninput=function(){stake=Math.max(0,+inp.value||0);document.getElementById("win").textContent="pays $"+(stake/pr.v).toFixed(2)};
+  body.querySelectorAll("[data-rm]").forEach(function(b){b.onclick=function(){slip.splice(slip.indexOf(b.dataset.rm),1);save();paint();}});
+ }
+ function open(){sheet.hidden=false;document.body.style.overflow="hidden";render();}
+ function close(){sheet.hidden=true;document.body.style.overflow="";}
+ document.getElementById("slipopen").onclick=open;
+ sheet.addEventListener("click",function(e){if(e.target===sheet)close()});
+ document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!sheet.hidden)close()});
+ document.querySelectorAll(".add").forEach(function(b){b.addEventListener("click",function(){var k=b.dataset.k,i=slip.indexOf(k);if(i>=0)slip.splice(i,1);else slip.push(k);save();paint();})});
+ document.querySelectorAll("[role=tab]").forEach(function(t){t.addEventListener("click",function(){setTimeout(paint,0)})});
+ paint();
 })();
 </script>
