@@ -40,6 +40,10 @@ jobs:
           WEEK: ${{ github.event.inputs.week }}
         run: python fetch.py
 
+      - name: Get game context (lines, weather, injuries, news, buzz)
+        continue-on-error: true
+        run: python context.py
+
       - name: Score props
         run: python engine.py
 
