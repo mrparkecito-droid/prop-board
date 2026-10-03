@@ -6,6 +6,7 @@ on:
     - cron: "0 20 * * 4"   # Thu 1:00 PM PT  - before Thursday Night Football
     - cron: "0 16 * * 5"   # Fri 9:00 AM PT  - Sunday + Monday games
     - cron: "0 16 * * 6"   # Sat 9:00 AM PT  - Sunday + Monday games
+    - cron: "45 15 * * 0"  # Sun 8:45 AM PT  - after injury news, before the 10 AM PT kickoffs
   workflow_dispatch:
     inputs:
       week:
