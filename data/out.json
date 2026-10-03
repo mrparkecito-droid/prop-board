@@ -12,7 +12,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 55,
-   "bid": 54,
+   "bid": 52,
    "vals": [
     64.0,
     24.0,
@@ -57,7 +57,7 @@
    "praw": 0.8103,
    "rg": "WR3",
    "est": false,
-   "mid": 54.5,
+   "mid": 53.5,
    "tk": "KXNFLRECYDS-26OCT04INDWAS-WASAWILLIAMS14-15",
    "ev": "KXNFLRECYDS-26OCT04INDWAS",
    "ctx": 0,
@@ -80,6 +80,7 @@
    },
    "po": 0,
    "pn": 0,
+   "pid": "13301",
    "rank": 1,
    "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 28.3, IND let 3 of 3 WR3s reach it, IND allows the 3rd most pass yds.",
    "news": ""
@@ -164,109 +165,9 @@
    },
    "po": 15,
    "pn": 17,
+   "pid": "7002",
    "rank": 2,
    "why": "Cleared 3+ in 3 of 3 games (15 of 17 last season), Sleeper projects 4.3, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds.",
-   "news": ""
-  },
-  {
-   "game": "DETCAR",
-   "glabel": "DET @ CAR",
-   "player": "Darren Waller",
-   "team": "CAR",
-   "opp": "DET",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 79,
-   "bid": 77,
-   "vals": [
-    2.0,
-    3.0,
-    5.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 3.4,
-   "al": [
-    [
-     1,
-     "NO",
-     4.0
-    ],
-    [
-     2,
-     "BUF",
-     7.0
-    ],
-    [
-     3,
-     "NYJ",
-     7.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 1,
-   "per": 326.3,
-   "dstat": "pass yds",
-   "p": 82,
-   "roi": 4,
-   "pp": 89,
-   "hs": 76,
-   "dhs": 80,
-   "rks": 100,
-   "vs": 54,
-   "agree": 3,
-   "score": 81.3,
-   "flags": [],
-   "pc": 0.8245,
-   "praw": 0.8245,
-   "rg": "TE",
-   "est": false,
-   "mid": 78.0,
-   "tk": "KXNFLREC-26OCT04DETCAR-CARDWALLER88-2",
-   "ev": "KXNFLREC-26OCT04DETCAR",
-   "ctx": 0.28,
-   "cxs": 64,
-   "reasons": [
-    [
-     -0.15,
-     "Rain likely (77% chance)"
-    ],
-    [
-     0.15,
-     "DET secondary missing S Brian Branch"
-    ],
-    [
-     0.2,
-     "Xavier Legette out, more targets to go around"
-    ],
-    [
-     0.08,
-     "Trending on Sleeper (#7 most added)"
-    ]
-   ],
-   "status": null,
-   "ppj": 89,
-   "pu": 89,
-   "uinfo": {
-    "share": [
-     6,
-     9,
-     19
-    ],
-    "kind": "targets",
-    "snap": 45,
-    "snap_last": 51,
-    "mu": 3.4,
-    "note": "His share of targets is up from 6% to 19%."
-   },
-   "po": 6,
-   "pn": 9,
-   "rank": 3,
-   "why": "Cleared 2+ in 3 of 3 games (6 of 9 last season), Sleeper projects 3.4, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance).",
    "news": ""
   },
   {
@@ -349,8 +250,111 @@
    },
    "po": 17,
    "pn": 17,
-   "rank": 4,
+   "pid": "7002",
+   "rank": 3,
    "why": "Cleared 15+ in 3 of 3 games (17 of 17 last season), Sleeper projects 52.4, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds.",
+   "news": ""
+  },
+  {
+   "game": "DETCAR",
+   "glabel": "DET @ CAR",
+   "player": "Darren Waller",
+   "team": "CAR",
+   "opp": "DET",
+   "pos": "TE",
+   "role": "TE1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 80,
+   "bid": 77,
+   "vals": [
+    2.0,
+    3.0,
+    5.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 3.4,
+   "al": [
+    [
+     1,
+     "NO",
+     4.0
+    ],
+    [
+     2,
+     "BUF",
+     7.0
+    ],
+    [
+     3,
+     "NYJ",
+     7.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 1,
+   "per": 326.3,
+   "dstat": "pass yds",
+   "p": 82,
+   "roi": 3,
+   "pp": 89,
+   "hs": 76,
+   "dhs": 80,
+   "rks": 100,
+   "vs": 53,
+   "agree": 3,
+   "score": 81.1,
+   "flags": [],
+   "pc": 0.8245,
+   "praw": 0.8245,
+   "rg": "TE",
+   "est": false,
+   "mid": 78.5,
+   "tk": "KXNFLREC-26OCT04DETCAR-CARDWALLER88-2",
+   "ev": "KXNFLREC-26OCT04DETCAR",
+   "ctx": 0.28,
+   "cxs": 64,
+   "reasons": [
+    [
+     -0.15,
+     "Rain likely (78% chance)"
+    ],
+    [
+     0.15,
+     "DET secondary missing S Brian Branch"
+    ],
+    [
+     0.2,
+     "Xavier Legette out, more targets to go around"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#7 most added)"
+    ]
+   ],
+   "status": null,
+   "ppj": 89,
+   "pu": 89,
+   "uinfo": {
+    "share": [
+     6,
+     9,
+     19
+    ],
+    "kind": "targets",
+    "snap": 45,
+    "snap_last": 51,
+    "mu": 3.4,
+    "note": "His share of targets is up from 6% to 19%."
+   },
+   "po": 6,
+   "pn": 9,
+   "pid": "2505",
+   "rank": 4,
+   "why": "Cleared 2+ in 3 of 3 games (6 of 9 last season), Sleeper projects 3.4, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (78% chance).",
    "news": ""
   },
   {
@@ -438,97 +442,9 @@
    },
    "po": 16,
    "pn": 16,
+   "pid": "5947",
    "rank": 5,
    "why": "Cleared 15+ in 3 of 3 games (16 of 16 last season), Sleeper projects 49, CIN let 3 of 3 WR2s reach it, CIN allows the 4th most pass yds. His share of targets is up from 10% to 30%. CIN secondary missing S Kyle Dugger.",
-   "news": ""
-  },
-  {
-   "game": "ARINYG",
-   "glabel": "ARI @ NYG",
-   "player": "Darnell Mooney",
-   "team": "NYG",
-   "opp": "ARI",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 58,
-   "bid": 54,
-   "vals": [
-    27.0,
-    48.0,
-    20.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 24.4,
-   "al": [
-    [
-     1,
-     "LAC",
-     20.0
-    ],
-    [
-     2,
-     "SEA",
-     35.0
-    ],
-    [
-     3,
-     "SF",
-     60.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 10,
-   "per": 247.0,
-   "dstat": "pass yds",
-   "p": 79,
-   "roi": 36,
-   "pp": 76,
-   "hs": 82,
-   "dhs": 80,
-   "rks": 71,
-   "vs": 86,
-   "agree": 3,
-   "score": 80.9,
-   "flags": [],
-   "pc": 0.7899,
-   "praw": 0.7899,
-   "rg": "WR2",
-   "est": false,
-   "mid": 56.0,
-   "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-15",
-   "ev": "KXNFLRECYDS-26OCT04ARINYG",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "ARI secondary missing S Dadrion Taylor-Demerson"
-    ]
-   ],
-   "status": null,
-   "ppj": 77,
-   "pu": 74,
-   "uinfo": {
-    "share": [
-     7,
-     9,
-     14
-    ],
-    "kind": "targets",
-    "snap": 56,
-    "snap_last": 44,
-    "mu": 22.6,
-    "note": ""
-   },
-   "po": 13,
-   "pn": 15,
-   "rank": 6,
-   "why": "Cleared 15+ in 3 of 3 games (13 of 15 last season), Sleeper projects 24.4, ARI let 3 of 3 WR2s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson.",
    "news": ""
   },
   {
@@ -543,7 +459,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 82,
-   "bid": 80,
+   "bid": 79,
    "vals": [
     23.0,
     17.0,
@@ -588,7 +504,7 @@
    "praw": 0.8431,
    "rg": "TE",
    "est": false,
-   "mid": 81.0,
+   "mid": 80.5,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACBSTRANGE85-15",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
    "ctx": 0.15,
@@ -616,7 +532,8 @@
    },
    "po": 12,
    "pn": 12,
-   "rank": 7,
+   "pid": "9480",
+   "rank": 6,
    "why": "Cleared 15+ in 3 of 3 games (12 of 12 last season), Sleeper projects 44.2, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger.",
    "news": ""
   },
@@ -705,8 +622,99 @@
    },
    "po": 0,
    "pn": 0,
-   "rank": 8,
+   "pid": "13414",
+   "rank": 7,
    "why": "Cleared 10+ in 3 of 3 games, Sleeper projects 29.5, DEN let 3 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. His share of carries fell from 47% to 17%. DEN front missing LB Dondrea Tillman.",
+   "news": ""
+  },
+  {
+   "game": "ARINYG",
+   "glabel": "ARI @ NYG",
+   "player": "Darnell Mooney",
+   "team": "NYG",
+   "opp": "ARI",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 59,
+   "bid": 54,
+   "vals": [
+    27.0,
+    48.0,
+    20.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 24.4,
+   "al": [
+    [
+     1,
+     "LAC",
+     20.0
+    ],
+    [
+     2,
+     "SEA",
+     35.0
+    ],
+    [
+     3,
+     "SF",
+     60.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 10,
+   "per": 247.0,
+   "dstat": "pass yds",
+   "p": 79,
+   "roi": 34,
+   "pp": 76,
+   "hs": 82,
+   "dhs": 80,
+   "rks": 71,
+   "vs": 84,
+   "agree": 3,
+   "score": 80.5,
+   "flags": [],
+   "pc": 0.7899,
+   "praw": 0.7899,
+   "rg": "WR2",
+   "est": false,
+   "mid": 56.5,
+   "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-15",
+   "ev": "KXNFLRECYDS-26OCT04ARINYG",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "ARI secondary missing S Dadrion Taylor-Demerson"
+    ]
+   ],
+   "status": null,
+   "ppj": 77,
+   "pu": 74,
+   "uinfo": {
+    "share": [
+     7,
+     9,
+     14
+    ],
+    "kind": "targets",
+    "snap": 56,
+    "snap_last": 44,
+    "mu": 22.6,
+    "note": ""
+   },
+   "po": 13,
+   "pn": 15,
+   "pid": "7090",
+   "rank": 8,
+   "why": "Cleared 15+ in 3 of 3 games (13 of 15 last season), Sleeper projects 24.4, ARI let 3 of 3 WR2s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson.",
    "news": ""
   },
   {
@@ -794,6 +802,7 @@
    },
    "po": 17,
    "pn": 17,
+   "pid": "9224",
    "rank": 9,
    "why": "Cleared 2+ in 3 of 3 games (17 of 17 last season), Sleeper projects 3.9, JAX let 3 of 3 lead RBs reach it. His share of targets fell from 18% to 5%. CIN projected for 27 pts (O/U 51.5).",
    "news": ""
@@ -810,7 +819,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 75,
-   "bid": 69,
+   "bid": 66,
    "vals": [
     28.0,
     33.0,
@@ -855,7 +864,7 @@
    "praw": 0.8017,
    "rg": "TE",
    "est": false,
-   "mid": 72.0,
+   "mid": 70.5,
    "tk": "KXNFLRECYDS-26OCT04DETCAR-CARDWALLER88-15",
    "ev": "KXNFLRECYDS-26OCT04DETCAR",
    "ctx": 0.28,
@@ -863,7 +872,7 @@
    "reasons": [
     [
      -0.15,
-     "Rain likely (77% chance)"
+     "Rain likely (78% chance)"
     ],
     [
      0.15,
@@ -895,8 +904,9 @@
    },
    "po": 5,
    "pn": 9,
+   "pid": "2505",
    "rank": 10,
-   "why": "Cleared 15+ in 3 of 3 games (5 of 9 last season), Sleeper projects 35.1, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance).",
+   "why": "Cleared 15+ in 3 of 3 games (5 of 9 last season), Sleeper projects 35.1, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (78% chance).",
    "news": ""
   },
   {
@@ -911,7 +921,7 @@
    "prop": "Passing Yards",
    "line": 100,
    "ask": 88,
-   "bid": 86,
+   "bid": 79,
    "vals": [
     220.0,
     197.0,
@@ -956,7 +966,7 @@
    "praw": 0.8594,
    "rg": "QB",
    "est": false,
-   "mid": 87.0,
+   "mid": 83.5,
    "tk": "KXNFLPASSYDS-26OCT04MIAMIN-MIAMWILLIS2-100",
    "ev": "KXNFLPASSYDS-26OCT04MIAMIN",
    "ctx": 0.1,
@@ -992,6 +1002,7 @@
    },
    "po": 2,
    "pn": 4,
+   "pid": "8161",
    "rank": 11,
    "why": "Cleared 100+ in 3 of 3 games (2 of 4 last season), Sleeper projects 189.9, MIN let 3 of 3 QBs reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. MIN secondary missing CB Charles Demmings. Watch: MIA projected for only 14 pts (O/U 38.5).",
    "news": ""
@@ -1008,7 +1019,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 63,
-   "bid": 62,
+   "bid": 60,
    "vals": [
     25.0,
     30.0,
@@ -1053,7 +1064,7 @@
    "praw": 0.7933,
    "rg": "WR3",
    "est": false,
-   "mid": 62.5,
+   "mid": 61.5,
    "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGMFIELDS88-15",
    "ev": "KXNFLRECYDS-26OCT04ARINYG",
    "ctx": 0.15,
@@ -1081,6 +1092,7 @@
    },
    "po": 0,
    "pn": 0,
+   "pid": "13285",
    "rank": 12,
    "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 23.8, ARI let 3 of 3 WR3s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson.",
    "news": ""
@@ -1097,7 +1109,7 @@
    "prop": "Passing Yards",
    "line": 175,
    "ask": 81,
-   "bid": 79,
+   "bid": 78,
    "vals": [
     178.0,
     208.0,
@@ -1142,7 +1154,7 @@
    "praw": 0.8217,
    "rg": "QB",
    "est": false,
-   "mid": 80.0,
+   "mid": 79.5,
    "tk": "KXNFLPASSYDS-26OCT04NEBUF-NEDMAYE10-175",
    "ev": "KXNFLPASSYDS-26OCT04NEBUF",
    "ctx": 0.2,
@@ -1170,6 +1182,7 @@
    },
    "po": 16,
    "pn": 17,
+   "pid": "11564",
    "rank": 13,
    "why": "Cleared 175+ in 3 of 3 games (16 of 17 last season), Sleeper projects 222.1, BUF let 3 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more.",
    "news": ""
@@ -1186,7 +1199,7 @@
    "prop": "Rushing Yards",
    "line": 40,
    "ask": 72,
-   "bid": 70,
+   "bid": 68,
    "vals": [
     41.0,
     85.0,
@@ -1231,7 +1244,7 @@
    "praw": 0.8126,
    "rg": "RB1",
    "est": false,
-   "mid": 71.0,
+   "mid": 70.0,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-40",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI",
    "ctx": 0.12,
@@ -1259,6 +1272,7 @@
    },
    "po": 17,
    "pn": 17,
+   "pid": "8150",
    "rank": 14,
    "why": "Cleared 40+ in 3 of 3 games (17 of 17 last season), Sleeper projects 67.6, PHI let 3 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun.",
    "news": ""
@@ -1348,6 +1362,7 @@
    },
    "po": 10,
    "pn": 12,
+   "pid": "9480",
    "rank": 15,
    "why": "Cleared 2+ in 3 of 3 games (10 of 12 last season), Sleeper projects 3.7, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger.",
    "news": ""
@@ -1364,7 +1379,7 @@
    "prop": "Receptions",
    "line": 2,
    "ask": 88,
-   "bid": 86,
+   "bid": 85,
    "vals": [
     4.0,
     2.0,
@@ -1409,7 +1424,7 @@
    "praw": 0.8343,
    "rg": "WR2",
    "est": false,
-   "mid": 87.0,
+   "mid": 86.5,
    "tk": "KXNFLREC-26OCT04NEBUF-NEMHOLLINS13-2",
    "ev": "KXNFLREC-26OCT04NEBUF",
    "ctx": 0.2,
@@ -1437,6 +1452,7 @@
    },
    "po": 11,
    "pn": 15,
+   "pid": "4177",
    "rank": 16,
    "why": "Cleared 2+ in 3 of 3 games (11 of 15 last season), Sleeper projects 3.5, BUF let 3 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more.",
    "news": ""
@@ -1526,6 +1542,7 @@
    },
    "po": 15,
    "pn": 17,
+   "pid": "8137",
    "rank": 17,
    "why": "Cleared 3+ in 3 of 3 games (15 of 17 last season), Sleeper projects 5.1, HOU let 3 of 3 WR2s reach it, HOU allows the 8th most pass yds. His share of targets is up from 20% to 28%. HOU secondary missing S M.J. Stewart.",
    "news": ""
@@ -1619,6 +1636,7 @@
    },
    "po": 13,
    "pn": 15,
+   "pid": "6801",
    "rank": 18,
    "why": "Cleared 25+ in 3 of 3 games (13 of 15 last season), Sleeper projects 79.8, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
    "news": ""
@@ -1635,7 +1653,7 @@
    "prop": "Receptions",
    "line": 2,
    "ask": 85,
-   "bid": 83,
+   "bid": 82,
    "vals": [
     2.0,
     4.0,
@@ -1680,7 +1698,7 @@
    "praw": 0.8364,
    "rg": "TE",
    "est": false,
-   "mid": 84.0,
+   "mid": 83.5,
    "tk": "KXNFLREC-26OCT04DALHOU-DALJFERGUSON87-2",
    "ev": "KXNFLREC-26OCT04DALHOU",
    "ctx": 0.15,
@@ -1708,6 +1726,7 @@
    },
    "po": 14,
    "pn": 17,
+   "pid": "8110",
    "rank": 19,
    "why": "Cleared 2+ in 3 of 3 games (14 of 17 last season), Sleeper projects 3.6, HOU let 3 of 3 TE1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
    "news": ""
@@ -1724,7 +1743,7 @@
    "prop": "Receptions",
    "line": 3,
    "ask": 82,
-   "bid": 80,
+   "bid": 79,
    "vals": [
     3.0,
     5.0,
@@ -1769,7 +1788,7 @@
    "praw": 0.8312,
    "rg": "WR1",
    "est": false,
-   "mid": 81.0,
+   "mid": 80.5,
    "tk": "KXNFLREC-26OCT04JACCIN-CINTHIGGINS5-3",
    "ev": "KXNFLREC-26OCT04JACCIN",
    "ctx": 0.45,
@@ -1801,6 +1820,7 @@
    },
    "po": 13,
    "pn": 15,
+   "pid": "6801",
    "rank": 20,
    "why": "Cleared 3+ in 3 of 3 games (13 of 15 last season), Sleeper projects 4.9, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
    "news": ""
@@ -1817,7 +1837,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 85,
-   "bid": 83,
+   "bid": 82,
    "vals": [
     51.0,
     18.0,
@@ -1862,7 +1882,7 @@
    "praw": 0.8225,
    "rg": "WR2",
    "est": false,
-   "mid": 84.0,
+   "mid": 83.5,
    "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-15",
    "ev": "KXNFLRECYDS-26OCT04NEBUF",
    "ctx": 0.2,
@@ -1890,6 +1910,7 @@
    },
    "po": 10,
    "pn": 15,
+   "pid": "4177",
    "rank": 21,
    "why": "Cleared 15+ in 3 of 3 games (10 of 15 last season), Sleeper projects 44.8, BUF let 3 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more.",
    "news": ""
@@ -1974,6 +1995,7 @@
    },
    "po": 7,
    "pn": 11,
+   "pid": "12545",
    "rank": 22,
    "why": "Cleared 200+ in 3 of 3 games (7 of 11 last season), Sleeper projects 260.3, ATL let 3 of 3 QBs reach it, ATL allows the 6th most pass yds.",
    "news": ""
@@ -1990,7 +2012,7 @@
    "prop": "Passing Yards",
    "line": 175,
    "ask": 84,
-   "bid": 83,
+   "bid": 82,
    "vals": [
     361.0,
     287.0,
@@ -2035,7 +2057,7 @@
    "praw": 0.8032,
    "rg": "QB",
    "est": false,
-   "mid": 83.5,
+   "mid": 83.0,
    "tk": "KXNFLPASSYDS-26OCT04DETCAR-CARBYOUNG9-175",
    "ev": "KXNFLPASSYDS-26OCT04DETCAR",
    "ctx": 0.0,
@@ -2043,7 +2065,7 @@
    "reasons": [
     [
      -0.15,
-     "Rain likely (77% chance)"
+     "Rain likely (78% chance)"
     ],
     [
      0.15,
@@ -2067,8 +2089,9 @@
    },
    "po": 7,
    "pn": 16,
+   "pid": "9228",
    "rank": 23,
-   "why": "Cleared 175+ in 3 of 3 games (7 of 16 last season), Sleeper projects 229.3, DET let 3 of 3 QBs reach it, DET allows the most pass yds. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance).",
+   "why": "Cleared 175+ in 3 of 3 games (7 of 16 last season), Sleeper projects 229.3, DET let 3 of 3 QBs reach it, DET allows the most pass yds. DET secondary missing S Brian Branch. Watch: Rain likely (78% chance).",
    "news": ""
   },
   {
@@ -2083,7 +2106,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 66,
-   "bid": 62,
+   "bid": 55,
    "vals": [
     21.0,
     37.0,
@@ -2128,7 +2151,7 @@
    "praw": 0.8292,
    "rg": "WR2",
    "est": false,
-   "mid": 64.0,
+   "mid": 64.5,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-HOUKBOUTTE14-15",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
    "ctx": 0.15,
@@ -2156,6 +2179,7 @@
    },
    "po": 13,
    "pn": 14,
+   "pid": "9504",
    "rank": 24,
    "why": "Cleared 15+ in 3 of 3 games (13 of 14 last season), Sleeper projects 33.1, DAL let 3 of 3 WR2s reach it. DAL secondary missing CB Cobie Durant.",
    "news": ""
@@ -2172,7 +2196,7 @@
    "prop": "Receiving Yards",
    "line": 40,
    "ask": 84,
-   "bid": 82,
+   "bid": 81,
    "vals": [
     44.0,
     153.0,
@@ -2217,7 +2241,7 @@
    "praw": 0.8192,
    "rg": "WR1",
    "est": false,
-   "mid": 83.0,
+   "mid": 82.5,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-40",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
    "ctx": 0.15,
@@ -2245,6 +2269,7 @@
    },
    "po": 12,
    "pn": 14,
+   "pid": "6786",
    "rank": 25,
    "why": "Cleared 40+ in 3 of 3 games (12 of 14 last season), Sleeper projects 87.5, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
    "news": ""
@@ -2261,7 +2286,7 @@
    "prop": "Passing Yards",
    "line": 125,
    "ask": 83,
-   "bid": 80,
+   "bid": 79,
    "vals": [
     140.0,
     183.0,
@@ -2306,7 +2331,7 @@
    "praw": 0.8435,
    "rg": "QB",
    "est": false,
-   "mid": 81.5,
+   "mid": 81.0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-125",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL",
    "ctx": -0.05,
@@ -2338,6 +2363,7 @@
    },
    "po": 13,
    "pn": 17,
+   "pid": "12522",
    "rank": 26,
    "why": "Cleared 125+ in 3 of 3 games (13 of 17 last season), Sleeper projects 200.8, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "news": ""
@@ -2422,6 +2448,7 @@
    },
    "po": 7,
    "pn": 9,
+   "pid": "8183",
    "rank": 27,
    "why": "Cleared 175+ in 3 of 3 games (7 of 9 last season), Sleeper projects 247, DEN let 3 of 3 QBs reach it, DEN allows the 9th most pass yds.",
    "news": ""
@@ -2438,7 +2465,7 @@
    "prop": "Receptions",
    "line": 4,
    "ask": 83,
-   "bid": 81,
+   "bid": 80,
    "vals": [
     5.0,
     8.0,
@@ -2483,7 +2510,7 @@
    "praw": 0.8105,
    "rg": "WR1",
    "est": false,
-   "mid": 82.0,
+   "mid": 81.5,
    "tk": "KXNFLREC-26OCT04DALHOU-DALCLAMB88-4",
    "ev": "KXNFLREC-26OCT04DALHOU",
    "ctx": 0.15,
@@ -2511,97 +2538,9 @@
    },
    "po": 12,
    "pn": 14,
+   "pid": "6786",
    "rank": 28,
    "why": "Cleared 4+ in 3 of 3 games (12 of 14 last season), Sleeper projects 6, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
-   "news": ""
-  },
-  {
-   "game": "INDWAS",
-   "glabel": "IND @ WAS",
-   "player": "Jacory Croskey-Merritt",
-   "team": "WAS",
-   "opp": "IND",
-   "pos": "RB",
-   "role": "RB1",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 30,
-   "ask": 83,
-   "bid": 82,
-   "vals": [
-    63.0,
-    43.0,
-    36.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 59.6,
-   "al": [
-    [
-     1,
-     "BAL",
-     144.0
-    ],
-    [
-     2,
-     "KC",
-     117.0
-    ],
-    [
-     3,
-     "HOU",
-     33.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 4,
-   "per": 140.3,
-   "dstat": "rush yds",
-   "p": 79,
-   "roi": -5,
-   "pp": 83,
-   "hs": 72,
-   "dhs": 80,
-   "rks": 90,
-   "vs": 45,
-   "agree": 3,
-   "score": 76.3,
-   "flags": [],
-   "pc": 0.7886,
-   "praw": 0.7886,
-   "rg": "RB1",
-   "est": false,
-   "mid": 82.5,
-   "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-30",
-   "ev": "KXNFLRSHYDS-26OCT04INDWAS",
-   "ctx": 0.3,
-   "cxs": 65,
-   "reasons": [
-    [
-     0.3,
-     "Rachaad White out, more carries for him"
-    ]
-   ],
-   "status": null,
-   "ppj": 82,
-   "pu": 84,
-   "uinfo": {
-    "share": [
-     50,
-     38,
-     59
-    ],
-    "kind": "carries",
-    "snap": 48,
-    "snap_last": 57,
-    "mu": 65.5,
-    "note": "His share of carries is up from 50% to 59%."
-   },
-   "po": 10,
-   "pn": 17,
-   "rank": 29,
-   "why": "Cleared 30+ in 3 of 3 games (10 of 17 last season), Sleeper projects 59.6, IND let 3 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him.",
    "news": ""
   },
   {
@@ -2705,7 +2644,8 @@
    },
    "po": 8,
    "pn": 17,
-   "rank": 30,
+   "pid": "11610",
+   "rank": 29,
    "why": "Cleared 15+ in 3 of 3 games (8 of 17 last season), Sleeper projects 38.2, MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
    "news": ""
   },
@@ -2721,7 +2661,7 @@
    "prop": "Passing Yards",
    "line": 175,
    "ask": 85,
-   "bid": 83,
+   "bid": 82,
    "vals": [
     184.0,
     382.0,
@@ -2766,7 +2706,7 @@
    "praw": 0.8535,
    "rg": "QB",
    "est": false,
-   "mid": 84.0,
+   "mid": 83.5,
    "tk": "KXNFLPASSYDS-26OCT04KCLV-KCPMAHOMES15-175",
    "ev": "KXNFLPASSYDS-26OCT04KCLV",
    "ctx": 0,
@@ -2789,7 +2729,8 @@
    },
    "po": 13,
    "pn": 14,
-   "rank": 31,
+   "pid": "4046",
+   "rank": 30,
    "why": "Cleared 175+ in 3 of 3 games (13 of 14 last season), Sleeper projects 246.2, LV let 3 of 3 QBs reach it.",
    "news": ""
   },
@@ -2873,7 +2814,8 @@
    },
    "po": 16,
    "pn": 17,
-   "rank": 32,
+   "pid": "9488",
+   "rank": 31,
    "why": "Cleared 60+ in 3 of 3 games (16 of 17 last season), Sleeper projects 98.3, LAC let 3 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
    "news": ""
   },
@@ -2957,7 +2899,8 @@
    },
    "po": 13,
    "pn": 16,
-   "rank": 33,
+   "pid": "8144",
+   "rank": 32,
    "why": "Cleared 50+ in 3 of 3 games (13 of 16 last season), Sleeper projects 89.5, ATL let 3 of 3 WR1s reach it, ATL allows the 6th most pass yds.",
    "news": ""
   },
@@ -3050,7 +2993,8 @@
    },
    "po": 16,
    "pn": 17,
-   "rank": 34,
+   "pid": "12514",
+   "rank": 33,
    "why": "Cleared 15+ in 3 of 3 games (16 of 17 last season), Sleeper projects 49.4, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
    "news": ""
   },
@@ -3139,8 +3083,99 @@
    },
    "po": 9,
    "pn": 16,
-   "rank": 35,
+   "pid": "7588",
+   "rank": 34,
    "why": "Cleared 2+ in 3 of 3 games (9 of 16 last season), Sleeper projects 2.6, HOU let 3 of 3 lead RBs reach it, HOU allows the 8th most pass yds. His share of targets fell from 17% to 8%. HOU secondary missing S M.J. Stewart.",
+   "news": ""
+  },
+  {
+   "game": "INDWAS",
+   "glabel": "IND @ WAS",
+   "player": "Jacory Croskey-Merritt",
+   "team": "WAS",
+   "opp": "IND",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rush",
+   "prop": "Rushing Yards",
+   "line": 30,
+   "ask": 86,
+   "bid": 85,
+   "vals": [
+    63.0,
+    43.0,
+    36.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 59.6,
+   "al": [
+    [
+     1,
+     "BAL",
+     144.0
+    ],
+    [
+     2,
+     "KC",
+     117.0
+    ],
+    [
+     3,
+     "HOU",
+     33.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 4,
+   "per": 140.3,
+   "dstat": "rush yds",
+   "p": 79,
+   "roi": -8,
+   "pp": 83,
+   "hs": 72,
+   "dhs": 80,
+   "rks": 90,
+   "vs": 42,
+   "agree": 3,
+   "score": 75.7,
+   "flags": [],
+   "pc": 0.7886,
+   "praw": 0.7886,
+   "rg": "RB1",
+   "est": false,
+   "mid": 85.5,
+   "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-30",
+   "ev": "KXNFLRSHYDS-26OCT04INDWAS",
+   "ctx": 0.3,
+   "cxs": 65,
+   "reasons": [
+    [
+     0.3,
+     "Rachaad White out, more carries for him"
+    ]
+   ],
+   "status": null,
+   "ppj": 82,
+   "pu": 84,
+   "uinfo": {
+    "share": [
+     50,
+     38,
+     59
+    ],
+    "kind": "carries",
+    "snap": 48,
+    "snap_last": 57,
+    "mu": 65.5,
+    "note": "His share of carries is up from 50% to 59%."
+   },
+   "po": 10,
+   "pn": 17,
+   "pid": "12533",
+   "rank": 35,
+   "why": "Cleared 30+ in 3 of 3 games (10 of 17 last season), Sleeper projects 59.6, IND let 3 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him.",
    "news": ""
   },
   {
@@ -3232,6 +3267,7 @@
    },
    "po": 12,
    "pn": 14,
+   "pid": "7611",
    "rank": 36,
    "why": "Cleared 15+ in 3 of 3 games (12 of 14 last season), Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. His share of carries fell from 58% to 27%. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run.",
    "news": ""
@@ -3325,6 +3361,7 @@
    },
    "po": 0,
    "pn": 0,
+   "pid": "13279",
    "rank": 37,
    "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 47.6, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "news": ""
@@ -3418,6 +3455,7 @@
    },
    "po": 14,
    "pn": 16,
+   "pid": "8111",
    "rank": 38,
    "why": "Cleared 2+ in 3 of 3 games (14 of 16 last season), Sleeper projects 3.1, GB let 3 of 3 TE1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
    "news": ""
@@ -3502,92 +3540,103 @@
    },
    "po": 12,
    "pn": 14,
+   "pid": "11624",
    "rank": 39,
    "why": "Cleared 15+ in 3 of 3 games (12 of 14 last season), Sleeper projects 38.1, LV let 3 of 3 WR2s reach it. His share of targets fell from 24% to 9%.",
    "news": ""
   },
   {
-   "game": "ARINYG",
-   "glabel": "ARI @ NYG",
-   "player": "Jeremiyah Love",
-   "team": "ARI",
-   "opp": "NYG",
-   "pos": "RB",
-   "role": "RB1",
+   "game": "TENBAL",
+   "glabel": "TEN @ BAL",
+   "player": "Gunnar Helm",
+   "team": "TEN",
+   "opp": "BAL",
+   "pos": "TE",
+   "role": "TE1",
    "stat": "rec",
    "prop": "Receptions",
    "line": 2,
-   "ask": 80,
-   "bid": 78,
+   "ask": 79,
+   "bid": 75,
    "vals": [
+    4.0,
     2.0,
-    3.0,
-    5.0
+    2.0
    ],
    "over": 3,
    "n": 3,
-   "proj": 2.7,
+   "proj": 3.5,
    "al": [
     [
      1,
-     "DAL",
-     5.0
+     "IND",
+     3.0
     ],
     [
      2,
-     "LAR",
-     2.0
+     "NO",
+     4.0
     ],
     [
      3,
-     "TEN",
-     4.0
+     "DAL",
+     3.0
     ]
    ],
    "dhit": 3,
    "dn": 3,
-   "most": 17,
-   "per": 227.7,
+   "most": 14,
+   "per": 231.3,
    "dstat": "pass yds",
-   "p": 82,
+   "p": 81,
    "roi": 3,
    "pp": 86,
-   "hs": 80,
+   "hs": 76,
    "dhs": 80,
-   "rks": 48,
+   "rks": 58,
    "vs": 53,
    "agree": 3,
-   "score": 75.0,
+   "score": 74.9,
    "flags": [],
-   "pc": 0.8248,
-   "praw": 0.8248,
-   "rg": "RB1",
+   "pc": 0.8118,
+   "praw": 0.8118,
+   "rg": "TE",
    "est": false,
-   "mid": 79.0,
-   "tk": "KXNFLREC-26OCT04ARINYG-ARIJLOVE4-2",
-   "ev": "KXNFLREC-26OCT04ARINYG",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [],
+   "mid": 77.0,
+   "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-2",
+   "ev": "KXNFLREC-26OCT04TENBAL",
+   "ctx": -0.05,
+   "cxs": 48,
+   "reasons": [
+    [
+     -0.25,
+     "TEN projected for only 16 pts (O/U 42.5)"
+    ],
+    [
+     0.2,
+     "TEN a 11.5-pt underdog, trailing teams throw more"
+    ]
+   ],
    "status": null,
-   "ppj": 84,
-   "pu": 88,
+   "ppj": 90,
+   "pu": 82,
    "uinfo": {
     "share": [
-     11,
+     18,
      12,
-     10
+     11
     ],
     "kind": "targets",
-    "snap": 51,
-    "snap_last": 64,
-    "mu": 3.2,
+    "snap": 82,
+    "snap_last": 82,
+    "mu": 2.6,
     "note": ""
    },
-   "po": 0,
-   "pn": 0,
+   "po": 11,
+   "pn": 16,
+   "pid": "12502",
    "rank": 40,
-   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 2.7, NYG let 3 of 3 lead RBs reach it.",
+   "why": "Cleared 2+ in 3 of 3 games (11 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "news": ""
   },
   {
@@ -3691,6 +3740,7 @@
    },
    "po": 10,
    "pn": 17,
+   "pid": "11610",
    "rank": 41,
    "why": "Cleared 3+ in 3 of 3 games (10 of 17 last season), Sleeper projects 3.5, MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
    "news": ""
@@ -3775,8 +3825,94 @@
    },
    "po": 12,
    "pn": 17,
+   "pid": "9509",
    "rank": 42,
    "why": "Cleared 50+ in 3 of 3 games (12 of 17 last season), Sleeper projects 86.3, NO let 3 of 3 lead RBs reach it, NO allows the 6th most rush yds.",
+   "news": ""
+  },
+  {
+   "game": "ARINYG",
+   "glabel": "ARI @ NYG",
+   "player": "Jeremiyah Love",
+   "team": "ARI",
+   "opp": "NYG",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 81,
+   "bid": 78,
+   "vals": [
+    2.0,
+    3.0,
+    5.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 2.7,
+   "al": [
+    [
+     1,
+     "DAL",
+     5.0
+    ],
+    [
+     2,
+     "LAR",
+     2.0
+    ],
+    [
+     3,
+     "TEN",
+     4.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 17,
+   "per": 227.7,
+   "dstat": "pass yds",
+   "p": 82,
+   "roi": 2,
+   "pp": 86,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 48,
+   "vs": 52,
+   "agree": 3,
+   "score": 74.8,
+   "flags": [],
+   "pc": 0.8248,
+   "praw": 0.8248,
+   "rg": "RB1",
+   "est": false,
+   "mid": 79.5,
+   "tk": "KXNFLREC-26OCT04ARINYG-ARIJLOVE4-2",
+   "ev": "KXNFLREC-26OCT04ARINYG",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [],
+   "status": null,
+   "ppj": 84,
+   "pu": 88,
+   "uinfo": {
+    "share": [
+     11,
+     12,
+     10
+    ],
+    "kind": "targets",
+    "snap": 51,
+    "snap_last": 64,
+    "mu": 3.2,
+    "note": ""
+   },
+   "po": 0,
+   "pn": 0,
+   "pid": "13287",
+   "rank": 43,
+   "why": "Cleared 2+ in 3 of 3 games, Sleeper projects 2.7, NYG let 3 of 3 lead RBs reach it.",
    "news": ""
   },
   {
@@ -3868,7 +4004,8 @@
    },
    "po": 15,
    "pn": 17,
-   "rank": 43,
+   "pid": "12514",
+   "rank": 44,
    "why": "Cleared 2+ in 3 of 3 games (15 of 17 last season), Sleeper projects 3.5, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
    "news": ""
   },
@@ -3952,101 +4089,9 @@
    },
    "po": 15,
    "pn": 17,
-   "rank": 44,
-   "why": "Cleared 5+ in 3 of 3 games (15 of 17 last season), Sleeper projects 6.5, LAC let 3 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
-   "news": ""
-  },
-  {
-   "game": "TENBAL",
-   "glabel": "TEN @ BAL",
-   "player": "Gunnar Helm",
-   "team": "TEN",
-   "opp": "BAL",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 80,
-   "bid": 75,
-   "vals": [
-    4.0,
-    2.0,
-    2.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 3.5,
-   "al": [
-    [
-     1,
-     "IND",
-     3.0
-    ],
-    [
-     2,
-     "NO",
-     4.0
-    ],
-    [
-     3,
-     "DAL",
-     3.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 14,
-   "per": 231.3,
-   "dstat": "pass yds",
-   "p": 81,
-   "roi": 1,
-   "pp": 86,
-   "hs": 76,
-   "dhs": 80,
-   "rks": 58,
-   "vs": 51,
-   "agree": 3,
-   "score": 74.7,
-   "flags": [],
-   "pc": 0.8118,
-   "praw": 0.8118,
-   "rg": "TE",
-   "est": false,
-   "mid": 77.5,
-   "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-2",
-   "ev": "KXNFLREC-26OCT04TENBAL",
-   "ctx": -0.05,
-   "cxs": 48,
-   "reasons": [
-    [
-     -0.25,
-     "TEN projected for only 16 pts (O/U 42.5)"
-    ],
-    [
-     0.2,
-     "TEN a 11.5-pt underdog, trailing teams throw more"
-    ]
-   ],
-   "status": null,
-   "ppj": 90,
-   "pu": 82,
-   "uinfo": {
-    "share": [
-     18,
-     12,
-     11
-    ],
-    "kind": "targets",
-    "snap": 82,
-    "snap_last": 82,
-    "mu": 2.6,
-    "note": ""
-   },
-   "po": 11,
-   "pn": 16,
+   "pid": "9488",
    "rank": 45,
-   "why": "Cleared 2+ in 3 of 3 games (11 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "why": "Cleared 5+ in 3 of 3 games (15 of 17 last season), Sleeper projects 6.5, LAC let 3 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
    "news": ""
   },
   {
@@ -4134,6 +4179,7 @@
    },
    "po": 8,
    "pn": 10,
+   "pid": "8167",
    "rank": 46,
    "why": "Cleared 40+ in 3 of 3 games (8 of 10 last season), Sleeper projects 71.1, TB let 3 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison.",
    "news": ""
@@ -4227,6 +4273,7 @@
    },
    "po": 0,
    "pn": 0,
+   "pid": "13279",
    "rank": 47,
    "why": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "news": ""
@@ -4311,6 +4358,7 @@
    },
    "po": 8,
    "pn": 17,
+   "pid": "8151",
    "rank": 48,
    "why": "Cleared 2+ in 3 of 3 games (8 of 17 last season), Sleeper projects 4.1, LV let 3 of 3 lead RBs reach it. His share of targets fell from 24% to 9%.",
    "news": ""
@@ -4395,6 +4443,7 @@
    },
    "po": 13,
    "pn": 17,
+   "pid": "5045",
    "rank": 49,
    "why": "Cleared 2+ in 3 of 3 games (13 of 17 last season), Sleeper projects 3.3, SF let 3 of 3 WR2s reach it.",
    "news": ""
@@ -4479,6 +4528,7 @@
    },
    "po": 4,
    "pn": 13,
+   "pid": "11834",
    "rank": 50,
    "why": "Cleared 25+ in 3 of 3 games (4 of 13 last season), Sleeper projects 46.9, ATL let 3 of 3 WR2s reach it, ATL allows the 6th most pass yds.",
    "news": ""
@@ -4507,7 +4557,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04NEBUF-NEDMAYE10-250",
    "ev": "KXNFLPASSYDS-26OCT04NEBUF",
-   "wy": "Cleared 250+ in 0 of 3 games (12 of 17 last season), BUF let 2 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more."
+   "wy": "Cleared 250+ in 0 of 3 games (12 of 17 last season), BUF let 2 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more.",
+   "id": "11564"
   },
   {
    "pl": "Drake Maye",
@@ -4524,7 +4575,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04NEBUF-NEDMAYE10-225",
    "ev": "KXNFLPASSYDS-26OCT04NEBUF",
-   "wy": "Cleared 225+ in 0 of 3 games (13 of 17 last season), BUF let 3 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more."
+   "wy": "Cleared 225+ in 0 of 3 games (13 of 17 last season), BUF let 3 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more.",
+   "id": "11564"
   },
   {
    "pl": "Drake Maye",
@@ -4535,13 +4587,14 @@
    "pr": "Passing Yards",
    "ln": 200,
    "ask": 68,
-   "q": 67.5,
+   "q": 67.0,
    "p": 0.6726,
    "sc": 55.9,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04NEBUF-NEDMAYE10-200",
    "ev": "KXNFLPASSYDS-26OCT04NEBUF",
-   "wy": "Cleared 200+ in 1 of 3 games (15 of 17 last season), Sleeper projects 222.1, BUF let 3 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more."
+   "wy": "Cleared 200+ in 1 of 3 games (15 of 17 last season), Sleeper projects 222.1, BUF let 3 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more.",
+   "id": "11564"
   },
   {
    "pl": "Drake Maye",
@@ -4552,13 +4605,14 @@
    "pr": "Passing Yards",
    "ln": 175,
    "ask": 81,
-   "q": 80.0,
+   "q": 79.5,
    "p": 0.8217,
    "sc": 79.0,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04NEBUF-NEDMAYE10-175",
    "ev": "KXNFLPASSYDS-26OCT04NEBUF",
-   "wy": "Cleared 175+ in 3 of 3 games (16 of 17 last season), Sleeper projects 222.1, BUF let 3 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more."
+   "wy": "Cleared 175+ in 3 of 3 games (16 of 17 last season), Sleeper projects 222.1, BUF let 3 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more.",
+   "id": "11564"
   },
   {
    "pl": "Drake Maye",
@@ -4569,13 +4623,14 @@
    "pr": "Passing Yards",
    "ln": 150,
    "ask": 90,
-   "q": 89.0,
+   "q": 88.5,
    "p": 0.8712,
    "sc": 81.6,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04NEBUF-NEDMAYE10-150",
    "ev": "KXNFLPASSYDS-26OCT04NEBUF",
-   "wy": "Cleared 150+ in 3 of 3 games (17 of 17 last season), Sleeper projects 222.1, BUF let 3 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more."
+   "wy": "Cleared 150+ in 3 of 3 games (17 of 17 last season), Sleeper projects 222.1, BUF let 3 of 3 QBs reach it, BUF allows the 5th most pass yds. NE a 7-pt underdog, trailing teams throw more.",
+   "id": "11564"
   },
   {
    "pl": "Cam Ward",
@@ -4592,7 +4647,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-200",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL",
-   "wy": "Cleared 200+ in 0 of 3 games (8 of 17 last season), Sleeper projects 200.8, BAL let 2 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 200+ in 0 of 3 games (8 of 17 last season), Sleeper projects 200.8, BAL let 2 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "12522"
   },
   {
    "pl": "Cam Ward",
@@ -4609,7 +4665,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-175",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL",
-   "wy": "Cleared 175+ in 2 of 3 games (10 of 17 last season), Sleeper projects 200.8, BAL let 2 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 175+ in 2 of 3 games (10 of 17 last season), Sleeper projects 200.8, BAL let 2 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "12522"
   },
   {
    "pl": "Cam Ward",
@@ -4626,7 +4683,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-150",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL",
-   "wy": "Cleared 150+ in 2 of 3 games (11 of 17 last season), Sleeper projects 200.8, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 150+ in 2 of 3 games (11 of 17 last season), Sleeper projects 200.8, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "12522"
   },
   {
    "pl": "Cam Ward",
@@ -4637,13 +4695,14 @@
    "pr": "Passing Yards",
    "ln": 125,
    "ask": 83,
-   "q": 81.5,
+   "q": 81.0,
    "p": 0.8435,
    "sc": 76.9,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-125",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL",
-   "wy": "Cleared 125+ in 3 of 3 games (13 of 17 last season), Sleeper projects 200.8, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 125+ in 3 of 3 games (13 of 17 last season), Sleeper projects 200.8, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "12522"
   },
   {
    "pl": "Malik Willis",
@@ -4660,7 +4719,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04MIAMIN-MIAMWILLIS2-175",
    "ev": "KXNFLPASSYDS-26OCT04MIAMIN",
-   "wy": "Cleared 175+ in 3 of 3 games (1 of 4 last season), Sleeper projects 189.9, MIN let 2 of 3 QBs reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. MIN secondary missing CB Charles Demmings. Watch: MIA projected for only 14 pts (O/U 38.5)."
+   "wy": "Cleared 175+ in 3 of 3 games (1 of 4 last season), Sleeper projects 189.9, MIN let 2 of 3 QBs reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. MIN secondary missing CB Charles Demmings. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "id": "8161"
   },
   {
    "pl": "Malik Willis",
@@ -4671,13 +4731,14 @@
    "pr": "Passing Yards",
    "ln": 150,
    "ask": 64,
-   "q": 63.0,
+   "q": 62.5,
    "p": 0.7432,
    "sc": 70.0,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04MIAMIN-MIAMWILLIS2-150",
    "ev": "KXNFLPASSYDS-26OCT04MIAMIN",
-   "wy": "Cleared 150+ in 3 of 3 games (1 of 4 last season), Sleeper projects 189.9, MIN let 2 of 3 QBs reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. MIN secondary missing CB Charles Demmings. Watch: MIA projected for only 14 pts (O/U 38.5)."
+   "wy": "Cleared 150+ in 3 of 3 games (1 of 4 last season), Sleeper projects 189.9, MIN let 2 of 3 QBs reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. MIN secondary missing CB Charles Demmings. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "id": "8161"
   },
   {
    "pl": "Malik Willis",
@@ -4694,7 +4755,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04MIAMIN-MIAMWILLIS2-125",
    "ev": "KXNFLPASSYDS-26OCT04MIAMIN",
-   "wy": "Cleared 125+ in 3 of 3 games (1 of 4 last season), Sleeper projects 189.9, MIN let 3 of 3 QBs reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. MIN secondary missing CB Charles Demmings. Watch: MIA projected for only 14 pts (O/U 38.5)."
+   "wy": "Cleared 125+ in 3 of 3 games (1 of 4 last season), Sleeper projects 189.9, MIN let 3 of 3 QBs reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. MIN secondary missing CB Charles Demmings. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "id": "8161"
   },
   {
    "pl": "Malik Willis",
@@ -4705,13 +4767,14 @@
    "pr": "Passing Yards",
    "ln": 100,
    "ask": 88,
-   "q": 87.0,
+   "q": 83.5,
    "p": 0.8594,
    "sc": 80.1,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04MIAMIN-MIAMWILLIS2-100",
    "ev": "KXNFLPASSYDS-26OCT04MIAMIN",
-   "wy": "Cleared 100+ in 3 of 3 games (2 of 4 last season), Sleeper projects 189.9, MIN let 3 of 3 QBs reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. MIN secondary missing CB Charles Demmings. Watch: MIA projected for only 14 pts (O/U 38.5)."
+   "wy": "Cleared 100+ in 3 of 3 games (2 of 4 last season), Sleeper projects 189.9, MIN let 3 of 3 QBs reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. MIN secondary missing CB Charles Demmings. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "id": "8161"
   },
   {
    "pl": "Brock Purdy",
@@ -4728,7 +4791,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04DENSF-SFBPURDY13-250",
    "ev": "KXNFLPASSYDS-26OCT04DENSF",
-   "wy": "Cleared 250+ in 2 of 3 games (5 of 9 last season), DEN let 1 of 3 QBs reach it, DEN allows the 9th most pass yds."
+   "wy": "Cleared 250+ in 2 of 3 games (5 of 9 last season), DEN let 1 of 3 QBs reach it, DEN allows the 9th most pass yds.",
+   "id": "8183"
   },
   {
    "pl": "Brock Purdy",
@@ -4745,7 +4809,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04DENSF-SFBPURDY13-175",
    "ev": "KXNFLPASSYDS-26OCT04DENSF",
-   "wy": "Cleared 175+ in 3 of 3 games (7 of 9 last season), Sleeper projects 247, DEN let 3 of 3 QBs reach it, DEN allows the 9th most pass yds."
+   "wy": "Cleared 175+ in 3 of 3 games (7 of 9 last season), Sleeper projects 247, DEN let 3 of 3 QBs reach it, DEN allows the 9th most pass yds.",
+   "id": "8183"
   },
   {
    "pl": "Patrick Mahomes",
@@ -4762,7 +4827,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04KCLV-KCPMAHOMES15-250",
    "ev": "KXNFLPASSYDS-26OCT04KCLV",
-   "wy": "Cleared 250+ in 1 of 3 games (10 of 14 last season), LV let 1 of 3 QBs reach it."
+   "wy": "Cleared 250+ in 1 of 3 games (10 of 14 last season), LV let 1 of 3 QBs reach it.",
+   "id": "4046"
   },
   {
    "pl": "Patrick Mahomes",
@@ -4779,7 +4845,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04KCLV-KCPMAHOMES15-225",
    "ev": "KXNFLPASSYDS-26OCT04KCLV",
-   "wy": "Cleared 225+ in 2 of 3 games (10 of 14 last season), Sleeper projects 246.2, LV let 1 of 3 QBs reach it."
+   "wy": "Cleared 225+ in 2 of 3 games (10 of 14 last season), Sleeper projects 246.2, LV let 1 of 3 QBs reach it.",
+   "id": "4046"
   },
   {
    "pl": "Patrick Mahomes",
@@ -4790,13 +4857,14 @@
    "pr": "Passing Yards",
    "ln": 175,
    "ask": 85,
-   "q": 84.0,
+   "q": 83.5,
    "p": 0.8535,
    "sc": 76.2,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04KCLV-KCPMAHOMES15-175",
    "ev": "KXNFLPASSYDS-26OCT04KCLV",
-   "wy": "Cleared 175+ in 3 of 3 games (13 of 14 last season), Sleeper projects 246.2, LV let 3 of 3 QBs reach it."
+   "wy": "Cleared 175+ in 3 of 3 games (13 of 14 last season), Sleeper projects 246.2, LV let 3 of 3 QBs reach it.",
+   "id": "4046"
   },
   {
    "pl": "Bryce Young",
@@ -4813,7 +4881,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04DETCAR-CARBYOUNG9-250",
    "ev": "KXNFLPASSYDS-26OCT04DETCAR",
-   "wy": "Cleared 250+ in 3 of 3 games (3 of 16 last season), DET let 2 of 3 QBs reach it, DET allows the most pass yds. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance)."
+   "wy": "Cleared 250+ in 3 of 3 games (3 of 16 last season), DET let 2 of 3 QBs reach it, DET allows the most pass yds. DET secondary missing S Brian Branch. Watch: Rain likely (78% chance).",
+   "id": "9228"
   },
   {
    "pl": "Bryce Young",
@@ -4830,7 +4899,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04DETCAR-CARBYOUNG9-225",
    "ev": "KXNFLPASSYDS-26OCT04DETCAR",
-   "wy": "Cleared 225+ in 3 of 3 games (3 of 16 last season), Sleeper projects 229.3, DET let 3 of 3 QBs reach it, DET allows the most pass yds. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance)."
+   "wy": "Cleared 225+ in 3 of 3 games (3 of 16 last season), Sleeper projects 229.3, DET let 3 of 3 QBs reach it, DET allows the most pass yds. DET secondary missing S Brian Branch. Watch: Rain likely (78% chance).",
+   "id": "9228"
   },
   {
    "pl": "Bryce Young",
@@ -4840,14 +4910,15 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 200,
-   "ask": 73,
-   "q": 72.5,
+   "ask": 74,
+   "q": 73.0,
    "p": 0.7444,
-   "sc": 74.5,
+   "sc": 74.3,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04DETCAR-CARBYOUNG9-200",
    "ev": "KXNFLPASSYDS-26OCT04DETCAR",
-   "wy": "Cleared 200+ in 3 of 3 games (4 of 16 last season), Sleeper projects 229.3, DET let 3 of 3 QBs reach it, DET allows the most pass yds. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance)."
+   "wy": "Cleared 200+ in 3 of 3 games (4 of 16 last season), Sleeper projects 229.3, DET let 3 of 3 QBs reach it, DET allows the most pass yds. DET secondary missing S Brian Branch. Watch: Rain likely (78% chance).",
+   "id": "9228"
   },
   {
    "pl": "Tyler Shough",
@@ -4857,14 +4928,15 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 275,
-   "ask": 40,
-   "q": 39.5,
+   "ask": 39,
+   "q": 38.5,
    "p": 0.4975,
-   "sc": 43.4,
+   "sc": 43.8,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT05ATLNO-NOTSHOUGH6-275",
    "ev": "KXNFLPASSYDS-26OCT05ATLNO",
-   "wy": "Cleared 275+ in 1 of 3 games (3 of 11 last season), ATL let 2 of 3 QBs reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 275+ in 1 of 3 games (3 of 11 last season), ATL let 2 of 3 QBs reach it, ATL allows the 6th most pass yds.",
+   "id": "12545"
   },
   {
    "pl": "Tyler Shough",
@@ -4874,14 +4946,15 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 250,
-   "ask": 54,
-   "q": 53.0,
+   "ask": 55,
+   "q": 53.5,
    "p": 0.6542,
-   "sc": 64.9,
+   "sc": 64.6,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT05ATLNO-NOTSHOUGH6-250",
    "ev": "KXNFLPASSYDS-26OCT05ATLNO",
-   "wy": "Cleared 250+ in 3 of 3 games (5 of 11 last season), Sleeper projects 260.3, ATL let 2 of 3 QBs reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 250+ in 3 of 3 games (5 of 11 last season), Sleeper projects 260.3, ATL let 2 of 3 QBs reach it, ATL allows the 6th most pass yds.",
+   "id": "12545"
   },
   {
    "pl": "Tyler Shough",
@@ -4892,13 +4965,14 @@
    "pr": "Passing Yards",
    "ln": 225,
    "ask": 69,
-   "q": 68.0,
+   "q": 67.5,
    "p": 0.7244,
    "sc": 66.9,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT05ATLNO-NOTSHOUGH6-225",
    "ev": "KXNFLPASSYDS-26OCT05ATLNO",
-   "wy": "Cleared 225+ in 3 of 3 games (7 of 11 last season), Sleeper projects 260.3, ATL let 2 of 3 QBs reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 225+ in 3 of 3 games (7 of 11 last season), Sleeper projects 260.3, ATL let 2 of 3 QBs reach it, ATL allows the 6th most pass yds.",
+   "id": "12545"
   },
   {
    "pl": "Tyler Shough",
@@ -4915,7 +4989,8 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT05ATLNO-NOTSHOUGH6-200",
    "ev": "KXNFLPASSYDS-26OCT05ATLNO",
-   "wy": "Cleared 200+ in 3 of 3 games (7 of 11 last season), Sleeper projects 260.3, ATL let 3 of 3 QBs reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 200+ in 3 of 3 games (7 of 11 last season), Sleeper projects 260.3, ATL let 3 of 3 QBs reach it, ATL allows the 6th most pass yds.",
+   "id": "12545"
   },
   {
    "pl": "Jacory Croskey-Merritt",
@@ -4925,14 +5000,15 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 70,
-   "ask": 39,
-   "q": 38.0,
+   "ask": 38,
+   "q": 37.5,
    "p": 0.4114,
-   "sc": 33.4,
+   "sc": 33.7,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-70",
    "ev": "KXNFLRSHYDS-26OCT04INDWAS",
-   "wy": "Cleared 70+ in 0 of 3 games (4 of 17 last season), IND let 2 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him."
+   "wy": "Cleared 70+ in 0 of 3 games (4 of 17 last season), IND let 2 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him.",
+   "id": "12533"
   },
   {
    "pl": "Jacory Croskey-Merritt",
@@ -4949,7 +5025,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-60",
    "ev": "KXNFLRSHYDS-26OCT04INDWAS",
-   "wy": "Cleared 60+ in 1 of 3 games (5 of 17 last season), IND let 2 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him."
+   "wy": "Cleared 60+ in 1 of 3 games (5 of 17 last season), IND let 2 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him.",
+   "id": "12533"
   },
   {
    "pl": "Kyren Williams",
@@ -4959,14 +5036,15 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 70,
-   "ask": 35,
-   "q": 33.5,
+   "ask": 36,
+   "q": 33.0,
    "p": 0.4906,
-   "sc": 46.5,
+   "sc": 45.9,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-70",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI",
-   "wy": "Cleared 70+ in 2 of 3 games (10 of 17 last season), PHI let 1 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun."
+   "wy": "Cleared 70+ in 2 of 3 games (10 of 17 last season), PHI let 1 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun.",
+   "id": "8150"
   },
   {
    "pl": "Kyren Williams",
@@ -4983,7 +5061,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-60",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI",
-   "wy": "Cleared 60+ in 2 of 3 games (14 of 17 last season), Sleeper projects 67.6, PHI let 3 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun."
+   "wy": "Cleared 60+ in 2 of 3 games (14 of 17 last season), Sleeper projects 67.6, PHI let 3 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun.",
+   "id": "8150"
   },
   {
    "pl": "Kyren Williams",
@@ -5000,7 +5079,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-50",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI",
-   "wy": "Cleared 50+ in 2 of 3 games (16 of 17 last season), Sleeper projects 67.6, PHI let 3 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun."
+   "wy": "Cleared 50+ in 2 of 3 games (16 of 17 last season), Sleeper projects 67.6, PHI let 3 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun.",
+   "id": "8150"
   },
   {
    "pl": "Kyren Williams",
@@ -5011,13 +5091,14 @@
    "pr": "Rushing Yards",
    "ln": 40,
    "ask": 72,
-   "q": 71.0,
+   "q": 70.0,
    "p": 0.8126,
    "sc": 79.0,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-40",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI",
-   "wy": "Cleared 40+ in 3 of 3 games (17 of 17 last season), Sleeper projects 67.6, PHI let 3 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun."
+   "wy": "Cleared 40+ in 3 of 3 games (17 of 17 last season), Sleeper projects 67.6, PHI let 3 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun.",
+   "id": "8150"
   },
   {
    "pl": "Kyren Williams",
@@ -5028,13 +5109,14 @@
    "pr": "Rushing Yards",
    "ln": 30,
    "ask": 84,
-   "q": 82.0,
+   "q": 81.5,
    "p": 0.8414,
    "sc": 78.9,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-30",
    "ev": "KXNFLRSHYDS-26OCT04LARPHI",
-   "wy": "Cleared 30+ in 3 of 3 games (17 of 17 last season), Sleeper projects 67.6, PHI let 3 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun."
+   "wy": "Cleared 30+ in 3 of 3 games (17 of 17 last season), Sleeper projects 67.6, PHI let 3 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun.",
+   "id": "8150"
   },
   {
    "pl": "Rhamondre Stevenson",
@@ -5044,14 +5126,15 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 40,
-   "ask": 39,
-   "q": 37.5,
+   "ask": 40,
+   "q": 38.0,
    "p": 0.6366,
    "sc": 61.0,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-40",
    "ev": "KXNFLRSHYDS-26OCT04NEBUF",
-   "wy": "Cleared 40+ in 2 of 3 games (7 of 14 last season), Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. His share of carries fell from 58% to 27%. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run."
+   "wy": "Cleared 40+ in 2 of 3 games (7 of 14 last season), Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. His share of carries fell from 58% to 27%. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run.",
+   "id": "7611"
   },
   {
    "pl": "Rhamondre Stevenson",
@@ -5068,7 +5151,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-30",
    "ev": "KXNFLRSHYDS-26OCT04NEBUF",
-   "wy": "Cleared 30+ in 2 of 3 games (9 of 14 last season), Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. His share of carries fell from 58% to 27%. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run."
+   "wy": "Cleared 30+ in 2 of 3 games (9 of 14 last season), Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. His share of carries fell from 58% to 27%. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run.",
+   "id": "7611"
   },
   {
    "pl": "Rhamondre Stevenson",
@@ -5085,7 +5169,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-25",
    "ev": "KXNFLRSHYDS-26OCT04NEBUF",
-   "wy": "Cleared 25+ in 2 of 3 games (9 of 14 last season), Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. His share of carries fell from 58% to 27%. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run."
+   "wy": "Cleared 25+ in 2 of 3 games (9 of 14 last season), Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. His share of carries fell from 58% to 27%. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run.",
+   "id": "7611"
   },
   {
    "pl": "Rhamondre Stevenson",
@@ -5102,7 +5187,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-20",
    "ev": "KXNFLRSHYDS-26OCT04NEBUF",
-   "wy": "Cleared 20+ in 3 of 3 games (9 of 14 last season), Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. His share of carries fell from 58% to 27%. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run."
+   "wy": "Cleared 20+ in 3 of 3 games (9 of 14 last season), Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. His share of carries fell from 58% to 27%. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run.",
+   "id": "7611"
   },
   {
    "pl": "Rhamondre Stevenson",
@@ -5119,7 +5205,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04NEBUF-NERSTEVENSON38-15",
    "ev": "KXNFLRSHYDS-26OCT04NEBUF",
-   "wy": "Cleared 15+ in 3 of 3 games (12 of 14 last season), Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. His share of carries fell from 58% to 27%. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run."
+   "wy": "Cleared 15+ in 3 of 3 games (12 of 14 last season), Sleeper projects 49.4, BUF let 3 of 3 lead RBs reach it. His share of carries fell from 58% to 27%. BUF front missing DT T.J. Sanders. Watch: NE a 7-pt underdog, may have to abandon the run.",
+   "id": "7611"
   },
   {
    "pl": "Kaelon Black",
@@ -5136,7 +5223,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04DENSF-SFKBLACK26-30",
    "ev": "KXNFLRSHYDS-26OCT04DENSF",
-   "wy": "Cleared 30+ in 1 of 3 games, DEN let 0 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. His share of carries fell from 47% to 17%. DEN front missing LB Dondrea Tillman."
+   "wy": "Cleared 30+ in 1 of 3 games, DEN let 0 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. His share of carries fell from 47% to 17%. DEN front missing LB Dondrea Tillman.",
+   "id": "13414"
   },
   {
    "pl": "Kaelon Black",
@@ -5153,7 +5241,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04DENSF-SFKBLACK26-25",
    "ev": "KXNFLRSHYDS-26OCT04DENSF",
-   "wy": "Cleared 25+ in 2 of 3 games, Sleeper projects 29.5, DEN let 0 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. His share of carries fell from 47% to 17%. DEN front missing LB Dondrea Tillman."
+   "wy": "Cleared 25+ in 2 of 3 games, Sleeper projects 29.5, DEN let 0 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. His share of carries fell from 47% to 17%. DEN front missing LB Dondrea Tillman.",
+   "id": "13414"
   },
   {
    "pl": "Kaelon Black",
@@ -5170,7 +5259,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04DENSF-SFKBLACK26-20",
    "ev": "KXNFLRSHYDS-26OCT04DENSF",
-   "wy": "Cleared 20+ in 2 of 3 games, Sleeper projects 29.5, DEN let 1 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. His share of carries fell from 47% to 17%. DEN front missing LB Dondrea Tillman."
+   "wy": "Cleared 20+ in 2 of 3 games, Sleeper projects 29.5, DEN let 1 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. His share of carries fell from 47% to 17%. DEN front missing LB Dondrea Tillman.",
+   "id": "13414"
   },
   {
    "pl": "Kaelon Black",
@@ -5187,7 +5277,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04DENSF-SFKBLACK26-15",
    "ev": "KXNFLRSHYDS-26OCT04DENSF",
-   "wy": "Cleared 15+ in 3 of 3 games, Sleeper projects 29.5, DEN let 2 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. His share of carries fell from 47% to 17%. DEN front missing LB Dondrea Tillman."
+   "wy": "Cleared 15+ in 3 of 3 games, Sleeper projects 29.5, DEN let 2 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. His share of carries fell from 47% to 17%. DEN front missing LB Dondrea Tillman.",
+   "id": "13414"
   },
   {
    "pl": "Kaelon Black",
@@ -5204,7 +5295,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04DENSF-SFKBLACK26-10",
    "ev": "KXNFLRSHYDS-26OCT04DENSF",
-   "wy": "Cleared 10+ in 3 of 3 games, Sleeper projects 29.5, DEN let 3 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. His share of carries fell from 47% to 17%. DEN front missing LB Dondrea Tillman."
+   "wy": "Cleared 10+ in 3 of 3 games, Sleeper projects 29.5, DEN let 3 of 3 No. 2 RBs reach it, DEN allows the 3rd most rush yds. His share of carries fell from 47% to 17%. DEN front missing LB Dondrea Tillman.",
+   "id": "13414"
   },
   {
    "pl": "Bijan Robinson",
@@ -5221,7 +5313,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-ATLBROBINSON7-90",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
-   "wy": "Cleared 90+ in 1 of 3 games (6 of 17 last season), NO let 1 of 3 lead RBs reach it, NO allows the 6th most rush yds."
+   "wy": "Cleared 90+ in 1 of 3 games (6 of 17 last season), NO let 1 of 3 lead RBs reach it, NO allows the 6th most rush yds.",
+   "id": "9509"
   },
   {
    "pl": "Bijan Robinson",
@@ -5238,7 +5331,8 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-ATLBROBINSON7-80",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
-   "wy": "Cleared 80+ in 2 of 3 games (8 of 17 last season), Sleeper projects 86.3, NO let 1 of 3 lead RBs reach it, NO allows the 6th most rush yds."
+   "wy": "Cleared 80+ in 2 of 3 games (8 of 17 last season), Sleeper projects 86.3, NO let 1 of 3 lead RBs reach it, NO allows the 6th most rush yds.",
+   "id": "9509"
   },
   {
    "pl": "Bijan Robinson",
@@ -5248,14 +5342,15 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 100,
-   "ask": 38,
-   "q": 37.0,
+   "ask": 39,
+   "q": 37.5,
    "p": 0.4215,
-   "sc": 35.1,
+   "sc": 34.8,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-ATLBROBINSON7-100",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
-   "wy": "Cleared 100+ in 1 of 3 games (5 of 17 last season), NO let 1 of 3 lead RBs reach it, NO allows the 6th most rush yds."
+   "wy": "Cleared 100+ in 1 of 3 games (5 of 17 last season), NO let 1 of 3 lead RBs reach it, NO allows the 6th most rush yds.",
+   "id": "9509"
   },
   {
    "pl": "Antonio Williams",
@@ -5265,14 +5360,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 45,
-   "q": 43.0,
+   "ask": 47,
+   "q": 44.0,
    "p": 0.492,
-   "sc": 40.5,
+   "sc": 39.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04INDWAS-WASAWILLIAMS14-25",
    "ev": "KXNFLRECYDS-26OCT04INDWAS",
-   "wy": "Cleared 25+ in 1 of 3 games, Sleeper projects 28.3, IND let 1 of 3 WR3s reach it, IND allows the 3rd most pass yds."
+   "wy": "Cleared 25+ in 1 of 3 games, Sleeper projects 28.3, IND let 1 of 3 WR3s reach it, IND allows the 3rd most pass yds.",
+   "id": "13301"
   },
   {
    "pl": "Antonio Williams",
@@ -5283,13 +5379,14 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 55,
-   "q": 54.5,
+   "q": 53.5,
    "p": 0.8103,
    "sc": 86.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04INDWAS-WASAWILLIAMS14-15",
    "ev": "KXNFLRECYDS-26OCT04INDWAS",
-   "wy": "Cleared 15+ in 3 of 3 games, Sleeper projects 28.3, IND let 3 of 3 WR3s reach it, IND allows the 3rd most pass yds."
+   "wy": "Cleared 15+ in 3 of 3 games, Sleeper projects 28.3, IND let 3 of 3 WR3s reach it, IND allows the 3rd most pass yds.",
+   "id": "13301"
   },
   {
    "pl": "Darnell Mooney",
@@ -5300,13 +5397,14 @@
    "pr": "Receiving Yards",
    "ln": 25,
    "ask": 40,
-   "q": 39.0,
+   "q": 37.5,
    "p": 0.5322,
    "sc": 50.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-25",
    "ev": "KXNFLRECYDS-26OCT04ARINYG",
-   "wy": "Cleared 25+ in 2 of 3 games (7 of 15 last season), ARI let 2 of 3 WR2s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson."
+   "wy": "Cleared 25+ in 2 of 3 games (7 of 15 last season), ARI let 2 of 3 WR2s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson.",
+   "id": "7090"
   },
   {
    "pl": "Darnell Mooney",
@@ -5316,14 +5414,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 58,
-   "q": 56.0,
+   "ask": 59,
+   "q": 56.5,
    "p": 0.7899,
-   "sc": 80.9,
+   "sc": 80.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-15",
    "ev": "KXNFLRECYDS-26OCT04ARINYG",
-   "wy": "Cleared 15+ in 3 of 3 games (13 of 15 last season), Sleeper projects 24.4, ARI let 3 of 3 WR2s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson."
+   "wy": "Cleared 15+ in 3 of 3 games (13 of 15 last season), Sleeper projects 24.4, ARI let 3 of 3 WR2s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson.",
+   "id": "7090"
   },
   {
    "pl": "Malachi Fields",
@@ -5340,7 +5439,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGMFIELDS88-25",
    "ev": "KXNFLRECYDS-26OCT04ARINYG",
-   "wy": "Cleared 25+ in 2 of 3 games, ARI let 1 of 3 WR3s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson."
+   "wy": "Cleared 25+ in 2 of 3 games, ARI let 1 of 3 WR3s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson.",
+   "id": "13285"
   },
   {
    "pl": "Malachi Fields",
@@ -5351,13 +5451,14 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 63,
-   "q": 62.5,
+   "q": 61.5,
    "p": 0.7933,
    "sc": 79.4,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGMFIELDS88-15",
    "ev": "KXNFLRECYDS-26OCT04ARINYG",
-   "wy": "Cleared 15+ in 3 of 3 games, Sleeper projects 23.8, ARI let 3 of 3 WR3s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson."
+   "wy": "Cleared 15+ in 3 of 3 games, Sleeper projects 23.8, ARI let 3 of 3 WR3s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson.",
+   "id": "13285"
   },
   {
    "pl": "Kayshon Boutte",
@@ -5374,7 +5475,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-HOUKBOUTTE14-25",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
-   "wy": "Cleared 25+ in 1 of 3 games (8 of 14 last season), Sleeper projects 33.1, DAL let 3 of 3 WR2s reach it. DAL secondary missing CB Cobie Durant."
+   "wy": "Cleared 25+ in 1 of 3 games (8 of 14 last season), Sleeper projects 33.1, DAL let 3 of 3 WR2s reach it. DAL secondary missing CB Cobie Durant.",
+   "id": "9504"
   },
   {
    "pl": "Kayshon Boutte",
@@ -5385,13 +5487,14 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 66,
-   "q": 64.0,
+   "q": 64.5,
    "p": 0.8292,
    "sc": 77.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-HOUKBOUTTE14-15",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
-   "wy": "Cleared 15+ in 3 of 3 games (13 of 14 last season), Sleeper projects 33.1, DAL let 3 of 3 WR2s reach it. DAL secondary missing CB Cobie Durant."
+   "wy": "Cleared 15+ in 3 of 3 games (13 of 14 last season), Sleeper projects 33.1, DAL let 3 of 3 WR2s reach it. DAL secondary missing CB Cobie Durant.",
+   "id": "9504"
   },
   {
    "pl": "CeeDee Lamb",
@@ -5402,13 +5505,14 @@
    "pr": "Receiving Yards",
    "ln": 90,
    "ask": 39,
-   "q": 37.0,
+   "q": 36.5,
    "p": 0.5214,
    "sc": 50.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-90",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
-   "wy": "Cleared 90+ in 2 of 3 games (6 of 14 last season), HOU let 2 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 90+ in 2 of 3 games (6 of 14 last season), HOU let 2 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "6786"
   },
   {
    "pl": "CeeDee Lamb",
@@ -5419,13 +5523,14 @@
    "pr": "Receiving Yards",
    "ln": 80,
    "ask": 45,
-   "q": 44.0,
+   "q": 43.5,
    "p": 0.5638,
    "sc": 51.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-80",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
-   "wy": "Cleared 80+ in 2 of 3 games (7 of 14 last season), Sleeper projects 87.5, HOU let 2 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 80+ in 2 of 3 games (7 of 14 last season), Sleeper projects 87.5, HOU let 2 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "6786"
   },
   {
    "pl": "CeeDee Lamb",
@@ -5435,14 +5540,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 70,
-   "ask": 57,
-   "q": 55.0,
+   "ask": 56,
+   "q": 54.0,
    "p": 0.6737,
-   "sc": 63.3,
+   "sc": 63.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-70",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
-   "wy": "Cleared 70+ in 2 of 3 games (9 of 14 last season), Sleeper projects 87.5, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 70+ in 2 of 3 games (9 of 14 last season), Sleeper projects 87.5, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "6786"
   },
   {
    "pl": "CeeDee Lamb",
@@ -5452,14 +5558,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 60,
-   "ask": 65,
-   "q": 63.5,
+   "ask": 66,
+   "q": 62.0,
    "p": 0.7133,
-   "sc": 64.5,
+   "sc": 64.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-60",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
-   "wy": "Cleared 60+ in 2 of 3 games (10 of 14 last season), Sleeper projects 87.5, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 60+ in 2 of 3 games (10 of 14 last season), Sleeper projects 87.5, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "6786"
   },
   {
    "pl": "CeeDee Lamb",
@@ -5469,14 +5576,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 50,
-   "ask": 77,
-   "q": 75.0,
+   "ask": 75,
+   "q": 72.5,
    "p": 0.7496,
-   "sc": 64.9,
+   "sc": 65.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-50",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
-   "wy": "Cleared 50+ in 2 of 3 games (11 of 14 last season), Sleeper projects 87.5, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 50+ in 2 of 3 games (11 of 14 last season), Sleeper projects 87.5, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "6786"
   },
   {
    "pl": "CeeDee Lamb",
@@ -5487,13 +5595,14 @@
    "pr": "Receiving Yards",
    "ln": 40,
    "ask": 84,
-   "q": 83.0,
+   "q": 82.5,
    "p": 0.8192,
    "sc": 77.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-40",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
-   "wy": "Cleared 40+ in 3 of 3 games (12 of 14 last season), Sleeper projects 87.5, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 40+ in 3 of 3 games (12 of 14 last season), Sleeper projects 87.5, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "6786"
   },
   {
    "pl": "Emeka Egbuka",
@@ -5510,7 +5619,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-TBEEGBUKA2-50",
    "ev": "KXNFLRECYDS-26OCT04GBTB",
-   "wy": "Cleared 50+ in 2 of 3 games (7 of 17 last season), GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5)."
+   "wy": "Cleared 50+ in 2 of 3 games (7 of 17 last season), GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "id": "12514"
   },
   {
    "pl": "Emeka Egbuka",
@@ -5527,7 +5637,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-TBEEGBUKA2-40",
    "ev": "KXNFLRECYDS-26OCT04GBTB",
-   "wy": "Cleared 40+ in 2 of 3 games (10 of 17 last season), Sleeper projects 49.4, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5)."
+   "wy": "Cleared 40+ in 2 of 3 games (10 of 17 last season), Sleeper projects 49.4, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "id": "12514"
   },
   {
    "pl": "Emeka Egbuka",
@@ -5544,7 +5655,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-TBEEGBUKA2-25",
    "ev": "KXNFLRECYDS-26OCT04GBTB",
-   "wy": "Cleared 25+ in 2 of 3 games (13 of 17 last season), Sleeper projects 49.4, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5)."
+   "wy": "Cleared 25+ in 2 of 3 games (13 of 17 last season), Sleeper projects 49.4, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "id": "12514"
   },
   {
    "pl": "Emeka Egbuka",
@@ -5561,7 +5673,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-TBEEGBUKA2-15",
    "ev": "KXNFLRECYDS-26OCT04GBTB",
-   "wy": "Cleared 15+ in 3 of 3 games (16 of 17 last season), Sleeper projects 49.4, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5)."
+   "wy": "Cleared 15+ in 3 of 3 games (16 of 17 last season), Sleeper projects 49.4, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "id": "12514"
   },
   {
    "pl": "Christian Watson",
@@ -5578,7 +5691,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-GBCWATSON9-80",
    "ev": "KXNFLRECYDS-26OCT04GBTB",
-   "wy": "Cleared 80+ in 2 of 3 games (4 of 10 last season), TB let 2 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison."
+   "wy": "Cleared 80+ in 2 of 3 games (4 of 10 last season), TB let 2 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison.",
+   "id": "8167"
   },
   {
    "pl": "Christian Watson",
@@ -5595,7 +5709,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-GBCWATSON9-70",
    "ev": "KXNFLRECYDS-26OCT04GBTB",
-   "wy": "Cleared 70+ in 2 of 3 games (4 of 10 last season), Sleeper projects 71.1, TB let 2 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison."
+   "wy": "Cleared 70+ in 2 of 3 games (4 of 10 last season), Sleeper projects 71.1, TB let 2 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison.",
+   "id": "8167"
   },
   {
    "pl": "Christian Watson",
@@ -5612,7 +5727,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-GBCWATSON9-60",
    "ev": "KXNFLRECYDS-26OCT04GBTB",
-   "wy": "Cleared 60+ in 2 of 3 games (4 of 10 last season), Sleeper projects 71.1, TB let 2 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison."
+   "wy": "Cleared 60+ in 2 of 3 games (4 of 10 last season), Sleeper projects 71.1, TB let 2 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison.",
+   "id": "8167"
   },
   {
    "pl": "Christian Watson",
@@ -5629,7 +5745,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-GBCWATSON9-50",
    "ev": "KXNFLRECYDS-26OCT04GBTB",
-   "wy": "Cleared 50+ in 2 of 3 games (5 of 10 last season), Sleeper projects 71.1, TB let 3 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison."
+   "wy": "Cleared 50+ in 2 of 3 games (5 of 10 last season), Sleeper projects 71.1, TB let 3 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison.",
+   "id": "8167"
   },
   {
    "pl": "Christian Watson",
@@ -5646,7 +5763,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-GBCWATSON9-40",
    "ev": "KXNFLRECYDS-26OCT04GBTB",
-   "wy": "Cleared 40+ in 3 of 3 games (8 of 10 last season), Sleeper projects 71.1, TB let 3 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison."
+   "wy": "Cleared 40+ in 3 of 3 games (8 of 10 last season), Sleeper projects 71.1, TB let 3 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison.",
+   "id": "8167"
   },
   {
    "pl": "Brenton Strange",
@@ -5656,14 +5774,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 46,
-   "q": 45.0,
+   "ask": 45,
+   "q": 44.5,
    "p": 0.4466,
-   "sc": 33.8,
+   "sc": 34.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACBSTRANGE85-40",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "wy": "Cleared 40+ in 0 of 3 games (7 of 12 last season), Sleeper projects 44.2, CIN let 2 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger."
+   "wy": "Cleared 40+ in 0 of 3 games (7 of 12 last season), Sleeper projects 44.2, CIN let 2 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger.",
+   "id": "9480"
   },
   {
    "pl": "Brenton Strange",
@@ -5680,7 +5799,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACBSTRANGE85-25",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "wy": "Cleared 25+ in 1 of 3 games (10 of 12 last season), Sleeper projects 44.2, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger."
+   "wy": "Cleared 25+ in 1 of 3 games (10 of 12 last season), Sleeper projects 44.2, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger.",
+   "id": "9480"
   },
   {
    "pl": "Brenton Strange",
@@ -5691,13 +5811,14 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 82,
-   "q": 81.0,
+   "q": 80.5,
    "p": 0.8431,
    "sc": 80.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACBSTRANGE85-15",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "wy": "Cleared 15+ in 3 of 3 games (12 of 12 last season), Sleeper projects 44.2, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger."
+   "wy": "Cleared 15+ in 3 of 3 games (12 of 12 last season), Sleeper projects 44.2, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger.",
+   "id": "9480"
   },
   {
    "pl": "Jakobi Meyers",
@@ -5714,7 +5835,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACJMEYERS3-40",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "wy": "Cleared 40+ in 2 of 3 games (10 of 16 last season), Sleeper projects 49, CIN let 1 of 3 WR2s reach it, CIN allows the 4th most pass yds. His share of targets is up from 10% to 30%. CIN secondary missing S Kyle Dugger."
+   "wy": "Cleared 40+ in 2 of 3 games (10 of 16 last season), Sleeper projects 49, CIN let 1 of 3 WR2s reach it, CIN allows the 4th most pass yds. His share of targets is up from 10% to 30%. CIN secondary missing S Kyle Dugger.",
+   "id": "5947"
   },
   {
    "pl": "Jakobi Meyers",
@@ -5731,7 +5853,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACJMEYERS3-25",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "wy": "Cleared 25+ in 3 of 3 games (15 of 16 last season), Sleeper projects 49, CIN let 3 of 3 WR2s reach it, CIN allows the 4th most pass yds. His share of targets is up from 10% to 30%. CIN secondary missing S Kyle Dugger."
+   "wy": "Cleared 25+ in 3 of 3 games (15 of 16 last season), Sleeper projects 49, CIN let 3 of 3 WR2s reach it, CIN allows the 4th most pass yds. His share of targets is up from 10% to 30%. CIN secondary missing S Kyle Dugger.",
+   "id": "5947"
   },
   {
    "pl": "Jakobi Meyers",
@@ -5748,7 +5871,26 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACJMEYERS3-15",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "wy": "Cleared 15+ in 3 of 3 games (16 of 16 last season), Sleeper projects 49, CIN let 3 of 3 WR2s reach it, CIN allows the 4th most pass yds. His share of targets is up from 10% to 30%. CIN secondary missing S Kyle Dugger."
+   "wy": "Cleared 15+ in 3 of 3 games (16 of 16 last season), Sleeper projects 49, CIN let 3 of 3 WR2s reach it, CIN allows the 4th most pass yds. His share of targets is up from 10% to 30%. CIN secondary missing S Kyle Dugger.",
+   "id": "5947"
+  },
+  {
+   "pl": "Tee Higgins",
+   "tm": "CIN",
+   "g": "JAXCIN",
+   "gl": "JAX @ CIN",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 80,
+   "ask": 35,
+   "q": 33.0,
+   "p": 0.498,
+   "sc": 49.8,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-80",
+   "ev": "KXNFLRECYDS-26OCT04JACCIN",
+   "wy": "Cleared 80+ in 2 of 3 games (3 of 15 last season), JAX let 2 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
+   "id": "6801"
   },
   {
    "pl": "Tee Higgins",
@@ -5765,7 +5907,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-70",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "wy": "Cleared 70+ in 2 of 3 games (3 of 15 last season), Sleeper projects 79.8, JAX let 2 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around."
+   "wy": "Cleared 70+ in 2 of 3 games (3 of 15 last season), Sleeper projects 79.8, JAX let 2 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
+   "id": "6801"
   },
   {
    "pl": "Tee Higgins",
@@ -5775,14 +5918,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 60,
-   "ask": 53,
-   "q": 52.5,
+   "ask": 54,
+   "q": 53.0,
    "p": 0.5961,
-   "sc": 52.8,
+   "sc": 52.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-60",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "wy": "Cleared 60+ in 2 of 3 games (6 of 15 last season), Sleeper projects 79.8, JAX let 2 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around."
+   "wy": "Cleared 60+ in 2 of 3 games (6 of 15 last season), Sleeper projects 79.8, JAX let 2 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
+   "id": "6801"
   },
   {
    "pl": "Tee Higgins",
@@ -5799,7 +5943,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-50",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "wy": "Cleared 50+ in 3 of 3 games (9 of 15 last season), Sleeper projects 79.8, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around."
+   "wy": "Cleared 50+ in 3 of 3 games (9 of 15 last season), Sleeper projects 79.8, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
+   "id": "6801"
   },
   {
    "pl": "Tee Higgins",
@@ -5816,7 +5961,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-CINTHIGGINS5-40",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
-   "wy": "Cleared 40+ in 3 of 3 games (10 of 15 last season), Sleeper projects 79.8, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around."
+   "wy": "Cleared 40+ in 3 of 3 games (10 of 15 last season), Sleeper projects 79.8, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
+   "id": "6801"
   },
   {
    "pl": "Mack Hollins",
@@ -5833,7 +5979,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-50",
    "ev": "KXNFLRECYDS-26OCT04NEBUF",
-   "wy": "Cleared 50+ in 2 of 3 games (4 of 15 last season), BUF let 2 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more."
+   "wy": "Cleared 50+ in 2 of 3 games (4 of 15 last season), BUF let 2 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more.",
+   "id": "4177"
   },
   {
    "pl": "Mack Hollins",
@@ -5843,14 +5990,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 45,
-   "ask": 48,
-   "q": 47.5,
+   "ask": 49,
+   "q": 48.0,
    "p": 0.5406,
-   "sc": 49.2,
+   "sc": 48.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-45",
    "ev": "KXNFLRECYDS-26OCT04NEBUF",
-   "wy": "Cleared 45+ in 2 of 3 games (5 of 15 last season), BUF let 2 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more."
+   "wy": "Cleared 45+ in 2 of 3 games (5 of 15 last season), BUF let 2 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more.",
+   "id": "4177"
   },
   {
    "pl": "Mack Hollins",
@@ -5867,7 +6015,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-40",
    "ev": "KXNFLRECYDS-26OCT04NEBUF",
-   "wy": "Cleared 40+ in 2 of 3 games (6 of 15 last season), Sleeper projects 44.8, BUF let 2 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more."
+   "wy": "Cleared 40+ in 2 of 3 games (6 of 15 last season), Sleeper projects 44.8, BUF let 2 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more.",
+   "id": "4177"
   },
   {
    "pl": "Mack Hollins",
@@ -5877,14 +6026,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 75,
-   "q": 72.5,
+   "ask": 76,
+   "q": 72.0,
    "p": 0.7413,
-   "sc": 65.7,
+   "sc": 65.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-25",
    "ev": "KXNFLRECYDS-26OCT04NEBUF",
-   "wy": "Cleared 25+ in 2 of 3 games (9 of 15 last season), Sleeper projects 44.8, BUF let 3 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more."
+   "wy": "Cleared 25+ in 2 of 3 games (9 of 15 last season), Sleeper projects 44.8, BUF let 3 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more.",
+   "id": "4177"
   },
   {
    "pl": "Mack Hollins",
@@ -5895,13 +6045,14 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 85,
-   "q": 84.0,
+   "q": 83.5,
    "p": 0.8225,
    "sc": 78.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-15",
    "ev": "KXNFLRECYDS-26OCT04NEBUF",
-   "wy": "Cleared 15+ in 3 of 3 games (10 of 15 last season), Sleeper projects 44.8, BUF let 3 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more."
+   "wy": "Cleared 15+ in 3 of 3 games (10 of 15 last season), Sleeper projects 44.8, BUF let 3 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more.",
+   "id": "4177"
   },
   {
    "pl": "Carnell Tate",
@@ -5912,13 +6063,14 @@
    "pr": "Receiving Yards",
    "ln": 50,
    "ask": 42,
-   "q": 39.5,
+   "q": 38.5,
    "p": 0.555,
    "sc": 49.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-50",
    "ev": "KXNFLRECYDS-26OCT04TENBAL",
-   "wy": "Cleared 50+ in 1 of 3 games, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 50+ in 1 of 3 games, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "13279"
   },
   {
    "pl": "Carnell Tate",
@@ -5928,14 +6080,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 56,
-   "q": 54.0,
+   "ask": 55,
+   "q": 53.5,
    "p": 0.6135,
-   "sc": 51.1,
+   "sc": 51.4,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-40",
    "ev": "KXNFLRECYDS-26OCT04TENBAL",
-   "wy": "Cleared 40+ in 1 of 3 games, Sleeper projects 47.6, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 40+ in 1 of 3 games, Sleeper projects 47.6, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "13279"
   },
   {
    "pl": "Carnell Tate",
@@ -5946,13 +6099,14 @@
    "pr": "Receiving Yards",
    "ln": 25,
    "ask": 76,
-   "q": 74.5,
+   "q": 71.0,
    "p": 0.8066,
    "sc": 75.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-25",
    "ev": "KXNFLRECYDS-26OCT04TENBAL",
-   "wy": "Cleared 25+ in 3 of 3 games, Sleeper projects 47.6, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 25+ in 3 of 3 games, Sleeper projects 47.6, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "13279"
   },
   {
    "pl": "Malik Washington",
@@ -5969,7 +6123,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04MIAMIN-MIAMWASHINGTON6-50",
    "ev": "KXNFLRECYDS-26OCT04MIAMIN",
-   "wy": "Cleared 50+ in 2 of 3 games (0 of 17 last season), MIN let 2 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5)."
+   "wy": "Cleared 50+ in 2 of 3 games (0 of 17 last season), MIN let 2 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "id": "11610"
   },
   {
    "pl": "Malik Washington",
@@ -5986,7 +6141,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04MIAMIN-MIAMWASHINGTON6-40",
    "ev": "KXNFLRECYDS-26OCT04MIAMIN",
-   "wy": "Cleared 40+ in 3 of 3 games (2 of 17 last season), MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5)."
+   "wy": "Cleared 40+ in 3 of 3 games (2 of 17 last season), MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "id": "11610"
   },
   {
    "pl": "Malik Washington",
@@ -6003,7 +6159,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04MIAMIN-MIAMWASHINGTON6-25",
    "ev": "KXNFLRECYDS-26OCT04MIAMIN",
-   "wy": "Cleared 25+ in 3 of 3 games (5 of 17 last season), Sleeper projects 38.2, MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5)."
+   "wy": "Cleared 25+ in 3 of 3 games (5 of 17 last season), Sleeper projects 38.2, MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "id": "11610"
   },
   {
    "pl": "Xavier Worthy",
@@ -6020,7 +6177,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04KCLV-KCXWORTHY1-25",
    "ev": "KXNFLRECYDS-26OCT04KCLV",
-   "wy": "Cleared 25+ in 1 of 3 games (10 of 14 last season), Sleeper projects 38.1, LV let 3 of 3 WR2s reach it. His share of targets fell from 24% to 9%."
+   "wy": "Cleared 25+ in 1 of 3 games (10 of 14 last season), Sleeper projects 38.1, LV let 3 of 3 WR2s reach it. His share of targets fell from 24% to 9%.",
+   "id": "11624"
   },
   {
    "pl": "Xavier Worthy",
@@ -6037,7 +6195,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04KCLV-KCXWORTHY1-15",
    "ev": "KXNFLRECYDS-26OCT04KCLV",
-   "wy": "Cleared 15+ in 3 of 3 games (12 of 14 last season), Sleeper projects 38.1, LV let 3 of 3 WR2s reach it. His share of targets fell from 24% to 9%."
+   "wy": "Cleared 15+ in 3 of 3 games (12 of 14 last season), Sleeper projects 38.1, LV let 3 of 3 WR2s reach it. His share of targets fell from 24% to 9%.",
+   "id": "11624"
   },
   {
    "pl": "Jaxon Smith-Njigba",
@@ -6047,14 +6206,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 90,
-   "ask": 52,
-   "q": 51.0,
+   "ask": 53,
+   "q": 51.5,
    "p": 0.6109,
-   "sc": 56.6,
+   "sc": 56.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04LACSEA-SEAJSMITHNJIGBA11-90",
    "ev": "KXNFLRECYDS-26OCT04LACSEA",
-   "wy": "Cleared 90+ in 3 of 3 games (13 of 17 last season), Sleeper projects 98.3, LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%."
+   "wy": "Cleared 90+ in 3 of 3 games (13 of 17 last season), Sleeper projects 98.3, LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
+   "id": "9488"
   },
   {
    "pl": "Jaxon Smith-Njigba",
@@ -6071,7 +6231,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04LACSEA-SEAJSMITHNJIGBA11-80",
    "ev": "KXNFLRECYDS-26OCT04LACSEA",
-   "wy": "Cleared 80+ in 3 of 3 games (14 of 17 last season), Sleeper projects 98.3, LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%."
+   "wy": "Cleared 80+ in 3 of 3 games (14 of 17 last season), Sleeper projects 98.3, LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
+   "id": "9488"
   },
   {
    "pl": "Jaxon Smith-Njigba",
@@ -6082,13 +6243,14 @@
    "pr": "Receiving Yards",
    "ln": 70,
    "ask": 71,
-   "q": 69.5,
+   "q": 69.0,
    "p": 0.7361,
    "sc": 65.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04LACSEA-SEAJSMITHNJIGBA11-70",
    "ev": "KXNFLRECYDS-26OCT04LACSEA",
-   "wy": "Cleared 70+ in 3 of 3 games (16 of 17 last season), Sleeper projects 98.3, LAC let 2 of 3 WR1s reach it. His share of targets fell from 46% to 31%."
+   "wy": "Cleared 70+ in 3 of 3 games (16 of 17 last season), Sleeper projects 98.3, LAC let 2 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
+   "id": "9488"
   },
   {
    "pl": "Jaxon Smith-Njigba",
@@ -6105,7 +6267,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04LACSEA-SEAJSMITHNJIGBA11-60",
    "ev": "KXNFLRECYDS-26OCT04LACSEA",
-   "wy": "Cleared 60+ in 3 of 3 games (16 of 17 last season), Sleeper projects 98.3, LAC let 3 of 3 WR1s reach it. His share of targets fell from 46% to 31%."
+   "wy": "Cleared 60+ in 3 of 3 games (16 of 17 last season), Sleeper projects 98.3, LAC let 3 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
+   "id": "9488"
   },
   {
    "pl": "Jaxon Smith-Njigba",
@@ -6122,7 +6285,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04LACSEA-SEAJSMITHNJIGBA11-110",
    "ev": "KXNFLRECYDS-26OCT04LACSEA",
-   "wy": "Cleared 110+ in 3 of 3 games (7 of 17 last season), LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%."
+   "wy": "Cleared 110+ in 3 of 3 games (7 of 17 last season), LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
+   "id": "9488"
   },
   {
    "pl": "Jaxon Smith-Njigba",
@@ -6139,7 +6303,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04LACSEA-SEAJSMITHNJIGBA11-100",
    "ev": "KXNFLRECYDS-26OCT04LACSEA",
-   "wy": "Cleared 100+ in 3 of 3 games (9 of 17 last season), LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%."
+   "wy": "Cleared 100+ in 3 of 3 games (9 of 17 last season), LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
+   "id": "9488"
   },
   {
    "pl": "Darren Waller",
@@ -6156,7 +6321,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DETCAR-CARDWALLER88-25",
    "ev": "KXNFLRECYDS-26OCT04DETCAR",
-   "wy": "Cleared 25+ in 3 of 3 games (5 of 9 last season), Sleeper projects 35.1, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance)."
+   "wy": "Cleared 25+ in 3 of 3 games (5 of 9 last season), Sleeper projects 35.1, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (78% chance).",
+   "id": "2505"
   },
   {
    "pl": "Darren Waller",
@@ -6167,13 +6333,14 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 75,
-   "q": 72.0,
+   "q": 70.5,
    "p": 0.8017,
    "sc": 80.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DETCAR-CARDWALLER88-15",
    "ev": "KXNFLRECYDS-26OCT04DETCAR",
-   "wy": "Cleared 15+ in 3 of 3 games (5 of 9 last season), Sleeper projects 35.1, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance)."
+   "wy": "Cleared 15+ in 3 of 3 games (5 of 9 last season), Sleeper projects 35.1, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (78% chance).",
+   "id": "2505"
   },
   {
    "pl": "Juwan Johnson",
@@ -6183,14 +6350,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 50,
-   "ask": 39,
-   "q": 38.0,
+   "ask": 40,
+   "q": 38.5,
    "p": 0.488,
-   "sc": 47.7,
+   "sc": 47.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOJJOHNSON83-50",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 50+ in 3 of 3 games (8 of 17 last season), Sleeper projects 52.4, ATL let 0 of 3 TE1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 50+ in 3 of 3 games (8 of 17 last season), Sleeper projects 52.4, ATL let 0 of 3 TE1s reach it, ATL allows the 6th most pass yds.",
+   "id": "7002"
   },
   {
    "pl": "Juwan Johnson",
@@ -6207,7 +6375,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOJJOHNSON83-40",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 40+ in 3 of 3 games (10 of 17 last season), Sleeper projects 52.4, ATL let 1 of 3 TE1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 40+ in 3 of 3 games (10 of 17 last season), Sleeper projects 52.4, ATL let 1 of 3 TE1s reach it, ATL allows the 6th most pass yds.",
+   "id": "7002"
   },
   {
    "pl": "Juwan Johnson",
@@ -6224,7 +6393,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOJJOHNSON83-25",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 25+ in 3 of 3 games (15 of 17 last season), Sleeper projects 52.4, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 25+ in 3 of 3 games (15 of 17 last season), Sleeper projects 52.4, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds.",
+   "id": "7002"
   },
   {
    "pl": "Juwan Johnson",
@@ -6241,7 +6411,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOJJOHNSON83-15",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 15+ in 3 of 3 games (17 of 17 last season), Sleeper projects 52.4, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 15+ in 3 of 3 games (17 of 17 last season), Sleeper projects 52.4, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds.",
+   "id": "7002"
   },
   {
    "pl": "Devaughn Vele",
@@ -6258,7 +6429,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NODVELE14-50",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 50+ in 2 of 3 games (2 of 13 last season), ATL let 2 of 3 WR2s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 50+ in 2 of 3 games (2 of 13 last season), ATL let 2 of 3 WR2s reach it, ATL allows the 6th most pass yds.",
+   "id": "11834"
   },
   {
    "pl": "Devaughn Vele",
@@ -6275,7 +6447,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NODVELE14-40",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 40+ in 2 of 3 games (3 of 13 last season), Sleeper projects 46.9, ATL let 3 of 3 WR2s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 40+ in 2 of 3 games (3 of 13 last season), Sleeper projects 46.9, ATL let 3 of 3 WR2s reach it, ATL allows the 6th most pass yds.",
+   "id": "11834"
   },
   {
    "pl": "Devaughn Vele",
@@ -6292,7 +6465,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NODVELE14-25",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 25+ in 3 of 3 games (4 of 13 last season), Sleeper projects 46.9, ATL let 3 of 3 WR2s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 25+ in 3 of 3 games (4 of 13 last season), Sleeper projects 46.9, ATL let 3 of 3 WR2s reach it, ATL allows the 6th most pass yds.",
+   "id": "11834"
   },
   {
    "pl": "Chris Olave",
@@ -6309,7 +6483,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-90",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 90+ in 2 of 3 games (5 of 16 last season), ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 90+ in 2 of 3 games (5 of 16 last season), ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds.",
+   "id": "8144"
   },
   {
    "pl": "Chris Olave",
@@ -6326,7 +6501,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-80",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 80+ in 3 of 3 games (6 of 16 last season), Sleeper projects 89.5, ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 80+ in 3 of 3 games (6 of 16 last season), Sleeper projects 89.5, ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds.",
+   "id": "8144"
   },
   {
    "pl": "Chris Olave",
@@ -6343,7 +6519,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-70",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 70+ in 3 of 3 games (7 of 16 last season), Sleeper projects 89.5, ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 70+ in 3 of 3 games (7 of 16 last season), Sleeper projects 89.5, ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds.",
+   "id": "8144"
   },
   {
    "pl": "Chris Olave",
@@ -6360,7 +6537,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-50",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 50+ in 3 of 3 games (13 of 16 last season), Sleeper projects 89.5, ATL let 3 of 3 WR1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 50+ in 3 of 3 games (13 of 16 last season), Sleeper projects 89.5, ATL let 3 of 3 WR1s reach it, ATL allows the 6th most pass yds.",
+   "id": "8144"
   },
   {
    "pl": "Chris Olave",
@@ -6377,7 +6555,8 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-100",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 100+ in 2 of 3 games (3 of 16 last season), ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 100+ in 2 of 3 games (3 of 16 last season), ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds.",
+   "id": "8144"
   },
   {
    "pl": "Jeremiyah Love",
@@ -6394,7 +6573,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04ARINYG-ARIJLOVE4-4",
    "ev": "KXNFLREC-26OCT04ARINYG",
-   "wy": "Cleared 4+ in 1 of 3 games, NYG let 2 of 3 lead RBs reach it."
+   "wy": "Cleared 4+ in 1 of 3 games, NYG let 2 of 3 lead RBs reach it.",
+   "id": "13287"
   },
   {
    "pl": "Jeremiyah Love",
@@ -6411,7 +6591,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04ARINYG-ARIJLOVE4-3",
    "ev": "KXNFLREC-26OCT04ARINYG",
-   "wy": "Cleared 3+ in 2 of 3 games, NYG let 2 of 3 lead RBs reach it."
+   "wy": "Cleared 3+ in 2 of 3 games, NYG let 2 of 3 lead RBs reach it.",
+   "id": "13287"
   },
   {
    "pl": "Jeremiyah Love",
@@ -6421,14 +6602,15 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 2,
-   "ask": 80,
-   "q": 79.0,
+   "ask": 81,
+   "q": 79.5,
    "p": 0.8248,
-   "sc": 75.0,
+   "sc": 74.8,
    "est": 0,
    "tk": "KXNFLREC-26OCT04ARINYG-ARIJLOVE4-2",
    "ev": "KXNFLREC-26OCT04ARINYG",
-   "wy": "Cleared 2+ in 3 of 3 games, Sleeper projects 2.7, NYG let 3 of 3 lead RBs reach it."
+   "wy": "Cleared 2+ in 3 of 3 games, Sleeper projects 2.7, NYG let 3 of 3 lead RBs reach it.",
+   "id": "13287"
   },
   {
    "pl": "Javonte Williams",
@@ -6445,7 +6627,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALJWILLIAMS33-3",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 3+ in 2 of 3 games (5 of 16 last season), HOU let 2 of 3 lead RBs reach it, HOU allows the 8th most pass yds. His share of targets fell from 17% to 8%. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 3+ in 2 of 3 games (5 of 16 last season), HOU let 2 of 3 lead RBs reach it, HOU allows the 8th most pass yds. His share of targets fell from 17% to 8%. HOU secondary missing S M.J. Stewart.",
+   "id": "7588"
   },
   {
    "pl": "Javonte Williams",
@@ -6462,7 +6645,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALJWILLIAMS33-2",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 2+ in 3 of 3 games (9 of 16 last season), Sleeper projects 2.6, HOU let 3 of 3 lead RBs reach it, HOU allows the 8th most pass yds. His share of targets fell from 17% to 8%. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 2+ in 3 of 3 games (9 of 16 last season), Sleeper projects 2.6, HOU let 3 of 3 lead RBs reach it, HOU allows the 8th most pass yds. His share of targets fell from 17% to 8%. HOU secondary missing S M.J. Stewart.",
+   "id": "7588"
   },
   {
    "pl": "Jake Ferguson",
@@ -6479,7 +6663,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALJFERGUSON87-4",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 4+ in 1 of 3 games (11 of 17 last season), HOU let 2 of 3 TE1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 4+ in 1 of 3 games (11 of 17 last season), HOU let 2 of 3 TE1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "8110"
   },
   {
    "pl": "Jake Ferguson",
@@ -6496,7 +6681,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALJFERGUSON87-3",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 3+ in 2 of 3 games (13 of 17 last season), Sleeper projects 3.6, HOU let 2 of 3 TE1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 3+ in 2 of 3 games (13 of 17 last season), Sleeper projects 3.6, HOU let 2 of 3 TE1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "8110"
   },
   {
    "pl": "Jake Ferguson",
@@ -6507,13 +6693,14 @@
    "pr": "Receptions",
    "ln": 2,
    "ask": 85,
-   "q": 84.0,
+   "q": 83.5,
    "p": 0.8364,
    "sc": 78.4,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALJFERGUSON87-2",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 2+ in 3 of 3 games (14 of 17 last season), Sleeper projects 3.6, HOU let 3 of 3 TE1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 2+ in 3 of 3 games (14 of 17 last season), Sleeper projects 3.6, HOU let 3 of 3 TE1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "8110"
   },
   {
    "pl": "George Pickens",
@@ -6530,7 +6717,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALGPICKENS3-6",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 6+ in 2 of 3 games (8 of 17 last season), HOU let 0 of 3 WR2s reach it, HOU allows the 8th most pass yds. His share of targets is up from 20% to 28%. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 6+ in 2 of 3 games (8 of 17 last season), HOU let 0 of 3 WR2s reach it, HOU allows the 8th most pass yds. His share of targets is up from 20% to 28%. HOU secondary missing S M.J. Stewart.",
+   "id": "8137"
   },
   {
    "pl": "George Pickens",
@@ -6547,7 +6735,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALGPICKENS3-5",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 5+ in 2 of 3 games (11 of 17 last season), Sleeper projects 5.1, HOU let 2 of 3 WR2s reach it, HOU allows the 8th most pass yds. His share of targets is up from 20% to 28%. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 5+ in 2 of 3 games (11 of 17 last season), Sleeper projects 5.1, HOU let 2 of 3 WR2s reach it, HOU allows the 8th most pass yds. His share of targets is up from 20% to 28%. HOU secondary missing S M.J. Stewart.",
+   "id": "8137"
   },
   {
    "pl": "George Pickens",
@@ -6564,7 +6753,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALGPICKENS3-4",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 4+ in 2 of 3 games (13 of 17 last season), Sleeper projects 5.1, HOU let 3 of 3 WR2s reach it, HOU allows the 8th most pass yds. His share of targets is up from 20% to 28%. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 4+ in 2 of 3 games (13 of 17 last season), Sleeper projects 5.1, HOU let 3 of 3 WR2s reach it, HOU allows the 8th most pass yds. His share of targets is up from 20% to 28%. HOU secondary missing S M.J. Stewart.",
+   "id": "8137"
   },
   {
    "pl": "George Pickens",
@@ -6581,7 +6771,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALGPICKENS3-3",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 3+ in 3 of 3 games (15 of 17 last season), Sleeper projects 5.1, HOU let 3 of 3 WR2s reach it, HOU allows the 8th most pass yds. His share of targets is up from 20% to 28%. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 3+ in 3 of 3 games (15 of 17 last season), Sleeper projects 5.1, HOU let 3 of 3 WR2s reach it, HOU allows the 8th most pass yds. His share of targets is up from 20% to 28%. HOU secondary missing S M.J. Stewart.",
+   "id": "8137"
   },
   {
    "pl": "CeeDee Lamb",
@@ -6591,14 +6782,15 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 7,
-   "ask": 39,
-   "q": 38.5,
+   "ask": 40,
+   "q": 39.0,
    "p": 0.43,
-   "sc": 38.9,
+   "sc": 38.5,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALCLAMB88-7",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 7+ in 2 of 3 games (5 of 14 last season), HOU let 1 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 7+ in 2 of 3 games (5 of 14 last season), HOU let 1 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "6786"
   },
   {
    "pl": "CeeDee Lamb",
@@ -6615,7 +6807,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALCLAMB88-6",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 6+ in 2 of 3 games (8 of 14 last season), Sleeper projects 6, HOU let 2 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 6+ in 2 of 3 games (8 of 14 last season), Sleeper projects 6, HOU let 2 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "6786"
   },
   {
    "pl": "CeeDee Lamb",
@@ -6625,14 +6818,15 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 5,
-   "ask": 70,
-   "q": 69.0,
+   "ask": 71,
+   "q": 69.5,
    "p": 0.7543,
-   "sc": 74.2,
+   "sc": 74.0,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALCLAMB88-5",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 5+ in 3 of 3 games (11 of 14 last season), Sleeper projects 6, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 5+ in 3 of 3 games (11 of 14 last season), Sleeper projects 6, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "6786"
   },
   {
    "pl": "CeeDee Lamb",
@@ -6643,13 +6837,14 @@
    "pr": "Receptions",
    "ln": 4,
    "ask": 83,
-   "q": 82.0,
+   "q": 81.5,
    "p": 0.8105,
    "sc": 76.4,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALCLAMB88-4",
    "ev": "KXNFLREC-26OCT04DALHOU",
-   "wy": "Cleared 4+ in 3 of 3 games (12 of 14 last season), Sleeper projects 6, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart."
+   "wy": "Cleared 4+ in 3 of 3 games (12 of 14 last season), Sleeper projects 6, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
+   "id": "6786"
   },
   {
    "pl": "Emeka Egbuka",
@@ -6666,7 +6861,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04GBTB-TBEEGBUKA2-4",
    "ev": "KXNFLREC-26OCT04GBTB",
-   "wy": "Cleared 4+ in 2 of 3 games (10 of 17 last season), GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5)."
+   "wy": "Cleared 4+ in 2 of 3 games (10 of 17 last season), GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "id": "12514"
   },
   {
    "pl": "Emeka Egbuka",
@@ -6676,14 +6872,15 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 3,
-   "ask": 68,
-   "q": 66.5,
+   "ask": 69,
+   "q": 67.0,
    "p": 0.7782,
-   "sc": 72.2,
+   "sc": 72.0,
    "est": 0,
    "tk": "KXNFLREC-26OCT04GBTB-TBEEGBUKA2-3",
    "ev": "KXNFLREC-26OCT04GBTB",
-   "wy": "Cleared 3+ in 3 of 3 games (13 of 17 last season), Sleeper projects 3.5, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5)."
+   "wy": "Cleared 3+ in 3 of 3 games (13 of 17 last season), Sleeper projects 3.5, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "id": "12514"
   },
   {
    "pl": "Emeka Egbuka",
@@ -6700,7 +6897,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04GBTB-TBEEGBUKA2-2",
    "ev": "KXNFLREC-26OCT04GBTB",
-   "wy": "Cleared 2+ in 3 of 3 games (15 of 17 last season), Sleeper projects 3.5, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5)."
+   "wy": "Cleared 2+ in 3 of 3 games (15 of 17 last season), Sleeper projects 3.5, GB let 3 of 3 WR1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "id": "12514"
   },
   {
    "pl": "Cade Otton",
@@ -6717,7 +6915,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04GBTB-TBCOTTON88-4",
    "ev": "KXNFLREC-26OCT04GBTB",
-   "wy": "Cleared 4+ in 1 of 3 games (8 of 16 last season), GB let 1 of 3 TE1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5)."
+   "wy": "Cleared 4+ in 1 of 3 games (8 of 16 last season), GB let 1 of 3 TE1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "id": "8111"
   },
   {
    "pl": "Cade Otton",
@@ -6734,7 +6933,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04GBTB-TBCOTTON88-3",
    "ev": "KXNFLREC-26OCT04GBTB",
-   "wy": "Cleared 3+ in 3 of 3 games (11 of 16 last season), Sleeper projects 3.1, GB let 1 of 3 TE1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5)."
+   "wy": "Cleared 3+ in 3 of 3 games (11 of 16 last season), Sleeper projects 3.1, GB let 1 of 3 TE1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "id": "8111"
   },
   {
    "pl": "Cade Otton",
@@ -6751,7 +6951,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04GBTB-TBCOTTON88-2",
    "ev": "KXNFLREC-26OCT04GBTB",
-   "wy": "Cleared 2+ in 3 of 3 games (14 of 16 last season), Sleeper projects 3.1, GB let 3 of 3 TE1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5)."
+   "wy": "Cleared 2+ in 3 of 3 games (14 of 16 last season), Sleeper projects 3.1, GB let 3 of 3 TE1s reach it. Ko Kieft out, more targets to go around. Watch: TB projected for only 18 pts (O/U 39.5).",
+   "id": "8111"
   },
   {
    "pl": "Brenton Strange",
@@ -6768,7 +6969,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-JACBSTRANGE85-3",
    "ev": "KXNFLREC-26OCT04JACCIN",
-   "wy": "Cleared 3+ in 1 of 3 games (10 of 12 last season), Sleeper projects 3.7, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger."
+   "wy": "Cleared 3+ in 1 of 3 games (10 of 12 last season), Sleeper projects 3.7, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger.",
+   "id": "9480"
   },
   {
    "pl": "Brenton Strange",
@@ -6785,7 +6987,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-JACBSTRANGE85-2",
    "ev": "KXNFLREC-26OCT04JACCIN",
-   "wy": "Cleared 2+ in 3 of 3 games (10 of 12 last season), Sleeper projects 3.7, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger."
+   "wy": "Cleared 2+ in 3 of 3 games (10 of 12 last season), Sleeper projects 3.7, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger.",
+   "id": "9480"
   },
   {
    "pl": "Tee Higgins",
@@ -6802,7 +7005,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINTHIGGINS5-5",
    "ev": "KXNFLREC-26OCT04JACCIN",
-   "wy": "Cleared 5+ in 2 of 3 games (6 of 15 last season), JAX let 2 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around."
+   "wy": "Cleared 5+ in 2 of 3 games (6 of 15 last season), JAX let 2 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
+   "id": "6801"
   },
   {
    "pl": "Tee Higgins",
@@ -6819,7 +7023,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINTHIGGINS5-4",
    "ev": "KXNFLREC-26OCT04JACCIN",
-   "wy": "Cleared 4+ in 2 of 3 games (7 of 15 last season), Sleeper projects 4.9, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around."
+   "wy": "Cleared 4+ in 2 of 3 games (7 of 15 last season), Sleeper projects 4.9, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
+   "id": "6801"
   },
   {
    "pl": "Tee Higgins",
@@ -6830,13 +7035,14 @@
    "pr": "Receptions",
    "ln": 3,
    "ask": 82,
-   "q": 81.0,
+   "q": 80.5,
    "p": 0.8312,
    "sc": 78.4,
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINTHIGGINS5-3",
    "ev": "KXNFLREC-26OCT04JACCIN",
-   "wy": "Cleared 3+ in 3 of 3 games (13 of 15 last season), Sleeper projects 4.9, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around."
+   "wy": "Cleared 3+ in 3 of 3 games (13 of 15 last season), Sleeper projects 4.9, JAX let 3 of 3 WR1s reach it. CIN projected for 27 pts (O/U 51.5). Colbie Young out, more targets to go around.",
+   "id": "6801"
   },
   {
    "pl": "Chase Brown",
@@ -6846,14 +7052,15 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 3,
-   "ask": 65,
-   "q": 64.0,
+   "ask": 66,
+   "q": 64.5,
    "p": 0.7235,
-   "sc": 64.8,
+   "sc": 64.5,
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINCBROWN30-3",
    "ev": "KXNFLREC-26OCT04JACCIN",
-   "wy": "Cleared 3+ in 2 of 3 games (12 of 17 last season), Sleeper projects 3.9, JAX let 3 of 3 lead RBs reach it. His share of targets fell from 18% to 5%. CIN projected for 27 pts (O/U 51.5)."
+   "wy": "Cleared 3+ in 2 of 3 games (12 of 17 last season), Sleeper projects 3.9, JAX let 3 of 3 lead RBs reach it. His share of targets fell from 18% to 5%. CIN projected for 27 pts (O/U 51.5).",
+   "id": "9224"
   },
   {
    "pl": "Chase Brown",
@@ -6870,7 +7077,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINCBROWN30-2",
    "ev": "KXNFLREC-26OCT04JACCIN",
-   "wy": "Cleared 2+ in 3 of 3 games (17 of 17 last season), Sleeper projects 3.9, JAX let 3 of 3 lead RBs reach it. His share of targets fell from 18% to 5%. CIN projected for 27 pts (O/U 51.5)."
+   "wy": "Cleared 2+ in 3 of 3 games (17 of 17 last season), Sleeper projects 3.9, JAX let 3 of 3 lead RBs reach it. His share of targets fell from 18% to 5%. CIN projected for 27 pts (O/U 51.5).",
+   "id": "9224"
   },
   {
    "pl": "Mack Hollins",
@@ -6887,7 +7095,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04NEBUF-NEMHOLLINS13-4",
    "ev": "KXNFLREC-26OCT04NEBUF",
-   "wy": "Cleared 4+ in 2 of 3 games (6 of 15 last season), BUF let 1 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more."
+   "wy": "Cleared 4+ in 2 of 3 games (6 of 15 last season), BUF let 1 of 3 WR2s reach it, BUF allows the 5th most pass yds. His share of targets is up from 16% to 30%. NE a 7-pt underdog, trailing teams throw more.",
+   "id": "4177"
   },
   {
    "pl": "Gunnar Helm",
@@ -6904,7 +7113,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-4",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "wy": "Cleared 4+ in 1 of 3 games (6 of 16 last season), BAL let 1 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 4+ in 1 of 3 games (6 of 16 last season), BAL let 1 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "12502"
   },
   {
    "pl": "Gunnar Helm",
@@ -6921,7 +7131,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-3",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "wy": "Cleared 3+ in 1 of 3 games (7 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 3+ in 1 of 3 games (7 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "12502"
   },
   {
    "pl": "Gunnar Helm",
@@ -6931,14 +7142,15 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 2,
-   "ask": 80,
-   "q": 77.5,
+   "ask": 79,
+   "q": 77.0,
    "p": 0.8118,
-   "sc": 74.7,
+   "sc": 74.9,
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-2",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "wy": "Cleared 2+ in 3 of 3 games (11 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 2+ in 3 of 3 games (11 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "12502"
   },
   {
    "pl": "Carnell Tate",
@@ -6955,7 +7167,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-5",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "wy": "Cleared 5+ in 1 of 3 games, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 5+ in 1 of 3 games, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "13279"
   },
   {
    "pl": "Carnell Tate",
@@ -6972,7 +7185,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-4",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "wy": "Cleared 4+ in 2 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 4+ in 2 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "13279"
   },
   {
    "pl": "Carnell Tate",
@@ -6989,7 +7203,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-3",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "wy": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5)."
+   "wy": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "id": "13279"
   },
   {
    "pl": "Malik Washington",
@@ -6999,14 +7214,15 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 5,
-   "ask": 46,
-   "q": 45.0,
+   "ask": 47,
+   "q": 46.0,
    "p": 0.4839,
-   "sc": 44.3,
+   "sc": 43.9,
    "est": 0,
    "tk": "KXNFLREC-26OCT04MIAMIN-MIAMWASHINGTON6-5",
    "ev": "KXNFLREC-26OCT04MIAMIN",
-   "wy": "Cleared 5+ in 1 of 3 games (1 of 17 last season), MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5)."
+   "wy": "Cleared 5+ in 1 of 3 games (1 of 17 last season), MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "id": "11610"
   },
   {
    "pl": "Malik Washington",
@@ -7016,14 +7232,15 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 4,
-   "ask": 63,
-   "q": 62.5,
+   "ask": 64,
+   "q": 63.5,
    "p": 0.6302,
-   "sc": 58.6,
+   "sc": 58.3,
    "est": 0,
    "tk": "KXNFLREC-26OCT04MIAMIN-MIAMWASHINGTON6-4",
    "ev": "KXNFLREC-26OCT04MIAMIN",
-   "wy": "Cleared 4+ in 2 of 3 games (5 of 17 last season), MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5)."
+   "wy": "Cleared 4+ in 2 of 3 games (5 of 17 last season), MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "id": "11610"
   },
   {
    "pl": "Malik Washington",
@@ -7040,7 +7257,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04MIAMIN-MIAMWASHINGTON6-3",
    "ev": "KXNFLREC-26OCT04MIAMIN",
-   "wy": "Cleared 3+ in 3 of 3 games (10 of 17 last season), Sleeper projects 3.5, MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5)."
+   "wy": "Cleared 3+ in 3 of 3 games (10 of 17 last season), Sleeper projects 3.5, MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "id": "11610"
   },
   {
    "pl": "Courtland Sutton",
@@ -7050,14 +7268,15 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 3,
-   "ask": 65,
-   "q": 64.0,
+   "ask": 66,
+   "q": 64.5,
    "p": 0.6555,
-   "sc": 50.6,
+   "sc": 50.4,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DENSF-DENCSUTTON14-3",
    "ev": "KXNFLREC-26OCT04DENSF",
-   "wy": "Cleared 3+ in 2 of 3 games (13 of 17 last season), Sleeper projects 3.3, SF let 2 of 3 WR2s reach it."
+   "wy": "Cleared 3+ in 2 of 3 games (13 of 17 last season), Sleeper projects 3.3, SF let 2 of 3 WR2s reach it.",
+   "id": "5045"
   },
   {
    "pl": "Courtland Sutton",
@@ -7074,7 +7293,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DENSF-DENCSUTTON14-2",
    "ev": "KXNFLREC-26OCT04DENSF",
-   "wy": "Cleared 2+ in 3 of 3 games (13 of 17 last season), Sleeper projects 3.3, SF let 3 of 3 WR2s reach it."
+   "wy": "Cleared 2+ in 3 of 3 games (13 of 17 last season), Sleeper projects 3.3, SF let 3 of 3 WR2s reach it.",
+   "id": "5045"
   },
   {
    "pl": "Kenneth Walker",
@@ -7091,7 +7311,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04KCLV-KCKWALKER9-4",
    "ev": "KXNFLREC-26OCT04KCLV",
-   "wy": "Cleared 4+ in 1 of 3 games (1 of 17 last season), Sleeper projects 4.1, LV let 1 of 3 lead RBs reach it. His share of targets fell from 24% to 9%."
+   "wy": "Cleared 4+ in 1 of 3 games (1 of 17 last season), Sleeper projects 4.1, LV let 1 of 3 lead RBs reach it. His share of targets fell from 24% to 9%.",
+   "id": "8151"
   },
   {
    "pl": "Kenneth Walker",
@@ -7108,7 +7329,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04KCLV-KCKWALKER9-3",
    "ev": "KXNFLREC-26OCT04KCLV",
-   "wy": "Cleared 3+ in 2 of 3 games (6 of 17 last season), Sleeper projects 4.1, LV let 1 of 3 lead RBs reach it. His share of targets fell from 24% to 9%."
+   "wy": "Cleared 3+ in 2 of 3 games (6 of 17 last season), Sleeper projects 4.1, LV let 1 of 3 lead RBs reach it. His share of targets fell from 24% to 9%.",
+   "id": "8151"
   },
   {
    "pl": "Kenneth Walker",
@@ -7125,7 +7347,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04KCLV-KCKWALKER9-2",
    "ev": "KXNFLREC-26OCT04KCLV",
-   "wy": "Cleared 2+ in 3 of 3 games (8 of 17 last season), Sleeper projects 4.1, LV let 3 of 3 lead RBs reach it. His share of targets fell from 24% to 9%."
+   "wy": "Cleared 2+ in 3 of 3 games (8 of 17 last season), Sleeper projects 4.1, LV let 3 of 3 lead RBs reach it. His share of targets fell from 24% to 9%.",
+   "id": "8151"
   },
   {
    "pl": "Jaxon Smith-Njigba",
@@ -7142,7 +7365,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04LACSEA-SEAJSMITHNJIGBA11-8",
    "ev": "KXNFLREC-26OCT04LACSEA",
-   "wy": "Cleared 8+ in 3 of 3 games (10 of 17 last season), LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%."
+   "wy": "Cleared 8+ in 3 of 3 games (10 of 17 last season), LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
+   "id": "9488"
   },
   {
    "pl": "Jaxon Smith-Njigba",
@@ -7159,7 +7383,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04LACSEA-SEAJSMITHNJIGBA11-7",
    "ev": "KXNFLREC-26OCT04LACSEA",
-   "wy": "Cleared 7+ in 3 of 3 games (12 of 17 last season), LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%."
+   "wy": "Cleared 7+ in 3 of 3 games (12 of 17 last season), LAC let 1 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
+   "id": "9488"
   },
   {
    "pl": "Jaxon Smith-Njigba",
@@ -7169,14 +7394,15 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 6,
-   "ask": 70,
-   "q": 69.0,
+   "ask": 71,
+   "q": 69.5,
    "p": 0.7019,
-   "sc": 62.8,
+   "sc": 62.5,
    "est": 0,
    "tk": "KXNFLREC-26OCT04LACSEA-SEAJSMITHNJIGBA11-6",
    "ev": "KXNFLREC-26OCT04LACSEA",
-   "wy": "Cleared 6+ in 3 of 3 games (13 of 17 last season), Sleeper projects 6.5, LAC let 2 of 3 WR1s reach it. His share of targets fell from 46% to 31%."
+   "wy": "Cleared 6+ in 3 of 3 games (13 of 17 last season), Sleeper projects 6.5, LAC let 2 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
+   "id": "9488"
   },
   {
    "pl": "Jaxon Smith-Njigba",
@@ -7193,7 +7419,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04LACSEA-SEAJSMITHNJIGBA11-5",
    "ev": "KXNFLREC-26OCT04LACSEA",
-   "wy": "Cleared 5+ in 3 of 3 games (15 of 17 last season), Sleeper projects 6.5, LAC let 3 of 3 WR1s reach it. His share of targets fell from 46% to 31%."
+   "wy": "Cleared 5+ in 3 of 3 games (15 of 17 last season), Sleeper projects 6.5, LAC let 3 of 3 WR1s reach it. His share of targets fell from 46% to 31%.",
+   "id": "9488"
   },
   {
    "pl": "Darren Waller",
@@ -7210,7 +7437,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DETCAR-CARDWALLER88-4",
    "ev": "KXNFLREC-26OCT04DETCAR",
-   "wy": "Cleared 4+ in 1 of 3 games (2 of 9 last season), DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance)."
+   "wy": "Cleared 4+ in 1 of 3 games (2 of 9 last season), DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (78% chance).",
+   "id": "2505"
   },
   {
    "pl": "Darren Waller",
@@ -7227,7 +7455,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04DETCAR-CARDWALLER88-3",
    "ev": "KXNFLREC-26OCT04DETCAR",
-   "wy": "Cleared 3+ in 2 of 3 games (4 of 9 last season), Sleeper projects 3.4, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance)."
+   "wy": "Cleared 3+ in 2 of 3 games (4 of 9 last season), Sleeper projects 3.4, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (78% chance).",
+   "id": "2505"
   },
   {
    "pl": "Darren Waller",
@@ -7237,14 +7466,15 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 2,
-   "ask": 79,
-   "q": 78.0,
+   "ask": 80,
+   "q": 78.5,
    "p": 0.8245,
-   "sc": 81.3,
+   "sc": 81.1,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DETCAR-CARDWALLER88-2",
    "ev": "KXNFLREC-26OCT04DETCAR",
-   "wy": "Cleared 2+ in 3 of 3 games (6 of 9 last season), Sleeper projects 3.4, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (77% chance)."
+   "wy": "Cleared 2+ in 3 of 3 games (6 of 9 last season), Sleeper projects 3.4, DET let 3 of 3 TE1s reach it, DET allows the most pass yds. His share of targets is up from 6% to 19%. Xavier Legette out, more targets to go around. DET secondary missing S Brian Branch. Watch: Rain likely (78% chance).",
+   "id": "2505"
   },
   {
    "pl": "Juwan Johnson",
@@ -7261,7 +7491,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT05ATLNO-NOJJOHNSON83-4",
    "ev": "KXNFLREC-26OCT05ATLNO",
-   "wy": "Cleared 4+ in 2 of 3 games (12 of 17 last season), Sleeper projects 4.3, ATL let 2 of 3 TE1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 4+ in 2 of 3 games (12 of 17 last season), Sleeper projects 4.3, ATL let 2 of 3 TE1s reach it, ATL allows the 6th most pass yds.",
+   "id": "7002"
   },
   {
    "pl": "Juwan Johnson",
@@ -7278,7 +7509,8 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT05ATLNO-NOJJOHNSON83-3",
    "ev": "KXNFLREC-26OCT05ATLNO",
-   "wy": "Cleared 3+ in 3 of 3 games (15 of 17 last season), Sleeper projects 4.3, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 3+ in 3 of 3 games (15 of 17 last season), Sleeper projects 4.3, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds.",
+   "id": "7002"
   },
   {
    "pl": "Juwan Johnson",
@@ -7289,13 +7521,14 @@
    "pr": "Receptions",
    "ln": 2,
    "ask": 88,
-   "q": 86.5,
+   "q": 86.0,
    "p": 0.8758,
    "sc": 81.4,
    "est": 0,
    "tk": "KXNFLREC-26OCT05ATLNO-NOJJOHNSON83-2",
    "ev": "KXNFLREC-26OCT05ATLNO",
-   "wy": "Cleared 2+ in 3 of 3 games (17 of 17 last season), Sleeper projects 4.3, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds."
+   "wy": "Cleared 2+ in 3 of 3 games (17 of 17 last season), Sleeper projects 4.3, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds.",
+   "id": "7002"
   }
  ],
  "track": {
@@ -7341,7 +7574,7 @@
    2,
    3
   ],
-  "generated": "2026-10-03T01:26:32-07:00",
+  "generated": "2026-10-03T02:03:17-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 4 \u00b7 Sun Oct 4 \u2013 Mon Oct 5",
@@ -7365,7 +7598,7 @@
   "ctx_sources": {
    "lines": "15 games",
    "weather": "10 outdoor games",
-   "injuries": "148 players listed",
+   "injuries": "147 players listed",
    "news": "9 players in headlines",
    "sleeper_trending": "41 board players trending",
    "reddit": "unavailable"
@@ -7375,338 +7608,338 @@
  "kalshi": {
   "status": "ok",
   "K": {
-   "b": -0.0263,
+   "b": -0.0268,
    "k": 0.0309,
    "s": 0.04,
-   "n": 227
+   "n": 287
   },
   "quoted": [
    {
-    "key": "Antonio Williams~recyds~15|Juwan Johnson~rec~3",
-    "price": 0.376,
+    "key": "Antonio Williams~recyds~15|Juwan Johnson~recyds~25",
+    "price": 0.392,
     "src": "quote",
-    "nq": 6
+    "nq": 5
    },
    {
     "key": "Darnell Mooney~recyds~15|Juwan Johnson~rec~3",
-    "price": 0.386,
-    "src": "quote",
-    "nq": 8
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Kayshon Boutte~recyds~15",
-    "price": 0.353,
-    "src": "quote",
-    "nq": 7
-   },
-   {
-    "key": "Darnell Mooney~recyds~15|Kayshon Boutte~recyds~15",
-    "price": 0.365,
-    "src": "quote",
-    "nq": 8
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Kaelon Black~rush~15",
-    "price": 0.381,
+    "price": 0.403,
     "src": "quote",
     "nq": 6
    },
    {
-    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15",
-    "price": 0.309,
+    "key": "Antonio Williams~recyds~15|Carnell Tate~recyds~25",
+    "price": 0.413,
+    "src": "quote",
+    "nq": 5
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Kyren Williams~rush~40",
+    "price": 0.38,
     "src": "quote",
     "nq": 7
    },
    {
-    "key": "Antonio Williams~recyds~15|Darren Waller~recyds~25",
-    "price": 0.316,
+    "key": "Antonio Williams~recyds~15|Juwan Johnson~rec~3",
+    "price": 0.369,
     "src": "quote",
-    "nq": 8
+    "nq": 5
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15",
+    "price": 0.308,
+    "src": "quote",
+    "nq": 6
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Darren Waller~recyds~25",
+    "price": 0.312,
+    "src": "quote",
+    "nq": 7
    },
    {
     "key": "Antonio Williams~recyds~15|Kyren Williams~rush~50",
-    "price": 0.32,
-    "src": "quote",
-    "nq": 8
-   },
-   {
-    "key": "Juwan Johnson~rec~3|Malik Willis~pass~175",
-    "price": 0.318,
+    "price": 0.314,
     "src": "quote",
     "nq": 8
    },
    {
     "key": "Juwan Johnson~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.32,
+    "price": 0.337,
     "src": "quote",
     "nq": 6
    },
    {
-    "key": "Antonio Williams~recyds~15|Kyren Williams~rush~60",
-    "price": 0.267,
+    "key": "Juwan Johnson~rec~3|Malik Willis~pass~175",
+    "price": 0.321,
     "src": "quote",
-    "nq": 9
+    "nq": 7
    },
    {
     "key": "Darnell Mooney~recyds~15|Kyren Williams~rush~60",
-    "price": 0.276,
+    "price": 0.286,
     "src": "quote",
     "nq": 10
    },
    {
-    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~40",
+    "key": "Antonio Williams~recyds~15|Kyren Williams~rush~60",
     "price": 0.263,
     "src": "quote",
-    "nq": 10
+    "nq": 9
    },
    {
     "key": "Juwan Johnson~recyds~25|Rhamondre Stevenson~rush~40",
-    "price": 0.278,
-    "src": "quote",
-    "nq": 7
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Malik Willis~pass~175",
-    "price": 0.255,
-    "src": "quote",
-    "nq": 9
-   },
-   {
-    "key": "Kayshon Boutte~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.245,
+    "price": 0.277,
     "src": "quote",
     "nq": 6
+   },
+   {
+    "key": "Darnell Mooney~recyds~15|Emeka Egbuka~recyds~40",
+    "price": 0.286,
+    "src": "quote",
+    "nq": 8
+   },
+   {
+    "key": "Darnell Mooney~recyds~15|Malik Willis~pass~175",
+    "price": 0.274,
+    "src": "quote",
+    "nq": 8
    },
    {
     "key": "Malachi Fields~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.239,
+    "price": 0.249,
     "src": "quote",
-    "nq": 8
+    "nq": 5
    },
    {
     "key": "Emeka Egbuka~recyds~50|Kayshon Boutte~recyds~15",
-    "price": 0.235,
+    "price": 0.241,
     "src": "quote",
     "nq": 7
    },
    {
-    "key": "Antonio Williams~recyds~15|Juwan Johnson~rec~3|Malachi Fields~recyds~15",
-    "price": 0.236,
+    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Malik Willis~pass~125",
+    "price": 0.239,
     "src": "quote",
-    "nq": 7
+    "nq": 6
    },
    {
-    "key": "Rhamondre Stevenson~rush~40|Tee Higgins~recyds~50",
-    "price": 0.242,
+    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Gunnar Helm~rec~2",
+    "price": 0.253,
     "src": "quote",
-    "nq": 7
+    "nq": 5
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Christian Watson~recyds~40|Darnell Mooney~recyds~15",
+    "price": 0.246,
+    "src": "quote",
+    "nq": 5
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~50",
+    "price": 0.197,
+    "src": "quote",
+    "nq": 6
    },
    {
     "key": "Kyren Williams~rush~60|Rhamondre Stevenson~rush~40",
-    "price": 0.186,
+    "price": 0.189,
     "src": "quote",
     "nq": 8
    },
    {
-    "key": "Antonio Williams~recyds~15|Malachi Fields~recyds~15|Rhamondre Stevenson~rush~30",
-    "price": 0.188,
-    "src": "quote",
-    "nq": 8
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Darren Waller~recyds~25",
-    "price": 0.183,
+    "key": "Emeka Egbuka~recyds~40|Rhamondre Stevenson~rush~40",
+    "price": 0.192,
     "src": "quote",
     "nq": 7
    },
    {
-    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~40|Juwan Johnson~recyds~25",
-    "price": 0.19,
+    "key": "Antonio Williams~recyds~15|Juwan Johnson~recyds~25|Kyren Williams~rush~60",
+    "price": 0.191,
+    "src": "quote",
+    "nq": 7
+   },
+   {
+    "key": "Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
+    "price": 0.18,
+    "src": "quote",
+    "nq": 8
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Malachi Fields~recyds~15|Malik Willis~pass~175",
+    "price": 0.156,
     "src": "quote",
     "nq": 6
    },
    {
-    "key": "Emeka Egbuka~recyds~40|Rhamondre Stevenson~rush~40",
-    "price": 0.183,
+    "key": "Antonio Williams~recyds~15|Christian Watson~recyds~40|Rhamondre Stevenson~rush~40",
+    "price": 0.16,
     "src": "quote",
-    "nq": 9
+    "nq": 6
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Brenton Strange~recyds~15|Emeka Egbuka~recyds~50",
+    "price": 0.16,
+    "src": "quote",
+    "nq": 6
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~50|Rhamondre Stevenson~rush~15",
+    "price": 0.167,
+    "src": "quote",
+    "nq": 6
    },
    {
     "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Kyren Williams~rush~60",
-    "price": 0.155,
+    "price": 0.157,
     "src": "quote",
     "nq": 5
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Carnell Tate~recyds~25|Rhamondre Stevenson~rush~40",
-    "price": 0.161,
-    "src": "quote",
-    "nq": 5
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Juwan Johnson~recyds~25|Rhamondre Stevenson~rush~40",
-    "price": 0.153,
-    "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Emeka Egbuka~recyds~40",
-    "price": 0.15,
-    "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Javonte Williams~rec~2|Rhamondre Stevenson~rush~40",
-    "price": 0.158,
-    "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Kayshon Boutte~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.14,
-    "src": "quote",
-    "nq": 6
    },
    {
     "key": "Emeka Egbuka~recyds~50|Rhamondre Stevenson~rush~40",
-    "price": 0.14,
+    "price": 0.142,
+    "src": "quote",
+    "nq": 7
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Kayshon Boutte~recyds~15|Rhamondre Stevenson~rush~40",
+    "price": 0.143,
+    "src": "quote",
+    "nq": 5
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~50|Juwan Johnson~rec~3",
+    "price": 0.136,
     "src": "quote",
     "nq": 6
    },
    {
     "key": "Antonio Williams~recyds~15|Malachi Fields~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.132,
+    "price": 0.137,
     "src": "quote",
     "nq": 5
    },
    {
-    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~50|Kayshon Boutte~recyds~15",
-    "price": 0.13,
+    "key": "Darnell Mooney~recyds~15|Emeka Egbuka~recyds~50|Kayshon Boutte~recyds~15",
+    "price": 0.142,
     "src": "quote",
-    "nq": 6
+    "nq": 5
    },
    {
-    "key": "Darnell Mooney~recyds~15|Emeka Egbuka~recyds~50|Kayshon Boutte~recyds~15",
-    "price": 0.134,
+    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Emeka Egbuka~recyds~50",
+    "price": 0.119,
     "src": "quote",
-    "nq": 6
+    "nq": 4
+   },
+   {
+    "key": "Antonio Williams~recyds~15|CeeDee Lamb~recyds~70|Rhamondre Stevenson~rush~40",
+    "price": 0.122,
+    "src": "quote",
+    "nq": 5
    },
    {
     "key": "Malachi Fields~recyds~15|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
     "price": 0.113,
     "src": "quote",
-    "nq": 6
+    "nq": 5
    },
    {
-    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~50|Rhamondre Stevenson~rush~30",
-    "price": 0.111,
-    "src": "quote",
-    "nq": 7
-   },
-   {
-    "key": "Emeka Egbuka~recyds~50|Kayshon Boutte~recyds~15|Malik Willis~pass~175",
-    "price": 0.111,
+    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Kayshon Boutte~recyds~15|Rhamondre Stevenson~rush~30",
+    "price": 0.116,
     "src": "quote",
     "nq": 5
    },
    {
-    "key": "Antonio Williams~recyds~15|Rhamondre Stevenson~rush~40|Tyler Shough~pass~250",
-    "price": 0.114,
+    "key": "Emeka Egbuka~recyds~50|Kayshon Boutte~recyds~15|Malik Willis~pass~175",
+    "price": 0.102,
     "src": "quote",
-    "nq": 7
+    "nq": 5
    },
    {
-    "key": "Emeka Egbuka~rec~4|Kayshon Boutte~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.114,
-    "src": "quote",
-    "nq": 7
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Kayshon Boutte~recyds~15|Malachi Fields~recyds~15|Rhamondre Stevenson~rush~40",
+    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Juwan Johnson~recyds~25|Rhamondre Stevenson~rush~40",
     "price": 0.087,
-    "src": "quote",
-    "nq": 8
-   },
-   {
-    "key": "Emeka Egbuka~recyds~50|Malachi Fields~recyds~15|Rhamondre Stevenson~rush~40",
-    "price": 0.089,
-    "src": "quote",
-    "nq": 7
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Kyren Williams~rush~40|Rhamondre Stevenson~rush~40",
-    "price": 0.085,
     "src": "quote",
     "nq": 6
    },
    {
-    "key": "Kyren Williams~rush~60|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
-    "price": 0.089,
+    "key": "Emeka Egbuka~recyds~50|Malachi Fields~recyds~15|Rhamondre Stevenson~rush~40",
+    "price": 0.093,
     "src": "quote",
-    "nq": 8
+    "nq": 5
    },
    {
-    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Juwan Johnson~rec~3|Rhamondre Stevenson~rush~40",
-    "price": 0.083,
+    "key": "Antonio Williams~recyds~15|Kayshon Boutte~recyds~15|Malachi Fields~recyds~15|Rhamondre Stevenson~rush~40",
+    "price": 0.091,
     "src": "quote",
-    "nq": 7
+    "nq": 5
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Carnell Tate~recyds~25|Darnell Mooney~recyds~15|Rhamondre Stevenson~rush~40",
+    "price": 0.098,
+    "src": "quote",
+    "nq": 4
+   },
+   {
+    "key": "Kyren Williams~rush~60|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
+    "price": 0.09,
+    "src": "quote",
+    "nq": 8
    },
    {
     "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Darren Waller~recyds~25|Rhamondre Stevenson~rush~40",
     "price": 0.071,
     "src": "quote",
-    "nq": 6
+    "nq": 5
    },
    {
     "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Kyren Williams~rush~50|Rhamondre Stevenson~rush~40",
-    "price": 0.071,
+    "price": 0.072,
     "src": "quote",
-    "nq": 8
+    "nq": 6
    },
    {
-    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~40|Juwan Johnson~rec~3|Rhamondre Stevenson~rush~40",
+    "key": "Antonio Williams~recyds~15|Juwan Johnson~recyds~25|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
+    "price": 0.072,
+    "src": "quote",
+    "nq": 6
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Emeka Egbuka~recyds~40|Malik Willis~pass~175",
+    "price": 0.075,
+    "src": "quote",
+    "nq": 6
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Juwan Johnson~rec~3|Kyren Williams~rush~60|Rhamondre Stevenson~rush~40",
     "price": 0.073,
     "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Juwan Johnson~rec~3|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
-    "price": 0.069,
-    "src": "quote",
-    "nq": 6
-   },
-   {
-    "key": "Darnell Mooney~recyds~15|Juwan Johnson~rec~3|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
-    "price": 0.071,
-    "src": "quote",
-    "nq": 7
+    "nq": 5
    },
    {
     "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Kyren Williams~rush~60|Rhamondre Stevenson~rush~40",
-    "price": 0.061,
+    "price": 0.063,
     "src": "quote",
-    "nq": 8
+    "nq": 5
    },
    {
     "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Emeka Egbuka~recyds~40|Rhamondre Stevenson~rush~40",
     "price": 0.059,
     "src": "quote",
-    "nq": 9
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
-    "price": 0.059,
-    "src": "quote",
     "nq": 6
    },
    {
-    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Juwan Johnson~rec~4|Rhamondre Stevenson~rush~40",
+    "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
     "price": 0.06,
     "src": "quote",
-    "nq": 8
+    "nq": 4
    },
    {
-    "key": "Antonio Williams~recyds~15|Darren Waller~recyds~25|Emeka Egbuka~recyds~40|Rhamondre Stevenson~rush~40",
+    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~50|Malik Willis~pass~125|Rhamondre Stevenson~rush~40",
+    "price": 0.061,
+    "src": "quote",
+    "nq": 7
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Darren Waller~recyds~25|Kyren Williams~rush~60|Rhamondre Stevenson~rush~40",
     "price": 0.061,
     "src": "quote",
     "nq": 7
@@ -7715,34 +7948,34 @@
     "key": "Antonio Williams~recyds~15|Darnell Mooney~recyds~15|Emeka Egbuka~recyds~50|Rhamondre Stevenson~rush~40",
     "price": 0.046,
     "src": "quote",
-    "nq": 6
+    "nq": 5
    },
    {
     "key": "Antonio Williams~recyds~15|Darren Waller~recyds~25|Emeka Egbuka~recyds~50|Rhamondre Stevenson~rush~40",
     "price": 0.047,
     "src": "quote",
-    "nq": 7
+    "nq": 5
+   },
+   {
+    "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~50|Kyren Williams~rush~60|Malik Willis~pass~175",
+    "price": 0.047,
+    "src": "quote",
+    "nq": 4
    },
    {
     "key": "Antonio Williams~recyds~15|Emeka Egbuka~recyds~50|Kyren Williams~rush~50|Rhamondre Stevenson~rush~40",
-    "price": 0.048,
-    "src": "quote",
-    "nq": 7
-   },
-   {
-    "key": "Antonio Williams~recyds~15|Emeka Egbuka~rec~4|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
     "price": 0.047,
     "src": "quote",
-    "nq": 7
+    "nq": 5
    },
    {
-    "key": "Antonio Williams~recyds~15|Juwan Johnson~rec~3|Kayshon Boutte~recyds~15|Malik Willis~pass~175|Rhamondre Stevenson~rush~40",
-    "price": 0.046,
+    "key": "Antonio Williams~recyds~15|Christian Watson~recyds~80|Darnell Mooney~recyds~15|Rhamondre Stevenson~rush~40",
+    "price": 0.048,
     "src": "quote",
-    "nq": 7
+    "nq": 5
    }
   ],
   "asked": 60,
-  "ts": "2026-10-03T01:27:10-07:00"
+  "ts": "2026-10-03T02:03:53-07:00"
  }
 }
