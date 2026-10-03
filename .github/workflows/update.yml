@@ -2,9 +2,9 @@ name: Update prop board
 
 on:
   schedule:
-    # Times are UTC. Every 20 minutes, around the clock: a quick refresh of prices, injuries, lines and scores.
-    - cron: "0,20,40 * * * *"
-    # Full runs (also ask Kalshi for real parlay quotes), set off the 20-minute marks so they don't collide.
+    # Times are UTC. Every 20 minutes, around the clock (at :07, :27 and :47 - GitHub drops more runs at the top of the hour): a quick refresh of prices, injuries, lines and scores.
+    - cron: "7,27,47 * * * *"
+    # Full runs (also ask Kalshi for real parlay quotes), on minutes the 20-minute refresh never uses.
     # During daylight time (until Nov 1) these are:
     - cron: "5 20 * * 4"   # Thu 1:05 PM PT  - before Thursday Night Football
     - cron: "5 16 * * 5"   # Fri 9:05 AM PT
@@ -55,7 +55,7 @@ jobs:
         continue-on-error: true
         env:
           # the 20-minute refreshes reuse the last full run's parlay quotes instead of asking Kalshi again
-          QUOTES: ${{ github.event.schedule == '0,20,40 * * * *' && '0' || '1' }}
+          QUOTES: ${{ github.event.schedule == '7,27,47 * * * *' && '0' || '1' }}
           KALSHI_KEY_ID: ${{ secrets.KALSHI_KEY_ID }}
           KALSHI_PRIVATE_KEY: ${{ secrets.KALSHI_PRIVATE_KEY }}
         run: python parlay.py
