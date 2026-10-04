@@ -15,6 +15,10 @@ on:
       week:
         description: "Week to score (leave blank for the current week)"
         required: false
+      quick:
+        description: "Quick refresh (reuse the last Kalshi parlay quotes). The outside 20-minute timer sends true."
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -55,7 +59,7 @@ jobs:
         continue-on-error: true
         env:
           # the 20-minute refreshes reuse the last full run's parlay quotes instead of asking Kalshi again
-          QUOTES: ${{ github.event.schedule == '7,27,47 * * * *' && '0' || '1' }}
+          QUOTES: ${{ (github.event.schedule == '7,27,47 * * * *' || github.event.inputs.quick == 'true') && '0' || '1' }}
           KALSHI_KEY_ID: ${{ secrets.KALSHI_KEY_ID }}
           KALSHI_PRIVATE_KEY: ${{ secrets.KALSHI_PRIVATE_KEY }}
         run: python parlay.py
