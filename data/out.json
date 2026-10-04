@@ -1136,7 +1136,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 76,
-   "bid": 74,
+   "bid": 73,
    "vals": [
     28.0,
     33.0,
@@ -1181,7 +1181,7 @@
    "praw": 0.8084,
    "rg": "TE",
    "est": false,
-   "mid": 75.0,
+   "mid": 74.5,
    "tk": "KXNFLRECYDS-26OCT04DETCAR-CARDWALLER88-15",
    "ev": "KXNFLRECYDS-26OCT04DETCAR",
    "ctx": 0.23,
@@ -1441,6 +1441,110 @@
    "news": ""
   },
   {
+   "game": "ARINYG",
+   "glabel": "ARI @ NYG",
+   "player": "Darnell Mooney",
+   "team": "NYG",
+   "opp": "ARI",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 58,
+   "bid": 57,
+   "vals": [
+    27.0,
+    48.0,
+    20.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 24.3,
+   "al": [
+    [
+     1,
+     "LAC",
+     20.0
+    ],
+    [
+     2,
+     "SEA",
+     35.0
+    ],
+    [
+     3,
+     "SF",
+     60.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 10,
+   "per": 247.0,
+   "dstat": "pass yds",
+   "p": 79,
+   "roi": 35,
+   "pp": 76,
+   "hs": 82,
+   "dhs": 80,
+   "rks": 71,
+   "vs": 85,
+   "agree": 3,
+   "score": 80.0,
+   "flags": [],
+   "pc": 0.7854,
+   "praw": 0.7854,
+   "rg": "WR2",
+   "est": false,
+   "mid": 57.5,
+   "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-15",
+   "ev": "KXNFLRECYDS-26OCT04ARINYG",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "ARI secondary missing S Dadrion Taylor-Demerson"
+    ],
+    [
+     -0.11,
+     "NYG projected for only 21 pts (O/U 44.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 77,
+   "pu": 74,
+   "uinfo": {
+    "share": [
+     7,
+     9,
+     14
+    ],
+    "kind": "targets",
+    "snap": 56,
+    "snap_last": 44,
+    "mu": 22.6,
+    "note": ""
+   },
+   "po": 13,
+   "pn": 15,
+   "pid": "7090",
+   "sx": -0.11,
+   "sxs": 44,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Jameis Winston",
+    "same": true,
+    "n": 2
+   },
+   "rank": 15,
+   "why": "Cleared 15+ in 3 of 3 games (13 of 15 last season), Sleeper projects 24.3, ARI let 3 of 3 WR2s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson. Watch: NYG projected for only 21 pts (O/U 44.5).",
+   "news": ""
+  },
+  {
    "game": "LARPHI",
    "glabel": "LAR @ PHI",
    "player": "Kyren Williams",
@@ -1536,7 +1640,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 15,
+   "rank": 16,
    "why": "Cleared 40+ in 3 of 3 games (17 of 17 last season), Sleeper projects 67.6, PHI let 3 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun. LAR favored by 3.5, should run a lot with a lead.",
    "news": ""
   },
@@ -1640,112 +1744,8 @@
     "same": true,
     "n": 3
    },
-   "rank": 16,
-   "why": "Cleared 2+ in 3 of 3 games (10 of 12 last season), Sleeper projects 3.7, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger. JAX projected for 24 pts (O/U 51.5).",
-   "news": ""
-  },
-  {
-   "game": "ARINYG",
-   "glabel": "ARI @ NYG",
-   "player": "Darnell Mooney",
-   "team": "NYG",
-   "opp": "ARI",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 59,
-   "bid": 57,
-   "vals": [
-    27.0,
-    48.0,
-    20.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 24.3,
-   "al": [
-    [
-     1,
-     "LAC",
-     20.0
-    ],
-    [
-     2,
-     "SEA",
-     35.0
-    ],
-    [
-     3,
-     "SF",
-     60.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 10,
-   "per": 247.0,
-   "dstat": "pass yds",
-   "p": 79,
-   "roi": 33,
-   "pp": 76,
-   "hs": 82,
-   "dhs": 80,
-   "rks": 71,
-   "vs": 83,
-   "agree": 3,
-   "score": 79.7,
-   "flags": [],
-   "pc": 0.7854,
-   "praw": 0.7854,
-   "rg": "WR2",
-   "est": false,
-   "mid": 58.0,
-   "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-15",
-   "ev": "KXNFLRECYDS-26OCT04ARINYG",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "ARI secondary missing S Dadrion Taylor-Demerson"
-    ],
-    [
-     -0.11,
-     "NYG projected for only 21 pts (O/U 44.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 77,
-   "pu": 74,
-   "uinfo": {
-    "share": [
-     7,
-     9,
-     14
-    ],
-    "kind": "targets",
-    "snap": 56,
-    "snap_last": 44,
-    "mu": 22.6,
-    "note": ""
-   },
-   "po": 13,
-   "pn": 15,
-   "pid": "7090",
-   "sx": -0.11,
-   "sxs": 44,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Jameis Winston",
-    "same": true,
-    "n": 2
-   },
    "rank": 17,
-   "why": "Cleared 15+ in 3 of 3 games (13 of 15 last season), Sleeper projects 24.3, ARI let 3 of 3 WR2s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson. Watch: NYG projected for only 21 pts (O/U 44.5).",
+   "why": "Cleared 2+ in 3 of 3 games (10 of 12 last season), Sleeper projects 3.7, CIN let 3 of 3 TE1s reach it, CIN allows the 4th most pass yds. CIN secondary missing S Kyle Dugger. JAX projected for 24 pts (O/U 51.5).",
    "news": ""
   },
   {
@@ -2981,122 +2981,6 @@
    "news": ""
   },
   {
-   "game": "MIAMIN",
-   "glabel": "MIA @ MIN",
-   "player": "Malik Washington",
-   "team": "MIA",
-   "opp": "MIN",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 3,
-   "ask": 79,
-   "bid": 78,
-   "vals": [
-    3.0,
-    4.0,
-    5.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 3.5,
-   "al": [
-    [
-     1,
-     "GB",
-     6.0
-    ],
-    [
-     2,
-     "CHI",
-     5.0
-    ],
-    [
-     3,
-     "TB",
-     5.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 7,
-   "per": 265.3,
-   "dstat": "pass yds",
-   "p": 79,
-   "roi": 0,
-   "pp": 80,
-   "hs": 72,
-   "dhs": 80,
-   "rks": 81,
-   "vs": 50,
-   "agree": 3,
-   "score": 77.3,
-   "flags": [],
-   "pc": 0.7863,
-   "praw": 0.7863,
-   "rg": "WR1",
-   "est": false,
-   "mid": 78.5,
-   "tk": "KXNFLREC-26OCT04MIAMIN-MIAMWASHINGTON6-3",
-   "ev": "KXNFLREC-26OCT04MIAMIN",
-   "ctx": 0.43,
-   "cxs": 72,
-   "reasons": [
-    [
-     0.15,
-     "MIN secondary missing CB Charles Demmings"
-    ],
-    [
-     0.2,
-     "Caleb Douglas out, more targets to go around"
-    ],
-    [
-     0.08,
-     "Trending on Sleeper (#15 most added)"
-    ],
-    [
-     0.8,
-     "MIA a 10-pt underdog, trailing teams throw more"
-    ],
-    [
-     -0.5,
-     "MIA projected for only 14 pts (O/U 38.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 74,
-   "pu": 85,
-   "uinfo": {
-    "share": [
-     30,
-     22,
-     28
-    ],
-    "kind": "targets",
-    "snap": 84,
-    "snap_last": 86,
-    "mu": 4.7,
-    "note": ""
-   },
-   "po": 10,
-   "pn": 17,
-   "pid": "11610",
-   "sx": 0.3,
-   "sxs": 65,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Malik Willis",
-    "same": true,
-    "n": 3
-   },
-   "rank": 30,
-   "why": "Cleared 3+ in 3 of 3 games (10 of 17 last season), Sleeper projects 3.5, MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
-   "news": ""
-  },
-  {
    "game": "KCLV",
    "glabel": "KC @ LV",
    "player": "Patrick Mahomes",
@@ -3192,7 +3076,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 31,
+   "rank": 30,
    "why": "Cleared 175+ in 3 of 3 games (13 of 14 last season), Sleeper projects 246.2, LV let 3 of 3 QBs reach it. KC projected for 26 pts (O/U 47.5). Watch: KC favored by 4.5, may not need to throw late.",
    "news": ""
   },
@@ -3292,8 +3176,228 @@
     "same": true,
     "n": 3
    },
-   "rank": 32,
+   "rank": 31,
    "why": "Cleared 50+ in 3 of 3 games (13 of 16 last season), Sleeper projects 89.7, ATL let 3 of 3 WR1s reach it, ATL allows the 6th most pass yds. NO projected for 24 pts (O/U 47.5).",
+   "news": ""
+  },
+  {
+   "game": "MIAMIN",
+   "glabel": "MIA @ MIN",
+   "player": "Malik Washington",
+   "team": "MIA",
+   "opp": "MIN",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 3,
+   "ask": 80,
+   "bid": 78,
+   "vals": [
+    3.0,
+    4.0,
+    5.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 3.5,
+   "al": [
+    [
+     1,
+     "GB",
+     6.0
+    ],
+    [
+     2,
+     "CHI",
+     5.0
+    ],
+    [
+     3,
+     "TB",
+     5.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 7,
+   "per": 265.3,
+   "dstat": "pass yds",
+   "p": 79,
+   "roi": -2,
+   "pp": 80,
+   "hs": 72,
+   "dhs": 80,
+   "rks": 81,
+   "vs": 48,
+   "agree": 3,
+   "score": 77.1,
+   "flags": [],
+   "pc": 0.7863,
+   "praw": 0.7863,
+   "rg": "WR1",
+   "est": false,
+   "mid": 79.0,
+   "tk": "KXNFLREC-26OCT04MIAMIN-MIAMWASHINGTON6-3",
+   "ev": "KXNFLREC-26OCT04MIAMIN",
+   "ctx": 0.43,
+   "cxs": 72,
+   "reasons": [
+    [
+     0.15,
+     "MIN secondary missing CB Charles Demmings"
+    ],
+    [
+     0.2,
+     "Caleb Douglas out, more targets to go around"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#15 most added)"
+    ],
+    [
+     0.8,
+     "MIA a 10-pt underdog, trailing teams throw more"
+    ],
+    [
+     -0.5,
+     "MIA projected for only 14 pts (O/U 38.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 74,
+   "pu": 85,
+   "uinfo": {
+    "share": [
+     30,
+     22,
+     28
+    ],
+    "kind": "targets",
+    "snap": 84,
+    "snap_last": 86,
+    "mu": 4.7,
+    "note": ""
+   },
+   "po": 10,
+   "pn": 17,
+   "pid": "11610",
+   "sx": 0.3,
+   "sxs": 65,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Malik Willis",
+    "same": true,
+    "n": 3
+   },
+   "rank": 32,
+   "why": "Cleared 3+ in 3 of 3 games (10 of 17 last season), Sleeper projects 3.5, MIN let 3 of 3 WR1s reach it, MIN allows the 7th most pass yds. MIA a 10-pt underdog, trailing teams throw more. Caleb Douglas out, more targets to go around. Watch: MIA projected for only 14 pts (O/U 38.5).",
+   "news": ""
+  },
+  {
+   "game": "TENBAL",
+   "glabel": "TEN @ BAL",
+   "player": "Carnell Tate",
+   "team": "TEN",
+   "opp": "BAL",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 3,
+   "ask": 80,
+   "bid": 78,
+   "vals": [
+    4.0,
+    3.0,
+    6.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 4.3,
+   "al": [
+    [
+     1,
+     "IND",
+     6.0
+    ],
+    [
+     2,
+     "NO",
+     8.0
+    ],
+    [
+     3,
+     "DAL",
+     7.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 14,
+   "per": 231.3,
+   "dstat": "pass yds",
+   "p": 82,
+   "roi": 3,
+   "pp": 83,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 58,
+   "vs": 53,
+   "agree": 3,
+   "score": 76.9,
+   "flags": [],
+   "pc": 0.8249,
+   "praw": 0.8249,
+   "rg": "WR1",
+   "est": false,
+   "mid": 79.0,
+   "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-3",
+   "ev": "KXNFLREC-26OCT04TENBAL",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.8,
+     "TEN a 11.5-pt underdog, trailing teams throw more"
+    ],
+    [
+     -0.5,
+     "TEN projected for only 15 pts (O/U 41.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 83,
+   "pu": 84,
+   "uinfo": {
+    "share": [
+     21,
+     29,
+     26
+    ],
+    "kind": "targets",
+    "snap": 84,
+    "snap_last": 88,
+    "mu": 4.5,
+    "note": ""
+   },
+   "po": 0,
+   "pn": 0,
+   "pid": "13279",
+   "sx": 0.3,
+   "sxs": 65,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Cam Ward",
+    "same": true,
+    "n": 3
+   },
+   "rank": 33,
+   "why": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
    "news": ""
   },
   {
@@ -3392,112 +3496,8 @@
     "same": true,
     "n": 3
    },
-   "rank": 33,
-   "why": "Cleared 40+ in 3 of 3 games (12 of 14 last season), Sleeper projects 87.6, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
-   "news": ""
-  },
-  {
-   "game": "TENBAL",
-   "glabel": "TEN @ BAL",
-   "player": "Carnell Tate",
-   "team": "TEN",
-   "opp": "BAL",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 3,
-   "ask": 81,
-   "bid": 78,
-   "vals": [
-    4.0,
-    3.0,
-    6.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 4.3,
-   "al": [
-    [
-     1,
-     "IND",
-     6.0
-    ],
-    [
-     2,
-     "NO",
-     8.0
-    ],
-    [
-     3,
-     "DAL",
-     7.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 14,
-   "per": 231.3,
-   "dstat": "pass yds",
-   "p": 82,
-   "roi": 2,
-   "pp": 83,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 58,
-   "vs": 52,
-   "agree": 3,
-   "score": 76.7,
-   "flags": [],
-   "pc": 0.8249,
-   "praw": 0.8249,
-   "rg": "WR1",
-   "est": false,
-   "mid": 79.5,
-   "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-3",
-   "ev": "KXNFLREC-26OCT04TENBAL",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     0.8,
-     "TEN a 11.5-pt underdog, trailing teams throw more"
-    ],
-    [
-     -0.5,
-     "TEN projected for only 15 pts (O/U 41.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 83,
-   "pu": 84,
-   "uinfo": {
-    "share": [
-     21,
-     29,
-     26
-    ],
-    "kind": "targets",
-    "snap": 84,
-    "snap_last": 88,
-    "mu": 4.5,
-    "note": ""
-   },
-   "po": 0,
-   "pn": 0,
-   "pid": "13279",
-   "sx": 0.3,
-   "sxs": 65,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Cam Ward",
-    "same": true,
-    "n": 3
-   },
    "rank": 34,
-   "why": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "why": "Cleared 40+ in 3 of 3 games (12 of 14 last season), Sleeper projects 87.6, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
    "news": ""
   },
   {
@@ -4142,8 +4142,8 @@
    "stat": "rush",
    "prop": "Rushing Yards",
    "line": 50,
-   "ask": 86,
-   "bid": 82,
+   "ask": 85,
+   "bid": 83,
    "vals": [
     83.0,
     72.0,
@@ -4175,14 +4175,14 @@
    "per": 128.7,
    "dstat": "rush yds",
    "p": 79,
-   "roi": -8,
+   "roi": -7,
    "pp": 81,
    "hs": 76,
    "dhs": 80,
    "rks": 84,
-   "vs": 42,
+   "vs": 43,
    "agree": 3,
-   "score": 75.5,
+   "score": 75.7,
    "flags": [],
    "pc": 0.7946,
    "praw": 0.7946,
@@ -4732,6 +4732,114 @@
    "news": ""
   },
   {
+   "game": "INDWAS",
+   "glabel": "IND @ WAS",
+   "player": "Jacory Croskey-Merritt",
+   "team": "WAS",
+   "opp": "IND",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rush",
+   "prop": "Rushing Yards",
+   "line": 30,
+   "ask": 86,
+   "bid": 85,
+   "vals": [
+    63.0,
+    43.0,
+    36.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 60.6,
+   "al": [
+    [
+     1,
+     "BAL",
+     144.0
+    ],
+    [
+     2,
+     "KC",
+     117.0
+    ],
+    [
+     3,
+     "HOU",
+     33.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 4,
+   "per": 140.3,
+   "dstat": "rush yds",
+   "p": 78,
+   "roi": -10,
+   "pp": 83,
+   "hs": 72,
+   "dhs": 80,
+   "rks": 90,
+   "vs": 40,
+   "agree": 3,
+   "score": 73.8,
+   "flags": [],
+   "pc": 0.7767,
+   "praw": 0.7767,
+   "rg": "RB1",
+   "est": false,
+   "mid": 85.5,
+   "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-30",
+   "ev": "KXNFLRSHYDS-26OCT04INDWAS",
+   "ctx": 0.38,
+   "cxs": 69,
+   "reasons": [
+    [
+     0.3,
+     "Rachaad White out, more carries for him"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#20 most added)"
+    ],
+    [
+     -0.21,
+     "WAS a 4.5-pt underdog, may have to abandon the run"
+    ],
+    [
+     -0.11,
+     "WAS projected for only 21 pts (O/U 46.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 82,
+   "pu": 84,
+   "uinfo": {
+    "share": [
+     50,
+     38,
+     59
+    ],
+    "kind": "carries",
+    "snap": 48,
+    "snap_last": 57,
+    "mu": 65.5,
+    "note": "His share of carries is up from 50% to 59%."
+   },
+   "po": 10,
+   "pn": 17,
+   "pid": "12533",
+   "sx": -0.32,
+   "sxs": 34,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": null,
+   "rank": 47,
+   "why": "Cleared 30+ in 3 of 3 games (10 of 17 last season), Sleeper projects 60.6, IND let 3 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him. Trending on Sleeper (#20 most added). Watch: WAS a 4.5-pt underdog, may have to abandon the run; WAS projected for only 21 pts (O/U 46.5).",
+   "news": ""
+  },
+  {
    "game": "DETCAR",
    "glabel": "DET @ CAR",
    "player": "Jameson Williams",
@@ -4742,7 +4850,7 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 2,
-   "ask": 86,
+   "ask": 87,
    "bid": 84,
    "vals": [
     4.0,
@@ -4775,20 +4883,20 @@
    "per": 186.0,
    "dstat": "pass yds",
    "p": 85,
-   "roi": -1,
+   "roi": -2,
    "pp": 89,
    "hs": 81,
    "dhs": 80,
    "rks": 13,
-   "vs": 49,
+   "vs": 48,
    "agree": 3,
-   "score": 73.7,
+   "score": 73.5,
    "flags": [],
    "pc": 0.8536,
    "praw": 0.8536,
    "rg": "WR2",
    "est": false,
-   "mid": 85.0,
+   "mid": 85.5,
    "tk": "KXNFLREC-26OCT04DETCAR-DETJWILLIAMS1-2",
    "ev": "KXNFLREC-26OCT04DETCAR",
    "ctx": 0,
@@ -4831,116 +4939,8 @@
     "same": true,
     "n": 3
    },
-   "rank": 47,
-   "why": "Cleared 2+ in 3 of 3 games (14 of 17 last season), Sleeper projects 3.7, CAR let 3 of 3 WR2s reach it. His share of targets fell from 23% to 13%. DET projected for 28 pts (O/U 51.5). Watch: DET favored by 3.5, may not need to throw late.",
-   "news": ""
-  },
-  {
-   "game": "INDWAS",
-   "glabel": "IND @ WAS",
-   "player": "Jacory Croskey-Merritt",
-   "team": "WAS",
-   "opp": "IND",
-   "pos": "RB",
-   "role": "RB1",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 30,
-   "ask": 87,
-   "bid": 85,
-   "vals": [
-    63.0,
-    43.0,
-    36.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 60.6,
-   "al": [
-    [
-     1,
-     "BAL",
-     144.0
-    ],
-    [
-     2,
-     "KC",
-     117.0
-    ],
-    [
-     3,
-     "HOU",
-     33.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 4,
-   "per": 140.3,
-   "dstat": "rush yds",
-   "p": 78,
-   "roi": -11,
-   "pp": 83,
-   "hs": 72,
-   "dhs": 80,
-   "rks": 90,
-   "vs": 39,
-   "agree": 3,
-   "score": 73.6,
-   "flags": [],
-   "pc": 0.7767,
-   "praw": 0.7767,
-   "rg": "RB1",
-   "est": false,
-   "mid": 86.0,
-   "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-30",
-   "ev": "KXNFLRSHYDS-26OCT04INDWAS",
-   "ctx": 0.38,
-   "cxs": 69,
-   "reasons": [
-    [
-     0.3,
-     "Rachaad White out, more carries for him"
-    ],
-    [
-     0.08,
-     "Trending on Sleeper (#19 most added)"
-    ],
-    [
-     -0.21,
-     "WAS a 4.5-pt underdog, may have to abandon the run"
-    ],
-    [
-     -0.11,
-     "WAS projected for only 21 pts (O/U 46.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 82,
-   "pu": 84,
-   "uinfo": {
-    "share": [
-     50,
-     38,
-     59
-    ],
-    "kind": "carries",
-    "snap": 48,
-    "snap_last": 57,
-    "mu": 65.5,
-    "note": "His share of carries is up from 50% to 59%."
-   },
-   "po": 10,
-   "pn": 17,
-   "pid": "12533",
-   "sx": -0.32,
-   "sxs": 34,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
    "rank": 48,
-   "why": "Cleared 30+ in 3 of 3 games (10 of 17 last season), Sleeper projects 60.6, IND let 3 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him. Trending on Sleeper (#19 most added). Watch: WAS a 4.5-pt underdog, may have to abandon the run; WAS projected for only 21 pts (O/U 46.5).",
+   "why": "Cleared 2+ in 3 of 3 games (14 of 17 last season), Sleeper projects 3.7, CAR let 3 of 3 WR2s reach it. His share of targets fell from 23% to 13%. DET projected for 28 pts (O/U 51.5). Watch: DET favored by 3.5, may not need to throw late.",
    "news": ""
   },
   {
@@ -5286,7 +5286,7 @@
    "pr": "Passing Yards",
    "ln": 225,
    "ask": 55,
-   "q": 54.5,
+   "q": 54.0,
    "p": 0.5529,
    "sc": 43.8,
    "est": 0,
@@ -5725,10 +5725,10 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 225,
-   "ask": 69,
-   "q": 68.0,
+   "ask": 68,
+   "q": 67.5,
    "p": 0.7301,
-   "sc": 67.8,
+   "sc": 68.1,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT05ATLNO-NOTSHOUGH6-225",
    "ev": "KXNFLPASSYDS-26OCT05ATLNO",
@@ -5772,7 +5772,7 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-70",
    "ev": "KXNFLRSHYDS-26OCT04INDWAS",
-   "wy": "Cleared 70+ in 0 of 3 games (4 of 17 last season), IND let 2 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him. Trending on Sleeper (#19 most added). Watch: WAS a 4.5-pt underdog, may have to abandon the run; WAS projected for only 21 pts (O/U 46.5).",
+   "wy": "Cleared 70+ in 0 of 3 games (4 of 17 last season), IND let 2 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him. Trending on Sleeper (#20 most added). Watch: WAS a 4.5-pt underdog, may have to abandon the run; WAS projected for only 21 pts (O/U 46.5).",
    "id": "12533",
    "cx": 0.38,
    "nw": ""
@@ -5792,29 +5792,9 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-60",
    "ev": "KXNFLRSHYDS-26OCT04INDWAS",
-   "wy": "Cleared 60+ in 1 of 3 games (5 of 17 last season), Sleeper projects 60.6, IND let 2 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him. Trending on Sleeper (#19 most added). Watch: WAS a 4.5-pt underdog, may have to abandon the run; WAS projected for only 21 pts (O/U 46.5).",
+   "wy": "Cleared 60+ in 1 of 3 games (5 of 17 last season), Sleeper projects 60.6, IND let 2 of 3 lead RBs reach it, IND allows the 4th most rush yds. His share of carries is up from 50% to 59%. Rachaad White out, more carries for him. Trending on Sleeper (#20 most added). Watch: WAS a 4.5-pt underdog, may have to abandon the run; WAS projected for only 21 pts (O/U 46.5).",
    "id": "12533",
    "cx": 0.38,
-   "nw": ""
-  },
-  {
-   "pl": "Kyren Williams",
-   "tm": "LAR",
-   "g": "LARPHI",
-   "gl": "LAR @ PHI",
-   "st": "rush",
-   "pr": "Rushing Yards",
-   "ln": 70,
-   "ask": 35,
-   "q": 34.5,
-   "p": 0.4924,
-   "sc": 46.8,
-   "est": 0,
-   "tk": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-70",
-   "ev": "KXNFLRSHYDS-26OCT04LARPHI",
-   "wy": "Cleared 70+ in 2 of 3 games (10 of 17 last season), PHI let 1 of 3 lead RBs reach it, PHI allows the 8th most rush yds. His share of carries is up from 38% to 65%. PHI front missing LB Zack Baun. LAR favored by 3.5, should run a lot with a lead.",
-   "id": "8150",
-   "cx": 0.12,
    "nw": ""
   },
   {
@@ -5886,7 +5866,7 @@
    "pr": "Rushing Yards",
    "ln": 30,
    "ask": 84,
-   "q": 83.0,
+   "q": 83.5,
    "p": 0.8444,
    "sc": 79.4,
    "est": 0,
@@ -6005,10 +5985,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 90,
-   "ask": 48,
-   "q": 47.0,
+   "ask": 47,
+   "q": 46.5,
    "p": 0.4577,
-   "sc": 35.5,
+   "sc": 35.7,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-ATLBROBINSON7-90",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
@@ -6025,10 +6005,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 100,
-   "ask": 38,
-   "q": 36.5,
+   "ask": 37,
+   "q": 36.0,
    "p": 0.4221,
-   "sc": 35.6,
+   "sc": 36.0,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-ATLBROBINSON7-100",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
@@ -6145,10 +6125,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 41,
-   "q": 40.0,
+   "ask": 40,
+   "q": 39.5,
    "p": 0.5288,
-   "sc": 49.1,
+   "sc": 49.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-25",
    "ev": "KXNFLRECYDS-26OCT04ARINYG",
@@ -6165,10 +6145,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 59,
-   "q": 58.0,
+   "ask": 58,
+   "q": 57.5,
    "p": 0.7854,
-   "sc": 79.7,
+   "sc": 80.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04ARINYG-NYGDMOONEY17-15",
    "ev": "KXNFLRECYDS-26OCT04ARINYG",
@@ -6705,10 +6685,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 50,
-   "ask": 43,
-   "q": 42.0,
+   "ask": 42,
+   "q": 41.5,
    "p": 0.5135,
-   "sc": 49.2,
+   "sc": 49.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04NEBUF-NEMHOLLINS13-50",
    "ev": "KXNFLRECYDS-26OCT04NEBUF",
@@ -6825,10 +6805,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 76,
-   "q": 75.0,
+   "ask": 77,
+   "q": 75.5,
    "p": 0.819,
-   "sc": 77.3,
+   "sc": 77.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-25",
    "ev": "KXNFLRECYDS-26OCT04TENBAL",
@@ -6965,10 +6945,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 39,
-   "q": 37.5,
+   "ask": 38,
+   "q": 37.0,
    "p": 0.5417,
-   "sc": 54.2,
+   "sc": 54.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DETCAR-CARDWALLER88-40",
    "ev": "KXNFLRECYDS-26OCT04DETCAR",
@@ -7006,7 +6986,7 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 76,
-   "q": 75.0,
+   "q": 74.5,
    "p": 0.8084,
    "sc": 80.9,
    "est": 0,
@@ -7465,10 +7445,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 6,
-   "ask": 38,
-   "q": 37.5,
+   "ask": 39,
+   "q": 38.0,
    "p": 0.416,
-   "sc": 35.8,
+   "sc": 35.4,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DALHOU-DALGPICKENS3-6",
    "ev": "KXNFLREC-26OCT04DALHOU",
@@ -7685,10 +7665,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 4,
-   "ask": 68,
-   "q": 66.5,
+   "ask": 67,
+   "q": 66.0,
    "p": 0.7091,
-   "sc": 63.6,
+   "sc": 63.8,
    "est": 0,
    "tk": "KXNFLREC-26OCT04JACCIN-CINTHIGGINS5-4",
    "ev": "KXNFLREC-26OCT04JACCIN",
@@ -7865,10 +7845,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 4,
-   "ask": 65,
-   "q": 64.0,
+   "ask": 64,
+   "q": 63.5,
    "p": 0.7008,
-   "sc": 62.1,
+   "sc": 62.4,
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-4",
    "ev": "KXNFLREC-26OCT04TENBAL",
@@ -7885,10 +7865,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 3,
-   "ask": 81,
-   "q": 79.5,
+   "ask": 80,
+   "q": 79.0,
    "p": 0.8249,
-   "sc": 76.7,
+   "sc": 76.9,
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-3",
    "ev": "KXNFLREC-26OCT04TENBAL",
@@ -7945,10 +7925,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 3,
-   "ask": 79,
-   "q": 78.5,
+   "ask": 80,
+   "q": 79.0,
    "p": 0.7863,
-   "sc": 77.3,
+   "sc": 77.1,
    "est": 0,
    "tk": "KXNFLREC-26OCT04MIAMIN-MIAMWASHINGTON6-3",
    "ev": "KXNFLREC-26OCT04MIAMIN",
@@ -8105,10 +8085,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 2,
-   "ask": 86,
-   "q": 85.0,
+   "ask": 87,
+   "q": 85.5,
    "p": 0.8536,
-   "sc": 73.7,
+   "sc": 73.5,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DETCAR-DETJWILLIAMS1-2",
    "ev": "KXNFLREC-26OCT04DETCAR",
@@ -8341,7 +8321,7 @@
    2,
    3
   ],
-  "generated": "2026-10-03T23:00:37-07:00",
+  "generated": "2026-10-03T23:30:34-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 4 \u00b7 Sun Oct 4 \u2013 Mon Oct 5",
@@ -8365,7 +8345,7 @@
   "ctx_sources": {
    "lines": "15 games",
    "weather": "10 outdoor games",
-   "injuries": "137 players listed",
+   "injuries": "138 players listed",
    "news": "11 players in headlines",
    "sleeper_trending": "44 board players trending",
    "reddit": "unavailable"
@@ -8536,12 +8516,6 @@
     "price": 0.159,
     "src": "quote",
     "nq": 7
-   },
-   {
-    "key": "Kyren Williams~rush~70|Malik Willis~pass~175",
-    "price": 0.163,
-    "src": "quote",
-    "nq": 12
    },
    {
     "key": "Darnell Mooney~recyds~15|Kyren Williams~rush~60|Malik Willis~pass~175",
