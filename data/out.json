@@ -1331,109 +1331,98 @@
    "news": ""
   },
   {
-   "game": "DENSF",
-   "glabel": "DEN @ SF",
-   "player": "Courtland Sutton",
-   "team": "DEN",
-   "opp": "SF",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 5,
-   "ask": 79,
-   "bid": 21,
+   "game": "LACSEA",
+   "glabel": "LAC @ SEA",
+   "player": "Sam Darnold",
+   "team": "SEA",
+   "opp": "LAC",
+   "pos": "QB",
+   "role": "QB",
+   "stat": "pass",
+   "prop": "Passing Yards",
+   "line": 175,
+   "ask": 65,
+   "bid": 52,
    "vals": [
-    11.0,
-    25.0,
-    46.0
+    13.0,
+    null,
+    379.0
    ],
-   "over": 3,
-   "n": 3,
-   "proj": 46.2,
+   "over": 1,
+   "n": 2,
+   "proj": 247.2,
    "al": [
     [
      1,
-     "LAR",
-     26.0
+     "ARI",
+     277.0
     ],
     [
      2,
-     "MIA",
-     43.0
+     "LV",
+     253.0
     ],
     [
      3,
-     "ARI",
-     40.0
+     "BUF",
+     204.0
     ]
    ],
    "dhit": 3,
    "dn": 3,
-   "most": 22,
-   "per": 215.0,
+   "most": 12,
+   "per": 244.7,
    "dstat": "pass yds",
-   "p": 88,
-   "roi": 12,
-   "pp": 95,
-   "hs": 88,
+   "p": 80,
+   "roi": 23,
+   "pp": 91,
+   "hs": 64,
    "dhs": 80,
-   "rks": 32,
-   "vs": 62,
-   "agree": 3,
-   "score": 71.9,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.882,
-   "praw": 0.882,
-   "rg": "WR2",
+   "rks": 65,
+   "vs": 73,
+   "agree": 2,
+   "score": 70.8,
+   "flags": [],
+   "pc": 0.7968,
+   "praw": 0.7968,
+   "rg": "QB",
    "est": false,
-   "mid": 77.5,
-   "tk": "KXNFLRECYDS-26OCT04DENSF-DENCSUTTON14-5",
-   "ev": "KXNFLRECYDS-26OCT04DENSF",
-   "ctx": 0.35,
-   "cxs": 68,
+   "mid": 63.5,
+   "tk": "KXNFLPASSYDS-26OCT04LACSEA-SEASDARNOLD14-175",
+   "ev": "KXNFLPASSYDS-26OCT04LACSEA",
+   "ctx": 0.15,
+   "cxs": 58,
    "reasons": [
     [
      0.15,
-     "SF secondary missing CB Ephesians Prysock"
-    ],
-    [
-     0.2,
-     "Dallen Bentley out, more targets to go around"
+     "LAC secondary missing S Derwin James Jr."
     ]
    ],
    "status": null,
-   "ppj": 95,
-   "pu": 95,
+   "ppj": 91,
+   "pu": 92,
    "uinfo": {
     "share": [
-     19,
-     14,
-     23
+     2.0,
+     45.0
     ],
-    "kind": "targets",
-    "snap": 80,
-    "snap_last": 87,
-    "mu": 41.9,
+    "kind": "attempts",
+    "snap": 70,
+    "snap_last": 100,
+    "mu": 250.7,
     "note": ""
    },
-   "po": 17,
+   "po": 14,
    "pn": 17,
-   "pid": "5045",
+   "pid": "4943",
    "sx": 0.0,
    "sxs": 50,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
-   "qinfo": {
-    "qb": "Bo Nix",
-    "same": true,
-    "n": 3
-   },
+   "qinfo": null,
    "rank": 14,
-   "why": "Cleared 5+ in 3 of 3 games (17 of 17 last season), Sleeper projects 46.2, SF let 3 of 3 WR2s reach it. Dallen Bentley out, more targets to go around. SF secondary missing CB Ephesians Prysock.",
+   "why": "Cleared 175+ in 1 of 2 games (14 of 17 last season), Sleeper projects 247.2, LAC let 3 of 3 QBs reach it. LAC secondary missing S Derwin James Jr..",
    "news": ""
   },
   {
@@ -1757,112 +1746,6 @@
    "news": ""
   },
   {
-   "game": "DENSF",
-   "glabel": "DEN @ SF",
-   "player": "Courtland Sutton",
-   "team": "DEN",
-   "opp": "SF",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 79,
-   "bid": 21,
-   "vals": [
-    2.0,
-    3.0,
-    3.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 3.3,
-   "al": [
-    [
-     1,
-     "LAR",
-     3.0
-    ],
-    [
-     2,
-     "MIA",
-     2.0
-    ],
-    [
-     3,
-     "ARI",
-     3.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 22,
-   "per": 215.0,
-   "dstat": "pass yds",
-   "p": 83,
-   "roi": 5,
-   "pp": 88,
-   "hs": 79,
-   "dhs": 80,
-   "rks": 32,
-   "vs": 55,
-   "agree": 3,
-   "score": 67.6,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.8292,
-   "praw": 0.8292,
-   "rg": "WR2",
-   "est": false,
-   "mid": 77.5,
-   "tk": "KXNFLREC-26OCT04DENSF-DENCSUTTON14-2",
-   "ev": "KXNFLREC-26OCT04DENSF",
-   "ctx": 0.35,
-   "cxs": 68,
-   "reasons": [
-    [
-     0.15,
-     "SF secondary missing CB Ephesians Prysock"
-    ],
-    [
-     0.2,
-     "Dallen Bentley out, more targets to go around"
-    ]
-   ],
-   "status": null,
-   "ppj": 89,
-   "pu": 88,
-   "uinfo": {
-    "share": [
-     19,
-     14,
-     23
-    ],
-    "kind": "targets",
-    "snap": 80,
-    "snap_last": 87,
-    "mu": 3.2,
-    "note": ""
-   },
-   "po": 13,
-   "pn": 17,
-   "pid": "5045",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Bo Nix",
-    "same": true,
-    "n": 3
-   },
-   "rank": 18,
-   "why": "Cleared 2+ in 3 of 3 games (13 of 17 last season), Sleeper projects 3.3, SF let 3 of 3 WR2s reach it. Dallen Bentley out, more targets to go around. SF secondary missing CB Ephesians Prysock.",
-   "news": ""
-  },
-  {
    "game": "DETCAR",
    "glabel": "DET @ CAR",
    "player": "Jahmyr Gibbs",
@@ -1962,7 +1845,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 19,
+   "rank": 18,
    "why": "Cleared 60+ in 2 of 3 games (9 of 17 last season), Sleeper projects 93.9, CAR let 3 of 3 lead RBs reach it, CAR allows the most rush yds. His share of carries fell from 88% to 67%. DET projected for 28 pts (O/U 51.5). DET favored by 4.5, should run a lot with a lead.",
    "news": ""
   },
@@ -2068,7 +1951,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 20,
+   "rank": 19,
    "why": "Cleared 10+ in 3 of 3 games (9 of 10 last season), Sleeper projects 33.4, MIN let 2 of 3 TE1s reach it, MIN allows the 7th most pass yds. His share of targets is up from 7% to 19%. MIN secondary missing S Jakobe Thomas, CB Charles Demmings. Justin Joly out, more targets to go around.",
    "news": ""
   },
@@ -2168,7 +2051,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 21,
+   "rank": 20,
    "why": "Cleared 5+ in 3 of 3 games (12 of 16 last season), Sleeper projects 5.9, ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds. NO projected for 24 pts (O/U 47.5).",
    "news": ""
   },
@@ -2276,8 +2159,110 @@
     "same": true,
     "n": 3
    },
-   "rank": 22,
+   "rank": 21,
    "why": "Cleared 2+ in 2 of 3 games (6 of 17 last season), DET let 3 of 3 TE2s reach it, DET allows the most pass yds. DET secondary missing S Bishop Fitzgerald, S Brian Branch. Ja'Tavion Sanders out, more targets to go around.",
+   "news": ""
+  },
+  {
+   "game": "KCLV",
+   "glabel": "KC @ LV",
+   "player": "Tre Tucker",
+   "team": "LV",
+   "opp": "KC",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 25,
+   "ask": 64,
+   "bid": 30,
+   "vals": [
+    27.0,
+    119.0,
+    43.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 39.6,
+   "al": [
+    [
+     1,
+     "DEN",
+     42.0
+    ],
+    [
+     2,
+     "IND",
+     72.0
+    ],
+    [
+     3,
+     "MIA",
+     67.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 30,
+   "per": 183.7,
+   "dstat": "pass yds",
+   "p": 78,
+   "roi": 22,
+   "pp": 77,
+   "hs": 76,
+   "dhs": 80,
+   "rks": 6,
+   "vs": 72,
+   "agree": 3,
+   "score": 64.0,
+   "flags": [
+    "Wide bid/ask spread, thin market"
+   ],
+   "pc": 0.7776,
+   "praw": 0.7776,
+   "rg": "WR1",
+   "est": false,
+   "mid": 62.5,
+   "tk": "KXNFLRECYDS-26OCT04KCLV-LVTTUCKER1-25",
+   "ev": "KXNFLRECYDS-26OCT04KCLV",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "KC secondary missing CB Jadon Canady"
+    ]
+   ],
+   "status": null,
+   "ppj": 76,
+   "pu": 78,
+   "uinfo": {
+    "share": [
+     14,
+     24,
+     13
+    ],
+    "kind": "targets",
+    "snap": 61,
+    "snap_last": 57,
+    "mu": 43.3,
+    "note": ""
+   },
+   "po": 12,
+   "pn": 17,
+   "pid": "10213",
+   "sx": 0.0,
+   "sxs": 50,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Kirk Cousins",
+    "same": true,
+    "n": 3
+   },
+   "rank": 22,
+   "why": "Cleared 25+ in 3 of 3 games (12 of 17 last season), Sleeper projects 39.6, KC let 3 of 3 WR1s reach it. KC secondary missing CB Jadon Canady.",
    "news": ""
   },
   {
@@ -2991,218 +2976,6 @@
    "news": ""
   },
   {
-   "game": "DENSF",
-   "glabel": "DEN @ SF",
-   "player": "Evan Engram",
-   "team": "DEN",
-   "opp": "SF",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 5,
-   "ask": 79,
-   "bid": 21,
-   "vals": [
-    43.0,
-    17.0,
-    0.0
-   ],
-   "over": 2,
-   "n": 3,
-   "proj": 22.7,
-   "al": [
-    [
-     1,
-     "LAR",
-     13.0
-    ],
-    [
-     2,
-     "MIA",
-     17.0
-    ],
-    [
-     3,
-     "ARI",
-     75.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 22,
-   "per": 215.0,
-   "dstat": "pass yds",
-   "p": 81,
-   "roi": 2,
-   "pp": 87,
-   "hs": 73,
-   "dhs": 80,
-   "rks": 32,
-   "vs": 52,
-   "agree": 2,
-   "score": 59.1,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.8077,
-   "praw": 0.8077,
-   "rg": "TE",
-   "est": false,
-   "mid": 77.5,
-   "tk": "KXNFLRECYDS-26OCT04DENSF-DENEENGRAM1-5",
-   "ev": "KXNFLRECYDS-26OCT04DENSF",
-   "ctx": 0.35,
-   "cxs": 68,
-   "reasons": [
-    [
-     0.15,
-     "SF secondary missing CB Ephesians Prysock"
-    ],
-    [
-     0.2,
-     "Dallen Bentley out, more targets to go around"
-    ]
-   ],
-   "status": null,
-   "ppj": 93,
-   "pu": 82,
-   "uinfo": {
-    "share": [
-     19,
-     3,
-     6
-    ],
-    "kind": "targets",
-    "snap": 58,
-    "snap_last": 60,
-    "mu": 15.5,
-    "note": "His share of targets fell from 19% to 6%."
-   },
-   "po": 15,
-   "pn": 16,
-   "pid": "4066",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Bo Nix",
-    "same": true,
-    "n": 3
-   },
-   "rank": 30,
-   "why": "Cleared 5+ in 2 of 3 games (15 of 16 last season), Sleeper projects 22.7, SF let 3 of 3 TE1s reach it. His share of targets fell from 19% to 6%. Dallen Bentley out, more targets to go around. SF secondary missing CB Ephesians Prysock.",
-   "news": ""
-  },
-  {
-   "game": "DENSF",
-   "glabel": "DEN @ SF",
-   "player": "Evan Engram",
-   "team": "DEN",
-   "opp": "SF",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 1,
-   "ask": 79,
-   "bid": 21,
-   "vals": [
-    4.0,
-    1.0,
-    0.0
-   ],
-   "over": 2,
-   "n": 3,
-   "proj": 2.3,
-   "al": [
-    [
-     1,
-     "LAR",
-     2.0
-    ],
-    [
-     2,
-     "MIA",
-     2.0
-    ],
-    [
-     3,
-     "ARI",
-     9.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 22,
-   "per": 215.0,
-   "dstat": "pass yds",
-   "p": 81,
-   "roi": 2,
-   "pp": 87,
-   "hs": 73,
-   "dhs": 80,
-   "rks": 32,
-   "vs": 52,
-   "agree": 2,
-   "score": 59.1,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.8067,
-   "praw": 0.8067,
-   "rg": "TE",
-   "est": false,
-   "mid": 77.5,
-   "tk": "KXNFLREC-26OCT04DENSF-DENEENGRAM1-1",
-   "ev": "KXNFLREC-26OCT04DENSF",
-   "ctx": 0.35,
-   "cxs": 68,
-   "reasons": [
-    [
-     0.15,
-     "SF secondary missing CB Ephesians Prysock"
-    ],
-    [
-     0.2,
-     "Dallen Bentley out, more targets to go around"
-    ]
-   ],
-   "status": null,
-   "ppj": 93,
-   "pu": 81,
-   "uinfo": {
-    "share": [
-     19,
-     3,
-     6
-    ],
-    "kind": "targets",
-    "snap": 58,
-    "snap_last": 60,
-    "mu": 1.6,
-    "note": "His share of targets fell from 19% to 6%."
-   },
-   "po": 15,
-   "pn": 16,
-   "pid": "4066",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Bo Nix",
-    "same": true,
-    "n": 3
-   },
-   "rank": 31,
-   "why": "Cleared 1+ in 2 of 3 games (15 of 16 last season), Sleeper projects 2.3, SF let 3 of 3 TE1s reach it. His share of targets fell from 19% to 6%. Dallen Bentley out, more targets to go around. SF secondary missing CB Ephesians Prysock.",
-   "news": ""
-  },
-  {
    "game": "ATLNO",
    "glabel": "ATL @ NO (Mon)",
    "player": "Alvin Kamara",
@@ -3301,7 +3074,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 32,
+   "rank": 30,
    "why": "Cleared 2+ in 1 of 3 games (9 of 11 last season), Sleeper projects 2.5, ATL let 3 of 3 lead RBs reach it, ATL allows the 6th most pass yds. His share of targets fell from 19% to 2%. NO projected for 24 pts (O/U 47.5). Trending on Sleeper (#25 most added).",
    "news": ""
   },
@@ -3397,7 +3170,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 33,
+   "rank": 31,
    "why": "Cleared 15+ in 3 of 3 games (13 of 17 last season), Sleeper projects 20.5, NO let 1 of 3 No. 2 RBs reach it, NO allows the 6th most rush yds. NO front missing LB Anfernee Jennings, DE Carl Granderson, LB Kaden Elliss.",
    "news": ""
   },
@@ -3501,7 +3274,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 34,
+   "rank": 32,
    "why": "Cleared 15+ in 2 of 3 games (9 of 15 last season), Sleeper projects 20.9, ATL let 2 of 3 TE2s reach it, ATL allows the 6th most pass yds. NO projected for 24 pts (O/U 47.5). Watch: Listed questionable this week.",
    "news": ""
   },
@@ -3601,7 +3374,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 35,
+   "rank": 33,
    "why": "Cleared 40+ in 3 of 3 games (4 of 15 last season), Sleeper projects 63.9, DET let 2 of 3 lead RBs reach it. His share of carries is up from 45% to 83%. DET front missing DT Mekhi Wingo, LB Devin White, DE Ahmed Hassanein. Watch: CAR a 4.5-pt underdog, may have to abandon the run.",
    "news": ""
   },
@@ -3713,7 +3486,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 36,
+   "rank": 34,
    "why": "Cleared 15+ in 1 of 3 games (5 of 16 last season), Sleeper projects 32.3, DET let 3 of 3 WR2s reach it, DET allows the most pass yds. His share of targets is up from 0% to 14%. DET secondary missing S Bishop Fitzgerald, S Brian Branch. Ja'Tavion Sanders out, more targets to go around.",
    "news": ""
   },
@@ -3809,7 +3582,7 @@
     "with": 10,
     "usual": "Cooper Rush"
    },
-   "rank": 37,
+   "rank": 35,
    "why": "Cleared 15+ in 1 of 3 games (16 of 17 last season), Sleeper projects 33.3, NO let 3 of 3 TE1s reach it. QB change: Michael Penix starts (Cooper Rush isn't projected to start). With him: cleared 15+ in 8 of 10 (62, 38, 38, 14).",
    "news": ""
   },
@@ -3917,7 +3690,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 38,
+   "rank": 36,
    "why": "Cleared 3+ in 3 of 3 games (9 of 9 last season), Sleeper projects 4.7, CAR let 1 of 3 TE1s reach it. His share of targets fell from 21% to 13%. DET projected for 28 pts (O/U 51.5). Tyler Conklin out, more targets to go around. Watch: DET favored by 4.5, may not need to throw late.",
    "news": ""
   },
@@ -4025,106 +3798,8 @@
     "same": true,
     "n": 3
    },
-   "rank": 39,
+   "rank": 37,
    "why": "Cleared 15+ in 3 of 3 games (14 of 17 last season), Sleeper projects 57.6, CAR let 1 of 3 WR2s reach it. His share of targets fell from 23% to 13%. DET projected for 28 pts (O/U 51.5). Tyler Conklin out, more targets to go around. Watch: DET favored by 4.5, may not need to throw late.",
-   "news": ""
-  },
-  {
-   "game": "KCLV",
-   "glabel": "KC @ LV",
-   "player": "Emmett Johnson",
-   "team": "KC",
-   "opp": "LV",
-   "pos": "RB",
-   "role": "RB2",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 10,
-   "ask": 79,
-   "bid": 3,
-   "vals": [
-    24.0,
-    15.0,
-    17.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 12.0,
-   "al": [
-    [
-     1,
-     "MIA",
-     0.0
-    ],
-    [
-     2,
-     "LAC",
-     24.0
-    ],
-    [
-     3,
-     "NO",
-     36.0
-    ]
-   ],
-   "dhit": 2,
-   "dn": 3,
-   "most": 13,
-   "per": 116.3,
-   "dstat": "rush yds",
-   "p": 71,
-   "roi": -11,
-   "pp": 71,
-   "hs": 80,
-   "dhs": 60,
-   "rks": 61,
-   "vs": 39,
-   "agree": 2,
-   "score": 55.1,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.7051,
-   "praw": 0.7051,
-   "rg": "RB2",
-   "est": false,
-   "mid": 77.5,
-   "tk": "KXNFLRSHYDS-26OCT04KCLV-KCEJOHNSON10-10",
-   "ev": "KXNFLRSHYDS-26OCT04KCLV",
-   "ctx": 0.12,
-   "cxs": 56,
-   "reasons": [
-    [
-     0.12,
-     "LV front missing DT Jonah Laulu"
-    ]
-   ],
-   "status": null,
-   "ppj": 58,
-   "pu": 84,
-   "uinfo": {
-    "share": [
-     21,
-     7,
-     24
-    ],
-    "kind": "carries",
-    "snap": 26,
-    "snap_last": 27,
-    "mu": 21.6,
-    "note": ""
-   },
-   "po": 0,
-   "pn": 0,
-   "pid": "13337",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
-   "rank": 40,
-   "why": "Cleared 10+ in 3 of 3 games, Sleeper projects 12, LV let 2 of 3 No. 2 RBs reach it. LV front missing DT Jonah Laulu.",
    "news": ""
   },
   {
@@ -4231,7 +3906,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 41,
+   "rank": 38,
    "why": "Cleared 15+ in 2 of 3 games (6 of 17 last season), DET let 2 of 3 TE2s reach it, DET allows the most pass yds. DET secondary missing S Bishop Fitzgerald, S Brian Branch. Ja'Tavion Sanders out, more targets to go around.",
    "news": ""
   },
@@ -4331,7 +4006,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 42,
+   "rank": 39,
    "why": "Cleared 200+ in 3 of 3 games (15 of 17 last season), Sleeper projects 249.2, CAR let 1 of 3 QBs reach it. DET projected for 28 pts (O/U 51.5). Watch: DET favored by 4.5, may not need to throw late.",
    "news": ""
   },
@@ -4431,7 +4106,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 43,
+   "rank": 40,
    "why": "Cleared 10+ in 2 of 3 games (4 of 7 last season), Sleeper projects 18, DET let 2 of 3 No. 2 RBs reach it. DET front missing DT Mekhi Wingo, LB Devin White, DE Ahmed Hassanein. Watch: CAR a 4.5-pt underdog, may have to abandon the run.",
    "news": ""
   },
@@ -4511,7 +4186,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 44,
+   "rank": 41,
    "why": "Cleared 10+ in 2 of 3 games (6 of 11 last season), Sleeper projects 19.9. NO projected for 24 pts (O/U 47.5).",
    "news": ""
   },
@@ -4606,7 +4281,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 45,
+   "rank": 42,
    "why": "Cleared 10+ in 2 of 3 games (5 of 7 last season), Sleeper projects 28.1, ATL let 2 of 3 No. 2 RBs reach it. His share of carries fell from 36% to 14%. NO projected for 24 pts (O/U 47.5).",
    "news": ""
   },
@@ -4702,7 +4377,7 @@
     "with": 1,
     "usual": "Cooper Rush"
    },
-   "rank": 46,
+   "rank": 43,
    "why": "Cleared 15+ in 1 of 3 games (6 of 17 last season), Sleeper projects 19.2, NO let 3 of 3 WR2s reach it. QB change: Michael Penix starts (Cooper Rush isn't projected to start). With him: cleared 15+ in 0 of 1 (11).",
    "news": ""
   },
@@ -4809,110 +4484,8 @@
     "with": 18,
     "usual": "Drew Lock"
    },
-   "rank": 47,
+   "rank": 44,
    "why": "Cleared 3+ in 1 of 3 games (10 of 17 last season), Sleeper projects 3.3, LAC let 2 of 3 TE1s reach it. QB change: Sam Darnold starts (Drew Lock isn't projected to start). With him: cleared 3+ in 11 of 18 (3, 4, 3, 2). His share of targets is up from 8% to 20%. Nick Kallerup out, more targets to go around. LAC secondary missing S Derwin James Jr..",
-   "news": ""
-  },
-  {
-   "game": "KCLV",
-   "glabel": "KC @ LV",
-   "player": "Tre Tucker",
-   "team": "LV",
-   "opp": "KC",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 3,
-   "ask": 79,
-   "bid": 10,
-   "vals": [
-    2.0,
-    5.0,
-    4.0
-   ],
-   "over": 2,
-   "n": 3,
-   "proj": 3.0,
-   "al": [
-    [
-     1,
-     "DEN",
-     4.0
-    ],
-    [
-     2,
-     "IND",
-     7.0
-    ],
-    [
-     3,
-     "MIA",
-     5.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 30,
-   "per": 183.7,
-   "dstat": "pass yds",
-   "p": 69,
-   "roi": -13,
-   "pp": 66,
-   "hs": 62,
-   "dhs": 80,
-   "rks": 6,
-   "vs": 37,
-   "agree": 2,
-   "score": 47.7,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.6912,
-   "praw": 0.6912,
-   "rg": "WR1",
-   "est": false,
-   "mid": 77.5,
-   "tk": "KXNFLREC-26OCT04KCLV-LVTTUCKER1-3",
-   "ev": "KXNFLREC-26OCT04KCLV",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "KC secondary missing CB Jadon Canady"
-    ]
-   ],
-   "status": null,
-   "ppj": 64,
-   "pu": 69,
-   "uinfo": {
-    "share": [
-     14,
-     24,
-     13
-    ],
-    "kind": "targets",
-    "snap": 61,
-    "snap_last": 57,
-    "mu": 3.2,
-    "note": ""
-   },
-   "po": 11,
-   "pn": 17,
-   "pid": "10213",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Kirk Cousins",
-    "same": true,
-    "n": 3
-   },
-   "rank": 48,
-   "why": "Cleared 3+ in 2 of 3 games (11 of 17 last season), Sleeper projects 3, KC let 3 of 3 WR1s reach it. KC secondary missing CB Jadon Canady.",
    "news": ""
   },
   {
@@ -5007,7 +4580,7 @@
     "with": 10,
     "usual": "Cooper Rush"
    },
-   "rank": 49,
+   "rank": 45,
    "why": "Cleared 2+ in 0 of 3 games (17 of 17 last season), Sleeper projects 2.9, NO let 3 of 3 TE1s reach it. QB change: Michael Penix starts (Cooper Rush isn't projected to start). With him: cleared 2+ in 9 of 10 (7, 4, 2, 2).",
    "news": ""
   },
@@ -5109,18 +4682,495 @@
     "same": true,
     "n": 3
    },
-   "rank": 50,
+   "rank": 46,
    "why": "Cleared 3+ in 2 of 3 games (6 of 17 last season), Sleeper projects 4, LV let 1 of 3 lead RBs reach it. His share of targets fell from 24% to 9%. LV secondary missing CB Darrell Luter Jr., S Tristin McCollum.",
+   "news": ""
+  },
+  {
+   "game": "DETCAR",
+   "glabel": "DET @ CAR",
+   "player": "Brycen Tremayne",
+   "team": "CAR",
+   "opp": "DET",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 73,
+   "bid": 72,
+   "vals": [
+    0.0,
+    0.0,
+    4.0
+   ],
+   "over": 1,
+   "n": 3,
+   "proj": 3.3,
+   "al": [
+    [
+     1,
+     "NO",
+     7.0
+    ],
+    [
+     2,
+     "BUF",
+     3.0
+    ],
+    [
+     3,
+     "NYJ",
+     1.0
+    ]
+   ],
+   "dhit": 2,
+   "dn": 3,
+   "most": 1,
+   "per": 326.3,
+   "dstat": "pass yds",
+   "p": 58,
+   "roi": -21,
+   "pp": 70,
+   "hs": 37,
+   "dhs": 60,
+   "rks": 100,
+   "vs": 29,
+   "agree": 1,
+   "score": 45.6,
+   "flags": [],
+   "pc": 0.577,
+   "praw": 0.577,
+   "rg": "WR2",
+   "est": false,
+   "mid": 72.5,
+   "tk": "KXNFLREC-26OCT04DETCAR-CARBTREMAYNE87-2",
+   "ev": "KXNFLREC-26OCT04DETCAR",
+   "ctx": 0.58,
+   "cxs": 79,
+   "reasons": [
+    [
+     0.3,
+     "DET secondary missing S Bishop Fitzgerald, S Brian Branch"
+    ],
+    [
+     0.2,
+     "Ja'Tavion Sanders out, more targets to go around"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#4 most added)"
+    ],
+    [
+     0.17,
+     "CAR a 4.5-pt underdog, trailing teams throw more"
+    ]
+   ],
+   "status": null,
+   "ppj": 89,
+   "pu": 52,
+   "uinfo": {
+    "share": [
+     0,
+     0,
+     14
+    ],
+    "kind": "targets",
+    "snap": 45,
+    "snap_last": 81,
+    "mu": 1.6,
+    "note": "His share of targets is up from 0% to 14%."
+   },
+   "po": 5,
+   "pn": 16,
+   "pid": "11157",
+   "sx": 0.17,
+   "sxs": 58,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Bryce Young",
+    "same": true,
+    "n": 3
+   },
+   "rank": 47,
+   "why": "Cleared 2+ in 1 of 3 games (5 of 16 last season), Sleeper projects 3.3, DET let 2 of 3 WR2s reach it, DET allows the most pass yds. His share of targets is up from 0% to 14%. DET secondary missing S Bishop Fitzgerald, S Brian Branch. Ja'Tavion Sanders out, more targets to go around.",
+   "news": ""
+  },
+  {
+   "game": "DETCAR",
+   "glabel": "DET @ CAR",
+   "player": "Isaac TeSlaa",
+   "team": "DET",
+   "opp": "CAR",
+   "pos": "WR",
+   "role": "WR3",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 47,
+   "bid": 46,
+   "vals": [
+    0.0,
+    2.0,
+    3.0
+   ],
+   "over": 2,
+   "n": 3,
+   "proj": 1.4,
+   "al": [
+    [
+     1,
+     "CHI",
+     2.0
+    ],
+    [
+     2,
+     "ATL",
+     2.0
+    ],
+    [
+     3,
+     "CLE",
+     0.0
+    ]
+   ],
+   "dhit": 2,
+   "dn": 3,
+   "most": 28,
+   "per": 186.0,
+   "dstat": "pass yds",
+   "p": 55,
+   "roi": 18,
+   "pp": 57,
+   "hs": 46,
+   "dhs": 60,
+   "rks": 13,
+   "vs": 68,
+   "agree": 0,
+   "score": 44.8,
+   "flags": [],
+   "pc": 0.5536,
+   "praw": 0.5536,
+   "rg": "WR3",
+   "est": false,
+   "mid": 46.5,
+   "tk": "KXNFLREC-26OCT04DETCAR-DETITESLAA18-2",
+   "ev": "KXNFLREC-26OCT04DETCAR",
+   "ctx": 0.2,
+   "cxs": 60,
+   "reasons": [
+    [
+     0.2,
+     "Tyler Conklin out, more targets to go around"
+    ],
+    [
+     -0.13,
+     "DET favored by 4.5, may not need to throw late"
+    ],
+    [
+     0.39,
+     "DET projected for 28 pts (O/U 51.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 47,
+   "pu": 66,
+   "uinfo": {
+    "share": [
+     3,
+     13,
+     10
+    ],
+    "kind": "targets",
+    "snap": 61,
+    "snap_last": 48,
+    "mu": 2.0,
+    "note": ""
+   },
+   "po": 4,
+   "pn": 17,
+   "pid": "12535",
+   "sx": 0.26,
+   "sxs": 63,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Jared Goff",
+    "same": true,
+    "n": 3
+   },
+   "rank": 48,
+   "why": "Cleared 2+ in 2 of 3 games (4 of 17 last season), CAR let 2 of 3 WR3s reach it. DET projected for 28 pts (O/U 51.5). Tyler Conklin out, more targets to go around. Watch: DET favored by 4.5, may not need to throw late.",
+   "news": ""
+  },
+  {
+   "game": "DETCAR",
+   "glabel": "DET @ CAR",
+   "player": "Isaac TeSlaa",
+   "team": "DET",
+   "opp": "CAR",
+   "pos": "WR",
+   "role": "WR3",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 56,
+   "bid": 55,
+   "vals": [
+    0.0,
+    26.0,
+    66.0
+   ],
+   "over": 2,
+   "n": 3,
+   "proj": 20.6,
+   "al": [
+    [
+     1,
+     "CHI",
+     52.0
+    ],
+    [
+     2,
+     "ATL",
+     11.0
+    ],
+    [
+     3,
+     "CLE",
+     0.0
+    ]
+   ],
+   "dhit": 1,
+   "dn": 3,
+   "most": 28,
+   "per": 186.0,
+   "dstat": "pass yds",
+   "p": 58,
+   "roi": 4,
+   "pp": 76,
+   "hs": 51,
+   "dhs": 40,
+   "rks": 13,
+   "vs": 54,
+   "agree": 1,
+   "score": 43.5,
+   "flags": [],
+   "pc": 0.5832,
+   "praw": 0.5832,
+   "rg": "WR3",
+   "est": false,
+   "mid": 55.5,
+   "tk": "KXNFLRECYDS-26OCT04DETCAR-DETITESLAA18-15",
+   "ev": "KXNFLRECYDS-26OCT04DETCAR",
+   "ctx": 0.2,
+   "cxs": 60,
+   "reasons": [
+    [
+     0.2,
+     "Tyler Conklin out, more targets to go around"
+    ],
+    [
+     -0.13,
+     "DET favored by 4.5, may not need to throw late"
+    ],
+    [
+     0.39,
+     "DET projected for 28 pts (O/U 51.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 70,
+   "pu": 82,
+   "uinfo": {
+    "share": [
+     3,
+     13,
+     10
+    ],
+    "kind": "targets",
+    "snap": 61,
+    "snap_last": 48,
+    "mu": 29.4,
+    "note": ""
+   },
+   "po": 6,
+   "pn": 17,
+   "pid": "12535",
+   "sx": 0.26,
+   "sxs": 63,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Jared Goff",
+    "same": true,
+    "n": 3
+   },
+   "rank": 49,
+   "why": "Cleared 15+ in 2 of 3 games (6 of 17 last season), Sleeper projects 20.6, CAR let 1 of 3 WR3s reach it. DET projected for 28 pts (O/U 51.5). Tyler Conklin out, more targets to go around. Watch: DET favored by 4.5, may not need to throw late.",
+   "news": ""
+  },
+  {
+   "game": "DETCAR",
+   "glabel": "DET @ CAR",
+   "player": "Amon-Ra St. Brown",
+   "team": "DET",
+   "opp": "CAR",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 5,
+   "ask": 82,
+   "bid": 80,
+   "vals": [
+    10.0,
+    9.0,
+    4.0
+   ],
+   "over": 2,
+   "n": 3,
+   "proj": 6.5,
+   "al": [
+    [
+     1,
+     "CHI",
+     8.0
+    ],
+    [
+     2,
+     "ATL",
+     4.0
+    ],
+    [
+     3,
+     "CLE",
+     2.0
+    ]
+   ],
+   "dhit": 1,
+   "dn": 3,
+   "most": 28,
+   "per": 186.0,
+   "dstat": "pass yds",
+   "p": 64,
+   "roi": -22,
+   "pp": 78,
+   "hs": 66,
+   "dhs": 40,
+   "rks": 13,
+   "vs": 28,
+   "agree": 1,
+   "score": 42.9,
+   "flags": [],
+   "pc": 0.6392,
+   "praw": 0.6392,
+   "rg": "WR1",
+   "est": false,
+   "mid": 81.0,
+   "tk": "KXNFLREC-26OCT04DETCAR-DETASTBROWN14-5",
+   "ev": "KXNFLREC-26OCT04DETCAR",
+   "ctx": 0.2,
+   "cxs": 60,
+   "reasons": [
+    [
+     0.2,
+     "Tyler Conklin out, more targets to go around"
+    ],
+    [
+     -0.13,
+     "DET favored by 4.5, may not need to throw late"
+    ],
+    [
+     0.39,
+     "DET projected for 28 pts (O/U 51.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 75,
+   "pu": 81,
+   "uinfo": {
+    "share": [
+     36,
+     34,
+     26
+    ],
+    "kind": "targets",
+    "snap": 85,
+    "snap_last": 74,
+    "mu": 7.4,
+    "note": "His share of targets fell from 36% to 26%."
+   },
+   "po": 13,
+   "pn": 17,
+   "pid": "7547",
+   "sx": 0.26,
+   "sxs": 63,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Jared Goff",
+    "same": true,
+    "n": 3
+   },
+   "rank": 50,
+   "why": "Cleared 5+ in 2 of 3 games (13 of 17 last season), Sleeper projects 6.5, CAR let 1 of 3 WR1s reach it. His share of targets fell from 36% to 26%. DET projected for 28 pts (O/U 51.5). Tyler Conklin out, more targets to go around. Watch: DET favored by 4.5, may not need to throw late.",
    "news": ""
   }
  ],
- "rows": 1225,
- "ladders": 156,
+ "rows": 1221,
+ "ladders": 155,
  "skipped": [
   "Kyle Juszczyk",
-  "Ladd McConkey"
+  "Ladd McConkey",
+  "Tyquan Thornton"
  ],
  "parlay": [
+  {
+   "pl": "Sam Darnold",
+   "tm": "SEA",
+   "g": "LACSEA",
+   "gl": "LAC @ SEA",
+   "st": "pass",
+   "pr": "Passing Yards",
+   "ln": 175,
+   "ask": 65,
+   "q": 63.5,
+   "p": 0.7968,
+   "sc": 70.8,
+   "est": 0,
+   "tk": "KXNFLPASSYDS-26OCT04LACSEA-SEASDARNOLD14-175",
+   "ev": "KXNFLPASSYDS-26OCT04LACSEA",
+   "wy": "Cleared 175+ in 1 of 2 games (14 of 17 last season), Sleeper projects 247.2, LAC let 3 of 3 QBs reach it. LAC secondary missing S Derwin James Jr..",
+   "id": "4943",
+   "cx": 0.15,
+   "nw": ""
+  },
+  {
+   "pl": "Sam Darnold",
+   "tm": "SEA",
+   "g": "LACSEA",
+   "gl": "LAC @ SEA",
+   "st": "pass",
+   "pr": "Passing Yards",
+   "ln": 150,
+   "ask": 69,
+   "q": 67.5,
+   "p": 0.8253,
+   "sc": 72.1,
+   "est": 1,
+   "tk": "KXNFLPASSYDS-26OCT04LACSEA-SEASDARNOLD14-150",
+   "ev": "KXNFLPASSYDS-26OCT04LACSEA",
+   "wy": "Cleared 150+ in 1 of 2 games (15 of 17 last season), Sleeper projects 247.2, LAC let 3 of 3 QBs reach it. LAC secondary missing S Derwin James Jr..",
+   "id": "4943",
+   "cx": 0.15,
+   "nw": ""
+  },
   {
    "pl": "Jared Goff",
    "tm": "DET",
@@ -5522,83 +5572,23 @@
    "nw": ""
   },
   {
-   "pl": "Evan Engram",
-   "tm": "DEN",
-   "g": "DENSF",
-   "gl": "DEN @ SF",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 5,
-   "ask": 79,
-   "q": 77.5,
-   "p": 0.8077,
-   "sc": 59.1,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04DENSF-DENEENGRAM1-5",
-   "ev": "KXNFLRECYDS-26OCT04DENSF",
-   "wy": "Cleared 5+ in 2 of 3 games (15 of 16 last season), Sleeper projects 22.7, SF let 3 of 3 TE1s reach it. His share of targets fell from 19% to 6%. Dallen Bentley out, more targets to go around. SF secondary missing CB Ephesians Prysock.",
-   "id": "4066",
-   "cx": 0.35,
-   "nw": ""
-  },
-  {
-   "pl": "Courtland Sutton",
-   "tm": "DEN",
-   "g": "DENSF",
-   "gl": "DEN @ SF",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 5,
-   "ask": 79,
-   "q": 77.5,
-   "p": 0.882,
-   "sc": 71.9,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04DENSF-DENCSUTTON14-5",
-   "ev": "KXNFLRECYDS-26OCT04DENSF",
-   "wy": "Cleared 5+ in 3 of 3 games (17 of 17 last season), Sleeper projects 46.2, SF let 3 of 3 WR2s reach it. Dallen Bentley out, more targets to go around. SF secondary missing CB Ephesians Prysock.",
-   "id": "5045",
-   "cx": 0.35,
-   "nw": ""
-  },
-  {
-   "pl": "Courtland Sutton",
-   "tm": "DEN",
-   "g": "DENSF",
-   "gl": "DEN @ SF",
+   "pl": "Tre Tucker",
+   "tm": "LV",
+   "g": "KCLV",
+   "gl": "KC @ LV",
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 10,
-   "ask": 79,
-   "q": 77.5,
-   "p": 0.8584,
-   "sc": 70.0,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04DENSF-DENCSUTTON14-10",
-   "ev": "KXNFLRECYDS-26OCT04DENSF",
-   "wy": "Cleared 10+ in 3 of 3 games (15 of 17 last season), Sleeper projects 46.2, SF let 3 of 3 WR2s reach it. Dallen Bentley out, more targets to go around. SF secondary missing CB Ephesians Prysock.",
-   "id": "5045",
-   "cx": 0.35,
-   "nw": ""
-  },
-  {
-   "pl": "Courtland Sutton",
-   "tm": "DEN",
-   "g": "DENSF",
-   "gl": "DEN @ SF",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 25,
-   "ask": 35,
-   "q": 33.5,
-   "p": 0.7541,
-   "sc": 62.9,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT04DENSF-DENCSUTTON14-25",
-   "ev": "KXNFLRECYDS-26OCT04DENSF",
-   "wy": "Cleared 25+ in 2 of 3 games (13 of 17 last season), Sleeper projects 46.2, SF let 3 of 3 WR2s reach it. Dallen Bentley out, more targets to go around. SF secondary missing CB Ephesians Prysock.",
-   "id": "5045",
-   "cx": 0.35,
+   "ask": 70,
+   "q": 68.5,
+   "p": 0.8636,
+   "sc": 77.4,
+   "est": 1,
+   "tk": "KXNFLRECYDS-26OCT04KCLV-LVTTUCKER1-10",
+   "ev": "KXNFLRECYDS-26OCT04KCLV",
+   "wy": "Cleared 10+ in 3 of 3 games (16 of 17 last season), Sleeper projects 39.6, KC let 3 of 3 WR1s reach it. KC secondary missing CB Jadon Canady.",
+   "id": "10213",
+   "cx": 0.15,
    "nw": ""
   },
   {
@@ -5622,6 +5612,66 @@
    "nw": ""
   },
   {
+   "pl": "Tre Tucker",
+   "tm": "LV",
+   "g": "KCLV",
+   "gl": "KC @ LV",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 40,
+   "ask": 37,
+   "q": 35.5,
+   "p": 0.6119,
+   "sc": 50.7,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04KCLV-LVTTUCKER1-40",
+   "ev": "KXNFLRECYDS-26OCT04KCLV",
+   "wy": "Cleared 40+ in 2 of 3 games (7 of 17 last season), KC let 3 of 3 WR1s reach it. KC secondary missing CB Jadon Canady.",
+   "id": "10213",
+   "cx": 0.15,
+   "nw": ""
+  },
+  {
+   "pl": "Tre Tucker",
+   "tm": "LV",
+   "g": "KCLV",
+   "gl": "KC @ LV",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 25,
+   "ask": 64,
+   "q": 62.5,
+   "p": 0.7776,
+   "sc": 64.0,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04KCLV-LVTTUCKER1-25",
+   "ev": "KXNFLRECYDS-26OCT04KCLV",
+   "wy": "Cleared 25+ in 3 of 3 games (12 of 17 last season), Sleeper projects 39.6, KC let 3 of 3 WR1s reach it. KC secondary missing CB Jadon Canady.",
+   "id": "10213",
+   "cx": 0.15,
+   "nw": ""
+  },
+  {
+   "pl": "Tre Tucker",
+   "tm": "LV",
+   "g": "KCLV",
+   "gl": "KC @ LV",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 15,
+   "ask": 68,
+   "q": 66.5,
+   "p": 0.8351,
+   "sc": 75.3,
+   "est": 1,
+   "tk": "KXNFLRECYDS-26OCT04KCLV-LVTTUCKER1-15",
+   "ev": "KXNFLRECYDS-26OCT04KCLV",
+   "wy": "Cleared 15+ in 3 of 3 games (14 of 17 last season), Sleeper projects 39.6, KC let 3 of 3 WR1s reach it. KC secondary missing CB Jadon Canady.",
+   "id": "10213",
+   "cx": 0.15,
+   "nw": ""
+  },
+  {
    "pl": "Kenneth Walker",
    "tm": "KC",
    "g": "KCLV",
@@ -5629,10 +5679,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 63,
-   "q": 61.5,
+   "ask": 68,
+   "q": 66.5,
    "p": 0.6739,
-   "sc": 49.1,
+   "sc": 48.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04KCLV-KCKWALKER9-15",
    "ev": "KXNFLRECYDS-26OCT04KCLV",
@@ -5819,6 +5869,46 @@
    "wy": "Cleared 15+ in 3 of 3 games (13 of 17 last season), Sleeper projects 31.7, CAR let 3 of 3 lead RBs reach it. His share of targets is up from 13% to 26%. DET projected for 28 pts (O/U 51.5).",
    "id": "9221",
    "cx": 0,
+   "nw": ""
+  },
+  {
+   "pl": "Isaac TeSlaa",
+   "tm": "DET",
+   "g": "DETCAR",
+   "gl": "DET @ CAR",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 25,
+   "ask": 38,
+   "q": 37.0,
+   "p": 0.4637,
+   "sc": 37.7,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04DETCAR-DETITESLAA18-25",
+   "ev": "KXNFLRECYDS-26OCT04DETCAR",
+   "wy": "Cleared 25+ in 2 of 3 games (4 of 17 last season), CAR let 1 of 3 WR3s reach it. DET projected for 28 pts (O/U 51.5). Tyler Conklin out, more targets to go around. Watch: DET favored by 4.5, may not need to throw late.",
+   "id": "12535",
+   "cx": 0.2,
+   "nw": ""
+  },
+  {
+   "pl": "Isaac TeSlaa",
+   "tm": "DET",
+   "g": "DETCAR",
+   "gl": "DET @ CAR",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 15,
+   "ask": 56,
+   "q": 55.5,
+   "p": 0.5832,
+   "sc": 43.5,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT04DETCAR-DETITESLAA18-15",
+   "ev": "KXNFLRECYDS-26OCT04DETCAR",
+   "wy": "Cleared 15+ in 2 of 3 games (6 of 17 last season), Sleeper projects 20.6, CAR let 1 of 3 WR3s reach it. DET projected for 28 pts (O/U 51.5). Tyler Conklin out, more targets to go around. Watch: DET favored by 4.5, may not need to throw late.",
+   "id": "12535",
+   "cx": 0.2,
    "nw": ""
   },
   {
@@ -6342,86 +6432,6 @@
    "nw": ""
   },
   {
-   "pl": "Courtland Sutton",
-   "tm": "DEN",
-   "g": "DENSF",
-   "gl": "DEN @ SF",
-   "st": "rec",
-   "pr": "Receptions",
-   "ln": 1,
-   "ask": 82,
-   "q": 80.5,
-   "p": 0.8904,
-   "sc": 79.9,
-   "est": 1,
-   "tk": "KXNFLREC-26OCT04DENSF-DENCSUTTON14-1",
-   "ev": "KXNFLREC-26OCT04DENSF",
-   "wy": "Cleared 1+ in 3 of 3 games (17 of 17 last season), Sleeper projects 3.3, SF let 3 of 3 WR2s reach it. Dallen Bentley out, more targets to go around. SF secondary missing CB Ephesians Prysock.",
-   "id": "5045",
-   "cx": 0.35,
-   "nw": ""
-  },
-  {
-   "pl": "Evan Engram",
-   "tm": "DEN",
-   "g": "DENSF",
-   "gl": "DEN @ SF",
-   "st": "rec",
-   "pr": "Receptions",
-   "ln": 1,
-   "ask": 79,
-   "q": 77.5,
-   "p": 0.8067,
-   "sc": 59.1,
-   "est": 0,
-   "tk": "KXNFLREC-26OCT04DENSF-DENEENGRAM1-1",
-   "ev": "KXNFLREC-26OCT04DENSF",
-   "wy": "Cleared 1+ in 2 of 3 games (15 of 16 last season), Sleeper projects 2.3, SF let 3 of 3 TE1s reach it. His share of targets fell from 19% to 6%. Dallen Bentley out, more targets to go around. SF secondary missing CB Ephesians Prysock.",
-   "id": "4066",
-   "cx": 0.35,
-   "nw": ""
-  },
-  {
-   "pl": "Courtland Sutton",
-   "tm": "DEN",
-   "g": "DENSF",
-   "gl": "DEN @ SF",
-   "st": "rec",
-   "pr": "Receptions",
-   "ln": 2,
-   "ask": 79,
-   "q": 77.5,
-   "p": 0.8292,
-   "sc": 67.6,
-   "est": 0,
-   "tk": "KXNFLREC-26OCT04DENSF-DENCSUTTON14-2",
-   "ev": "KXNFLREC-26OCT04DENSF",
-   "wy": "Cleared 2+ in 3 of 3 games (13 of 17 last season), Sleeper projects 3.3, SF let 3 of 3 WR2s reach it. Dallen Bentley out, more targets to go around. SF secondary missing CB Ephesians Prysock.",
-   "id": "5045",
-   "cx": 0.35,
-   "nw": ""
-  },
-  {
-   "pl": "Tre Tucker",
-   "tm": "LV",
-   "g": "KCLV",
-   "gl": "KC @ LV",
-   "st": "rec",
-   "pr": "Receptions",
-   "ln": 2,
-   "ask": 82,
-   "q": 80.5,
-   "p": 0.8453,
-   "sc": 72.6,
-   "est": 1,
-   "tk": "KXNFLREC-26OCT04KCLV-LVTTUCKER1-2",
-   "ev": "KXNFLREC-26OCT04KCLV",
-   "wy": "Cleared 2+ in 3 of 3 games (16 of 17 last season), Sleeper projects 3, KC let 3 of 3 WR1s reach it. KC secondary missing CB Jadon Canady.",
-   "id": "10213",
-   "cx": 0.15,
-   "nw": ""
-  },
-  {
    "pl": "Kenneth Walker",
    "tm": "KC",
    "g": "KCLV",
@@ -6558,6 +6568,66 @@
    "ev": "KXNFLREC-26OCT04DETCAR",
    "wy": "Cleared 2+ in 3 of 3 games (14 of 17 last season), Sleeper projects 3.7, CAR let 3 of 3 WR2s reach it. His share of targets fell from 23% to 13%. DET projected for 28 pts (O/U 51.5). Tyler Conklin out, more targets to go around. Watch: DET favored by 4.5, may not need to throw late.",
    "id": "8148",
+   "cx": 0.2,
+   "nw": ""
+  },
+  {
+   "pl": "Isaac TeSlaa",
+   "tm": "DET",
+   "g": "DETCAR",
+   "gl": "DET @ CAR",
+   "st": "rec",
+   "pr": "Receptions",
+   "ln": 2,
+   "ask": 47,
+   "q": 46.5,
+   "p": 0.5536,
+   "sc": 44.8,
+   "est": 0,
+   "tk": "KXNFLREC-26OCT04DETCAR-DETITESLAA18-2",
+   "ev": "KXNFLREC-26OCT04DETCAR",
+   "wy": "Cleared 2+ in 2 of 3 games (4 of 17 last season), CAR let 2 of 3 WR3s reach it. DET projected for 28 pts (O/U 51.5). Tyler Conklin out, more targets to go around. Watch: DET favored by 4.5, may not need to throw late.",
+   "id": "12535",
+   "cx": 0.2,
+   "nw": ""
+  },
+  {
+   "pl": "Amon-Ra St. Brown",
+   "tm": "DET",
+   "g": "DETCAR",
+   "gl": "DET @ CAR",
+   "st": "rec",
+   "pr": "Receptions",
+   "ln": 8,
+   "ask": 42,
+   "q": 41.5,
+   "p": 0.4629,
+   "sc": 35.9,
+   "est": 0,
+   "tk": "KXNFLREC-26OCT04DETCAR-DETASTBROWN14-8",
+   "ev": "KXNFLREC-26OCT04DETCAR",
+   "wy": "Cleared 8+ in 2 of 3 games (8 of 17 last season), CAR let 1 of 3 WR1s reach it. His share of targets fell from 36% to 26%. DET projected for 28 pts (O/U 51.5). Tyler Conklin out, more targets to go around. Watch: DET favored by 4.5, may not need to throw late.",
+   "id": "7547",
+   "cx": 0.2,
+   "nw": ""
+  },
+  {
+   "pl": "Amon-Ra St. Brown",
+   "tm": "DET",
+   "g": "DETCAR",
+   "gl": "DET @ CAR",
+   "st": "rec",
+   "pr": "Receptions",
+   "ln": 7,
+   "ask": 55,
+   "q": 54.5,
+   "p": 0.5273,
+   "sc": 37.6,
+   "est": 0,
+   "tk": "KXNFLREC-26OCT04DETCAR-DETASTBROWN14-7",
+   "ev": "KXNFLREC-26OCT04DETCAR",
+   "wy": "Cleared 7+ in 2 of 3 games (10 of 17 last season), CAR let 1 of 3 WR1s reach it. His share of targets fell from 36% to 26%. DET projected for 28 pts (O/U 51.5). Tyler Conklin out, more targets to go around. Watch: DET favored by 4.5, may not need to throw late.",
+   "id": "7547",
    "cx": 0.2,
    "nw": ""
   },
@@ -7005,7 +7075,7 @@
    2,
    3
   ],
-  "generated": "2026-10-04T16:30:33-07:00",
+  "generated": "2026-10-04T16:37:39-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [
    "Some markets weren't open when this was pulled. MIA @ MIN: no priced passing, rushing markets yet."
@@ -7022,9 +7092,9 @@
   "ctx_sources": {
    "lines": "2 games",
    "weather": "3 outdoor games",
-   "injuries": "268 players listed",
+   "injuries": "269 players listed",
    "news": "2 players in headlines",
-   "sleeper_trending": "42 board players trending",
+   "sleeper_trending": "41 board players trending",
    "reddit": "unavailable"
   },
   "ovr_note": ""
