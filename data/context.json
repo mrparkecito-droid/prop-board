@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T19:01:03+00:00",
+ "generated": "2026-10-04T19:31:04+00:00",
  "games": {
   "NEBUF": {
    "home": "BUF",
@@ -11,7 +11,7 @@
    "total": null,
    "espn_wx": {
     "desc": "3",
-    "temp": 67
+    "temp": 65
    },
    "wx": {
     "wind": 11,
@@ -31,7 +31,7 @@
    "total": null,
    "espn_wx": {
     "desc": "1",
-    "temp": 72
+    "temp": 74
    },
    "wx": {
     "wind": 7,
@@ -71,7 +71,7 @@
    "total": null,
    "espn_wx": {
     "desc": "12",
-    "temp": 59
+    "temp": 61
    },
    "wx": {
     "wind": 7,
@@ -111,7 +111,7 @@
    "total": null,
    "espn_wx": {
     "desc": "6",
-    "temp": 92
+    "temp": 90
    },
    "wx": {
     "wind": 2,
@@ -130,7 +130,7 @@
    "spread": {},
    "total": null,
    "espn_wx": {
-    "desc": "12",
+    "desc": "7",
     "temp": 63
    },
    "wx": {
@@ -199,7 +199,7 @@
    "total": 48.5,
    "espn_wx": {
     "desc": "Mostly sunny",
-    "temp": 90
+    "temp": 91
    },
    "wx": {
     "wind": 7,
@@ -222,7 +222,7 @@
    "total": 42.5,
    "espn_wx": {
     "desc": "Mostly cloudy w/ showers",
-    "temp": 67
+    "temp": 63
    },
    "wx": {
     "wind": 4,
@@ -339,13 +339,23 @@
     "status": "Out"
    },
    {
-    "name": "Lamar Jackson",
-    "pos": "QB",
+    "name": "Marlon Humphrey",
+    "pos": "CB",
     "status": "Questionable"
    },
    {
-    "name": "Marlon Humphrey",
-    "pos": "CB",
+    "name": "Durham Smythe",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Andrew Vorhees",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
+    "name": "Lamar Jackson",
+    "pos": "QB",
     "status": "Questionable"
    },
    {
@@ -365,6 +375,16 @@
    }
   ],
   "BUF": [
+   {
+    "name": "Dee Alford",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Ed Oliver",
+    "pos": "DT",
+    "status": "Questionable"
+   },
    {
     "name": "Te'Cory Couch",
     "pos": "CB",
@@ -561,6 +581,11 @@
   ],
   "DAL": [
    {
+    "name": "Alijah Clark",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
     "name": "Camden Brown",
     "pos": "WR",
     "status": "Out"
@@ -598,8 +623,28 @@
   ],
   "DEN": [
    {
+    "name": "Dallen Bentley",
+    "pos": "TE",
+    "status": "Out"
+   },
+   {
     "name": "Dondrea Tillman",
     "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "Tyler Onyedim",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Kage Casey",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Sam Ehlinger",
+    "pos": "QB",
     "status": "Out"
    }
   ],
@@ -621,6 +666,11 @@
    }
   ],
   "GB": [
+   {
+    "name": "Edgerrin Cooper",
+    "pos": "LB",
+    "status": "Questionable"
+   },
    {
     "name": "Chris Brooks",
     "pos": "RB",
@@ -653,6 +703,11 @@
    }
   ],
   "HOU": [
+   {
+    "name": "Jaden Crumedy",
+    "pos": "DT",
+    "status": "Questionable"
+   },
    {
     "name": "Jaylin Smith",
     "pos": "CB",
@@ -723,6 +778,11 @@
   ],
   "JAX": [
    {
+    "name": "Eric Murray",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
     "name": "Caleb Ransaw",
     "pos": "S",
     "status": "Questionable"
@@ -765,22 +825,67 @@
   ],
   "KC": [
    {
+    "name": "Jared Wiley",
+    "pos": "TE",
+    "status": "Out"
+   },
+   {
+    "name": "Garrett Nussmeier",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Diego Pounds",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Jack Pyburn",
+    "pos": "LB",
+    "status": "Out"
+   },
+   {
     "name": "Josh Simmons",
     "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Jadon Canady",
+    "pos": "CB",
     "status": "Out"
    }
   ],
   "LV": [
    {
+    "name": "Aidan O'Connell",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
     "name": "Jackson Powers-Johnson",
     "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Jonah Laulu",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Darrell Luter Jr.",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Tristin McCollum",
+    "pos": "S",
     "status": "Out"
    }
   ],
   "LAC": [
    {
-    "name": "Dalvin Tomlinson",
-    "pos": "DT",
+    "name": "DJ Uiagalelei",
+    "pos": "QB",
     "status": "Out"
    },
    {
@@ -789,29 +894,24 @@
     "status": "Out"
    },
    {
+    "name": "Dalvin Tomlinson",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Derwin James Jr.",
+    "pos": "S",
+    "status": "Out"
+   },
+   {
     "name": "Charlie Kolar",
     "pos": "TE",
     "status": "Out"
    },
    {
-    "name": "Donte Jackson",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Elijah Molden",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Trey Lance",
-    "pos": "QB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Derwin James Jr.",
-    "pos": "S",
-    "status": "Questionable"
+    "name": "Alex Harkey",
+    "pos": "G",
+    "status": "Out"
    },
    {
     "name": "Kayode Awosika",
@@ -820,11 +920,6 @@
    }
   ],
   "LAR": [
-   {
-    "name": "Konata Mumpfield",
-    "pos": "WR",
-    "status": "Questionable"
-   },
    {
     "name": "Ty Simpson",
     "pos": "QB",
@@ -937,6 +1032,11 @@
   ],
   "NE": [
    {
+    "name": "Mack Hollins",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Reggie Gilliam",
     "pos": "FB",
     "status": "Questionable"
@@ -1001,13 +1101,18 @@
   ],
   "NYG": [
    {
-    "name": "Jason Pinnock",
-    "pos": "S",
+    "name": "Chauncey Golston",
+    "pos": "DE",
     "status": "Questionable"
    },
    {
     "name": "Braxton Berrios",
     "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Jason Pinnock",
+    "pos": "S",
     "status": "Questionable"
    },
    {
@@ -1048,6 +1153,16 @@
   ],
   "NYJ": [
    {
+    "name": "Jarvis Brownlee Jr.",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Braiden McGregor",
+    "pos": "DE",
+    "status": "Questionable"
+   },
+   {
     "name": "Kingsley Enagbare",
     "pos": "LB",
     "status": "Out"
@@ -1084,6 +1199,16 @@
    }
   ],
   "PHI": [
+   {
+    "name": "Jonathan Greenard",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Quinyon Mitchell",
+    "pos": "CB",
+    "status": "Questionable"
+   },
    {
     "name": "Saquon Barkley",
     "pos": "RB",
@@ -1174,51 +1299,81 @@
   ],
   "SF": [
    {
-    "name": "Mike Evans",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Dre Greenlaw",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jaden Dugger",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Mykel Williams",
-    "pos": "DE",
+    "name": "James Thompson Jr.",
+    "pos": "DT",
     "status": "Out"
    },
    {
-    "name": "Keion White",
-    "pos": "DE",
-    "status": "Questionable"
+    "name": "Ephesians Prysock",
+    "pos": "CB",
+    "status": "Out"
    },
    {
-    "name": "James Thompson Jr.",
-    "pos": "DT",
+    "name": "Kurtis Rourke",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Jordan James",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
+    "name": "Enrique Cruz Jr.",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Tatum Bethune",
+    "pos": "LB",
     "status": "Out"
    },
    {
     "name": "Nick Bosa",
     "pos": "DE",
     "status": "Out"
+   },
+   {
+    "name": "Mykel Williams",
+    "pos": "DE",
+    "status": "Out"
    }
   ],
   "SEA": [
    {
-    "name": "Ty Okada",
-    "pos": "S",
-    "status": "Questionable"
+    "name": "Avery Smith",
+    "pos": "CB",
+    "status": "Out"
    },
    {
     "name": "Chazz Surratt",
     "pos": "LB",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Jalen Milroe",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Ty Okada",
+    "pos": "S",
+    "status": "Out"
+   },
+   {
+    "name": "Brandon Pili",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Nick Kallerup",
+    "pos": "TE",
+    "status": "Out"
+   },
+   {
+    "name": "Montorie Foster Jr.",
+    "pos": "WR",
+    "status": "Out"
    },
    {
     "name": "Zach Charbonnet",
@@ -1364,6 +1519,10 @@
   ]
  },
  "news": {
+  "saquon barkley": {
+   "h": "Eagles RB Saquon Barkley leaves game with hamstring injury",
+   "t": "2026-10-04T18:26:15Z"
+  },
   "kyle monangai": {
    "h": "NFL Week 4's best arrivals, led by Bears RB Kyle Monangai",
    "t": "2026-10-04T17:04:18Z"
@@ -1403,201 +1562,189 @@
   "jaxon smith njigba": {
    "h": "Seahawks WR Jaxon Smith-Njigba off to a historic start, but is it sustainable?",
    "t": "2026-10-03T10:00:05Z"
-  },
-  "jameis winston": {
-   "h": "Jameis Winston has time to prove he's the New York Giants' starter",
-   "t": "2026-10-03T10:00:11Z"
-  },
-  "jacoby brissett": {
-   "h": "Why Bill Parcells considers Jacoby Brissett to be like a son",
-   "t": "2026-10-03T14:35:29Z"
   }
  },
  "trend": {
   "emanuel wilson": {
    "rank": 1,
-   "adds": 2111688
+   "adds": 2131290
   },
   "roman wilson": {
    "rank": 2,
-   "adds": 848286
+   "adds": 866196
   },
   "jauan jennings": {
    "rank": 3,
-   "adds": 832811
+   "adds": 856394
   },
   "isaiah davis": {
    "rank": 4,
-   "adds": 439254
+   "adds": 440055
   },
   "darren waller": {
    "rank": 5,
-   "adds": 398358
+   "adds": 404046
   },
   "brycen tremayne": {
    "rank": 6,
-   "adds": 374589
+   "adds": 393669
   },
   "tyler higbee": {
    "rank": 7,
-   "adds": 296271
+   "adds": 297558
   },
   "tyson bagent": {
    "rank": 8,
-   "adds": 220362
+   "adds": 221226
   },
   "austin ekeler": {
    "rank": 9,
-   "adds": 198984
+   "adds": 199772
   },
   "jordan addison": {
    "rank": 10,
-   "adds": 193887
+   "adds": 197991
   },
   "makai lemon": {
    "rank": 12,
-   "adds": 184900
+   "adds": 185108
   },
   "dontayvion wicks": {
    "rank": 14,
-   "adds": 174201
+   "adds": 174537
   },
   "malik washington": {
    "rank": 15,
-   "adds": 158512
+   "adds": 162520
   },
   "darius cooper": {
    "rank": 16,
-   "adds": 136640
+   "adds": 152054
   },
   "cj stroud": {
    "rank": 17,
-   "adds": 135632
+   "adds": 139335
   },
   "kenyon sadiq": {
-   "rank": 18,
-   "adds": 126252
+   "rank": 19,
+   "adds": 126765
   },
   "alvin kamara": {
    "rank": 20,
-   "adds": 123168
-  },
-  "chris bell": {
-   "rank": 21,
-   "adds": 103257
-  },
-  "jacory croskey merritt": {
-   "rank": 22,
-   "adds": 102924
-  },
-  "keaton mitchell": {
-   "rank": 23,
-   "adds": 102519
+   "adds": 124904
   },
   "tank bigsby": {
+   "rank": 21,
+   "adds": 110663
+  },
+  "keaton mitchell": {
+   "rank": 22,
+   "adds": 106371
+  },
+  "chris bell": {
+   "rank": 23,
+   "adds": 104636
+  },
+  "jacory croskey merritt": {
    "rank": 24,
-   "adds": 100919
+   "adds": 103608
   },
   "jakobi meyers": {
    "rank": 25,
-   "adds": 99450
+   "adds": 99714
   },
   "marshawn lloyd": {
    "rank": 26,
-   "adds": 97218
+   "adds": 97974
   },
   "mack hollins": {
    "rank": 27,
-   "adds": 97149
-  },
-  "konata mumpfield": {
-   "rank": 28,
-   "adds": 93357
+   "adds": 97440
   },
   "kirk cousins": {
+   "rank": 28,
+   "adds": 96880
+  },
+  "konata mumpfield": {
    "rank": 30,
-   "adds": 91664
+   "adds": 93492
   },
   "tre harris": {
    "rank": 31,
-   "adds": 89708
+   "adds": 90504
   },
   "brenton strange": {
    "rank": 33,
-   "adds": 82224
+   "adds": 83349
   },
   "laquon treadwell": {
    "rank": 34,
-   "adds": 76740
+   "adds": 77385
+  },
+  "romeo doubs": {
+   "rank": 35,
+   "adds": 71040
   },
   "brian robinson": {
-   "rank": 35,
-   "adds": 67056
+   "rank": 36,
+   "adds": 68316
   },
   "skyy moore": {
-   "rank": 36,
-   "adds": 65576
+   "rank": 37,
+   "adds": 65608
   },
   "kc concepcion": {
-   "rank": 37,
-   "adds": 64143
+   "rank": 39,
+   "adds": 65241
   },
   "deshaun watson": {
-   "rank": 39,
-   "adds": 59416
+   "rank": 40,
+   "adds": 62696
   },
   "pat bryant": {
-   "rank": 40,
-   "adds": 59304
-  },
-  "justice hill": {
    "rank": 41,
-   "adds": 55404
+   "adds": 61232
   },
   "kyler murray": {
    "rank": 42,
-   "adds": 54408
+   "adds": 56336
+  },
+  "justice hill": {
+   "rank": 43,
+   "adds": 55656
   },
   "kalif raymond": {
-   "rank": 43,
-   "adds": 54242
-  },
-  "jaylen wright": {
    "rank": 44,
-   "adds": 53190
+   "adds": 54396
   },
   "aj barner": {
    "rank": 45,
-   "adds": 53022
+   "adds": 54204
   },
   "ollie gordon": {
    "rank": 46,
-   "adds": 52689
+   "adds": 53746
   },
-  "kendre miller": {
+  "jaylen wright": {
    "rank": 47,
-   "adds": 52194
+   "adds": 53622
   },
   "devaughn vele": {
    "rank": 48,
-   "adds": 51975
+   "adds": 53522
   },
-  "romeo doubs": {
+  "kendre miller": {
    "rank": 49,
-   "adds": 51544
-  },
-  "isaiah williams": {
-   "rank": 50,
-   "adds": 50070
+   "adds": 52668
   }
  },
  "buzz": {},
  "sources": {
   "lines": "6 games",
   "weather": "10 outdoor games",
-  "injuries": "205 players listed",
-  "news": "12 players in headlines",
-  "sleeper_trending": "44 board players trending",
+  "injuries": "236 players listed",
+  "news": "11 players in headlines",
+  "sleeper_trending": "43 board players trending",
   "reddit": "unavailable"
  }
 }
