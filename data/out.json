@@ -11,8 +11,8 @@
    "stat": "pass",
    "prop": "Passing Yards",
    "line": 150,
-   "ask": 87,
-   "bid": 86,
+   "ask": 88,
+   "bid": 87,
    "vals": [
     166.0,
     210.0,
@@ -44,20 +44,20 @@
    "per": 291.7,
    "dstat": "pass yds",
    "p": 87,
-   "roi": 0,
+   "roi": -1,
    "pp": 93,
    "hs": 85,
    "dhs": 80,
    "rks": 97,
-   "vs": 50,
+   "vs": 49,
    "agree": 3,
-   "score": 83.3,
+   "score": 83.1,
    "flags": [],
    "pc": 0.871,
    "praw": 0.871,
    "rg": "QB",
    "est": false,
-   "mid": 86.5,
+   "mid": 87.5,
    "tk": "KXNFLPASSYDS-26OCT04INDWAS-INDDJONES17-150",
    "ev": "KXNFLPASSYDS-26OCT04INDWAS",
    "ctx": 0.15,
@@ -2065,6 +2065,106 @@
    "news": ""
   },
   {
+   "game": "TENBAL",
+   "glabel": "TEN @ BAL",
+   "player": "Cam Ward",
+   "team": "TEN",
+   "opp": "BAL",
+   "pos": "QB",
+   "role": "QB",
+   "stat": "pass",
+   "prop": "Passing Yards",
+   "line": 125,
+   "ask": 84,
+   "bid": 83,
+   "vals": [
+    140.0,
+    183.0,
+    181.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 201.4,
+   "al": [
+    [
+     1,
+     "IND",
+     166.0
+    ],
+    [
+     2,
+     "NO",
+     252.0
+    ],
+    [
+     3,
+     "DAL",
+     276.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 14,
+   "per": 231.3,
+   "dstat": "pass yds",
+   "p": 86,
+   "roi": 2,
+   "pp": 92,
+   "hs": 79,
+   "dhs": 80,
+   "rks": 58,
+   "vs": 52,
+   "agree": 3,
+   "score": 79.0,
+   "flags": [],
+   "pc": 0.8563,
+   "praw": 0.8563,
+   "rg": "QB",
+   "est": false,
+   "mid": 83.5,
+   "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-125",
+   "ev": "KXNFLPASSYDS-26OCT04TENBAL",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.8,
+     "TEN a 11.5-pt underdog, trailing teams throw more"
+    ],
+    [
+     -0.5,
+     "TEN projected for only 16 pts (O/U 42.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 96,
+   "pu": 88,
+   "uinfo": {
+    "share": [
+     32.0,
+     20.0,
+     36.0
+    ],
+    "kind": "attempts",
+    "snap": 100,
+    "snap_last": 100,
+    "mu": 177.8,
+    "note": ""
+   },
+   "po": 13,
+   "pn": 17,
+   "pid": "12522",
+   "sx": 0.3,
+   "sxs": 65,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": null,
+   "rank": 21,
+   "why": "Cleared 125+ in 3 of 3 games (13 of 17 last season), Sleeper projects 201.4, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
+   "news": ""
+  },
+  {
    "game": "ARINYG",
    "glabel": "ARI @ NYG",
    "player": "Darnell Mooney",
@@ -2164,108 +2264,8 @@
     "same": true,
     "n": 2
    },
-   "rank": 21,
-   "why": "Cleared 15+ in 3 of 3 games (13 of 15 last season), Sleeper projects 24.3, ARI let 3 of 3 WR2s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson. Watch: NYG projected for only 21 pts (O/U 44.5).",
-   "news": ""
-  },
-  {
-   "game": "TENBAL",
-   "glabel": "TEN @ BAL",
-   "player": "Cam Ward",
-   "team": "TEN",
-   "opp": "BAL",
-   "pos": "QB",
-   "role": "QB",
-   "stat": "pass",
-   "prop": "Passing Yards",
-   "line": 125,
-   "ask": 85,
-   "bid": 83,
-   "vals": [
-    140.0,
-    183.0,
-    181.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 201.4,
-   "al": [
-    [
-     1,
-     "IND",
-     166.0
-    ],
-    [
-     2,
-     "NO",
-     252.0
-    ],
-    [
-     3,
-     "DAL",
-     276.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 14,
-   "per": 231.3,
-   "dstat": "pass yds",
-   "p": 86,
-   "roi": 1,
-   "pp": 92,
-   "hs": 79,
-   "dhs": 80,
-   "rks": 58,
-   "vs": 51,
-   "agree": 3,
-   "score": 78.8,
-   "flags": [],
-   "pc": 0.8563,
-   "praw": 0.8563,
-   "rg": "QB",
-   "est": false,
-   "mid": 84.0,
-   "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-125",
-   "ev": "KXNFLPASSYDS-26OCT04TENBAL",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     0.8,
-     "TEN a 11.5-pt underdog, trailing teams throw more"
-    ],
-    [
-     -0.5,
-     "TEN projected for only 15 pts (O/U 41.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 96,
-   "pu": 88,
-   "uinfo": {
-    "share": [
-     32.0,
-     20.0,
-     36.0
-    ],
-    "kind": "attempts",
-    "snap": 100,
-    "snap_last": 100,
-    "mu": 177.8,
-    "note": ""
-   },
-   "po": 13,
-   "pn": 17,
-   "pid": "12522",
-   "sx": 0.3,
-   "sxs": 65,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
    "rank": 22,
-   "why": "Cleared 125+ in 3 of 3 games (13 of 17 last season), Sleeper projects 201.4, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "why": "Cleared 15+ in 3 of 3 games (13 of 15 last season), Sleeper projects 24.3, ARI let 3 of 3 WR2s reach it, ARI allows the 10th most pass yds. ARI secondary missing S Dadrion Taylor-Demerson. Watch: NYG projected for only 21 pts (O/U 44.5).",
    "news": ""
   },
   {
@@ -2953,7 +2953,7 @@
     ],
     [
      -0.5,
-     "TEN projected for only 15 pts (O/U 41.5)"
+     "TEN projected for only 16 pts (O/U 42.5)"
     ]
    ],
    "status": null,
@@ -2985,7 +2985,7 @@
     "n": 3
    },
    "rank": 29,
-   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 47.8, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 47.8, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "news": ""
   },
   {
@@ -3057,7 +3057,7 @@
     ],
     [
      -0.5,
-     "TEN projected for only 15 pts (O/U 41.5)"
+     "TEN projected for only 16 pts (O/U 42.5)"
     ]
    ],
    "status": null,
@@ -3089,7 +3089,7 @@
     "n": 3
    },
    "rank": 30,
-   "why": "Cleared 2+ in 3 of 3 games (11 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "why": "Cleared 2+ in 3 of 3 games (11 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "news": ""
   },
   {
@@ -3477,7 +3477,7 @@
     ],
     [
      -0.5,
-     "TEN projected for only 15 pts (O/U 41.5)"
+     "TEN projected for only 16 pts (O/U 42.5)"
     ]
    ],
    "status": null,
@@ -3509,7 +3509,7 @@
     "n": 3
    },
    "rank": 34,
-   "why": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "why": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "news": ""
   },
   {
@@ -3613,111 +3613,6 @@
    "news": ""
   },
   {
-   "game": "INDWAS",
-   "glabel": "IND @ WAS",
-   "player": "Antonio Williams",
-   "team": "WAS",
-   "opp": "IND",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 69,
-   "bid": 68,
-   "vals": [
-    64.0,
-    24.0,
-    15.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 40.5,
-   "al": [
-    [
-     1,
-     "BAL",
-     53.0
-    ],
-    [
-     2,
-     "KC",
-     83.0
-    ],
-    [
-     3,
-     "HOU",
-     21.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 3,
-   "per": 291.0,
-   "dstat": "pass yds",
-   "p": 79,
-   "roi": 15,
-   "pp": 86,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 94,
-   "vs": 65,
-   "agree": 3,
-   "score": 76.2,
-   "flags": [],
-   "pc": 0.7923,
-   "praw": 0.7923,
-   "rg": "WR2",
-   "est": false,
-   "mid": 68.5,
-   "tk": "KXNFLRECYDS-26OCT04INDWAS-WASAWILLIAMS14-15",
-   "ev": "KXNFLRECYDS-26OCT04INDWAS",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     0.17,
-     "WAS a 4.5-pt underdog, trailing teams throw more"
-    ],
-    [
-     -0.11,
-     "WAS projected for only 21 pts (O/U 46.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 88,
-   "pu": 84,
-   "uinfo": {
-    "share": [
-     14,
-     9,
-     13
-    ],
-    "kind": "targets",
-    "snap": 43,
-    "snap_last": 41,
-    "mu": 31.9,
-    "note": ""
-   },
-   "po": 0,
-   "pn": 0,
-   "pid": "13301",
-   "sx": 0.06,
-   "sxs": 53,
-   "qf": -0.68,
-   "qfs": 16,
-   "qnote": "QB change: Marcus Mariota starts (Jayden Daniels is out). With him: cleared 15+ in 1 of 1 (15).",
-   "qinfo": {
-    "qb": "Marcus Mariota",
-    "same": false,
-    "with": 1,
-    "usual": "Jayden Daniels"
-   },
-   "rank": 36,
-   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 40.5, IND let 3 of 3 WR2s reach it, IND allows the 3rd most pass yds. QB change: Marcus Mariota starts (Jayden Daniels is out). With him: cleared 15+ in 1 of 1 (15). WAS a 4.5-pt underdog, trailing teams throw more. Watch: WAS projected for only 21 pts (O/U 46.5).",
-   "news": ""
-  },
-  {
    "game": "DALHOU",
    "glabel": "DAL @ HOU",
    "player": "Javonte Williams",
@@ -3813,7 +3708,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 37,
+   "rank": 36,
    "why": "Cleared 2+ in 3 of 3 games (9 of 16 last season), Sleeper projects 2.6, HOU let 3 of 3 lead RBs reach it, HOU allows the 8th most pass yds. His share of targets fell from 17% to 8%. HOU secondary missing S M.J. Stewart.",
    "news": ""
   },
@@ -3913,7 +3808,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 38,
+   "rank": 37,
    "why": "Cleared 4+ in 3 of 3 games (12 of 14 last season), Sleeper projects 6, HOU let 3 of 3 WR1s reach it, HOU allows the 8th most pass yds. HOU secondary missing S M.J. Stewart.",
    "news": ""
   },
@@ -4017,8 +3912,113 @@
     "same": true,
     "n": 3
    },
-   "rank": 39,
+   "rank": 38,
    "why": "Cleared 15+ in 3 of 3 games (12 of 14 last season), Sleeper projects 38.1, LV let 3 of 3 WR2s reach it. His share of targets fell from 24% to 9%. KC projected for 26 pts (O/U 47.5). Watch: KC favored by 4.5, may not need to throw late.",
+   "news": ""
+  },
+  {
+   "game": "INDWAS",
+   "glabel": "IND @ WAS",
+   "player": "Antonio Williams",
+   "team": "WAS",
+   "opp": "IND",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 70,
+   "bid": 69,
+   "vals": [
+    64.0,
+    24.0,
+    15.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 40.5,
+   "al": [
+    [
+     1,
+     "BAL",
+     53.0
+    ],
+    [
+     2,
+     "KC",
+     83.0
+    ],
+    [
+     3,
+     "HOU",
+     21.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 3,
+   "per": 291.0,
+   "dstat": "pass yds",
+   "p": 79,
+   "roi": 13,
+   "pp": 86,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 94,
+   "vs": 63,
+   "agree": 3,
+   "score": 76.0,
+   "flags": [],
+   "pc": 0.7923,
+   "praw": 0.7923,
+   "rg": "WR2",
+   "est": false,
+   "mid": 69.5,
+   "tk": "KXNFLRECYDS-26OCT04INDWAS-WASAWILLIAMS14-15",
+   "ev": "KXNFLRECYDS-26OCT04INDWAS",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.17,
+     "WAS a 4.5-pt underdog, trailing teams throw more"
+    ],
+    [
+     -0.11,
+     "WAS projected for only 21 pts (O/U 46.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 88,
+   "pu": 84,
+   "uinfo": {
+    "share": [
+     14,
+     9,
+     13
+    ],
+    "kind": "targets",
+    "snap": 43,
+    "snap_last": 41,
+    "mu": 31.9,
+    "note": ""
+   },
+   "po": 0,
+   "pn": 0,
+   "pid": "13301",
+   "sx": 0.06,
+   "sxs": 53,
+   "qf": -0.68,
+   "qfs": 16,
+   "qnote": "QB change: Marcus Mariota starts (Jayden Daniels is out). With him: cleared 15+ in 1 of 1 (15).",
+   "qinfo": {
+    "qb": "Marcus Mariota",
+    "same": false,
+    "with": 1,
+    "usual": "Jayden Daniels"
+   },
+   "rank": 39,
+   "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 40.5, IND let 3 of 3 WR2s reach it, IND allows the 3rd most pass yds. QB change: Marcus Mariota starts (Jayden Daniels is out). With him: cleared 15+ in 1 of 1 (15). WAS a 4.5-pt underdog, trailing teams throw more. Watch: WAS projected for only 21 pts (O/U 46.5).",
    "news": ""
   },
   {
@@ -4137,7 +4137,7 @@
    "stat": "rush",
    "prop": "Rushing Yards",
    "line": 50,
-   "ask": 85,
+   "ask": 86,
    "bid": 84,
    "vals": [
     83.0,
@@ -4170,20 +4170,20 @@
    "per": 128.7,
    "dstat": "rush yds",
    "p": 79,
-   "roi": -7,
+   "roi": -8,
    "pp": 81,
    "hs": 76,
    "dhs": 80,
    "rks": 84,
-   "vs": 43,
+   "vs": 42,
    "agree": 3,
-   "score": 75.7,
+   "score": 75.5,
    "flags": [],
    "pc": 0.7946,
    "praw": 0.7946,
    "rg": "RB1",
    "est": false,
-   "mid": 84.5,
+   "mid": 85.0,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-ATLBROBINSON7-50",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
    "ctx": 0.3,
@@ -4936,110 +4936,6 @@
    "news": ""
   },
   {
-   "game": "GBTB",
-   "glabel": "GB @ TB",
-   "player": "Christian Watson",
-   "team": "GB",
-   "opp": "TB",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 40,
-   "ask": 76,
-   "bid": 75,
-   "vals": [
-    147.0,
-    41.0,
-    96.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 70.9,
-   "al": [
-    [
-     1,
-     "CIN",
-     59.0
-    ],
-    [
-     2,
-     "CLE",
-     95.0
-    ],
-    [
-     3,
-     "MIN",
-     90.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 19,
-   "per": 220.0,
-   "dstat": "pass yds",
-   "p": 81,
-   "roi": 6,
-   "pp": 83,
-   "hs": 80,
-   "dhs": 80,
-   "rks": 42,
-   "vs": 56,
-   "agree": 3,
-   "score": 73.7,
-   "flags": [],
-   "pc": 0.8064,
-   "praw": 0.8064,
-   "rg": "WR1",
-   "est": false,
-   "mid": 75.5,
-   "tk": "KXNFLRECYDS-26OCT04GBTB-GBCWATSON9-40",
-   "ev": "KXNFLRECYDS-26OCT04GBTB",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "TB secondary missing CB Benjamin Morrison"
-    ],
-    [
-     -0.12,
-     "GB projected for only 21 pts (O/U 38.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 79,
-   "pu": 87,
-   "uinfo": {
-    "share": [
-     20,
-     38,
-     20
-    ],
-    "kind": "targets",
-    "snap": 83,
-    "snap_last": 80,
-    "mu": 101.7,
-    "note": ""
-   },
-   "po": 8,
-   "pn": 10,
-   "pid": "8167",
-   "sx": -0.12,
-   "sxs": 44,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Jordan Love",
-    "same": true,
-    "n": 3
-   },
-   "rank": 49,
-   "why": "Cleared 40+ in 3 of 3 games (8 of 10 last season), Sleeper projects 70.9, TB let 3 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison. Watch: GB projected for only 21 pts (O/U 38.5).",
-   "news": ""
-  },
-  {
    "game": "DETCAR",
    "glabel": "DET @ CAR",
    "player": "Jameson Williams",
@@ -5050,7 +4946,7 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 2,
-   "ask": 86,
+   "ask": 87,
    "bid": 84,
    "vals": [
     4.0,
@@ -5083,20 +4979,20 @@
    "per": 186.0,
    "dstat": "pass yds",
    "p": 85,
-   "roi": -1,
+   "roi": -2,
    "pp": 90,
    "hs": 81,
    "dhs": 80,
    "rks": 13,
-   "vs": 49,
+   "vs": 48,
    "agree": 3,
-   "score": 73.7,
+   "score": 73.5,
    "flags": [],
    "pc": 0.8537,
    "praw": 0.8537,
    "rg": "WR2",
    "est": false,
-   "mid": 85.0,
+   "mid": 85.5,
    "tk": "KXNFLREC-26OCT04DETCAR-DETJWILLIAMS1-2",
    "ev": "KXNFLREC-26OCT04DETCAR",
    "ctx": 0,
@@ -5139,8 +5035,112 @@
     "same": true,
     "n": 3
    },
-   "rank": 50,
+   "rank": 49,
    "why": "Cleared 2+ in 3 of 3 games (14 of 17 last season), Sleeper projects 3.7, CAR let 3 of 3 WR2s reach it. His share of targets fell from 23% to 13%. DET projected for 28 pts (O/U 51.5). Watch: DET favored by 3.5, may not need to throw late.",
+   "news": ""
+  },
+  {
+   "game": "GBTB",
+   "glabel": "GB @ TB",
+   "player": "Christian Watson",
+   "team": "GB",
+   "opp": "TB",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 40,
+   "ask": 77,
+   "bid": 76,
+   "vals": [
+    147.0,
+    41.0,
+    96.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 70.9,
+   "al": [
+    [
+     1,
+     "CIN",
+     59.0
+    ],
+    [
+     2,
+     "CLE",
+     95.0
+    ],
+    [
+     3,
+     "MIN",
+     90.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 19,
+   "per": 220.0,
+   "dstat": "pass yds",
+   "p": 81,
+   "roi": 5,
+   "pp": 83,
+   "hs": 80,
+   "dhs": 80,
+   "rks": 42,
+   "vs": 55,
+   "agree": 3,
+   "score": 73.4,
+   "flags": [],
+   "pc": 0.8064,
+   "praw": 0.8064,
+   "rg": "WR1",
+   "est": false,
+   "mid": 76.5,
+   "tk": "KXNFLRECYDS-26OCT04GBTB-GBCWATSON9-40",
+   "ev": "KXNFLRECYDS-26OCT04GBTB",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "TB secondary missing CB Benjamin Morrison"
+    ],
+    [
+     -0.12,
+     "GB projected for only 21 pts (O/U 38.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 79,
+   "pu": 87,
+   "uinfo": {
+    "share": [
+     20,
+     38,
+     20
+    ],
+    "kind": "targets",
+    "snap": 83,
+    "snap_last": 80,
+    "mu": 101.7,
+    "note": ""
+   },
+   "po": 8,
+   "pn": 10,
+   "pid": "8167",
+   "sx": -0.12,
+   "sxs": 44,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Jordan Love",
+    "same": true,
+    "n": 3
+   },
+   "rank": 50,
+   "why": "Cleared 40+ in 3 of 3 games (8 of 10 last season), Sleeper projects 70.9, TB let 3 of 3 WR1s reach it. TB secondary missing CB Benjamin Morrison. Watch: GB projected for only 21 pts (O/U 38.5).",
    "news": ""
   }
  ],
@@ -5221,10 +5221,10 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 150,
-   "ask": 87,
-   "q": 86.5,
+   "ask": 88,
+   "q": 87.5,
    "p": 0.871,
-   "sc": 83.3,
+   "sc": 83.1,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04INDWAS-INDDJONES17-150",
    "ev": "KXNFLPASSYDS-26OCT04INDWAS",
@@ -5348,7 +5348,7 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-200",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL",
-   "wy": "Cleared 200+ in 0 of 3 games (8 of 17 last season), Sleeper projects 201.4, BAL let 2 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 200+ in 0 of 3 games (8 of 17 last season), Sleeper projects 201.4, BAL let 2 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "12522",
    "cx": 0,
    "nw": ""
@@ -5368,7 +5368,7 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-175",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL",
-   "wy": "Cleared 175+ in 2 of 3 games (10 of 17 last season), Sleeper projects 201.4, BAL let 2 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 175+ in 2 of 3 games (10 of 17 last season), Sleeper projects 201.4, BAL let 2 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "12522",
    "cx": 0,
    "nw": ""
@@ -5388,7 +5388,7 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-150",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL",
-   "wy": "Cleared 150+ in 2 of 3 games (11 of 17 last season), Sleeper projects 201.4, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 150+ in 2 of 3 games (11 of 17 last season), Sleeper projects 201.4, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "12522",
    "cx": 0,
    "nw": ""
@@ -5401,14 +5401,14 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 125,
-   "ask": 85,
-   "q": 84.0,
+   "ask": 84,
+   "q": 83.5,
    "p": 0.8563,
-   "sc": 78.8,
+   "sc": 79.0,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-125",
    "ev": "KXNFLPASSYDS-26OCT04TENBAL",
-   "wy": "Cleared 125+ in 3 of 3 games (13 of 17 last season), Sleeper projects 201.4, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 125+ in 3 of 3 games (13 of 17 last season), Sleeper projects 201.4, BAL let 3 of 3 QBs reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "12522",
    "cx": 0,
    "nw": ""
@@ -5462,7 +5462,7 @@
    "pr": "Passing Yards",
    "ln": 125,
    "ask": 80,
-   "q": 78.5,
+   "q": 79.5,
    "p": 0.8461,
    "sc": 81.8,
    "est": 0,
@@ -5641,10 +5641,10 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 200,
-   "ask": 75,
-   "q": 73.5,
+   "ask": 73,
+   "q": 72.5,
    "p": 0.7529,
-   "sc": 75.9,
+   "sc": 76.3,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT04DETCAR-CARBYOUNG9-200",
    "ev": "KXNFLPASSYDS-26OCT04DETCAR",
@@ -6041,10 +6041,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 69,
-   "q": 68.5,
+   "ask": 70,
+   "q": 69.5,
    "p": 0.7923,
-   "sc": 76.2,
+   "sc": 76.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04INDWAS-WASAWILLIAMS14-15",
    "ev": "KXNFLRECYDS-26OCT04INDWAS",
@@ -6281,10 +6281,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 70,
-   "ask": 56,
-   "q": 55.5,
+   "ask": 57,
+   "q": 56.5,
    "p": 0.6739,
-   "sc": 63.7,
+   "sc": 63.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04DALHOU-DALCLAMB88-70",
    "ev": "KXNFLRECYDS-26OCT04DALHOU",
@@ -6421,10 +6421,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 76,
-   "q": 75.5,
+   "ask": 77,
+   "q": 76.5,
    "p": 0.8064,
-   "sc": 73.7,
+   "sc": 73.4,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04GBTB-GBCWATSON9-40",
    "ev": "KXNFLRECYDS-26OCT04GBTB",
@@ -6521,10 +6521,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 72,
-   "q": 71.5,
+   "ask": 73,
+   "q": 72.0,
    "p": 0.8057,
-   "sc": 80.3,
+   "sc": 80.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04JACCIN-JACJMEYERS3-25",
    "ev": "KXNFLRECYDS-26OCT04JACCIN",
@@ -6682,7 +6682,7 @@
    "pr": "Receiving Yards",
    "ln": 50,
    "ask": 43,
-   "q": 42.0,
+   "q": 42.5,
    "p": 0.5132,
    "sc": 48.6,
    "est": 0,
@@ -6782,13 +6782,13 @@
    "pr": "Receiving Yards",
    "ln": 50,
    "ask": 43,
-   "q": 42.0,
+   "q": 42.5,
    "p": 0.5638,
    "sc": 50.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-50",
    "ev": "KXNFLRECYDS-26OCT04TENBAL",
-   "wy": "Cleared 50+ in 1 of 3 games, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 50+ in 1 of 3 games, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "13279",
    "cx": 0,
    "nw": ""
@@ -6808,7 +6808,7 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-40",
    "ev": "KXNFLRECYDS-26OCT04TENBAL",
-   "wy": "Cleared 40+ in 1 of 3 games, Sleeper projects 47.8, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 40+ in 1 of 3 games, Sleeper projects 47.8, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "13279",
    "cx": 0,
    "nw": ""
@@ -6821,14 +6821,14 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 76,
-   "q": 75.0,
+   "ask": 75,
+   "q": 74.5,
    "p": 0.8189,
-   "sc": 77.3,
+   "sc": 77.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-25",
    "ev": "KXNFLRECYDS-26OCT04TENBAL",
-   "wy": "Cleared 25+ in 3 of 3 games, Sleeper projects 47.8, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 25+ in 3 of 3 games, Sleeper projects 47.8, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "13279",
    "cx": 0,
    "nw": ""
@@ -6848,7 +6848,7 @@
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04TENBAL-TENCTATE14-15",
    "ev": "KXNFLRECYDS-26OCT04TENBAL",
-   "wy": "Cleared 15+ in 3 of 3 games, Sleeper projects 47.8, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 15+ in 3 of 3 games, Sleeper projects 47.8, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "13279",
    "cx": 0,
    "nw": ""
@@ -6902,7 +6902,7 @@
    "pr": "Receiving Yards",
    "ln": 25,
    "ask": 73,
-   "q": 71.5,
+   "q": 72.0,
    "p": 0.7443,
    "sc": 74.8,
    "est": 0,
@@ -6981,10 +6981,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 65,
-   "q": 63.5,
+   "ask": 64,
+   "q": 63.0,
    "p": 0.6761,
-   "sc": 53.2,
+   "sc": 53.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT04KCLV-KCXWORTHY1-25",
    "ev": "KXNFLRECYDS-26OCT04KCLV",
@@ -7101,10 +7101,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 51,
-   "q": 50.5,
+   "ask": 52,
+   "q": 51.0,
    "p": 0.6163,
-   "sc": 59.6,
+   "sc": 59.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOJJOHNSON83-40",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
@@ -7301,10 +7301,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 100,
-   "ask": 38,
-   "q": 37.0,
+   "ask": 37,
+   "q": 36.5,
    "p": 0.5092,
-   "sc": 50.2,
+   "sc": 50.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-100",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
@@ -7848,7 +7848,7 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-3",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "wy": "Cleared 3+ in 1 of 3 games (7 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 3+ in 1 of 3 games (7 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "12502",
    "cx": 0,
    "nw": ""
@@ -7868,7 +7868,7 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENGHELM84-2",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "wy": "Cleared 2+ in 3 of 3 games (11 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 2+ in 3 of 3 games (11 of 16 last season), Sleeper projects 3.5, BAL let 3 of 3 TE1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "12502",
    "cx": 0,
    "nw": ""
@@ -7888,7 +7888,7 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-5",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "wy": "Cleared 5+ in 1 of 3 games, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 5+ in 1 of 3 games, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "13279",
    "cx": 0,
    "nw": ""
@@ -7908,7 +7908,7 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-4",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "wy": "Cleared 4+ in 2 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 4+ in 2 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "13279",
    "cx": 0,
    "nw": ""
@@ -7928,7 +7928,7 @@
    "est": 0,
    "tk": "KXNFLREC-26OCT04TENBAL-TENCTATE14-3",
    "ev": "KXNFLREC-26OCT04TENBAL",
-   "wy": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 15 pts (O/U 41.5).",
+   "wy": "Cleared 3+ in 3 of 3 games, Sleeper projects 4.3, BAL let 3 of 3 WR1s reach it. TEN a 11.5-pt underdog, trailing teams throw more. Watch: TEN projected for only 16 pts (O/U 42.5).",
    "id": "13279",
    "cx": 0,
    "nw": ""
@@ -8081,10 +8081,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 2,
-   "ask": 86,
-   "q": 85.0,
+   "ask": 87,
+   "q": 85.5,
    "p": 0.8537,
-   "sc": 73.7,
+   "sc": 73.5,
    "est": 0,
    "tk": "KXNFLREC-26OCT04DETCAR-DETJWILLIAMS1-2",
    "ev": "KXNFLREC-26OCT04DETCAR",
@@ -8181,10 +8181,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 3,
-   "ask": 72,
-   "q": 69.5,
+   "ask": 71,
+   "q": 69.0,
    "p": 0.8336,
-   "sc": 81.8,
+   "sc": 82.1,
    "est": 0,
    "tk": "KXNFLREC-26OCT05ATLNO-NOJJOHNSON83-3",
    "ev": "KXNFLREC-26OCT05ATLNO",
@@ -8317,7 +8317,7 @@
    2,
    3
   ],
-  "generated": "2026-10-04T04:06:20-07:00",
+  "generated": "2026-10-04T04:30:31-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 4 \u00b7 Sun Oct 4 \u2013 Mon Oct 5",
@@ -8341,8 +8341,8 @@
   "ctx_sources": {
    "lines": "15 games",
    "weather": "10 outdoor games",
-   "injuries": "138 players listed",
-   "news": "11 players in headlines",
+   "injuries": "139 players listed",
+   "news": "12 players in headlines",
    "sleeper_trending": "44 board players trending",
    "reddit": "unavailable"
   },
