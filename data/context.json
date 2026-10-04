@@ -1,19 +1,6 @@
 {
- "generated": "2026-10-04T23:00:59+00:00",
+ "generated": "2026-10-04T23:19:17+00:00",
  "games": {
-  "MIAMIN": {
-   "home": "MIN",
-   "away": "MIA",
-   "kick": "2026-10-04T20:05Z",
-   "indoor": true,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 67
-   }
-  },
   "KCLV": {
    "home": "LV",
    "away": "KC",
@@ -37,7 +24,7 @@
    "total": null,
    "espn_wx": {
     "desc": "3",
-    "temp": 88
+    "temp": 91
    },
    "wx": {
     "wind": 8,
@@ -67,6 +54,15 @@
     "temp": 64
    }
   },
+  "MIAMIN": {
+   "home": "MIN",
+   "away": "MIA",
+   "kick": "2026-10-04T20:05Z",
+   "indoor": true,
+   "neutral": false,
+   "spread": {},
+   "total": null
+  },
   "DETCAR": {
    "home": "CAR",
    "away": "DET",
@@ -74,8 +70,8 @@
    "indoor": false,
    "neutral": false,
    "spread": {
-    "DET": -3.5,
-    "CAR": 3.5
+    "DET": -4.5,
+    "CAR": 4.5
    },
    "total": 51.5,
    "espn_wx": {
@@ -283,9 +279,14 @@
   ],
   "CAR": [
    {
-    "name": "Jalen Coker",
-    "pos": "WR",
-    "status": "Questionable"
+    "name": "Albert Reese IV",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Ja'Tavion Sanders",
+    "pos": "TE",
+    "status": "Out"
    },
    {
     "name": "Damien Lewis",
@@ -295,12 +296,17 @@
    {
     "name": "Cam Jackson",
     "pos": "DT",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
-    "name": "Lee Hunter",
-    "pos": "DT",
-    "status": "Questionable"
+    "name": "Haynes King",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Jalen Coker",
+    "pos": "WR",
+    "status": "Out"
    }
   ],
   "CHI": [
@@ -520,14 +526,34 @@
   ],
   "DET": [
    {
-    "name": "Ben Bartch",
-    "pos": "G",
+    "name": "Mekhi Wingo",
+    "pos": "DT",
     "status": "Out"
    },
    {
-    "name": "D.J. Reed",
-    "pos": "CB",
-    "status": "Questionable"
+    "name": "Devin White",
+    "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "Tyler Conklin",
+    "pos": "TE",
+    "status": "Out"
+   },
+   {
+    "name": "Bishop Fitzgerald",
+    "pos": "S",
+    "status": "Out"
+   },
+   {
+    "name": "Ahmed Hassanein",
+    "pos": "DE",
+    "status": "Out"
+   },
+   {
+    "name": "Ben Bartch",
+    "pos": "G",
+    "status": "Out"
    },
    {
     "name": "Brian Branch",
@@ -778,6 +804,11 @@
    }
   ],
   "LAC": [
+   {
+    "name": "Trevor Penning",
+    "pos": "G",
+    "status": "Questionable"
+   },
    {
     "name": "Ladd McConkey",
     "pos": "WR",
@@ -1244,6 +1275,11 @@
   ],
   "SF": [
    {
+    "name": "Kyle Juszczyk",
+    "pos": "FB",
+    "status": "Out"
+   },
+   {
     "name": "Jordan James",
     "pos": "RB",
     "status": "Out"
@@ -1471,7 +1507,7 @@
  "news": {
   "rashee rice": {
    "h": "Chiefs rule Rashee Rice doubtful to return after injury",
-   "t": "2026-10-04T22:28:20Z"
+   "t": "2026-10-04T22:29:29Z"
   },
   "michael penix": {
    "h": "Michael Penix Jr., wife announce they're expecting first child",
@@ -1481,178 +1517,178 @@
  "trend": {
   "emanuel wilson": {
    "rank": 1,
-   "adds": 1958301
+   "adds": 1979406
   },
   "roman wilson": {
    "rank": 2,
-   "adds": 784224
+   "adds": 798822
   },
   "jauan jennings": {
    "rank": 3,
-   "adds": 729806
+   "adds": 730569
   },
   "brycen tremayne": {
    "rank": 4,
-   "adds": 483759
+   "adds": 551880
   },
   "darren waller": {
    "rank": 5,
-   "adds": 375624
+   "adds": 385011
   },
   "isaiah davis": {
    "rank": 6,
-   "adds": 333648
+   "adds": 333936
   },
   "tyler higbee": {
    "rank": 7,
-   "adds": 242406
-  },
-  "tyson bagent": {
-   "rank": 8,
-   "adds": 195330
-  },
-  "austin ekeler": {
-   "rank": 9,
-   "adds": 189992
+   "adds": 244656
   },
   "keon coleman": {
+   "rank": 8,
+   "adds": 201231
+  },
+  "tyson bagent": {
+   "rank": 9,
+   "adds": 195750
+  },
+  "austin ekeler": {
    "rank": 10,
-   "adds": 188865
+   "adds": 190448
   },
   "darius cooper": {
    "rank": 12,
-   "adds": 169750
+   "adds": 172809
   },
   "makai lemon": {
    "rank": 13,
-   "adds": 154528
-  },
-  "jordan addison": {
-   "rank": 14,
-   "adds": 147807
+   "adds": 154712
   },
   "cj stroud": {
+   "rank": 14,
+   "adds": 149926
+  },
+  "jordan addison": {
    "rank": 15,
-   "adds": 146804
+   "adds": 148068
   },
   "malik washington": {
    "rank": 16,
-   "adds": 146416
+   "adds": 147352
   },
   "tank bigsby": {
    "rank": 17,
-   "adds": 143367
+   "adds": 145586
   },
   "dontayvion wicks": {
    "rank": 18,
-   "adds": 141780
+   "adds": 141975
   },
   "kenyon sadiq": {
    "rank": 21,
-   "adds": 109161
-  },
-  "kirk cousins": {
-   "rank": 22,
-   "adds": 105456
+   "adds": 109440
   },
   "keaton mitchell": {
-   "rank": 23,
-   "adds": 104139
+   "rank": 22,
+   "adds": 108243
   },
-  "alvin kamara": {
-   "rank": 24,
-   "adds": 100528
+  "kirk cousins": {
+   "rank": 23,
+   "adds": 107768
   },
   "romeo doubs": {
+   "rank": 24,
+   "adds": 104128
+  },
+  "alvin kamara": {
    "rank": 25,
-   "adds": 100328
+   "adds": 102096
   },
   "chris bell": {
    "rank": 26,
-   "adds": 94136
-  },
-  "marshawn lloyd": {
-   "rank": 28,
-   "adds": 89100
-  },
-  "jacory croskey merritt": {
-   "rank": 29,
-   "adds": 86859
-  },
-  "brenton strange": {
-   "rank": 30,
-   "adds": 85626
-  },
-  "jakobi meyers": {
-   "rank": 31,
-   "adds": 85116
-  },
-  "dohnte meyers": {
-   "rank": 32,
-   "adds": 81900
-  },
-  "mack hollins": {
-   "rank": 33,
-   "adds": 81510
-  },
-  "laquon treadwell": {
-   "rank": 35,
-   "adds": 78545
-  },
-  "tre harris": {
-   "rank": 36,
-   "adds": 77588
-  },
-  "deshaun watson": {
-   "rank": 38,
-   "adds": 73568
+   "adds": 94199
   },
   "tyquan thornton": {
-   "rank": 39,
-   "adds": 70133
+   "rank": 28,
+   "adds": 92918
   },
-  "brian robinson": {
-   "rank": 40,
-   "adds": 62952
+  "marshawn lloyd": {
+   "rank": 29,
+   "adds": 89982
+  },
+  "dohnte meyers": {
+   "rank": 30,
+   "adds": 88353
+  },
+  "jacory croskey merritt": {
+   "rank": 31,
+   "adds": 87165
+  },
+  "brenton strange": {
+   "rank": 32,
+   "adds": 86913
+  },
+  "jakobi meyers": {
+   "rank": 33,
+   "adds": 85302
+  },
+  "mack hollins": {
+   "rank": 35,
+   "adds": 81612
+  },
+  "laquon treadwell": {
+   "rank": 36,
+   "adds": 78975
+  },
+  "tre harris": {
+   "rank": 38,
+   "adds": 77716
+  },
+  "deshaun watson": {
+   "rank": 39,
+   "adds": 76336
   },
   "ollie gordon": {
+   "rank": 40,
+   "adds": 65583
+  },
+  "brian robinson": {
    "rank": 41,
-   "adds": 62692
+   "adds": 64926
   },
   "kc concepcion": {
    "rank": 42,
-   "adds": 60480
+   "adds": 61713
   },
   "pat bryant": {
    "rank": 43,
-   "adds": 56216
+   "adds": 56328
   },
   "konata mumpfield": {
    "rank": 44,
-   "adds": 56097
-  },
-  "kyler murray": {
-   "rank": 45,
-   "adds": 53240
+   "adds": 56115
   },
   "devaughn vele": {
+   "rank": 45,
+   "adds": 55083
+  },
+  "kyler murray": {
    "rank": 46,
-   "adds": 51205
+   "adds": 53520
+  },
+  "xavier worthy": {
+   "rank": 47,
+   "adds": 53190
   },
   "skyy moore": {
-   "rank": 47,
-   "adds": 50640
-  },
-  "aj barner": {
-   "rank": 50,
-   "adds": 47856
+   "rank": 48,
+   "adds": 50656
   }
  },
  "buzz": {},
  "sources": {
   "lines": "2 games",
   "weather": "3 outdoor games",
-  "injuries": "259 players listed",
+  "injuries": "267 players listed",
   "news": "2 players in headlines",
   "sleeper_trending": "42 board players trending",
   "reddit": "unavailable"
