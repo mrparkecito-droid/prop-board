@@ -111,7 +111,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 15,
-   "ask": 86,
+   "ask": 85,
    "bid": 84,
    "vals": [
     54.0,
@@ -144,20 +144,20 @@
    "per": 273.3,
    "dstat": "pass yds",
    "p": 87,
-   "roi": 1,
+   "roi": 3,
    "pp": 91,
    "hs": 88,
    "dhs": 80,
    "rks": 84,
-   "vs": 51,
+   "vs": 53,
    "agree": 3,
-   "score": 82.0,
+   "score": 82.2,
    "flags": [],
    "pc": 0.872,
    "praw": 0.872,
    "rg": "TE",
    "est": false,
-   "mid": 85.0,
+   "mid": 84.5,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOJJOHNSON83-15",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
    "ctx": 0,
@@ -210,9 +210,9 @@
    "role": "QB",
    "stat": "pass",
    "prop": "Passing Yards",
-   "line": 175,
-   "ask": 88,
-   "bid": 87,
+   "line": 200,
+   "ask": 81,
+   "bid": 80,
    "vals": [
     410.0,
     252.0,
@@ -243,22 +243,22 @@
    "most": 6,
    "per": 273.3,
    "dstat": "pass yds",
-   "p": 86,
-   "roi": -2,
-   "pp": 95,
-   "hs": 77,
+   "p": 83,
+   "roi": 2,
+   "pp": 90,
+   "hs": 74,
    "dhs": 80,
    "rks": 84,
-   "vs": 48,
+   "vs": 52,
    "agree": 3,
-   "score": 80.5,
+   "score": 79.1,
    "flags": [],
-   "pc": 0.8594,
-   "praw": 0.8594,
+   "pc": 0.8273,
+   "praw": 0.8273,
    "rg": "QB",
    "est": false,
-   "mid": 87.5,
-   "tk": "KXNFLPASSYDS-26OCT05ATLNO-NOTSHOUGH6-175",
+   "mid": 80.5,
+   "tk": "KXNFLPASSYDS-26OCT05ATLNO-NOTSHOUGH6-200",
    "ev": "KXNFLPASSYDS-26OCT05ATLNO",
    "ctx": 0,
    "cxs": 50,
@@ -269,8 +269,8 @@
     ]
    ],
    "status": null,
-   "ppj": 93,
-   "pu": 97,
+   "ppj": 86,
+   "pu": 94,
    "uinfo": {
     "share": [
      56.0,
@@ -283,7 +283,7 @@
     "mu": 300.5,
     "note": ""
    },
-   "po": 8,
+   "po": 7,
    "pn": 11,
    "pid": "12545",
    "sx": 0.14,
@@ -293,7 +293,7 @@
    "qnote": "",
    "qinfo": null,
    "rank": 3,
-   "why": "Cleared 175+ in 3 of 3 games (8 of 11 last season), Sleeper projects 261, ATL let 3 of 3 QBs reach it, ATL allows the 6th most pass yds. NO projected for 24 pts (O/U 47.5).",
+   "why": "Cleared 200+ in 3 of 3 games (7 of 11 last season), Sleeper projects 261, ATL let 3 of 3 QBs reach it, ATL allows the 6th most pass yds. NO projected for 24 pts (O/U 47.5).",
    "news": ""
   },
   {
@@ -558,6 +558,10 @@
     [
      0.3,
      "NO front missing LB Anfernee Jennings, DE Carl Granderson, LB Kaden Elliss"
+    ],
+    [
+     0.0,
+     "In the news: \"Is Bijan Robinson the NFL's top RB? He is when he's in primetime\""
     ]
    ],
    "status": null,
@@ -586,7 +590,7 @@
    "qinfo": null,
    "rank": 6,
    "why": "Cleared 50+ in 3 of 3 games (12 of 17 last season), Sleeper projects 86.7, NO let 3 of 3 lead RBs reach it, NO allows the 6th most rush yds. NO front missing LB Anfernee Jennings, DE Carl Granderson, LB Kaden Elliss.",
-   "news": ""
+   "news": "In the news: \"Is Bijan Robinson the NFL's top RB? He is when he's in primetime\""
   },
   {
    "game": "ATLNO",
@@ -761,7 +765,7 @@
     ],
     [
      0.0,
-     "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
+     "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
     ]
    ],
    "status": null,
@@ -794,7 +798,7 @@
    },
    "rank": 8,
    "why": "Cleared 40+ in 3 of 3 games (12 of 14 last season), Sleeper projects 87.6, TB let 3 of 3 WR1s reach it. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
-   "news": "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
+   "news": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "game": "ATLNO",
@@ -1166,9 +1170,14 @@
    "mid": 86.5,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-ATLBROBINSON7-15",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "ctx": 0,
+   "ctx": 0.0,
    "cxs": 50,
-   "reasons": [],
+   "reasons": [
+    [
+     0.0,
+     "In the news: \"Is Bijan Robinson the NFL's top RB? He is when he's in primetime\""
+    ]
+   ],
    "status": null,
    "ppj": 86,
    "pu": 85,
@@ -1200,7 +1209,7 @@
    },
    "rank": 12,
    "why": "Cleared 15+ in 2 of 3 games (14 of 17 last season), Sleeper projects 35.2, NO let 3 of 3 lead RBs reach it. QB change: Michael Penix starts (Cooper Rush isn't projected to start). With him: cleared 15+ in 9 of 10 (52, 50, 4, 39). His share of targets fell from 48% to 9%.",
-   "news": ""
+   "news": "In the news: \"Is Bijan Robinson the NFL's top RB? He is when he's in primetime\""
   },
   {
    "game": "ATLNO",
@@ -1643,9 +1652,14 @@
    "mid": 49.5,
    "tk": "KXNFLRSHYDS-26OCT08TBDAL-DALDPRESCOTT4-10",
    "ev": "KXNFLRSHYDS-26OCT08TBDAL",
-   "ctx": 0,
+   "ctx": 0.0,
    "cxs": 50,
-   "reasons": [],
+   "reasons": [
+    [
+     0.0,
+     "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
+    ]
+   ],
    "status": null,
    "ppj": 59,
    "pu": 73,
@@ -1672,7 +1686,7 @@
    "qinfo": null,
    "rank": 17,
    "why": "Cleared 10+ in 3 of 3 games (7 of 17 last season), Sleeper projects 11.9.",
-   "news": ""
+   "news": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "game": "ATLNO",
@@ -2135,6 +2149,10 @@
     [
      0.15,
      "TB secondary missing CB Benjamin Morrison"
+    ],
+    [
+     0.0,
+     "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
     ]
    ],
    "status": null,
@@ -2163,7 +2181,7 @@
    "qinfo": null,
    "rank": 22,
    "why": "Cleared 200+ in 2 of 3 games (14 of 17 last season), Sleeper projects 281, TB let 2 of 3 QBs reach it. TB secondary missing CB Benjamin Morrison.",
-   "news": ""
+   "news": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "game": "TBDAL",
@@ -2176,7 +2194,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 15,
-   "ask": 75,
+   "ask": 74,
    "bid": 70,
    "vals": [
     6.0,
@@ -2209,20 +2227,20 @@
    "per": 220.0,
    "dstat": "pass yds",
    "p": 71,
-   "roi": -5,
+   "roi": -4,
    "pp": 81,
    "hs": 68,
    "dhs": 60,
    "rks": 42,
-   "vs": 45,
+   "vs": 46,
    "agree": 1,
-   "score": 54.5,
+   "score": 54.7,
    "flags": [],
    "pc": 0.7089,
    "praw": 0.7089,
    "rg": "TE",
    "est": false,
-   "mid": 72.5,
+   "mid": 72.0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALJFERGUSON87-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "ctx": 0.35,
@@ -2335,10 +2353,6 @@
     [
      0.15,
      "TB secondary missing CB Benjamin Morrison"
-    ],
-    [
-     0.0,
-     "In the news: \"Michael Florio: Fantasy managers shouldn't think twice about starting Javonte Williams\""
     ]
    ],
    "status": null,
@@ -2371,7 +2385,7 @@
    },
    "rank": 24,
    "why": "Cleared 15+ in 2 of 3 games (4 of 16 last season), Sleeper projects 15.2, TB let 3 of 3 lead RBs reach it. His share of targets fell from 17% to 8%. TB secondary missing CB Benjamin Morrison.",
-   "news": "In the news: \"Michael Florio: Fantasy managers shouldn't think twice about starting Javonte Williams\""
+   "news": ""
   },
   {
    "game": "ATLNO",
@@ -2559,7 +2573,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 15,
-   "ask": 59,
+   "ask": 58,
    "bid": 57,
    "vals": [
     19.0,
@@ -2592,20 +2606,20 @@
    "per": 229.7,
    "dstat": "pass yds",
    "p": 62,
-   "roi": 5,
+   "roi": 7,
    "pp": 71,
    "hs": 38,
    "dhs": 80,
    "rks": 52,
-   "vs": 55,
+   "vs": 57,
    "agree": 2,
-   "score": 49.0,
+   "score": 49.3,
    "flags": [],
    "pc": 0.6201,
    "praw": 0.6201,
    "rg": "WR2",
    "est": false,
-   "mid": 58.0,
+   "mid": 57.5,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-ATLJDOTSON4-15",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
    "ctx": 0,
@@ -2956,7 +2970,7 @@
    "stat": "rush",
    "prop": "Rushing Yards",
    "line": 20,
-   "ask": 82,
+   "ask": 81,
    "bid": 80,
    "vals": [
     -1,
@@ -2989,20 +3003,20 @@
    "per": 47.7,
    "dstat": "rush yds",
    "p": 66,
-   "roi": -19,
+   "roi": -18,
    "pp": 79,
    "hs": 55,
    "dhs": 60,
    "rks": 0,
-   "vs": 31,
+   "vs": 32,
    "agree": 1,
-   "score": 41.5,
+   "score": 41.7,
    "flags": [],
    "pc": 0.6647,
    "praw": 0.6647,
    "rg": "RB1",
    "est": false,
-   "mid": 81.0,
+   "mid": 80.5,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-NOAKAMARA41-20",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
    "ctx": 0,
@@ -3051,7 +3065,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 40,
-   "ask": 74,
+   "ask": 75,
    "bid": 71,
    "vals": [
     28.0,
@@ -3084,20 +3098,20 @@
    "per": 220.0,
    "dstat": "pass yds",
    "p": 58,
-   "roi": -21,
+   "roi": -22,
    "pp": 81,
    "hs": 66,
    "dhs": 20,
    "rks": 42,
-   "vs": 29,
+   "vs": 28,
    "agree": 1,
-   "score": 39.6,
+   "score": 39.5,
    "flags": [],
    "pc": 0.5834,
    "praw": 0.5834,
    "rg": "WR2",
    "est": false,
-   "mid": 72.5,
+   "mid": 73.0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALGPICKENS3-40",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "ctx": 0.35,
@@ -3155,7 +3169,7 @@
    "stat": "rush",
    "prop": "Rushing Yards",
    "line": 50,
-   "ask": 78,
+   "ask": 77,
    "bid": 75,
    "vals": [
     41.0,
@@ -3188,20 +3202,20 @@
    "per": 76.0,
    "dstat": "rush yds",
    "p": 60,
-   "roi": -22,
+   "roi": -21,
    "pp": 65,
    "hs": 55,
    "dhs": 60,
    "rks": 3,
-   "vs": 28,
+   "vs": 29,
    "agree": 1,
-   "score": 38.6,
+   "score": 38.8,
    "flags": [],
    "pc": 0.6047,
    "praw": 0.6047,
    "rg": "RB1",
    "est": false,
-   "mid": 76.5,
+   "mid": 76.0,
    "tk": "KXNFLRSHYDS-26OCT08TBDAL-DALJWILLIAMS33-50",
    "ev": "KXNFLRSHYDS-26OCT08TBDAL",
    "ctx": 0.54,
@@ -3214,10 +3228,6 @@
     [
      0.3,
      "Emari Demercado out, more carries for him"
-    ],
-    [
-     0.0,
-     "In the news: \"Michael Florio: Fantasy managers shouldn't think twice about starting Javonte Williams\""
     ]
    ],
    "status": null,
@@ -3246,7 +3256,7 @@
    "qinfo": null,
    "rank": 33,
    "why": "Cleared 50+ in 1 of 3 games (13 of 16 last season), Sleeper projects 60.4, TB let 2 of 3 lead RBs reach it. Emari Demercado out, more carries for him. TB front missing LB Rueben Bain Jr., DT DeMonte Capehart.",
-   "news": "In the news: \"Michael Florio: Fantasy managers shouldn't think twice about starting Javonte Williams\""
+   "news": ""
   },
   {
    "game": "ATLNO",
@@ -3718,26 +3728,6 @@
    "nw": ""
   },
   {
-   "pl": "Tyler Shough",
-   "tm": "NO",
-   "g": "ATLNO",
-   "gl": "ATL @ NO (Mon)",
-   "st": "pass",
-   "pr": "Passing Yards",
-   "ln": 175,
-   "ask": 88,
-   "q": 87.5,
-   "p": 0.8594,
-   "sc": 80.5,
-   "est": 0,
-   "tk": "KXNFLPASSYDS-26OCT05ATLNO-NOTSHOUGH6-175",
-   "ev": "KXNFLPASSYDS-26OCT05ATLNO",
-   "wy": "Cleared 175+ in 3 of 3 games (8 of 11 last season), Sleeper projects 261, ATL let 3 of 3 QBs reach it, ATL allows the 6th most pass yds. NO projected for 24 pts (O/U 47.5).",
-   "id": "12545",
-   "cx": 0,
-   "nw": ""
-  },
-  {
    "pl": "Dak Prescott",
    "tm": "DAL",
    "g": "TBDAL",
@@ -3755,7 +3745,7 @@
    "wy": "Cleared 275+ in 2 of 3 games (7 of 17 last season), Sleeper projects 281, TB let 0 of 3 QBs reach it. TB secondary missing CB Benjamin Morrison.",
    "id": "3294",
    "cx": 0.15,
-   "nw": ""
+   "nw": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "pl": "Dak Prescott",
@@ -3775,7 +3765,7 @@
    "wy": "Cleared 250+ in 2 of 3 games (12 of 17 last season), Sleeper projects 281, TB let 1 of 3 QBs reach it. TB secondary missing CB Benjamin Morrison.",
    "id": "3294",
    "cx": 0.15,
-   "nw": ""
+   "nw": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "pl": "Dak Prescott",
@@ -3785,17 +3775,17 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 225,
-   "ask": 71,
-   "q": 70.0,
+   "ask": 72,
+   "q": 70.5,
    "p": 0.6974,
-   "sc": 53.9,
+   "sc": 53.7,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT08TBDAL-DALDPRESCOTT4-225",
    "ev": "KXNFLPASSYDS-26OCT08TBDAL",
    "wy": "Cleared 225+ in 2 of 3 games (14 of 17 last season), Sleeper projects 281, TB let 2 of 3 QBs reach it. TB secondary missing CB Benjamin Morrison.",
    "id": "3294",
    "cx": 0.15,
-   "nw": ""
+   "nw": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "pl": "Tyler Shough",
@@ -3805,10 +3795,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 20,
-   "ask": 44,
-   "q": 43.0,
+   "ask": 43,
+   "q": 42.5,
    "p": 0.5187,
-   "sc": 43.0,
+   "sc": 43.5,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-NOTSHOUGH6-20",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
@@ -3865,17 +3855,17 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 90,
-   "ask": 47,
-   "q": 46.5,
+   "ask": 48,
+   "q": 47.5,
    "p": 0.4577,
-   "sc": 35.7,
+   "sc": 35.5,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-ATLBROBINSON7-90",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
    "wy": "Cleared 90+ in 1 of 3 games (6 of 17 last season), NO let 1 of 3 lead RBs reach it, NO allows the 6th most rush yds. NO front missing LB Anfernee Jennings, DE Carl Granderson, LB Kaden Elliss.",
    "id": "9509",
    "cx": 0.3,
-   "nw": ""
+   "nw": "In the news: \"Is Bijan Robinson the NFL's top RB? He is when he's in primetime\""
   },
   {
    "pl": "Bijan Robinson",
@@ -3895,7 +3885,7 @@
    "wy": "Cleared 100+ in 1 of 3 games (5 of 17 last season), NO let 1 of 3 lead RBs reach it, NO allows the 6th most rush yds. NO front missing LB Anfernee Jennings, DE Carl Granderson, LB Kaden Elliss.",
    "id": "9509",
    "cx": 0.3,
-   "nw": ""
+   "nw": "In the news: \"Is Bijan Robinson the NFL's top RB? He is when he's in primetime\""
   },
   {
    "pl": "Brian Robinson",
@@ -4034,8 +4024,8 @@
    "ev": "KXNFLRSHYDS-26OCT08TBDAL",
    "wy": "Cleared 15+ in 2 of 3 games (5 of 17 last season).",
    "id": "3294",
-   "cx": 0,
-   "nw": ""
+   "cx": 0.0,
+   "nw": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "pl": "Dak Prescott",
@@ -4054,8 +4044,8 @@
    "ev": "KXNFLRSHYDS-26OCT08TBDAL",
    "wy": "Cleared 10+ in 3 of 3 games (7 of 17 last season), Sleeper projects 11.9.",
    "id": "3294",
-   "cx": 0,
-   "nw": ""
+   "cx": 0.0,
+   "nw": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "pl": "Noah Fant",
@@ -4145,10 +4135,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 86,
-   "q": 85.0,
+   "ask": 85,
+   "q": 84.5,
    "p": 0.872,
-   "sc": 82.0,
+   "sc": 82.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOJJOHNSON83-15",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
@@ -4325,10 +4315,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 35,
-   "q": 34.5,
+   "ask": 36,
+   "q": 35.5,
    "p": 0.4271,
-   "sc": 37.5,
+   "sc": 37.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-ATLKPITTS8-40",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
@@ -4365,10 +4355,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 59,
-   "q": 58.0,
+   "ask": 58,
+   "q": 57.5,
    "p": 0.6201,
-   "sc": 49.0,
+   "sc": 49.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-ATLJDOTSON4-15",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
@@ -4454,26 +4444,6 @@
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "wy": "Cleared 15+ in 3 of 3 games (16 of 17 last season), Sleeper projects 51.6, DAL let 3 of 3 WR1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out), and they have no games together yet. DAL secondary missing CB Cobie Durant, CB Caelen Carson. Ko Kieft out, more targets to go around.",
    "id": "12514",
-   "cx": 0.5,
-   "nw": ""
-  },
-  {
-   "pl": "Cade Otton",
-   "tm": "TB",
-   "g": "TBDAL",
-   "gl": "TB @ DAL (Thu)",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 40,
-   "ask": 35,
-   "q": 33.0,
-   "p": 0.3979,
-   "sc": 29.5,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT08TBDAL-TBCOTTON88-40",
-   "ev": "KXNFLRECYDS-26OCT08TBDAL",
-   "wy": "Cleared 40+ in 1 of 3 games (6 of 16 last season), DAL let 1 of 3 TE1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out), and they have no games together yet. DAL secondary missing CB Cobie Durant, CB Caelen Carson. Ko Kieft out, more targets to go around.",
-   "id": "8111",
    "cx": 0.5,
    "nw": ""
   },
@@ -4595,7 +4565,7 @@
    "wy": "Cleared 15+ in 2 of 3 games (4 of 16 last season), Sleeper projects 15.2, TB let 3 of 3 lead RBs reach it. His share of targets fell from 17% to 8%. TB secondary missing CB Benjamin Morrison.",
    "id": "7588",
    "cx": 0.15,
-   "nw": "In the news: \"Michael Florio: Fantasy managers shouldn't think twice about starting Javonte Williams\""
+   "nw": ""
   },
   {
    "pl": "Jake Ferguson",
@@ -4625,35 +4595,15 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 75,
-   "q": 72.5,
+   "ask": 74,
+   "q": 72.0,
    "p": 0.7089,
-   "sc": 54.5,
+   "sc": 54.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALJFERGUSON87-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "wy": "Cleared 15+ in 2 of 3 games (14 of 17 last season), Sleeper projects 34.6, TB let 2 of 3 TE1s reach it. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
    "id": "8110",
-   "cx": 0.35,
-   "nw": ""
-  },
-  {
-   "pl": "George Pickens",
-   "tm": "DAL",
-   "g": "TBDAL",
-   "gl": "TB @ DAL (Thu)",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 80,
-   "ask": 35,
-   "q": 33.5,
-   "p": 0.372,
-   "sc": 27.4,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT08TBDAL-DALGPICKENS3-80",
-   "ev": "KXNFLRECYDS-26OCT08TBDAL",
-   "wy": "Cleared 80+ in 1 of 3 games (7 of 17 last season), TB let 0 of 3 WR2s reach it. His share of targets is up from 20% to 28%. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
-   "id": "8137",
    "cx": 0.35,
    "nw": ""
   },
@@ -4695,7 +4645,7 @@
    "wy": "Cleared 90+ in 2 of 3 games (6 of 14 last season), TB let 2 of 3 WR1s reach it. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
    "id": "6786",
    "cx": 0.35,
-   "nw": "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
+   "nw": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "pl": "CeeDee Lamb",
@@ -4715,7 +4665,7 @@
    "wy": "Cleared 80+ in 2 of 3 games (7 of 14 last season), Sleeper projects 87.6, TB let 2 of 3 WR1s reach it. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
    "id": "6786",
    "cx": 0.35,
-   "nw": "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
+   "nw": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "pl": "CeeDee Lamb",
@@ -4725,17 +4675,17 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 70,
-   "ask": 59,
-   "q": 58.5,
+   "ask": 60,
+   "q": 59.0,
    "p": 0.6139,
-   "sc": 50.1,
+   "sc": 49.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-70",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "wy": "Cleared 70+ in 2 of 3 games (9 of 14 last season), Sleeper projects 87.6, TB let 2 of 3 WR1s reach it. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
    "id": "6786",
    "cx": 0.35,
-   "nw": "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
+   "nw": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "pl": "CeeDee Lamb",
@@ -4745,17 +4695,17 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 50,
-   "ask": 76,
+   "ask": 77,
    "q": 75.5,
    "p": 0.7497,
-   "sc": 62.3,
+   "sc": 62.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-50",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "wy": "Cleared 50+ in 2 of 3 games (11 of 14 last season), Sleeper projects 87.6, TB let 3 of 3 WR1s reach it. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
    "id": "6786",
    "cx": 0.35,
-   "nw": "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
+   "nw": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "pl": "CeeDee Lamb",
@@ -4775,7 +4725,7 @@
    "wy": "Cleared 40+ in 3 of 3 games (12 of 14 last season), Sleeper projects 87.6, TB let 3 of 3 WR1s reach it. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
    "id": "6786",
    "cx": 0.35,
-   "nw": "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
+   "nw": "In the news: \"Cowboys flip script after Rio loss with key win over Texans\""
   },
   {
    "pl": "Juwan Johnson",
@@ -5081,7 +5031,7 @@
    2,
    3
   ],
-  "generated": "2026-10-05T04:42:55-07:00",
+  "generated": "2026-10-05T04:59:01-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [
    "Some markets weren't open when this was pulled. TB @ DAL (Thu): no priced receptions markets yet."
@@ -5095,7 +5045,7 @@
    "lines": "1 games",
    "weather": "0 outdoor games",
    "injuries": "273 players listed",
-   "news": "2 players in headlines",
+   "news": "3 players in headlines",
    "sleeper_trending": "41 board players trending",
    "reddit": "unavailable"
   },
