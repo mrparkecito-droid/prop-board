@@ -504,7 +504,7 @@
    "prop": "Receiving Yards",
    "line": 25,
    "ask": 76,
-   "bid": 74,
+   "bid": 75,
    "vals": [
     69.0,
     64.0,
@@ -549,7 +549,7 @@
    "praw": 0.762,
    "rg": "WR2",
    "est": false,
-   "mid": 75.0,
+   "mid": 75.5,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NODVELE14-25",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
    "ctx": 0,
@@ -1287,7 +1287,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 53,
-   "bid": 51,
+   "bid": 52,
    "vals": [
     33.0,
     0.0,
@@ -1332,7 +1332,7 @@
    "praw": 0.6511,
    "rg": "TE",
    "est": false,
-   "mid": 52.0,
+   "mid": 52.5,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NONFANT87-15",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
    "ctx": -0.35,
@@ -1476,6 +1476,102 @@
    "news": ""
   },
   {
+   "game": "TBDAL",
+   "glabel": "TB @ DAL (Thu)",
+   "player": "Dak Prescott",
+   "team": "DAL",
+   "opp": "TB",
+   "pos": "QB",
+   "role": "QB",
+   "stat": "pass",
+   "prop": "Passing Yards",
+   "line": 200,
+   "ask": 81,
+   "bid": 68,
+   "vals": [
+    175.0,
+    279.0,
+    276.0
+   ],
+   "over": 2,
+   "n": 3,
+   "proj": 281.0,
+   "al": [
+    [
+     1,
+     "CIN",
+     254.0
+    ],
+    [
+     2,
+     "CLE",
+     238.0
+    ],
+    [
+     3,
+     "MIN",
+     168.0
+    ]
+   ],
+   "dhit": 2,
+   "dn": 3,
+   "most": 19,
+   "per": 220.0,
+   "dstat": "pass yds",
+   "p": 74,
+   "roi": -9,
+   "pp": 88,
+   "hs": 68,
+   "dhs": 60,
+   "rks": 42,
+   "vs": 41,
+   "agree": 1,
+   "score": 55.4,
+   "flags": [],
+   "pc": 0.7385,
+   "praw": 0.7385,
+   "rg": "QB",
+   "est": false,
+   "mid": 79.5,
+   "tk": "KXNFLPASSYDS-26OCT08TBDAL-DALDPRESCOTT4-200",
+   "ev": "KXNFLPASSYDS-26OCT08TBDAL",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "TB secondary missing CB Benjamin Morrison"
+    ]
+   ],
+   "status": null,
+   "ppj": 91,
+   "pu": 86,
+   "uinfo": {
+    "share": [
+     34.0,
+     31.0,
+     40.0
+    ],
+    "kind": "attempts",
+    "snap": 100,
+    "snap_last": 100,
+    "mu": 261.9,
+    "note": ""
+   },
+   "po": 14,
+   "pn": 17,
+   "pid": "3294",
+   "sx": 0.0,
+   "sxs": 50,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": null,
+   "rank": 16,
+   "why": "Cleared 200+ in 2 of 3 games (14 of 17 last season), Sleeper projects 281, TB let 2 of 3 QBs reach it. TB secondary missing CB Benjamin Morrison.",
+   "news": ""
+  },
+  {
    "game": "ATLNO",
    "glabel": "ATL @ NO (Mon)",
    "player": "Tyler Shough",
@@ -1551,7 +1647,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 16,
+   "rank": 17,
    "why": "Cleared 10+ in 2 of 3 games (6 of 11 last season), Sleeper projects 19.9. NO projected for 24 pts (O/U 47.5).",
    "news": ""
   },
@@ -1646,106 +1742,8 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 17,
-   "why": "Cleared 10+ in 2 of 3 games (5 of 7 last season), Sleeper projects 28.1, ATL let 2 of 3 No. 2 RBs reach it. His share of carries fell from 36% to 14%. NO projected for 24 pts (O/U 47.5).",
-   "news": ""
-  },
-  {
-   "game": "TBDAL",
-   "glabel": "TB @ DAL (Thu)",
-   "player": "Dak Prescott",
-   "team": "DAL",
-   "opp": "TB",
-   "pos": "QB",
-   "role": "QB",
-   "stat": "pass",
-   "prop": "Passing Yards",
-   "line": 200,
-   "ask": 82,
-   "bid": 7,
-   "vals": [
-    175.0,
-    279.0,
-    276.0
-   ],
-   "over": 2,
-   "n": 3,
-   "proj": 281.0,
-   "al": [
-    [
-     1,
-     "CIN",
-     254.0
-    ],
-    [
-     2,
-     "CLE",
-     238.0
-    ],
-    [
-     3,
-     "MIN",
-     168.0
-    ]
-   ],
-   "dhit": 2,
-   "dn": 3,
-   "most": 19,
-   "per": 220.0,
-   "dstat": "pass yds",
-   "p": 74,
-   "roi": -10,
-   "pp": 88,
-   "hs": 68,
-   "dhs": 60,
-   "rks": 42,
-   "vs": 40,
-   "agree": 1,
-   "score": 49.7,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.7385,
-   "praw": 0.7385,
-   "rg": "QB",
-   "est": false,
-   "mid": 80.5,
-   "tk": "KXNFLPASSYDS-26OCT08TBDAL-DALDPRESCOTT4-200",
-   "ev": "KXNFLPASSYDS-26OCT08TBDAL",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "TB secondary missing CB Benjamin Morrison"
-    ]
-   ],
-   "status": null,
-   "ppj": 91,
-   "pu": 86,
-   "uinfo": {
-    "share": [
-     34.0,
-     31.0,
-     40.0
-    ],
-    "kind": "attempts",
-    "snap": 100,
-    "snap_last": 100,
-    "mu": 261.9,
-    "note": ""
-   },
-   "po": 14,
-   "pn": 17,
-   "pid": "3294",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
    "rank": 18,
-   "why": "Cleared 200+ in 2 of 3 games (14 of 17 last season), Sleeper projects 281, TB let 2 of 3 QBs reach it. TB secondary missing CB Benjamin Morrison.",
+   "why": "Cleared 10+ in 2 of 3 games (5 of 7 last season), Sleeper projects 28.1, ATL let 2 of 3 No. 2 RBs reach it. His share of carries fell from 36% to 14%. NO projected for 24 pts (O/U 47.5).",
    "news": ""
   },
   {
@@ -1760,7 +1758,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 59,
-   "bid": 57,
+   "bid": 58,
    "vals": [
     19.0,
     11.0,
@@ -1805,7 +1803,7 @@
    "praw": 0.6201,
    "rg": "WR2",
    "est": false,
-   "mid": 58.0,
+   "mid": 58.5,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-ATLJDOTSON4-15",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
    "ctx": 0,
@@ -2132,112 +2130,6 @@
    "news": ""
   },
   {
-   "game": "DETCAR",
-   "glabel": "DET @ CAR",
-   "player": "Mitchell Evans",
-   "team": "CAR",
-   "opp": "DET",
-   "pos": "TE",
-   "role": "TE3",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 10,
-   "ask": 63,
-   "bid": 0,
-   "vals": [
-    9.0,
-    13.0,
-    36.0
-   ],
-   "over": 2,
-   "n": 3,
-   "proj": 7.6,
-   "al": [
-    [
-     1,
-     "NO",
-     0.0
-    ],
-    [
-     2,
-     "BUF",
-     0.0
-    ],
-    [
-     3,
-     "NYJ",
-     20.0
-    ]
-   ],
-   "dhit": 1,
-   "dn": 3,
-   "most": 1,
-   "per": 326.3,
-   "dstat": "pass yds",
-   "p": 49,
-   "roi": -22,
-   "pp": 56,
-   "hs": 51,
-   "dhs": 40,
-   "rks": 100,
-   "vs": 28,
-   "agree": 0,
-   "score": 36.6,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.4943,
-   "praw": 0.4943,
-   "rg": "TE",
-   "est": false,
-   "mid": 61.5,
-   "tk": "KXNFLRECYDS-26OCT04DETCAR-CARMEVANS84-10",
-   "ev": "KXNFLRECYDS-26OCT04DETCAR",
-   "ctx": 0.55,
-   "cxs": 78,
-   "reasons": [
-    [
-     0.35,
-     "DET secondary missing CB Rock Ya-Sin, S Bishop Fitzgerald, S Brian Branch"
-    ],
-    [
-     0.2,
-     "Ja'Tavion Sanders out, more targets to go around"
-    ]
-   ],
-   "status": null,
-   "ppj": 44,
-   "pu": 67,
-   "uinfo": {
-    "share": [
-     6,
-     3,
-     7
-    ],
-    "kind": "targets",
-    "snap": 40,
-    "snap_last": 27,
-    "mu": 14.8,
-    "note": ""
-   },
-   "po": 6,
-   "pn": 17,
-   "pid": "12473",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Bryce Young",
-    "same": true,
-    "n": 3
-   },
-   "rank": 23,
-   "why": "Cleared 10+ in 2 of 3 games (6 of 17 last season), DET let 1 of 3 TE3s reach it, DET allows the most pass yds. DET secondary missing CB Rock Ya-Sin, S Bishop Fitzgerald, S Brian Branch. Ja'Tavion Sanders out, more targets to go around.",
-   "news": ""
-  },
-  {
    "game": "ATLNO",
    "glabel": "ATL @ NO (Mon)",
    "player": "Austin Hooper",
@@ -2329,7 +2221,7 @@
     "with": 1,
     "usual": "Cooper Rush"
    },
-   "rank": 24,
+   "rank": 23,
    "why": "Cleared 15+ in 1 of 3 games (7 of 16 last season), NO let 1 of 3 TE2s reach it. QB change: Michael Penix starts (Cooper Rush isn't projected to start). With him: cleared 15+ in 0 of 1 (11). His share of targets is up from 0% to 9%.",
    "news": ""
   },
@@ -2425,7 +2317,7 @@
     "with": 1,
     "usual": "Cooper Rush"
    },
-   "rank": 25,
+   "rank": 24,
    "why": "Cleared 2+ in 1 of 3 games (4 of 17 last season), NO let 1 of 3 WR2s reach it. QB change: Michael Penix starts (Cooper Rush isn't projected to start). With him: cleared 2+ in 0 of 1 (1).",
    "news": ""
   },
@@ -2521,314 +2413,13 @@
     "with": 1,
     "usual": "Cooper Rush"
    },
-   "rank": 26,
+   "rank": 25,
    "why": "Cleared 2+ in 1 of 3 games (11 of 15 last season), NO let 0 of 3 WR3s reach it. QB change: Michael Penix starts (Cooper Rush isn't projected to start). With him: cleared 2+ in 1 of 1 (2).",
-   "news": ""
-  },
-  {
-   "game": "DETCAR",
-   "glabel": "DET @ CAR",
-   "player": "Jahmyr Gibbs",
-   "team": "DET",
-   "opp": "CAR",
-   "pos": "RB",
-   "role": "RB1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 50,
-   "ask": 41,
-   "bid": 0,
-   "vals": [
-    30.0,
-    61.0,
-    65.0
-   ],
-   "over": 2,
-   "n": 3,
-   "proj": 33.2,
-   "al": [
-    [
-     1,
-     "CHI",
-     24.0
-    ],
-    [
-     2,
-     "ATL",
-     16.0
-    ],
-    [
-     3,
-     "CLE",
-     34.0
-    ]
-   ],
-   "dhit": 0,
-   "dn": 3,
-   "most": 28,
-   "per": 186.0,
-   "dstat": "pass yds",
-   "p": 34,
-   "roi": -17,
-   "pp": 35,
-   "hs": 46,
-   "dhs": 20,
-   "rks": 13,
-   "vs": 33,
-   "agree": 0,
-   "score": 20.8,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.3395,
-   "praw": 0.3395,
-   "rg": "RB1",
-   "est": false,
-   "mid": 39.5,
-   "tk": "KXNFLRECYDS-26OCT04DETCAR-DETJGIBBS0-50",
-   "ev": "KXNFLRECYDS-26OCT04DETCAR",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [],
-   "status": null,
-   "ppj": 19,
-   "pu": 52,
-   "uinfo": {
-    "share": [
-     13,
-     21,
-     26
-    ],
-    "kind": "targets",
-    "snap": 75,
-    "snap_last": 69,
-    "mu": 50.6,
-    "note": "His share of targets is up from 13% to 26%."
-   },
-   "po": 4,
-   "pn": 17,
-   "pid": "9221",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Jared Goff",
-    "same": true,
-    "n": 3
-   },
-   "rank": 27,
-   "why": "Cleared 50+ in 2 of 3 games (4 of 17 last season), CAR let 0 of 3 lead RBs reach it. His share of targets is up from 13% to 26%.",
-   "news": ""
-  },
-  {
-   "game": "DETCAR",
-   "glabel": "DET @ CAR",
-   "player": "Brock Wright",
-   "team": "DET",
-   "opp": "CAR",
-   "pos": "TE",
-   "role": "TE2",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 65,
-   "bid": 0,
-   "vals": [
-    1.0,
-    0.0,
-    2.0
-   ],
-   "over": 1,
-   "n": 3,
-   "proj": 0.6,
-   "al": [
-    [
-     1,
-     "CHI",
-     0.0
-    ],
-    [
-     2,
-     "ATL",
-     1.0
-    ],
-    [
-     3,
-     "CLE",
-     0.0
-    ]
-   ],
-   "dhit": 0,
-   "dn": 3,
-   "most": 28,
-   "per": 186.0,
-   "dstat": "pass yds",
-   "p": 29,
-   "roi": -55,
-   "pp": 26,
-   "hs": 42,
-   "dhs": 20,
-   "rks": 13,
-   "vs": 0,
-   "agree": 0,
-   "score": 13.1,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.2904,
-   "praw": 0.2904,
-   "rg": "TE",
-   "est": false,
-   "mid": 63.5,
-   "tk": "KXNFLREC-26OCT04DETCAR-DETBWRIGHT89-2",
-   "ev": "KXNFLREC-26OCT04DETCAR",
-   "ctx": 0.2,
-   "cxs": 60,
-   "reasons": [
-    [
-     0.2,
-     "Tyler Conklin out, more targets to go around"
-    ]
-   ],
-   "status": null,
-   "ppj": 22,
-   "pu": 30,
-   "uinfo": {
-    "share": [
-     3,
-     0,
-     6
-    ],
-    "kind": "targets",
-    "snap": 46,
-    "snap_last": 58,
-    "mu": 0.9,
-    "note": ""
-   },
-   "po": 5,
-   "pn": 11,
-   "pid": "7891",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Jared Goff",
-    "same": true,
-    "n": 3
-   },
-   "rank": 28,
-   "why": "Cleared 2+ in 1 of 3 games (5 of 11 last season), CAR let 0 of 3 TE2s reach it. Tyler Conklin out, more targets to go around.",
-   "news": ""
-  },
-  {
-   "game": "DETCAR",
-   "glabel": "DET @ CAR",
-   "player": "Sam LaPorta",
-   "team": "DET",
-   "opp": "CAR",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 9,
-   "ask": 87,
-   "bid": 0,
-   "vals": [
-    5.0,
-    6.0,
-    3.0
-   ],
-   "over": 0,
-   "n": 3,
-   "proj": 4.7,
-   "al": [
-    [
-     1,
-     "CHI",
-     2.0
-    ],
-    [
-     2,
-     "ATL",
-     2.0
-    ],
-    [
-     3,
-     "CLE",
-     7.0
-    ]
-   ],
-   "dhit": 0,
-   "dn": 3,
-   "most": 28,
-   "per": 186.0,
-   "dstat": "pass yds",
-   "p": 11,
-   "roi": -87,
-   "pp": 3,
-   "hs": 14,
-   "dhs": 20,
-   "rks": 13,
-   "vs": 0,
-   "agree": 0,
-   "score": 4.9,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.1129,
-   "praw": 0.1129,
-   "rg": "TE",
-   "est": false,
-   "mid": 85.5,
-   "tk": "KXNFLREC-26OCT04DETCAR-DETSLAPORTA87-9",
-   "ev": "KXNFLREC-26OCT04DETCAR",
-   "ctx": 0.2,
-   "cxs": 60,
-   "reasons": [
-    [
-     0.2,
-     "Tyler Conklin out, more targets to go around"
-    ]
-   ],
-   "status": null,
-   "ppj": 3,
-   "pu": 2,
-   "uinfo": {
-    "share": [
-     21,
-     18,
-     13
-    ],
-    "kind": "targets",
-    "snap": 92,
-    "snap_last": 92,
-    "mu": 4.5,
-    "note": "His share of targets fell from 21% to 13%."
-   },
-   "po": 0,
-   "pn": 9,
-   "pid": "10859",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Jared Goff",
-    "same": true,
-    "n": 3
-   },
-   "rank": 29,
-   "why": "Cleared 9+ in 0 of 3 games (0 of 9 last season), CAR let 0 of 3 TE1s reach it. His share of targets fell from 21% to 13%. Tyler Conklin out, more targets to go around.",
    "news": ""
   }
  ],
- "rows": 483,
- "ladders": 59,
+ "rows": 229,
+ "ladders": 28,
  "skipped": [],
  "parlay": [
   {
@@ -2859,10 +2450,10 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 250,
-   "ask": 55,
-   "q": 54.5,
+   "ask": 54,
+   "q": 53.5,
    "p": 0.6596,
-   "sc": 65.5,
+   "sc": 65.9,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT05ATLNO-NOTSHOUGH6-250",
    "ev": "KXNFLPASSYDS-26OCT05ATLNO",
@@ -2922,7 +2513,7 @@
    "ask": 42,
    "q": 40.5,
    "p": 0.4098,
-   "sc": 28.1,
+   "sc": 31.2,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT08TBDAL-DALDPRESCOTT4-275",
    "ev": "KXNFLPASSYDS-26OCT08TBDAL",
@@ -2942,7 +2533,7 @@
    "ask": 56,
    "q": 54.5,
    "p": 0.5679,
-   "sc": 39.6,
+   "sc": 44.0,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT08TBDAL-DALDPRESCOTT4-250",
    "ev": "KXNFLPASSYDS-26OCT08TBDAL",
@@ -2959,10 +2550,10 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 225,
-   "ask": 71,
-   "q": 69.5,
+   "ask": 70,
+   "q": 68.5,
    "p": 0.6974,
-   "sc": 48.5,
+   "sc": 54.1,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT08TBDAL-DALDPRESCOTT4-225",
    "ev": "KXNFLPASSYDS-26OCT08TBDAL",
@@ -2979,10 +2570,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 20,
-   "ask": 43,
-   "q": 42.5,
+   "ask": 44,
+   "q": 43.5,
    "p": 0.5187,
-   "sc": 43.5,
+   "sc": 43.0,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-NOTSHOUGH6-20",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
@@ -3040,7 +2631,7 @@
    "pr": "Rushing Yards",
    "ln": 90,
    "ask": 47,
-   "q": 46.0,
+   "q": 46.5,
    "p": 0.4577,
    "sc": 35.7,
    "est": 0,
@@ -3119,10 +2710,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 30,
-   "ask": 49,
-   "q": 48.5,
+   "ask": 48,
+   "q": 47.5,
    "p": 0.4921,
-   "sc": 47.4,
+   "sc": 47.7,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-ATLBROBINSON15-30",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
@@ -3140,7 +2731,7 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 53,
-   "q": 52.0,
+   "q": 52.5,
    "p": 0.6511,
    "sc": 57.7,
    "est": 0,
@@ -3280,7 +2871,7 @@
    "pr": "Receiving Yards",
    "ln": 25,
    "ask": 76,
-   "q": 75.0,
+   "q": 75.5,
    "p": 0.762,
    "sc": 74.3,
    "est": 0,
@@ -3319,10 +2910,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 80,
-   "ask": 56,
-   "q": 54.5,
+   "ask": 55,
+   "q": 54.0,
    "p": 0.6272,
-   "sc": 62.1,
+   "sc": 62.4,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-80",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
@@ -3460,7 +3051,7 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 59,
-   "q": 58.0,
+   "q": 58.5,
    "p": 0.6201,
    "sc": 49.0,
    "est": 0,
@@ -3719,10 +3310,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 7,
-   "ask": 38,
-   "q": 37.5,
+   "ask": 39,
+   "q": 38.0,
    "p": 0.4179,
-   "sc": 35.5,
+   "sc": 35.1,
    "est": 0,
    "tk": "KXNFLREC-26OCT05ATLNO-ATLDLONDON5-7",
    "ev": "KXNFLREC-26OCT05ATLNO",
@@ -3795,20 +3386,19 @@
    2,
    3
   ],
-  "generated": "2026-10-04T20:44:07-07:00",
+  "generated": "2026-10-04T21:00:35-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [
    "Some markets weren't open when this was pulled. TB @ DAL (Thu): no priced rushing, receiving yards, receptions markets yet."
   ],
-  "eyebrow": "Prop cheat sheet \u00b7 Week 4 \u00b7 Sun Oct 4 \u2013 Thu Oct 8",
+  "eyebrow": "Prop cheat sheet \u00b7 Week 4 \u00b7 Mon Oct 5 \u2013 Thu Oct 8",
   "games": [
-   "DET @ CAR",
    "ATL @ NO (Mon)",
    "TB @ DAL (Thu)"
   ],
   "ctx_sources": {
    "lines": "1 games",
-   "weather": "1 outdoor games",
+   "weather": "0 outdoor games",
    "injuries": "273 players listed",
    "news": "0 players in headlines",
    "sleeper_trending": "41 board players trending",
