@@ -504,7 +504,7 @@
    "prop": "Rushing Yards",
    "line": 50,
    "ask": 86,
-   "bid": 85,
+   "bid": 84,
    "vals": [
     83.0,
     72.0,
@@ -549,7 +549,7 @@
    "praw": 0.7946,
    "rg": "RB1",
    "est": false,
-   "mid": 85.5,
+   "mid": 85.0,
    "tk": "KXNFLRSHYDS-26OCT05ATLNO-ATLBROBINSON7-50",
    "ev": "KXNFLRSHYDS-26OCT05ATLNO",
    "ctx": 0.3,
@@ -689,114 +689,6 @@
    "news": ""
   },
   {
-   "game": "TBDAL",
-   "glabel": "TB @ DAL (Thu)",
-   "player": "CeeDee Lamb",
-   "team": "DAL",
-   "opp": "TB",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 40,
-   "ask": 84,
-   "bid": 83,
-   "vals": [
-    44.0,
-    153.0,
-    112.0
-   ],
-   "over": 3,
-   "n": 3,
-   "proj": 87.6,
-   "al": [
-    [
-     1,
-     "CIN",
-     59.0
-    ],
-    [
-     2,
-     "CLE",
-     95.0
-    ],
-    [
-     3,
-     "MIN",
-     90.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 3,
-   "most": 19,
-   "per": 220.0,
-   "dstat": "pass yds",
-   "p": 82,
-   "roi": -2,
-   "pp": 83,
-   "hs": 82,
-   "dhs": 80,
-   "rks": 42,
-   "vs": 48,
-   "agree": 3,
-   "score": 74.0,
-   "flags": [],
-   "pc": 0.8192,
-   "praw": 0.8192,
-   "rg": "WR1",
-   "est": false,
-   "mid": 83.5,
-   "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-40",
-   "ev": "KXNFLRECYDS-26OCT08TBDAL",
-   "ctx": 0.35,
-   "cxs": 68,
-   "reasons": [
-    [
-     0.15,
-     "TB secondary missing CB Benjamin Morrison"
-    ],
-    [
-     0.2,
-     "Camden Brown out, more targets to go around"
-    ],
-    [
-     0.0,
-     "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
-    ]
-   ],
-   "status": null,
-   "ppj": 84,
-   "pu": 82,
-   "uinfo": {
-    "share": [
-     27,
-     29,
-     20
-    ],
-    "kind": "targets",
-    "snap": 79,
-    "snap_last": 82,
-    "mu": 80.6,
-    "note": ""
-   },
-   "po": 12,
-   "pn": 14,
-   "pid": "6786",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Dak Prescott",
-    "same": true,
-    "n": 3
-   },
-   "rank": 8,
-   "why": "Cleared 40+ in 3 of 3 games (12 of 14 last season), Sleeper projects 87.6, TB let 3 of 3 WR1s reach it. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
-   "news": "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
-  },
-  {
    "game": "ATLNO",
    "glabel": "ATL @ NO (Mon)",
    "player": "Devaughn Vele",
@@ -892,9 +784,117 @@
     "same": true,
     "n": 3
    },
-   "rank": 9,
+   "rank": 8,
    "why": "Cleared 3+ in 3 of 3 games (4 of 13 last season), Sleeper projects 3.9, ATL let 3 of 3 WR2s reach it, ATL allows the 6th most pass yds. NO projected for 24 pts (O/U 47.5).",
    "news": ""
+  },
+  {
+   "game": "TBDAL",
+   "glabel": "TB @ DAL (Thu)",
+   "player": "CeeDee Lamb",
+   "team": "DAL",
+   "opp": "TB",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 40,
+   "ask": 85,
+   "bid": 83,
+   "vals": [
+    44.0,
+    153.0,
+    112.0
+   ],
+   "over": 3,
+   "n": 3,
+   "proj": 87.6,
+   "al": [
+    [
+     1,
+     "CIN",
+     59.0
+    ],
+    [
+     2,
+     "CLE",
+     95.0
+    ],
+    [
+     3,
+     "MIN",
+     90.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 19,
+   "per": 220.0,
+   "dstat": "pass yds",
+   "p": 82,
+   "roi": -4,
+   "pp": 83,
+   "hs": 82,
+   "dhs": 80,
+   "rks": 42,
+   "vs": 46,
+   "agree": 3,
+   "score": 73.8,
+   "flags": [],
+   "pc": 0.8192,
+   "praw": 0.8192,
+   "rg": "WR1",
+   "est": false,
+   "mid": 84.0,
+   "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-40",
+   "ev": "KXNFLRECYDS-26OCT08TBDAL",
+   "ctx": 0.35,
+   "cxs": 68,
+   "reasons": [
+    [
+     0.15,
+     "TB secondary missing CB Benjamin Morrison"
+    ],
+    [
+     0.2,
+     "Camden Brown out, more targets to go around"
+    ],
+    [
+     0.0,
+     "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
+    ]
+   ],
+   "status": null,
+   "ppj": 84,
+   "pu": 82,
+   "uinfo": {
+    "share": [
+     27,
+     29,
+     20
+    ],
+    "kind": "targets",
+    "snap": 79,
+    "snap_last": 82,
+    "mu": 80.6,
+    "note": ""
+   },
+   "po": 12,
+   "pn": 14,
+   "pid": "6786",
+   "sx": 0.0,
+   "sxs": 50,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Dak Prescott",
+    "same": true,
+    "n": 3
+   },
+   "rank": 9,
+   "why": "Cleared 40+ in 3 of 3 games (12 of 14 last season), Sleeper projects 87.6, TB let 3 of 3 WR1s reach it. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
+   "news": "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
   },
   {
    "game": "TBDAL",
@@ -1610,7 +1610,7 @@
    "stat": "rush",
    "prop": "Rushing Yards",
    "line": 10,
-   "ask": 50,
+   "ask": 51,
    "bid": 48,
    "vals": [
     14.0,
@@ -1627,20 +1627,20 @@
    "per": 76.0,
    "dstat": "rush yds",
    "p": 66,
-   "roi": 32,
+   "roi": 29,
    "pp": 66,
    "hs": 65,
    "dhs": 50,
    "rks": 3,
-   "vs": 82,
+   "vs": 79,
    "agree": 2,
-   "score": 59.2,
+   "score": 58.7,
    "flags": [],
    "pc": 0.6583,
    "praw": 0.6583,
    "rg": "QB",
    "est": false,
-   "mid": 49.0,
+   "mid": 49.5,
    "tk": "KXNFLRSHYDS-26OCT08TBDAL-DALDPRESCOTT4-10",
    "ev": "KXNFLRSHYDS-26OCT08TBDAL",
    "ctx": 0,
@@ -4005,10 +4005,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 10,
-   "ask": 50,
-   "q": 49.0,
+   "ask": 51,
+   "q": 49.5,
    "p": 0.6583,
-   "sc": 59.2,
+   "sc": 58.7,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT08TBDAL-DALDPRESCOTT4-10",
    "ev": "KXNFLRSHYDS-26OCT08TBDAL",
@@ -4305,10 +4305,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 59,
-   "q": 58.0,
+   "ask": 58,
+   "q": 57.5,
    "p": 0.5666,
-   "sc": 41.4,
+   "sc": 41.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT05ATLNO-ATLKPITTS8-25",
    "ev": "KXNFLRECYDS-26OCT05ATLNO",
@@ -4685,10 +4685,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 80,
-   "ask": 50,
+   "ask": 49,
    "q": 48.0,
    "p": 0.5641,
-   "sc": 46.9,
+   "sc": 47.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-80",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
@@ -4705,10 +4705,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 70,
-   "ask": 59,
+   "ask": 60,
    "q": 58.0,
    "p": 0.6139,
-   "sc": 50.1,
+   "sc": 49.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-70",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
@@ -4733,26 +4733,6 @@
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-50",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "wy": "Cleared 50+ in 2 of 3 games (11 of 14 last season), Sleeper projects 87.6, TB let 3 of 3 WR1s reach it. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
-   "id": "6786",
-   "cx": 0.35,
-   "nw": "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
-  },
-  {
-   "pl": "CeeDee Lamb",
-   "tm": "DAL",
-   "g": "TBDAL",
-   "gl": "TB @ DAL (Thu)",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 40,
-   "ask": 84,
-   "q": 83.5,
-   "p": 0.8192,
-   "sc": 74.0,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-40",
-   "ev": "KXNFLRECYDS-26OCT08TBDAL",
-   "wy": "Cleared 40+ in 3 of 3 games (12 of 14 last season), Sleeper projects 87.6, TB let 3 of 3 WR1s reach it. Camden Brown out, more targets to go around. TB secondary missing CB Benjamin Morrison.",
    "id": "6786",
    "cx": 0.35,
    "nw": "In the news: \"Week 4 winners and losers: Tetairoa McMillan, CeeDee Lamb dominate; Jaxon Smith-Njigba struggles\""
@@ -5061,7 +5041,7 @@
    2,
    3
   ],
-  "generated": "2026-10-05T00:05:33-07:00",
+  "generated": "2026-10-05T00:27:38-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [
    "Some markets weren't open when this was pulled. TB @ DAL (Thu): no priced receptions markets yet."
