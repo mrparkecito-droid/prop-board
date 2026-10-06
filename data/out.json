@@ -407,7 +407,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 15,
-   "ask": 76,
+   "ask": 77,
    "bid": 73,
    "vals": [
     63.0,
@@ -440,20 +440,20 @@
    "per": 207.7,
    "dstat": "pass yds",
    "p": 83,
-   "roi": 9,
+   "roi": 7,
    "pp": 90,
    "hs": 85,
    "dhs": 80,
    "rks": 26,
-   "vs": 59,
+   "vs": 57,
    "agree": 3,
-   "score": 72.4,
+   "score": 72.1,
    "flags": [],
    "pc": 0.8265,
    "praw": 0.8265,
    "rg": "WR1",
    "est": false,
-   "mid": 74.5,
+   "mid": 75.0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBEEGBUKA2-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "ctx": 0.35,
@@ -617,7 +617,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 15,
-   "ask": 73,
+   "ask": 76,
    "bid": 71,
    "vals": [
     40.0,
@@ -650,20 +650,20 @@
    "per": 207.7,
    "dstat": "pass yds",
    "p": 79,
-   "roi": 8,
+   "roi": 4,
    "pp": 85,
    "hs": 79,
    "dhs": 80,
    "rks": 26,
-   "vs": 58,
+   "vs": 54,
    "agree": 3,
-   "score": 69.6,
+   "score": 68.9,
    "flags": [],
    "pc": 0.7879,
    "praw": 0.7879,
    "rg": "WR2",
    "est": false,
-   "mid": 72.0,
+   "mid": 73.5,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBCGODWIN14-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "ctx": 0.35,
@@ -817,6 +817,109 @@
    "news": ""
   },
   {
+   "game": "ATLNO",
+   "glabel": "ATL @ NO (Mon)",
+   "player": "Bijan Robinson",
+   "team": "ATL",
+   "opp": "NO",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 3,
+   "ask": 41,
+   "bid": 0,
+   "vals": [
+    8.0,
+    3.0,
+    2.0
+   ],
+   "over": 2,
+   "n": 3,
+   "proj": 4.4,
+   "al": [
+    [
+     1,
+     "DET",
+     5.0
+    ],
+    [
+     2,
+     "BAL",
+     3.0
+    ],
+    [
+     3,
+     "LV",
+     3.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 16,
+   "per": 229.7,
+   "dstat": "pass yds",
+   "p": 77,
+   "roi": 87,
+   "pp": 80,
+   "hs": 68,
+   "dhs": 80,
+   "rks": 52,
+   "vs": 100,
+   "agree": 2,
+   "score": 65.1,
+   "flags": [
+    "Wide bid/ask spread, thin market"
+   ],
+   "pc": 0.7674,
+   "praw": 0.7674,
+   "rg": "RB1",
+   "est": false,
+   "mid": 39.5,
+   "tk": "KXNFLREC-26OCT05ATLNO-ATLBROBINSON7-3",
+   "ev": "KXNFLREC-26OCT05ATLNO",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "NO secondary missing CB Decamerion Richardson"
+    ]
+   ],
+   "status": null,
+   "ppj": 83,
+   "pu": 76,
+   "uinfo": {
+    "share": [
+     48,
+     13,
+     9
+    ],
+    "kind": "targets",
+    "snap": 66,
+    "snap_last": 72,
+    "mu": 3.6,
+    "note": "His share of targets fell from 48% to 9%."
+   },
+   "po": 14,
+   "pn": 17,
+   "pid": "9509",
+   "sx": 0.0,
+   "sxs": 50,
+   "qf": 0.09,
+   "qfs": 54,
+   "qnote": "QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 3+ in 8 of 10 (6, 8, 2, 4).",
+   "qinfo": {
+    "qb": "Michael Penix",
+    "same": false,
+    "with": 10,
+    "usual": "Cooper Rush"
+   },
+   "rank": 9,
+   "why": "Cleared 3+ in 2 of 3 games (14 of 17 last season), Sleeper projects 4.4, NO let 3 of 3 lead RBs reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 3+ in 8 of 10 (6, 8, 2, 4). His share of targets fell from 48% to 9%. NO secondary missing CB Decamerion Richardson.",
+   "news": ""
+  },
+  {
    "game": "TBDAL",
    "glabel": "TB @ DAL (Thu)",
    "player": "CeeDee Lamb",
@@ -827,7 +930,7 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 4,
-   "ask": 87,
+   "ask": 85,
    "bid": 84,
    "vals": [
     5.0,
@@ -860,20 +963,20 @@
    "per": 220.0,
    "dstat": "pass yds",
    "p": 75,
-   "roi": -14,
+   "roi": -12,
    "pp": 81,
    "hs": 82,
    "dhs": 60,
    "rks": 42,
-   "vs": 36,
+   "vs": 38,
    "agree": 2,
-   "score": 62.3,
+   "score": 62.7,
    "flags": [],
    "pc": 0.7508,
    "praw": 0.7508,
    "rg": "WR1",
    "est": false,
-   "mid": 85.5,
+   "mid": 84.5,
    "tk": "KXNFLREC-26OCT08TBDAL-DALCLAMB88-4",
    "ev": "KXNFLREC-26OCT08TBDAL",
    "ctx": 0.3,
@@ -916,7 +1019,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 9,
+   "rank": 10,
    "why": "Cleared 4+ in 3 of 3 games (12 of 14 last season), Sleeper projects 6, TB let 2 of 3 WR1s reach it. TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison.",
    "news": "In the news: \"NFL Week 4: CeeDee Lamb, Joe Burrow and more fuel best quotes\""
   },
@@ -1021,7 +1124,7 @@
     "with": 0,
     "usual": "Baker Mayfield"
    },
-   "rank": 10,
+   "rank": 11,
    "why": "Cleared 15+ in 3 of 3 games, Sleeper projects 30.1, DAL let 2 of 3 WR3s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out), and they have no games together yet. Ko Kieft out, more targets to go around. DAL secondary missing CB Cobie Durant.",
    "news": ""
   },
@@ -1122,7 +1225,7 @@
     "with": 0,
     "usual": "Baker Mayfield"
    },
-   "rank": 11,
+   "rank": 12,
    "why": "Cleared 2+ in 3 of 3 games (7 of 10 last season), Sleeper projects 3, DAL let 2 of 3 lead RBs reach it. QB change: Jalon Daniels starts (Baker Mayfield is out), and they have no games together yet. His share of targets fell from 26% to 11%. DAL secondary missing CB Cobie Durant.",
    "news": ""
   },
@@ -1227,7 +1330,7 @@
     "with": 0,
     "usual": "Baker Mayfield"
    },
-   "rank": 12,
+   "rank": 13,
    "why": "Cleared 2+ in 3 of 3 games (14 of 16 last season), Sleeper projects 3.2, DAL let 2 of 3 TE1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out), and they have no games together yet. Ko Kieft out, more targets to go around. DAL secondary missing CB Cobie Durant.",
    "news": ""
   },
@@ -1332,7 +1435,7 @@
     "with": 0,
     "usual": "Baker Mayfield"
    },
-   "rank": 13,
+   "rank": 14,
    "why": "Cleared 15+ in 3 of 3 games (12 of 16 last season), Sleeper projects 33.4, DAL let 2 of 3 TE1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out), and they have no games together yet. Ko Kieft out, more targets to go around. DAL secondary missing CB Cobie Durant.",
    "news": ""
   },
@@ -1412,7 +1515,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 14,
+   "rank": 15,
    "why": "Cleared 10+ in 3 of 3 games (7 of 17 last season), Sleeper projects 11.9.",
    "news": "In the news: \"Stephen A. not buying into Cowboys after win over Texans\""
   },
@@ -1512,7 +1615,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 15,
+   "rank": 16,
    "why": "Cleared 3+ in 3 of 3 games (15 of 17 last season), Sleeper projects 5.1, TB let 1 of 3 WR2s reach it. His share of targets is up from 20% to 28%. TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison.",
    "news": ""
   },
@@ -1612,7 +1715,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 16,
+   "rank": 17,
    "why": "Cleared 2+ in 3 of 3 games (10 of 15 last season), Sleeper projects 3.2, TB let 1 of 3 WR3s reach it. TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison.",
    "news": ""
   },
@@ -1712,7 +1815,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 17,
+   "rank": 18,
    "why": "Cleared 200+ in 2 of 3 games (14 of 17 last season), Sleeper projects 281, TB let 2 of 3 QBs reach it. TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison.",
    "news": "In the news: \"Stephen A. not buying into Cowboys after win over Texans\""
   },
@@ -1812,7 +1915,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 18,
+   "rank": 19,
    "why": "Cleared 15+ in 2 of 3 games (14 of 17 last season), Sleeper projects 34.6, TB let 2 of 3 TE1s reach it. TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison.",
    "news": ""
   },
@@ -1827,8 +1930,8 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 1,
-   "ask": 74,
-   "bid": 2,
+   "ask": 73,
+   "bid": 0,
    "vals": [
     1.0,
     1.0,
@@ -1860,14 +1963,14 @@
    "per": 229.7,
    "dstat": "pass yds",
    "p": 70,
-   "roi": -5,
+   "roi": -4,
    "pp": 72,
    "hs": 82,
    "dhs": 60,
    "rks": 52,
-   "vs": 45,
+   "vs": 46,
    "agree": 2,
-   "score": 54.4,
+   "score": 54.6,
    "flags": [
     "Wide bid/ask spread, thin market"
    ],
@@ -1875,7 +1978,7 @@
    "praw": 0.7039,
    "rg": "WR3",
    "est": false,
-   "mid": 72.5,
+   "mid": 71.5,
    "tk": "KXNFLREC-26OCT05ATLNO-ATLOZACCHEAUS14-1",
    "ev": "KXNFLREC-26OCT05ATLNO",
    "ctx": 0.15,
@@ -1915,7 +2018,7 @@
     "with": 1,
     "usual": "Cooper Rush"
    },
-   "rank": 19,
+   "rank": 20,
    "why": "Cleared 1+ in 3 of 3 games (13 of 15 last season), Sleeper projects 1.1, NO let 2 of 3 WR3s reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 1+ in 1 of 1 (2). NO secondary missing CB Decamerion Richardson.",
    "news": ""
   },
@@ -2015,7 +2118,7 @@
     "same": true,
     "n": 3
    },
-   "rank": 20,
+   "rank": 21,
    "why": "Cleared 15+ in 2 of 3 games (4 of 16 last season), Sleeper projects 15.2, TB let 3 of 3 lead RBs reach it. His share of targets fell from 17% to 8%. TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison.",
    "news": ""
   },
@@ -2116,7 +2219,7 @@
     "with": 0,
     "usual": "Baker Mayfield"
    },
-   "rank": 21,
+   "rank": 22,
    "why": "Cleared 2+ in 2 of 3 games (16 of 17 last season), DAL let 2 of 3 lead RBs reach it. QB change: Jalon Daniels starts (Baker Mayfield is out), and they have no games together yet. His share of targets is up from 4% to 14%. DAL secondary missing CB Cobie Durant.",
    "news": ""
   },
@@ -2216,105 +2319,8 @@
     "same": true,
     "n": 3
    },
-   "rank": 22,
-   "why": "Cleared 3+ in 2 of 3 games (13 of 17 last season), Sleeper projects 3.6, TB let 2 of 3 TE1s reach it. TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison.",
-   "news": ""
-  },
-  {
-   "game": "ATLNO",
-   "glabel": "ATL @ NO (Mon)",
-   "player": "Kendre Miller",
-   "team": "NO",
-   "opp": "ATL",
-   "pos": "RB",
-   "role": "RB2",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 10,
-   "ask": 56,
-   "bid": 22,
-   "vals": [
-    30.0,
-    -1,
-    14.0
-   ],
-   "over": 2,
-   "n": 3,
-   "proj": 26.8,
-   "al": [
-    [
-     1,
-     "PIT",
-     15.0
-    ],
-    [
-     2,
-     "CAR",
-     16.0
-    ],
-    [
-     3,
-     "GB",
-     6.0
-    ]
-   ],
-   "dhit": 2,
-   "dn": 3,
-   "most": 32,
-   "per": 47.7,
-   "dstat": "rush yds",
-   "p": 72,
-   "roi": 28,
-   "pp": 87,
-   "hs": 63,
-   "dhs": 60,
-   "rks": 0,
-   "vs": 78,
-   "agree": 1,
-   "score": 50.2,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.7166,
-   "praw": 0.7166,
-   "rg": "RB2",
-   "est": false,
-   "mid": 54.5,
-   "tk": "KXNFLRSHYDS-26OCT05ATLNO-NOKMILLER5-10",
-   "ev": "KXNFLRSHYDS-26OCT05ATLNO",
-   "ctx": 0.12,
-   "cxs": 56,
-   "reasons": [
-    [
-     0.12,
-     "ATL front missing LB Jared Ivey"
-    ]
-   ],
-   "status": null,
-   "ppj": 88,
-   "pu": 86,
-   "uinfo": {
-    "share": [
-     36,
-     14
-    ],
-    "kind": "carries",
-    "snap": 22,
-    "snap_last": 19,
-    "mu": 23.3,
-    "note": "His share of carries fell from 36% to 14%."
-   },
-   "po": 5,
-   "pn": 7,
-   "pid": "9757",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
    "rank": 23,
-   "why": "Cleared 10+ in 2 of 3 games (5 of 7 last season), Sleeper projects 26.8, ATL let 2 of 3 No. 2 RBs reach it. His share of carries fell from 36% to 14%. ATL front missing LB Jared Ivey.",
+   "why": "Cleared 3+ in 2 of 3 games (13 of 17 last season), Sleeper projects 3.6, TB let 2 of 3 TE1s reach it. TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison.",
    "news": ""
   },
   {
@@ -2523,6 +2529,112 @@
    "news": ""
   },
   {
+   "game": "ATLNO",
+   "glabel": "ATL @ NO (Mon)",
+   "player": "Bryce Lance",
+   "team": "NO",
+   "opp": "ATL",
+   "pos": "WR",
+   "role": "WR3",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 74,
+   "bid": 0,
+   "vals": [
+    3.0,
+    1.0,
+    0.0
+   ],
+   "over": 1,
+   "n": 3,
+   "proj": 2.0,
+   "al": [
+    [
+     1,
+     "PIT",
+     3.0
+    ],
+    [
+     2,
+     "CAR",
+     2.0
+    ],
+    [
+     3,
+     "GB",
+     3.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 3,
+   "most": 6,
+   "per": 273.3,
+   "dstat": "pass yds",
+   "p": 59,
+   "roi": -20,
+   "pp": 58,
+   "hs": 40,
+   "dhs": 80,
+   "rks": 84,
+   "vs": 30,
+   "agree": 1,
+   "score": 42.6,
+   "flags": [
+    "Wide bid/ask spread, thin market"
+   ],
+   "pc": 0.5908,
+   "praw": 0.5908,
+   "rg": "WR3",
+   "est": false,
+   "mid": 72.5,
+   "tk": "KXNFLREC-26OCT05ATLNO-NOBLANCE18-2",
+   "ev": "KXNFLREC-26OCT05ATLNO",
+   "ctx": 0.5,
+   "cxs": 75,
+   "reasons": [
+    [
+     0.3,
+     "ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV"
+    ],
+    [
+     0.2,
+     "Noah Fant out, more targets to go around"
+    ]
+   ],
+   "status": null,
+   "ppj": 66,
+   "pu": 50,
+   "uinfo": {
+    "share": [
+     8,
+     3,
+     8
+    ],
+    "kind": "targets",
+    "snap": 74,
+    "snap_last": 72,
+    "mu": 1.5,
+    "note": ""
+   },
+   "po": 0,
+   "pn": 0,
+   "pid": "13420",
+   "sx": 0.0,
+   "sxs": 50,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Tyler Shough",
+    "same": true,
+    "n": 3
+   },
+   "rank": 26,
+   "why": "Cleared 2+ in 1 of 3 games, Sleeper projects 2, ATL let 3 of 3 WR3s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
+   "news": ""
+  },
+  {
    "game": "TBDAL",
    "glabel": "TB @ DAL (Thu)",
    "player": "George Pickens",
@@ -2618,111 +2730,8 @@
     "same": true,
     "n": 3
    },
-   "rank": 26,
-   "why": "Cleared 40+ in 2 of 3 games (13 of 17 last season), Sleeper projects 77, TB let 0 of 3 WR2s reach it. His share of targets is up from 20% to 28%. TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison.",
-   "news": ""
-  },
-  {
-   "game": "ATLNO",
-   "glabel": "ATL @ NO (Mon)",
-   "player": "Olamide Zaccheaus",
-   "team": "ATL",
-   "opp": "NO",
-   "pos": "WR",
-   "role": "WR3",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 5,
-   "ask": 79,
-   "bid": 0,
-   "vals": [
-    5.0,
-    3.0,
-    9.0
-   ],
-   "over": 2,
-   "n": 3,
-   "proj": 12.7,
-   "al": [
-    [
-     1,
-     "DET",
-     0.0
-    ],
-    [
-     2,
-     "BAL",
-     14.0
-    ],
-    [
-     3,
-     "LV",
-     4.0
-    ]
-   ],
-   "dhit": 1,
-   "dn": 3,
-   "most": 16,
-   "per": 229.7,
-   "dstat": "pass yds",
-   "p": 62,
-   "roi": -22,
-   "pp": 74,
-   "hs": 70,
-   "dhs": 40,
-   "rks": 52,
-   "vs": 28,
-   "agree": 1,
-   "score": 39.4,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.6173,
-   "praw": 0.6173,
-   "rg": "WR3",
-   "est": false,
-   "mid": 77.5,
-   "tk": "KXNFLRECYDS-26OCT05ATLNO-ATLOZACCHEAUS14-5",
-   "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "NO secondary missing CB Decamerion Richardson"
-    ]
-   ],
-   "status": null,
-   "ppj": 75,
-   "pu": 73,
-   "uinfo": {
-    "share": [
-     5,
-     10,
-     9
-    ],
-    "kind": "targets",
-    "snap": 36,
-    "snap_last": 34,
-    "mu": 11.8,
-    "note": ""
-   },
-   "po": 13,
-   "pn": 15,
-   "pid": "6271",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": -0.23,
-   "qfs": 38,
-   "qnote": "QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 5+ in 1 of 1 (9).",
-   "qinfo": {
-    "qb": "Michael Penix",
-    "same": false,
-    "with": 1,
-    "usual": "Cooper Rush"
-   },
    "rank": 27,
-   "why": "Cleared 5+ in 2 of 3 games (13 of 15 last season), Sleeper projects 12.7, NO let 1 of 3 WR3s reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 5+ in 1 of 1 (9). NO secondary missing CB Decamerion Richardson.",
+   "why": "Cleared 40+ in 2 of 3 games (13 of 17 last season), Sleeper projects 77, TB let 0 of 3 WR2s reach it. His share of targets is up from 20% to 28%. TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison.",
    "news": ""
   },
   {
@@ -2831,112 +2840,6 @@
    "news": ""
   },
   {
-   "game": "ATLNO",
-   "glabel": "ATL @ NO (Mon)",
-   "player": "Bryce Lance",
-   "team": "NO",
-   "opp": "ATL",
-   "pos": "WR",
-   "role": "WR3",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 3,
-   "ask": 56,
-   "bid": 0,
-   "vals": [
-    3.0,
-    1.0,
-    0.0
-   ],
-   "over": 1,
-   "n": 3,
-   "proj": 2.0,
-   "al": [
-    [
-     1,
-     "PIT",
-     3.0
-    ],
-    [
-     2,
-     "CAR",
-     2.0
-    ],
-    [
-     3,
-     "GB",
-     3.0
-    ]
-   ],
-   "dhit": 2,
-   "dn": 3,
-   "most": 6,
-   "per": 273.3,
-   "dstat": "pass yds",
-   "p": 41,
-   "roi": -27,
-   "pp": 27,
-   "hs": 40,
-   "dhs": 60,
-   "rks": 84,
-   "vs": 23,
-   "agree": 0,
-   "score": 28.8,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.4069,
-   "praw": 0.4069,
-   "rg": "WR3",
-   "est": false,
-   "mid": 54.5,
-   "tk": "KXNFLREC-26OCT05ATLNO-NOBLANCE18-3",
-   "ev": "KXNFLREC-26OCT05ATLNO",
-   "ctx": 0.5,
-   "cxs": 75,
-   "reasons": [
-    [
-     0.3,
-     "ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV"
-    ],
-    [
-     0.2,
-     "Noah Fant out, more targets to go around"
-    ]
-   ],
-   "status": null,
-   "ppj": 34,
-   "pu": 20,
-   "uinfo": {
-    "share": [
-     8,
-     3,
-     8
-    ],
-    "kind": "targets",
-    "snap": 74,
-    "snap_last": 72,
-    "mu": 1.5,
-    "note": ""
-   },
-   "po": 0,
-   "pn": 0,
-   "pid": "13420",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Tyler Shough",
-    "same": true,
-    "n": 3
-   },
-   "rank": 29,
-   "why": "Cleared 3+ in 1 of 3 games, ATL let 2 of 3 WR3s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "news": ""
-  },
-  {
    "game": "TBDAL",
    "glabel": "TB @ DAL (Thu)",
    "player": "Tyler Goodson",
@@ -3021,7 +2924,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 30,
+   "rank": 29,
    "why": "Cleared 10+ in 1 of 3 games (0 of 9 last season), Sleeper projects 13.4, TB let 1 of 3 No. 2 RBs reach it.",
    "news": ""
   },
@@ -3124,111 +3027,114 @@
     "with": 1,
     "usual": "Cooper Rush"
    },
-   "rank": 31,
+   "rank": 30,
    "why": "Cleared 2+ in 2 of 3 games (7 of 16 last season), NO let 1 of 3 TE2s reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 2+ in 1 of 1 (2). His share of targets is up from 0% to 9%. NO secondary missing CB Decamerion Richardson.",
    "news": ""
   },
   {
    "game": "ATLNO",
    "glabel": "ATL @ NO (Mon)",
-   "player": "Kyle Pitts",
-   "team": "ATL",
-   "opp": "NO",
-   "pos": "TE",
-   "role": "TE1",
+   "player": "Chris Olave",
+   "team": "NO",
+   "opp": "ATL",
+   "pos": "WR",
+   "role": "WR1",
    "stat": "rec",
    "prop": "Receptions",
-   "line": 4,
-   "ask": 66,
+   "line": 9,
+   "ask": 78,
    "bid": 0,
    "vals": [
-    0.0,
-    1.0,
-    1.0
+    10.0,
+    8.0,
+    9.0
    ],
-   "over": 0,
+   "over": 2,
    "n": 3,
-   "proj": 2.7,
+   "proj": 6.2,
    "al": [
     [
      1,
-     "DET",
-     5.0
+     "PIT",
+     4.0
     ],
     [
      2,
-     "BAL",
-     6.0
+     "CAR",
+     8.0
     ],
     [
      3,
-     "LV",
-     10.0
+     "GB",
+     7.0
     ]
    ],
-   "dhit": 3,
+   "dhit": 0,
    "dn": 3,
-   "most": 16,
-   "per": 229.7,
+   "most": 6,
+   "per": 273.3,
    "dstat": "pass yds",
-   "p": 43,
-   "roi": -35,
-   "pp": 15,
-   "hs": 39,
-   "dhs": 80,
-   "rks": 52,
-   "vs": 15,
-   "agree": 1,
-   "score": 27.0,
+   "p": 33,
+   "roi": -57,
+   "pp": 35,
+   "hs": 45,
+   "dhs": 20,
+   "rks": 84,
+   "vs": 0,
+   "agree": 0,
+   "score": 21.9,
    "flags": [
     "Wide bid/ask spread, thin market"
    ],
-   "pc": 0.429,
-   "praw": 0.429,
-   "rg": "TE",
+   "pc": 0.3322,
+   "praw": 0.3322,
+   "rg": "WR1",
    "est": false,
-   "mid": 64.5,
-   "tk": "KXNFLREC-26OCT05ATLNO-ATLKPITTS8-4",
+   "mid": 76.5,
+   "tk": "KXNFLREC-26OCT05ATLNO-NOCOLAVE12-9",
    "ev": "KXNFLREC-26OCT05ATLNO",
-   "ctx": 0.15,
-   "cxs": 58,
+   "ctx": 0.5,
+   "cxs": 75,
    "reasons": [
     [
-     0.15,
-     "NO secondary missing CB Decamerion Richardson"
+     0.3,
+     "ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV"
+    ],
+    [
+     0.2,
+     "Noah Fant out, more targets to go around"
     ]
    ],
    "status": null,
-   "ppj": 26,
-   "pu": 4,
+   "ppj": 20,
+   "pu": 49,
    "uinfo": {
     "share": [
-     5,
-     10,
-     9
+     25,
+     31,
+     32
     ],
     "kind": "targets",
-    "snap": 53,
-    "snap_last": 59,
-    "mu": 1.4,
+    "snap": 84,
+    "snap_last": 84,
+    "mu": 8.4,
     "note": ""
    },
-   "po": 12,
-   "pn": 17,
-   "pid": "7553",
+   "po": 3,
+   "pn": 16,
+   "pid": "8144",
    "sx": 0.0,
    "sxs": 50,
-   "qf": 0.5,
-   "qfs": 75,
-   "qnote": "QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 4+ in 6 of 10 (7, 4, 2, 2).",
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
    "qinfo": {
-    "qb": "Michael Penix",
-    "same": false,
-    "with": 10,
-    "usual": "Cooper Rush"
+    "qb": "Tyler Shough",
+    "same": true,
+    "n": 3
    },
-   "rank": 32,
-   "why": "Cleared 4+ in 0 of 3 games (12 of 17 last season), NO let 3 of 3 TE1s reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 4+ in 6 of 10 (7, 4, 2, 2). NO secondary missing CB Decamerion Richardson.",
+   "rank": 31,
+   "why": "Cleared 9+ in 2 of 3 games (3 of 16 last season), ATL let 0 of 3 WR1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
    "news": ""
   },
   {
@@ -3332,321 +3238,8 @@
     "with": 0,
     "usual": "Baker Mayfield"
    },
-   "rank": 33,
+   "rank": 32,
    "why": "Cleared 2+ in 0 of 3 games (6 of 16 last season), DAL let 1 of 3 WR4s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out), and they have no games together yet. Ko Kieft out, more targets to go around. DAL secondary missing CB Cobie Durant.",
-   "news": ""
-  },
-  {
-   "game": "ATLNO",
-   "glabel": "ATL @ NO (Mon)",
-   "player": "Devaughn Vele",
-   "team": "NO",
-   "opp": "ATL",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 6,
-   "ask": 75,
-   "bid": 11,
-   "vals": [
-    7.0,
-    5.0,
-    3.0
-   ],
-   "over": 1,
-   "n": 3,
-   "proj": 4.2,
-   "al": [
-    [
-     1,
-     "PIT",
-     3.0
-    ],
-    [
-     2,
-     "CAR",
-     5.0
-    ],
-    [
-     3,
-     "GB",
-     5.0
-    ]
-   ],
-   "dhit": 0,
-   "dn": 3,
-   "most": 6,
-   "per": 273.3,
-   "dstat": "pass yds",
-   "p": 27,
-   "roi": -64,
-   "pp": 31,
-   "hs": 28,
-   "dhs": 20,
-   "rks": 84,
-   "vs": 0,
-   "agree": 0,
-   "score": 16.9,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.2674,
-   "praw": 0.2674,
-   "rg": "WR2",
-   "est": false,
-   "mid": 73.5,
-   "tk": "KXNFLREC-26OCT05ATLNO-NODVELE14-6",
-   "ev": "KXNFLREC-26OCT05ATLNO",
-   "ctx": 0.5,
-   "cxs": 75,
-   "reasons": [
-    [
-     0.3,
-     "ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV"
-    ],
-    [
-     0.2,
-     "Noah Fant out, more targets to go around"
-    ]
-   ],
-   "status": null,
-   "ppj": 24,
-   "pu": 38,
-   "uinfo": {
-    "share": [
-     17,
-     22,
-     15
-    ],
-    "kind": "targets",
-    "snap": 91,
-    "snap_last": 88,
-    "mu": 4.8,
-    "note": ""
-   },
-   "po": 1,
-   "pn": 13,
-   "pid": "11834",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Tyler Shough",
-    "same": true,
-    "n": 3
-   },
-   "rank": 34,
-   "why": "Cleared 6+ in 1 of 3 games (1 of 13 last season), ATL let 0 of 3 WR2s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "news": ""
-  },
-  {
-   "game": "ATLNO",
-   "glabel": "ATL @ NO (Mon)",
-   "player": "Chris Olave",
-   "team": "NO",
-   "opp": "ATL",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 130,
-   "ask": 70,
-   "bid": 2,
-   "vals": [
-    182.0,
-    86.0,
-    107.0
-   ],
-   "over": 1,
-   "n": 3,
-   "proj": 89.1,
-   "al": [
-    [
-     1,
-     "PIT",
-     58.0
-    ],
-    [
-     2,
-     "CAR",
-     101.0
-    ],
-    [
-     3,
-     "GB",
-     100.0
-    ]
-   ],
-   "dhit": 0,
-   "dn": 3,
-   "most": 6,
-   "per": 273.3,
-   "dstat": "pass yds",
-   "p": 25,
-   "roi": -64,
-   "pp": 27,
-   "hs": 27,
-   "dhs": 20,
-   "rks": 84,
-   "vs": 0,
-   "agree": 0,
-   "score": 16.1,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.2503,
-   "praw": 0.2503,
-   "rg": "WR1",
-   "est": false,
-   "mid": 68.5,
-   "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-130",
-   "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "ctx": 0.5,
-   "cxs": 75,
-   "reasons": [
-    [
-     0.3,
-     "ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV"
-    ],
-    [
-     0.2,
-     "Noah Fant out, more targets to go around"
-    ]
-   ],
-   "status": null,
-   "ppj": 20,
-   "pu": 34,
-   "uinfo": {
-    "share": [
-     25,
-     31,
-     32
-    ],
-    "kind": "targets",
-    "snap": 84,
-    "snap_last": 84,
-    "mu": 105.1,
-    "note": ""
-   },
-   "po": 1,
-   "pn": 16,
-   "pid": "8144",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Tyler Shough",
-    "same": true,
-    "n": 3
-   },
-   "rank": 35,
-   "why": "Cleared 130+ in 1 of 3 games (1 of 16 last season), ATL let 0 of 3 WR1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "news": ""
-  },
-  {
-   "game": "ATLNO",
-   "glabel": "ATL @ NO (Mon)",
-   "player": "Kendre Miller",
-   "team": "NO",
-   "opp": "ATL",
-   "pos": "RB",
-   "role": "RB1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 3,
-   "ask": 68,
-   "bid": 3,
-   "vals": [
-    0.0,
-    -1,
-    2.0
-   ],
-   "over": 0,
-   "n": 3,
-   "proj": 1.1,
-   "al": [
-    [
-     1,
-     "PIT",
-     5.0
-    ],
-    [
-     2,
-     "CAR",
-     2.0
-    ],
-    [
-     3,
-     "GB",
-     2.0
-    ]
-   ],
-   "dhit": 1,
-   "dn": 3,
-   "most": 6,
-   "per": 273.3,
-   "dstat": "pass yds",
-   "p": 24,
-   "roi": -65,
-   "pp": 18,
-   "hs": 15,
-   "dhs": 40,
-   "rks": 84,
-   "vs": 0,
-   "agree": 0,
-   "score": 14.7,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.2375,
-   "praw": 0.2375,
-   "rg": "RB1",
-   "est": false,
-   "mid": 66.5,
-   "tk": "KXNFLREC-26OCT05ATLNO-NOKMILLER5-3",
-   "ev": "KXNFLREC-26OCT05ATLNO",
-   "ctx": 0.3,
-   "cxs": 65,
-   "reasons": [
-    [
-     0.3,
-     "ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV"
-    ]
-   ],
-   "status": null,
-   "ppj": 13,
-   "pu": 24,
-   "uinfo": {
-    "share": [
-     0,
-     8
-    ],
-    "kind": "targets",
-    "snap": 22,
-    "snap_last": 19,
-    "mu": 1.6,
-    "note": "His share of targets is up from 0% to 8%."
-   },
-   "po": 0,
-   "pn": 7,
-   "pid": "9757",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Tyler Shough",
-    "same": true,
-    "n": 3
-   },
-   "rank": 36,
-   "why": "Cleared 3+ in 0 of 3 games (0 of 7 last season), ATL let 1 of 3 lead RBs reach it, ATL allows the 6th most pass yds. His share of targets is up from 0% to 8%. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV.",
    "news": ""
   },
   {
@@ -3660,7 +3253,7 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 3,
-   "ask": 68,
+   "ask": 44,
    "bid": 0,
    "vals": [
     1.0,
@@ -3693,14 +3286,14 @@
    "per": 229.7,
    "dstat": "pass yds",
    "p": 27,
-   "roi": -60,
+   "roi": -38,
    "pp": 26,
    "hs": 19,
    "dhs": 40,
    "rks": 52,
-   "vs": 0,
+   "vs": 12,
    "agree": 0,
-   "score": 13.7,
+   "score": 14.9,
    "flags": [
     "Wide bid/ask spread, thin market"
    ],
@@ -3708,7 +3301,7 @@
    "praw": 0.2725,
    "rg": "WR2",
    "est": false,
-   "mid": 66.5,
+   "mid": 42.5,
    "tk": "KXNFLREC-26OCT05ATLNO-ATLJDOTSON4-3",
    "ev": "KXNFLREC-26OCT05ATLNO",
    "ctx": 0.15,
@@ -3748,149 +3341,46 @@
     "with": 1,
     "usual": "Cooper Rush"
    },
-   "rank": 37,
+   "rank": 33,
    "why": "Cleared 3+ in 0 of 3 games (3 of 17 last season), NO let 1 of 3 WR2s reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 3+ in 0 of 1 (1). NO secondary missing CB Decamerion Richardson.",
    "news": ""
   },
   {
    "game": "ATLNO",
    "glabel": "ATL @ NO (Mon)",
-   "player": "Kyle Pitts",
-   "team": "ATL",
-   "opp": "NO",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 50,
-   "ask": 52,
-   "bid": 0,
-   "vals": [
-    0.0,
-    15.0,
-    5.0
-   ],
-   "over": 0,
-   "n": 3,
-   "proj": 30.9,
-   "al": [
-    [
-     1,
-     "DET",
-     48.0
-    ],
-    [
-     2,
-     "BAL",
-     49.0
-    ],
-    [
-     3,
-     "LV",
-     116.0
-    ]
-   ],
-   "dhit": 1,
-   "dn": 3,
-   "most": 16,
-   "per": 229.7,
-   "dstat": "pass yds",
-   "p": 25,
-   "roi": -52,
-   "pp": 7,
-   "hs": 32,
-   "dhs": 40,
-   "rks": 52,
-   "vs": 0,
-   "agree": 0,
-   "score": 13.5,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.2521,
-   "praw": 0.2521,
-   "rg": "TE",
-   "est": false,
-   "mid": 50.5,
-   "tk": "KXNFLRECYDS-26OCT05ATLNO-ATLKPITTS8-50",
-   "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "NO secondary missing CB Decamerion Richardson"
-    ]
-   ],
-   "status": null,
-   "ppj": 14,
-   "pu": 0,
-   "uinfo": {
-    "share": [
-     5,
-     10,
-     9
-    ],
-    "kind": "targets",
-    "snap": 53,
-    "snap_last": 59,
-    "mu": 15.1,
-    "note": ""
-   },
-   "po": 9,
-   "pn": 17,
-   "pid": "7553",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.5,
-   "qfs": 75,
-   "qnote": "QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 50+ in 3 of 10 (62, 38, 38, 14).",
-   "qinfo": {
-    "qb": "Michael Penix",
-    "same": false,
-    "with": 10,
-    "usual": "Cooper Rush"
-   },
-   "rank": 38,
-   "why": "Cleared 50+ in 0 of 3 games (9 of 17 last season), NO let 1 of 3 TE1s reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 50+ in 3 of 10 (62, 38, 38, 14). NO secondary missing CB Decamerion Richardson.",
-   "news": ""
-  },
-  {
-   "game": "ATLNO",
-   "glabel": "ATL @ NO (Mon)",
-   "player": "Juwan Johnson",
+   "player": "Devaughn Vele",
    "team": "NO",
    "opp": "ATL",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 80,
-   "ask": 72,
-   "bid": 2,
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 7,
+   "ask": 73,
+   "bid": 0,
    "vals": [
-    54.0,
-    66.0,
-    53.0
+    7.0,
+    5.0,
+    3.0
    ],
-   "over": 0,
+   "over": 1,
    "n": 3,
-   "proj": 53.6,
+   "proj": 4.2,
    "al": [
     [
      1,
      "PIT",
-     46.0
+     3.0
     ],
     [
      2,
      "CAR",
-     33.0
+     5.0
     ],
     [
      3,
      "GB",
-     26.0
+     5.0
     ]
    ],
    "dhit": 0,
@@ -3898,25 +3388,25 @@
    "most": 6,
    "per": 273.3,
    "dstat": "pass yds",
-   "p": 20,
-   "roi": -72,
-   "pp": 21,
-   "hs": 19,
+   "p": 21,
+   "roi": -71,
+   "pp": 16,
+   "hs": 28,
    "dhs": 20,
    "rks": 84,
    "vs": 0,
    "agree": 0,
-   "score": 12.3,
+   "score": 14.3,
    "flags": [
     "Wide bid/ask spread, thin market"
    ],
-   "pc": 0.2002,
-   "praw": 0.2002,
-   "rg": "TE",
+   "pc": 0.2094,
+   "praw": 0.2094,
+   "rg": "WR2",
    "est": false,
-   "mid": 70.5,
-   "tk": "KXNFLRECYDS-26OCT05ATLNO-NOJJOHNSON83-80",
-   "ev": "KXNFLRECYDS-26OCT05ATLNO",
+   "mid": 71.5,
+   "tk": "KXNFLREC-26OCT05ATLNO-NODVELE14-7",
+   "ev": "KXNFLREC-26OCT05ATLNO",
    "ctx": 0.5,
    "cxs": 75,
    "reasons": [
@@ -3930,23 +3420,23 @@
     ]
    ],
    "status": null,
-   "ppj": 19,
+   "ppj": 11,
    "pu": 22,
    "uinfo": {
     "share": [
-     13,
-     12,
-     20
+     17,
+     22,
+     15
     ],
     "kind": "targets",
-    "snap": 64,
-    "snap_last": 62,
-    "mu": 56.1,
+    "snap": 91,
+    "snap_last": 88,
+    "mu": 4.8,
     "note": ""
    },
-   "po": 3,
-   "pn": 17,
-   "pid": "7002",
+   "po": 1,
+   "pn": 13,
+   "pid": "11834",
    "sx": 0.0,
    "sxs": 50,
    "qf": 0.0,
@@ -3957,205 +3447,97 @@
     "same": true,
     "n": 3
    },
-   "rank": 39,
-   "why": "Cleared 80+ in 0 of 3 games (3 of 17 last season), ATL let 0 of 3 TE1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
+   "rank": 34,
+   "why": "Cleared 7+ in 1 of 3 games (1 of 13 last season), ATL let 0 of 3 WR2s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
    "news": ""
   },
   {
    "game": "ATLNO",
    "glabel": "ATL @ NO (Mon)",
-   "player": "Bijan Robinson",
-   "team": "ATL",
-   "opp": "NO",
+   "player": "Kendre Miller",
+   "team": "NO",
+   "opp": "ATL",
    "pos": "RB",
    "role": "RB1",
    "stat": "rec",
    "prop": "Receptions",
-   "line": 7,
-   "ask": 63,
+   "line": 5,
+   "ask": 73,
    "bid": 0,
    "vals": [
-    8.0,
-    3.0,
+    0.0,
+    -1,
     2.0
-   ],
-   "over": 1,
-   "n": 3,
-   "proj": 4.4,
-   "al": [
-    [
-     1,
-     "DET",
-     5.0
-    ],
-    [
-     2,
-     "BAL",
-     3.0
-    ],
-    [
-     3,
-     "LV",
-     3.0
-    ]
-   ],
-   "dhit": 0,
-   "dn": 3,
-   "most": 16,
-   "per": 229.7,
-   "dstat": "pass yds",
-   "p": 19,
-   "roi": -69,
-   "pp": 9,
-   "hs": 32,
-   "dhs": 20,
-   "rks": 52,
-   "vs": 0,
-   "agree": 0,
-   "score": 11.4,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.1937,
-   "praw": 0.1937,
-   "rg": "RB1",
-   "est": false,
-   "mid": 61.5,
-   "tk": "KXNFLREC-26OCT05ATLNO-ATLBROBINSON7-7",
-   "ev": "KXNFLREC-26OCT05ATLNO",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "NO secondary missing CB Decamerion Richardson"
-    ]
-   ],
-   "status": null,
-   "ppj": 15,
-   "pu": 4,
-   "uinfo": {
-    "share": [
-     48,
-     13,
-     9
-    ],
-    "kind": "targets",
-    "snap": 66,
-    "snap_last": 72,
-    "mu": 3.6,
-    "note": "His share of targets fell from 48% to 9%."
-   },
-   "po": 3,
-   "pn": 17,
-   "pid": "9509",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.09,
-   "qfs": 54,
-   "qnote": "QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 7+ in 1 of 10 (6, 8, 2, 4).",
-   "qinfo": {
-    "qb": "Michael Penix",
-    "same": false,
-    "with": 10,
-    "usual": "Cooper Rush"
-   },
-   "rank": 40,
-   "why": "Cleared 7+ in 1 of 3 games (3 of 17 last season), NO let 0 of 3 lead RBs reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 7+ in 1 of 10 (6, 8, 2, 4). His share of targets fell from 48% to 9%. NO secondary missing CB Decamerion Richardson.",
-   "news": ""
-  },
-  {
-   "game": "ATLNO",
-   "glabel": "ATL @ NO (Mon)",
-   "player": "Chris Olave",
-   "team": "NO",
-   "opp": "ATL",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 11,
-   "ask": 64,
-   "bid": 1,
-   "vals": [
-    10.0,
-    8.0,
-    9.0
    ],
    "over": 0,
    "n": 3,
-   "proj": 6.2,
+   "proj": 1.1,
    "al": [
     [
      1,
      "PIT",
-     4.0
+     5.0
     ],
     [
      2,
      "CAR",
-     8.0
+     2.0
     ],
     [
      3,
      "GB",
-     7.0
+     2.0
     ]
    ],
-   "dhit": 0,
+   "dhit": 1,
    "dn": 3,
    "most": 6,
    "per": 273.3,
    "dstat": "pass yds",
    "p": 17,
-   "roi": -74,
-   "pp": 18,
-   "hs": 12,
-   "dhs": 20,
+   "roi": -77,
+   "pp": 1,
+   "hs": 15,
+   "dhs": 40,
    "rks": 84,
    "vs": 0,
    "agree": 0,
-   "score": 11.1,
+   "score": 11.7,
    "flags": [
     "Wide bid/ask spread, thin market"
    ],
-   "pc": 0.168,
-   "praw": 0.168,
-   "rg": "WR1",
+   "pc": 0.1667,
+   "praw": 0.1667,
+   "rg": "RB1",
    "est": false,
-   "mid": 62.5,
-   "tk": "KXNFLREC-26OCT05ATLNO-NOCOLAVE12-11",
+   "mid": 71.5,
+   "tk": "KXNFLREC-26OCT05ATLNO-NOKMILLER5-5",
    "ev": "KXNFLREC-26OCT05ATLNO",
-   "ctx": 0.5,
-   "cxs": 75,
+   "ctx": 0.3,
+   "cxs": 65,
    "reasons": [
     [
      0.3,
      "ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV"
-    ],
-    [
-     0.2,
-     "Noah Fant out, more targets to go around"
     ]
    ],
    "status": null,
-   "ppj": 6,
-   "pu": 29,
+   "ppj": 0,
+   "pu": 1,
    "uinfo": {
     "share": [
-     25,
-     31,
-     32
+     0,
+     8
     ],
     "kind": "targets",
-    "snap": 84,
-    "snap_last": 84,
-    "mu": 8.4,
-    "note": ""
+    "snap": 22,
+    "snap_last": 19,
+    "mu": 1.6,
+    "note": "His share of targets is up from 0% to 8%."
    },
    "po": 0,
-   "pn": 16,
-   "pid": "8144",
+   "pn": 7,
+   "pid": "9757",
    "sx": 0.0,
    "sxs": 50,
    "qf": 0.0,
@@ -4166,8 +3548,8 @@
     "same": true,
     "n": 3
    },
-   "rank": 41,
-   "why": "Cleared 11+ in 0 of 3 games (0 of 16 last season), ATL let 0 of 3 WR1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
+   "rank": 35,
+   "why": "Cleared 5+ in 0 of 3 games (0 of 7 last season), ATL let 1 of 3 lead RBs reach it, ATL allows the 6th most pass yds. His share of targets is up from 0% to 8%. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV.",
    "news": ""
   },
   {
@@ -4269,217 +3651,8 @@
     "with": 1,
     "usual": "Cooper Rush"
    },
-   "rank": 42,
+   "rank": 36,
    "why": "Cleared 25+ in 0 of 3 games, NO let 0 of 3 WR4s reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 25+ in 0 of 1 (7). His share of targets is up from 0% to 9%. NO secondary missing CB Decamerion Richardson.",
-   "news": ""
-  },
-  {
-   "game": "ATLNO",
-   "glabel": "ATL @ NO (Mon)",
-   "player": "Juwan Johnson",
-   "team": "NO",
-   "opp": "ATL",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 9,
-   "ask": 39,
-   "bid": 0,
-   "vals": [
-    3.0,
-    4.0,
-    8.0
-   ],
-   "over": 0,
-   "n": 3,
-   "proj": 4.6,
-   "al": [
-    [
-     1,
-     "PIT",
-     5.0
-    ],
-    [
-     2,
-     "CAR",
-     3.0
-    ],
-    [
-     3,
-     "GB",
-     4.0
-    ]
-   ],
-   "dhit": 0,
-   "dn": 3,
-   "most": 6,
-   "per": 273.3,
-   "dstat": "pass yds",
-   "p": 12,
-   "roi": -70,
-   "pp": 5,
-   "hs": 12,
-   "dhs": 20,
-   "rks": 84,
-   "vs": 0,
-   "agree": 0,
-   "score": 9.0,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.1157,
-   "praw": 0.1157,
-   "rg": "TE",
-   "est": false,
-   "mid": 37.5,
-   "tk": "KXNFLREC-26OCT05ATLNO-NOJJOHNSON83-9",
-   "ev": "KXNFLREC-26OCT05ATLNO",
-   "ctx": 0.5,
-   "cxs": 75,
-   "reasons": [
-    [
-     0.3,
-     "ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV"
-    ],
-    [
-     0.2,
-     "Noah Fant out, more targets to go around"
-    ]
-   ],
-   "status": null,
-   "ppj": 3,
-   "pu": 6,
-   "uinfo": {
-    "share": [
-     13,
-     12,
-     20
-    ],
-    "kind": "targets",
-    "snap": 64,
-    "snap_last": 62,
-    "mu": 5.0,
-    "note": ""
-   },
-   "po": 0,
-   "pn": 17,
-   "pid": "7002",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Tyler Shough",
-    "same": true,
-    "n": 3
-   },
-   "rank": 43,
-   "why": "Cleared 9+ in 0 of 3 games (0 of 17 last season), ATL let 0 of 3 TE1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "news": ""
-  },
-  {
-   "game": "ATLNO",
-   "glabel": "ATL @ NO (Mon)",
-   "player": "Zachariah Branch",
-   "team": "ATL",
-   "opp": "NO",
-   "pos": "WR",
-   "role": "WR4",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 4,
-   "ask": 44,
-   "bid": 0,
-   "vals": [
-    0.0,
-    2.0,
-    1.0
-   ],
-   "over": 0,
-   "n": 3,
-   "proj": 1.1,
-   "al": [
-    [
-     1,
-     "DET",
-     0.0
-    ],
-    [
-     2,
-     "BAL",
-     1.0
-    ],
-    [
-     3,
-     "LV",
-     0.0
-    ]
-   ],
-   "dhit": 0,
-   "dn": 3,
-   "most": 16,
-   "per": 229.7,
-   "dstat": "pass yds",
-   "p": 13,
-   "roi": -72,
-   "pp": 2,
-   "hs": 20,
-   "dhs": 20,
-   "rks": 52,
-   "vs": 0,
-   "agree": 0,
-   "score": 7.3,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.125,
-   "praw": 0.125,
-   "rg": "WR3",
-   "est": false,
-   "mid": 42.5,
-   "tk": "KXNFLREC-26OCT05ATLNO-ATLZBRANCH17-4",
-   "ev": "KXNFLREC-26OCT05ATLNO",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "NO secondary missing CB Decamerion Richardson"
-    ]
-   ],
-   "status": null,
-   "ppj": 2,
-   "pu": 2,
-   "uinfo": {
-    "share": [
-     0,
-     6,
-     9
-    ],
-    "kind": "targets",
-    "snap": 22,
-    "snap_last": 18,
-    "mu": 1.0,
-    "note": "His share of targets is up from 0% to 9%."
-   },
-   "po": 0,
-   "pn": 0,
-   "pid": "13320",
-   "sx": 0.0,
-   "sxs": 50,
-   "qf": -0.4,
-   "qfs": 30,
-   "qnote": "QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 4+ in 0 of 1 (1).",
-   "qinfo": {
-    "qb": "Michael Penix",
-    "same": false,
-    "with": 1,
-    "usual": "Cooper Rush"
-   },
-   "rank": 44,
-   "why": "Cleared 4+ in 0 of 3 games, NO let 0 of 3 WR4s reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 4+ in 0 of 1 (1). His share of targets is up from 0% to 9%. NO secondary missing CB Decamerion Richardson.",
    "news": ""
   },
   {
@@ -4581,12 +3754,12 @@
     "with": 1,
     "usual": "Cooper Rush"
    },
-   "rank": 45,
+   "rank": 37,
    "why": "Cleared 60+ in 0 of 3 games (0 of 17 last season), NO let 0 of 3 WR2s reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 60+ in 0 of 1 (11). NO secondary missing CB Decamerion Richardson.",
    "news": ""
   }
  ],
- "rows": 474,
+ "rows": 471,
  "ladders": 62,
  "skipped": [],
  "parlay": [
@@ -4609,46 +3782,6 @@
    "id": "3294",
    "cx": 0.3,
    "nw": "In the news: \"Stephen A. not buying into Cowboys after win over Texans\""
-  },
-  {
-   "pl": "Kendre Miller",
-   "tm": "NO",
-   "g": "ATLNO",
-   "gl": "ATL @ NO (Mon)",
-   "st": "rush",
-   "pr": "Rushing Yards",
-   "ln": 5,
-   "ask": 57,
-   "q": 55.5,
-   "p": 0.8238,
-   "sc": 69.9,
-   "est": 1,
-   "tk": "KXNFLRSHYDS-26OCT05ATLNO-NOKMILLER5-5",
-   "ev": "KXNFLRSHYDS-26OCT05ATLNO",
-   "wy": "Cleared 5+ in 2 of 3 games (7 of 7 last season), Sleeper projects 26.8, ATL let 3 of 3 No. 2 RBs reach it. His share of carries fell from 36% to 14%. ATL front missing LB Jared Ivey.",
-   "id": "9757",
-   "cx": 0.12,
-   "nw": ""
-  },
-  {
-   "pl": "Kendre Miller",
-   "tm": "NO",
-   "g": "ATLNO",
-   "gl": "ATL @ NO (Mon)",
-   "st": "rush",
-   "pr": "Rushing Yards",
-   "ln": 10,
-   "ask": 56,
-   "q": 54.5,
-   "p": 0.7166,
-   "sc": 50.2,
-   "est": 0,
-   "tk": "KXNFLRSHYDS-26OCT05ATLNO-NOKMILLER5-10",
-   "ev": "KXNFLRSHYDS-26OCT05ATLNO",
-   "wy": "Cleared 10+ in 2 of 3 games (5 of 7 last season), Sleeper projects 26.8, ATL let 2 of 3 No. 2 RBs reach it. His share of carries fell from 36% to 14%. ATL front missing LB Jared Ivey.",
-   "id": "9757",
-   "cx": 0.12,
-   "nw": ""
   },
   {
    "pl": "Kenny Gainwell",
@@ -4791,126 +3924,6 @@
    "nw": "In the news: \"Stephen A. not buying into Cowboys after win over Texans\""
   },
   {
-   "pl": "Juwan Johnson",
-   "tm": "NO",
-   "g": "ATLNO",
-   "gl": "ATL @ NO (Mon)",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 25,
-   "ask": 37,
-   "q": 35.5,
-   "p": 0.8264,
-   "sc": 88.3,
-   "est": 1,
-   "tk": "KXNFLRECYDS-26OCT05ATLNO-NOJJOHNSON83-25",
-   "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 25+ in 3 of 3 games (15 of 17 last season), Sleeper projects 53.6, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "id": "7002",
-   "cx": 0.5,
-   "nw": ""
-  },
-  {
-   "pl": "Juwan Johnson",
-   "tm": "NO",
-   "g": "ATLNO",
-   "gl": "ATL @ NO (Mon)",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 15,
-   "ask": 43,
-   "q": 41.5,
-   "p": 0.8663,
-   "sc": 91.1,
-   "est": 1,
-   "tk": "KXNFLRECYDS-26OCT05ATLNO-NOJJOHNSON83-15",
-   "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 15+ in 3 of 3 games (17 of 17 last season), Sleeper projects 53.6, ATL let 3 of 3 TE1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "id": "7002",
-   "cx": 0.5,
-   "nw": ""
-  },
-  {
-   "pl": "Chris Olave",
-   "tm": "NO",
-   "g": "ATLNO",
-   "gl": "ATL @ NO (Mon)",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 90,
-   "ask": 57,
-   "q": 55.5,
-   "p": 0.5483,
-   "sc": 47.5,
-   "est": 1,
-   "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-90",
-   "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 90+ in 2 of 3 games (5 of 16 last season), ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "id": "8144",
-   "cx": 0.5,
-   "nw": ""
-  },
-  {
-   "pl": "Chris Olave",
-   "tm": "NO",
-   "g": "ATLNO",
-   "gl": "ATL @ NO (Mon)",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 80,
-   "ask": 65,
-   "q": 63.5,
-   "p": 0.6219,
-   "sc": 59.9,
-   "est": 1,
-   "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-80",
-   "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 80+ in 3 of 3 games (6 of 16 last season), Sleeper projects 89.1, ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "id": "8144",
-   "cx": 0.5,
-   "nw": ""
-  },
-  {
-   "pl": "Chris Olave",
-   "tm": "NO",
-   "g": "ATLNO",
-   "gl": "ATL @ NO (Mon)",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 50,
-   "ask": 84,
-   "q": 82.5,
-   "p": 0.8059,
-   "sc": 77.5,
-   "est": 1,
-   "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-50",
-   "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 50+ in 3 of 3 games (13 of 16 last season), Sleeper projects 89.1, ATL let 3 of 3 WR1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "id": "8144",
-   "cx": 0.5,
-   "nw": ""
-  },
-  {
-   "pl": "Chris Olave",
-   "tm": "NO",
-   "g": "ATLNO",
-   "gl": "ATL @ NO (Mon)",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 100,
-   "ask": 50,
-   "q": 48.5,
-   "p": 0.5045,
-   "sc": 45.5,
-   "est": 1,
-   "tk": "KXNFLRECYDS-26OCT05ATLNO-NOCOLAVE12-100",
-   "ev": "KXNFLRECYDS-26OCT05ATLNO",
-   "wy": "Cleared 100+ in 2 of 3 games (3 of 16 last season), ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "id": "8144",
-   "cx": 0.5,
-   "nw": ""
-  },
-  {
    "pl": "Tez Johnson",
    "tm": "TB",
    "g": "TBDAL",
@@ -5018,10 +4031,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 76,
-   "q": 74.5,
+   "ask": 77,
+   "q": 75.0,
    "p": 0.8265,
-   "sc": 72.4,
+   "sc": 72.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBEEGBUKA2-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
@@ -5098,10 +4111,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 73,
-   "q": 72.0,
+   "ask": 76,
+   "q": 73.5,
    "p": 0.7879,
-   "sc": 69.6,
+   "sc": 68.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBCGODWIN14-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
@@ -5139,7 +4152,7 @@
    "pr": "Receiving Yards",
    "ln": 25,
    "ask": 55,
-   "q": 54.0,
+   "q": 53.5,
    "p": 0.5586,
    "sc": 40.8,
    "est": 0,
@@ -5218,10 +4231,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 70,
-   "ask": 62,
-   "q": 61.0,
+   "ask": 61,
+   "q": 60.0,
    "p": 0.6139,
-   "sc": 49.3,
+   "sc": 49.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-70",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
@@ -5238,8 +4251,8 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 1,
-   "ask": 58,
-   "q": 56.5,
+   "ask": 39,
+   "q": 37.5,
    "p": 0.8969,
    "sc": 89.3,
    "est": 1,
@@ -5258,10 +4271,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 1,
-   "ask": 74,
-   "q": 72.5,
+   "ask": 76,
+   "q": 74.5,
    "p": 0.7575,
-   "sc": 67.8,
+   "sc": 67.4,
    "est": 1,
    "tk": "KXNFLREC-26OCT05ATLNO-NOBLANCE18-1",
    "ev": "KXNFLREC-26OCT05ATLNO",
@@ -5271,43 +4284,83 @@
    "nw": ""
   },
   {
-   "pl": "Chris Olave",
-   "tm": "NO",
+   "pl": "Olamide Zaccheaus",
+   "tm": "ATL",
    "g": "ATLNO",
    "gl": "ATL @ NO (Mon)",
    "st": "rec",
    "pr": "Receptions",
-   "ln": 7,
-   "ask": 61,
-   "q": 59.5,
-   "p": 0.6085,
-   "sc": 58.0,
-   "est": 1,
-   "tk": "KXNFLREC-26OCT05ATLNO-NOCOLAVE12-7",
+   "ln": 1,
+   "ask": 73,
+   "q": 71.5,
+   "p": 0.7039,
+   "sc": 54.6,
+   "est": 0,
+   "tk": "KXNFLREC-26OCT05ATLNO-ATLOZACCHEAUS14-1",
    "ev": "KXNFLREC-26OCT05ATLNO",
-   "wy": "Cleared 7+ in 3 of 3 games (7 of 16 last season), ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "id": "8144",
-   "cx": 0.5,
+   "wy": "Cleared 1+ in 3 of 3 games (13 of 15 last season), Sleeper projects 1.1, NO let 2 of 3 WR3s reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 1+ in 1 of 1 (2). NO secondary missing CB Decamerion Richardson.",
+   "id": "6271",
+   "cx": 0.15,
    "nw": ""
   },
   {
-   "pl": "Chris Olave",
-   "tm": "NO",
+   "pl": "Bijan Robinson",
+   "tm": "ATL",
    "g": "ATLNO",
    "gl": "ATL @ NO (Mon)",
    "st": "rec",
    "pr": "Receptions",
-   "ln": 6,
-   "ask": 71,
-   "q": 69.5,
-   "p": 0.6752,
-   "sc": 63.3,
-   "est": 1,
-   "tk": "KXNFLREC-26OCT05ATLNO-NOCOLAVE12-6",
+   "ln": 5,
+   "ask": 44,
+   "q": 42.5,
+   "p": 0.4139,
+   "sc": 27.5,
+   "est": 0,
+   "tk": "KXNFLREC-26OCT05ATLNO-ATLBROBINSON7-5",
    "ev": "KXNFLREC-26OCT05ATLNO",
-   "wy": "Cleared 6+ in 3 of 3 games (10 of 16 last season), Sleeper projects 6.2, ATL let 2 of 3 WR1s reach it, ATL allows the 6th most pass yds. ATL secondary missing CB Robert Longerbeam, CB Malcolm DeWalt IV. Noah Fant out, more targets to go around.",
-   "id": "8144",
-   "cx": 0.5,
+   "wy": "Cleared 5+ in 1 of 3 games (9 of 17 last season), NO let 1 of 3 lead RBs reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 5+ in 5 of 10 (6, 8, 2, 4). His share of targets fell from 48% to 9%. NO secondary missing CB Decamerion Richardson.",
+   "id": "9509",
+   "cx": 0.15,
+   "nw": ""
+  },
+  {
+   "pl": "Bijan Robinson",
+   "tm": "ATL",
+   "g": "ATLNO",
+   "gl": "ATL @ NO (Mon)",
+   "st": "rec",
+   "pr": "Receptions",
+   "ln": 4,
+   "ask": 42,
+   "q": 40.5,
+   "p": 0.5133,
+   "sc": 36.5,
+   "est": 0,
+   "tk": "KXNFLREC-26OCT05ATLNO-ATLBROBINSON7-4",
+   "ev": "KXNFLREC-26OCT05ATLNO",
+   "wy": "Cleared 4+ in 1 of 3 games (11 of 17 last season), Sleeper projects 4.4, NO let 1 of 3 lead RBs reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 4+ in 7 of 10 (6, 8, 2, 4). His share of targets fell from 48% to 9%. NO secondary missing CB Decamerion Richardson.",
+   "id": "9509",
+   "cx": 0.15,
+   "nw": ""
+  },
+  {
+   "pl": "Bijan Robinson",
+   "tm": "ATL",
+   "g": "ATLNO",
+   "gl": "ATL @ NO (Mon)",
+   "st": "rec",
+   "pr": "Receptions",
+   "ln": 3,
+   "ask": 41,
+   "q": 39.5,
+   "p": 0.7674,
+   "sc": 65.1,
+   "est": 0,
+   "tk": "KXNFLREC-26OCT05ATLNO-ATLBROBINSON7-3",
+   "ev": "KXNFLREC-26OCT05ATLNO",
+   "wy": "Cleared 3+ in 2 of 3 games (14 of 17 last season), Sleeper projects 4.4, NO let 3 of 3 lead RBs reach it. QB change: Michael Penix starts (Cooper Rush is out). With him: cleared 3+ in 8 of 10 (6, 8, 2, 4). His share of targets fell from 48% to 9%. NO secondary missing CB Decamerion Richardson.",
+   "id": "9509",
+   "cx": 0.15,
    "nw": ""
   },
   {
@@ -5674,7 +4727,7 @@
    2,
    3
   ],
-  "generated": "2026-10-05T20:22:03-07:00",
+  "generated": "2026-10-05T20:30:29-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 4 \u00b7 Mon Oct 5 \u2013 Thu Oct 8",
