@@ -1026,7 +1026,7 @@
    "stat": "rush",
    "prop": "Rushing Yards",
    "line": 10,
-   "ask": 67,
+   "ask": 66,
    "bid": 64,
    "vals": [
     65.0,
@@ -1065,20 +1065,20 @@
    "per": 102.0,
    "dstat": "rush yds",
    "p": 74,
-   "roi": 11,
+   "roi": 12,
    "pp": 79,
    "hs": 81,
    "dhs": 83,
    "rks": 35,
-   "vs": 61,
+   "vs": 62,
    "agree": 3,
-   "score": 73.1,
+   "score": 73.4,
    "flags": [],
-   "pc": 0.7428,
+   "pc": 0.7411,
    "praw": 0.7998,
    "rg": "RB2",
    "est": false,
-   "mid": 65.5,
+   "mid": 65.0,
    "tk": "KXNFLRSHYDS-26OCT11SFSEA-SFKBLACK26-10",
    "ev": "KXNFLRSHYDS-26OCT11SFSEA",
    "ctx": 0,
@@ -1272,7 +1272,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 15,
-   "ask": 84,
+   "ask": 86,
    "bid": 82,
    "vals": [
     21.0,
@@ -1311,20 +1311,20 @@
    "per": 205.5,
    "dstat": "pass yds",
    "p": 84,
-   "roi": 0,
+   "roi": -2,
    "pp": 88,
    "hs": 88,
    "dhs": 83,
    "rks": 16,
-   "vs": 50,
+   "vs": 48,
    "agree": 3,
-   "score": 70.8,
+   "score": 70.5,
    "flags": [],
-   "pc": 0.836,
+   "pc": 0.8398,
    "praw": 0.8498,
    "rg": "TE",
    "est": false,
-   "mid": 83.0,
+   "mid": 84.0,
    "tk": "KXNFLRECYDS-26OCT11CLENYJ-CLEHFANNIN44-15",
    "ev": "KXNFLRECYDS-26OCT11CLENYJ",
    "ctx": 0,
@@ -1600,6 +1600,127 @@
    "news": ""
   },
   {
+   "game": "TBDAL",
+   "glabel": "TB @ DAL (Thu)",
+   "player": "Bucky Irving",
+   "team": "TB",
+   "opp": "DAL",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rush",
+   "prop": "Rushing Yards",
+   "line": 30,
+   "ask": 82,
+   "bid": 80,
+   "vals": [
+    45.0,
+    89.0,
+    46.0,
+    61.0
+   ],
+   "over": 4,
+   "n": 4,
+   "proj": 75.2,
+   "al": [
+    [
+     1,
+     "NYG",
+     81.0
+    ],
+    [
+     2,
+     "WAS",
+     43.0
+    ],
+    [
+     3,
+     "BAL",
+     89.0
+    ],
+    [
+     4,
+     "HOU",
+     24.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 4,
+   "most": 2,
+   "per": 150.2,
+   "dstat": "rush yds",
+   "p": 78,
+   "roi": -4,
+   "pp": 83,
+   "hs": 88,
+   "dhs": 67,
+   "rks": 97,
+   "vs": 46,
+   "agree": 2,
+   "score": 68.0,
+   "flags": [],
+   "pc": 0.7848,
+   "praw": 0.7884,
+   "rg": "RB1",
+   "est": false,
+   "mid": 81.0,
+   "tk": "KXNFLRSHYDS-26OCT08TBDAL-TBBIRVING7-30",
+   "ev": "KXNFLRSHYDS-26OCT08TBDAL",
+   "ctx": 0.12,
+   "cxs": 56,
+   "reasons": [
+    [
+     0.12,
+     "DAL front missing LB DeMarvion Overshown"
+    ],
+    [
+     -0.79,
+     "TB a 8.5-pt underdog, may have to abandon the run"
+    ],
+    [
+     -0.21,
+     "TB projected for only 20 pts (O/U 47.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 87,
+   "pu": 80,
+   "uinfo": {
+    "share": [
+     40,
+     68,
+     71,
+     52
+    ],
+    "kind": "carries",
+    "snap": 61,
+    "snap_last": 58,
+    "mu": 54.9,
+    "opp": 14.3,
+    "note": "His share of carries is up from 40% to 52%."
+   },
+   "po": 9,
+   "pn": 10,
+   "pid": "11584",
+   "sx": -1.0,
+   "sxs": 0,
+   "mx": 0.27,
+   "mxs": 64,
+   "env": -0.44,
+   "dfac": 0.3,
+   "dfs": 65,
+   "off": -0.09,
+   "ofs": 46,
+   "cu": 91,
+   "avgm": 30.2,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": null,
+   "rank": 14,
+   "why": "Cleared 30+ in 4 of 4 games, by +30 on average (9 of 10 last season), Sleeper projects 75.2, DAL let 3 of 4 lead RBs reach it, DAL allows the 2nd most rush yds. His share of carries is up from 40% to 52%. DAL front missing LB DeMarvion Overshown. Watch: TB a 8.5-pt underdog, may have to abandon the run; TB projected for only 20 pts (O/U 47.5).",
+   "news": ""
+  },
+  {
    "game": "SFSEA",
    "glabel": "SF @ SEA",
    "player": "Jaxon Smith-Njigba",
@@ -1720,7 +1841,7 @@
     "same": true,
     "n": 2
    },
-   "rank": 14,
+   "rank": 15,
    "why": "Cleared 50+ in 4 of 4 games, by +70 on average (16 of 17 last season), Sleeper projects 97, SF let 3 of 4 WR1s reach it. His share of targets fell from 46% to 30%. SF secondary missing S Marques Sigle. SEA projected for 24 pts (O/U 46.5).",
    "news": "In the news: \"Knockout league pickups: Jaxon Smith-Njigba, Ja'Marr Chase among big names available in Week 5\""
   },
@@ -1850,129 +1971,8 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 15,
-   "why": "Cleared 2+ in 4 of 4 games, by +2 on average (14 of 16 last season), Sleeper projects 3.5, DAL let 3 of 4 TE1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 2+ in 1 of 1 (4). TB a 8.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB's offense ranks 26th in passing (191 yds a game).; TB projected for only 20 pts (O/U 47.5).",
-   "news": ""
-  },
-  {
-   "game": "TBDAL",
-   "glabel": "TB @ DAL (Thu)",
-   "player": "Bucky Irving",
-   "team": "TB",
-   "opp": "DAL",
-   "pos": "RB",
-   "role": "RB1",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 30,
-   "ask": 83,
-   "bid": 80,
-   "vals": [
-    45.0,
-    89.0,
-    46.0,
-    61.0
-   ],
-   "over": 4,
-   "n": 4,
-   "proj": 75.2,
-   "al": [
-    [
-     1,
-     "NYG",
-     81.0
-    ],
-    [
-     2,
-     "WAS",
-     43.0
-    ],
-    [
-     3,
-     "BAL",
-     89.0
-    ],
-    [
-     4,
-     "HOU",
-     24.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 4,
-   "most": 2,
-   "per": 150.2,
-   "dstat": "rush yds",
-   "p": 79,
-   "roi": -5,
-   "pp": 83,
-   "hs": 88,
-   "dhs": 67,
-   "rks": 97,
-   "vs": 45,
-   "agree": 2,
-   "score": 67.9,
-   "flags": [],
-   "pc": 0.7868,
-   "praw": 0.7884,
-   "rg": "RB1",
-   "est": false,
-   "mid": 81.5,
-   "tk": "KXNFLRSHYDS-26OCT08TBDAL-TBBIRVING7-30",
-   "ev": "KXNFLRSHYDS-26OCT08TBDAL",
-   "ctx": 0.12,
-   "cxs": 56,
-   "reasons": [
-    [
-     0.12,
-     "DAL front missing LB DeMarvion Overshown"
-    ],
-    [
-     -0.79,
-     "TB a 8.5-pt underdog, may have to abandon the run"
-    ],
-    [
-     -0.21,
-     "TB projected for only 20 pts (O/U 47.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 87,
-   "pu": 80,
-   "uinfo": {
-    "share": [
-     40,
-     68,
-     71,
-     52
-    ],
-    "kind": "carries",
-    "snap": 61,
-    "snap_last": 58,
-    "mu": 54.9,
-    "opp": 14.3,
-    "note": "His share of carries is up from 40% to 52%."
-   },
-   "po": 9,
-   "pn": 10,
-   "pid": "11584",
-   "sx": -1.0,
-   "sxs": 0,
-   "mx": 0.27,
-   "mxs": 64,
-   "env": -0.44,
-   "dfac": 0.3,
-   "dfs": 65,
-   "off": -0.09,
-   "ofs": 46,
-   "cu": 91,
-   "avgm": 30.2,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
    "rank": 16,
-   "why": "Cleared 30+ in 4 of 4 games, by +30 on average (9 of 10 last season), Sleeper projects 75.2, DAL let 3 of 4 lead RBs reach it, DAL allows the 2nd most rush yds. His share of carries is up from 40% to 52%. DAL front missing LB DeMarvion Overshown. Watch: TB a 8.5-pt underdog, may have to abandon the run; TB projected for only 20 pts (O/U 47.5).",
+   "why": "Cleared 2+ in 4 of 4 games, by +2 on average (14 of 16 last season), Sleeper projects 3.5, DAL let 3 of 4 TE1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 2+ in 1 of 1 (4). TB a 8.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB's offense ranks 26th in passing (191 yds a game).; TB projected for only 20 pts (O/U 47.5).",
    "news": ""
   },
   {
@@ -2046,7 +2046,7 @@
    "reasons": [
     [
      0.0,
-     "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
+     "In the news: \"Fantasy football buzz: Revitalizing offense just got harder for Jalen Hurts\""
     ],
     [
      0.46,
@@ -2102,7 +2102,7 @@
    "qinfo": null,
    "rank": 17,
    "why": "Cleared 150+ in 3 of 4 games, by +28 on average (12 of 16 last season), Sleeper projects 202.2, JAX let 4 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 7-pt underdog, trailing teams throw more. JAX gives up 21% more passing yds to QBs than average.. Watch: PHI's offense ranks 30th in passing (178 yds a game).; PHI projected for only 18 pts (O/U 42.5).",
-   "news": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
+   "news": "In the news: \"Fantasy football buzz: Revitalizing offense just got harder for Jalen Hurts\""
   },
   {
    "game": "CLENYJ",
@@ -4726,7 +4726,7 @@
    "reasons": [
     [
      0.0,
-     "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
+     "In the news: \"Fantasy football buzz: Revitalizing offense just got harder for Jalen Hurts\""
     ],
     [
      -0.34,
@@ -4770,7 +4770,7 @@
    "qinfo": null,
    "rank": 39,
    "why": "Cleared 10+ in 4 of 4 games, by +16 on average (12 of 16 last season), Sleeper projects 24.4. Watch: PHI projected for only 18 pts (O/U 42.5).",
-   "news": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
+   "news": "In the news: \"Fantasy football buzz: Revitalizing offense just got harder for Jalen Hurts\""
   },
   {
    "game": "TBDAL",
@@ -6140,7 +6140,7 @@
    "wy": "Cleared 225+ in 1 of 4 games, by -47 on average (7 of 16 last season), JAX let 2 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 7-pt underdog, trailing teams throw more. JAX gives up 21% more passing yds to QBs than average.. Watch: PHI's offense ranks 30th in passing (178 yds a game).; PHI projected for only 18 pts (O/U 42.5).",
    "id": "6904",
    "cx": 0.0,
-   "nw": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
+   "nw": "In the news: \"Fantasy football buzz: Revitalizing offense just got harder for Jalen Hurts\""
   },
   {
    "pl": "Jalen Hurts",
@@ -6150,17 +6150,17 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 200,
-   "ask": 46,
-   "q": 43.0,
-   "p": 0.4798,
-   "sc": 41.4,
+   "ask": 45,
+   "q": 43.5,
+   "p": 0.481,
+   "sc": 41.8,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT11PHIJAC-PHIJHURTS1-200",
    "ev": "KXNFLPASSYDS-26OCT11PHIJAC",
    "wy": "Cleared 200+ in 2 of 4 games, by -22 on average (7 of 16 last season), Sleeper projects 202.2, JAX let 3 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 7-pt underdog, trailing teams throw more. JAX gives up 21% more passing yds to QBs than average.. Watch: PHI's offense ranks 30th in passing (178 yds a game).; PHI projected for only 18 pts (O/U 42.5).",
    "id": "6904",
    "cx": 0.0,
-   "nw": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
+   "nw": "In the news: \"Fantasy football buzz: Revitalizing offense just got harder for Jalen Hurts\""
   },
   {
    "pl": "Jalen Hurts",
@@ -6180,7 +6180,7 @@
    "wy": "Cleared 175+ in 2 of 4 games, by +3 on average (11 of 16 last season), Sleeper projects 202.2, JAX let 4 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 7-pt underdog, trailing teams throw more. JAX gives up 21% more passing yds to QBs than average.. Watch: PHI's offense ranks 30th in passing (178 yds a game).; PHI projected for only 18 pts (O/U 42.5).",
    "id": "6904",
    "cx": 0.0,
-   "nw": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
+   "nw": "In the news: \"Fantasy football buzz: Revitalizing offense just got harder for Jalen Hurts\""
   },
   {
    "pl": "Jalen Hurts",
@@ -6200,7 +6200,7 @@
    "wy": "Cleared 150+ in 3 of 4 games, by +28 on average (12 of 16 last season), Sleeper projects 202.2, JAX let 4 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 7-pt underdog, trailing teams throw more. JAX gives up 21% more passing yds to QBs than average.. Watch: PHI's offense ranks 30th in passing (178 yds a game).; PHI projected for only 18 pts (O/U 42.5).",
    "id": "6904",
    "cx": 0.0,
-   "nw": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
+   "nw": "In the news: \"Fantasy football buzz: Revitalizing offense just got harder for Jalen Hurts\""
   },
   {
    "pl": "Jalen Hurts",
@@ -6220,7 +6220,7 @@
    "wy": "Cleared 125+ in 3 of 4 games, by +53 on average (14 of 16 last season), Sleeper projects 202.2, JAX let 4 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 7-pt underdog, trailing teams throw more. JAX gives up 21% more passing yds to QBs than average.. Watch: PHI's offense ranks 30th in passing (178 yds a game).; PHI projected for only 18 pts (O/U 42.5).",
    "id": "6904",
    "cx": 0.0,
-   "nw": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
+   "nw": "In the news: \"Fantasy football buzz: Revitalizing offense just got harder for Jalen Hurts\""
   },
   {
    "pl": "Geno Smith",
@@ -6830,10 +6830,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 10,
-   "ask": 67,
-   "q": 65.5,
-   "p": 0.7428,
-   "sc": 73.1,
+   "ask": 66,
+   "q": 65.0,
+   "p": 0.7411,
+   "sc": 73.4,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT11SFSEA-SFKBLACK26-10",
    "ev": "KXNFLRSHYDS-26OCT11SFSEA",
@@ -7531,8 +7531,8 @@
    "pr": "Receiving Yards",
    "ln": 40,
    "ask": 45,
-   "q": 43.5,
-   "p": 0.456,
+   "q": 43.0,
+   "p": 0.4545,
    "sc": 31.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11CLENYJ-CLEHFANNIN44-40",
@@ -7550,10 +7550,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 69,
-   "q": 68.0,
-   "p": 0.6875,
-   "sc": 50.8,
+   "ask": 70,
+   "q": 68.5,
+   "p": 0.6894,
+   "sc": 50.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11CLENYJ-CLEHFANNIN44-25",
    "ev": "KXNFLRECYDS-26OCT11CLENYJ",
@@ -7570,10 +7570,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 84,
-   "q": 83.0,
-   "p": 0.836,
-   "sc": 70.8,
+   "ask": 86,
+   "q": 84.0,
+   "p": 0.8398,
+   "sc": 70.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11CLENYJ-CLEHFANNIN44-15",
    "ev": "KXNFLRECYDS-26OCT11CLENYJ",
@@ -7590,10 +7590,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 60,
-   "ask": 38,
-   "q": 36.5,
-   "p": 0.4295,
-   "sc": 31.6,
+   "ask": 39,
+   "q": 37.0,
+   "p": 0.4314,
+   "sc": 31.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11CLENYJ-CLEDBOSTON12-60",
    "ev": "KXNFLRECYDS-26OCT11CLENYJ",
@@ -7610,10 +7610,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 50,
-   "ask": 49,
-   "q": 47.5,
-   "p": 0.5619,
-   "sc": 45.5,
+   "ask": 50,
+   "q": 48.0,
+   "p": 0.5637,
+   "sc": 45.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11CLENYJ-CLEDBOSTON12-50",
    "ev": "KXNFLRECYDS-26OCT11CLENYJ",
@@ -8091,8 +8091,8 @@
    "pr": "Receptions",
    "ln": 3,
    "ask": 67,
-   "q": 65.0,
-   "p": 0.6568,
+   "q": 65.5,
+   "p": 0.6583,
    "sc": 56.4,
    "est": 0,
    "tk": "KXNFLREC-26OCT08TBDAL-TBCGODWIN14-3",
@@ -9090,7 +9090,7 @@
    3,
    4
   ],
-  "generated": "2026-10-06T14:55:05-07:00",
+  "generated": "2026-10-06T15:00:36-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [
    "Some markets weren't open when this was pulled. CLE @ NYJ: no priced receptions markets yet. LV @ NE: no priced rushing, receiving yards, receptions markets yet. PHI @ JAX: no priced receptions markets yet. SF @ SEA: no priced receptions markets yet."
