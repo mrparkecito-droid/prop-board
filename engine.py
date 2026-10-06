@@ -19,6 +19,7 @@ import csv, json, math, os, re, sys
 import context
 import usage
 import script
+import matchup
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -32,6 +33,7 @@ ASK_MIN, ASK_MAX = 35, 88
 MAX_PER_PLAYER, BOARD_SIZE = 2, 50
 MIN_GAMES = 2
 P_CAP = 0.97
+MARKET_BLEND = 0.30    # final chance = 70% model + 30% Kalshi's price (Week 4: the blend was better calibrated than either)
 CTX_WEIGHT = 0.04      # game context (lines, weather, injuries, news, buzz) moves a score at most +/-4%
 SLEEPER_STATUS = {"Questionable": "Questionable", "Doubtful": "Doubtful", "Out": "Out", "IR": "Out", "PUP": "Out", "Sus": "Out"}
 
@@ -145,6 +147,32 @@ def run(data, overrides=None, learned=None):
         most = 1 + sum(1 for v in league.values() if per(v) > me + 1e-9)
         return most, round(me, 1)
 
+    # league average for each role (what a WR2, TE1... gets in a typical game) and team offense per game
+    _ravg = {}
+
+    def role_avg(pos, stat, rank):
+        kk = (pos, stat, rank)
+        if kk not in _ravg:
+            xs = [role_vals(t, w, pos, stat, rank) for (t, w) in teamgames if w in weeks]
+            _ravg[kk] = sum(xs) / len(xs) if xs else None
+        return _ravg[kk]
+
+    off_tot = {}
+    for (t, w), L in by_tg.items():
+        if w not in weeks:
+            continue
+        o = off_tot.setdefault(t, {"g": 0, "pass": 0.0, "rush": 0.0})
+        o["g"] += 1
+        o["pass"] += sum(s_.get("pass_yd", 0) for p_, s_ in L if p_ == "QB")
+        o["rush"] += sum(s_.get("rush_yd", 0) for p_, s_ in L)
+    OFF = {}
+    for kind in ("pass", "rush"):
+        pg = {t: o[kind] / o["g"] for t, o in off_tot.items() if o["g"]}
+        avg = sum(pg.values()) / len(pg) if pg else None
+        order = sorted(pg, key=lambda t: -pg[t])
+        OFF[kind] = {"pg": pg, "avg": avg, "rank": {t: i + 1 for i, t in enumerate(order)}}
+    STATWORD = {"pass": "passing yds", "rush": "rushing yds", "rec": "catches", "recyds": "receiving yds"}
+
     # usage (targets/carries/snaps) and last season, when the data has them
     U = usage.build(data["stats"], norm) if usage.has_usage(data["stats"]) else None
     prev_rows = {}
@@ -170,7 +198,22 @@ def run(data, overrides=None, learned=None):
     games = {g["key"]: g for g in data["games"]}
     est_asks = fill_missing_asks(data["markets"], proj)
     rows, skipped = [], set()
+    # games that have already kicked off are left off: Kalshi keeps trading them live, so their prices are in-game
+    started = set()
+    _now = data.get("generated")
+    if _now:
+        import datetime as _dt
+        try:
+            nowdt = _dt.datetime.fromisoformat(_now)
+            for gk, gv in (((data.get("context") or {}).get("games")) or {}).items():
+                kick = (gv or {}).get("kick")
+                if kick and nowdt >= _dt.datetime.fromisoformat(kick.replace("Z", "+00:00")):
+                    started.add(gk)
+        except ValueError:
+            pass
     for m in data["markets"]:
+        if m["game"] in started:
+            continue
         k = norm(m["name"]); lg = logs.get(k); pj = proj.get(k)
         g = games.get(m["game"])
         if not g or not lg or not pj:
@@ -208,6 +251,10 @@ def run(data, overrides=None, learned=None):
         if prev_rows.get(k):
             wo, wn, po, pn = usage.prev_hits(prev_rows[k], STATKEY[stat], line, pos)
             h = (over + wo + 1) / (n + wn + 2)
+        # cushion: by how much he cleared (or missed) the line, not just yes/no
+        cu, avgm = matchup.cushion(vals, line, sd_for(stat, pos, max(line, 1)))
+        if cu is not None:
+            h = 0.5 * h + 0.5 * cu
         # role on depth chart, by Sleeper projection within team and position
         if pos in ("WR", "TE", "RB"):
             keyf = "recyds" if pos != "RB" else "rush"
@@ -228,6 +275,8 @@ def run(data, overrides=None, learned=None):
         idx = 1 if stat in ("pass", "rec", "recyds") else 2
         most, per = drank(opp, idx)
         rank_s = (32 - most) / 31
+        mx, mnote = matchup.matchup([v for _, _, v in al], role_avg(pos, stat, rank) if al else None, rank_s, opp,
+                                    context.ROLEW.get(role, role + "s"), STATWORD[stat])
         # game script (spread + over/under) and, for receivers, the quarterback situation
         sx, srs = script.game_script(team, stat, pos, ((data.get("context") or {}).get("games") or {}).get(m["game"]))
         qf, qnote, qinfo = 0.0, "", None
@@ -250,13 +299,27 @@ def run(data, overrides=None, learned=None):
         if uc:
             pu, _, uinfo = uc
             pp = 0.5 * pp + 0.5 * pu          # projection signal = Sleeper projection + usage model
+        dfac, dnote = matchup.depth(role, pos, stat, uinfo)
+        okind = "rush" if stat == "rush" else "pass"
+        newqb = ""
+        if stat == "pass" and pos == "QB" and data.get("prev_stats") is not None:
+            prev_teams = {r_["team"] for r_ in prev_rows.get(k, []) if (r_.get("patt") or 0) >= 10}
+            if not prev_teams:
+                newqb = "First season as a regular starter."
+            elif team not in prev_teams:
+                newqb = f"First season with {team}, so last year's numbers carry less."
+        off, onote = matchup.offense(team, stat, pos, OFF[okind]["pg"].get(team), OFF[okind]["avg"],
+                                     OFF[okind]["rank"].get(team, 0), newqb, context.ordinal)
+        envf = matchup.env(mx, sx)
         dh_u = dh if dh is not None else 0.5
         p = (0.40 * pp + 0.30 * h + 0.30 * dh_u) if dh is not None else (0.55 * pp + 0.45 * h)
-        p = p * (1 + script.P_SCRIPT * sx) * (1 + script.P_QB * qf)
+        p = p * (1 + matchup.ENV_P * envf) * (1 + script.P_QB * qf) * (1 + matchup.DEPTH_P * dfac) * (1 + matchup.OFF_P * off)
         p = min(p, P_CAP)
         p_raw = p
         rg = role_group(pos, role)
         p = calibrate(p_raw, m["ask"], stat, rg, learned)
+        if data.get("market_blend", True):
+            p = (1 - MARKET_BLEND) * p + MARKET_BLEND * (mid_price(m) / 100)
         roi = p / (m["ask"] / 100) - 1
         value = min(max(0.5 + roi / 1.0, 0), 1)
         agree = (pp >= 0.6) + (over == n) + (dh is not None and dc == dn)
@@ -268,8 +331,14 @@ def run(data, overrides=None, learned=None):
             {"game": m["game"], "team": team, "opp": opp, "stat": stat, "pos": pos, "player": lg["name"]},
             data.get("context"), SLEEPER_STATUS.get(pj.get("inj") or ""))
         score *= 1 + CTX_WEIGHT * ctx
-        score *= (1 + script.SCRIPT_W * sx) * (1 + script.QB_W * qf)
+        score *= (1 + matchup.ENV_W * envf) * (1 + script.QB_W * qf) * (1 + matchup.DEPTH_W * dfac) * (1 + matchup.OFF_W * off)
         reasons = reasons + srs
+        if mnote:
+            reasons.append((round(0.5 * mx, 2), mnote))
+        if dnote:
+            reasons.append((round(dfac, 2) or -0.01, dnote))
+        if onote:
+            reasons.append((round(off, 2) or -0.01, onote))
         flags = []
         if status in ("Out", "Doubtful"):
             flags.append(f"Listed {status.lower()} this week")
@@ -288,7 +357,9 @@ def run(data, overrides=None, learned=None):
                          ctx=ctx, cxs=round(50 + 50 * ctx), reasons=reasons, status=status,
                          ppj=round(pp_raw * 100), pu=(round(pu * 100) if pu is not None else None), uinfo=uinfo,
                          po=po, pn=pn, pid=pj.get("id"),
-                         sx=sx, sxs=round(50 + 50 * sx), qf=qf, qfs=round(50 + 50 * qf), qnote=qnote, qinfo=qinfo))
+                         sx=sx, sxs=round(50 + 50 * sx), mx=mx, mxs=round(50 + 50 * mx), env=envf, dfac=dfac, dfs=round(50 + 50 * dfac),
+                         off=off, ofs=round(50 + 50 * off), cu=(round(cu * 100) if cu is not None else None),
+                         avgm=(round(avgm, 1) if avgm is not None else None), qf=qf, qfs=round(50 + 50 * qf), qnote=qnote, qinfo=qinfo))
 
     lad = {}
     for r in rows:

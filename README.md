@@ -93,3 +93,11 @@ Grading and learning use the locked board. `data/locked_picks.csv` lists every w
 
 Quick refresh every 20 minutes (reuses the last real parlay quotes), plus full runs Thu 1:05 PM, Fri/Sat 9:05 AM
 and Sun 8:50 AM PT that also ask Kalshi for parlay quotes. Cron times are UTC.
+
+## Week 4 review changes (matchup.py)
+
+Cushion (how far over the line, not just yes/no), depth & volume (WR3/TE2/RB2 penalty unless the usage model shows
+real volume), defense matchup vs the exact role combined with game script (they stack), offense quality (plus a cut
+for a QB new to his team or to starting on a struggling offense), and a 30% blend with Kalshi's own price.
+Games already kicked off are left off the board, each week only includes that week's games (Tue-Mon), and the
+Results tab grades the official top 50 (best scores on the board when each game kicked off).

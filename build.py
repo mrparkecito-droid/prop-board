@@ -59,8 +59,9 @@ def cards_html(top, extras=True, tlabel=""):
             if q:
                 uline += (f'<p class="rk"><b>QB:</b> {html.escape(q["qb"])}' + (f' (started {q["n"]} of his games)' if q.get("same") else
                           f' starting instead of {html.escape(q["usual"])} · {q["with"]} game{"s" if q["with"] != 1 else ""} together') + '</p>')
-            if r.get("sx") or r.get("qinfo"):
-                ubar += f'\n   <li><span>Game script</span><meter min="0" max="100" value="{r.get("sxs", 50)}"></meter><b>{r.get("sxs", 50)}</b></li>'
+            for lbl, kk in (("Defense matchup", "mxs"), ("Game script", "sxs"), ("Depth & volume", "dfs"), ("Offense", "ofs")):
+                if kk in r and not (kk == "dfs" and r["pos"] == "QB"):
+                    ubar += f'\n   <li><span>{lbl}</span><meter min="0" max="100" value="{r[kk]}"></meter><b>{r[kk]}</b></li>'
             if q:
                 ubar += f'\n   <li><span>QB situation</span><meter min="0" max="100" value="{r.get("qfs", 50)}"></meter><b>{r.get("qfs", 50)}</b></li>'
             if r.get("pn"):
@@ -156,9 +157,20 @@ def results_html(track):
             items = "".join(f'''<li><div><b>{html.escape(p["pl"])}</b> <span class="mono">{STATW[p["st"]]} {p["ln"]}+</span> <span class="g miss">{p["act"]:g}</span></div>
   <p>{html.escape(p["note"])}</p><small>Score {p["sc"]} · model {p["p"]}% · {p["ask"]}¢ · {html.escape(p["gl"])}</small></li>''' for p in misses)
             parts.append(f'<section class="panel"><h2>Why picks missed</h2><div class="tags">{cats}</div><ul class="misses">{items}</ul></section>')
-        allp = "".join(f'''<li class="{p["res"]}"><span class="g {"hit" if p["res"] == "hit" else ("miss" if p["res"] == "miss" else "dnp")}">{"–" if p["act"] is None else f'{p["act"]:g}'}</span>
-  <span>{html.escape(p["pl"])} · {STATW[p["st"]]} {p["ln"]}+</span><b>{p["sc"]}</b></li>''' for p in last.get("picks", []))
-        parts.append(f'<details class="panel all"><summary>All Week {last.get("week", "")} picks, graded</summary><ul class="graded">{allp}</ul></details>')
+        P = last.get("picks", [])
+        def gli(i, p):
+            cls = "hit" if p["res"] == "hit" else ("miss" if p["res"] == "miss" else "dnp")
+            act = "DNP" if p["act"] is None else f'{p["act"]:g}'
+            mg = "" if p.get("mg") is None else f'<small class="mg {cls}">{"+" if p["mg"] >= 0 else "−"}{abs(p["mg"]):g}</small>'
+            return (f'<li class="{cls}"><span class="rk">{i}</span><span class="g {cls}">{"✓" if cls == "hit" else ("✗" if cls == "miss" else "–")}</span>'
+                    f'<span class="who">{html.escape(p["pl"])}<small>{STATW[p["st"]]} {p["ln"]}+ · {html.escape(p["gl"])}</small></span>'
+                    f'<span class="act"><b>{act}</b>{mg}</span></li>')
+        allp = "".join(gli(i + 1, p) for i, p in enumerate(P))
+        nh = sum(p["res"] == "hit" for p in P); nm = sum(p["res"] == "miss" for p in P)
+        parts.append(f'''<section class="panel"><h2>Week {last.get("week", "")} top {len(P)}: what hit</h2>
+ <p class="sub">The board as it stood right before each game kicked off, best score first. {nh} hit, {nm} missed. The number on the right is what he actually got, and how far over or under the line.</p>
+ <div class="gfilter" role="group" aria-label="Show"><button type="button" data-gf="all" aria-pressed="true">All</button><button type="button" data-gf="hit" aria-pressed="false">Hits</button><button type="button" data-gf="miss" aria-pressed="false">Misses</button></div>
+ <ul class="graded">{allp}</ul></section>''')
         if track.get("calib"):
             rows = "".join(f'''<li><span>Said {c["label"]}</span><div class="cal"><meter min="0" max="100" value="{c["pred"]}"></meter><meter class="act" min="0" max="100" value="{c["act"]}"></meter></div>
   <b>{c["pred"]}→{c["act"]}%</b><small>{c["n"]}</small></li>''' for c in track["calib"])

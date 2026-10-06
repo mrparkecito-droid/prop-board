@@ -38,7 +38,7 @@ SHORT = {"pass": "Pass", "rush": "Rush", "recyds": "Rec yds", "rec": "Catches"}
 
 # ------------------------------------------------------------------ history file
 COLS = ["pl", "tm", "op", "gm", "gl", "pos", "rl", "rg", "st", "ln", "ask", "p", "pr", "pp", "hs", "dh", "rk", "sc", "proj", "rank",
-        "cx", "sx", "qf"]
+        "cx", "sx", "qf", "mx", "df", "of", "cu"]
 
 
 def load_history():
@@ -102,7 +102,8 @@ def snapshot(data, out, now=None):
         new.append({"pl": r["player"], "tm": r["team"], "op": r["opp"], "gm": r["game"], "gl": r["glabel"],
                     "pos": r["pos"], "rl": r["role"], "rg": r["rg"], "st": r["stat"], "ln": r["line"], "ask": r["ask"],
                     "p": r["pc"], "pr": r["praw"], "pp": r["pp"], "hs": r["hs"], "dh": r["dhs"], "rk": r["rks"],
-                    "sc": r["score"], "proj": r["proj"], "cx": r.get("ctx", 0), "sx": r.get("sx", 0), "qf": r.get("qf", 0), "rank": rank.get((r["player"], r["stat"], r["line"]), 0)})
+                    "sc": r["score"], "proj": r["proj"], "cx": r.get("ctx", 0), "sx": r.get("sx", 0), "qf": r.get("qf", 0),
+                    "mx": r.get("mx", 0), "df": r.get("dfac", 0), "of": r.get("off", 0), "cu": r.get("cu"), "rank": rank.get((r["player"], r["stat"], r["line"]), 0)})
     wk["rows"] = keep + new
     wk["updated"] = now.isoformat(timespec="seconds")
     wk.setdefault("locked", {})
@@ -113,6 +114,8 @@ def snapshot(data, out, now=None):
     return hist
 
 
+OPP = {}
+BOARD_N = 50
 _RES = {}   # (season, week, player, stat, line) -> (result, actual), filled in by prepare()
 
 
@@ -134,6 +137,8 @@ def write_locked_csv(hist):
 def box_scores(data, overrides):
     """(name, wk) -> stat dict, team totals per game, and set of (team, wk) that played."""
     box, teams, dnp = {}, set(), set()
+    global OPP
+    OPP = {(s["team"], s["wk"]): s.get("opp") for s in data["stats"]}
     for s in data["stats"]:
         box[(engine.norm(s["name"]), s["wk"])] = {"team": s["team"], "pos": s["pos"], "pass_yd": s["pass_yd"],
                                                   "rush_yd": s["rush_yd"], "rec": s["rec"], "rec_yd": s["rec_yd"]}
@@ -195,6 +200,8 @@ def grade(hist, data, overrides):
             name = engine.norm(r["pl"])
             if (r["tm"], wk) not in teams:
                 g["res"] = "void"; g["note"] = "Game not in the box scores."
+            elif r.get("op") and OPP.get((r["tm"], wk)) and OPP[(r["tm"], wk)] != r["op"]:
+                g["res"] = "void"; g["note"] = "Saved under the wrong week (next week's game). Not counted."
             elif (name, wk) in dnp or (name, wk) not in box:
                 g["res"] = "void"; g["note"] = "No stat line, likely inactive. Not counted."
             else:
@@ -273,7 +280,11 @@ def _rec(rows):
 
 
 def report(graded, learned):
-    picks = [r for r in graded if r["rank"]]
+    # the official board: the 50 best-scoring props that were on the board when their game kicked off
+    picks = []
+    for wk in sorted({r["wk"] for r in graded}):
+        W = [r for r in graded if r["wk"] == wk and r["rank"] and "wrong week" not in r.get("note", "")]
+        picks += sorted(W, key=lambda r: -r["sc"])[:BOARD_N]
     weeks = sorted({r["wk"] for r in picks})
     out = {"weeks": [], "last": None, "calib": [], "learn": None}
     for wk in reversed(weeks):
@@ -302,6 +313,7 @@ def report(graded, learned):
         out["last"] = {"week": wk, "picks": [{"pl": r["pl"], "st": r["st"], "ln": r["ln"], "ask": r["ask"],
                                               "p": round(100 * r["p"]), "sc": round(r["sc"]), "res": r["res"],
                                               "act": r.get("act"), "note": r.get("note", ""), "cat": r.get("cat", ""),
+                                              "mg": (round(r["act"] - r["ln"], 1) if r.get("act") is not None else None),
                                               "gl": r["gl"]} for r in P]}
         cats = {}
         for r in P:

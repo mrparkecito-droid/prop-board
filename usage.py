@@ -120,6 +120,7 @@ def chance(name_key, pos, team, stat, line, U, prev, sd_for):
     info["snap"] = round(100 * _wavg(snaps)) if snaps else None
     info["snap_last"] = round(100 * snaps[-1]) if snaps else None
     info["mu"] = round(mu, 1)
+    info["opp"] = round(opp, 1)
     info["note"] = trend_note(info, pos)
     return pu, mu, info
 

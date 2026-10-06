@@ -107,7 +107,9 @@ def event_date(ticker):
 
 def kalshi_markets(today):
     games, markets = {}, []
-    horizon = today + dt.timedelta(days=7)
+    # only this NFL week: Tuesday through the following Monday (on a Monday, that's today = Monday night football)
+    week_start = today - dt.timedelta(days=(today.weekday() - 1) % 7)
+    horizon = week_start + dt.timedelta(days=6)
     for series, stat in SERIES.items():
         events = kalshi_paged("/events", {"series_ticker": series, "status": "open", "limit": 200}, "events")
         for ev in events:

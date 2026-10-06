@@ -148,6 +148,15 @@ body.has-slip .wrap{padding-bottom:96px}
 .swarn{margin:0;font-size:13px;background:var(--warn);color:var(--warn-ink);border-radius:8px;padding:6px 8px}
 .snote{margin:0;font-size:12.5px;color:var(--muted)}
 .sclear{justify-self:start;border:0;background:transparent;color:var(--miss-ink);font:600 14px var(--body);cursor:pointer;padding:6px 0}
+.graded{list-style:none;margin:0;padding:0;display:grid}
+.graded li{display:grid;grid-template-columns:22px 28px 1fr auto;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+.graded .rk{font:500 12px var(--mono);color:var(--muted);text-align:right}
+.graded .g{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;font-weight:700}
+.graded .who{display:grid;font-weight:600}.graded .who small{font-weight:400;color:var(--muted);font-size:12px}
+.graded .act{display:grid;justify-items:end;font-family:var(--mono)}.graded .mg{font-size:12px}
+.mg.hit{color:var(--hit-ink)}.mg.miss{color:var(--miss-ink)}
+.gfilter{display:flex;gap:6px;margin:4px 0 6px}.gfilter button{font:600 13px var(--body);border:1px solid var(--line);background:var(--chip);color:var(--muted);border-radius:999px;padding:6px 14px;cursor:pointer}
+.gfilter button[aria-pressed="true"]{background:var(--gold);color:var(--on-accent);border-color:transparent}
 .face{flex:0 0 58px;width:58px;height:58px;border-radius:50%;object-fit:cover;object-position:top;background:var(--chip);border:2px solid var(--line)}
 .lface{width:30px;height:30px;border-radius:50%;object-fit:cover;object-position:top;background:var(--chip);vertical-align:middle;margin-right:8px;border:1px solid var(--line)}
 .legs b{font-size:15px} .legs .mono{text-align:right;font-weight:700}
@@ -174,10 +183,6 @@ body.has-slip .wrap{padding-bottom:96px}
 .misses .g{display:inline-flex;font-size:13px;padding:1px 8px;margin-left:4px}
 .misses small{color:var(--muted);font-size:12px}
 .all summary{font-size:15px;color:var(--ink);font-weight:700}
-.graded{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:4px;font-size:14px}
-.graded li{display:grid;grid-template-columns:56px 1fr auto;gap:8px;align-items:center}
-.graded .g{justify-content:center;font-size:13px;padding:3px 4px}
-.graded b{font-family:var(--mono);font-size:12px;color:var(--muted)}
 .calib li{grid-template-columns:84px 1fr 66px 22px}
 .calib small{color:var(--muted);font-family:var(--mono);font-size:11px;text-align:right}
 .cal{display:grid;gap:3px}
@@ -216,7 +221,12 @@ body.has-slip .wrap{padding-bottom:96px}
   <li><b>Defense rank ({{W_RANK}}).</b> Where the defense ranks among 32 teams in pass or rush yards allowed per game.</li>
   <li><b>Agreement (5%).</b> A small bonus when the projection, his history and the defense all say yes.</li>
   <li><b>Safety penalties.</b> Each game he missed the line costs 8%, each defense miss 5%, and thin markets (wide bid/ask) 10%.</li>
-  <li><b>Game script (up to ±8%).</b> From the point spread and over/under. A big favorite leans on the run with a lead, so its lead back gets a boost and its passing a small cut; a big underdog throws to catch up, so its QB, receivers and pass-catching backs get a boost and its rushing a cut. A high or low team total nudges every yardage prop. Starts at a 3-point spread, full strength at 10.</li>
+  <li><b>Cushion (part of hit rate).</b> Not just whether he cleared the line, but by how much. Clearing 15+ with 60 counts far more than clearing it with 16. Recent games count more.</li>
+  <li><b>Defense matchup + game script (up to ±14% together).</b> How much this defense gives up to his exact role (WR2s, TE1s...) compared with the league average, plus its overall rank. When a soft defense and a game script that forces volume line up (say, a big underdog throwing against a bad pass defense) the two stack.</li>
+  <li><b>Depth &amp; volume (up to −10%).</b> WR3s, TE2s and backup RBs start with a penalty; expected targets or carries from the usage model can cancel it or make it worse.</li>
+  <li><b>Offense (up to ±12%).</b> How well his offense moves the ball through the air or on the ground. A QB in his first season with the team, or first season starting, on a struggling offense gets an extra cut.</li>
+  <li><b>Market check.</b> The final chance is 70% model and 30% Kalshi's own price. In Week 4 that blend was better calibrated than either alone.</li>
+  <li><b>Game script (shown separately).</b> From the point spread and over/under (now combined with the defense matchup above). A big favorite leans on the run with a lead, so its lead back gets a boost and its passing a small cut; a big underdog throws to catch up, so its QB, receivers and pass-catching backs get a boost and its rushing a cut. A high or low team total nudges every yardage prop. Starts at a 3-point spread, full strength at 10.</li>
   <li><b>QB situation (receivers, up to ±10%).</b> If the QB who usually starts is out or not projected to start, the receiver's games with the new QB decide it (this season, and last season if they were teammates). No games together is a clear penalty; good history with the backup cancels it.</li>
   <li><b>Game context (up to ±4%).</b> A small nudge from things the stats can't see: wind and rain at kickoff, injuries on his team and the defense, his own injury status, recent ESPN headlines, and hype (most-added on Sleeper, Reddit buzz). Players listed out are dropped. It's kept small on purpose while it's tested. {{CTX_SRC}}</li>
   <li><b>Kalshi %.</b> The Kalshi yes price is the market's chance it hits; the number under it is the same price as sportsbook odds, before Kalshi's fee.</li>
@@ -441,4 +451,6 @@ body.has-slip .wrap{padding-bottom:96px}
  document.querySelectorAll("[role=tab]").forEach(function(t){t.addEventListener("click",function(){setTimeout(paint,0)})});
  paint();
 })();
+
+(function(){var bs=[].slice.call(document.querySelectorAll("[data-gf]"));bs.forEach(function(b){b.addEventListener("click",function(){var f=b.dataset.gf;bs.forEach(function(x){x.setAttribute("aria-pressed",x===b)});document.querySelectorAll(".graded li").forEach(function(li){li.hidden=f!=="all"&&!li.classList.contains(f)})})})})();
 </script>

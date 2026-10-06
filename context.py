@@ -231,7 +231,9 @@ def ordinal(n):
 
 def why(r, rs):
     """One or two short sentences for the card."""
-    bits = [f"Cleared {r['line']}+ in {r['over']} of {r['n']} games" + (f" ({r['po']} of {r['pn']} last season)" if r.get("pn") else "")]
+    am = r.get("avgm")
+    by = (f", by {am:+.0f} on average" if am is not None and abs(am) >= 1 else (f", by {am:+.1f} on average" if am is not None else ""))
+    bits = [f"Cleared {r['line']}+ in {r['over']} of {r['n']} games{by}" + (f" ({r['po']} of {r['pn']} last season)" if r.get("pn") else "")]
     if r["proj"] >= r["line"]:
         bits.append(f"Sleeper projects {r['proj']:g}")
     if r.get("dn"):
