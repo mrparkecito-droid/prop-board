@@ -1,5 +1,6 @@
-"""Regression test: feeding the Week 4 2026 snapshot through engine.py must reproduce
-the exact top-50 board that was published (same players, lines, order and scores)."""
+"""Regression tests. The Week 4 snapshot must reproduce the saved board exactly (expected_week4_top50.json,
+regenerated after the Week 4 review added cushion, depth, matchup, offense and the market blend), so any
+accidental change to the scoring shows up here."""
 import json, math, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
@@ -239,6 +240,30 @@ def test_qb_change_game_script_and_kickoff_lock():
     assert not learn._open_game("2026-10-04", now, "2026-10-04T17:00Z")    # 10 AM game locked
 
 
+def test_week4_lessons():
+    import matchup, learn, copy, datetime as dt
+    sd = 12
+    big, _ = matchup.cushion([60, 55, 70], 15, sd)
+    barely, _ = matchup.cushion([16, 17, 15], 15, sd)
+    assert big > barely + 0.2, "clearing by a lot must count more than barely clearing"
+    f3, note3 = matchup.depth("WR3", "WR", "recyds", {"opp": 2.5})
+    f1, _ = matchup.depth("WR1", "WR", "recyds", {"opp": 8})
+    assert f3 < -0.5 and "Low volume" in note3 and f1 > 0
+    assert matchup.env(0.8, 0.6) > 0.6 * 0.8 + 0.6 * 0.6, "soft defense + throwing script should stack"
+    o_new, n_new = matchup.offense("MIA", "pass", "QB", 160, 220, 30, "First season as a regular starter.", lambda n: f"{n}th")
+    o_old, _ = matchup.offense("MIA", "pass", "QB", 160, 220, 30, "", lambda n: f"{n}th")
+    assert o_new < o_old < 0 and "First season" in n_new
+    # games already kicked off are left off the board
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    g0 = data["games"][0]["key"]
+    d2 = dict(copy.deepcopy(data), generated="2026-10-04T12:00:00-07:00",
+              context={"games": {g0: {"kick": "2026-10-04T17:00Z", "spread": {}}}, "inj": {}})
+    assert all(r["game"] != g0 for r in engine.run(d2, ov)["all"])
+    # official board for grading is capped at 50 by score, and wrong-week rows are voided
+    assert learn.BOARD_N == 50
+
+
 if __name__ == "__main__":
     test_week4_reproduces_published_board()
     test_page_cards_match_published_board()
@@ -249,4 +274,5 @@ if __name__ == "__main__":
     test_context_parsers_and_nudge()
     test_usage_and_last_season()
     test_qb_change_game_script_and_kickoff_lock()
-    print("PASS: engine reproduces the published Week 4 top 50 exactly; grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
+    test_week4_lessons()
+    print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
