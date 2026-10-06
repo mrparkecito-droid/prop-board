@@ -130,9 +130,9 @@
    "role": "WR2",
    "stat": "recyds",
    "prop": "Receiving Yards",
-   "line": 25,
-   "ask": 57,
-   "bid": 53,
+   "line": 15,
+   "ask": 75,
+   "bid": 71,
    "vals": [
     40.0,
     46.0,
@@ -169,22 +169,22 @@
    "most": 12,
    "per": 242.5,
    "dstat": "pass yds",
-   "p": 76,
-   "roi": 34,
-   "pp": 76,
-   "hs": 79,
+   "p": 83,
+   "roi": 10,
+   "pp": 88,
+   "hs": 82,
    "dhs": 83,
    "rks": 65,
-   "vs": 84,
+   "vs": 60,
    "agree": 3,
-   "score": 80.3,
+   "score": 80.4,
    "flags": [],
-   "pc": 0.7625,
-   "praw": 0.7892,
+   "pc": 0.8266,
+   "praw": 0.8438,
    "rg": "WR2",
    "est": false,
-   "mid": 55.0,
-   "tk": "KXNFLRECYDS-26OCT08TBDAL-TBCGODWIN14-25",
+   "mid": 73.0,
+   "tk": "KXNFLRECYDS-26OCT08TBDAL-TBCGODWIN14-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "ctx": 0.35,
    "cxs": 68,
@@ -207,8 +207,8 @@
     ]
    ],
    "status": null,
-   "ppj": 78,
-   "pu": 75,
+   "ppj": 89,
+   "pu": 87,
    "uinfo": {
     "share": [
      15,
@@ -222,14 +222,14 @@
     "mu": 38.5,
     "note": "His share of targets is up from 15% to 27%."
    },
-   "po": 6,
+   "po": 7,
    "pn": 9,
    "pid": "4037",
    "sx": 0.49,
    "sxs": 74,
    "qf": -0.46,
    "qfs": 27,
-   "qnote": "QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 25+ in 1 of 1 (31).",
+   "qnote": "QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 1 of 1 (31).",
    "qinfo": {
     "qb": "Jalon Daniels",
     "same": false,
@@ -237,7 +237,7 @@
     "usual": "Baker Mayfield"
    },
    "rank": 2,
-   "why": "Cleared 25+ in 4 of 4 games (6 of 9 last season), Sleeper projects 43, DAL let 4 of 4 WR2s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 25+ in 1 of 1 (31). His share of targets is up from 15% to 27%. TB a 9.5-pt underdog, trailing teams throw more. Ko Kieft out, more targets to go around. Watch: TB projected for only 19 pts (O/U 47.5).",
+   "why": "Cleared 15+ in 4 of 4 games (7 of 9 last season), Sleeper projects 43, DAL let 4 of 4 WR2s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 1 of 1 (31). His share of targets is up from 15% to 27%. TB a 9.5-pt underdog, trailing teams throw more. Ko Kieft out, more targets to go around. Watch: TB projected for only 19 pts (O/U 47.5).",
    "news": ""
   },
   {
@@ -474,6 +474,121 @@
   {
    "game": "TBDAL",
    "glabel": "TB @ DAL (Thu)",
+   "player": "Jake Ferguson",
+   "team": "DAL",
+   "opp": "TB",
+   "pos": "TE",
+   "role": "TE1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 88,
+   "bid": 84,
+   "vals": [
+    2.0,
+    4.0,
+    3.0,
+    3.0
+   ],
+   "over": 4,
+   "n": 4,
+   "proj": 3.3,
+   "al": [
+    [
+     1,
+     "CIN",
+     5.0
+    ],
+    [
+     2,
+     "CLE",
+     5.0
+    ],
+    [
+     3,
+     "MIN",
+     2.0
+    ],
+    [
+     4,
+     "GB",
+     6.0
+    ]
+   ],
+   "dhit": 4,
+   "dn": 4,
+   "most": 25,
+   "per": 214.2,
+   "dstat": "pass yds",
+   "p": 84,
+   "roi": -4,
+   "pp": 88,
+   "hs": 83,
+   "dhs": 83,
+   "rks": 23,
+   "vs": 46,
+   "agree": 3,
+   "score": 74.6,
+   "flags": [],
+   "pc": 0.8409,
+   "praw": 0.8444,
+   "rg": "TE",
+   "est": false,
+   "mid": 86.0,
+   "tk": "KXNFLREC-26OCT08TBDAL-DALJFERGUSON87-2",
+   "ev": "KXNFLREC-26OCT08TBDAL",
+   "ctx": 0.3,
+   "cxs": 65,
+   "reasons": [
+    [
+     0.3,
+     "TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison"
+    ],
+    [
+     -0.56,
+     "DAL favored by 9.5, may not need to throw late"
+    ],
+    [
+     0.43,
+     "DAL projected for 28 pts (O/U 47.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 89,
+   "pu": 86,
+   "uinfo": {
+    "share": [
+     7,
+     13,
+     12,
+     9
+    ],
+    "kind": "targets",
+    "snap": 69,
+    "snap_last": 71,
+    "mu": 3.0,
+    "note": ""
+   },
+   "po": 14,
+   "pn": 17,
+   "pid": "8110",
+   "sx": -0.13,
+   "sxs": 44,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Dak Prescott",
+    "same": true,
+    "n": 4
+   },
+   "rank": 5,
+   "why": "Cleared 2+ in 4 of 4 games (14 of 17 last season), Sleeper projects 3.3, TB let 4 of 4 TE1s reach it. DAL projected for 28 pts (O/U 47.5). TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison. Watch: DAL favored by 9.5, may not need to throw late.",
+   "news": ""
+  },
+  {
+   "game": "TBDAL",
+   "glabel": "TB @ DAL (Thu)",
    "player": "CeeDee Lamb",
    "team": "DAL",
    "opp": "TB",
@@ -586,7 +701,7 @@
     "same": true,
     "n": 4
    },
-   "rank": 5,
+   "rank": 6,
    "why": "Cleared 40+ in 4 of 4 games (12 of 14 last season), Sleeper projects 95.3, TB let 4 of 4 WR1s reach it. His share of targets is up from 27% to 49%. DAL projected for 28 pts (O/U 47.5). TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison. Watch: DAL favored by 9.5, may not need to throw late.",
    "news": "In the news: \"NFL Week 4: CeeDee Lamb, Joe Burrow and more fuel best quotes\""
   },
@@ -706,7 +821,7 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 6,
+   "rank": 7,
    "why": "Cleared 2+ in 4 of 4 games (14 of 16 last season), Sleeper projects 3.5, DAL let 3 of 4 TE1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 2+ in 1 of 1 (4). TB a 9.5-pt underdog, trailing teams throw more. Ko Kieft out, more targets to go around. Watch: TB projected for only 19 pts (O/U 47.5).",
    "news": ""
   },
@@ -826,7 +941,7 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 7,
+   "rank": 8,
    "why": "Cleared 15+ in 4 of 4 games, Sleeper projects 25.7, DAL let 3 of 4 WR3s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 1 of 1 (25). Snaps dropped to 39% last game. TB a 9.5-pt underdog, trailing teams throw more. Ko Kieft out, more targets to go around. Watch: TB projected for only 19 pts (O/U 47.5).",
    "news": ""
   },
@@ -946,7 +1061,7 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 8,
+   "rank": 9,
    "why": "Cleared 15+ in 4 of 4 games (12 of 16 last season), Sleeper projects 36.1, DAL let 3 of 4 TE1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 1 of 1 (37). TB a 9.5-pt underdog, trailing teams throw more. Ko Kieft out, more targets to go around. Watch: TB projected for only 19 pts (O/U 47.5).",
    "news": ""
   },
@@ -1066,7 +1181,7 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 9,
+   "rank": 10,
    "why": "Cleared 15+ in 3 of 4 games (16 of 17 last season), Sleeper projects 46.6, DAL let 4 of 4 WR1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 0 of 1 (13). TB a 9.5-pt underdog, trailing teams throw more. Ko Kieft out, more targets to go around. Watch: TB projected for only 19 pts (O/U 47.5).",
    "news": ""
   },
@@ -1177,7 +1292,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 10,
+   "rank": 11,
    "why": "Cleared 30+ in 4 of 4 games (9 of 10 last season), Sleeper projects 75, DAL let 3 of 4 lead RBs reach it, DAL allows the 2nd most rush yds. His share of carries is up from 40% to 52%. DAL front missing LB DeMarvion Overshown. Watch: TB a 9.5-pt underdog, may have to abandon the run; TB projected for only 19 pts (O/U 47.5).",
    "news": ""
   },
@@ -1288,7 +1403,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 11,
+   "rank": 12,
    "why": "Cleared 10+ in 2 of 4 games (15 of 17 last season), Sleeper projects 32.1, DAL let 4 of 4 No. 2 RBs reach it, DAL allows the 2nd most rush yds. His share of carries fell from 25% to 10%. DAL front missing LB DeMarvion Overshown. Watch: TB a 9.5-pt underdog, may have to abandon the run; TB projected for only 19 pts (O/U 47.5).",
    "news": ""
   },
@@ -1407,7 +1522,7 @@
     "same": true,
     "n": 4
    },
-   "rank": 12,
+   "rank": 13,
    "why": "Cleared 4+ in 4 of 4 games (12 of 14 last season), Sleeper projects 6.4, TB let 2 of 4 WR1s reach it. His share of targets is up from 27% to 49%. DAL projected for 28 pts (O/U 47.5). TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison. Watch: DAL favored by 9.5, may not need to throw late.",
    "news": "In the news: \"NFL Week 4: CeeDee Lamb, Joe Burrow and more fuel best quotes\""
   },
@@ -1518,7 +1633,7 @@
     "same": true,
     "n": 4
    },
-   "rank": 13,
+   "rank": 14,
    "why": "Cleared 15+ in 3 of 4 games (4 of 16 last season), Sleeper projects 15.3, TB let 4 of 4 lead RBs reach it. DAL projected for 28 pts (O/U 47.5). TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison.",
    "news": ""
   },
@@ -1638,7 +1753,7 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 14,
+   "rank": 15,
    "why": "Cleared 2+ in 3 of 4 games, DAL let 3 of 4 WR3s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 2+ in 1 of 1 (2). Snaps dropped to 39% last game. TB a 9.5-pt underdog, trailing teams throw more. Ko Kieft out, more targets to go around. Watch: TB projected for only 19 pts (O/U 47.5).",
    "news": ""
   },
@@ -1720,7 +1835,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 15,
+   "rank": 16,
    "why": "Cleared 10+ in 3 of 4 games (7 of 17 last season), Sleeper projects 15.5. DAL projected for 28 pts (O/U 47.5).",
    "news": ""
   },
@@ -1836,7 +1951,7 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 16,
+   "rank": 17,
    "why": "Cleared 2+ in 3 of 4 games (16 of 17 last season), Sleeper projects 2.3, DAL let 2 of 4 lead RBs reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 2+ in 1 of 1 (2). TB a 9.5-pt underdog, backs catch more when trailing. DAL secondary missing CB Cobie Durant. Watch: TB projected for only 19 pts (O/U 47.5).",
    "news": ""
   },
@@ -1945,123 +2060,8 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 17,
-   "why": "Cleared 125+ in 1 of 2 games, Sleeper projects 208.8, DAL let 3 of 4 QBs reach it. TB a 9.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB projected for only 19 pts (O/U 47.5).",
-   "news": ""
-  },
-  {
-   "game": "TBDAL",
-   "glabel": "TB @ DAL (Thu)",
-   "player": "Jake Ferguson",
-   "team": "DAL",
-   "opp": "TB",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 3,
-   "ask": 71,
-   "bid": 67,
-   "vals": [
-    2.0,
-    4.0,
-    3.0,
-    3.0
-   ],
-   "over": 3,
-   "n": 4,
-   "proj": 3.3,
-   "al": [
-    [
-     1,
-     "CIN",
-     5.0
-    ],
-    [
-     2,
-     "CLE",
-     5.0
-    ],
-    [
-     3,
-     "MIN",
-     2.0
-    ],
-    [
-     4,
-     "GB",
-     6.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 4,
-   "most": 25,
-   "per": 214.2,
-   "dstat": "pass yds",
-   "p": 67,
-   "roi": -6,
-   "pp": 68,
-   "hs": 70,
-   "dhs": 67,
-   "rks": 23,
-   "vs": 44,
-   "agree": 1,
-   "score": 51.1,
-   "flags": [],
-   "pc": 0.6657,
-   "praw": 0.6756,
-   "rg": "TE",
-   "est": false,
-   "mid": 69.0,
-   "tk": "KXNFLREC-26OCT08TBDAL-DALJFERGUSON87-3",
-   "ev": "KXNFLREC-26OCT08TBDAL",
-   "ctx": 0.3,
-   "cxs": 65,
-   "reasons": [
-    [
-     0.3,
-     "TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison"
-    ],
-    [
-     -0.56,
-     "DAL favored by 9.5, may not need to throw late"
-    ],
-    [
-     0.43,
-     "DAL projected for 28 pts (O/U 47.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 71,
-   "pu": 64,
-   "uinfo": {
-    "share": [
-     7,
-     13,
-     12,
-     9
-    ],
-    "kind": "targets",
-    "snap": 69,
-    "snap_last": 71,
-    "mu": 3.0,
-    "note": ""
-   },
-   "po": 13,
-   "pn": 17,
-   "pid": "8110",
-   "sx": -0.13,
-   "sxs": 44,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Dak Prescott",
-    "same": true,
-    "n": 4
-   },
    "rank": 18,
-   "why": "Cleared 3+ in 3 of 4 games (13 of 17 last season), Sleeper projects 3.3, TB let 3 of 4 TE1s reach it. DAL projected for 28 pts (O/U 47.5). TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison. Watch: DAL favored by 9.5, may not need to throw late.",
+   "why": "Cleared 125+ in 1 of 2 games, Sleeper projects 208.8, DAL let 3 of 4 QBs reach it. TB a 9.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB projected for only 19 pts (O/U 47.5).",
    "news": ""
   },
   {
@@ -3067,7 +3067,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 40,
-   "ask": 75,
+   "ask": 74,
    "bid": 71,
    "vals": [
     28.0,
@@ -3106,20 +3106,20 @@
    "per": 214.2,
    "dstat": "pass yds",
    "p": 55,
-   "roi": -27,
+   "roi": -26,
    "pp": 77,
    "hs": 70,
    "dhs": 17,
    "rks": 23,
-   "vs": 23,
+   "vs": 24,
    "agree": 1,
-   "score": 34.3,
+   "score": 34.4,
    "flags": [],
-   "pc": 0.5478,
+   "pc": 0.547,
    "praw": 0.5634,
    "rg": "WR2",
    "est": false,
-   "mid": 73.0,
+   "mid": 72.5,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALGPICKENS3-40",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "ctx": 0.3,
@@ -3464,9 +3464,9 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 40,
-   "q": 38.5,
-   "p": 0.6007,
+   "ask": 39,
+   "q": 38.0,
+   "p": 0.6001,
    "sc": 56.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBEEGBUKA2-40",
@@ -3484,10 +3484,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 62,
-   "q": 59.5,
-   "p": 0.7107,
-   "sc": 59.2,
+   "ask": 61,
+   "q": 59.0,
+   "p": 0.7102,
+   "sc": 59.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBEEGBUKA2-25",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
@@ -3584,10 +3584,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 76,
-   "q": 73.5,
-   "p": 0.827,
-   "sc": 80.1,
+   "ask": 75,
+   "q": 73.0,
+   "p": 0.8266,
+   "sc": 80.4,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBCGODWIN14-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
@@ -3884,10 +3884,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 4,
-   "ask": 44,
-   "q": 42.5,
-   "p": 0.4509,
-   "sc": 33.3,
+   "ask": 43,
+   "q": 42.0,
+   "p": 0.4503,
+   "sc": 33.6,
    "est": 0,
    "tk": "KXNFLREC-26OCT08TBDAL-TBCGODWIN14-4",
    "ev": "KXNFLREC-26OCT08TBDAL",
@@ -4017,6 +4017,26 @@
    "nw": ""
   },
   {
+   "pl": "Jake Ferguson",
+   "tm": "DAL",
+   "g": "TBDAL",
+   "gl": "TB @ DAL (Thu)",
+   "st": "rec",
+   "pr": "Receptions",
+   "ln": 2,
+   "ask": 88,
+   "q": 86.0,
+   "p": 0.8409,
+   "sc": 74.6,
+   "est": 0,
+   "tk": "KXNFLREC-26OCT08TBDAL-DALJFERGUSON87-2",
+   "ev": "KXNFLREC-26OCT08TBDAL",
+   "wy": "Cleared 2+ in 4 of 4 games (14 of 17 last season), Sleeper projects 3.3, TB let 4 of 4 TE1s reach it. DAL projected for 28 pts (O/U 47.5). TB secondary missing S Antoine Winfield Jr., CB Benjamin Morrison. Watch: DAL favored by 9.5, may not need to throw late.",
+   "id": "8110",
+   "cx": 0.3,
+   "nw": ""
+  },
+  {
    "pl": "CeeDee Lamb",
    "tm": "DAL",
    "g": "TBDAL",
@@ -4044,10 +4064,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 5,
-   "ask": 74,
-   "q": 72.5,
-   "p": 0.706,
-   "sc": 56.8,
+   "ask": 73,
+   "q": 72.0,
+   "p": 0.7054,
+   "sc": 57.0,
    "est": 0,
    "tk": "KXNFLREC-26OCT08TBDAL-DALCLAMB88-5",
    "ev": "KXNFLREC-26OCT08TBDAL",
@@ -5978,7 +5998,7 @@
    3,
    4
   ],
-  "generated": "2026-10-05T22:22:22-07:00",
+  "generated": "2026-10-05T22:30:29-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 5 \u00b7 Thu Oct 8",
