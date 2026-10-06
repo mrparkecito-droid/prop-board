@@ -577,7 +577,7 @@
    "stat": "rush",
    "prop": "Rushing Yards",
    "line": 30,
-   "ask": 87,
+   "ask": 86,
    "bid": 83,
    "vals": [
     66.0,
@@ -616,32 +616,32 @@
    "per": 122.0,
    "dstat": "rush yds",
    "p": 78,
-   "roi": -11,
+   "roi": -10,
    "pp": 83,
    "hs": 60,
    "dhs": 83,
    "rks": 71,
-   "vs": 39,
+   "vs": 40,
    "agree": 3,
-   "score": 75.0,
+   "score": 75.7,
    "flags": [],
-   "pc": 0.7753,
-   "praw": 0.7861,
+   "pc": 0.7779,
+   "praw": 0.7896,
    "rg": "RB1",
    "est": false,
-   "mid": 85.0,
+   "mid": 84.5,
    "tk": "KXNFLRSHYDS-26OCT11PHIJAC-JACBTUTEN33-30",
    "ev": "KXNFLRSHYDS-26OCT11PHIJAC",
    "ctx": 0,
    "cxs": 50,
    "reasons": [
     [
-     0.5,
-     "JAX favored by 6.5, should run a lot with a lead"
+     0.57,
+     "JAX favored by 7, should run a lot with a lead"
     ],
     [
-     0.14,
-     "JAX projected for 24 pts (O/U 42.5)"
+     0.16,
+     "JAX projected for 25 pts (O/U 42.5)"
     ]
    ],
    "status": null,
@@ -663,14 +663,129 @@
    "po": 2,
    "pn": 15,
    "pid": "12490",
-   "sx": 0.64,
-   "sxs": 82,
+   "sx": 0.73,
+   "sxs": 86,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
    "rank": 6,
-   "why": "Cleared 30+ in 4 of 4 games (2 of 15 last season), Sleeper projects 58.8, PHI let 4 of 4 lead RBs reach it, PHI allows the 10th most rush yds. His share of carries is up from 48% to 63%. JAX favored by 6.5, should run a lot with a lead. JAX projected for 24 pts (O/U 42.5).",
+   "why": "Cleared 30+ in 4 of 4 games (2 of 15 last season), Sleeper projects 58.8, PHI let 4 of 4 lead RBs reach it, PHI allows the 10th most rush yds. His share of carries is up from 48% to 63%. JAX favored by 7, should run a lot with a lead. JAX projected for 25 pts (O/U 42.5).",
+   "news": ""
+  },
+  {
+   "game": "TBDAL",
+   "glabel": "TB @ DAL (Thu)",
+   "player": "CeeDee Lamb",
+   "team": "DAL",
+   "opp": "TB",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 40,
+   "ask": 88,
+   "bid": 86,
+   "vals": [
+    44.0,
+    153.0,
+    112.0,
+    189.0
+   ],
+   "over": 4,
+   "n": 4,
+   "proj": 94.1,
+   "al": [
+    [
+     1,
+     "CIN",
+     59.0
+    ],
+    [
+     2,
+     "CLE",
+     95.0
+    ],
+    [
+     3,
+     "MIN",
+     90.0
+    ],
+    [
+     4,
+     "GB",
+     47.0
+    ]
+   ],
+   "dhit": 4,
+   "dn": 4,
+   "most": 25,
+   "per": 214.2,
+   "dstat": "pass yds",
+   "p": 84,
+   "roi": -4,
+   "pp": 87,
+   "hs": 84,
+   "dhs": 83,
+   "rks": 23,
+   "vs": 46,
+   "agree": 3,
+   "score": 74.3,
+   "flags": [],
+   "pc": 0.8412,
+   "praw": 0.8463,
+   "rg": "WR1",
+   "est": false,
+   "mid": 87.0,
+   "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-40",
+   "ev": "KXNFLRECYDS-26OCT08TBDAL",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "TB secondary missing S Antoine Winfield Jr."
+    ],
+    [
+     -0.47,
+     "DAL favored by 8.5, may not need to throw late"
+    ],
+    [
+     0.39,
+     "DAL projected for 28 pts (O/U 47.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 85,
+   "pu": 88,
+   "uinfo": {
+    "share": [
+     27,
+     29,
+     20,
+     49
+    ],
+    "kind": "targets",
+    "snap": 82,
+    "snap_last": 86,
+    "mu": 113.6,
+    "note": "His share of targets is up from 27% to 49%."
+   },
+   "po": 12,
+   "pn": 14,
+   "pid": "6786",
+   "sx": -0.08,
+   "sxs": 46,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Dak Prescott",
+    "same": true,
+    "n": 4
+   },
+   "rank": 7,
+   "why": "Cleared 40+ in 4 of 4 games (12 of 14 last season), Sleeper projects 94.1, TB let 4 of 4 WR1s reach it. His share of targets is up from 27% to 49%. DAL projected for 28 pts (O/U 47.5). TB secondary missing S Antoine Winfield Jr.. Watch: DAL favored by 8.5, may not need to throw late.",
    "news": ""
   },
   {
@@ -776,119 +891,8 @@
     "same": true,
     "n": 4
    },
-   "rank": 7,
-   "why": "Cleared 15+ in 4 of 4 games (15 of 16 last season), Sleeper projects 39.4, NYJ let 4 of 4 TE1s reach it. Watch: CLE projected for only 18 pts (O/U 39.5).",
-   "news": ""
-  },
-  {
-   "game": "PHIJAX",
-   "glabel": "PHI @ JAX",
-   "player": "Jakobi Meyers",
-   "team": "JAX",
-   "opp": "PHI",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 25,
-   "ask": 76,
-   "bid": 73,
-   "vals": [
-    40.0,
-    28.0,
-    64.0,
-    33.0
-   ],
-   "over": 4,
-   "n": 4,
-   "proj": 40.5,
-   "al": [
-    [
-     1,
-     "WAS",
-     55.0
-    ],
-    [
-     2,
-     "TEN",
-     35.0
-    ],
-    [
-     3,
-     "CHI",
-     61.0
-    ],
-    [
-     4,
-     "LAR",
-     32.0
-    ]
-   ],
-   "dhit": 4,
-   "dn": 4,
-   "most": 18,
-   "per": 227.8,
-   "dstat": "pass yds",
-   "p": 78,
-   "roi": 2,
-   "pp": 73,
-   "hs": 87,
-   "dhs": 83,
-   "rks": 45,
-   "vs": 52,
-   "agree": 3,
-   "score": 72.4,
-   "flags": [],
-   "pc": 0.777,
-   "praw": 0.7951,
-   "rg": "WR2",
-   "est": false,
-   "mid": 74.5,
-   "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACJMEYERS3-25",
-   "ev": "KXNFLRECYDS-26OCT11PHIJAC",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     -0.3,
-     "JAX favored by 6.5, may not need to throw late"
-    ],
-    [
-     0.14,
-     "JAX projected for 24 pts (O/U 42.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 76,
-   "pu": 69,
-   "uinfo": {
-    "share": [
-     10,
-     3,
-     30,
-     17
-    ],
-    "kind": "targets",
-    "snap": 81,
-    "snap_last": 82,
-    "mu": 33.8,
-    "note": ""
-   },
-   "po": 15,
-   "pn": 16,
-   "pid": "5947",
-   "sx": -0.16,
-   "sxs": 42,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Trevor Lawrence",
-    "same": true,
-    "n": 4
-   },
    "rank": 8,
-   "why": "Cleared 25+ in 4 of 4 games (15 of 16 last season), Sleeper projects 40.5, PHI let 4 of 4 WR2s reach it. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
+   "why": "Cleared 15+ in 4 of 4 games (15 of 16 last season), Sleeper projects 39.4, NYJ let 4 of 4 TE1s reach it. Watch: CLE projected for only 18 pts (O/U 39.5).",
    "news": ""
   },
   {
@@ -1001,6 +1005,117 @@
   {
    "game": "PHIJAX",
    "glabel": "PHI @ JAX",
+   "player": "Jakobi Meyers",
+   "team": "JAX",
+   "opp": "PHI",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 25,
+   "ask": 77,
+   "bid": 73,
+   "vals": [
+    40.0,
+    28.0,
+    64.0,
+    33.0
+   ],
+   "over": 4,
+   "n": 4,
+   "proj": 40.5,
+   "al": [
+    [
+     1,
+     "WAS",
+     55.0
+    ],
+    [
+     2,
+     "TEN",
+     35.0
+    ],
+    [
+     3,
+     "CHI",
+     61.0
+    ],
+    [
+     4,
+     "LAR",
+     32.0
+    ]
+   ],
+   "dhit": 4,
+   "dn": 4,
+   "most": 18,
+   "per": 227.8,
+   "dstat": "pass yds",
+   "p": 78,
+   "roi": 1,
+   "pp": 73,
+   "hs": 87,
+   "dhs": 83,
+   "rks": 45,
+   "vs": 51,
+   "agree": 3,
+   "score": 72.1,
+   "flags": [],
+   "pc": 0.7767,
+   "praw": 0.7943,
+   "rg": "WR2",
+   "est": false,
+   "mid": 75.0,
+   "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACJMEYERS3-25",
+   "ev": "KXNFLRECYDS-26OCT11PHIJAC",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     -0.34,
+     "JAX favored by 7, may not need to throw late"
+    ],
+    [
+     0.16,
+     "JAX projected for 25 pts (O/U 42.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 76,
+   "pu": 69,
+   "uinfo": {
+    "share": [
+     10,
+     3,
+     30,
+     17
+    ],
+    "kind": "targets",
+    "snap": 81,
+    "snap_last": 82,
+    "mu": 33.8,
+    "note": ""
+   },
+   "po": 15,
+   "pn": 16,
+   "pid": "5947",
+   "sx": -0.18,
+   "sxs": 41,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Trevor Lawrence",
+    "same": true,
+    "n": 4
+   },
+   "rank": 10,
+   "why": "Cleared 25+ in 4 of 4 games (15 of 16 last season), Sleeper projects 40.5, PHI let 4 of 4 WR2s reach it. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
+   "news": ""
+  },
+  {
+   "game": "PHIJAX",
+   "glabel": "PHI @ JAX",
    "player": "Jalen Hurts",
    "team": "PHI",
    "opp": "JAX",
@@ -1055,10 +1170,10 @@
    "rks": 97,
    "vs": 52,
    "agree": 2,
-   "score": 70.7,
+   "score": 71.0,
    "flags": [],
-   "pc": 0.7958,
-   "praw": 0.8044,
+   "pc": 0.7974,
+   "praw": 0.806,
    "rg": "QB",
    "est": false,
    "mid": 73.0,
@@ -1072,11 +1187,11 @@
      "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
     ],
     [
-     0.4,
-     "PHI a 6.5-pt underdog, trailing teams throw more"
+     0.46,
+     "PHI a 7-pt underdog, trailing teams throw more"
     ],
     [
-     -0.32,
+     -0.34,
      "PHI projected for only 18 pts (O/U 42.5)"
     ]
    ],
@@ -1099,14 +1214,14 @@
    "po": 12,
    "pn": 16,
    "pid": "6904",
-   "sx": 0.08,
-   "sxs": 54,
+   "sx": 0.12,
+   "sxs": 56,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 10,
-   "why": "Cleared 150+ in 3 of 4 games (12 of 16 last season), Sleeper projects 202.5, JAX let 4 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 6.5-pt underdog, trailing teams throw more. Watch: PHI projected for only 18 pts (O/U 42.5).",
+   "rank": 11,
+   "why": "Cleared 150+ in 3 of 4 games (12 of 16 last season), Sleeper projects 202.5, JAX let 4 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 7-pt underdog, trailing teams throw more. Watch: PHI projected for only 18 pts (O/U 42.5).",
    "news": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
   },
   {
@@ -1221,7 +1336,7 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 11,
+   "rank": 12,
    "why": "Cleared 2+ in 4 of 4 games (14 of 16 last season), Sleeper projects 3.5, DAL let 3 of 4 TE1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 2+ in 1 of 1 (4). TB a 8.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB projected for only 20 pts (O/U 47.5).",
    "news": ""
   },
@@ -1236,7 +1351,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 15,
-   "ask": 65,
+   "ask": 63,
    "bid": 62,
    "vals": [
     36.0,
@@ -1275,20 +1390,20 @@
    "per": 242.5,
    "dstat": "pass yds",
    "p": 75,
-   "roi": 16,
+   "roi": 20,
    "pp": 81,
    "hs": 83,
    "dhs": 67,
    "rks": 65,
-   "vs": 66,
+   "vs": 70,
    "agree": 2,
-   "score": 69.3,
+   "score": 69.8,
    "flags": [],
-   "pc": 0.7543,
+   "pc": 0.7534,
    "praw": 0.7662,
    "rg": "WR3",
    "est": false,
-   "mid": 63.5,
+   "mid": 62.5,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBTHURST17-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "ctx": 0.15,
@@ -1337,7 +1452,7 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 12,
+   "rank": 13,
    "why": "Cleared 15+ in 4 of 4 games, Sleeper projects 25.7, DAL let 3 of 4 WR3s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 1 of 1 (25). Snaps dropped to 39% last game. TB a 8.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB projected for only 20 pts (O/U 47.5).",
    "news": ""
   },
@@ -1352,7 +1467,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 15,
-   "ask": 76,
+   "ask": 77,
    "bid": 74,
    "vals": [
     26.0,
@@ -1391,20 +1506,20 @@
    "per": 242.5,
    "dstat": "pass yds",
    "p": 77,
-   "roi": 1,
+   "roi": 0,
    "pp": 87,
    "hs": 81,
    "dhs": 67,
    "rks": 65,
-   "vs": 51,
+   "vs": 50,
    "agree": 2,
-   "score": 68.8,
+   "score": 68.6,
    "flags": [],
-   "pc": 0.7695,
+   "pc": 0.77,
    "praw": 0.7858,
    "rg": "TE",
    "est": false,
-   "mid": 75.0,
+   "mid": 75.5,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBCOTTON88-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "ctx": 0.15,
@@ -1453,7 +1568,7 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 13,
+   "rank": 14,
    "why": "Cleared 15+ in 4 of 4 games (12 of 16 last season), Sleeper projects 36.1, DAL let 3 of 4 TE1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 1 of 1 (37). TB a 8.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB projected for only 20 pts (O/U 47.5).",
    "news": ""
   },
@@ -1569,8 +1684,119 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 14,
+   "rank": 15,
    "why": "Cleared 15+ in 3 of 4 games (16 of 17 last season), Sleeper projects 46.7, DAL let 4 of 4 WR1s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 0 of 1 (13). TB a 8.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB projected for only 20 pts (O/U 47.5).",
+   "news": ""
+  },
+  {
+   "game": "PHIJAX",
+   "glabel": "PHI @ JAX",
+   "player": "Brenton Strange",
+   "team": "JAX",
+   "opp": "PHI",
+   "pos": "TE",
+   "role": "TE1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 85,
+   "bid": 81,
+   "vals": [
+    23.0,
+    17.0,
+    32.0,
+    95.0
+   ],
+   "over": 4,
+   "n": 4,
+   "proj": 40.3,
+   "al": [
+    [
+     1,
+     "WAS",
+     16.0
+    ],
+    [
+     2,
+     "TEN",
+     13.0
+    ],
+    [
+     3,
+     "CHI",
+     31.0
+    ],
+    [
+     4,
+     "LAR",
+     67.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 4,
+   "most": 18,
+   "per": 227.8,
+   "dstat": "pass yds",
+   "p": 80,
+   "roi": -6,
+   "pp": 88,
+   "hs": 89,
+   "dhs": 67,
+   "rks": 45,
+   "vs": 44,
+   "agree": 2,
+   "score": 67.5,
+   "flags": [],
+   "pc": 0.8016,
+   "praw": 0.8125,
+   "rg": "TE",
+   "est": false,
+   "mid": 83.0,
+   "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACBSTRANGE85-15",
+   "ev": "KXNFLRECYDS-26OCT11PHIJAC",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     -0.34,
+     "JAX favored by 7, may not need to throw late"
+    ],
+    [
+     0.16,
+     "JAX projected for 25 pts (O/U 42.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 88,
+   "pu": 89,
+   "uinfo": {
+    "share": [
+     15,
+     7,
+     19,
+     35
+    ],
+    "kind": "targets",
+    "snap": 80,
+    "snap_last": 87,
+    "mu": 43.9,
+    "note": "His share of targets is up from 15% to 35%."
+   },
+   "po": 12,
+   "pn": 12,
+   "pid": "9480",
+   "sx": -0.18,
+   "sxs": 41,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Trevor Lawrence",
+    "same": true,
+    "n": 4
+   },
+   "rank": 16,
+   "why": "Cleared 15+ in 4 of 4 games (12 of 12 last season), Sleeper projects 40.3, PHI let 3 of 4 TE1s reach it. His share of targets is up from 15% to 35%. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
    "news": ""
   },
   {
@@ -1672,7 +1898,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 15,
+   "rank": 17,
    "why": "Cleared 150+ in 3 of 4 games (11 of 15 last season), Sleeper projects 188.9, CLE let 4 of 4 QBs reach it, CLE allows the 9th most pass yds. Watch: NYJ projected for only 21 pts (O/U 39.5).",
    "news": ""
   },
@@ -1758,7 +1984,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 16,
+   "rank": 18,
    "why": "Cleared 10+ in 4 of 4 games, Sleeper projects 14.9, NYJ allows the 8th most rush yds. Trending on Sleeper (#22 most added). Watch: CLE projected for only 18 pts (O/U 39.5).",
    "news": ""
   },
@@ -1869,7 +2095,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 17,
+   "rank": 19,
    "why": "Cleared 30+ in 4 of 4 games (9 of 10 last season), Sleeper projects 75.2, DAL let 3 of 4 lead RBs reach it, DAL allows the 2nd most rush yds. His share of carries is up from 40% to 52%. DAL front missing LB DeMarvion Overshown. Watch: TB a 8.5-pt underdog, may have to abandon the run; TB projected for only 20 pts (O/U 47.5).",
    "news": ""
   },
@@ -1976,7 +2202,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 18,
+   "rank": 20,
    "why": "Cleared 30+ in 3 of 4 games (10 of 14 last season), Sleeper projects 59.3, NYJ let 4 of 4 lead RBs reach it, NYJ allows the 8th most rush yds. His share of carries is up from 55% to 63%. NYJ front missing DE Braiden McGregor. Watch: CLE projected for only 18 pts (O/U 39.5).",
    "news": ""
   },
@@ -2087,7 +2313,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 19,
+   "rank": 21,
    "why": "Cleared 175+ in 3 of 4 games (5 of 10 last season), Sleeper projects 210.4, NE let 4 of 4 QBs reach it. Trending on Sleeper (#6 most added). LV a 3.5-pt underdog, trailing teams throw more. Watch: LV projected for only 21 pts (O/U 45.5).",
    "news": ""
   },
@@ -2148,10 +2374,10 @@
    "rks": 45,
    "vs": 40,
    "agree": 2,
-   "score": 61.9,
+   "score": 61.8,
    "flags": [],
-   "pc": 0.7372,
-   "praw": 0.7419,
+   "pc": 0.7365,
+   "praw": 0.7412,
    "rg": "QB",
    "est": false,
    "mid": 80.5,
@@ -2161,12 +2387,12 @@
    "cxs": 50,
    "reasons": [
     [
-     -0.3,
-     "JAX favored by 6.5, may not need to throw late"
+     -0.34,
+     "JAX favored by 7, may not need to throw late"
     ],
     [
-     0.14,
-     "JAX projected for 24 pts (O/U 42.5)"
+     0.16,
+     "JAX projected for 25 pts (O/U 42.5)"
     ]
    ],
    "status": null,
@@ -2188,127 +2414,14 @@
    "po": 14,
    "pn": 17,
    "pid": "7523",
-   "sx": -0.16,
-   "sxs": 42,
+   "sx": -0.18,
+   "sxs": 41,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 20,
-   "why": "Cleared 175+ in 4 of 4 games (14 of 17 last season), Sleeper projects 227.4, PHI let 3 of 4 QBs reach it. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
-   "news": ""
-  },
-  {
-   "game": "PHIJAX",
-   "glabel": "PHI @ JAX",
-   "player": "Brenton Strange",
-   "team": "JAX",
-   "opp": "PHI",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 84,
-   "bid": 68,
-   "vals": [
-    23.0,
-    17.0,
-    32.0,
-    95.0
-   ],
-   "over": 4,
-   "n": 4,
-   "proj": 40.3,
-   "al": [
-    [
-     1,
-     "WAS",
-     16.0
-    ],
-    [
-     2,
-     "TEN",
-     13.0
-    ],
-    [
-     3,
-     "CHI",
-     31.0
-    ],
-    [
-     4,
-     "LAR",
-     67.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 4,
-   "most": 18,
-   "per": 227.8,
-   "dstat": "pass yds",
-   "p": 80,
-   "roi": -5,
-   "pp": 88,
-   "hs": 89,
-   "dhs": 67,
-   "rks": 45,
-   "vs": 45,
-   "agree": 2,
-   "score": 61.0,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.8018,
-   "praw": 0.8133,
-   "rg": "TE",
-   "est": false,
-   "mid": 82.5,
-   "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACBSTRANGE85-15",
-   "ev": "KXNFLRECYDS-26OCT11PHIJAC",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     -0.3,
-     "JAX favored by 6.5, may not need to throw late"
-    ],
-    [
-     0.14,
-     "JAX projected for 24 pts (O/U 42.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 88,
-   "pu": 89,
-   "uinfo": {
-    "share": [
-     15,
-     7,
-     19,
-     35
-    ],
-    "kind": "targets",
-    "snap": 80,
-    "snap_last": 87,
-    "mu": 43.9,
-    "note": "His share of targets is up from 15% to 35%."
-   },
-   "po": 12,
-   "pn": 12,
-   "pid": "9480",
-   "sx": -0.16,
-   "sxs": 42,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Trevor Lawrence",
-    "same": true,
-    "n": 4
-   },
-   "rank": 21,
-   "why": "Cleared 15+ in 4 of 4 games (12 of 12 last season), Sleeper projects 40.3, PHI let 3 of 4 TE1s reach it. His share of targets is up from 15% to 35%. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
+   "rank": 22,
+   "why": "Cleared 175+ in 4 of 4 games (14 of 17 last season), Sleeper projects 227.4, PHI let 3 of 4 QBs reach it. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
    "news": ""
   },
   {
@@ -2347,10 +2460,10 @@
    "rks": 3,
    "vs": 42,
    "agree": 2,
-   "score": 60.5,
+   "score": 60.4,
    "flags": [],
-   "pc": 0.8012,
-   "praw": 0.8108,
+   "pc": 0.8003,
+   "praw": 0.81,
    "rg": "QB",
    "est": false,
    "mid": 84.5,
@@ -2364,7 +2477,7 @@
      "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
     ],
     [
-     -0.32,
+     -0.34,
      "PHI projected for only 18 pts (O/U 42.5)"
     ]
    ],
@@ -2387,13 +2500,13 @@
    "po": 12,
    "pn": 16,
    "pid": "6904",
-   "sx": -0.32,
-   "sxs": 34,
+   "sx": -0.34,
+   "sxs": 33,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 22,
+   "rank": 23,
    "why": "Cleared 10+ in 4 of 4 games (12 of 16 last season), Sleeper projects 24.5. Watch: PHI projected for only 18 pts (O/U 42.5).",
    "news": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
   },
@@ -2500,7 +2613,7 @@
     "same": true,
     "n": 4
    },
-   "rank": 23,
+   "rank": 24,
    "why": "Cleared 25+ in 3 of 4 games, Sleeper projects 37.7, NYJ let 4 of 4 WR2s reach it. Watch: CLE projected for only 18 pts (O/U 39.5).",
    "news": ""
   },
@@ -2561,10 +2674,10 @@
    "rks": 45,
    "vs": 44,
    "agree": 2,
-   "score": 59.3,
+   "score": 59.2,
    "flags": [],
-   "pc": 0.7043,
-   "praw": 0.7154,
+   "pc": 0.7036,
+   "praw": 0.7146,
    "rg": "WR1",
    "est": false,
    "mid": 72.5,
@@ -2574,12 +2687,12 @@
    "cxs": 50,
    "reasons": [
     [
-     -0.3,
-     "JAX favored by 6.5, may not need to throw late"
+     -0.34,
+     "JAX favored by 7, may not need to throw late"
     ],
     [
-     0.14,
-     "JAX projected for 24 pts (O/U 42.5)"
+     0.16,
+     "JAX projected for 25 pts (O/U 42.5)"
     ]
    ],
    "status": null,
@@ -2601,8 +2714,8 @@
    "po": 8,
    "pn": 16,
    "pid": "9487",
-   "sx": -0.16,
-   "sxs": 42,
+   "sx": -0.18,
+   "sxs": 41,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
@@ -2611,8 +2724,8 @@
     "same": true,
     "n": 4
    },
-   "rank": 24,
-   "why": "Cleared 40+ in 3 of 4 games (8 of 16 last season), Sleeper projects 68.3, PHI let 4 of 4 WR1s reach it. His share of targets fell from 30% to 13%. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
+   "rank": 25,
+   "why": "Cleared 40+ in 3 of 4 games (8 of 16 last season), Sleeper projects 68.3, PHI let 4 of 4 WR1s reach it. His share of targets fell from 30% to 13%. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
    "news": ""
   },
   {
@@ -2722,7 +2835,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 25,
+   "rank": 26,
    "why": "Cleared 10+ in 2 of 4 games (15 of 17 last season), Sleeper projects 32.2, DAL let 4 of 4 No. 2 RBs reach it, DAL allows the 2nd most rush yds. His share of carries fell from 25% to 10%. DAL front missing LB DeMarvion Overshown. Watch: TB a 8.5-pt underdog, may have to abandon the run; TB projected for only 20 pts (O/U 47.5).",
    "news": ""
   },
@@ -2837,7 +2950,7 @@
     "same": true,
     "n": 4
    },
-   "rank": 26,
+   "rank": 27,
    "why": "Cleared 4+ in 4 of 4 games (12 of 14 last season), Sleeper projects 6.4, TB let 2 of 4 WR1s reach it. His share of targets is up from 27% to 49%. DAL projected for 28 pts (O/U 47.5). TB secondary missing S Antoine Winfield Jr.. Watch: DAL favored by 8.5, may not need to throw late.",
    "news": ""
   },
@@ -2948,7 +3061,7 @@
     "same": true,
     "n": 4
    },
-   "rank": 27,
+   "rank": 28,
    "why": "Cleared 15+ in 3 of 4 games (4 of 16 last season), Sleeper projects 16.4, TB let 4 of 4 lead RBs reach it. DAL projected for 28 pts (O/U 47.5). TB secondary missing S Antoine Winfield Jr..",
    "news": ""
   },
@@ -3061,7 +3174,7 @@
     "same": true,
     "n": 4
    },
-   "rank": 28,
+   "rank": 29,
    "why": "Cleared 40+ in 3 of 4 games (5 of 7 last season), Sleeper projects 62.8, CLE let 4 of 4 WR1s reach it, CLE allows the 9th most pass yds. Mason Taylor out, more targets to go around. Watch: NYJ projected for only 21 pts (O/U 39.5).",
    "news": ""
   },
@@ -3177,123 +3290,8 @@
     "with": 1,
     "usual": "Baker Mayfield"
    },
-   "rank": 29,
-   "why": "Cleared 2+ in 3 of 4 games, DAL let 3 of 4 WR3s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 2+ in 1 of 1 (2). Snaps dropped to 39% last game. TB a 8.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB projected for only 20 pts (O/U 47.5).",
-   "news": ""
-  },
-  {
-   "game": "TBDAL",
-   "glabel": "TB @ DAL (Thu)",
-   "player": "CeeDee Lamb",
-   "team": "DAL",
-   "opp": "TB",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 50,
-   "ask": 81,
-   "bid": 77,
-   "vals": [
-    44.0,
-    153.0,
-    112.0,
-    189.0
-   ],
-   "over": 3,
-   "n": 4,
-   "proj": 94.1,
-   "al": [
-    [
-     1,
-     "CIN",
-     59.0
-    ],
-    [
-     2,
-     "CLE",
-     95.0
-    ],
-    [
-     3,
-     "MIN",
-     90.0
-    ],
-    [
-     4,
-     "GB",
-     47.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 4,
-   "most": 25,
-   "per": 214.2,
-   "dstat": "pass yds",
-   "p": 73,
-   "roi": -10,
-   "pp": 83,
-   "hs": 71,
-   "dhs": 67,
-   "rks": 23,
-   "vs": 40,
-   "agree": 1,
-   "score": 54.7,
-   "flags": [],
-   "pc": 0.7318,
-   "praw": 0.7396,
-   "rg": "WR1",
-   "est": false,
-   "mid": 79.0,
-   "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-50",
-   "ev": "KXNFLRECYDS-26OCT08TBDAL",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "TB secondary missing S Antoine Winfield Jr."
-    ],
-    [
-     -0.47,
-     "DAL favored by 8.5, may not need to throw late"
-    ],
-    [
-     0.39,
-     "DAL projected for 28 pts (O/U 47.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 81,
-   "pu": 85,
-   "uinfo": {
-    "share": [
-     27,
-     29,
-     20,
-     49
-    ],
-    "kind": "targets",
-    "snap": 82,
-    "snap_last": 86,
-    "mu": 113.6,
-    "note": "His share of targets is up from 27% to 49%."
-   },
-   "po": 11,
-   "pn": 14,
-   "pid": "6786",
-   "sx": -0.08,
-   "sxs": 46,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Dak Prescott",
-    "same": true,
-    "n": 4
-   },
    "rank": 30,
-   "why": "Cleared 50+ in 3 of 4 games (11 of 14 last season), Sleeper projects 94.1, TB let 3 of 4 WR1s reach it. His share of targets is up from 27% to 49%. DAL projected for 28 pts (O/U 47.5). TB secondary missing S Antoine Winfield Jr.. Watch: DAL favored by 8.5, may not need to throw late.",
+   "why": "Cleared 2+ in 3 of 4 games, DAL let 3 of 4 WR3s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 2+ in 1 of 1 (2). Snaps dropped to 39% last game. TB a 8.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB projected for only 20 pts (O/U 47.5).",
    "news": ""
   },
   {
@@ -3551,10 +3549,10 @@
    "rks": 45,
    "vs": 51,
    "agree": 1,
-   "score": 51.4,
+   "score": 51.3,
    "flags": [],
-   "pc": 0.6882,
-   "praw": 0.6973,
+   "pc": 0.6875,
+   "praw": 0.6966,
    "rg": "WR3",
    "est": false,
    "mid": 66.0,
@@ -3564,12 +3562,12 @@
    "cxs": 50,
    "reasons": [
     [
-     -0.3,
-     "JAX favored by 6.5, may not need to throw late"
+     -0.34,
+     "JAX favored by 7, may not need to throw late"
     ],
     [
-     0.14,
-     "JAX projected for 24 pts (O/U 42.5)"
+     0.16,
+     "JAX projected for 25 pts (O/U 42.5)"
     ]
    ],
    "status": null,
@@ -3591,8 +3589,8 @@
    "po": 13,
    "pn": 14,
    "pid": "11631",
-   "sx": -0.16,
-   "sxs": 42,
+   "sx": -0.18,
+   "sxs": 41,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
@@ -3602,7 +3600,7 @@
     "n": 4
    },
    "rank": 33,
-   "why": "Cleared 15+ in 3 of 4 games (13 of 14 last season), Sleeper projects 33.7, PHI let 2 of 4 WR3s reach it. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
+   "why": "Cleared 15+ in 3 of 4 games (13 of 14 last season), Sleeper projects 33.7, PHI let 2 of 4 WR3s reach it. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
    "news": ""
   },
   {
@@ -4520,7 +4518,7 @@
    "prop": "Rushing Yards",
    "line": 20,
    "ask": 88,
-   "bid": 86,
+   "bid": 84,
    "vals": [
     null,
     null,
@@ -4550,7 +4548,7 @@
    "praw": 0.5665,
    "rg": "QB",
    "est": false,
-   "mid": 87.0,
+   "mid": 86.0,
    "tk": "KXNFLRSHYDS-26OCT08TBDAL-TBJDANIELS10-20",
    "ev": "KXNFLRSHYDS-26OCT08TBDAL",
    "ctx": 0,
@@ -4739,10 +4737,10 @@
    "rks": 71,
    "vs": 42,
    "agree": 1,
-   "score": 42.5,
+   "score": 42.6,
    "flags": [],
-   "pc": 0.5809,
-   "praw": 0.6031,
+   "pc": 0.5815,
+   "praw": 0.6037,
    "rg": "QB",
    "est": false,
    "mid": 60.0,
@@ -4752,8 +4750,8 @@
    "cxs": 50,
    "reasons": [
     [
-     0.14,
-     "JAX projected for 24 pts (O/U 42.5)"
+     0.16,
+     "JAX projected for 25 pts (O/U 42.5)"
     ]
    ],
    "status": null,
@@ -4775,14 +4773,14 @@
    "po": 12,
    "pn": 17,
    "pid": "7523",
-   "sx": 0.14,
-   "sxs": 57,
+   "sx": 0.16,
+   "sxs": 58,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
    "rank": 44,
-   "why": "Cleared 10+ in 1 of 4 games (12 of 17 last season), Sleeper projects 19.9, PHI allows the 10th most rush yds. JAX projected for 24 pts (O/U 42.5).",
+   "why": "Cleared 10+ in 1 of 4 games (12 of 17 last season), Sleeper projects 19.9, PHI allows the 10th most rush yds. JAX projected for 25 pts (O/U 42.5).",
    "news": ""
   },
   {
@@ -4842,10 +4840,10 @@
    "rks": 45,
    "vs": 48,
    "agree": 0,
-   "score": 41.0,
+   "score": 41.1,
    "flags": [],
-   "pc": 0.5105,
-   "praw": 0.538,
+   "pc": 0.511,
+   "praw": 0.5385,
    "rg": "RB1",
    "est": false,
    "mid": 50.5,
@@ -4855,8 +4853,8 @@
    "cxs": 50,
    "reasons": [
     [
-     0.14,
-     "JAX projected for 24 pts (O/U 42.5)"
+     0.16,
+     "JAX projected for 25 pts (O/U 42.5)"
     ]
    ],
    "status": null,
@@ -4878,8 +4876,8 @@
    "po": 3,
    "pn": 15,
    "pid": "12490",
-   "sx": 0.14,
-   "sxs": 57,
+   "sx": 0.16,
+   "sxs": 58,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
@@ -4889,123 +4887,7 @@
     "n": 4
    },
    "rank": 45,
-   "why": "Cleared 10+ in 3 of 4 games (3 of 15 last season), Sleeper projects 12.5, PHI let 2 of 4 lead RBs reach it. JAX projected for 24 pts (O/U 42.5).",
-   "news": ""
-  },
-  {
-   "game": "TBDAL",
-   "glabel": "TB @ DAL (Thu)",
-   "player": "Tez Johnson",
-   "team": "TB",
-   "opp": "DAL",
-   "pos": "WR",
-   "role": "WR4",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 45,
-   "bid": 41,
-   "vals": [
-    0.0,
-    49.0,
-    8.0,
-    17.0
-   ],
-   "over": 2,
-   "n": 4,
-   "proj": 16.6,
-   "al": [
-    [
-     1,
-     "NYG",
-     0.0
-    ],
-    [
-     2,
-     "WAS",
-     21.0
-    ],
-    [
-     3,
-     "BAL",
-     0.0
-    ],
-    [
-     4,
-     "HOU",
-     36.0
-    ]
-   ],
-   "dhit": 2,
-   "dn": 4,
-   "most": 12,
-   "per": 242.5,
-   "dstat": "pass yds",
-   "p": 51,
-   "roi": 14,
-   "pp": 59,
-   "hs": 50,
-   "dhs": 50,
-   "rks": 65,
-   "vs": 64,
-   "agree": 0,
-   "score": 39.5,
-   "flags": [],
-   "pc": 0.515,
-   "praw": 0.531,
-   "rg": "WR3",
-   "est": false,
-   "mid": 43.0,
-   "tk": "KXNFLRECYDS-26OCT08TBDAL-TBTJOHNSON15-15",
-   "ev": "KXNFLRECYDS-26OCT08TBDAL",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "DAL secondary missing CB Cobie Durant"
-    ],
-    [
-     0.63,
-     "TB a 8.5-pt underdog, trailing teams throw more"
-    ],
-    [
-     -0.21,
-     "TB projected for only 20 pts (O/U 47.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 57,
-   "pu": 60,
-   "uinfo": {
-    "share": [
-     4,
-     12,
-     6,
-     8
-    ],
-    "kind": "targets",
-    "snap": 35,
-    "snap_last": 55,
-    "mu": 17.7,
-    "note": ""
-   },
-   "po": 8,
-   "pn": 16,
-   "pid": "12485",
-   "sx": 0.41,
-   "sxs": 70,
-   "qf": -0.44,
-   "qfs": 28,
-   "qnote": "QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 1 of 1 (17).",
-   "qinfo": {
-    "qb": "Jalon Daniels",
-    "same": false,
-    "with": 1,
-    "usual": "Baker Mayfield"
-   },
-   "rank": 46,
-   "why": "Cleared 15+ in 2 of 4 games (8 of 16 last season), Sleeper projects 16.6, DAL let 2 of 4 WR4s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 1 of 1 (17). TB a 8.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB projected for only 20 pts (O/U 47.5).",
+   "why": "Cleared 10+ in 3 of 4 games (3 of 15 last season), Sleeper projects 12.5, PHI let 2 of 4 lead RBs reach it. JAX projected for 25 pts (O/U 42.5).",
    "news": ""
   },
   {
@@ -5086,8 +4968,124 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 47,
+   "rank": 46,
    "why": "Cleared 10+ in 2 of 4 games (4 of 15 last season), Sleeper projects 13.8. Watch: NYJ projected for only 21 pts (O/U 39.5).",
+   "news": ""
+  },
+  {
+   "game": "TBDAL",
+   "glabel": "TB @ DAL (Thu)",
+   "player": "Tez Johnson",
+   "team": "TB",
+   "opp": "DAL",
+   "pos": "WR",
+   "role": "WR4",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 48,
+   "bid": 46,
+   "vals": [
+    0.0,
+    49.0,
+    8.0,
+    17.0
+   ],
+   "over": 2,
+   "n": 4,
+   "proj": 16.6,
+   "al": [
+    [
+     1,
+     "NYG",
+     0.0
+    ],
+    [
+     2,
+     "WAS",
+     21.0
+    ],
+    [
+     3,
+     "BAL",
+     0.0
+    ],
+    [
+     4,
+     "HOU",
+     36.0
+    ]
+   ],
+   "dhit": 2,
+   "dn": 4,
+   "most": 12,
+   "per": 242.5,
+   "dstat": "pass yds",
+   "p": 52,
+   "roi": 8,
+   "pp": 59,
+   "hs": 50,
+   "dhs": 50,
+   "rks": 65,
+   "vs": 58,
+   "agree": 0,
+   "score": 38.6,
+   "flags": [],
+   "pc": 0.5166,
+   "praw": 0.531,
+   "rg": "WR3",
+   "est": false,
+   "mid": 47.0,
+   "tk": "KXNFLRECYDS-26OCT08TBDAL-TBTJOHNSON15-15",
+   "ev": "KXNFLRECYDS-26OCT08TBDAL",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "DAL secondary missing CB Cobie Durant"
+    ],
+    [
+     0.63,
+     "TB a 8.5-pt underdog, trailing teams throw more"
+    ],
+    [
+     -0.21,
+     "TB projected for only 20 pts (O/U 47.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 57,
+   "pu": 60,
+   "uinfo": {
+    "share": [
+     4,
+     12,
+     6,
+     8
+    ],
+    "kind": "targets",
+    "snap": 35,
+    "snap_last": 55,
+    "mu": 17.7,
+    "note": ""
+   },
+   "po": 8,
+   "pn": 16,
+   "pid": "12485",
+   "sx": 0.41,
+   "sxs": 70,
+   "qf": -0.44,
+   "qfs": 28,
+   "qnote": "QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 1 of 1 (17).",
+   "qinfo": {
+    "qb": "Jalon Daniels",
+    "same": false,
+    "with": 1,
+    "usual": "Baker Mayfield"
+   },
+   "rank": 47,
+   "why": "Cleared 15+ in 2 of 4 games (8 of 16 last season), Sleeper projects 16.6, DAL let 2 of 4 WR4s reach it. QB change: Jalon Daniels starts (Baker Mayfield is out). With him: cleared 15+ in 1 of 1 (17). TB a 8.5-pt underdog, trailing teams throw more. DAL secondary missing CB Cobie Durant. Watch: TB projected for only 20 pts (O/U 47.5).",
    "news": ""
   },
   {
@@ -5206,7 +5204,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 40,
-   "ask": 74,
+   "ask": 75,
    "bid": 71,
    "vals": [
     28.0,
@@ -5245,20 +5243,20 @@
    "per": 214.2,
    "dstat": "pass yds",
    "p": 55,
-   "roi": -26,
+   "roi": -27,
    "pp": 77,
    "hs": 70,
    "dhs": 17,
    "rks": 23,
-   "vs": 24,
+   "vs": 23,
    "agree": 1,
-   "score": 34.3,
+   "score": 34.2,
    "flags": [],
-   "pc": 0.5477,
+   "pc": 0.5484,
    "praw": 0.5641,
    "rg": "WR2",
    "est": false,
-   "mid": 72.5,
+   "mid": 73.0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALGPICKENS3-40",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
    "ctx": 0.15,
@@ -5322,7 +5320,7 @@
    "prop": "Receptions",
    "line": 2,
    "ask": 38,
-   "bid": 36,
+   "bid": 37,
    "vals": [
     0.0,
     1.0,
@@ -5373,7 +5371,7 @@
    "praw": 0.4224,
    "rg": "WR3",
    "est": false,
-   "mid": 37.0,
+   "mid": 37.5,
    "tk": "KXNFLREC-26OCT08TBDAL-TBTJOHNSON15-2",
    "ev": "KXNFLREC-26OCT08TBDAL",
    "ctx": 0.15,
@@ -5441,12 +5439,12 @@
    "ln": 225,
    "ask": 35,
    "q": 30.0,
-   "p": 0.356,
-   "sc": 27.9,
+   "p": 0.3567,
+   "sc": 28.0,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT11PHIJAC-PHIJHURTS1-225",
    "ev": "KXNFLPASSYDS-26OCT11PHIJAC",
-   "wy": "Cleared 225+ in 1 of 4 games (7 of 16 last season), JAX let 2 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 6.5-pt underdog, trailing teams throw more. Watch: PHI projected for only 18 pts (O/U 42.5).",
+   "wy": "Cleared 225+ in 1 of 4 games (7 of 16 last season), JAX let 2 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 7-pt underdog, trailing teams throw more. Watch: PHI projected for only 18 pts (O/U 42.5).",
    "id": "6904",
    "cx": 0.0,
    "nw": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
@@ -5459,14 +5457,14 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 200,
-   "ask": 50,
-   "q": 47.5,
-   "p": 0.5229,
-   "sc": 43.3,
+   "ask": 48,
+   "q": 46.5,
+   "p": 0.5228,
+   "sc": 44.0,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT11PHIJAC-PHIJHURTS1-200",
    "ev": "KXNFLPASSYDS-26OCT11PHIJAC",
-   "wy": "Cleared 200+ in 2 of 4 games (7 of 16 last season), Sleeper projects 202.5, JAX let 3 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 6.5-pt underdog, trailing teams throw more. Watch: PHI projected for only 18 pts (O/U 42.5).",
+   "wy": "Cleared 200+ in 2 of 4 games (7 of 16 last season), Sleeper projects 202.5, JAX let 3 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 7-pt underdog, trailing teams throw more. Watch: PHI projected for only 18 pts (O/U 42.5).",
    "id": "6904",
    "cx": 0.0,
    "nw": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
@@ -5481,12 +5479,12 @@
    "ln": 175,
    "ask": 66,
    "q": 63.0,
-   "p": 0.6871,
-   "sc": 58.6,
+   "p": 0.6884,
+   "sc": 58.8,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT11PHIJAC-PHIJHURTS1-175",
    "ev": "KXNFLPASSYDS-26OCT11PHIJAC",
-   "wy": "Cleared 175+ in 2 of 4 games (11 of 16 last season), Sleeper projects 202.5, JAX let 4 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 6.5-pt underdog, trailing teams throw more. Watch: PHI projected for only 18 pts (O/U 42.5).",
+   "wy": "Cleared 175+ in 2 of 4 games (11 of 16 last season), Sleeper projects 202.5, JAX let 4 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 7-pt underdog, trailing teams throw more. Watch: PHI projected for only 18 pts (O/U 42.5).",
    "id": "6904",
    "cx": 0.0,
    "nw": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
@@ -5501,12 +5499,12 @@
    "ln": 150,
    "ask": 78,
    "q": 73.0,
-   "p": 0.7958,
-   "sc": 70.7,
+   "p": 0.7974,
+   "sc": 71.0,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT11PHIJAC-PHIJHURTS1-150",
    "ev": "KXNFLPASSYDS-26OCT11PHIJAC",
-   "wy": "Cleared 150+ in 3 of 4 games (12 of 16 last season), Sleeper projects 202.5, JAX let 4 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 6.5-pt underdog, trailing teams throw more. Watch: PHI projected for only 18 pts (O/U 42.5).",
+   "wy": "Cleared 150+ in 3 of 4 games (12 of 16 last season), Sleeper projects 202.5, JAX let 4 of 4 QBs reach it, JAX allows the 2nd most pass yds. PHI a 7-pt underdog, trailing teams throw more. Watch: PHI projected for only 18 pts (O/U 42.5).",
    "id": "6904",
    "cx": 0.0,
    "nw": "In the news: \"Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips\""
@@ -5539,10 +5537,10 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 200,
-   "ask": 57,
-   "q": 54.5,
-   "p": 0.5448,
-   "sc": 45.3,
+   "ask": 56,
+   "q": 54.0,
+   "p": 0.5443,
+   "sc": 45.5,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT11CLENYJ-NYJGSMITH7-200",
    "ev": "KXNFLPASSYDS-26OCT11CLENYJ",
@@ -5660,7 +5658,7 @@
    "pr": "Passing Yards",
    "ln": 225,
    "ask": 53,
-   "q": 51.0,
+   "q": 51.5,
    "p": 0.5128,
    "sc": 31.9,
    "est": 0,
@@ -5680,7 +5678,7 @@
    "pr": "Passing Yards",
    "ln": 200,
    "ask": 69,
-   "q": 66.5,
+   "q": 67.0,
    "p": 0.6813,
    "sc": 49.0,
    "est": 0,
@@ -5739,10 +5737,10 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 250,
-   "ask": 39,
-   "q": 36.5,
-   "p": 0.3501,
-   "sc": 23.2,
+   "ask": 38,
+   "q": 36.0,
+   "p": 0.3496,
+   "sc": 23.5,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT11LVNE-LVKCOUSINS8-250",
    "ev": "KXNFLPASSYDS-26OCT11LVNE",
@@ -5941,12 +5939,12 @@
    "ln": 20,
    "ask": 38,
    "q": 36.5,
-   "p": 0.3564,
-   "sc": 32.3,
+   "p": 0.3567,
+   "sc": 32.4,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT11PHIJAC-JACTLAWRENCE16-20",
    "ev": "KXNFLRSHYDS-26OCT11PHIJAC",
-   "wy": "Cleared 20+ in 1 of 4 games (8 of 17 last season), PHI allows the 10th most rush yds. JAX projected for 24 pts (O/U 42.5).",
+   "wy": "Cleared 20+ in 1 of 4 games (8 of 17 last season), PHI allows the 10th most rush yds. JAX projected for 25 pts (O/U 42.5).",
    "id": "7523",
    "cx": 0,
    "nw": ""
@@ -5961,12 +5959,12 @@
    "ln": 15,
    "ask": 50,
    "q": 47.5,
-   "p": 0.4684,
-   "sc": 36.9,
+   "p": 0.4688,
+   "sc": 37.0,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT11PHIJAC-JACTLAWRENCE16-15",
    "ev": "KXNFLRSHYDS-26OCT11PHIJAC",
-   "wy": "Cleared 15+ in 1 of 4 games (10 of 17 last season), Sleeper projects 19.9, PHI allows the 10th most rush yds. JAX projected for 24 pts (O/U 42.5).",
+   "wy": "Cleared 15+ in 1 of 4 games (10 of 17 last season), Sleeper projects 19.9, PHI allows the 10th most rush yds. JAX projected for 25 pts (O/U 42.5).",
    "id": "7523",
    "cx": 0,
    "nw": ""
@@ -5981,12 +5979,12 @@
    "ln": 10,
    "ask": 63,
    "q": 60.0,
-   "p": 0.5809,
-   "sc": 42.5,
+   "p": 0.5815,
+   "sc": 42.6,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT11PHIJAC-JACTLAWRENCE16-10",
    "ev": "KXNFLRSHYDS-26OCT11PHIJAC",
-   "wy": "Cleared 10+ in 1 of 4 games (12 of 17 last season), Sleeper projects 19.9, PHI allows the 10th most rush yds. JAX projected for 24 pts (O/U 42.5).",
+   "wy": "Cleared 10+ in 1 of 4 games (12 of 17 last season), Sleeper projects 19.9, PHI allows the 10th most rush yds. JAX projected for 25 pts (O/U 42.5).",
    "id": "7523",
    "cx": 0,
    "nw": ""
@@ -6001,12 +5999,12 @@
    "ln": 70,
    "ask": 39,
    "q": 37.0,
-   "p": 0.4053,
-   "sc": 34.5,
+   "p": 0.4071,
+   "sc": 34.8,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT11PHIJAC-JACBTUTEN33-70",
    "ev": "KXNFLRSHYDS-26OCT11PHIJAC",
-   "wy": "Cleared 70+ in 2 of 4 games (1 of 15 last season), PHI let 2 of 4 lead RBs reach it, PHI allows the 10th most rush yds. His share of carries is up from 48% to 63%. JAX favored by 6.5, should run a lot with a lead. JAX projected for 24 pts (O/U 42.5).",
+   "wy": "Cleared 70+ in 2 of 4 games (1 of 15 last season), PHI let 2 of 4 lead RBs reach it, PHI allows the 10th most rush yds. His share of carries is up from 48% to 63%. JAX favored by 7, should run a lot with a lead. JAX projected for 25 pts (O/U 42.5).",
    "id": "12490",
    "cx": 0,
    "nw": ""
@@ -6021,12 +6019,12 @@
    "ln": 60,
    "ask": 51,
    "q": 49.5,
-   "p": 0.6238,
-   "sc": 68.9,
+   "p": 0.6267,
+   "sc": 69.5,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT11PHIJAC-JACBTUTEN33-60",
    "ev": "KXNFLRSHYDS-26OCT11PHIJAC",
-   "wy": "Cleared 60+ in 4 of 4 games (1 of 15 last season), PHI let 4 of 4 lead RBs reach it, PHI allows the 10th most rush yds. His share of carries is up from 48% to 63%. JAX favored by 6.5, should run a lot with a lead. JAX projected for 24 pts (O/U 42.5).",
+   "wy": "Cleared 60+ in 4 of 4 games (1 of 15 last season), PHI let 4 of 4 lead RBs reach it, PHI allows the 10th most rush yds. His share of carries is up from 48% to 63%. JAX favored by 7, should run a lot with a lead. JAX projected for 25 pts (O/U 42.5).",
    "id": "12490",
    "cx": 0,
    "nw": ""
@@ -6039,14 +6037,14 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 50,
-   "ask": 63,
-   "q": 61.5,
-   "p": 0.6767,
-   "sc": 71.7,
+   "ask": 64,
+   "q": 62.0,
+   "p": 0.6803,
+   "sc": 72.0,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT11PHIJAC-JACBTUTEN33-50",
    "ev": "KXNFLRSHYDS-26OCT11PHIJAC",
-   "wy": "Cleared 50+ in 4 of 4 games (1 of 15 last season), Sleeper projects 58.8, PHI let 4 of 4 lead RBs reach it, PHI allows the 10th most rush yds. His share of carries is up from 48% to 63%. JAX favored by 6.5, should run a lot with a lead. JAX projected for 24 pts (O/U 42.5).",
+   "wy": "Cleared 50+ in 4 of 4 games (1 of 15 last season), Sleeper projects 58.8, PHI let 4 of 4 lead RBs reach it, PHI allows the 10th most rush yds. His share of carries is up from 48% to 63%. JAX favored by 7, should run a lot with a lead. JAX projected for 25 pts (O/U 42.5).",
    "id": "12490",
    "cx": 0,
    "nw": ""
@@ -6061,12 +6059,12 @@
    "ln": 40,
    "ask": 75,
    "q": 74.0,
-   "p": 0.7324,
-   "sc": 73.7,
+   "p": 0.7357,
+   "sc": 74.3,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT11PHIJAC-JACBTUTEN33-40",
    "ev": "KXNFLRSHYDS-26OCT11PHIJAC",
-   "wy": "Cleared 40+ in 4 of 4 games (2 of 15 last season), Sleeper projects 58.8, PHI let 4 of 4 lead RBs reach it, PHI allows the 10th most rush yds. His share of carries is up from 48% to 63%. JAX favored by 6.5, should run a lot with a lead. JAX projected for 24 pts (O/U 42.5).",
+   "wy": "Cleared 40+ in 4 of 4 games (2 of 15 last season), Sleeper projects 58.8, PHI let 4 of 4 lead RBs reach it, PHI allows the 10th most rush yds. His share of carries is up from 48% to 63%. JAX favored by 7, should run a lot with a lead. JAX projected for 25 pts (O/U 42.5).",
    "id": "12490",
    "cx": 0,
    "nw": ""
@@ -6099,10 +6097,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 45,
-   "q": 43.0,
-   "p": 0.515,
-   "sc": 39.5,
+   "ask": 48,
+   "q": 47.0,
+   "p": 0.5166,
+   "sc": 38.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBTJOHNSON15-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
@@ -6139,10 +6137,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 65,
-   "q": 63.5,
-   "p": 0.7543,
-   "sc": 69.3,
+   "ask": 63,
+   "q": 62.5,
+   "p": 0.7534,
+   "sc": 69.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBTHURST17-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
@@ -6220,7 +6218,7 @@
    "pr": "Receiving Yards",
    "ln": 25,
    "ask": 59,
-   "q": 57.5,
+   "q": 58.0,
    "p": 0.5936,
    "sc": 51.3,
    "est": 0,
@@ -6239,10 +6237,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 76,
-   "q": 75.0,
-   "p": 0.7695,
-   "sc": 68.8,
+   "ask": 77,
+   "q": 75.5,
+   "p": 0.77,
+   "sc": 68.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-TBCOTTON88-15",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
@@ -6319,10 +6317,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 90,
-   "ask": 44,
-   "q": 43.5,
-   "p": 0.5369,
-   "sc": 44.0,
+   "ask": 45,
+   "q": 44.0,
+   "p": 0.5374,
+   "sc": 43.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT08TBDAL-DALCLAMB88-90",
    "ev": "KXNFLRECYDS-26OCT08TBDAL",
@@ -6401,12 +6399,12 @@
    "ln": 70,
    "ask": 42,
    "q": 40.5,
-   "p": 0.4134,
-   "sc": 30.8,
+   "p": 0.413,
+   "sc": 30.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACPWASHINGTON11-70",
    "ev": "KXNFLRECYDS-26OCT11PHIJAC",
-   "wy": "Cleared 70+ in 2 of 4 games (6 of 16 last season), PHI let 2 of 4 WR1s reach it. His share of targets fell from 30% to 13%. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
+   "wy": "Cleared 70+ in 2 of 4 games (6 of 16 last season), PHI let 2 of 4 WR1s reach it. His share of targets fell from 30% to 13%. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
    "id": "9487",
    "cx": 0,
    "nw": ""
@@ -6419,14 +6417,14 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 60,
-   "ask": 53,
-   "q": 51.0,
-   "p": 0.5582,
-   "sc": 46.1,
+   "ask": 54,
+   "q": 51.5,
+   "p": 0.5581,
+   "sc": 45.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACPWASHINGTON11-60",
    "ev": "KXNFLRECYDS-26OCT11PHIJAC",
-   "wy": "Cleared 60+ in 2 of 4 games (6 of 16 last season), Sleeper projects 68.3, PHI let 4 of 4 WR1s reach it. His share of targets fell from 30% to 13%. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
+   "wy": "Cleared 60+ in 2 of 4 games (6 of 16 last season), Sleeper projects 68.3, PHI let 4 of 4 WR1s reach it. His share of targets fell from 30% to 13%. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
    "id": "9487",
    "cx": 0,
    "nw": ""
@@ -6441,12 +6439,12 @@
    "ln": 50,
    "ask": 64,
    "q": 61.5,
-   "p": 0.6222,
-   "sc": 50.0,
+   "p": 0.6216,
+   "sc": 49.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACPWASHINGTON11-50",
    "ev": "KXNFLRECYDS-26OCT11PHIJAC",
-   "wy": "Cleared 50+ in 2 of 4 games (8 of 16 last season), Sleeper projects 68.3, PHI let 4 of 4 WR1s reach it. His share of targets fell from 30% to 13%. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
+   "wy": "Cleared 50+ in 2 of 4 games (8 of 16 last season), Sleeper projects 68.3, PHI let 4 of 4 WR1s reach it. His share of targets fell from 30% to 13%. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
    "id": "9487",
    "cx": 0,
    "nw": ""
@@ -6459,14 +6457,14 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 76,
-   "q": 74.5,
-   "p": 0.777,
-   "sc": 72.4,
+   "ask": 77,
+   "q": 75.0,
+   "p": 0.7767,
+   "sc": 72.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACJMEYERS3-25",
    "ev": "KXNFLRECYDS-26OCT11PHIJAC",
-   "wy": "Cleared 25+ in 4 of 4 games (15 of 16 last season), Sleeper projects 40.5, PHI let 4 of 4 WR2s reach it. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
+   "wy": "Cleared 25+ in 4 of 4 games (15 of 16 last season), Sleeper projects 40.5, PHI let 4 of 4 WR2s reach it. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
    "id": "5947",
    "cx": 0,
    "nw": ""
@@ -6481,12 +6479,12 @@
    "ln": 15,
    "ask": 38,
    "q": 36.5,
-   "p": 0.4331,
-   "sc": 38.6,
+   "p": 0.4335,
+   "sc": 38.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACBTUTEN33-15",
    "ev": "KXNFLRECYDS-26OCT11PHIJAC",
-   "wy": "Cleared 15+ in 3 of 4 games (2 of 15 last season), PHI let 2 of 4 lead RBs reach it. JAX projected for 24 pts (O/U 42.5).",
+   "wy": "Cleared 15+ in 3 of 4 games (2 of 15 last season), PHI let 2 of 4 lead RBs reach it. JAX projected for 25 pts (O/U 42.5).",
    "id": "12490",
    "cx": 0,
    "nw": ""
@@ -6501,12 +6499,12 @@
    "ln": 10,
    "ask": 52,
    "q": 50.5,
-   "p": 0.5105,
-   "sc": 41.0,
+   "p": 0.511,
+   "sc": 41.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACBTUTEN33-10",
    "ev": "KXNFLRECYDS-26OCT11PHIJAC",
-   "wy": "Cleared 10+ in 3 of 4 games (3 of 15 last season), Sleeper projects 12.5, PHI let 2 of 4 lead RBs reach it. JAX projected for 24 pts (O/U 42.5).",
+   "wy": "Cleared 10+ in 3 of 4 games (3 of 15 last season), Sleeper projects 12.5, PHI let 2 of 4 lead RBs reach it. JAX projected for 25 pts (O/U 42.5).",
    "id": "12490",
    "cx": 0,
    "nw": ""
@@ -6521,12 +6519,12 @@
    "ln": 25,
    "ask": 51,
    "q": 50.5,
-   "p": 0.5604,
-   "sc": 41.0,
+   "p": 0.5599,
+   "sc": 40.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACBTHOMAS7-25",
    "ev": "KXNFLRECYDS-26OCT11PHIJAC",
-   "wy": "Cleared 25+ in 2 of 4 games (12 of 14 last season), Sleeper projects 33.7, PHI let 2 of 4 WR3s reach it. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
+   "wy": "Cleared 25+ in 2 of 4 games (12 of 14 last season), Sleeper projects 33.7, PHI let 2 of 4 WR3s reach it. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
    "id": "11631",
    "cx": 0,
    "nw": ""
@@ -6541,12 +6539,12 @@
    "ln": 15,
    "ask": 68,
    "q": 66.0,
-   "p": 0.6882,
-   "sc": 51.4,
+   "p": 0.6875,
+   "sc": 51.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACBTHOMAS7-15",
    "ev": "KXNFLRECYDS-26OCT11PHIJAC",
-   "wy": "Cleared 15+ in 3 of 4 games (13 of 14 last season), Sleeper projects 33.7, PHI let 2 of 4 WR3s reach it. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
+   "wy": "Cleared 15+ in 3 of 4 games (13 of 14 last season), Sleeper projects 33.7, PHI let 2 of 4 WR3s reach it. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
    "id": "11631",
    "cx": 0,
    "nw": ""
@@ -6560,13 +6558,13 @@
    "pr": "Receiving Yards",
    "ln": 50,
    "ask": 35,
-   "q": 31.0,
-   "p": 0.3303,
+   "q": 32.5,
+   "p": 0.3299,
    "sc": 21.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11PHIJAC-JACBSTRANGE85-50",
    "ev": "KXNFLRECYDS-26OCT11PHIJAC",
-   "wy": "Cleared 50+ in 1 of 4 games (5 of 12 last season), PHI let 1 of 4 TE1s reach it. His share of targets is up from 15% to 35%. JAX projected for 24 pts (O/U 42.5). Watch: JAX favored by 6.5, may not need to throw late.",
+   "wy": "Cleared 50+ in 1 of 4 games (5 of 12 last season), PHI let 1 of 4 TE1s reach it. His share of targets is up from 15% to 35%. JAX projected for 25 pts (O/U 42.5). Watch: JAX favored by 7, may not need to throw late.",
    "id": "9480",
    "cx": 0,
    "nw": ""
@@ -6599,10 +6597,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 70,
-   "ask": 51,
+   "ask": 50,
    "q": 48.5,
-   "p": 0.4981,
-   "sc": 39.5,
+   "p": 0.4975,
+   "sc": 39.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT11CLENYJ-NYJGWILSON5-70",
    "ev": "KXNFLRECYDS-26OCT11CLENYJ",
@@ -6800,7 +6798,7 @@
    "pr": "Receptions",
    "ln": 2,
    "ask": 38,
-   "q": 37.0,
+   "q": 37.5,
    "p": 0.4171,
    "sc": 30.0,
    "est": 0,
@@ -6979,10 +6977,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 3,
-   "ask": 66,
-   "q": 64.0,
-   "p": 0.6911,
-   "sc": 61.1,
+   "ask": 67,
+   "q": 65.0,
+   "p": 0.6916,
+   "sc": 60.9,
    "est": 0,
    "tk": "KXNFLREC-26OCT08TBDAL-TBCGODWIN14-3",
    "ev": "KXNFLREC-26OCT08TBDAL",
@@ -9073,7 +9071,7 @@
    3,
    4
   ],
-  "generated": "2026-10-06T12:00:36-07:00",
+  "generated": "2026-10-06T12:20:47-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [
    "Some markets weren't open when this was pulled. CLE @ NYJ: no priced receptions markets yet. LV @ NE: no priced rushing, receiving yards, receptions markets yet. PHI @ JAX: no priced receptions markets yet."
