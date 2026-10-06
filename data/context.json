@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T18:01:01+00:00",
+ "generated": "2026-10-06T18:24:45+00:00",
  "games": {
   "TBDAL": {
    "home": "DAL",
@@ -79,6 +79,11 @@
  "inj": {
   "ARI": [
    {
+    "name": "Dadrion Taylor-Demerson",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
     "name": "Paris Johnson Jr.",
     "pos": "OT",
     "status": "Out"
@@ -92,11 +97,6 @@
     "name": "Jeremiyah Love",
     "pos": "RB",
     "status": "Questionable"
-   },
-   {
-    "name": "Dadrion Taylor-Demerson",
-    "pos": "S",
-    "status": "Out"
    },
    {
     "name": "Isaiah Adams",
@@ -153,24 +153,24 @@
   ],
   "BAL": [
    {
-    "name": "Durham Smythe",
-    "pos": "TE",
-    "status": "Out"
-   },
-   {
     "name": "Chris Moore",
     "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Trey Hendrickson",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Durham Smythe",
+    "pos": "TE",
     "status": "Out"
    },
    {
     "name": "Lamar Jackson",
     "pos": "QB",
     "status": "Questionable"
-   },
-   {
-    "name": "Trey Hendrickson",
-    "pos": "LB",
-    "status": "Out"
    },
    {
     "name": "Ronnie Stanley",
@@ -259,6 +259,11 @@
     "status": "Out"
    },
    {
+    "name": "Cam Lewis",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
     "name": "Caleb Williams",
     "pos": "QB",
     "status": "Out"
@@ -267,11 +272,6 @@
     "name": "Kyle Monangai",
     "pos": "RB",
     "status": "Questionable"
-   },
-   {
-    "name": "Cam Lewis",
-    "pos": "CB",
-    "status": "Out"
    },
    {
     "name": "Kyler Gordon",
@@ -352,20 +352,25 @@
    {
     "name": "DeMarvion Overshown",
     "pos": "LB",
-    "status": "Out"
+    "status": "Doubtful"
    },
    {
     "name": "Cobie Durant",
     "pos": "CB",
-    "status": "Out"
+    "status": "Doubtful"
    },
    {
     "name": "Drew Shelton",
     "pos": "OT",
-    "status": "Questionable"
+    "status": "Doubtful"
    }
   ],
   "DEN": [
+   {
+    "name": "Dondrea Tillman",
+    "pos": "LB",
+    "status": "Questionable"
+   },
    {
     "name": "Pat Bryant",
     "pos": "WR",
@@ -377,11 +382,6 @@
     "status": "Questionable"
    },
    {
-    "name": "Dondrea Tillman",
-    "pos": "LB",
-    "status": "Out"
-   },
-   {
     "name": "Pat Surtain II",
     "pos": "CB",
     "status": "Doubtful"
@@ -389,14 +389,14 @@
   ],
   "DET": [
    {
+    "name": "Ben Bartch",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
     "name": "Rock Ya-Sin",
     "pos": "CB",
     "status": "Doubtful"
-   },
-   {
-    "name": "Ben Bartch",
-    "pos": "G",
-    "status": "Out"
    },
    {
     "name": "Brian Branch",
@@ -406,6 +406,21 @@
   ],
   "GB": [
    {
+    "name": "Jacob Monk",
+    "pos": "C",
+    "status": "Questionable"
+   },
+   {
+    "name": "Aaron Banks",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
+    "name": "Anthony Campbell",
+    "pos": "DT",
+    "status": "Questionable"
+   },
+   {
     "name": "Brandon Cisse",
     "pos": "CB",
     "status": "Questionable"
@@ -413,21 +428,6 @@
    {
     "name": "Micah Parsons",
     "pos": "DE",
-    "status": "Out"
-   },
-   {
-    "name": "Jacob Monk",
-    "pos": "C",
-    "status": "Out"
-   },
-   {
-    "name": "Aaron Banks",
-    "pos": "G",
-    "status": "Out"
-   },
-   {
-    "name": "Anthony Campbell",
-    "pos": "DT",
     "status": "Out"
    },
    {
@@ -499,6 +499,11 @@
   ],
   "KC": [
    {
+    "name": "Josh Simmons",
+    "pos": "OT",
+    "status": "Questionable"
+   },
+   {
     "name": "Tyquan Thornton",
     "pos": "WR",
     "status": "Out"
@@ -507,11 +512,6 @@
     "name": "Rashee Rice",
     "pos": "WR",
     "status": "Questionable"
-   },
-   {
-    "name": "Josh Simmons",
-    "pos": "OT",
-    "status": "Out"
    }
   ],
   "LV": [
@@ -587,22 +587,22 @@
    {
     "name": "Jaylen Watson",
     "pos": "CB",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
-    "name": "Konata Mumpfield",
-    "pos": "WR",
+    "name": "Colby Parkinson",
+    "pos": "TE",
     "status": "Questionable"
    },
    {
     "name": "Aaron Donald",
     "pos": "DT",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
-    "name": "Colby Parkinson",
-    "pos": "TE",
-    "status": "Out"
+    "name": "Konata Mumpfield",
+    "pos": "WR",
+    "status": "Questionable"
    }
   ],
   "MIA": [
@@ -668,17 +668,17 @@
    {
     "name": "Christian Gonzalez",
     "pos": "CB",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Christian Barmore",
     "pos": "DT",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Channing Canada",
     "pos": "CB",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Mack Hollins",
@@ -698,44 +698,29 @@
   ],
   "NO": [
    {
-    "name": "Davon Godchaux",
-    "pos": "DT",
+    "name": "Kaden Elliss",
+    "pos": "LB",
     "status": "Questionable"
-   },
-   {
-    "name": "Christen Miller",
-    "pos": "DT",
-    "status": "Out"
-   },
-   {
-    "name": "Zach Wilson",
-    "pos": "QB",
-    "status": "Out"
    },
    {
     "name": "Noah Fant",
     "pos": "TE",
-    "status": "Out"
-   },
-   {
-    "name": "Decamerion Richardson",
-    "pos": "CB",
-    "status": "Out"
-   },
-   {
-    "name": "Kaden Elliss",
-    "pos": "LB",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Carl Granderson",
     "pos": "DE",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Anfernee Jennings",
     "pos": "LB",
-    "status": "Out"
+    "status": "Questionable"
+   },
+   {
+    "name": "Davon Godchaux",
+    "pos": "DT",
+    "status": "Questionable"
    }
   ],
   "NYG": [
@@ -799,6 +784,41 @@
   ],
   "PHI": [
    {
+    "name": "DeVonta Smith",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Fred Johnson",
+    "pos": "OT",
+    "status": "Questionable"
+   },
+   {
+    "name": "Lane Johnson",
+    "pos": "OT",
+    "status": "Questionable"
+   },
+   {
+    "name": "Marcus Epps",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "status": "Doubtful"
+   },
+   {
+    "name": "Zack Baun",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Hollywood Brown",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Cam Jurgens",
     "pos": "C",
     "status": "Questionable"
@@ -816,41 +836,6 @@
    {
     "name": "Tank Bigsby",
     "pos": "RB",
-    "status": "Out"
-   },
-   {
-    "name": "DeVonta Smith",
-    "pos": "WR",
-    "status": "Out"
-   },
-   {
-    "name": "Fred Johnson",
-    "pos": "OT",
-    "status": "Out"
-   },
-   {
-    "name": "Lane Johnson",
-    "pos": "OT",
-    "status": "Out"
-   },
-   {
-    "name": "Marcus Epps",
-    "pos": "S",
-    "status": "Out"
-   },
-   {
-    "name": "Dallas Goedert",
-    "pos": "TE",
-    "status": "Out"
-   },
-   {
-    "name": "Zack Baun",
-    "pos": "LB",
-    "status": "Out"
-   },
-   {
-    "name": "Hollywood Brown",
-    "pos": "WR",
     "status": "Out"
    },
    {
@@ -1009,146 +994,146 @@
  "trend": {
   "keon coleman": {
    "rank": 1,
-   "adds": 3017385
+   "adds": 3091095
   },
   "dohnte meyers": {
    "rank": 2,
-   "adds": 2032425
+   "adds": 2083329
   },
   "emanuel wilson": {
    "rank": 3,
-   "adds": 1705779
+   "adds": 1745820
   },
   "roman wilson": {
    "rank": 4,
-   "adds": 1382085
+   "adds": 1406115
   },
   "kirk cousins": {
    "rank": 6,
-   "adds": 722024
+   "adds": 736296
   },
   "will shipley": {
    "rank": 7,
-   "adds": 660154
+   "adds": 682502
   },
   "romeo doubs": {
    "rank": 9,
-   "adds": 517480
+   "adds": 529824
   },
   "keaton mitchell": {
    "rank": 10,
-   "adds": 513531
+   "adds": 529560
   },
   "brian robinson": {
    "rank": 11,
-   "adds": 487320
+   "adds": 500610
   },
   "michael mayer": {
    "rank": 12,
-   "adds": 420939
+   "adds": 429948
   },
   "darius cooper": {
    "rank": 15,
-   "adds": 359058
+   "adds": 363993
   },
   "tyler higbee": {
    "rank": 16,
-   "adds": 322623
+   "adds": 331947
   },
   "mike gesicki": {
    "rank": 17,
-   "adds": 276448
+   "adds": 283684
   },
   "cj stroud": {
    "rank": 18,
-   "adds": 257810
+   "adds": 262066
   },
   "ollie gordon": {
    "rank": 21,
-   "adds": 233324
+   "adds": 238679
   },
   "deshaun watson": {
    "rank": 22,
-   "adds": 215368
+   "adds": 218792
   },
   "tyler allgeier": {
    "rank": 23,
-   "adds": 208870
+   "adds": 216010
   },
   "aaron rodgers": {
    "rank": 25,
-   "adds": 178964
+   "adds": 184040
   },
   "brenton strange": {
    "rank": 26,
-   "adds": 159768
+   "adds": 163269
   },
   "malik washington": {
    "rank": 27,
-   "adds": 157720
+   "adds": 162088
   },
   "kc concepcion": {
    "rank": 28,
-   "adds": 154746
+   "adds": 158499
   },
   "kyle monangai": {
    "rank": 30,
-   "adds": 154014
+   "adds": 156378
   },
   "marshawn lloyd": {
    "rank": 31,
-   "adds": 135738
+   "adds": 139644
   },
   "khalil shakir": {
    "rank": 33,
-   "adds": 125721
+   "adds": 129843
   },
   "jauan jennings": {
    "rank": 38,
-   "adds": 101101
+   "adds": 101122
   },
   "jared goff": {
-   "rank": 40,
-   "adds": 97315
+   "rank": 39,
+   "adds": 99935
   },
   "austin ekeler": {
    "rank": 41,
-   "adds": 96840
+   "adds": 99764
   },
   "alvin kamara": {
    "rank": 42,
-   "adds": 94824
+   "adds": 96384
   },
   "tre harris": {
    "rank": 43,
-   "adds": 81712
+   "adds": 85448
   },
   "tyson bagent": {
    "rank": 44,
-   "adds": 79806
+   "adds": 81798
   },
   "jayden daniels": {
-   "rank": 46,
-   "adds": 76440
+   "rank": 45,
+   "adds": 78856
   },
   "tj hockenson": {
    "rank": 47,
-   "adds": 72909
+   "adds": 74565
   },
   "devaughn vele": {
    "rank": 48,
-   "adds": 72534
+   "adds": 73878
   },
   "efton chism": {
    "rank": 50,
-   "adds": 66228
+   "adds": 67460
   }
  },
  "buzz": {},
  "sources": {
   "lines": "4 games",
   "weather": "2 outdoor games",
-  "injuries": "172 players listed",
+  "injuries": "169 players listed",
   "news": "1 players in headlines",
   "sleeper_trending": "34 board players trending",
   "reddit": "unavailable"
