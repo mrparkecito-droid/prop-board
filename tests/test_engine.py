@@ -264,6 +264,21 @@ def test_week4_lessons():
     assert learn.BOARD_N == 50
 
 
+def test_balanced_line_picking():
+    """Steps up from a needlessly low line when the case is strong, but never below the safety floor or into bad value."""
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    out = engine.run(data, ov)
+    stepped = [r for r in out["top"] if r.get("safer")]
+    assert stepped, "some ladders should step up"
+    for r in stepped:
+        assert r["line"] > r["safer"]["line"] and r["pc"] >= engine.BAL_MIN_P and r["roi"] >= 0
+        assert r["score"] >= r["safer"]["score"] - engine.BAL_TOL_BASE - engine.BAL_TOL_STRENGTH - 1e-9
+    import build
+    cards, _ = build.cards_html(out["top"])
+    assert "Safer:" in cards and "Bigger payout:" in cards
+
+
 if __name__ == "__main__":
     test_week4_reproduces_published_board()
     test_page_cards_match_published_board()
@@ -275,4 +290,5 @@ if __name__ == "__main__":
     test_usage_and_last_season()
     test_qb_change_game_script_and_kickoff_lock()
     test_week4_lessons()
-    print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
+    test_balanced_line_picking()
+    print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games, balanced line picking), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
