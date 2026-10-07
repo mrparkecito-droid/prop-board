@@ -126,6 +126,11 @@ input[type=range]{width:100%;height:36px;accent-color:var(--gold);margin:0}
 .krow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .krow small{font:500 12px var(--mono);color:var(--muted);white-space:nowrap}
 .krow .add{margin-left:auto}
+.alts{display:grid;gap:6px;border:1px dashed var(--line);border-radius:10px;padding:8px 10px}
+.alt{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted)}
+.alt b{color:var(--ink);font-weight:600}.alt span{flex:1}
+.add.sm{font-size:12.5px;padding:4px 10px;min-height:30px}
+.step{display:inline-block;font:700 11px var(--mono);border-radius:999px;padding:1px 8px;background:var(--chip);color:var(--gold);border:1px solid var(--line);vertical-align:2px}
 .add{font:600 14px var(--body);border:1px solid var(--gold);background:transparent;color:var(--gold);border-radius:999px;padding:6px 14px;min-height:36px;cursor:pointer}
 .add[aria-pressed="true"]{background:var(--gold);color:var(--on-accent)}
 .slipbar{position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px max(16px,env(safe-area-inset-left,0px)) calc(10px + env(safe-area-inset-bottom,0px));background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line)}
@@ -225,6 +230,7 @@ body.has-slip .wrap{padding-bottom:96px}
   <li><b>Defense matchup + game script (up to ±14% together).</b> How much this defense gives up to his exact role (WR2s, TE1s...) compared with the league average, plus its overall rank. When a soft defense and a game script that forces volume line up (say, a big underdog throwing against a bad pass defense) the two stack.</li>
   <li><b>Depth &amp; volume (up to −10%).</b> WR3s, TE2s and backup RBs start with a penalty; expected targets or carries from the usage model can cancel it or make it worse.</li>
   <li><b>Offense (up to ±12%).</b> How well his offense moves the ball through the air or on the ground. A QB in his first season with the team, or first season starting, on a struggling offense gets an extra cut.</li>
+  <li><b>Picking the line.</b> On each ladder the board starts from the safest line, then steps up to a higher one when the case is strong (good matchup and game script, or a projection far above the line), as long as the higher line is still very likely (model 72%+), fairly priced, and scores within a few points of the safest. Each card also shows the <b>Safer</b> line it stepped up from and a <b>Bigger payout</b> line, both addable to your slip.</li>
   <li><b>Market check.</b> The final chance is 70% model and 30% Kalshi's own price. In Week 4 that blend was better calibrated than either alone.</li>
   <li><b>Game script (shown separately).</b> From the point spread and over/under (now combined with the defense matchup above). A big favorite leans on the run with a lead, so its lead back gets a boost and its passing a small cut; a big underdog throws to catch up, so its QB, receivers and pass-catching backs get a boost and its rushing a cut. A high or low team total nudges every yardage prop. Starts at a 3-point spread, full strength at 10.</li>
   <li><b>QB situation (receivers, up to ±10%).</b> If the QB who usually starts is out or not projected to start, the receiver's games with the new QB decide it (this season, and last season if they were teammates). No games together is a clear penalty; good history with the backup cancels it.</li>

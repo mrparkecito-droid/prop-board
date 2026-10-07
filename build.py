@@ -41,13 +41,24 @@ def cards_html(top, extras=True, tlabel=""):
         rk = f'<p class="rk"><b>{r["opp"]} D rank:</b> {ordn(r["most"])} most {r["dstat"]} allowed ({r["per"]:g}/game)</p>'
         flags = "".join(f'<p class="flag">{html.escape(f)}</p>' for f in r["flags"])
         price = f'<div><dt>Kalshi yes</dt><dd>{r["ask"]}¢</dd></div>'
-        whyp = cxbar = ubar = uline = face = krow = ""
+        whyp = cxbar = ubar = uline = face = krow = step = ""
         if extras:
             k = f'{r["player"]}~{r["stat"]}~{r["line"]}'
             bid = f'bid {r["bid"]}¢ · ' if r.get("bid") is not None else ""
             krow = (f'\n <div class="krow"><span class="src real">Kalshi quote{" · " + html.escape(tlabel) if tlabel else ""}</span>'
                     f'<small>{bid}ask {r["ask"]}¢</small>'
                     f'<button type="button" class="add" data-k="{html.escape(k)}" aria-pressed="false">+ Add</button></div>')
+            if r.get("safer"):
+                step = f' <span class="step" title="Stepped up from {r["safer"]["line"]}+">▲ from {r["safer"]["line"]}+</span>'
+            alts = []
+            for lbl, kk in (("Safer", "safer"), ("Bigger payout", "bigger")):
+                a = r.get(kk)
+                if a:
+                    ak = f'{r["player"]}~{r["stat"]}~{a["line"]}'
+                    alts.append(f'<div class="alt"><span><b>{lbl}:</b> {a["line"]}+ · {a["ask"]}¢ ({american(a["ask"])}) · model {a["p"]}%</span>'
+                                f'<button type="button" class="add sm" data-k="{html.escape(ak)}" aria-pressed="false">+ Add</button></div>')
+            if alts:
+                krow += '\n <div class="alts">' + "".join(alts) + '</div>'
             if r.get("pid"):
                 face = f'<img class="face" src="https://sleepercdn.com/content/nfl/players/thumb/{html.escape(str(r["pid"]))}.jpg" alt="" loading="lazy" onerror="this.remove()">'
 
@@ -80,7 +91,7 @@ def cards_html(top, extras=True, tlabel=""):
  <div class="top">
   <div class="score {tier(r["score"])}" aria-label="Score {r["score"]:.0f}"><b>{r["score"]:.0f}</b><small>#{r["rank"]}</small></div>
   {face}<div class="who"><h3>{html.escape(r["player"])}</h3><p class="tm">{r["team"]} · {r["role"]} · {r["glabel"]}</p>
-   <p class="prop">{r["prop"]} <strong>{r["line"]}+</strong></p></div>
+   <p class="prop">{r["prop"]} <strong>{r["line"]}+</strong>{step}</p></div>
  </div>{krow}{whyp}
  <div class="games">{gchips}</div>
  <dl class="kpis">
@@ -208,6 +219,13 @@ def board_json(out):
     rows = [{"pl": r["player"], "tm": r["team"], "g": r["game"], "gl": r["glabel"], "st": r["stat"], "ln": r["line"],
              "ask": r["ask"], "q": r.get("mid", r["ask"]), "p": r.get("pc", r["p"] / 100), "id": r.get("pid"),
              "wy": r.get("why", ""), "cx": r.get("ctx", 0), "sc": r["score"]} for r in out["top"]]
+    for r in out["top"]:
+        for kk in ("safer", "bigger"):
+            a = r.get(kk)
+            if a:
+                rows.append({"pl": r["player"], "tm": r["team"], "g": r["game"], "gl": r["glabel"], "st": r["stat"], "ln": a["line"],
+                             "ask": a["ask"], "q": a.get("mid", a["ask"]), "p": a.get("pc", a["p"] / 100), "id": r.get("pid"),
+                             "wy": r.get("why", ""), "cx": r.get("ctx", 0), "sc": a["score"]})
     return json.dumps(rows, separators=(",", ":")).replace("</", "<\\/")
 
 

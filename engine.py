@@ -377,7 +377,14 @@ def run(data, overrides=None, learned=None):
     for L in lad.values():
         c = [r for r in L if ASK_MIN <= r["ask"] <= ASK_MAX and not r.get("stale") and r["status"] != "Out"]
         if c:
-            best.append(max(c, key=lambda r: r["score"]))
+            safe = max(c, key=lambda r: r["score"])
+            pick = balanced_pick(safe, c)
+            if pick is not safe:
+                pick["safer"] = safe
+            higher = [r for r in c if r["line"] > pick["line"] and r["pc"] >= STRETCH_MIN_P and r["roi"] >= STRETCH_MIN_ROI]
+            if higher:
+                pick["bigger"] = max(higher, key=lambda r: r["line"])
+            best.append(pick)
     best.sort(key=lambda r: -r["score"])
     top, cnt = [], {}
     for r in best:
@@ -385,10 +392,39 @@ def run(data, overrides=None, learned=None):
             continue
         cnt[r["player"]] = cnt.get(r["player"], 0) + 1
         top.append(r)
+    alt = lambda a: {"line": a["line"], "ask": a["ask"], "bid": a.get("bid"), "p": a["p"], "pc": a["pc"], "roi": a["roi"],
+                     "score": a["score"], "mid": a["mid"], "tk": a.get("tk")}
+    for r in best:
+        for kk in ("safer", "bigger"):
+            if kk in r:
+                r[kk] = alt(r[kk])
     for i, r in enumerate(top):
         r["rank"] = i + 1
         r["why"], r["news"] = context.why(r, r["reasons"])
     return {"top": top[:BOARD_SIZE], "rows": len(rows), "ladders": len(lad), "skipped": sorted(skipped), "all": rows}
+
+
+# ---------------- picking the line on each ladder: safe, but not needlessly low ----------------
+# The safest rung is often far below what the player is expected to get (e.g. 30+ when he's projected 59).
+# When the matchup/game script is good or the projection leaves lots of room, the board steps up to a higher
+# line, as long as it's still very likely (model >= BAL_MIN_P), priced fairly (model >= Kalshi price) and its
+# score is within a few points of the safest line. The stronger the case, the more score it may give up.
+BAL_MIN_P = 0.72
+BAL_TOL_BASE, BAL_TOL_STRENGTH = 2.0, 6.0
+STRETCH_MIN_P, STRETCH_MIN_ROI = 0.55, 5      # "bigger payout" alternative shown on the card
+
+
+def balanced_pick(safe, rungs):
+    headroom = (safe["proj"] - safe["line"]) / sd_for(safe["stat"], safe["pos"], max(safe["proj"], 1))
+    strength = max(0.0, min(1.0, 0.5 * max(safe.get("env", 0), 0) + 0.5 * max(0.0, min(1.0, headroom))))
+    tol = BAL_TOL_BASE + BAL_TOL_STRENGTH * strength
+    ok = [r for r in rungs if r["line"] > safe["line"] and r["pc"] >= BAL_MIN_P and r["roi"] >= 0
+          and r["score"] >= safe["score"] - tol]
+    if not ok:
+        return safe
+    pick = max(ok, key=lambda r: r["line"])
+    pick["stepup"] = round(strength, 2)
+    return pick
 
 
 PARLAY_ASK_MAX = 92
