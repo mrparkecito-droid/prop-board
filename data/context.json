@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T20:40:38+00:00",
+ "generated": "2026-10-07T20:58:22+00:00",
  "games": {
   "TBDAL": {
    "home": "DAL",
@@ -47,7 +47,7 @@
    "wx": {
     "wind": 15,
     "gust": 21,
-    "pop": 3,
+    "pop": 1,
     "rain": 0.0,
     "temp": 76
    }
@@ -70,7 +70,7 @@
    "wx": {
     "wind": 7,
     "gust": 20,
-    "pop": 50,
+    "pop": 45,
     "rain": 0.0,
     "temp": 65
    }
@@ -93,7 +93,7 @@
    "wx": {
     "wind": 7,
     "gust": 20,
-    "pop": 12,
+    "pop": 24,
     "rain": 0.3,
     "temp": 61
    }
@@ -121,8 +121,8 @@
    "indoor": false,
    "neutral": false,
    "spread": {
-    "NYJ": -2.5,
-    "CLE": 2.5
+    "NYJ": -1.5,
+    "CLE": 1.5
    },
    "total": 39.5,
    "espn_wx": {
@@ -132,7 +132,7 @@
    "wx": {
     "wind": 7,
     "gust": 22,
-    "pop": 47,
+    "pop": 52,
     "rain": 4.3,
     "temp": 60
    }
@@ -155,7 +155,7 @@
    "wx": {
     "wind": 6,
     "gust": 20,
-    "pop": 71,
+    "pop": 76,
     "rain": 0.6,
     "temp": 64
    }
@@ -178,7 +178,7 @@
    "wx": {
     "wind": 10,
     "gust": 28,
-    "pop": 76,
+    "pop": 78,
     "rain": 2.7,
     "temp": 64
    }
@@ -445,6 +445,11 @@
   ],
   "CIN": [
    {
+    "name": "Tee Higgins",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Dalton Risner",
     "pos": "G",
     "status": "Questionable"
@@ -461,11 +466,6 @@
    },
    {
     "name": "Ja'Marr Chase",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Tee Higgins",
     "pos": "WR",
     "status": "Questionable"
    },
@@ -496,6 +496,21 @@
    }
   ],
   "CLE": [
+   {
+    "name": "Mike Hall Jr.",
+    "pos": "DT",
+    "status": "Questionable"
+   },
+   {
+    "name": "Grant Delpit",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
+    "name": "Derek Barnett",
+    "pos": "DE",
+    "status": "Questionable"
+   },
    {
     "name": "Mason Graham",
     "pos": "DT",
@@ -781,6 +796,26 @@
   ],
   "MIA": [
    {
+    "name": "Chris Bell",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Austin Jackson",
+    "pos": "OT",
+    "status": "Questionable"
+   },
+   {
+    "name": "JuJu Brents",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Tucker Addington",
+    "pos": "LS",
+    "status": "Questionable"
+   },
+   {
     "name": "Caleb Douglas",
     "pos": "WR",
     "status": "Questionable"
@@ -877,6 +912,11 @@
   ],
   "NO": [
    {
+    "name": "Alvin Kamara",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
     "name": "Kaden Elliss",
     "pos": "LB",
     "status": "Questionable"
@@ -903,6 +943,11 @@
    }
   ],
   "NYG": [
+   {
+    "name": "Isaiah Likely",
+    "pos": "TE",
+    "status": "Questionable"
+   },
    {
     "name": "Cam Skattebo",
     "pos": "RB",
@@ -931,6 +976,11 @@
   ],
   "NYJ": [
    {
+    "name": "Breece Hall",
+    "pos": "RB",
+    "status": "Doubtful"
+   },
+   {
     "name": "Kiko Mauigoa",
     "pos": "LB",
     "status": "Doubtful"
@@ -941,18 +991,8 @@
     "status": "Doubtful"
    },
    {
-    "name": "Mason Taylor",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
     "name": "Adonai Mitchell",
     "pos": "WR",
-    "status": "Doubtful"
-   },
-   {
-    "name": "Breece Hall",
-    "pos": "RB",
     "status": "Doubtful"
    },
    {
@@ -1125,6 +1165,16 @@
   ],
   "WAS": [
    {
+    "name": "Ben Sinnott",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Chig Okonkwo",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
     "name": "Stefon Diggs",
     "pos": "WR",
     "status": "Questionable"
@@ -1137,16 +1187,6 @@
    {
     "name": "Jacory Croskey-Merritt",
     "pos": "RB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Ben Sinnott",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Chig Okonkwo",
-    "pos": "TE",
     "status": "Questionable"
    },
    {
@@ -1187,11 +1227,11 @@
   ]
  },
  "news": {
-  "bo nix": {
+  "sam darnold": {
    "h": "Is Bo Nix or Sam Darnold a better fantasy play this week?",
    "t": "2026-10-07T15:25:32Z"
   },
-  "sam darnold": {
+  "bo nix": {
    "h": "Is Bo Nix or Sam Darnold a better fantasy play this week?",
    "t": "2026-10-07T15:25:32Z"
   },
@@ -1234,168 +1274,160 @@
   "jaxon smith njigba": {
    "h": "Knockout league pickups: Jaxon Smith-Njigba, Ja'Marr Chase among big names available in Week 5",
    "t": "2026-10-06T17:36:34Z"
-  },
-  "trey mcbride": {
-   "h": "NFL Referees Association to challenge officials' suspensions",
-   "t": "2026-10-07T10:35:57Z"
-  },
-  "kyler murray": {
-   "h": "What Kevin O'Connell sees in Kyler Murray",
-   "t": "2026-10-06T17:05:36Z"
   }
  },
  "trend": {
   "keon coleman": {
    "rank": 1,
-   "adds": 5472207
+   "adds": 5487048
   },
   "dohnte meyers": {
    "rank": 2,
-   "adds": 4387914
+   "adds": 4404519
   },
   "emanuel wilson": {
    "rank": 3,
-   "adds": 2229264
+   "adds": 2235465
   },
   "roman wilson": {
    "rank": 4,
-   "adds": 1953549
+   "adds": 1963296
   },
   "will shipley": {
    "rank": 5,
-   "adds": 1868786
+   "adds": 1874230
   },
   "keaton mitchell": {
    "rank": 7,
-   "adds": 1222452
+   "adds": 1230876
   },
   "kirk cousins": {
    "rank": 8,
-   "adds": 1202504
+   "adds": 1211328
   },
   "brian robinson": {
    "rank": 9,
-   "adds": 992040
+   "adds": 997122
   },
   "romeo doubs": {
    "rank": 10,
-   "adds": 985216
+   "adds": 989808
   },
   "tyler higbee": {
    "rank": 11,
-   "adds": 875808
+   "adds": 884709
   },
   "michael mayer": {
    "rank": 12,
-   "adds": 856494
+   "adds": 861336
   },
   "mike gesicki": {
    "rank": 14,
-   "adds": 695992
+   "adds": 700352
   },
   "darius cooper": {
    "rank": 15,
-   "adds": 578340
+   "adds": 583142
   },
   "tyler allgeier": {
    "rank": 16,
-   "adds": 546595
+   "adds": 549080
   },
   "aaron rodgers": {
    "rank": 18,
-   "adds": 500616
+   "adds": 504992
   },
   "malik washington": {
    "rank": 20,
-   "adds": 420304
-  },
-  "ollie gordon": {
-   "rank": 21,
-   "adds": 381381
+   "adds": 425624
   },
   "cj stroud": {
+   "rank": 21,
+   "adds": 384041
+  },
+  "ollie gordon": {
    "rank": 22,
-   "adds": 380800
+   "adds": 383726
   },
   "khalil shakir": {
    "rank": 23,
-   "adds": 362502
+   "adds": 365454
   },
   "kc concepcion": {
    "rank": 24,
-   "adds": 356148
+   "adds": 358263
   },
   "marshawn lloyd": {
    "rank": 26,
-   "adds": 345798
+   "adds": 349326
   },
   "deshaun watson": {
    "rank": 27,
-   "adds": 338272
+   "adds": 341672
   },
   "brenton strange": {
    "rank": 29,
-   "adds": 325089
+   "adds": 327735
   },
   "tre harris": {
    "rank": 30,
-   "adds": 314360
+   "adds": 316536
   },
   "austin ekeler": {
    "rank": 32,
-   "adds": 263524
+   "adds": 265180
   },
   "jayden daniels": {
    "rank": 35,
-   "adds": 229112
+   "adds": 232424
   },
-  "jared goff": {
+  "dameon pierce": {
    "rank": 36,
-   "adds": 211230
+   "adds": 218024
   },
   "matthew stafford": {
    "rank": 37,
-   "adds": 210906
+   "adds": 213282
   },
-  "dameon pierce": {
-   "rank": 39,
-   "adds": 209008
+  "jared goff": {
+   "rank": 38,
+   "adds": 213010
   },
   "tyler huntley": {
    "rank": 41,
-   "adds": 203520
+   "adds": 204424
   },
   "kenny gainwell": {
    "rank": 42,
-   "adds": 187008
+   "adds": 189400
   },
   "kyle monangai": {
    "rank": 44,
-   "adds": 169878
+   "adds": 170694
   },
   "tyson bagent": {
    "rank": 45,
-   "adds": 158340
+   "adds": 159234
   },
   "tj hockenson": {
    "rank": 46,
-   "adds": 150433
+   "adds": 151298
   },
   "alvin kamara": {
-   "rank": 48,
-   "adds": 135888
+   "rank": 49,
+   "adds": 136624
   },
   "efton chism": {
-   "rank": 49,
-   "adds": 135616
+   "rank": 50,
+   "adds": 136320
   }
  },
  "buzz": {},
  "sources": {
   "lines": "13 games",
   "weather": "7 outdoor games",
-  "injuries": "173 players listed",
-  "news": "14 players in headlines",
+  "injuries": "181 players listed",
+  "news": "12 players in headlines",
   "sleeper_trending": "36 board players trending",
   "reddit": "unavailable"
  }
