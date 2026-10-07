@@ -162,6 +162,14 @@ body.has-slip .wrap{padding-bottom:96px}
 .mg.hit{color:var(--hit-ink)}.mg.miss{color:var(--miss-ink)}
 .gfilter{display:flex;gap:6px;margin:4px 0 6px}.gfilter button{font:600 13px var(--body);border:1px solid var(--line);background:var(--chip);color:var(--muted);border-radius:999px;padding:6px 14px;cursor:pointer}
 .gfilter button[aria-pressed="true"]{background:var(--gold);color:var(--on-accent);border-color:transparent}
+.feat h2,.sech{margin:0;font:400 24px var(--display);letter-spacing:.03em}
+.sech{margin:8px 2px 0}
+.feat .seg{margin-top:4px}
+.fbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:10px 14px 0}
+.fbar .tlabel{flex:1;font:600 12px var(--mono);color:var(--muted)}
+.fadd{font:600 13px var(--body);border:1px solid var(--gold);background:var(--gold);color:var(--on-accent);border-radius:999px;padding:6px 12px;cursor:pointer}
+.fnext{font:600 13px var(--body);border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer}
+.tier.safe .phead{border-bottom-color:var(--t1)} .tier.medium .phead{border-bottom-color:var(--t3)} .tier.flyer .phead{border-bottom-color:var(--miss-ink)}
 .face{flex:0 0 58px;width:58px;height:58px;border-radius:50%;object-fit:cover;object-position:top;background:var(--chip);border:2px solid var(--line)}
 .lface{width:30px;height:30px;border-radius:50%;object-fit:cover;object-position:top;background:var(--chip);vertical-align:middle;margin-right:8px;border:1px solid var(--line)}
 .legs b{font-size:15px} .legs .mono{text-align:right;font-weight:700}
@@ -266,6 +274,15 @@ body.has-slip .wrap{padding-bottom:96px}
 </div>
 
 <div class="view" id="v-parlay" role="tabpanel" aria-labelledby="t-parlay" hidden>
+ <section class="panel feat">
+  <h2>Best parlays</h2>
+  <p class="sub">The combination the model is most confident will hit at each payout, built from everything in the score: hit rate and cushion, projection and usage, defense matchup and game script, QB situation, depth chart and the Kalshi price.</p>
+  <div class="seg" role="group" aria-label="Slate">
+   <button type="button" data-slate="all" aria-pressed="true">All games</button><button type="button" data-slate="tnf" aria-pressed="false">TNF</button><button type="button" data-slate="sun" aria-pressed="false">Sunday</button><button type="button" data-slate="mnf" aria-pressed="false">MNF</button>
+  </div>
+ </section>
+ <div class="plist" id="featured" aria-live="polite"></div>
+ <h2 class="sech">Build to any odds</h2>
  <section class="panel">
   <div class="odds"><output id="odds" for="target">+500</output><span id="pays">$10 pays about $60</span></div>
   <input type="range" id="target" min="100" max="2000" step="25" value="500" aria-label="Target parlay odds">
@@ -279,6 +296,7 @@ body.has-slip .wrap{padding-bottom:96px}
  <div class="plist" id="parlays" aria-live="polite"></div>
  <div class="notes">
   <p><b>Where the odds come from.</b> On each update the board builds the best parlays at +150 through +2000 and asks Kalshi for a real quote on each. Kalshi creates the combo, market makers quote it, and the request is cancelled without buying anything. Parlays with a quote show <i>Kalshi quote</i>. Any other parlay shows <i>Expected Kalshi price</i>: the legs' fair prices multiplied, plus the markup Kalshi has actually been adding to combos, learned from every real quote so far. If a leg has no seller showing, its price is estimated from the lines above and below it on the same ladder.</p>
+  <p><b>Best parlays.</b> For each payout range (Safe +200 to +300, Medium +500 to +600, Flyer +1000 and up) it searches every combination of board props and lines and keeps the one with the highest chance of hitting, where each leg's chance comes from the model and the Kalshi price and its overall score breaks ties (a leg scoring 85 counts like about 6 points of extra chance). Pick a slate to build only from that night's games. "Next option" shows the next-best combinations, and each one can be added to your slip in one tap.</p>
   <p><b>How legs are picked.</b> Only board props, using whichever line on each ladder gets you to your odds with the best chance. Each leg's chance is a 50/50 blend of the model and Kalshi's price, with a 3% safety discount per leg. Rules: one leg per player, at most two per game (unless you pick one game), 2 to 6 legs. The three options share at most one player, and no player is in all three.</p>
   <p>Quotes are as of the last update ({{UPDATED}}) and move with the market, so confirm the price in Kalshi before you place it.</p>
  </div>
@@ -326,13 +344,19 @@ body.has-slip .wrap{padding-bottom:96px}
  function sync(){var v=+rng.value;out.textContent="+"+v;pays.textContent="$10 pays about $"+Math.round(10*(1+v/100));}
  function cxpill(c){var v=4*(c||0);return Math.abs(v)>=0.05?'<span class="cx '+(v>0?"up":"dn")+'">Context '+(v>0?"+":"−")+Math.abs(v).toFixed(1)+'%</span> ':""}
  function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]});}
- function search(target,game){
-  var D=1+target/100,W=Math.log(D),TOP=W+Math.log(BAND),perGame=game==="all"?2:MAXL,L=[];
-  LEGS.forEach(function(x){if(game!=="all"&&x.g!==game)return;var w=-Math.log(x.q/100)-K.k;if(w>0.01)L.push({x:x,w:w,c:-Math.log(chance(x)*HAIR)})});
+ var SCORE_W=0.4,SLATE_DAYS={all:null,tnf:["Thu"],sun:["Sun"],mnf:["Mon"]};
+ var TIERS=[["safe","Safe",200,300,4],["medium","Medium",500,600,6],["flyer","Flyer",1000,2000,8]];   /* mirrored in parlay.py */
+ function legCost(x){return Math.max(-Math.log(chance(x)*HAIR)-SCORE_W*((x.sc==null?70:x.sc)-70)/100,0.01)}
+ function inSlate(x,slate){var d=SLATE_DAYS[slate||"all"];return !d||d.indexOf(x.dy)>=0}
+ function search(target,game,band,maxl,slate){
+  band=band||BAND;maxl=maxl||MAXL;
+  var D=1+target/100,W=Math.log(D),TOP=W+Math.log(band),L=[],gs={};
+  LEGS.forEach(function(x){if(game!=="all"&&x.g!==game)return;if(!inSlate(x,slate))return;var w=-Math.log(x.q/100)-K.k;if(w>0.01){L.push({x:x,w:w,c:legCost(x)});gs[x.g]=1}});
+  var perGame=(game!=="all"||Object.keys(gs).length<=1)?maxl:2;
   L.sort(function(a,b){return a.c/a.w-b.c/b.w});
   if(!L.length)return[];
-  var mr=L[0].c/L[0].w,beam=[{ix:[],w:0,c:0,pl:{},gm:{},last:-1}],done=[];
-  for(var d=1;d<=MAXL&&beam.length;d++){
+  var mr=L[L.length>>2].c/L[L.length>>2].w,beam=[{ix:[],w:0,c:0,pl:{},gm:{},last:-1}],done=[];
+  for(var d=1;d<=maxl&&beam.length;d++){
    var nx=[];
    beam.forEach(function(s){
     for(var j=s.last+1;j<L.length;j++){
@@ -340,8 +364,8 @@ body.has-slip .wrap{padding-bottom:96px}
      var nw=s.w+l.w;if(nw>TOP+0.25)continue;
      var pl=Object.assign({},s.pl),gm=Object.assign({},s.gm);pl[x.pl]=1;gm[x.g]=(gm[x.g]||0)+1;
      var ns={ix:s.ix.concat(j),w:nw,c:s.c+l.c,pl:pl,gm:gm,last:j};
-     if(nw>=W-0.25&&d>=MINL){var p=ns.ix.map(function(i){return L[i].x}),dec=1/expPrice(p);if(dec>=D&&dec<=D*BAND)done.push({c:ns.c,p:p});}
-     if(nw<TOP&&d<MAXL)nx.push(ns);
+     if(nw>=W-0.25&&d>=MINL){var p=ns.ix.map(function(i){return L[i].x}),dec=1/expPrice(p);if(dec>=D&&dec<=D*band)done.push({c:ns.c,p:p});}
+     if(nw<TOP&&d<maxl)nx.push(ns);
     }
    });
    nx.sort(function(a,b){return(a.c+Math.max(W-a.w,0)*mr)-(b.c+Math.max(W-b.w,0)*mr)});
@@ -363,6 +387,15 @@ body.has-slip .wrap{padding-bottom:96px}
   });
   return chosen;
  }
+ function pcard(o,title,extra){
+   var p=o.legs.slice().sort(function(a,b){return b.p-a.p}),raw=1;p.forEach(function(x){raw*=x.ask/100});
+   var badge=o.src==="quote"?'<span class="src real">Kalshi quote · '+esc(KX.tlabel||"")+'</span>':(o.src==="book"?'<span class="src real">Kalshi price · '+esc(KX.tlabel||"")+'</span>':'<span class="src">Expected Kalshi price</span>');
+   return '<article class="pcard"><div class="phead"><h3>'+title+" · "+p.length+' legs</h3><b>'+am(1/o.price)+'</b></div>'+
+    '<div class="srcrow">'+badge+'<small>Legs multiplied: '+am(1/raw)+'</small></div>'+
+    '<dl class="pstats"><div><dt>Est. chance</dt><dd>'+Math.round(o.ch*100)+'%</dd></div><div><dt>Kalshi price</dt><dd>'+Math.round(o.price*100)+'¢</dd></div><div><dt>$10 pays</dt><dd>$'+(10/o.price).toFixed(0)+'</dd></div></dl>'+
+    (extra||"")+'<ul class="legs">'+p.map(function(x){return '<li><b>'+(x.id?'<img class="lface" src="https://sleepercdn.com/content/nfl/players/thumb/'+esc(String(x.id))+'.jpg" alt="" onerror="this.remove()">':'')+esc(x.pl)+'</b><span class="mono">'+(x.est?"~":"")+x.ask+'¢</span><small>'+SW[x.st]+' <strong>'+x.ln+'+</strong> · '+esc(x.gl)+'</small><small>model '+Math.round(x.p*100)+'%</small>'+(x.wy?'<small class="lwhy">'+cxpill(x.cx)+esc(x.wy)+'</small>':'')+(x.nw?'<small class="lwhy news">'+esc(x.nw)+'</small>':'')+(x.est?'<small class="estn">No seller showing on this line; price estimated from the lines above and below it.</small>':'')+'</li>'}).join("")+'</ul></article>';
+ }
+ window.PBpcard=pcard;
  function make(){
   var t=+rng.value,g=pg.value,D=1+t/100,pool=[],seen={};
   function add(p){
@@ -377,15 +410,35 @@ body.has-slip .wrap{padding-bottom:96px}
   pool.sort(function(a,b){return b.rank-a.rank});
   var res=pick(pool);
   if(!res.length){box.innerHTML='<p class="empty">Couldn\'t reach +'+t+' with 2 to 6 legs from '+(g==="all"?"this board":"this game")+'. Try different odds'+(g==="all"?"":" or all games")+'.</p>';return;}
-  box.innerHTML=res.map(function(o,i){
-   var p=o.legs.slice().sort(function(a,b){return b.p-a.p}),raw=1;p.forEach(function(x){raw*=x.ask/100});
-   var badge=o.src==="quote"?'<span class="src real">Kalshi quote · '+esc(KX.tlabel||"")+'</span>':(o.src==="book"?'<span class="src real">Kalshi price · '+esc(KX.tlabel||"")+'</span>':'<span class="src">Expected Kalshi price</span>');
-   return '<article class="pcard"><div class="phead"><h3>'+(i?"Option "+(i+1):"Safest")+" · "+p.length+' legs</h3><b>'+am(1/o.price)+'</b></div>'+
-    '<div class="srcrow">'+badge+'<small>Legs multiplied: '+am(1/raw)+'</small></div>'+
-    '<dl class="pstats"><div><dt>Est. chance</dt><dd>'+Math.round(o.ch*100)+'%</dd></div><div><dt>Kalshi price</dt><dd>'+Math.round(o.price*100)+'¢</dd></div><div><dt>$10 pays</dt><dd>$'+(10/o.price).toFixed(0)+'</dd></div></dl>'+
-    '<ul class="legs">'+p.map(function(x){return '<li><b>'+(x.id?'<img class="lface" src="https://sleepercdn.com/content/nfl/players/thumb/'+esc(String(x.id))+'.jpg" alt="" onerror="this.remove()">':'')+esc(x.pl)+'</b><span class="mono">'+(x.est?"~":"")+x.ask+'¢</span><small>'+SW[x.st]+' <strong>'+x.ln+'+</strong> · '+esc(x.gl)+'</small><small>model '+Math.round(x.p*100)+'%</small>'+(x.wy?'<small class="lwhy">'+cxpill(x.cx)+esc(x.wy)+'</small>':'')+(x.nw?'<small class="lwhy news">'+esc(x.nw)+'</small>':'')+(x.est?'<small class="estn">No seller showing on this line; price estimated from the lines above and below it.</small>':'')+'</li>'}).join("")+'</ul></article>';
-  }).join("");
+  box.innerHTML=res.map(function(o,i){return pcard(o,i?"Option "+(i+1):"Safest")  }).join("");
  }
+ /* Featured: best Safe (+200-300), Medium (+500-600) and Flyer (+1000+) parlay for the chosen slate */
+ var FS="all",FIDX={},fbox=document.getElementById("featured"),FPOOL={};
+ function tierPool(t,slate){
+  var D=1+t[2]/100,Dh=1+t[3]/100,pool=[],seen={};
+  function add(p){var k=key(p);if(seen[k])return;seen[k]=1;var q=QMAP[k],price=q?q.price:expPrice(p),dec=1/price;if(dec<D||dec>Dh)return;
+   var ch=1,c=0;p.forEach(function(x){ch*=chance(x)*HAIR;c+=legCost(x)});pool.push({legs:p,price:price,src:q?q.src:"est",ch:ch,c:c-(q?0.02:0)});}
+  search(t[2],"all",Dh/D,t[4],slate).slice(0,60).forEach(add);
+  QUOTED.forEach(function(q){if(q.legs.every(function(x){return inSlate(x,slate)}))add(q.legs)});
+  pool.sort(function(a,b){return a.c-b.c});
+  var out=[];pool.forEach(function(o){if(out.length<3&&out.every(function(u){return o.legs.filter(function(x){return u.legs.indexOf(x)<0}).length>=1}))out.push(o)});
+  return out;
+ }
+ function renderFeatured(){
+  var any=LEGS.some(function(x){return inSlate(x,FS)});
+  if(!any){fbox.innerHTML='<p class="empty">No '+({tnf:"Thursday",sun:"Sunday",mnf:"Monday"}[FS]||"")+' props on the board right now. The game may have started or its markets aren\'t open yet.</p>';return;}
+  fbox.innerHTML=TIERS.map(function(t){
+   var P=FPOOL[FS+t[0]]||(FPOOL[FS+t[0]]=tierPool(t,FS)),i=(FIDX[FS+t[0]]||0)%Math.max(P.length,1);
+   var lbl=t[1]+' · '+(t[0]==="flyer"?"+1000 and up":"+"+t[2]+" to +"+t[3]);
+   if(!P.length)return '<article class="pcard tier '+t[0]+'"><div class="phead"><h3>'+lbl+'</h3></div><p class="empty">Couldn\'t build a '+t[1].toLowerCase()+' parlay in this range from this slate\'s props.</p></article>';
+   var bar='<div class="fbar"><span class="tlabel">'+lbl+'</span>'+(P.length>1?'<button type="button" class="fnext" data-ft="'+t[0]+'">Next option ('+(i+1)+'/'+P.length+')</button>':'')+'<button type="button" class="fadd" data-ft="'+t[0]+'">+ Add all to slip</button></div>';
+   return pcard(P[i],t[1]+(i?" option "+(i+1):""),bar).replace('class="pcard"','class="pcard tier '+t[0]+'"');
+  }).join("");
+  fbox.querySelectorAll(".fnext").forEach(function(b){b.onclick=function(){var k=FS+b.dataset.ft;FIDX[k]=(FIDX[k]||0)+1;renderFeatured()}});
+  fbox.querySelectorAll(".fadd").forEach(function(b){b.onclick=function(){var k=FS+b.dataset.ft,P=FPOOL[k],o=P[(FIDX[k]||0)%P.length];if(window.PBslip){window.PBslip.add(o.legs.map(lk));b.textContent="✓ Added to slip"}}});
+ }
+ document.querySelectorAll("[data-slate]").forEach(function(b){b.addEventListener("click",function(){FS=b.dataset.slate;document.querySelectorAll("[data-slate]").forEach(function(x){x.setAttribute("aria-pressed",x===b)});renderFeatured()})});
+ renderFeatured();
  rng.addEventListener("input",sync);
  document.querySelectorAll("[data-o]").forEach(function(b){b.addEventListener("click",function(){rng.value=b.dataset.o;sync();make();});});
  document.getElementById("make").addEventListener("click",make);
@@ -405,6 +458,7 @@ body.has-slip .wrap{padding-bottom:96px}
  var K=KX.K||{b:0,k:0.035,s:0.04},HAIR=0.97,MAX=10,STORE="pb-slip-{{WEEK}}";
  var SW={pass:"Pass yds",rush:"Rush yds",recyds:"Rec yds",rec:"Catches"};
  var BY={};BOARD.forEach(function(x){BY[x.pl+"~"+x.st+"~"+x.ln]=x});
+ JSON.parse(document.getElementById("legs-data").textContent||"[]").forEach(function(x){var k=x.pl+"~"+x.st+"~"+x.ln;if(!BY[k])BY[k]=x});
  var QMAP={};(KX.quoted||[]).forEach(function(q){QMAP[q.key]=q});
  var slip=[];try{slip=(JSON.parse(localStorage.getItem(STORE)||"[]")||[]).filter(function(k){return BY[k]})}catch(e){}
  var bar=document.getElementById("slipbar"),sheet=document.getElementById("sheet"),body=document.getElementById("sheetbody"),stake=10;
@@ -451,6 +505,7 @@ body.has-slip .wrap{padding-bottom:96px}
  function open(){sheet.hidden=false;document.body.style.overflow="hidden";render();}
  function close(){sheet.hidden=true;document.body.style.overflow="";}
  document.getElementById("slipopen").onclick=open;
+ window.PBslip={add:function(keys){keys.forEach(function(k){if(BY[k]&&slip.indexOf(k)<0)slip.push(k)});save();paint();}};
  sheet.addEventListener("click",function(e){if(e.target===sheet)close()});
  document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!sheet.hidden)close()});
  document.querySelectorAll(".add").forEach(function(b){b.addEventListener("click",function(){var k=b.dataset.k,i=slip.indexOf(k);if(i>=0)slip.splice(i,1);else slip.push(k);save();paint();})});

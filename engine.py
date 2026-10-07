@@ -295,7 +295,13 @@ def run(data, overrides=None, learned=None):
         pv = pj[stat]
         pp = Phi((pv - line + 0.5) / sd_for(stat, pos, pv))
         pp_raw, pu, uinfo = pp, None, None
-        uc = usage.chance(k, pos, team, stat, line, U, prev_tot, sd_for)
+        qbctx = None
+        if qinfo and not qinfo.get("same") and QB["now"].get(team) and QB["now"][team][0] != "?":
+            qbctx = (QB["now"][team][0], QB["now"][team][1], qinfo.get("usual", ""), QB["st"])
+        uc = usage.chance(k, pos, team, stat, line, U, prev_tot, sd_for, qbctx)
+        if uc and qbctx and (uc[2].get("qbsplit") or {}).get("old") is not None:
+            q_ = uc[2]["qbsplit"]       # target share with the new QB vs before also moves the QB factor
+            qf = round(max(-1.0, min(1.0, qf + 0.5 * max(-1.0, min(1.0, (q_["new"] - q_["old"]) / 15)) * min(q_["n"] / 2, 1))), 2)
         if uc:
             pu, _, uinfo = uc
             pp = 0.5 * pp + 0.5 * pu          # projection signal = Sleeper projection + usage model
@@ -344,7 +350,7 @@ def run(data, overrides=None, learned=None):
             flags.append(f"Listed {status.lower()} this week")
         if spread >= SPREAD_LIMIT:
             score *= SPREAD_PENALTY; flags.append("Wide bid/ask spread, thin market")
-        rows.append(dict(game=m["game"], glabel=g["label"], player=lg["name"], team=team, opp=opp, pos=pos, role=role,
+        rows.append(dict(game=m["game"], glabel=g["label"], day=_day(g.get("date")), player=lg["name"], team=team, opp=opp, pos=pos, role=role,
                          stat=stat, prop=LBL[stat], line=line, ask=m["ask"], bid=m.get("bid"), vals=vals, over=over, n=n,
                          proj=round(pv, 1), al=[[w, t, v] for w, t, v in al],
                          dhit=(dc if dh is not None else None), dn=(dn if dh is not None else None),
@@ -427,6 +433,14 @@ def balanced_pick(safe, rungs):
     return pick
 
 
+def _day(d):
+    try:
+        import datetime as _dt
+        return _dt.date.fromisoformat(d).strftime("%a")
+    except (TypeError, ValueError):
+        return ""
+
+
 PARLAY_ASK_MAX = 92
 
 
@@ -443,7 +457,7 @@ def parlay_legs(out):
                      "pr": r["prop"], "ln": r["line"], "ask": r["ask"], "q": r["mid"], "p": r["pc"], "sc": r["score"],
                      "est": 1 if r["est"] else 0, "tk": r["tk"], "ev": r["ev"],
                      "wy": context.why(r, r.get("reasons") or [])[0], "id": r.get("pid"),
-                     "cx": r.get("ctx", 0), "nw": context.why(r, r.get("reasons") or [])[1]})
+                     "cx": r.get("ctx", 0), "nw": context.why(r, r.get("reasons") or [])[1], "dy": r.get("day", "")})
     return legs
 
 

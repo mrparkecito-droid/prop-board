@@ -27,11 +27,16 @@ PREV_HIT_CAP = 3.0    # last season's games together worth at most 3 current gam
 PREV_HIT_PER = 0.25   # ...and each one a quarter of a current game
 
 
-def _wavg(xs):
+QB_GAME_W = 3.0      # after a QB change, each game with the new QB counts 3x in the target-share estimate
+
+
+def _wavg(xs, extra=None):
     if not xs:
         return None
     n = len(xs)
     w = [1 + (i / (n - 1) if n > 1 else 1) for i in range(n)]
+    if extra:
+        w = [a * b for a, b in zip(w, extra)]
     return sum(a * b for a, b in zip(xs, w)) / sum(w)
 
 
@@ -79,7 +84,7 @@ def _shrink(num, den, prior):
     return (num + v * k) / (den + k)
 
 
-def chance(name_key, pos, team, stat, line, U, prev, sd_for):
+def chance(name_key, pos, team, stat, line, U, prev, sd_for, qb=None):
     """(usage chance, expected stat, info dict) or None if there's no usage data for him."""
     if not U:
         return None
@@ -92,7 +97,17 @@ def chance(name_key, pos, team, stat, line, U, prev, sd_for):
     S = lambda k: sum(g[k] for g in G)
     info = {}
     if stat in ("rec", "recyds"):
-        sh = _wavg([g["tsh"] for g in G])
+        extra = None
+        if qb:
+            # QB change: (now_key, now_name, usual_name, starters map). Games with the new QB matter most.
+            with_now = [qb[3].get((team, g["wk"]), (None,))[0] == qb[0] for g in G]
+            if any(with_now):
+                extra = [QB_GAME_W if x else 1.0 for x in with_now]
+                new = [g["tsh"] for g, x in zip(G, with_now) if x]
+                old = [g["tsh"] for g, x in zip(G, with_now) if not x]
+                info["qbsplit"] = {"qb": qb[1], "usual": qb[2], "new": round(100 * sum(new) / len(new)),
+                                   "old": round(100 * sum(old) / len(old)) if old else None, "n": len(new)}
+        sh = _wavg([g["tsh"] for g in G], extra)
         opp = sh * vol.get("tgt", 0)
         info["share"] = [round(100 * g["tsh"]) for g in G]; info["kind"] = "targets"
         if stat == "rec":
@@ -126,6 +141,15 @@ def chance(name_key, pos, team, stat, line, U, prev, sd_for):
 
 
 def trend_note(info, pos):
+    q = info.get("qbsplit")
+    if q and q.get("old") is not None:
+        last = q["qb"].split()[-1]; usual = q["usual"].split()[-1]
+        games = "" if q["n"] > 1 else " (1 game)"
+        if q["new"] - q["old"] >= 5:
+            return f"With {last}: {q['new']}% of targets{games}, up from {q['old']}% with {usual}."
+        if q["old"] - q["new"] >= 5:
+            return f"With {last}: only {q['new']}% of targets{games}, down from {q['old']}% with {usual}."
+        return f"With {last}: {q['new']}% of targets{games}, about the same as with {usual} ({q['old']}%)."
     sh, kind = info["share"], info["kind"]
     pct = kind == "targets" or (kind == "carries" and pos != "QB")
     if len(sh) >= 2:
@@ -140,6 +164,12 @@ def trend_note(info, pos):
 
 
 def usage_line(info, pos):
+    q = info.get("qbsplit")
+    if q and q.get("old") is not None:
+        s = (f"{q['new']}% of targets with {q['qb']} ({q['n']} game{'s' if q['n'] != 1 else ''}) vs {q['old']}% with {q['usual']}")
+        if info.get("snap") is not None:
+            s += f" · {info['snap']}% of snaps"
+        return s
     sh, kind = info["share"], info["kind"]
     pct = kind == "targets" or (kind == "carries" and pos != "QB")
     seq = " → ".join(f"{x}{'%' if pct else ''}" for x in sh)

@@ -57,24 +57,38 @@ def key(legs):
     return "|".join(sorted(f'{l["pl"]}~{l["st"]}~{l["ln"]}' for l in legs))
 
 
-def search(legs, target, K, game="all"):
-    """Highest-chance parlays whose expected Kalshi odds land between +target and 1.35x that."""
+SCORE_W = 0.4      # a leg's overall board score nudges its cost: 85 -> like +6% chance, 55 -> like -6%
+SLATE_DAYS = {"all": None, "tnf": {"Thu"}, "sun": {"Sun"}, "mnf": {"Mon"}}
+# Featured parlays (mirrored in template.html): (id, name, low odds, high odds, max legs)
+TIERS = [("safe", "Safe", 200, 300, 4), ("medium", "Medium", 500, 600, 6), ("flyer", "Flyer", 1000, 2000, 8)]
+
+
+def leg_cost(x):
+    return max(-math.log(chance(x) * HAIR) - SCORE_W * (x.get("sc", 70) - 70) / 100, 0.01)
+
+
+def search(legs, target, K, game="all", band=BAND, maxl=MAXL, slate="all"):
+    """Highest-confidence parlays whose expected Kalshi odds land between +target and band x that."""
     D = 1 + target / 100
     W = math.log(D)
-    per_game = 2 if game == "all" else MAXL
+    days = SLATE_DAYS.get(slate)
     L = []
     for x in legs:
         if game != "all" and x["g"] != game:
             continue
+        if days and x.get("dy") not in days:
+            continue
         w = -math.log(x["q"] / 100) - K["k"]
         if w > 0.01:
-            L.append((x, w, -math.log(chance(x) * HAIR)))
+            L.append((x, w, leg_cost(x)))
+    per_game = maxl if (game != "all" or len({t[0]["g"] for t in L}) <= 1) else 2
+    MAXL_ = maxl
     L.sort(key=lambda t: t[2] / t[1])
     if not L:
         return []
-    mr = L[0][2] / L[0][1]
+    mr = L[len(L) // 4][2] / L[len(L) // 4][1]     # typical cost per unit of odds, used to judge how far a partial parlay still has to go
     beam, done = [((), 0.0, 0.0, frozenset(), {}, -1)], []
-    for d in range(1, MAXL + 1):
+    for d in range(1, MAXL_ + 1):
         nx = []
         for ix, w, c, pl, gm, last in beam:
             for j in range(last + 1, len(L)):
@@ -82,16 +96,16 @@ def search(legs, target, K, game="all"):
                 if x["pl"] in pl or gm.get(x["g"], 0) >= per_game:
                     continue
                 nw = w + lw
-                if nw > W + math.log(BAND) + 0.25:
+                if nw > W + math.log(band) + 0.25:
                     continue
                 g2 = dict(gm); g2[x["g"]] = g2.get(x["g"], 0) + 1
                 s = (ix + (j,), nw, c + lc, pl | {x["pl"]}, g2, j)
                 if nw >= W - 0.25 and d >= MINL:
                     picked = [L[i][0] for i in s[0]]
                     dec = 1 / expected_price(picked, K)
-                    if D <= dec <= D * BAND:
+                    if D <= dec <= D * band:
                         done.append((s[2], picked))
-                if nw < W + math.log(BAND) and d < MAXL:
+                if nw < W + math.log(band) and d < MAXL_:
                     nx.append(s)
         nx.sort(key=lambda s: s[2] + max(W - s[1], 0) * mr)
         beam = nx[:BEAM]
@@ -101,6 +115,17 @@ def search(legs, target, K, game="all"):
         k = key(p)
         if k not in seen:
             seen.add(k); out.append(p)
+    return out
+
+
+def featured(legs, K, n=3):
+    """Best parlays for each tier and slate: {slate: {tier: [parlay, ...]}} (mirrored in template.html)."""
+    out = {}
+    for slate in SLATE_DAYS:
+        out[slate] = {}
+        for tid, _, lo, hi, maxl in TIERS:
+            band = (1 + hi / 100) / (1 + lo / 100)
+            out[slate][tid] = search(legs, lo, K, band=band, maxl=maxl, slate=slate)[:n]
     return out
 
 
@@ -248,6 +273,12 @@ def main():
     now = dt.datetime.now(PT)
 
     cands, seen = [], set()
+    for slate, tiers in featured(legs, K).items():          # the featured parlays get quoted first
+        for tid, ps in tiers.items():
+            for p in ps[:2]:
+                k = key(p)
+                if k not in seen:
+                    seen.add(k); cands.append(p)
     for lv in LEVELS:
         for p in search(legs, lv, K)[:PER_LEVEL]:
             k = key(p)
