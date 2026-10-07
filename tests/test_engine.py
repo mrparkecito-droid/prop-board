@@ -279,6 +279,52 @@ def test_balanced_line_picking():
     assert "Safer:" in cards and "Bigger payout:" in cards
 
 
+def test_new_qb_target_share():
+    """After a QB change, games with the new QB weigh more in target share, and the card says how it changed."""
+    import usage
+    stats = []
+    for wk, qb in ((1, "A"), (2, "A"), (3, "A"), (4, "B")):
+        stats += [{"wk": wk, "name": "W One", "team": "X", "tgt": 8 if qb == "A" else 3, "rec": 5, "rec_yd": 60},
+                  {"wk": wk, "name": "W Two", "team": "X", "tgt": 3 if qb == "A" else 8, "rec": 2, "rec_yd": 25}]
+    U = usage.build(stats, lambda n: n.lower())
+    st = {("X", w): (("a", "A") if w < 4 else ("b", "B")) for w in range(1, 5)}
+    p0, _, i0 = usage.chance("w one", "WR", "X", "rec", 4, U, {}, engine.sd_for)
+    p1, _, i1 = usage.chance("w one", "WR", "X", "rec", 4, U, {}, engine.sd_for, ("b", "B", "A", st))
+    assert p1 < p0 and i1["qbsplit"]["new"] < i1["qbsplit"]["old"]
+    assert "With B" in usage.trend_note(i1, "WR") and "down from" in usage.trend_note(i1, "WR")
+    _, _, i2 = usage.chance("w two", "WR", "X", "rec", 2, U, {}, engine.sd_for, ("b", "B", "A", st))
+    assert "up from" in usage.trend_note(i2, "WR")
+
+
+def test_featured_parlays():
+    """Safe / Medium / Flyer parlays land in their odds ranges, respect the slate filter and the per-game/player rules."""
+    import parlay
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    for i, g in enumerate(data["games"]):
+        g["date"] = "2026-10-01" if i == 0 else ("2026-10-05" if i == 1 else "2026-10-04")
+    out = engine.run(data, ov)
+    legs = engine.parlay_legs(out)
+    K = dict(parlay.PRIOR)
+    F = parlay.featured(legs, K)
+    for tid, _, lo, hi, maxl in parlay.TIERS:
+        ps = F["all"][tid]
+        assert ps, f"no {tid} parlay"
+        for p in ps:
+            dec = 1 / parlay.expected_price(p, K)
+            assert 1 + lo / 100 <= dec <= 1 + hi / 100 + 1e-9 and len(p) <= maxl
+            assert len({l["pl"] for l in p}) == len(p)
+            games = [l["g"] for l in p]
+            assert max(games.count(g) for g in games) <= 2
+    # slate filter: only that day's legs
+    days = {l["dy"] for l in legs}
+    for slate, want in (("tnf", "Thu"), ("sun", "Sun"), ("mnf", "Mon")):
+        for ps in F[slate].values():
+            for p in ps:
+                assert all(l["dy"] == want for l in p)
+    assert {"Sun", "Thu", "Mon"} <= days and F["sun"]["safe"]
+
+
 if __name__ == "__main__":
     test_week4_reproduces_published_board()
     test_page_cards_match_published_board()
@@ -291,4 +337,6 @@ if __name__ == "__main__":
     test_qb_change_game_script_and_kickoff_lock()
     test_week4_lessons()
     test_balanced_line_picking()
-    print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games, balanced line picking), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
+    test_new_qb_target_share()
+    test_featured_parlays()
+    print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games, balanced line picking, new-QB target share, featured parlays), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
