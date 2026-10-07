@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T17:41:41+00:00",
+ "generated": "2026-10-07T17:59:54+00:00",
  "games": {
   "TBDAL": {
    "home": "DAL",
@@ -45,11 +45,11 @@
     "temp": 71
    },
    "wx": {
-    "wind": 16,
+    "wind": 15,
     "gust": 21,
     "pop": 3,
     "rain": 0.0,
-    "temp": 74
+    "temp": 76
    }
   },
   "HOUTEN": {
@@ -68,11 +68,11 @@
     "temp": 69
    },
    "wx": {
-    "wind": 10,
+    "wind": 7,
     "gust": 20,
     "pop": 50,
     "rain": 0.0,
-    "temp": 69
+    "temp": 65
    }
   },
   "LVNE": {
@@ -91,11 +91,11 @@
     "temp": 67
    },
    "wx": {
-    "wind": 8,
+    "wind": 7,
     "gust": 16,
     "pop": 12,
-    "rain": 0.1,
-    "temp": 63
+    "rain": 0.3,
+    "temp": 61
    }
   },
   "MINNO": {
@@ -130,10 +130,10 @@
     "temp": 67
    },
    "wx": {
-    "wind": 8,
+    "wind": 7,
     "gust": 21,
     "pop": 47,
-    "rain": 8.5,
+    "rain": 4.3,
     "temp": 60
    }
   },
@@ -153,11 +153,11 @@
     "temp": 64
    },
    "wx": {
-    "wind": 7,
+    "wind": 6,
     "gust": 24,
     "pop": 71,
-    "rain": 0.0,
-    "temp": 62
+    "rain": 0.6,
+    "temp": 64
    }
   },
   "NYGWAS": {
@@ -176,10 +176,10 @@
     "temp": 68
    },
    "wx": {
-    "wind": 6,
+    "wind": 10,
     "gust": 24,
     "pop": 76,
-    "rain": 4.0,
+    "rain": 2.7,
     "temp": 64
    }
   },
@@ -231,11 +231,11 @@
     "temp": 59
    },
    "wx": {
-    "wind": 8,
+    "wind": 7,
     "gust": 8,
     "pop": 0,
     "rain": 0.0,
-    "temp": 58
+    "temp": 59
    }
   },
   "BALATL": {
@@ -398,6 +398,11 @@
     "status": "Out"
    },
    {
+    "name": "Kyle Monangai",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
     "name": "Cam Lewis",
     "pos": "CB",
     "status": "Questionable"
@@ -406,11 +411,6 @@
     "name": "Caleb Williams",
     "pos": "QB",
     "status": "Out"
-   },
-   {
-    "name": "Kyle Monangai",
-    "pos": "RB",
-    "status": "Questionable"
    },
    {
     "name": "Kyler Gordon",
@@ -429,6 +429,11 @@
    }
   ],
   "CIN": [
+   {
+    "name": "Ja'Marr Chase",
+    "pos": "WR",
+    "status": "Questionable"
+   },
    {
     "name": "Tee Higgins",
     "pos": "WR",
@@ -457,11 +462,6 @@
    {
     "name": "Swayze Bozeman",
     "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Ja'Marr Chase",
-    "pos": "WR",
     "status": "Questionable"
    }
   ],
@@ -866,6 +866,11 @@
   ],
   "NYJ": [
    {
+    "name": "Mason Taylor",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
     "name": "Adonai Mitchell",
     "pos": "WR",
     "status": "Doubtful"
@@ -874,11 +879,6 @@
     "name": "Breece Hall",
     "pos": "RB",
     "status": "Doubtful"
-   },
-   {
-    "name": "Mason Taylor",
-    "pos": "TE",
-    "status": "Questionable"
    },
    {
     "name": "Kiko Mauigoa",
@@ -1097,19 +1097,19 @@
   ]
  },
  "news": {
-  "sam darnold": {
-   "h": "Is Bo Nix or Sam Darnold a better fantasy play this week?",
-   "t": "2026-10-07T15:25:32Z"
-  },
   "bo nix": {
    "h": "Is Bo Nix or Sam Darnold a better fantasy play this week?",
    "t": "2026-10-07T15:25:32Z"
   },
-  "zay flowers": {
+  "sam darnold": {
+   "h": "Is Bo Nix or Sam Darnold a better fantasy play this week?",
+   "t": "2026-10-07T15:25:32Z"
+  },
+  "michael wilson": {
    "h": "Michael Wilson or Zay Flowers in Week 5? Mike Clay breaks the standoff",
    "t": "2026-10-07T15:29:27Z"
   },
-  "michael wilson": {
+  "zay flowers": {
    "h": "Michael Wilson or Zay Flowers in Week 5? Mike Clay breaks the standoff",
    "t": "2026-10-07T15:29:27Z"
   },
@@ -1133,11 +1133,11 @@
    "h": "Why Jaguars play 26 of next 30 regular-season games away from Jacksonville",
    "t": "2026-10-07T10:00:11Z"
   },
-  "jalen hurts": {
+  "george kittle": {
    "h": "Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips",
    "t": "2026-10-06T18:17:19Z"
   },
-  "george kittle": {
+  "jalen hurts": {
    "h": "Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips",
    "t": "2026-10-06T18:17:19Z"
   },
@@ -1161,151 +1161,151 @@
  "trend": {
   "keon coleman": {
    "rank": 1,
-   "adds": 5490351
+   "adds": 5497866
   },
   "dohnte meyers": {
    "rank": 2,
-   "adds": 4351185
+   "adds": 4359537
   },
   "emanuel wilson": {
    "rank": 3,
-   "adds": 2262078
+   "adds": 2265615
   },
   "roman wilson": {
    "rank": 4,
-   "adds": 1948419
+   "adds": 1952514
   },
   "will shipley": {
    "rank": 5,
-   "adds": 1844354
+   "adds": 1846552
   },
   "keaton mitchell": {
    "rank": 7,
-   "adds": 1188315
+   "adds": 1192464
   },
   "kirk cousins": {
    "rank": 8,
-   "adds": 1179064
+   "adds": 1183168
   },
   "brian robinson": {
    "rank": 9,
-   "adds": 964764
+   "adds": 967488
   },
   "romeo doubs": {
    "rank": 10,
-   "adds": 964464
+   "adds": 967416
   },
   "michael mayer": {
    "rank": 12,
-   "adds": 843057
+   "adds": 845370
   },
   "tyler higbee": {
    "rank": 13,
-   "adds": 828387
+   "adds": 832599
   },
   "mike gesicki": {
    "rank": 14,
-   "adds": 679848
+   "adds": 681940
   },
   "darius cooper": {
    "rank": 15,
-   "adds": 568785
+   "adds": 570514
   },
   "tyler allgeier": {
    "rank": 16,
-   "adds": 534885
+   "adds": 536435
   },
   "aaron rodgers": {
    "rank": 18,
-   "adds": 473700
+   "adds": 476228
   },
   "malik washington": {
    "rank": 20,
-   "adds": 392688
+   "adds": 394864
   },
   "ollie gordon": {
    "rank": 21,
-   "adds": 373513
+   "adds": 374906
   },
   "cj stroud": {
    "rank": 22,
-   "adds": 369782
+   "adds": 371595
   },
   "khalil shakir": {
    "rank": 24,
-   "adds": 346068
+   "adds": 347409
   },
   "kc concepcion": {
    "rank": 25,
-   "adds": 345510
+   "adds": 346905
   },
   "marshawn lloyd": {
    "rank": 26,
-   "adds": 328257
+   "adds": 329778
   },
   "deshaun watson": {
    "rank": 27,
-   "adds": 325552
+   "adds": 327208
   },
   "brenton strange": {
    "rank": 29,
-   "adds": 313506
+   "adds": 314964
   },
   "tre harris": {
    "rank": 30,
-   "adds": 299212
+   "adds": 300568
   },
   "austin ekeler": {
    "rank": 31,
-   "adds": 257040
+   "adds": 257728
   },
   "jayden daniels": {
    "rank": 35,
-   "adds": 214216
+   "adds": 215360
   },
   "jared goff": {
    "rank": 36,
-   "adds": 202265
+   "adds": 203075
   },
   "tyler huntley": {
    "rank": 38,
-   "adds": 198516
+   "adds": 199012
   },
   "matthew stafford": {
    "rank": 39,
-   "adds": 197946
+   "adds": 198855
   },
   "kenny gainwell": {
    "rank": 41,
-   "adds": 173752
+   "adds": 174880
   },
   "kyle monangai": {
    "rank": 42,
-   "adds": 169170
+   "adds": 169632
   },
   "tyson bagent": {
    "rank": 44,
-   "adds": 154920
+   "adds": 155508
   },
   "tj hockenson": {
    "rank": 45,
-   "adds": 147351
+   "adds": 147796
   },
   "dameon pierce": {
-   "rank": 47,
-   "adds": 136144
+   "rank": 46,
+   "adds": 143344
   },
   "efton chism": {
    "rank": 48,
-   "adds": 132540
+   "adds": 133024
   },
   "alvin kamara": {
    "rank": 49,
-   "adds": 131064
+   "adds": 131632
   },
   "devaughn vele": {
    "rank": 50,
-   "adds": 119266
+   "adds": 119882
   }
  },
  "buzz": {},
