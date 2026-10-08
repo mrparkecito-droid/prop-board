@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T20:44:53+00:00",
+ "generated": "2026-10-08T21:01:09+00:00",
  "games": {
   "TBDAL": {
    "home": "DAL",
@@ -70,7 +70,7 @@
    "wx": {
     "wind": 7,
     "gust": 17,
-    "pop": 39,
+    "pop": 32,
     "rain": 0.4,
     "temp": 64
    }
@@ -93,7 +93,7 @@
    "wx": {
     "wind": 12,
     "gust": 11,
-    "pop": 16,
+    "pop": 14,
     "rain": 0.0,
     "temp": 91
    }
@@ -116,7 +116,7 @@
    "wx": {
     "wind": 8,
     "gust": 13,
-    "pop": 7,
+    "pop": 19,
     "rain": 0.0,
     "temp": 63
    }
@@ -155,7 +155,7 @@
    "wx": {
     "wind": 8,
     "gust": 18,
-    "pop": 57,
+    "pop": 63,
     "rain": 2.4,
     "temp": 62
    }
@@ -178,7 +178,7 @@
    "wx": {
     "wind": 9,
     "gust": 29,
-    "pop": 82,
+    "pop": 78,
     "rain": 7.9,
     "temp": 58
    }
@@ -190,8 +190,8 @@
    "indoor": false,
    "neutral": false,
    "spread": {
-    "WAS": -4.5,
-    "NYG": 4.5
+    "WAS": -3.5,
+    "NYG": 3.5
    },
    "total": 41.5,
    "espn_wx": {
@@ -201,7 +201,7 @@
    "wx": {
     "wind": 13,
     "gust": 37,
-    "pop": 80,
+    "pop": 85,
     "rain": 9.6,
     "temp": 63
    }
@@ -297,6 +297,11 @@
  "inj": {
   "ARI": [
    {
+    "name": "Jeremiyah Love",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
     "name": "Dadrion Taylor-Demerson",
     "pos": "S",
     "status": "Questionable"
@@ -310,11 +315,6 @@
     "name": "Isaiah Adams",
     "pos": "G",
     "status": "Out"
-   },
-   {
-    "name": "Jeremiyah Love",
-    "pos": "RB",
-    "status": "Questionable"
    }
   ],
   "ATL": [
@@ -504,8 +504,8 @@
     "status": "Questionable"
    },
    {
-    "name": "Colbie Young",
-    "pos": "WR",
+    "name": "B.J. Hill",
+    "pos": "DT",
     "status": "Questionable"
    },
    {
@@ -516,16 +516,6 @@
    {
     "name": "Dexter Lawrence II",
     "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jordan Battle",
-    "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Barrett Carter",
-    "pos": "LB",
     "status": "Questionable"
    },
    {
@@ -546,6 +536,11 @@
   ],
   "CLE": [
    {
+    "name": "Carsen Ryan",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
     "name": "Mekhi Blackmon",
     "pos": "CB",
     "status": "Questionable"
@@ -558,11 +553,6 @@
    {
     "name": "Mike Hall Jr.",
     "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Grant Delpit",
-    "pos": "S",
     "status": "Questionable"
    },
    {
@@ -959,6 +949,16 @@
    }
   ],
   "MIA": [
+   {
+    "name": "Jaylen Wright",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Justin Joly",
+    "pos": "TE",
+    "status": "Questionable"
+   },
    {
     "name": "Caleb Douglas",
     "pos": "WR",
@@ -1402,6 +1402,21 @@
   ],
   "TEN": [
    {
+    "name": "Carnell Tate",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Gunnar Helm",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "David Martin-Robinson",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
     "name": "Amani Hooker",
     "pos": "S",
     "status": "Questionable"
@@ -1425,14 +1440,14 @@
     "name": "John Franklin-Myers",
     "pos": "DE",
     "status": "Questionable"
-   },
-   {
-    "name": "Tony Pollard",
-    "pos": "RB",
-    "status": "Questionable"
    }
   ],
   "WAS": [
+   {
+    "name": "Rachaad White",
+    "pos": "RB",
+    "status": "Questionable"
+   },
    {
     "name": "Jacory Croskey-Merritt",
     "pos": "RB",
@@ -1474,18 +1489,8 @@
     "status": "Questionable"
    },
    {
-    "name": "Ben Sinnott",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
     "name": "Chig Okonkwo",
     "pos": "TE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Rachaad White",
-    "pos": "RB",
     "status": "Questionable"
    },
    {
@@ -1501,14 +1506,6 @@
   ]
  },
  "news": {
-  "josh allen": {
-   "h": "Gerald McCoy, Stephen A. make their Bills-Rams picks for MNF",
-   "t": "2026-10-08T20:25:05Z"
-  },
-  "matthew stafford": {
-   "h": "Gerald McCoy, Stephen A. make their Bills-Rams picks for MNF",
-   "t": "2026-10-08T20:25:05Z"
-  },
   "malik washington": {
    "h": "Malik Washington's fantasy outlook",
    "t": "2026-10-08T19:56:18Z"
@@ -1581,151 +1578,151 @@
  "trend": {
   "dohnte meyers": {
    "rank": 1,
-   "adds": 3058605
+   "adds": 3068901
   },
   "keon coleman": {
    "rank": 2,
-   "adds": 3029382
+   "adds": 3033747
   },
   "roman wilson": {
    "rank": 3,
-   "adds": 1439397
+   "adds": 1450647
   },
   "will shipley": {
    "rank": 4,
-   "adds": 1210880
+   "adds": 1212440
   },
   "emanuel wilson": {
    "rank": 6,
-   "adds": 1162944
+   "adds": 1165563
   },
   "keaton mitchell": {
    "rank": 7,
-   "adds": 960120
+   "adds": 965376
   },
   "tyler higbee": {
    "rank": 8,
-   "adds": 854190
+   "adds": 860463
   },
   "kirk cousins": {
    "rank": 9,
-   "adds": 841992
+   "adds": 846640
   },
   "romeo doubs": {
    "rank": 10,
-   "adds": 692520
+   "adds": 695392
   },
   "michael mayer": {
    "rank": 11,
-   "adds": 647757
+   "adds": 650511
   },
   "brian robinson": {
    "rank": 12,
-   "adds": 595692
+   "adds": 598056
   },
   "darius cooper": {
    "rank": 13,
-   "adds": 565929
+   "adds": 570290
   },
   "mike gesicki": {
    "rank": 14,
-   "adds": 554412
+   "adds": 556364
   },
   "dameon pierce": {
    "rank": 15,
-   "adds": 539208
+   "adds": 549288
   },
   "malik washington": {
    "rank": 18,
-   "adds": 461816
+   "adds": 466152
   },
   "aaron rodgers": {
    "rank": 19,
-   "adds": 452976
+   "adds": 455848
   },
   "tyler allgeier": {
    "rank": 20,
-   "adds": 388935
+   "adds": 390090
   },
   "marshawn lloyd": {
    "rank": 21,
-   "adds": 329436
+   "adds": 331542
   },
   "khalil shakir": {
    "rank": 22,
-   "adds": 326700
+   "adds": 328698
   },
   "kc concepcion": {
    "rank": 24,
-   "adds": 302175
+   "adds": 304308
   },
   "tre harris": {
    "rank": 25,
-   "adds": 294072
+   "adds": 295564
   },
   "cj stroud": {
    "rank": 26,
-   "adds": 290773
+   "adds": 292278
   },
   "deshaun watson": {
    "rank": 27,
-   "adds": 289680
+   "adds": 291800
   },
   "brenton strange": {
    "rank": 29,
-   "adds": 281592
+   "adds": 283482
   },
   "ollie gordon": {
    "rank": 31,
-   "adds": 247912
+   "adds": 249102
   },
   "jayden daniels": {
    "rank": 32,
-   "adds": 241312
+   "adds": 243264
   },
   "austin ekeler": {
    "rank": 35,
-   "adds": 215324
+   "adds": 216876
   },
   "matthew stafford": {
    "rank": 36,
-   "adds": 209853
+   "adds": 211437
   },
   "isaiah williams": {
    "rank": 37,
-   "adds": 208596
+   "adds": 211386
   },
   "kenny gainwell": {
    "rank": 40,
-   "adds": 181880
+   "adds": 182776
   },
   "tyler huntley": {
    "rank": 41,
-   "adds": 178874
+   "adds": 179286
   },
   "jared goff": {
    "rank": 46,
-   "adds": 158960
+   "adds": 159995
   },
   "braelon allen": {
    "rank": 47,
-   "adds": 140528
+   "adds": 142916
   },
   "najee harris": {
    "rank": 48,
-   "adds": 126215
+   "adds": 127910
   },
   "tyson bagent": {
    "rank": 49,
-   "adds": 118800
+   "adds": 119526
   }
  },
  "buzz": {},
  "sources": {
   "lines": "15 games",
   "weather": "8 outdoor games",
-  "injuries": "228 players listed",
-  "news": "19 players in headlines",
+  "injuries": "229 players listed",
+  "news": "17 players in headlines",
   "sleeper_trending": "35 board players trending",
   "reddit": "unavailable"
  }
