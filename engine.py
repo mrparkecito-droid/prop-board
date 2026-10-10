@@ -34,6 +34,7 @@ MAX_PER_PLAYER, BOARD_SIZE = 2, 50
 MIN_GAMES = 2
 P_CAP = 0.97
 MARKET_BLEND = 0.30
+RETURN_PEN = 0.06   # back from missing his team's last game(s) or listed questionable: score -6%, chance leans to Kalshi
 MKT_GAP, MKT_KEEP = 0.05, 0.40   # market check: above a 5-point gap on a low-volume player, keep only 40% of the gap    # final chance = 70% model + 30% Kalshi's price (Week 4: the blend was better calibrated than either)
 CTX_WEIGHT = 0.04      # game context (lines, weather, injuries, news, buzz) moves a score at most +/-4%
 SLEEPER_STATUS = {"Questionable": "Questionable", "Doubtful": "Doubtful", "Out": "Out", "IR": "Out", "PUP": "Out", "Sus": "Out"}
@@ -243,6 +244,15 @@ def run(data, overrides=None, learned=None):
             else:
                 vals.append(s.get(STATKEY[stat], 0))
         played = [v for v in vals if v is not None]
+        # games in a row he has missed right before this one (bye weeks don't count)
+        missed = 0
+        for wk, v in zip(reversed(weeks), reversed(vals)):
+            if (team, wk) not in teamgames:
+                continue
+            if v is None or v == -1:
+                missed += 1
+            else:
+                break
         if len(played) < MIN_GAMES:
             continue
         line = m["line"]
@@ -335,6 +345,14 @@ def run(data, overrides=None, learned=None):
         if p > mq + MKT_GAP and lowvol and pos != "QB":
             p = mq + (p - mq) * MKT_KEEP
             mkt_note = f"Market check: Kalshi is lower on this low-volume {role}, so the chance leans toward its {round(mq * 100)}¢ price."
+        st_now = ((QB or {}).get("status") or {}).get(k) or SLEEPER_STATUS.get(pj.get("inj") or "", "")
+        back = missed >= 1 or st_now == "Questionable"
+        if back and p > mq:
+            # returning from injury (or playing hurt): his old games and projection don't know how healthy he is,
+            # Kalshi's price usually does
+            p = mq + (p - mq) * MKT_KEEP
+            why_ = (f"Back after missing his last {missed} game{'s' if missed > 1 else ''}" if missed else "Listed questionable")
+            mkt_note = (mkt_note + " " if mkt_note else "") + f"{why_}: rust/health risk, so the chance leans toward Kalshi's {round(mq * 100)}¢."
         roi = p / (m["ask"] / 100) - 1
         value = min(max(0.5 + roi / 1.0, 0), 1)
         agree = (pp >= 0.6) + (over == n) + (dh is not None and dc == dn)
@@ -347,6 +365,8 @@ def run(data, overrides=None, learned=None):
             data.get("context"), SLEEPER_STATUS.get(pj.get("inj") or ""))
         score *= 1 + CTX_WEIGHT * ctx
         score *= (1 + matchup.ENV_W * envf) * (1 + script.QB_W * qf) * (1 + matchup.DEPTH_W * dfac) * (1 + matchup.OFF_W * off)
+        if back:
+            score *= 1 - RETURN_PEN
         reasons = reasons + srs
         if mnote:
             reasons.append((round(0.5 * mx, 2), mnote))
@@ -355,7 +375,7 @@ def run(data, overrides=None, learned=None):
         if onote:
             reasons.append((round(off, 2) or -0.01, onote))
         if mkt_note:
-            reasons.append((-0.02, mkt_note))
+            reasons.append((-0.04 if back else -0.02, mkt_note))
         flags = []
         if status in ("Out", "Doubtful"):
             flags.append(f"Listed {status.lower()} this week")
@@ -470,7 +490,8 @@ def parlay_legs(out):
     per_game = {}
     for kk in on_board:
         per_game[game_of.get(kk)] = per_game.get(game_of.get(kk), 0) + 1
-    on_board |= {kk for kk, v in best_sc.items() if v >= PARLAY_MIN_SCORE and per_game.get(game_of.get(kk), 0) < THIN_GAME}
+    extra = {kk for kk, v in best_sc.items() if v >= PARLAY_MIN_SCORE and per_game.get(game_of.get(kk), 0) < THIN_GAME} - on_board
+    on_board |= extra
     legs = []
     for r in out["all"]:
         if (r["player"], r["stat"]) not in on_board or r.get("stale"):
@@ -482,7 +503,7 @@ def parlay_legs(out):
                      "est": 1 if r["est"] else 0, "tk": r["tk"], "ev": r["ev"],
                      "wy": context.why(r, r.get("reasons") or [])[0], "id": r.get("pid"),
                      "cx": r.get("ctx", 0), "nw": context.why(r, r.get("reasons") or [])[1], "dy": r.get("day", ""),
-                     "df": r.get("dfac", 0)})
+                     "df": r.get("dfac", 0), "xb": 1 if (r["player"], r["stat"]) in extra else 0})
     return legs
 
 

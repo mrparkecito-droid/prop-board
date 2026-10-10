@@ -345,13 +345,15 @@ body.has-slip .wrap{padding-bottom:96px}
  function cxpill(c){var v=4*(c||0);return Math.abs(v)>=0.05?'<span class="cx '+(v>0?"up":"dn")+'">Context '+(v>0?"+":"−")+Math.abs(v).toFixed(1)+'%</span> ':""}
  function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]});}
  var LOWVOL_W=0.10,SCORE_W=0.4,SLATE_DAYS={all:null,tnf:["Thu"],sun:["Sun"],mnf:["Mon"]};
- var TIERS=[["safe","Safe",200,300,5,0.62],["medium","Medium",500,600,6,0.58],["flyer","Flyer",1000,2000,8,0.50]];   /* mirrored in parlay.py */
+ var TIERS=[["safe","Safe",200,300,5,0.62,74],["medium","Medium",500,600,6,0.58,72],["flyer","Flyer",1000,2000,8,0.50,68]];   /* mirrored in parlay.py */
+ var SINGLE={tnf:1,mnf:1};
+ function legOK(x,game,slate,minc,mins){if(game!=="all"&&x.g!==game)return false;if(!inSlate(x,slate))return false;if(x.xb&&game==="all"&&!SINGLE[slate||"all"])return false;return chance(x)>=(minc||0)&&(x.sc==null?70:x.sc)>=(mins||0)}
  function legCost(x){return Math.max(-Math.log(chance(x)*HAIR)-SCORE_W*((x.sc==null?70:x.sc)-70)/100+LOWVOL_W*Math.max(0,-(x.df||0)),0.01)}
  function inSlate(x,slate){var d=SLATE_DAYS[slate||"all"];return !d||d.indexOf(x.dy)>=0}
- function search(target,game,band,maxl,slate,minc){
+ function search(target,game,band,maxl,slate,minc,mins){
   band=band||BAND;maxl=maxl||MAXL;minc=minc||0;
   var D=1+target/100,W=Math.log(D),TOP=W+Math.log(band),L=[],gs={};
-  LEGS.forEach(function(x){if(game!=="all"&&x.g!==game)return;if(!inSlate(x,slate))return;if(chance(x)<minc)return;var w=-Math.log(x.q/100)-K.k;if(w>0.01){L.push({x:x,w:w,c:legCost(x)});gs[x.g]=1}});
+  LEGS.forEach(function(x){if(!legOK(x,game,slate,minc,mins))return;var w=-Math.log(x.q/100)-K.k;if(w>0.01){L.push({x:x,w:w,c:legCost(x)});gs[x.g]=1}});
   var perGame=(game!=="all"||Object.keys(gs).length<=1)?maxl:2;
   L.sort(function(a,b){return a.c/a.w-b.c/b.w});
   if(!L.length)return[];
@@ -418,8 +420,8 @@ body.has-slip .wrap{padding-bottom:96px}
   var D=1+t[2]/100,Dh=1+t[3]/100,pool=[],seen={};
   function add(p){var k=key(p);if(seen[k])return;seen[k]=1;var q=QMAP[k],price=q?q.price:expPrice(p),dec=1/price;if(dec<D||dec>Dh)return;
    var ch=1,c=0;p.forEach(function(x){ch*=chance(x)*HAIR;c+=legCost(x)});pool.push({legs:p,price:price,src:q?q.src:"est",ch:ch,c:c-(q?0.02:0)});}
-  search(t[2],"all",Dh/D,t[4],slate,t[5]).slice(0,60).forEach(add);
-  QUOTED.forEach(function(q){if(q.legs.every(function(x){return inSlate(x,slate)&&chance(x)>=t[5]}))add(q.legs)});
+  search(t[2],"all",Dh/D,t[4],slate,t[5],t[6]).slice(0,60).forEach(add);
+  QUOTED.forEach(function(q){if(q.legs.every(function(x){return legOK(x,"all",slate,t[5],t[6])}))add(q.legs)});
   pool.sort(function(a,b){return a.c-b.c});
   var out=[];pool.forEach(function(o){if(out.length<3&&out.every(function(u){return o.legs.filter(function(x){return u.legs.indexOf(x)<0}).length>=1}))out.push(o)});
   return out;
