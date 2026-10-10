@@ -33,7 +33,8 @@ ASK_MIN, ASK_MAX = 35, 88
 MAX_PER_PLAYER, BOARD_SIZE = 2, 50
 MIN_GAMES = 2
 P_CAP = 0.97
-MARKET_BLEND = 0.30    # final chance = 70% model + 30% Kalshi's price (Week 4: the blend was better calibrated than either)
+MARKET_BLEND = 0.30
+MKT_GAP, MKT_KEEP = 0.05, 0.40   # market check: above a 5-point gap on a low-volume player, keep only 40% of the gap    # final chance = 70% model + 30% Kalshi's price (Week 4: the blend was better calibrated than either)
 CTX_WEIGHT = 0.04      # game context (lines, weather, injuries, news, buzz) moves a score at most +/-4%
 SLEEPER_STATUS = {"Questionable": "Questionable", "Doubtful": "Doubtful", "Out": "Out", "IR": "Out", "PUP": "Out", "Sus": "Out"}
 
@@ -293,7 +294,7 @@ def run(data, overrides=None, learned=None):
                 QB["now"][team], {r_["wk"]: r_.get(STATKEY[stat], 0) or 0 for r_ in prev_rows.get(k, []) if r_["team"] == team},
                 QB["pst"], uq, QB["status"].get(uq[0], "") if uq else "")
         pv = pj[stat]
-        pp = Phi((pv - line + 0.5) / sd_for(stat, pos, pv))
+        pp = usage.nb_over(line, pv) if stat == "rec" else Phi((pv - line + 0.5) / sd_for(stat, pos, pv))
         pp_raw, pu, uinfo = pp, None, None
         qbctx = None
         if qinfo and not qinfo.get("same") and QB["now"].get(team) and QB["now"][team][0] != "?":
@@ -326,6 +327,14 @@ def run(data, overrides=None, learned=None):
         p = calibrate(p_raw, m["ask"], stat, rg, learned)
         if data.get("market_blend", True):
             p = (1 - MARKET_BLEND) * p + MARKET_BLEND * (mid_price(m) / 100)
+        # market check: when the model is well above Kalshi on a low-volume player (WR3s, backups, few targets
+        # or carries), the market has been right more often, so most of that gap is taken back
+        mq = mid_price(m) / 100
+        lowvol = dfac <= -0.2 or (uinfo or {}).get("opp", 99) < (10 if stat == "rush" else 4.5) or role in matchup.ROLE_PEN
+        mkt_note = ""
+        if p > mq + MKT_GAP and lowvol and pos != "QB":
+            p = mq + (p - mq) * MKT_KEEP
+            mkt_note = f"Market check: Kalshi is lower on this low-volume {role}, so the chance leans toward its {round(mq * 100)}¢ price."
         roi = p / (m["ask"] / 100) - 1
         value = min(max(0.5 + roi / 1.0, 0), 1)
         agree = (pp >= 0.6) + (over == n) + (dh is not None and dc == dn)
@@ -345,6 +354,8 @@ def run(data, overrides=None, learned=None):
             reasons.append((round(dfac, 2) or -0.01, dnote))
         if onote:
             reasons.append((round(off, 2) or -0.01, onote))
+        if mkt_note:
+            reasons.append((-0.02, mkt_note))
         flags = []
         if status in ("Out", "Doubtful"):
             flags.append(f"Listed {status.lower()} this week")
@@ -442,11 +453,24 @@ def _day(d):
 
 
 PARLAY_ASK_MAX = 92
+PARLAY_MIN_SCORE = 65     # in a thin game (fewer than THIN_GAME board ladders), ladders scoring this much can feed parlays too
+THIN_GAME = 8
 
 
 def parlay_legs(out):
     """Rungs the parlay builder may use: every fair-priced rung on the ladders that made the board."""
     on_board = {(r["player"], r["stat"]) for r in out["top"]}
+    # also any ladder that scores well even if it missed the weekly top 50: a single-game slate (TNF/MNF)
+    # otherwise only has a handful of players and the parlay builder is forced to stretch them to risky lines
+    best_sc = {}
+    for r in out["all"]:
+        if not r.get("est") and not r.get("stale") and ASK_MIN <= r["ask"] <= ASK_MAX:
+            kk = (r["player"], r["stat"]); best_sc[kk] = max(best_sc.get(kk, 0), r["score"])
+    game_of = {(r["player"], r["stat"]): r["game"] for r in out["all"]}
+    per_game = {}
+    for kk in on_board:
+        per_game[game_of.get(kk)] = per_game.get(game_of.get(kk), 0) + 1
+    on_board |= {kk for kk, v in best_sc.items() if v >= PARLAY_MIN_SCORE and per_game.get(game_of.get(kk), 0) < THIN_GAME}
     legs = []
     for r in out["all"]:
         if (r["player"], r["stat"]) not in on_board or r.get("stale"):
@@ -457,7 +481,8 @@ def parlay_legs(out):
                      "pr": r["prop"], "ln": r["line"], "ask": r["ask"], "q": r["mid"], "p": r["pc"], "sc": r["score"],
                      "est": 1 if r["est"] else 0, "tk": r["tk"], "ev": r["ev"],
                      "wy": context.why(r, r.get("reasons") or [])[0], "id": r.get("pid"),
-                     "cx": r.get("ctx", 0), "nw": context.why(r, r.get("reasons") or [])[1], "dy": r.get("day", "")})
+                     "cx": r.get("ctx", 0), "nw": context.why(r, r.get("reasons") or [])[1], "dy": r.get("day", ""),
+                     "df": r.get("dfac", 0)})
     return legs
 
 

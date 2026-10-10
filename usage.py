@@ -27,6 +27,24 @@ PREV_HIT_CAP = 3.0    # last season's games together worth at most 3 current gam
 PREV_HIT_PER = 0.25   # ...and each one a quarter of a current game
 
 
+REC_DISPERSION = 1.25   # catches vary more than a normal curve allows: variance = 1.25 x the mean (negative binomial)
+
+
+def nb_over(line, mean, phi=REC_DISPERSION):
+    """P(catches >= line) when catches ~ negative binomial with this mean (variance = phi x mean).
+    A normal curve made low lines like 2+ or 3+ catches look too safe; counts are lumpy and can't go below 0."""
+    mean = max(mean, 0.05)
+    k = int(math.ceil(line - 1e-9))
+    p = 1 / phi
+    r = mean * p / (1 - p)
+    pmf = p ** r
+    cdf = 0.0
+    for x in range(k):
+        cdf += pmf
+        pmf *= (x + r) / (x + 1) * (1 - p)
+    return max(0.0, min(1.0, 1 - cdf))
+
+
 QB_GAME_W = 3.0      # after a QB change, each game with the new QB counts 3x in the target-share estimate
 
 
@@ -130,7 +148,7 @@ def chance(name_key, pos, team, stat, line, U, prev, sd_for, qb=None):
     if not opp:
         return None
     mu = opp * eff
-    pu = Phi((mu - line + 0.5) / sd_for(stat, pos, mu))
+    pu = nb_over(line, mu) if stat == "rec" else Phi((mu - line + 0.5) / sd_for(stat, pos, mu))
     snaps = [g["snap"] for g in G if g["snap"] is not None]
     info["snap"] = round(100 * _wavg(snaps)) if snaps else None
     info["snap_last"] = round(100 * snaps[-1]) if snaps else None

@@ -58,16 +58,18 @@ def key(legs):
 
 
 SCORE_W = 0.4      # a leg's overall board score nudges its cost: 85 -> like +6% chance, 55 -> like -6%
+LOWVOL_W = 0.10    # low-volume legs (WR3s, backup RBs, few expected targets) are boom-or-bust: extra cost in parlays
 SLATE_DAYS = {"all": None, "tnf": {"Thu"}, "sun": {"Sun"}, "mnf": {"Mon"}}
 # Featured parlays (mirrored in template.html): (id, name, low odds, high odds, max legs)
-TIERS = [("safe", "Safe", 200, 300, 4), ("medium", "Medium", 500, 600, 6), ("flyer", "Flyer", 1000, 2000, 8)]
+# (id, name, low odds, high odds, max legs, minimum chance for every leg)
+TIERS = [("safe", "Safe", 200, 300, 5, 0.62), ("medium", "Medium", 500, 600, 6, 0.58), ("flyer", "Flyer", 1000, 2000, 8, 0.50)]
 
 
 def leg_cost(x):
-    return max(-math.log(chance(x) * HAIR) - SCORE_W * (x.get("sc", 70) - 70) / 100, 0.01)
+    return max(-math.log(chance(x) * HAIR) - SCORE_W * (x.get("sc", 70) - 70) / 100 + LOWVOL_W * max(0.0, -(x.get("df") or 0)), 0.01)
 
 
-def search(legs, target, K, game="all", band=BAND, maxl=MAXL, slate="all"):
+def search(legs, target, K, game="all", band=BAND, maxl=MAXL, slate="all", minc=0.0):
     """Highest-confidence parlays whose expected Kalshi odds land between +target and band x that."""
     D = 1 + target / 100
     W = math.log(D)
@@ -77,6 +79,8 @@ def search(legs, target, K, game="all", band=BAND, maxl=MAXL, slate="all"):
         if game != "all" and x["g"] != game:
             continue
         if days and x.get("dy") not in days:
+            continue
+        if chance(x) < minc:
             continue
         w = -math.log(x["q"] / 100) - K["k"]
         if w > 0.01:
@@ -123,9 +127,9 @@ def featured(legs, K, n=3):
     out = {}
     for slate in SLATE_DAYS:
         out[slate] = {}
-        for tid, _, lo, hi, maxl in TIERS:
+        for tid, _, lo, hi, maxl, minc in TIERS:
             band = (1 + hi / 100) / (1 + lo / 100)
-            out[slate][tid] = search(legs, lo, K, band=band, maxl=maxl, slate=slate)[:n]
+            out[slate][tid] = search(legs, lo, K, band=band, maxl=maxl, slate=slate, minc=minc)[:n]
     return out
 
 
