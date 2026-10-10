@@ -307,7 +307,7 @@ def test_featured_parlays():
     legs = engine.parlay_legs(out)
     K = dict(parlay.PRIOR)
     F = parlay.featured(legs, K)
-    for tid, _, lo, hi, maxl, minc in parlay.TIERS:
+    for tid, _, lo, hi, maxl, minc, mins in parlay.TIERS:
         ps = F["all"][tid]
         assert ps, f"no {tid} parlay"
         for p in ps:
@@ -339,10 +339,29 @@ def test_tnf_review():
     # market check: a low-volume player the model likes far more than Kalshi gets pulled toward Kalshi's price
     checked = [r for r in out["all"] if any("Market check" in t for _, t in r["reasons"])]
     assert checked and all(r["pc"] - r["mid"] / 100 < 0.15 for r in checked)
-    floors = {t[0]: t[5] for t in parlay.TIERS}
-    for tid, ps in F["all"].items():
-        for p in ps:
-            assert all(parlay.chance(l) >= floors[tid] - 1e-9 for l in p)
+    floors = {t[0]: (t[5], t[6]) for t in parlay.TIERS}
+    for slate in F:
+        for tid, ps in F[slate].items():
+            for p in ps:
+                assert all(parlay.chance(l) >= floors[tid][0] - 1e-9 and l["sc"] >= floors[tid][1] for l in p)
+                if slate not in parlay.SINGLE:
+                    assert not any(l["xb"] for l in p)      # thin-game extras only on TNF/MNF slates
+
+
+def test_returning_player():
+    """A player back from missing games (or listed questionable) leans toward Kalshi's price and loses a little score."""
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    base = {(r["player"], r["stat"], r["line"]): r for r in engine.run(data, ov)["all"]}
+    r0 = max((r for r in base.values() if r["pos"] != "QB" and r["pc"] > r["mid"] / 100 + 0.04 and r["n"] >= 3),
+             key=lambda r: r["score"])
+    d2 = json.loads(json.dumps(data))
+    last = max(s["wk"] for s in d2["stats"])
+    d2["stats"] = [s for s in d2["stats"] if not (s["name"] == r0["player"] and s["wk"] == last)]
+    r1 = {(r["player"], r["stat"], r["line"]): r for r in engine.run(d2, ov)["all"]}.get((r0["player"], r0["stat"], r0["line"]))
+    if r1:
+        assert r1["pc"] - r1["mid"] / 100 <= 0.4 * (r0["pc"] - r0["mid"] / 100) + 0.03
+        assert any("Back after missing" in t for _, t in r1["reasons"])
 
 
 if __name__ == "__main__":
@@ -360,4 +379,5 @@ if __name__ == "__main__":
     test_new_qb_target_share()
     test_featured_parlays()
     test_tnf_review()
+    test_returning_player()
     print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games, balanced line picking, new-QB target share, featured parlays, TNF review), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
