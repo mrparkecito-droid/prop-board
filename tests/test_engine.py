@@ -307,7 +307,7 @@ def test_featured_parlays():
     legs = engine.parlay_legs(out)
     K = dict(parlay.PRIOR)
     F = parlay.featured(legs, K)
-    for tid, _, lo, hi, maxl in parlay.TIERS:
+    for tid, _, lo, hi, maxl, minc in parlay.TIERS:
         ps = F["all"][tid]
         assert ps, f"no {tid} parlay"
         for p in ps:
@@ -325,6 +325,26 @@ def test_featured_parlays():
     assert {"Sun", "Thu", "Mon"} <= days and F["sun"]["safe"]
 
 
+def test_tnf_review():
+    """Catches use a lumpy count model (a normal curve made 2+/3+ catches look too safe); thin single-game slates
+    can draw on more of that game's props; every featured leg clears its tier's confidence floor."""
+    import usage, parlay
+    assert abs(usage.nb_over(3, 2.9) - 0.53) < 0.02          # was ~0.62 with the normal curve
+    assert usage.nb_over(2, 3.5) < engine.Phi((3.5 - 2 + 0.5) / engine.sd_for("rec", "WR", 3.5))
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    out = engine.run(data, ov)
+    legs = engine.parlay_legs(out)
+    F = parlay.featured(legs, dict(parlay.PRIOR))
+    # market check: a low-volume player the model likes far more than Kalshi gets pulled toward Kalshi's price
+    checked = [r for r in out["all"] if any("Market check" in t for _, t in r["reasons"])]
+    assert checked and all(r["pc"] - r["mid"] / 100 < 0.15 for r in checked)
+    floors = {t[0]: t[5] for t in parlay.TIERS}
+    for tid, ps in F["all"].items():
+        for p in ps:
+            assert all(parlay.chance(l) >= floors[tid] - 1e-9 for l in p)
+
+
 if __name__ == "__main__":
     test_week4_reproduces_published_board()
     test_page_cards_match_published_board()
@@ -339,4 +359,5 @@ if __name__ == "__main__":
     test_balanced_line_picking()
     test_new_qb_target_share()
     test_featured_parlays()
-    print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games, balanced line picking, new-QB target share, featured parlays), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
+    test_tnf_review()
+    print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games, balanced line picking, new-QB target share, featured parlays, TNF review), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
