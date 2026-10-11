@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T15:57:12+00:00",
+ "generated": "2026-10-11T16:00:20+00:00",
  "games": {
   "PHIJAX": {
    "home": "JAX",
@@ -51,7 +51,7 @@
    "wx": {
     "wind": 9,
     "gust": 18,
-    "pop": 2,
+    "pop": 1,
     "rain": 0.0,
     "temp": 66
    }
@@ -74,7 +74,7 @@
    "wx": {
     "wind": 10,
     "gust": 14,
-    "pop": 2,
+    "pop": 3,
     "rain": 0.0,
     "temp": 90
    }
@@ -136,7 +136,7 @@
    "wx": {
     "wind": 11,
     "gust": 25,
-    "pop": 93,
+    "pop": 80,
     "rain": 2.1,
     "temp": 64
    }
@@ -159,7 +159,7 @@
    "wx": {
     "wind": 9,
     "gust": 24,
-    "pop": 82,
+    "pop": 75,
     "rain": 0.4,
     "temp": 64
    }
@@ -182,7 +182,7 @@
    "wx": {
     "wind": 11,
     "gust": 29,
-    "pop": 74,
+    "pop": 85,
     "rain": 1.2,
     "temp": 66
    }
@@ -420,7 +420,7 @@
    {
     "name": "Caleb Williams",
     "pos": "QB",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Shemar Turner",
@@ -642,19 +642,39 @@
   ],
   "HOU": [
    {
-    "name": "Aireontae Ersery",
-    "pos": "OT",
-    "status": "Questionable"
+    "name": "Marlin Klein",
+    "pos": "TE",
+    "status": "Out"
    },
    {
-    "name": "Ed Ingram",
+    "name": "Collin Wright",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Nate Thomas",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Febechi Nwaiwu",
     "pos": "G",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
-    "name": "Blake Fisher",
-    "pos": "OT",
-    "status": "Questionable"
+    "name": "Aiden Fisher",
+    "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "Sabastian Harsh",
+    "pos": "DE",
+    "status": "Out"
+   },
+   {
+    "name": "Chris Braswell",
+    "pos": "DE",
+    "status": "Out"
    }
   ],
   "IND": [
@@ -903,6 +923,11 @@
     "status": "Out"
    },
    {
+    "name": "Odell Beckham Jr.",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
     "name": "Max Brosmer",
     "pos": "QB",
     "status": "Out"
@@ -911,16 +936,6 @@
     "name": "Jordan Addison",
     "pos": "WR",
     "status": "Out"
-   },
-   {
-    "name": "Michael Jurgens",
-    "pos": "C",
-    "status": "Questionable"
-   },
-   {
-    "name": "Ben Yurosek",
-    "pos": "TE",
-    "status": "Questionable"
    }
   ],
   "NE": [
@@ -1044,35 +1059,60 @@
   ],
   "NYG": [
    {
+    "name": "Devin Singletary",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
     "name": "Jason Pinnock",
     "pos": "S",
+    "status": "Out"
+   },
+   {
+    "name": "Nikko Reed",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Bobby Jamison-Travis",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "J.C. Davis",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Jake Haener",
+    "pos": "QB",
     "status": "Out"
    }
   ],
   "NYJ": [
+   {
+    "name": "Nahshon Wright",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Adonai Mitchell",
+    "pos": "WR",
+    "status": "Out"
+   },
    {
     "name": "Dylan Parham",
     "pos": "G",
     "status": "Out"
    },
    {
-    "name": "Will McDonald IV",
+    "name": "Nate Lynn",
     "pos": "DE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Kingsley Enagbare",
-    "pos": "LB",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
     "name": "Kiko Mauigoa",
     "pos": "LB",
-    "status": "Out"
-   },
-   {
-    "name": "Adonai Mitchell",
-    "pos": "WR",
     "status": "Out"
    },
    {
@@ -1528,7 +1568,7 @@
  "sources": {
   "lines": "13 games",
   "weather": "8 outdoor games",
-  "injuries": "195 players listed",
+  "injuries": "203 players listed",
   "news": "11 players in headlines",
   "sleeper_trending": "40 board players trending",
   "reddit": "unavailable"
