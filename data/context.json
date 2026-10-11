@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T15:31:03+00:00",
+ "generated": "2026-10-11T15:40:18+00:00",
  "games": {
   "PHIJAX": {
    "home": "JAX",
@@ -23,11 +23,11 @@
    "total": 47.5,
    "espn_wx": {
     "desc": "Partly sunny",
-    "temp": 75
+    "temp": 74
    },
    "wx": {
     "wind": 12,
-    "gust": 21,
+    "gust": 22,
     "pop": 0,
     "rain": 0.0,
     "temp": 76
@@ -49,11 +49,11 @@
     "temp": 65
    },
    "wx": {
-    "wind": 8,
-    "gust": 15,
+    "wind": 9,
+    "gust": 18,
     "pop": 2,
     "rain": 0.0,
-    "temp": 65
+    "temp": 66
    }
   },
   "CINMIA": {
@@ -91,15 +91,15 @@
    },
    "total": 45.5,
    "espn_wx": {
-    "desc": "Cloudy",
+    "desc": "Showers",
     "temp": 59
    },
    "wx": {
-    "wind": 6,
-    "gust": 14,
+    "wind": 7,
+    "gust": 16,
     "pop": 8,
     "rain": 0.0,
-    "temp": 63
+    "temp": 62
    }
   },
   "MINNO": {
@@ -115,7 +115,7 @@
    "total": 41.5,
    "espn_wx": {
     "desc": "Mostly sunny",
-    "temp": 81
+    "temp": 84
    }
   },
   "CLENYJ": {
@@ -134,11 +134,11 @@
     "temp": 61
    },
    "wx": {
-    "wind": 12,
+    "wind": 11,
     "gust": 25,
     "pop": 93,
-    "rain": 0.7,
-    "temp": 65
+    "rain": 2.1,
+    "temp": 64
    }
   },
   "INDPIT": {
@@ -153,15 +153,15 @@
    },
    "total": 41.5,
    "espn_wx": {
-    "desc": "Cloudy",
+    "desc": "Rain",
     "temp": 61
    },
    "wx": {
     "wind": 9,
-    "gust": 29,
+    "gust": 24,
     "pop": 82,
     "rain": 0.4,
-    "temp": 66
+    "temp": 64
    }
   },
   "NYGWAS": {
@@ -176,15 +176,15 @@
    },
    "total": 41.5,
    "espn_wx": {
-    "desc": "Cloudy",
-    "temp": 63
+    "desc": "Showers",
+    "temp": 65
    },
    "wx": {
-    "wind": 14,
-    "gust": 34,
+    "wind": 11,
+    "gust": 29,
     "pop": 74,
-    "rain": 4.6,
-    "temp": 67
+    "rain": 1.2,
+    "temp": 66
    }
   },
   "DENLAC": {
@@ -235,8 +235,8 @@
     "temp": 57
    },
    "wx": {
-    "wind": 10,
-    "gust": 18,
+    "wind": 9,
+    "gust": 17,
     "pop": 0,
     "rain": 0.0,
     "temp": 57
@@ -450,14 +450,19 @@
   ],
   "CIN": [
    {
-    "name": "Tee Higgins",
+    "name": "Colbie Young",
     "pos": "WR",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
-    "name": "Ja'Marr Chase",
-    "pos": "WR",
-    "status": "Questionable"
+    "name": "Landon Robinson",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Connor Lew",
+    "pos": "C",
+    "status": "Out"
    },
    {
     "name": "Kyle Dugger",
@@ -465,19 +470,14 @@
     "status": "Out"
    },
    {
-    "name": "Bryan Cook",
-    "pos": "S",
-    "status": "Questionable"
+    "name": "Jack Endries",
+    "pos": "TE",
+    "status": "Out"
    },
    {
-    "name": "Colbie Young",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Swayze Bozeman",
-    "pos": "LB",
-    "status": "Questionable"
+    "name": "Myles Hinton",
+    "pos": "OT",
+    "status": "Out"
    }
   ],
   "CLE": [
@@ -654,12 +654,22 @@
   ],
   "IND": [
    {
-    "name": "Keenan Allen",
+    "name": "Darius Slayton",
     "pos": "WR",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
-    "name": "Darius Slayton",
+    "name": "Dalton Tucker",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Riley Leonard",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Ashton Dulin",
     "pos": "WR",
     "status": "Out"
    },
@@ -672,11 +682,6 @@
     "name": "Charvarius Ward",
     "pos": "CB",
     "status": "Questionable"
-   },
-   {
-    "name": "Ashton Dulin",
-    "pos": "WR",
-    "status": "Out"
    }
   ],
   "JAX": [
@@ -1188,18 +1193,38 @@
   ],
   "TEN": [
    {
-    "name": "Carnell Tate",
-    "pos": "WR",
-    "status": "Questionable"
+    "name": "Nicholas Singleton",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
+    "name": "Jaylon Jones",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Jackie Marshall",
+    "pos": "DT",
+    "status": "Out"
    },
    {
     "name": "David Martin-Robinson",
     "pos": "TE",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Brandon Crenshaw-Dickson",
+    "pos": "OT",
+    "status": "Out"
    },
    {
     "name": "Amani Hooker",
     "pos": "S",
+    "status": "Out"
+   },
+   {
+    "name": "Michael Carter",
+    "pos": "RB",
     "status": "Out"
    }
   ],
@@ -1270,11 +1295,11 @@
    "h": "How wild-card game sent Bears, Packers in opposite directions",
    "t": "2026-10-10T10:00:01Z"
   },
-  "cj stroud": {
+  "cam ward": {
    "h": "Texans, Titans face off desperately seeking first win after 0-4 starts",
    "t": "2026-10-10T10:00:01Z"
   },
-  "cam ward": {
+  "cj stroud": {
    "h": "Texans, Titans face off desperately seeking first win after 0-4 starts",
    "t": "2026-10-10T10:00:01Z"
   },
@@ -1290,174 +1315,174 @@
  "trend": {
   "roschon johnson": {
    "rank": 1,
-   "adds": 982552
+   "adds": 986208
   },
   "roman wilson": {
    "rank": 2,
-   "adds": 768123
+   "adds": 747738
   },
   "darius cooper": {
    "rank": 3,
-   "adds": 414148
+   "adds": 412580
   },
   "dameon pierce": {
    "rank": 4,
-   "adds": 361560
+   "adds": 348120
   },
   "efton chism": {
    "rank": 6,
-   "adds": 272688
+   "adds": 274920
   },
   "tyler higbee": {
    "rank": 7,
-   "adds": 262377
+   "adds": 259974
   },
   "malik washington": {
    "rank": 8,
-   "adds": 215904
+   "adds": 214440
   },
   "keaton mitchell": {
    "rank": 9,
-   "adds": 214164
-  },
-  "marshawn lloyd": {
-   "rank": 10,
-   "adds": 201330
-  },
-  "tre harris": {
-   "rank": 11,
-   "adds": 196356
+   "adds": 210060
   },
   "kendrick bourne": {
+   "rank": 10,
+   "adds": 199359
+  },
+  "marshawn lloyd": {
+   "rank": 11,
+   "adds": 199170
+  },
+  "tre harris": {
    "rank": 12,
-   "adds": 194415
+   "adds": 198228
   },
   "kirk cousins": {
    "rank": 13,
-   "adds": 188672
-  },
-  "dohnte meyers": {
-   "rank": 14,
-   "adds": 180774
+   "adds": 186288
   },
   "keon coleman": {
+   "rank": 14,
+   "adds": 174078
+  },
+  "dohnte meyers": {
    "rank": 15,
-   "adds": 174330
+   "adds": 173862
   },
   "romeo doubs": {
    "rank": 16,
-   "adds": 173808
+   "adds": 173024
   },
   "khalil shakir": {
    "rank": 18,
-   "adds": 133542
+   "adds": 133047
   },
   "pierre strong": {
    "rank": 19,
-   "adds": 131004
+   "adds": 130437
   },
   "michael mayer": {
    "rank": 21,
-   "adds": 114309
+   "adds": 112572
   },
   "isaiah williams": {
    "rank": 22,
-   "adds": 108972
+   "adds": 104628
   },
   "aaron rodgers": {
    "rank": 23,
-   "adds": 105116
+   "adds": 103892
   },
   "brian robinson": {
    "rank": 24,
-   "adds": 97074
+   "adds": 94848
   },
   "mike washington": {
    "rank": 25,
-   "adds": 93250
-  },
-  "mike gesicki": {
-   "rank": 27,
-   "adds": 86288
+   "adds": 93390
   },
   "cj stroud": {
-   "rank": 28,
-   "adds": 86219
+   "rank": 27,
+   "adds": 85589
   },
-  "kc concepcion": {
-   "rank": 29,
-   "adds": 79929
+  "mike gesicki": {
+   "rank": 28,
+   "adds": 84024
   },
   "deshaun watson": {
-   "rank": 31,
-   "adds": 79160
+   "rank": 29,
+   "adds": 78288
+  },
+  "kc concepcion": {
+   "rank": 30,
+   "adds": 78174
   },
   "braelon allen": {
    "rank": 33,
-   "adds": 77284
-  },
-  "brenton strange": {
-   "rank": 34,
-   "adds": 74142
+   "adds": 74468
   },
   "treylon burks": {
+   "rank": 34,
+   "adds": 73836
+  },
+  "brenton strange": {
    "rank": 35,
-   "adds": 73143
+   "adds": 72099
   },
   "emanuel wilson": {
    "rank": 36,
-   "adds": 68931
+   "adds": 67725
   },
   "jayden daniels": {
    "rank": 37,
-   "adds": 65600
+   "adds": 63800
   },
   "tre tucker": {
-   "rank": 39,
-   "adds": 61824
+   "rank": 38,
+   "adds": 62280
   },
   "courtland sutton": {
-   "rank": 41,
-   "adds": 59940
+   "rank": 40,
+   "adds": 59301
   },
   "austin ekeler": {
    "rank": 42,
-   "adds": 59744
-  },
-  "will shipley": {
-   "rank": 43,
-   "adds": 57246
+   "adds": 59040
   },
   "alvin kamara": {
-   "rank": 44,
-   "adds": 57160
-  },
-  "matthew stafford": {
-   "rank": 45,
-   "adds": 56079
+   "rank": 43,
+   "adds": 56608
   },
   "kyler murray": {
-   "rank": 46,
-   "adds": 55832
+   "rank": 44,
+   "adds": 56024
   },
-  "tyler allgeier": {
-   "rank": 47,
-   "adds": 48005
+  "will shipley": {
+   "rank": 45,
+   "adds": 55610
+  },
+  "matthew stafford": {
+   "rank": 46,
+   "adds": 55107
   },
   "cody white": {
-   "rank": 48,
-   "adds": 47724
+   "rank": 47,
+   "adds": 48024
+  },
+  "tyler allgeier": {
+   "rank": 49,
+   "adds": 46690
   },
   "bo nix": {
    "rank": 50,
-   "adds": 46986
+   "adds": 46248
   }
  },
  "buzz": {},
  "sources": {
   "lines": "13 games",
   "weather": "8 outdoor games",
-  "injuries": "180 players listed",
+  "injuries": "185 players listed",
   "news": "11 players in headlines",
   "sleeper_trending": "41 board players trending",
   "reddit": "unavailable"
