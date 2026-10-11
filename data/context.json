@@ -1,6 +1,55 @@
 {
- "generated": "2026-10-11T20:01:01+00:00",
+ "generated": "2026-10-11T20:21:29+00:00",
  "games": {
+  "CINMIA": {
+   "home": "MIA",
+   "away": "CIN",
+   "kick": "2026-10-11T17:00Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {},
+   "total": null,
+   "wx": {
+    "wind": 9,
+    "gust": 13,
+    "pop": 3,
+    "rain": 0.0,
+    "temp": 91
+   }
+  },
+  "NYGWAS": {
+   "home": "WAS",
+   "away": "NYG",
+   "kick": "2026-10-11T17:00Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {},
+   "total": null,
+   "espn_wx": {
+    "desc": "12",
+    "temp": 66
+   },
+   "wx": {
+    "wind": 11,
+    "gust": 24,
+    "pop": 80,
+    "rain": 3.6,
+    "temp": 64
+   }
+  },
+  "DENLAC": {
+   "home": "LAC",
+   "away": "DEN",
+   "kick": "2026-10-11T20:05Z",
+   "indoor": true,
+   "neutral": false,
+   "spread": {},
+   "total": null,
+   "espn_wx": {
+    "desc": "7",
+    "temp": 70
+   }
+  },
   "CHIGB": {
    "home": "GB",
    "away": "CHI",
@@ -9,10 +58,6 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 80
-   },
    "wx": {
     "wind": 11,
     "gust": 20,
@@ -37,26 +82,6 @@
     "temp": 66
    }
   },
-  "CINMIA": {
-   "home": "MIA",
-   "away": "CIN",
-   "kick": "2026-10-11T17:00Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "2",
-    "temp": 90
-   },
-   "wx": {
-    "wind": 9,
-    "gust": 13,
-    "pop": 3,
-    "rain": 0.0,
-    "temp": 91
-   }
-  },
   "LVNE": {
    "home": "NE",
    "away": "LV",
@@ -65,10 +90,6 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "12",
-    "temp": 58
-   },
    "wx": {
     "wind": 6,
     "gust": 14,
@@ -94,10 +115,6 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "18",
-    "temp": 59
-   },
    "wx": {
     "wind": 11,
     "gust": 30,
@@ -114,52 +131,12 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "6",
-    "temp": 64
-   },
    "wx": {
     "wind": 9,
     "gust": 29,
     "pop": 85,
     "rain": 0.0,
     "temp": 61
-   }
-  },
-  "NYGWAS": {
-   "home": "WAS",
-   "away": "NYG",
-   "kick": "2026-10-11T17:00Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "12",
-    "temp": 67
-   },
-   "wx": {
-    "wind": 11,
-    "gust": 24,
-    "pop": 80,
-    "rain": 3.6,
-    "temp": 64
-   }
-  },
-  "DENLAC": {
-   "home": "LAC",
-   "away": "DEN",
-   "kick": "2026-10-11T20:05Z",
-   "indoor": true,
-   "neutral": false,
-   "spread": {
-    "DEN": -3.5,
-    "LAC": 3.5
-   },
-   "total": 42.5,
-   "espn_wx": {
-    "desc": "Rain",
-    "temp": 70
    }
   },
   "DETARI": {
@@ -377,18 +354,13 @@
   ],
   "CHI": [
    {
-    "name": "Anthony Johnson Jr.",
-    "pos": "S",
-    "status": "Out"
+    "name": "Dayo Odeyingbo",
+    "pos": "DE",
+    "status": "Questionable"
    },
    {
     "name": "Tyrique Stevenson Sr.",
     "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Dayo Odeyingbo",
-    "pos": "DE",
     "status": "Questionable"
    },
    {
@@ -475,6 +447,11 @@
    }
   ],
   "CLE": [
+   {
+    "name": "Raheim Sanders",
+    "pos": "RB",
+    "status": "Questionable"
+   },
    {
     "name": "Tytus Howard",
     "pos": "OT",
@@ -674,6 +651,11 @@
     "status": "Out"
    },
    {
+    "name": "Javon Hargrave",
+    "pos": "DT",
+    "status": "Questionable"
+   },
+   {
     "name": "Donovan Jennings",
     "pos": "G",
     "status": "Out"
@@ -686,9 +668,14 @@
   ],
   "HOU": [
    {
+    "name": "Jalen Pitre",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
     "name": "David Montgomery",
     "pos": "RB",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Marlin Klein",
@@ -910,13 +897,13 @@
   ],
   "MIA": [
    {
-    "name": "Michael Taaffe",
-    "pos": "S",
+    "name": "JuJu Brents",
+    "pos": "CB",
     "status": "Questionable"
    },
    {
-    "name": "JuJu Brents",
-    "pos": "CB",
+    "name": "Michael Taaffe",
+    "pos": "S",
     "status": "Questionable"
    },
    {
@@ -969,7 +956,7 @@
    {
     "name": "T.J. Hockenson",
     "pos": "TE",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Max Brosmer",
@@ -1027,6 +1014,11 @@
     "name": "Behren Morton",
     "pos": "QB",
     "status": "Out"
+   },
+   {
+    "name": "Dre'Mont Jones",
+    "pos": "DE",
+    "status": "Questionable"
    },
    {
     "name": "Karon Prunty",
@@ -1098,13 +1090,13 @@
     "status": "Questionable"
    },
    {
-    "name": "Tyler Nubin",
-    "pos": "S",
+    "name": "Colton Hood",
+    "pos": "CB",
     "status": "Questionable"
    },
    {
-    "name": "Colton Hood",
-    "pos": "CB",
+    "name": "Tyler Nubin",
+    "pos": "S",
     "status": "Questionable"
    },
    {
@@ -1241,7 +1233,7 @@
    {
     "name": "Roman Wilson",
     "pos": "WR",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Eli Heidenreich",
@@ -1471,6 +1463,10 @@
   ]
  },
  "news": {
+  "treveyon henderson": {
+   "h": "Patriots rule out TreVeyon Henderson, Will Campbell",
+   "t": "2026-10-11T20:06:19Z"
+  },
   "david montgomery": {
    "h": "Texans RB David Montgomery ruled out with groin injury",
    "t": "2026-10-11T19:14:53Z"
@@ -1499,11 +1495,11 @@
    "h": "Doctors fear risk of further Jayden Daniels elbow injury",
    "t": "2026-10-11T16:25:39Z"
   },
-  "drake london": {
+  "bijan robinson": {
    "h": "How to bet Ravens-Falcons on SNF: Analysis, tips and top prop plays",
    "t": "2026-10-11T10:31:04Z"
   },
-  "bijan robinson": {
+  "drake london": {
    "h": "How to bet Ravens-Falcons on SNF: Analysis, tips and top prop plays",
    "t": "2026-10-11T10:31:04Z"
   },
@@ -1514,196 +1510,180 @@
   "christian mccaffrey": {
    "h": "Christian McCaffrey, Olivia Culpo announce birth of second child",
    "t": "2026-10-10T23:02:08Z"
-  },
-  "joe burrow": {
-   "h": "Can Burrow, Bengals establish identity vs. Dolphins?",
-   "t": "2026-10-10T10:00:10Z"
-  },
-  "jordan love": {
-   "h": "How wild-card game sent Bears, Packers in opposite directions",
-   "t": "2026-10-10T10:00:01Z"
-  },
-  "cam ward": {
-   "h": "Texans, Titans face off desperately seeking first win after 0-4 starts",
-   "t": "2026-10-10T10:00:01Z"
-  },
-  "cj stroud": {
-   "h": "Texans, Titans face off desperately seeking first win after 0-4 starts",
-   "t": "2026-10-10T10:00:01Z"
   }
  },
  "trend": {
   "roschon johnson": {
    "rank": 1,
-   "adds": 960544
+   "adds": 961776
   },
   "roman wilson": {
    "rank": 2,
-   "adds": 721638
+   "adds": 722034
   },
   "darius cooper": {
    "rank": 3,
-   "adds": 462399
+   "adds": 469098
   },
   "tyler higbee": {
    "rank": 4,
-   "adds": 328995
+   "adds": 335655
   },
   "efton chism": {
    "rank": 6,
-   "adds": 305700
+   "adds": 307060
   },
   "dameon pierce": {
    "rank": 7,
-   "adds": 303784
+   "adds": 304896
   },
   "kendrick bourne": {
    "rank": 8,
-   "adds": 289548
+   "adds": 293667
   },
   "marshawn lloyd": {
    "rank": 9,
-   "adds": 282195
+   "adds": 289917
   },
   "tre harris": {
    "rank": 10,
-   "adds": 258216
+   "adds": 260120
   },
   "keaton mitchell": {
    "rank": 11,
-   "adds": 243396
+   "adds": 246528
   },
   "malik washington": {
    "rank": 12,
-   "adds": 229336
+   "adds": 230448
   },
   "keon coleman": {
    "rank": 13,
-   "adds": 219042
+   "adds": 221769
   },
   "kirk cousins": {
    "rank": 14,
-   "adds": 187408
+   "adds": 188080
   },
   "romeo doubs": {
    "rank": 16,
-   "adds": 181160
+   "adds": 181368
   },
   "khalil shakir": {
    "rank": 17,
-   "adds": 161505
+   "adds": 163602
   },
   "pierre strong": {
    "rank": 18,
-   "adds": 141804
+   "adds": 141930
   },
   "dohnte meyers": {
    "rank": 19,
-   "adds": 141651
+   "adds": 141696
   },
   "michael mayer": {
    "rank": 21,
-   "adds": 114894
+   "adds": 115119
   },
   "aaron rodgers": {
    "rank": 22,
-   "adds": 107628
-  },
-  "brian robinson": {
-   "rank": 23,
-   "adds": 101832
+   "adds": 109784
   },
   "brenton strange": {
-   "rank": 24,
-   "adds": 99585
+   "rank": 23,
+   "adds": 104805
   },
-  "isaiah williams": {
-   "rank": 25,
-   "adds": 92358
+  "brian robinson": {
+   "rank": 24,
+   "adds": 103560
   },
   "cj stroud": {
+   "rank": 25,
+   "adds": 92498
+  },
+  "isaiah williams": {
    "rank": 26,
-   "adds": 91525
+   "adds": 92424
   },
   "mike gesicki": {
    "rank": 29,
-   "adds": 82772
+   "adds": 83064
   },
   "deshaun watson": {
    "rank": 31,
-   "adds": 77568
+   "adds": 77992
   },
   "treylon burks": {
    "rank": 32,
-   "adds": 77483
-  },
-  "kc concepcion": {
-   "rank": 33,
-   "adds": 75861
-  },
-  "tre tucker": {
-   "rank": 34,
-   "adds": 73422
+   "adds": 77546
   },
   "jayden daniels": {
-   "rank": 35,
-   "adds": 72240
+   "rank": 33,
+   "adds": 77032
   },
-  "emanuel wilson": {
-   "rank": 36,
-   "adds": 71316
+  "kc concepcion": {
+   "rank": 34,
+   "adds": 75924
+  },
+  "tre tucker": {
+   "rank": 35,
+   "adds": 73578
   },
   "braelon allen": {
+   "rank": 36,
+   "adds": 72304
+  },
+  "emanuel wilson": {
    "rank": 37,
-   "adds": 71168
+   "adds": 72108
   },
   "courtland sutton": {
    "rank": 38,
-   "adds": 69237
+   "adds": 70254
   },
   "mike washington": {
    "rank": 39,
-   "adds": 67774
+   "adds": 67787
   },
   "kyler murray": {
    "rank": 40,
-   "adds": 66048
+   "adds": 66664
   },
   "alvin kamara": {
    "rank": 41,
-   "adds": 65504
+   "adds": 65712
   },
-  "austin ekeler": {
+  "isaac teslaa": {
    "rank": 45,
-   "adds": 60208
+   "adds": 61248
   },
   "matthew stafford": {
    "rank": 46,
-   "adds": 59931
+   "adds": 60795
   },
-  "isaac teslaa": {
+  "austin ekeler": {
    "rank": 47,
-   "adds": 58480
-  },
-  "cody white": {
-   "rank": 48,
-   "adds": 53754
+   "adds": 60232
   },
   "jacory croskey merritt": {
+   "rank": 48,
+   "adds": 54891
+  },
+  "cody white": {
    "rank": 49,
-   "adds": 52875
+   "adds": 53799
   },
   "bo nix": {
    "rank": 50,
-   "adds": 52134
+   "adds": 53016
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "5 games",
+  "lines": "4 games",
   "weather": "8 outdoor games",
-  "injuries": "234 players listed",
-  "news": "15 players in headlines",
+  "injuries": "237 players listed",
+  "news": "12 players in headlines",
   "sleeper_trending": "41 board players trending",
   "reddit": "unavailable"
  }
