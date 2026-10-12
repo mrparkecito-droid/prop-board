@@ -1312,13 +1312,13 @@
    },
    "bigger": {
     "line": 25,
-    "ask": 67,
-    "bid": 66,
-    "p": 71,
-    "pc": 0.7064,
-    "roi": 5,
-    "score": 61.3,
-    "mid": 66.5,
+    "ask": 66,
+    "bid": 65,
+    "p": 70,
+    "pc": 0.7012,
+    "roi": 6,
+    "score": 61.4,
+    "mid": 65.5,
     "tk": "KXNFLRECYDS-26OCT12BUFLAR-BUFKCOLEMAN0-25"
    },
    "rank": 10,
@@ -1780,13 +1780,9 @@
    "mid": 86.5,
    "tk": "KXNFLRSHYDS-26OCT12BUFLAR-BUFJALLEN17-15",
    "ev": "KXNFLRSHYDS-26OCT12BUFLAR",
-   "ctx": 0.0,
+   "ctx": 0,
    "cxs": 50,
    "reasons": [
-    [
-     0.0,
-     "In the news: \"How Bills QB Josh Allen has become a star on and off the field\""
-    ],
     [
      0.21,
      "BUF projected for 26 pts (O/U 54.5)"
@@ -1833,7 +1829,7 @@
    "qinfo": null,
    "rank": 14,
    "why": "Cleared 15+ in 3 of 4 games, by +14 on average (15 of 16 last season), Sleeper projects 37.2. BUF has a top rushing offense (5th, 139 yds a game).. BUF projected for 26 pts (O/U 54.5).",
-   "news": "In the news: \"How Bills QB Josh Allen has become a star on and off the field\""
+   "news": ""
   },
   {
    "game": "BUFLAR",
@@ -2036,13 +2032,9 @@
    "mid": 85.5,
    "tk": "KXNFLPASSYDS-26OCT12BUFLAR-BUFJALLEN17-175",
    "ev": "KXNFLPASSYDS-26OCT12BUFLAR",
-   "ctx": 0.0,
+   "ctx": 0,
    "cxs": 50,
    "reasons": [
-    [
-     0.0,
-     "In the news: \"How Bills QB Josh Allen has become a star on and off the field\""
-    ],
     [
      0.06,
      "BUF a 3.5-pt underdog, trailing teams throw more"
@@ -2097,7 +2089,7 @@
    "qinfo": null,
    "rank": 16,
    "why": "Cleared 175+ in 4 of 4 games, by +85 on average (12 of 16 last season), Sleeper projects 236.4, LAR let 2 of 4 QBs reach it. BUF has a top passing offense (9th, 260 yds a game).. BUF projected for 26 pts (O/U 54.5). Watch: LAR gives up 36% fewer passing yds to QBs than average..",
-   "news": "In the news: \"How Bills QB Josh Allen has become a star on and off the field\""
+   "news": ""
   },
   {
    "game": "BUFLAR",
@@ -2379,6 +2371,144 @@
    "game": "BUFLAR",
    "glabel": "BUF @ LAR (Mon)",
    "day": "Mon",
+   "player": "Khalil Shakir",
+   "team": "BUF",
+   "opp": "LAR",
+   "pos": "WR",
+   "role": "WR3",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 3,
+   "ask": 82,
+   "bid": 81,
+   "vals": [
+    4.0,
+    3.0,
+    1.0,
+    7.0
+   ],
+   "over": 3,
+   "n": 4,
+   "proj": 4.3,
+   "al": [
+    [
+     1,
+     "SF",
+     2.0
+    ],
+    [
+     2,
+     "NYG",
+     1.0
+    ],
+    [
+     3,
+     "DEN",
+     2.0
+    ],
+    [
+     4,
+     "PHI",
+     3.0
+    ]
+   ],
+   "dhit": 1,
+   "dn": 4,
+   "most": 32,
+   "per": 153.8,
+   "dstat": "pass yds",
+   "p": 71,
+   "roi": -13,
+   "pp": 75,
+   "hs": 64,
+   "dhs": 33,
+   "rks": 0,
+   "vs": 37,
+   "agree": 1,
+   "score": 40.6,
+   "flags": [],
+   "pc": 0.7135,
+   "praw": 0.5989,
+   "rg": "WR3",
+   "est": false,
+   "mid": 81.5,
+   "tk": "KXNFLREC-26OCT12BUFLAR-BUFKSHAKIR10-3",
+   "ev": "KXNFLREC-26OCT12BUFLAR",
+   "ctx": 0.28,
+   "cxs": 64,
+   "reasons": [
+    [
+     0.2,
+     "Joshua Palmer out, more targets to go around"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#16 most added)"
+    ],
+    [
+     0.06,
+     "BUF a 3.5-pt underdog, trailing teams throw more"
+    ],
+    [
+     0.21,
+     "BUF projected for 26 pts (O/U 54.5)"
+    ],
+    [
+     -0.1,
+     "LAR gives up 21% more catches to WR3s than average."
+    ],
+    [
+     0.3,
+     "BUF has a top passing offense (9th, 260 yds a game)."
+    ]
+   ],
+   "status": null,
+   "ppj": 76,
+   "pu": 74,
+   "uinfo": {
+    "share": [
+     21,
+     21,
+     12,
+     27
+    ],
+    "kind": "targets",
+    "snap": 65,
+    "snap_last": 76,
+    "mu": 4.1,
+    "opp": 5.7,
+    "note": ""
+   },
+   "po": 12,
+   "pn": 16,
+   "pid": "8134",
+   "sx": 0.27,
+   "sxs": 64,
+   "mx": -0.21,
+   "mxs": 40,
+   "env": 0.04,
+   "dfac": 0.0,
+   "dfs": 50,
+   "off": 0.3,
+   "ofs": 65,
+   "cu": 59,
+   "avgm": 0.8,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Josh Allen",
+    "same": true,
+    "n": 4
+   },
+   "rank": 19,
+   "why": "Cleared 3+ in 3 of 4 games, by +0.8 on average (12 of 16 last season), Sleeper projects 4.3, LAR let 1 of 4 WR3s reach it. BUF has a top passing offense (9th, 260 yds a game).. BUF projected for 26 pts (O/U 54.5). Watch: LAR gives up 21% more catches to WR3s than average..",
+   "news": ""
+  },
+  {
+   "game": "BUFLAR",
+   "glabel": "BUF @ LAR (Mon)",
+   "day": "Mon",
    "player": "Dalton Kincaid",
    "team": "BUF",
    "opp": "LAR",
@@ -2505,146 +2635,8 @@
     "same": true,
     "n": 4
    },
-   "rank": 19,
-   "why": "Cleared 25+ in 3 of 4 games, by +42 on average (10 of 12 last season), Sleeper projects 50.8, LAR let 1 of 4 TE1s reach it. His share of targets fell from 21% to 7%. BUF has a top passing offense (9th, 260 yds a game).. BUF projected for 26 pts (O/U 54.5). Watch: LAR gives up 55% fewer receiving yds to TE1s than average..",
-   "news": ""
-  },
-  {
-   "game": "BUFLAR",
-   "glabel": "BUF @ LAR (Mon)",
-   "day": "Mon",
-   "player": "Khalil Shakir",
-   "team": "BUF",
-   "opp": "LAR",
-   "pos": "WR",
-   "role": "WR3",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 3,
-   "ask": 83,
-   "bid": 81,
-   "vals": [
-    4.0,
-    3.0,
-    1.0,
-    7.0
-   ],
-   "over": 3,
-   "n": 4,
-   "proj": 4.3,
-   "al": [
-    [
-     1,
-     "SF",
-     2.0
-    ],
-    [
-     2,
-     "NYG",
-     1.0
-    ],
-    [
-     3,
-     "DEN",
-     2.0
-    ],
-    [
-     4,
-     "PHI",
-     3.0
-    ]
-   ],
-   "dhit": 1,
-   "dn": 4,
-   "most": 32,
-   "per": 153.8,
-   "dstat": "pass yds",
-   "p": 72,
-   "roi": -14,
-   "pp": 75,
-   "hs": 64,
-   "dhs": 33,
-   "rks": 0,
-   "vs": 36,
-   "agree": 1,
-   "score": 40.5,
-   "flags": [],
-   "pc": 0.7164,
-   "praw": 0.5989,
-   "rg": "WR3",
-   "est": false,
-   "mid": 82.0,
-   "tk": "KXNFLREC-26OCT12BUFLAR-BUFKSHAKIR10-3",
-   "ev": "KXNFLREC-26OCT12BUFLAR",
-   "ctx": 0.28,
-   "cxs": 64,
-   "reasons": [
-    [
-     0.2,
-     "Joshua Palmer out, more targets to go around"
-    ],
-    [
-     0.08,
-     "Trending on Sleeper (#16 most added)"
-    ],
-    [
-     0.06,
-     "BUF a 3.5-pt underdog, trailing teams throw more"
-    ],
-    [
-     0.21,
-     "BUF projected for 26 pts (O/U 54.5)"
-    ],
-    [
-     -0.1,
-     "LAR gives up 21% more catches to WR3s than average."
-    ],
-    [
-     0.3,
-     "BUF has a top passing offense (9th, 260 yds a game)."
-    ]
-   ],
-   "status": null,
-   "ppj": 76,
-   "pu": 74,
-   "uinfo": {
-    "share": [
-     21,
-     21,
-     12,
-     27
-    ],
-    "kind": "targets",
-    "snap": 65,
-    "snap_last": 76,
-    "mu": 4.1,
-    "opp": 5.7,
-    "note": ""
-   },
-   "po": 12,
-   "pn": 16,
-   "pid": "8134",
-   "sx": 0.27,
-   "sxs": 64,
-   "mx": -0.21,
-   "mxs": 40,
-   "env": 0.04,
-   "dfac": 0.0,
-   "dfs": 50,
-   "off": 0.3,
-   "ofs": 65,
-   "cu": 59,
-   "avgm": 0.8,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Josh Allen",
-    "same": true,
-    "n": 4
-   },
    "rank": 20,
-   "why": "Cleared 3+ in 3 of 4 games, by +0.8 on average (12 of 16 last season), Sleeper projects 4.3, LAR let 1 of 4 WR3s reach it. BUF has a top passing offense (9th, 260 yds a game).. BUF projected for 26 pts (O/U 54.5). Watch: LAR gives up 21% more catches to WR3s than average..",
+   "why": "Cleared 25+ in 3 of 4 games, by +42 on average (10 of 12 last season), Sleeper projects 50.8, LAR let 1 of 4 TE1s reach it. His share of targets fell from 21% to 7%. BUF has a top passing offense (9th, 260 yds a game).. BUF projected for 26 pts (O/U 54.5). Watch: LAR gives up 55% fewer receiving yds to TE1s than average..",
    "news": ""
   },
   {
@@ -4350,10 +4342,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 49,
-   "q": 48.5,
-   "p": 0.5241,
-   "sc": 40.2,
+   "ask": 51,
+   "q": 50.5,
+   "p": 0.5346,
+   "sc": 39.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT12BUFLAR-BUFKCOLEMAN0-40",
    "ev": "KXNFLRECYDS-26OCT12BUFLAR",
@@ -4373,10 +4365,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 67,
-   "q": 66.5,
-   "p": 0.7064,
-   "sc": 61.3,
+   "ask": 66,
+   "q": 65.5,
+   "p": 0.7012,
+   "sc": 61.4,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT12BUFLAR-BUFKCOLEMAN0-25",
    "ev": "KXNFLRECYDS-26OCT12BUFLAR",
@@ -4910,11 +4902,11 @@
     "id": "8150",
     "lam": 1.52,
     "pm": 0.781,
-    "p": 0.683,
-    "q": 58.5,
-    "ask": 61,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-LARKWILLIAMS23-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
+    "p": 0.781,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
     "tds": 4.0,
     "n": 4,
     "games_td": 3,
@@ -4968,76 +4960,7 @@
      "Active leak: gave up a RB TD in each of its last 2 games.",
      "41% red-zone role, 16% target share, 5.1% TD rate, 19.8 touches a game.",
      "4.0 TDs in 4 games, scored in 3 (13.0 in 17 last season).",
-     "LAR projected for 29 pts (O/U 54.5, favored by 3.5).",
-     "Kalshi 58\u00a2 vs model 78%."
-    ]
-   },
-   {
-    "key": "josh allen",
-    "pl": "Josh Allen",
-    "tm": "BUF",
-    "opp": "LAR",
-    "pos": "QB",
-    "role": "QB",
-    "g": "BUFLAR",
-    "gl": "BUF @ LAR (Mon)",
-    "dy": "Mon",
-    "id": "4984",
-    "lam": 0.73,
-    "pm": 0.516,
-    "p": 0.516,
-    "q": 51.5,
-    "ask": 52,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-BUFJALLEN17-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
-    "tds": 7.0,
-    "n": 4,
-    "games_td": 4,
-    "ptd": 14.0,
-    "pn": 16,
-    "rz": 26,
-    "tdsh": 29,
-    "ts": null,
-    "tdr": 20.6,
-    "tpg": 8.5,
-    "pts": 25.5,
-    "sp": 3.5,
-    "tot": 54.5,
-    "d": {
-     "td": 1.0,
-     "n": 4,
-     "rank": 12,
-     "nteams": 32,
-     "ltd": 1.0,
-     "lrank": 31,
-     "leak": false,
-     "recent": [
-      1.0,
-      0
-     ]
-    },
-    "dfac": 0.77,
-    "debt": -5.5,
-    "inj": null,
-    "hist": true,
-    "prop": {
-     "pr": "Rushing Yards",
-     "ln": 15,
-     "p": 0.822,
-     "ask": 87,
-     "sc": 59.4
-    },
-    "tags": [
-     "Shootout script"
-    ],
-    "low": false,
-    "score": 91.4,
-    "why": [
-     "LAR has allowed 1.0 QB TD in 4 games (12th most); 1.0 all last season.",
-     "26% red-zone role, 20.6% TD rate, 8.5 touches a game.",
-     "7.0 TDs in 4 games, scored in 4 (14.0 in 16 last season).",
-     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog).",
-     "Kalshi 52\u00a2 vs model 52%."
+     "LAR projected for 29 pts (O/U 54.5, favored by 3.5)."
     ]
    },
    {
@@ -5053,11 +4976,11 @@
     "id": "8138",
     "lam": 0.74,
     "pm": 0.521,
-    "p": 0.511,
-    "q": 50.0,
-    "ask": 52,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-BUFJCOOK4-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
+    "p": 0.521,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
     "tds": 3.0,
     "n": 4,
     "games_td": 3,
@@ -5107,8 +5030,74 @@
      "LAR has allowed 0 RB TDs in 4 games (32nd most); 9.0 all last season.",
      "40% red-zone role, 9% target share, 3.8% TD rate, 20 touches a game.",
      "3.0 TDs in 4 games, scored in 3 (14.0 in 17 last season).",
-     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog).",
-     "Kalshi 50\u00a2 vs model 52%."
+     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog)."
+    ]
+   },
+   {
+    "key": "josh allen",
+    "pl": "Josh Allen",
+    "tm": "BUF",
+    "opp": "LAR",
+    "pos": "QB",
+    "role": "QB",
+    "g": "BUFLAR",
+    "gl": "BUF @ LAR (Mon)",
+    "dy": "Mon",
+    "id": "4984",
+    "lam": 0.73,
+    "pm": 0.516,
+    "p": 0.516,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
+    "tds": 7.0,
+    "n": 4,
+    "games_td": 4,
+    "ptd": 14.0,
+    "pn": 16,
+    "rz": 26,
+    "tdsh": 29,
+    "ts": null,
+    "tdr": 20.6,
+    "tpg": 8.5,
+    "pts": 25.5,
+    "sp": 3.5,
+    "tot": 54.5,
+    "d": {
+     "td": 1.0,
+     "n": 4,
+     "rank": 12,
+     "nteams": 32,
+     "ltd": 1.0,
+     "lrank": 31,
+     "leak": false,
+     "recent": [
+      1.0,
+      0
+     ]
+    },
+    "dfac": 0.77,
+    "debt": -5.5,
+    "inj": null,
+    "hist": true,
+    "prop": {
+     "pr": "Rushing Yards",
+     "ln": 15,
+     "p": 0.822,
+     "ask": 87,
+     "sc": 59.4
+    },
+    "tags": [
+     "Shootout script"
+    ],
+    "low": false,
+    "score": 91.4,
+    "why": [
+     "LAR has allowed 1.0 QB TD in 4 games (12th most); 1.0 all last season.",
+     "26% red-zone role, 20.6% TD rate, 8.5 touches a game.",
+     "7.0 TDs in 4 games, scored in 4 (14.0 in 16 last season).",
+     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog)."
     ]
    },
    {
@@ -5124,11 +5113,11 @@
     "id": "2133",
     "lam": 0.61,
     "pm": 0.458,
-    "p": 0.461,
-    "q": 46.5,
-    "ask": 48,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-LARDADAMS17-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
+    "p": 0.458,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
     "tds": 2.0,
     "n": 4,
     "games_td": 1,
@@ -5179,8 +5168,7 @@
      "BUF has allowed 6.0 WR TDs in 4 games (2nd most); 13.0 all last season.",
      "12% red-zone role, 24% target share, 5.3% TD rate, 9.5 touches a game.",
      "2.0 TDs in 4 games, scored in 1 (14.0 in 14 last season).",
-     "LAR projected for 29 pts (O/U 54.5, favored by 3.5).",
-     "Kalshi 46\u00a2 vs model 46%."
+     "LAR projected for 29 pts (O/U 54.5, favored by 3.5)."
     ]
    },
    {
@@ -5196,11 +5184,11 @@
     "id": "9493",
     "lam": 0.38,
     "pm": 0.319,
-    "p": 0.417,
-    "q": 51.5,
-    "ask": 54,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-LARPNACUA12-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
+    "p": 0.319,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
     "tds": 1.0,
     "n": 2,
     "games_td": 1,
@@ -5251,8 +5239,7 @@
      "BUF has allowed 6.0 WR TDs in 4 games (2nd most); 13.0 all last season.",
      "6% red-zone role, 13% target share, 4.5% TD rate, 11 touches a game.",
      "1.0 TD in 2 games, scored in 1 (11.0 in 16 last season).",
-     "LAR projected for 29 pts (O/U 54.5, favored by 3.5).",
-     "Kalshi 52\u00a2 vs model 32%."
+     "LAR projected for 29 pts (O/U 54.5, favored by 3.5)."
     ]
    },
    {
@@ -5268,11 +5255,11 @@
     "id": "8134",
     "lam": 0.36,
     "pm": 0.3,
-    "p": 0.293,
-    "q": 28.5,
-    "ask": 31,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-BUFKSHAKIR10-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
+    "p": 0.3,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
     "tds": 0,
     "n": 4,
     "games_td": 0,
@@ -5325,8 +5312,7 @@
      "14% red-zone role, 21% target share, 5.8 touches a game.",
      "No TDs yet in 4 games (4.0 in 16 last season).",
      "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog).",
-     "Due: 1.3 TD debt (his role says he should have scored more).",
-     "Kalshi 28\u00a2 vs model 30%."
+     "Due: 1.3 TD debt (his role says he should have scored more)."
     ]
    },
    {
@@ -5395,147 +5381,6 @@
     ]
    },
    {
-    "key": "dalton kincaid",
-    "pl": "Dalton Kincaid",
-    "tm": "BUF",
-    "opp": "LAR",
-    "pos": "TE",
-    "role": "TE1",
-    "g": "BUFLAR",
-    "gl": "BUF @ LAR (Mon)",
-    "dy": "Mon",
-    "id": "10236",
-    "lam": 0.17,
-    "pm": 0.157,
-    "p": 0.243,
-    "q": 33.0,
-    "ask": 35,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-BUFDKINCAID86-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
-    "tds": 1.0,
-    "n": 4,
-    "games_td": 1,
-    "ptd": 5.0,
-    "pn": 12,
-    "rz": 3,
-    "tdsh": 8,
-    "ts": 17,
-    "tdr": 5.3,
-    "tpg": 4.8,
-    "pts": 25.5,
-    "sp": 3.5,
-    "tot": 54.5,
-    "d": {
-     "td": 1.0,
-     "n": 4,
-     "rank": 24,
-     "nteams": 32,
-     "ltd": 8.0,
-     "lrank": 12,
-     "leak": false,
-     "recent": [
-      1.0,
-      0
-     ]
-    },
-    "dfac": 0.93,
-    "debt": -0.5,
-    "inj": null,
-    "hist": true,
-    "prop": {
-     "pr": "Receptions",
-     "ln": 2,
-     "p": 0.812,
-     "ask": 90,
-     "sc": 52.4
-    },
-    "tags": [
-     "RZ share top-10",
-     "Shootout script"
-    ],
-    "low": false,
-    "score": 54.5,
-    "why": [
-     "LAR has allowed 1.0 TE TD in 4 games (24th most); 8.0 all last season.",
-     "3% red-zone role, 17% target share, 5.3% TD rate, 4.8 touches a game.",
-     "1.0 TD in 4 games, scored in 1 (5.0 in 12 last season).",
-     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog).",
-     "Kalshi 33\u00a2 vs model 16%."
-    ]
-   },
-   {
-    "key": "keon coleman",
-    "pl": "Keon Coleman",
-    "tm": "BUF",
-    "opp": "LAR",
-    "pos": "WR",
-    "role": "WR1",
-    "g": "BUFLAR",
-    "gl": "BUF @ LAR (Mon)",
-    "dy": "Mon",
-    "id": "11637",
-    "lam": 0.23,
-    "pm": 0.206,
-    "p": 0.233,
-    "q": 26.0,
-    "ask": 28,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-BUFKCOLEMAN0-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
-    "tds": 1.0,
-    "n": 4,
-    "games_td": 1,
-    "ptd": 4.0,
-    "pn": 13,
-    "rz": 6,
-    "tdsh": 7,
-    "ts": 14,
-    "tdr": 6.2,
-    "tpg": 4.0,
-    "pts": 25.5,
-    "sp": 3.5,
-    "tot": 54.5,
-    "d": {
-     "td": 6.0,
-     "n": 4,
-     "rank": 5,
-     "nteams": 32,
-     "ltd": 15.0,
-     "lrank": 19,
-     "leak": true,
-     "recent": [
-      1.0,
-      2.0
-     ]
-    },
-    "dfac": 1.11,
-    "debt": -0.4,
-    "inj": null,
-    "hist": true,
-    "prop": {
-     "pr": "Receiving Yards",
-     "ln": 15,
-     "p": 0.806,
-     "ask": 80,
-     "sc": 64.8
-    },
-    "tags": [
-     "RZ share top-10",
-     "Soft TD defense",
-     "Active leak",
-     "Shootout script"
-    ],
-    "low": false,
-    "score": 53.7,
-    "why": [
-     "LAR has allowed 6.0 WR TDs in 4 games (5th most); 15.0 all last season.",
-     "Active leak: gave up a WR TD in each of its last 2 games.",
-     "6% red-zone role, 14% target share, 6.2% TD rate, 4 touches a game.",
-     "1.0 TD in 4 games, scored in 1 (4.0 in 13 last season).",
-     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog).",
-     "Kalshi 26\u00a2 vs model 21%."
-    ]
-   },
-   {
     "key": "blake corum",
     "pl": "Blake Corum",
     "tm": "LAR",
@@ -5548,11 +5393,11 @@
     "id": "11586",
     "lam": 0.26,
     "pm": 0.226,
-    "p": 0.231,
-    "q": 23.5,
-    "ask": 25,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-LARBCORUM24-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
+    "p": 0.226,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
     "tds": 0,
     "n": 4,
     "games_td": 0,
@@ -5604,71 +5449,78 @@
      "Active leak: gave up a RB TD in each of its last 2 games.",
      "0% red-zone role, 4% target share, 10 touches a game.",
      "No TDs yet in 4 games (6.0 in 17 last season).",
-     "LAR projected for 29 pts (O/U 54.5, favored by 3.5).",
-     "Kalshi 24\u00a2 vs model 23%."
+     "LAR projected for 29 pts (O/U 54.5, favored by 3.5)."
     ]
    },
    {
-    "key": "colby parkinson",
-    "pl": "Colby Parkinson",
-    "tm": "LAR",
-    "opp": "BUF",
-    "pos": "TE",
-    "role": "TE2",
+    "key": "keon coleman",
+    "pl": "Keon Coleman",
+    "tm": "BUF",
+    "opp": "LAR",
+    "pos": "WR",
+    "role": "WR1",
     "g": "BUFLAR",
     "gl": "BUF @ LAR (Mon)",
     "dy": "Mon",
-    "id": "6865",
-    "lam": 0.18,
-    "pm": 0.165,
-    "p": 0.213,
-    "q": 26.0,
-    "ask": 29,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-LARCPARKINSON84-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
-    "tds": 0,
-    "n": 3,
-    "games_td": 0,
-    "ptd": 8.0,
-    "pn": 15,
+    "id": "11637",
+    "lam": 0.23,
+    "pm": 0.206,
+    "p": 0.206,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
+    "tds": 1.0,
+    "n": 4,
+    "games_td": 1,
+    "ptd": 4.0,
+    "pn": 13,
     "rz": 6,
-    "tdsh": 9,
-    "ts": 3,
-    "tdr": 0.0,
-    "tpg": 1.7,
-    "pts": 29.0,
-    "sp": -3.5,
+    "tdsh": 7,
+    "ts": 14,
+    "tdr": 6.2,
+    "tpg": 4.0,
+    "pts": 25.5,
+    "sp": 3.5,
     "tot": 54.5,
     "d": {
-     "td": 1.0,
+     "td": 6.0,
      "n": 4,
-     "rank": 22,
+     "rank": 5,
      "nteams": 32,
-     "ltd": 5.0,
-     "lrank": 27,
-     "leak": false,
+     "ltd": 15.0,
+     "lrank": 19,
+     "leak": true,
      "recent": [
-      0,
-      0
+      1.0,
+      2.0
      ]
     },
-    "dfac": 0.77,
-    "debt": 0.4,
+    "dfac": 1.11,
+    "debt": -0.4,
     "inj": null,
     "hist": true,
+    "prop": {
+     "pr": "Receiving Yards",
+     "ln": 15,
+     "p": 0.806,
+     "ask": 80,
+     "sc": 64.8
+    },
     "tags": [
      "RZ share top-10",
-     "Shootout script",
-     "Favored"
+     "Soft TD defense",
+     "Active leak",
+     "Shootout script"
     ],
     "low": false,
-    "score": 57.5,
+    "score": 53.7,
     "why": [
-     "BUF has allowed 1.0 TE TD in 4 games (22nd most); 5.0 all last season.",
-     "6% red-zone role, 3% target share, 1.7 touches a game.",
-     "No TDs yet in 3 games (8.0 in 15 last season).",
-     "LAR projected for 29 pts (O/U 54.5, favored by 3.5).",
-     "Kalshi 26\u00a2 vs model 16%."
+     "LAR has allowed 6.0 WR TDs in 4 games (5th most); 15.0 all last season.",
+     "Active leak: gave up a WR TD in each of its last 2 games.",
+     "6% red-zone role, 14% target share, 6.2% TD rate, 4 touches a game.",
+     "1.0 TD in 4 games, scored in 1 (4.0 in 13 last season).",
+     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog)."
     ]
    },
    {
@@ -5684,11 +5536,11 @@
     "id": "3271",
     "lam": 0.18,
     "pm": 0.166,
-    "p": 0.208,
-    "q": 25.0,
-    "ask": 27,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-LARTHIGBEE89-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
+    "p": 0.166,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
     "tds": 1.0,
     "n": 4,
     "games_td": 1,
@@ -5737,38 +5589,99 @@
      "BUF has allowed 1.0 TE TD in 4 games (22nd most); 5.0 all last season.",
      "6% red-zone role, 12% target share, 5.3% TD rate, 4.8 touches a game.",
      "1.0 TD in 4 games, scored in 1 (3.0 in 10 last season).",
-     "LAR projected for 29 pts (O/U 54.5, favored by 3.5).",
-     "Kalshi 25\u00a2 vs model 17%."
+     "LAR projected for 29 pts (O/U 54.5, favored by 3.5)."
     ]
    },
    {
-    "key": "dawson knox",
-    "pl": "Dawson Knox",
-    "tm": "BUF",
-    "opp": "LAR",
+    "key": "colby parkinson",
+    "pl": "Colby Parkinson",
+    "tm": "LAR",
+    "opp": "BUF",
     "pos": "TE",
     "role": "TE2",
     "g": "BUFLAR",
     "gl": "BUF @ LAR (Mon)",
     "dy": "Mon",
-    "id": "5906",
-    "lam": 0.12,
-    "pm": 0.117,
-    "p": 0.136,
-    "q": 15.5,
-    "ask": 17,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-BUFDKNOX88-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
+    "id": "6865",
+    "lam": 0.18,
+    "pm": 0.165,
+    "p": 0.165,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
+    "tds": 0,
+    "n": 3,
+    "games_td": 0,
+    "ptd": 8.0,
+    "pn": 15,
+    "rz": 6,
+    "tdsh": 9,
+    "ts": 3,
+    "tdr": 0.0,
+    "tpg": 1.7,
+    "pts": 29.0,
+    "sp": -3.5,
+    "tot": 54.5,
+    "d": {
+     "td": 1.0,
+     "n": 4,
+     "rank": 22,
+     "nteams": 32,
+     "ltd": 5.0,
+     "lrank": 27,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.77,
+    "debt": 0.4,
+    "inj": null,
+    "hist": true,
+    "tags": [
+     "RZ share top-10",
+     "Shootout script",
+     "Favored"
+    ],
+    "low": false,
+    "score": 57.5,
+    "why": [
+     "BUF has allowed 1.0 TE TD in 4 games (22nd most); 5.0 all last season.",
+     "6% red-zone role, 3% target share, 1.7 touches a game.",
+     "No TDs yet in 3 games (8.0 in 15 last season).",
+     "LAR projected for 29 pts (O/U 54.5, favored by 3.5)."
+    ]
+   },
+   {
+    "key": "dalton kincaid",
+    "pl": "Dalton Kincaid",
+    "tm": "BUF",
+    "opp": "LAR",
+    "pos": "TE",
+    "role": "TE1",
+    "g": "BUFLAR",
+    "gl": "BUF @ LAR (Mon)",
+    "dy": "Mon",
+    "id": "10236",
+    "lam": 0.17,
+    "pm": 0.157,
+    "p": 0.157,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
     "tds": 1.0,
     "n": 4,
     "games_td": 1,
-    "ptd": 4.0,
-    "pn": 17,
+    "ptd": 5.0,
+    "pn": 12,
     "rz": 3,
-    "tdsh": 6,
-    "ts": 5,
-    "tdr": 14.3,
-    "tpg": 1.8,
+    "tdsh": 8,
+    "ts": 17,
+    "tdr": 5.3,
+    "tpg": 4.8,
     "pts": 25.5,
     "sp": 3.5,
     "tot": 54.5,
@@ -5786,21 +5699,27 @@
      ]
     },
     "dfac": 0.93,
-    "debt": -0.7,
+    "debt": -0.5,
     "inj": null,
     "hist": true,
+    "prop": {
+     "pr": "Receptions",
+     "ln": 2,
+     "p": 0.812,
+     "ask": 90,
+     "sc": 52.4
+    },
     "tags": [
      "RZ share top-10",
      "Shootout script"
     ],
     "low": false,
-    "score": 48.1,
+    "score": 54.5,
     "why": [
      "LAR has allowed 1.0 TE TD in 4 games (24th most); 8.0 all last season.",
-     "3% red-zone role, 5% target share, 14.3% TD rate, 1.8 touches a game.",
-     "1.0 TD in 4 games, scored in 1 (4.0 in 17 last season).",
-     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog).",
-     "Kalshi 16\u00a2 vs model 12%."
+     "3% red-zone role, 17% target share, 5.3% TD rate, 4.8 touches a game.",
+     "1.0 TD in 4 games, scored in 1 (5.0 in 12 last season).",
+     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog)."
     ]
    },
    {
@@ -5816,11 +5735,11 @@
     "id": "12718",
     "lam": 0.15,
     "pm": 0.136,
-    "p": 0.118,
-    "q": 10.0,
-    "ask": 11,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-LARKMUMPFIELD4-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
+    "p": 0.136,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
     "tds": 1.0,
     "n": 4,
     "games_td": 1,
@@ -5863,8 +5782,68 @@
      "BUF has allowed 6.0 WR TDs in 4 games (2nd most); 13.0 all last season.",
      "3% red-zone role, 9% target share, 7.1% TD rate, 3.5 touches a game.",
      "1.0 TD in 4 games, scored in 1 (1.0 in 17 last season).",
-     "LAR projected for 29 pts (O/U 54.5, favored by 3.5).",
-     "Kalshi 10\u00a2 vs model 14%."
+     "LAR projected for 29 pts (O/U 54.5, favored by 3.5)."
+    ]
+   },
+   {
+    "key": "dawson knox",
+    "pl": "Dawson Knox",
+    "tm": "BUF",
+    "opp": "LAR",
+    "pos": "TE",
+    "role": "TE2",
+    "g": "BUFLAR",
+    "gl": "BUF @ LAR (Mon)",
+    "dy": "Mon",
+    "id": "5906",
+    "lam": 0.12,
+    "pm": 0.117,
+    "p": 0.117,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
+    "tds": 1.0,
+    "n": 4,
+    "games_td": 1,
+    "ptd": 4.0,
+    "pn": 17,
+    "rz": 3,
+    "tdsh": 6,
+    "ts": 5,
+    "tdr": 14.3,
+    "tpg": 1.8,
+    "pts": 25.5,
+    "sp": 3.5,
+    "tot": 54.5,
+    "d": {
+     "td": 1.0,
+     "n": 4,
+     "rank": 24,
+     "nteams": 32,
+     "ltd": 8.0,
+     "lrank": 12,
+     "leak": false,
+     "recent": [
+      1.0,
+      0
+     ]
+    },
+    "dfac": 0.93,
+    "debt": -0.7,
+    "inj": null,
+    "hist": true,
+    "tags": [
+     "RZ share top-10",
+     "Shootout script"
+    ],
+    "low": false,
+    "score": 48.1,
+    "why": [
+     "LAR has allowed 1.0 TE TD in 4 games (24th most); 8.0 all last season.",
+     "3% red-zone role, 5% target share, 14.3% TD rate, 1.8 touches a game.",
+     "1.0 TD in 4 games, scored in 1 (4.0 in 17 last season).",
+     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog)."
     ]
    },
    {
@@ -5880,11 +5859,11 @@
     "id": "5970",
     "lam": 0.11,
     "pm": 0.1,
-    "p": 0.105,
-    "q": 11.0,
-    "ask": 12,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-BUFGDORTCH19-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
+    "p": 0.1,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
     "tds": 0,
     "n": 4,
     "games_td": 0,
@@ -5928,8 +5907,7 @@
      "Active leak: gave up a WR TD in each of its last 2 games.",
      "0% red-zone role, 0% target share.",
      "No TDs yet in 4 games (4.0 in 12 last season).",
-     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog).",
-     "Kalshi 11\u00a2 vs model 10%."
+     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog)."
     ]
    },
    {
@@ -5995,68 +5973,6 @@
      "0% red-zone role, 0% target share.",
      "No TDs yet in 2 games.",
      "LAR projected for 29 pts (O/U 54.5, favored by 3.5)."
-    ]
-   },
-   {
-    "key": "ty johnson",
-    "pl": "Ty Johnson",
-    "tm": "BUF",
-    "opp": "LAR",
-    "pos": "RB",
-    "role": "RB1",
-    "g": "BUFLAR",
-    "gl": "BUF @ LAR (Mon)",
-    "dy": "Mon",
-    "id": "6039",
-    "lam": 0.06,
-    "pm": 0.062,
-    "p": 0.084,
-    "q": 10.5,
-    "ask": 11,
-    "tk": "KXNFLTDPROT-26OCT12BUFLAR-BUFTJOHNSON26-1",
-    "ev": "KXNFLTDPROT-26OCT12BUFLAR",
-    "tds": 0,
-    "n": 2,
-    "games_td": 0,
-    "ptd": 5.0,
-    "pn": 17,
-    "rz": 0,
-    "tdsh": 6,
-    "ts": 5,
-    "tdr": 0.0,
-    "tpg": 3.5,
-    "pts": 25.5,
-    "sp": 3.5,
-    "tot": 54.5,
-    "d": {
-     "td": 0,
-     "n": 4,
-     "rank": 32,
-     "nteams": 32,
-     "ltd": 9.0,
-     "lrank": 30,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.7,
-    "debt": 0.1,
-    "inj": null,
-    "hist": true,
-    "tags": [
-     "RZ share top-10",
-     "Shootout script"
-    ],
-    "low": false,
-    "score": 39.9,
-    "why": [
-     "LAR has allowed 0 RB TDs in 4 games (32nd most); 9.0 all last season.",
-     "0% red-zone role, 5% target share, 3.5 touches a game.",
-     "No TDs yet in 2 games (5.0 in 17 last season).",
-     "BUF projected for 26 pts (O/U 54.5, 3.5-pt underdog).",
-     "Kalshi 10\u00a2 vs model 6%."
     ]
    }
   ],
@@ -6907,7 +6823,7 @@
    3,
    4
   ],
-  "generated": "2026-10-12T03:47:07-07:00",
+  "generated": "2026-10-12T04:03:06-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 5 \u00b7 Mon Oct 12",
@@ -6918,7 +6834,7 @@
    "lines": "1 games",
    "weather": "0 outdoor games",
    "injuries": "253 players listed",
-   "news": "1 players in headlines",
+   "news": "0 players in headlines",
    "sleeper_trending": "40 board players trending",
    "reddit": "unavailable"
   },
