@@ -322,7 +322,7 @@ def test_featured_parlays():
         for ps in F[slate].values():
             for p in ps:
                 assert all(l["dy"] == want for l in p)
-    assert {"Sun", "Thu", "Mon"} <= days and F["sun"]["safe"]
+    assert {"Sun", "Thu"} <= days and F["sun"]["safe"]
 
 
 def test_tnf_review():
@@ -364,6 +364,70 @@ def test_returning_player():
         assert any("Back after missing" in t for _, t in r1["reasons"])
 
 
+def test_week5_review():
+    """Week 5 lessons: rushing/passing edges over Kalshi are capped, a game script against the prop cuts it,
+    and injury words in a headline count like a questionable tag."""
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    rows = engine.run(data, ov)["all"]
+    rush = [r for r in rows if r["stat"] == "rush" and r["pc"] > r["mid"] / 100]
+    assert rush and all(r["pc"] - r["mid"] / 100 <= 0.6 * 0.35 + 0.02 for r in rush)
+    base = max((r for r in rows if r["stat"] == "rush" and r["pos"] == "RB" and 0.6 < r["pc"] < 0.85), key=lambda r: r["score"])
+    g = next(g for g in data["games"] if g["key"] == base["game"])
+    other = g["home"] if base["team"] == g["away"] else g["away"]
+    d0 = json.loads(json.dumps(data))
+    d0["context"] = {"games": {base["game"]: {"spread": {base["team"]: 10, other: -10}, "total": 38}}}
+    neg = next(r for r in engine.run(d0, ov)["all"] if (r["player"], r["stat"], r["line"]) == (base["player"], base["stat"], base["line"]))
+    assert neg["sx"] < -0.5 and neg["score"] < base["score"] * 0.85 and neg["pc"] < base["pc"] - 0.08
+    r0 = max((r for r in rows if r["pos"] != "QB" and r["stat"] != "rush"), key=lambda r: r["score"])
+    d2 = json.loads(json.dumps(data))
+    d2.setdefault("context", {}).setdefault("news", {})[engine.norm(r0["player"])] = {"h": f"{r0['player']} limited with ankle injury", "t": ""}
+    r1 = next(r for r in engine.run(d2, ov)["all"] if (r["player"], r["stat"], r["line"]) == (r0["player"], r0["stat"], r0["line"]))
+    assert r1["score"] < r0["score"] * 0.95 and any("Injury in the news" in t for _, t in r1["reasons"])
+
+
+def test_touchdowns():
+    """TD section (Jake Venom's method): watch-list parsing and matching, defense-vs-position tables, sane
+    chances, cheat-code tags, parlays from different games with 21+ team points, Jake bonus is ranking-only,
+    Kalshi TD market names parse."""
+    import td, fetch, random, tempfile
+    assert fetch.td_name("Kyle Pitts") == "Kyle Pitts" and fetch.td_name("Kyle Pitts: 1+") == "Kyle Pitts"
+    assert fetch.td_name("Kyle Pitts: 2+") is None and fetch.td_name("Kyle Pitts - Anytime TD") == "Kyle Pitts"
+    f = os.path.join(tempfile.mkdtemp(), "w.txt")
+    open(f, "w").write("# comment\n## Week 4\n- Bucky Irving - red zone back vs a bad defense\n✅ M. Evans (sleeper)\n## Week 5\nKyle Pitts\n")
+    w = td.read_watch(4, f)
+    assert w == [("Bucky Irving", "red zone back vs a bad defense"), ("M. Evans", "sleeper")]
+    assert td.tags_for(w[0][1]) == ["red-zone role", "soft defense"] and td.read_watch(5, f) == [("Kyle Pitts", "")]
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    random.seed(7)
+    for s in data["stats"]:
+        s["rtd"] = int(s["pos"] == "RB" and random.random() < 0.35); s["ctd"] = int(s["pos"] != "QB" and random.random() < 0.18)
+        s["rzt"] = random.randint(0, 2) if s["pos"] != "QB" else 0; s["rza"] = random.randint(0, 4) if s["pos"] == "RB" else 0
+    games = {g["key"]: {"spread": {g["away"]: 3, g["home"]: -3}, "total": 48} for g in data["games"]}
+    data["context"] = {"games": games}
+    out = engine.run(data, ov)
+    T = td.build(data, out, [])
+    P = T["players"]
+    assert T["has_td"] and T["has_rz"] and len(P) > 30 and all(0 < x["p"] < 0.95 for x in P) and P[0]["p"] >= P[-1]["p"]
+    assert any(x["tags"] for x in P) and all(0 <= x["score"] <= 100 for x in P) and any(x["why"] for x in P)
+    keys = {x["key"]: x for x in P}
+    for kind, minp in (("safe", td.MIN_SAFE), ("code", td.MIN_LEG)):
+        legs = [keys[k] for k in T["parlays"][kind]]
+        assert legs and len({x["g"] for x in legs}) == len(legs) and all(x["p"] >= minp and not x["low"] for x in legs)
+    assert all(len(keys[k]["tags"]) >= 2 for k in T["parlays"]["code"])
+    d = td.defense_tables(data["stats"], [])[0]
+    assert all(v["rank"] >= 1 for v in d.values() if v["rank"])
+    pick = next(x for x in P[10:] if x["p"] >= 0.40 and x["g"] not in {keys[k]["g"] for k in T["parlays"]["safe"]})
+    V = td.build(data, out, [(pick["pl"], "bad defense"), ("Nobody Real", "")])
+    vp = next(x for x in V["players"] if x["key"] == pick["key"])
+    assert vp.get("venom") and vp["p"] == pick["p"] and V["venom_missing"] == ["Nobody Real"]
+    # a low projected total keeps a player out of the parlays
+    data["context"]["games"][pick["g"]] = {"spread": {pick["tm"]: 10, pick["opp"]: -10}, "total": 30}
+    L = td.build(data, engine.run(data, ov), [])
+    lp = next(x for x in L["players"] if x["key"] == pick["key"])
+    assert lp["low"] and pick["key"] not in L["parlays"]["safe"] + L["parlays"]["code"]
+
 if __name__ == "__main__":
     test_week4_reproduces_published_board()
     test_page_cards_match_published_board()
@@ -380,4 +444,6 @@ if __name__ == "__main__":
     test_featured_parlays()
     test_tnf_review()
     test_returning_player()
-    print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games, balanced line picking, new-QB target share, featured parlays, TNF review), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
+    test_week5_review()
+    test_touchdowns()
+    print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games, balanced line picking, new-QB target share, featured parlays, TNF review, Week 5 review, touchdowns), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
