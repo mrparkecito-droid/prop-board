@@ -135,6 +135,69 @@ def kalshi_markets(today):
     return list(games.values()), markets
 
 
+TD_SERIES_GUESS = ["KXNFLANYTD", "KXNFLTD", "KXNFLATD", "KXNFLANYTIMETD"]
+
+
+def td_series_list():
+    """Kalshi series for NFL anytime-touchdown markets. Found by title so a renamed ticker still works."""
+    found = []
+    try:
+        for s in kalshi_paged("/series", {"category": "Sports"}, "series"):
+            t = (s.get("title") or "").lower(); tk = s.get("ticker") or ""
+            if "touchdown" in t and "first" not in t and "next" not in t and ("NFL" in tk or "football" in t):
+                found.append(tk)
+    except Exception as e:
+        print("series list unavailable:", e)
+    return found + [t for t in TD_SERIES_GUESS if t not in found]
+
+
+def td_name(sub):
+    """Player name from an anytime-TD market subtitle ('Kyle Pitts', 'Kyle Pitts: 1+', 'Kyle Pitts - Anytime TD');
+    None for 2+ TD markets or anything that isn't a player."""
+    mm = re.match(r"(.+?)(?::\s*(\d+)\+)?(?:\s*[-:]\s*anytime.*)?$", (sub or "").strip(), re.I)
+    if not mm or (mm.group(2) and mm.group(2) != "1"):
+        return None
+    name = re.sub(r"\s*\(.*?\)\s*", " ", mm.group(1)).strip()
+    if not name or name.lower() in ("yes", "no") or len(name.split()) < 2:
+        return None
+    return name
+
+
+def kalshi_td_markets(today, games):
+    """[{game, name, ask, bid, ticker, event}] for this week's anytime TD markets (1+ TDs only)."""
+    week_start = today - dt.timedelta(days=(today.weekday() - 1) % 7)
+    horizon = week_start + dt.timedelta(days=6)
+    keys = {g["key"] for g in games}
+    out, used = [], []
+    for series in td_series_list():
+        try:
+            events = kalshi_paged("/events", {"series_ticker": series, "status": "open", "limit": 200}, "events")
+        except Exception:
+            continue
+        n0 = len(out)
+        for ev in events:
+            d = event_date(ev["event_ticker"])
+            if not d or d < today or d > horizon:
+                continue
+            m = re.match(r"\s*([A-Z]{2,4})\s+(?:vs|at|@)\s+([A-Z]{2,4})", ev.get("sub_title") or "")
+            if not m:
+                continue
+            key = f"{T(m.group(1))}{T(m.group(2))}"
+            if keys and key not in keys:
+                continue
+            for mk in kalshi_paged("/markets", {"event_ticker": ev["event_ticker"], "status": "open", "limit": 1000}, "markets"):
+                name = td_name(mk.get("yes_sub_title") or mk.get("subtitle") or "")
+                if not name:
+                    continue
+                ask = cents(mk, "yes_ask"); bid = cents(mk, "yes_bid")
+                out.append({"game": key, "name": name, "ask": ask or 0, "bid": bid, "ticker": mk.get("ticker"),
+                            "event": ev["event_ticker"]})
+        if len(out) > n0:
+            used.append(series)
+            break           # one series is enough; others would duplicate it
+    return out, ", ".join(used)
+
+
 # ---------------------------------------------------------------- PFR team defense
 PFR_NAMES = {
     "Arizona Cardinals": "ARI", "Atlanta Falcons": "ATL", "Baltimore Ravens": "BAL", "Buffalo Bills": "BUF", "Carolina Panthers": "CAR",
@@ -182,7 +245,12 @@ def stat_row(wk, r):
     return {"wk": wk, "name": r["name"], "pos": r["pos"], "team": r["team"], "opp": r["opp"],
             "pass_yd": g("pass_yd"), "rush_yd": g("rush_yd"), "rec": g("rec"), "rec_yd": g("rec_yd"),
             # usage: targets, carries, pass attempts, offensive snaps and the team's offensive snaps
-            "tgt": g("rec_tgt"), "att": g("rush_att"), "patt": g("pass_att"), "snp": g("off_snp"), "tsnp": g("tm_off_snp")}
+            "tgt": g("rec_tgt"), "att": g("rush_att"), "patt": g("pass_att"), "snp": g("off_snp"), "tsnp": g("tm_off_snp"),
+            # touchdowns (rushing + receiving count for Kalshi's anytime TD) and red-zone looks when Sleeper has them
+            "rtd": g("rush_td"), "ctd": g("rec_td"),
+            # red-zone targets / carries, whatever Sleeper calls them (rec_rz_tgt, rush_rz_att, ...)
+            "rzt": sum(v for k, v in st.items() if isinstance(v, (int, float)) and "rz" in k.split("_") and "tgt" in k),
+            "rza": sum(v for k, v in st.items() if isinstance(v, (int, float)) and "rz" in k.split("_") and k.startswith("rush") and "att" in k)}
 
 
 def prev_season(season):
@@ -190,7 +258,7 @@ def prev_season(season):
     path = os.path.join(HERE, "data", "prev_season.json")
     try:
         old = json.load(open(path))
-        if old.get("season") == season - 1 and len(old.get("weeks", [])) >= 18 and old.get("v") == 1:
+        if old.get("season") == season - 1 and len(old.get("weeks", [])) >= 18 and old.get("v") == 2:
             return old["stats"]
     except (OSError, ValueError):
         pass
@@ -205,7 +273,7 @@ def prev_season(season):
             print(f"last season week {wk} unavailable:", e)
     if len(weeks) >= 18:
         os.makedirs(os.path.dirname(path), exist_ok=True)
-        json.dump({"v": 1, "season": season - 1, "weeks": weeks, "stats": rows}, open(path, "w"), separators=(",", ":"))
+        json.dump({"v": 2, "season": season - 1, "weeks": weeks, "stats": rows}, open(path, "w"), separators=(",", ":"))
     print(f"last season: {len(rows)} stat lines from {len(weeks)} weeks")
     return rows
 
@@ -240,12 +308,18 @@ def main():
             p["pass"] = st.get("pass_yd"); p["rush"] = st.get("rush_yd")
         else:
             p["rush"] = st.get("rush_yd"); p["rec"] = st.get("rec"); p["recyds"] = st.get("rec_yd")
+        p["td"] = round((st.get("rush_td") or 0) + (st.get("rec_td") or 0), 3)     # projected anytime TDs
         if any(v for k, v in p.items() if k in ("pass", "rush", "rec", "recyds")):
             proj.append(p)
     print("projections:", len(proj))
 
     games, markets = kalshi_markets(now.date())
     print("games:", len(games), "markets:", len(markets))
+    try:
+        td_markets, td_series = kalshi_td_markets(now.date(), games)
+        print(f"anytime TD markets: {len(td_markets)} from {td_series or 'no series found'}")
+    except Exception as e:
+        td_markets = []; print("anytime TD markets unavailable:", e)
 
     try:
         league = pfr_league(season); league_source = "Pro Football Reference"
@@ -273,7 +347,7 @@ def main():
     data = {"season": season, "week": week, "completed_weeks": completed, "generated": now.isoformat(timespec="seconds"),
             "league_source": league_source, "eyebrow": eyebrow, "notes": notes,
             "games": sorted(games, key=lambda g: (g["date"], g["label"])), "markets": markets,
-            "stats": stats, "proj": proj, "league": league}
+            "stats": stats, "proj": proj, "league": league, "td_markets": td_markets}
     os.makedirs(os.path.join(HERE, "data"), exist_ok=True)
     json.dump(data, open(os.path.join(HERE, "data", "data.json"), "w"))
     if not games or not markets:

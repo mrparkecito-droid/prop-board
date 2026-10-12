@@ -20,6 +20,7 @@ import context
 import usage
 import script
 import matchup
+import td
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -33,8 +34,13 @@ ASK_MIN, ASK_MAX = 35, 88
 MAX_PER_PLAYER, BOARD_SIZE = 2, 50
 MIN_GAMES = 2
 P_CAP = 0.97
-MARKET_BLEND = 0.30
-RETURN_PEN = 0.06   # back from missing his team's last game(s) or listed questionable: score -6%, chance leans to Kalshi
+MARKET_BLEND = 0.50   # Weeks 4-5: Kalshi alone beat the model; a 50/50 blend beat both (was 0.30)
+RETURN_PEN = 0.12   # back from missing games, listed questionable, or injury news: score -12%, chance leans to Kalshi
+RUSH_KEEP = 0.40    # rushing and passing: keep only 40% of any edge over Kalshi (Weeks 4-5: rush picks hit 57% vs 77% expected, QB passing 75% vs 83%)
+SX_P, SX_S = 0.20, 0.30   # game script against him (sx < 0): chance -20 pts x |sx|, score -30% x |sx|
+INJ_NEWS = re.compile(r"injur|ankle|hamstring|knee|groin|calf|foot|concussion|illness|limited|questionable|game-time|"
+                      r"day-to-day|setback|not practic|did not practice|dnp|banged", re.I)
+VENOM_W, VENOM_MX = 0.03, 0.2   # Venom TD pick + matchup edge: main props +3% score (small on purpose)
 MKT_GAP, MKT_KEEP = 0.05, 0.40   # market check: above a 5-point gap on a low-volume player, keep only 40% of the gap    # final chance = 70% model + 30% Kalshi's price (Week 4: the blend was better calibrated than either)
 CTX_WEIGHT = 0.04      # game context (lines, weather, injuries, news, buzz) moves a score at most +/-4%
 SLEEPER_STATUS = {"Questionable": "Questionable", "Doubtful": "Doubtful", "Out": "Out", "IR": "Out", "PUP": "Out", "Sus": "Out"}
@@ -98,6 +104,7 @@ def run(data, overrides=None, learned=None):
     W = dict(DEFAULT_W)
     W.update((learned or {}).get("weights") or {})
     weeks = data["completed_weeks"]
+    VEN = td.match_names(data.get("venom") or [], [{"key": norm(p_["name"])} for p_ in data["proj"]])
     # ---------- game logs ----------
     logs, teamgames = {}, {}
     for s in data["stats"]:
@@ -345,13 +352,20 @@ def run(data, overrides=None, learned=None):
         if p > mq + MKT_GAP and lowvol and pos != "QB":
             p = mq + (p - mq) * MKT_KEEP
             mkt_note = f"Market check: Kalshi is lower on this low-volume {role}, so the chance leans toward its {round(mq * 100)}¢ price."
+        if stat in ("rush", "pass") and p > mq:
+            p = mq + (p - mq) * RUSH_KEEP        # rushing yards swing hard on game flow; trust the market more
+        if sx < 0:
+            p = max(0.01, p - SX_P * (-sx))     # trailing RBs, leading teams' passers: the script cuts volume
         st_now = ((QB or {}).get("status") or {}).get(k) or SLEEPER_STATUS.get(pj.get("inj") or "", "")
-        back = missed >= 1 or st_now == "Questionable"
+        news_h = (((data.get("context") or {}).get("news") or {}).get(k) or {}).get("h", "")
+        inj_news = bool(news_h and INJ_NEWS.search(news_h))
+        back = missed >= 1 or st_now == "Questionable" or inj_news
         if back and p > mq:
             # returning from injury (or playing hurt): his old games and projection don't know how healthy he is,
             # Kalshi's price usually does
             p = mq + (p - mq) * MKT_KEEP
-            why_ = (f"Back after missing his last {missed} game{'s' if missed > 1 else ''}" if missed else "Listed questionable")
+            why_ = (f"Back after missing his last {missed} game{'s' if missed > 1 else ''}" if missed else
+                    "Listed questionable" if st_now == "Questionable" else "Injury in the news")
             mkt_note = (mkt_note + " " if mkt_note else "") + f"{why_}: rust/health risk, so the chance leans toward Kalshi's {round(mq * 100)}¢."
         roi = p / (m["ask"] / 100) - 1
         value = min(max(0.5 + roi / 1.0, 0), 1)
@@ -364,9 +378,16 @@ def run(data, overrides=None, learned=None):
             {"game": m["game"], "team": team, "opp": opp, "stat": stat, "pos": pos, "player": lg["name"]},
             data.get("context"), SLEEPER_STATUS.get(pj.get("inj") or ""))
         score *= 1 + CTX_WEIGHT * ctx
+        vwhy = VEN.get(k)
+        if vwhy is not None and mx >= VENOM_MX:
+            # a Venom TD pick facing a defense that gives up a lot to his role: a small nudge for his main props too
+            score *= 1 + VENOM_W
+            reasons = reasons + [(0.02, f"Venom TD pick{(' (' + vwhy + ')') if vwhy else ''}, and {opp} is soft against his role.")]
         score *= (1 + matchup.ENV_W * envf) * (1 + script.QB_W * qf) * (1 + matchup.DEPTH_W * dfac) * (1 + matchup.OFF_W * off)
         if back:
             score *= 1 - RETURN_PEN
+        if sx < 0:
+            score *= 1 - SX_S * (-sx)
         reasons = reasons + srs
         if mnote:
             reasons.append((round(0.5 * mx, 2), mnote))
@@ -600,11 +621,18 @@ if __name__ == "__main__":
         except Exception:
             pass
     ov = load_overrides(os.path.join(HERE, "overrides.csv"))
+    data["venom"] = td.read_watch(data.get("week"))
+    if data["venom"]:
+        print(f"Venom TD watch list: {len(data['venom'])} players")
     import learn
     learned, track = learn.prepare(data, ov)        # grade past picks, refit weights + calibration
     out = run(data, ov, learned)
     learn.snapshot(data, out)                        # save this week's picks so they get graded later
     out["parlay"] = parlay_legs(out)
+    try:
+        out["td"] = td.build(data, out, data.get("venom"))
+    except Exception as e:                      # the TD section must never break the props board
+        print("TD section failed:", e); out["td"] = None
     out["track"] = track
     out["meta"] = {k: data[k] for k in ("season", "week", "completed_weeks", "generated", "league_source", "notes", "eyebrow") if k in data}
     out["meta"]["games"] = [g["label"] for g in data["games"]]

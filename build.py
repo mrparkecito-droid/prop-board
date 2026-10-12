@@ -279,6 +279,7 @@ def render(out, template):
         "{{W_RANK}}": wtxt("Defense rank", 10),
         "{{LEGS}}": legs,
         "{{KALSHI}}": kalshi_json(out),
+        "{{TD}}": json.dumps(out.get("td"), separators=(",", ":")).replace("</", "<\\/"),
         "{{KSTATUS}}": kalshi_status(out),
         "{{RESULTS}}": results_html(out.get("track")),
         "{{TITLE}}": f"Week {week} Prop Board",

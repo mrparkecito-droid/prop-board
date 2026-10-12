@@ -62,7 +62,8 @@ LOWVOL_W = 0.10    # low-volume legs (WR3s, backup RBs, few expected targets) ar
 SLATE_DAYS = {"all": None, "tnf": {"Thu"}, "sun": {"Sun"}, "mnf": {"Mon"}}
 # Featured parlays (mirrored in template.html): (id, name, low odds, high odds, max legs)
 # (id, name, low odds, high odds, max legs, minimum chance for every leg, minimum board score for every leg)
-TIERS = [("safe", "Safe", 200, 300, 5, 0.62, 74), ("medium", "Medium", 500, 600, 6, 0.58, 72), ("flyer", "Flyer", 1000, 2000, 8, 0.50, 68)]
+TIERS = [("safe", "Safe", 200, 300, 5, 0.62, 74), ("medium", "Medium", 500, 600, 6, 0.58, 72), ("flyer", "Flyer", 1000, 2000, 10, 0.45, 65)]
+SINGLE_RELAX = 15   # single-game slates have few players: every leg's score floor drops by 15 (not below 58)
 SINGLE = {"tnf", "mnf"}   # off-board ladders from thin games ("xb") are only used on single-game slates
 
 
@@ -136,7 +137,8 @@ def featured(legs, K, n=3):
         out[slate] = {}
         for tid, _, lo, hi, maxl, minc, mins in TIERS:
             band = (1 + hi / 100) / (1 + lo / 100)
-            out[slate][tid] = search(legs, lo, K, band=band, maxl=maxl, slate=slate, minc=minc, mins=mins)[:n]
+            ms = max(mins - SINGLE_RELAX, 58) if slate in SINGLE else mins
+            out[slate][tid] = search(legs, lo, K, band=band, maxl=maxl, slate=slate, minc=minc, mins=ms)[:n]
     return out
 
 

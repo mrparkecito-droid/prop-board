@@ -3,7 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<style>[hidden]{display:none!important} body{margin:0}</style>
+<style>[hidden]{display:none!important} body{margin:0}.tdgrid{display:grid;gap:10px}
+.ven{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:#8a5cf6;color:#fff;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:2px}
+.tdc{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:grid;gap:6px;min-width:0}
+.tdc .top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.tdc .top b{font-size:16px}
+.tdc .pc{font-family:var(--display);font-size:26px;color:var(--gold);line-height:1;text-align:right}
+.tdc .pc small{display:block;font:500 11px var(--body);color:var(--muted)}
+.tdc ul{margin:0;padding-left:18px;font-size:13px;color:var(--muted);display:grid;gap:2px}
+.tdc .vwhy{font-size:13px;color:var(--ink);background:var(--chip);border-radius:8px;padding:6px 8px}
+.tdc .mprop{font-size:13px;border-top:1px solid var(--line);padding-top:6px}
+.vbox textarea{width:100%;min-height:90px;font:14px var(--body);background:var(--chip);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px;box-sizing:border-box}
+.vbox .row{display:flex;gap:8px;flex-wrap:wrap}
+.vbox .row button{flex:1 1 120px;min-height:44px;border-radius:10px;border:1px solid var(--line);background:var(--chip);color:var(--ink);font:600 14px var(--body);cursor:pointer}
+.vbox small{color:var(--muted)}
+.tag{display:inline-block;font-size:11px;font-weight:600;color:var(--gold);border:1px solid var(--gold);border-radius:999px;padding:1px 7px;margin:2px 4px 0 0}
+.tdfacts{gap:12px}.tdfacts ul{margin:4px 0 0;padding-left:18px;font-size:13px;color:var(--muted)}
+</style>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Prop Board">
@@ -220,6 +236,7 @@ body.has-slip .wrap{padding-bottom:96px}
 <nav class="tabs" role="tablist" aria-label="Sections">
  <button type="button" role="tab" id="t-props" aria-controls="v-props" aria-selected="true">Props</button>
  <button type="button" role="tab" id="t-parlay" aria-controls="v-parlay" aria-selected="false">Parlay</button>
+ <button type="button" role="tab" id="t-td" aria-controls="v-td" aria-selected="false">TDs</button>
  <button type="button" role="tab" id="t-results" aria-controls="v-results" aria-selected="false">Results</button>
 </nav>
 
@@ -239,7 +256,8 @@ body.has-slip .wrap{padding-bottom:96px}
   <li><b>Depth &amp; volume (up to −10%).</b> WR3s, TE2s and backup RBs start with a penalty; expected targets or carries from the usage model can cancel it or make it worse.</li>
   <li><b>Offense (up to ±12%).</b> How well his offense moves the ball through the air or on the ground. A QB in his first season with the team, or first season starting, on a struggling offense gets an extra cut.</li>
   <li><b>Picking the line.</b> On each ladder the board starts from the safest line, then steps up to a higher one when the case is strong (good matchup and game script, or a projection far above the line), as long as the higher line is still very likely (model 72%+), fairly priced, and scores within a few points of the safest. Each card also shows the <b>Safer</b> line it stepped up from and a <b>Bigger payout</b> line, both addable to your slip.</li>
-  <li><b>Market check.</b> The final chance is 70% model and 30% Kalshi's own price. In Week 4 that blend was better calibrated than either alone.</li>
+  <li><b>Market check.</b> The final chance is 50% model and 50% Kalshi's own price (Kalshi alone beat the model in Weeks 4 and 5; the blend beat both). Rushing and passing props keep only 40% of any edge over Kalshi, since those were the props the model was most overconfident on.</li>
+  <li><b>Game script against him (up to −30%).</b> When the spread and total say the game will go the wrong way for this prop (a trailing team's running back, a big favorite's passer, a low-scoring team), the score drops and the chance is cut. Props in that spot hit 46% in Weeks 4–5 when the model expected 80%.</li>
   <li><b>Game script (shown separately).</b> From the point spread and over/under (now combined with the defense matchup above). A big favorite leans on the run with a lead, so its lead back gets a boost and its passing a small cut; a big underdog throws to catch up, so its QB, receivers and pass-catching backs get a boost and its rushing a cut. A high or low team total nudges every yardage prop. Starts at a 3-point spread, full strength at 10.</li>
   <li><b>QB situation (receivers, up to ±10%).</b> If the QB who usually starts is out or not projected to start, the receiver's games with the new QB decide it (this season, and last season if they were teammates). No games together is a clear penalty; good history with the backup cancels it.</li>
   <li><b>Game context (up to ±4%).</b> A small nudge from things the stats can't see: wind and rain at kickoff, injuries on his team and the defense, his own injury status, recent ESPN headlines, and hype (most-added on Sleeper, Reddit buzz). Players listed out are dropped. It's kept small on purpose while it's tested. {{CTX_SRC}}</li>
@@ -268,7 +286,7 @@ body.has-slip .wrap{padding-bottom:96px}
 <div class="notes">
  <p>{{SAMPLE_NOTE}} A "—" means the player wasn't in Sleeper's stat feed for that week, which happens on very low-volume games; it counts as a miss.</p>
  {{MARKET_NOTE}}
- <p>Injury news isn't modeled. Check Sunday morning inactives, especially for anyone listed questionable.</p>
+ <p>Players back from missing games, listed questionable, or with injury words in their latest headline lose 12% of their score and lean on Kalshi's price. Still check Sunday morning inactives.</p>
  <p>Stats: Sleeper weekly stats{{OVR_NOTE}}. Projections: Sleeper (Rotowire). Defense ranks: {{LEAGUE_SRC}}. Prices: Kalshi yes ask, updated {{UPDATED}}.</p>
 </div>
 </div>
@@ -296,9 +314,33 @@ body.has-slip .wrap{padding-bottom:96px}
  <div class="plist" id="parlays" aria-live="polite"></div>
  <div class="notes">
   <p><b>Where the odds come from.</b> On each update the board builds the best parlays at +150 through +2000 and asks Kalshi for a real quote on each. Kalshi creates the combo, market makers quote it, and the request is cancelled without buying anything. Parlays with a quote show <i>Kalshi quote</i>. Any other parlay shows <i>Expected Kalshi price</i>: the legs' fair prices multiplied, plus the markup Kalshi has actually been adding to combos, learned from every real quote so far. If a leg has no seller showing, its price is estimated from the lines above and below it on the same ladder.</p>
-  <p><b>Best parlays.</b> For each payout range (Safe +200 to +300, Medium +500 to +600, Flyer +1000 and up) it searches every combination of props and lines (the board's ladders plus any other ladder scoring 65+) and keeps the one with the highest chance of hitting, using only legs that are individually strong enough for the tier (Safe: every leg 62%+, Medium: 58%+, Flyer: 50%+), and counting low-volume legs (WR3s, backup backs, few expected targets) as riskier, where each leg's chance comes from the model and the Kalshi price and its overall score breaks ties (a leg scoring 85 counts like about 6 points of extra chance). Pick a slate to build only from that night's games. "Next option" shows the next-best combinations, and each one can be added to your slip in one tap.</p>
+  <p><b>Best parlays.</b> For each payout range (Safe +200 to +300, Medium +500 to +600, Flyer +1000 and up) it searches every combination of props and lines (the board's ladders plus any other ladder scoring 65+) and keeps the one with the highest chance of hitting, using only legs that are individually strong enough for the tier (Safe: every leg 62%+ and scoring 74+, Medium: 58%+ and 72+, Flyer: 45%+ and 65+; on a one-game TNF/MNF slate the score floors drop by 15), and counting low-volume legs (WR3s, backup backs, few expected targets) as riskier, where each leg's chance comes from the model and the Kalshi price and its overall score breaks ties (a leg scoring 85 counts like about 6 points of extra chance). Pick a slate to build only from that night's games. "Next option" shows the next-best combinations, and each one can be added to your slip in one tap.</p>
   <p><b>How legs are picked.</b> Only board props, using whichever line on each ladder gets you to your odds with the best chance. Each leg's chance is a 50/50 blend of the model and Kalshi's price, with a 3% safety discount per leg. Rules: one leg per player, at most two per game (unless you pick one game), 2 to 6 legs. The three options share at most one player, and no player is in all three.</p>
   <p>Quotes are as of the last update ({{UPDATED}}) and move with the market, so confirm the price in Kalshi before you place it.</p>
+ </div>
+</div>
+
+<div class="view" id="v-td" role="tabpanel" aria-labelledby="t-td" hidden>
+ <section class="panel feat">
+  <h2>Touchdown parlays</h2>
+  <p class="sub">Anytime TD (rushing or receiving), picked the way Jake Venom does it: defense vs the position, red-zone role and target share, game script, and who's due. <b>Safest TD</b> is the two likeliest scorers. <b>Cheat Code TD</b> is three players with 2+ cheat codes. Every leg's team is projected for 21+ points.</p>
+ </section>
+ <div class="plist" id="tdpar" aria-live="polite"></div>
+ <h2 class="sech">Game cheat codes</h2>
+ <section class="panel tdfacts" id="tdfacts"></section>
+ <h2 class="sech">Top TD candidates</h2>
+ <div class="tdgrid" id="tdlist"></div>
+ <section class="panel vbox">
+  <h2>Jake's picks</h2>
+  <p class="sub" id="vstat"></p>
+  <label for="vtext"><small>Optional: paste the players from his weekly <i>NFL Touchdown Watch</i> video (@jakevenomapp), one per line, with his reason after a dash, like <i>Kyle Pitts - sleeper, bad TE defense</i>. They get a ranking bump and a <i>Jake</i> badge; the chance never changes. Saved on this device only.</small></label>
+  <textarea id="vtext" placeholder="Kyle Pitts - sleeper&#10;Brock Bowers - volume&#10;Malik Willis - goal line runs"></textarea>
+  <div class="row"><button type="button" id="vapply">Use these picks</button><button type="button" id="vclear">Clear</button></div>
+ </section>
+ <div class="notes">
+  <p><b>How it works.</b> Like Jake's video: (1) how many TDs the defense has allowed to his position this season and last, and whether it's leaking right now (one allowed in each of its last 2 games); (2) his role: red-zone share, target share, TD rate, touches; (3) game script: his team's projected points from the spread and total; (4) TD debt: TDs his role says he should have vs what he's scored. Coverage-shell splits (yards per target vs single-high / two-high safeties) aren't in free data, so they're left out.</p>
+  <p><b>The chance.</b> Team TDs expected (projected points ÷ 7, less field goals) × his share of the team's TDs (red-zone share, TD share this season and last, touch share) × how soft the defense is against his position. Chance of 1+ TD = 1 − e<sup>−that</sup>, then 50/50 with Kalshi's anytime-TD price when Kalshi lists him. The Venom score (0–100) ranks the same signals.</p>
+  <p><b>Better than his Week 5.</b> His misses (St. Brown, Olave, Tre Tucker, Chase Brown, Schultz, Tuten) were on low-total offenses or pass-catchers whose team's red-zone work went elsewhere, so parlay legs need 21+ projected team points and red-zone role counts more than the matchup.</p>
  </div>
 </div>
 
@@ -311,6 +353,7 @@ body.has-slip .wrap{padding-bottom:96px}
 <script type="application/json" id="board-data">{{BOARD}}</script>
 <script type="application/json" id="legs-data">{{LEGS}}</script>
 <script type="application/json" id="kalshi-data">{{KALSHI}}</script>
+<script type="application/json" id="td-data">{{TD}}</script>
 <script>
 /* Home Screen app: iPhone keeps the old page around, so check for a newer board whenever the app is opened */
 (function(){var BUILD="{{BUILD}}";
@@ -345,8 +388,9 @@ body.has-slip .wrap{padding-bottom:96px}
  function cxpill(c){var v=4*(c||0);return Math.abs(v)>=0.05?'<span class="cx '+(v>0?"up":"dn")+'">Context '+(v>0?"+":"−")+Math.abs(v).toFixed(1)+'%</span> ':""}
  function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]});}
  var LOWVOL_W=0.10,SCORE_W=0.4,SLATE_DAYS={all:null,tnf:["Thu"],sun:["Sun"],mnf:["Mon"]};
- var TIERS=[["safe","Safe",200,300,5,0.62,74],["medium","Medium",500,600,6,0.58,72],["flyer","Flyer",1000,2000,8,0.50,68]];   /* mirrored in parlay.py */
+ var TIERS=[["safe","Safe",200,300,5,0.62,74],["medium","Medium",500,600,6,0.58,72],["flyer","Flyer",1000,2000,10,0.45,65]];   /* mirrored in parlay.py */
  var SINGLE={tnf:1,mnf:1};
+ function tierMin(t,slate){return SINGLE[slate||"all"]?Math.max(t[6]-15,58):t[6]}
  function legOK(x,game,slate,minc,mins){if(game!=="all"&&x.g!==game)return false;if(!inSlate(x,slate))return false;if(x.xb&&game==="all"&&!SINGLE[slate||"all"])return false;return chance(x)>=(minc||0)&&(x.sc==null?70:x.sc)>=(mins||0)}
  function legCost(x){return Math.max(-Math.log(chance(x)*HAIR)-SCORE_W*((x.sc==null?70:x.sc)-70)/100+LOWVOL_W*Math.max(0,-(x.df||0)),0.01)}
  function inSlate(x,slate){var d=SLATE_DAYS[slate||"all"];return !d||d.indexOf(x.dy)>=0}
@@ -420,8 +464,8 @@ body.has-slip .wrap{padding-bottom:96px}
   var D=1+t[2]/100,Dh=1+t[3]/100,pool=[],seen={};
   function add(p){var k=key(p);if(seen[k])return;seen[k]=1;var q=QMAP[k],price=q?q.price:expPrice(p),dec=1/price;if(dec<D||dec>Dh)return;
    var ch=1,c=0;p.forEach(function(x){ch*=chance(x)*HAIR;c+=legCost(x)});pool.push({legs:p,price:price,src:q?q.src:"est",ch:ch,c:c-(q?0.02:0)});}
-  search(t[2],"all",Dh/D,t[4],slate,t[5],t[6]).slice(0,60).forEach(add);
-  QUOTED.forEach(function(q){if(q.legs.every(function(x){return legOK(x,"all",slate,t[5],t[6])}))add(q.legs)});
+  search(t[2],"all",Dh/D,t[4],slate,t[5],tierMin(t,slate)).slice(0,60).forEach(add);
+  QUOTED.forEach(function(q){if(q.legs.every(function(x){return legOK(x,"all",slate,t[5],tierMin(t,slate))}))add(q.legs)});
   pool.sort(function(a,b){return a.c-b.c});
   var out=[];pool.forEach(function(o){if(out.length<3&&out.every(function(u){return o.legs.filter(function(x){return u.legs.indexOf(x)<0}).length>=1}))out.push(o)});
   return out;
@@ -516,4 +560,47 @@ body.has-slip .wrap{padding-bottom:96px}
 })();
 
 (function(){var bs=[].slice.call(document.querySelectorAll("[data-gf]"));bs.forEach(function(b){b.addEventListener("click",function(){var f=b.dataset.gf;bs.forEach(function(x){x.setAttribute("aria-pressed",x===b)});document.querySelectorAll(".graded li").forEach(function(li){li.hidden=f!=="all"&&!li.classList.contains(f)})})})})();
+
+/* Touchdowns tab (mirrors td.py parlays) */
+(function(){
+ var TD=JSON.parse(document.getElementById("td-data").textContent||"null"),box=document.getElementById("tdpar"),list=document.getElementById("tdlist"),fbox=document.getElementById("tdfacts");
+ if(!box)return;
+ if(!TD||!TD.players||!TD.players.length){box.innerHTML='<p class="empty">No touchdown data on this update yet.</p>';return}
+ var KX=JSON.parse(document.getElementById("kalshi-data").textContent||"{}"),K=KX.K||{b:0,k:0.035,s:0.04};
+ var STORE="pb-venom-"+TD.week,JB=0.06,MINS=0.40,MINL=0.33,P=TD.players;
+ function esc(t){return String(t==null?"":t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+ function norm(n){return String(n||"").replace(/[.'’]/g,"").toLowerCase().replace(/\b(jr|sr|ii|iii|iv|v)\b/g,"").replace(/\s+/g," ").trim()}
+ function am(dec){return dec>=2?"+"+Math.round((dec-1)*100):"−"+Math.round(100/(dec-1))}
+ function parse(txt){var out=[];String(txt||"").split(/\n/).forEach(function(l){l=l.replace(/^[\-\*•\d\.\)\s✅🟢]+/,"").trim();if(!l||l[0]==="#")return;var m=l.split(/\s+[-–—|]\s+|:\s+|\s+\(/);out.push([m[0].trim(),(m.slice(1).join(" - ")||"").replace(/\)$/,"").trim()])});return out}
+ function match(picks){var by={},res={},miss=[];P.forEach(function(p){by[p.key]=p});picks.forEach(function(x){var k=norm(x[0]);if(by[k]){res[k]=x[1];return}var parts=k.split(" "),last=parts[parts.length-1];var c=P.filter(function(p){var s=p.key.split(" ");return s[s.length-1]===last});if(parts.length>1)c=c.filter(function(p){return p.key[0]===parts[0][0]});if(c.length===1)res[c[0].key]=x[1];else miss.push(x[0])});return{map:res,miss:miss}}
+ function local(){try{return localStorage.getItem(STORE)||""}catch(e){return""}}
+ function venomMap(){var m={};P.forEach(function(p){if(p.venom)m[p.key]=p.vwhy||""});var r=match(parse(local()));Object.keys(r.map).forEach(function(k){if(!(k in m))m[k]=r.map[k]});return{map:m,miss:r.miss}}
+ function pick(pool,n,minp,key){var out=[],gs={};pool.slice().sort(function(a,b){return key(a)-key(b)}).forEach(function(x){if(out.length<n&&x.p>=minp&&!gs[x.g]){out.push(x);gs[x.g]=1}});return out}
+ function build(V){var ok=P.filter(function(p){return (!p.inj||p.inj==="Active")&&!p.low}),bn=function(x){return x.key in V?JB:0};
+  return{safe:pick(ok,2,MINS,function(x){return -(x.p+bn(x))}),code:pick(ok.filter(function(x){return (x.tags||[]).length>=2}),3,MINL,function(x){return -(x.score/100+x.p+bn(x))})}}
+ function price(legs){var all=legs.every(function(x){return x.q!=null}),z=0,ch=1;legs.forEach(function(x){ch*=x.p;z+=Math.log((x.q!=null?x.q:x.p*100)/100)});if(all)z+=K.b+K.k*legs.length;return{price:Math.min(Math.exp(z),0.99),ch:ch,real:all}}
+ function tags(p){return (p.tags||[]).map(function(t){return '<span class="tag">'+esc(t)+'</span>'}).join("")}
+ function why(p){return (p.why||[]).map(function(t){return '<li>'+esc(t)+'</li>'}).join("")}
+ function mprop(p){return p.prop?'<div class="mprop">Main prop for him: <b>'+esc(p.prop.pr)+' '+p.prop.ln+'+</b> · model '+Math.round(p.prop.p*100)+'% · '+p.prop.ask+'¢</div>':""}
+ function vline(p,V){if(!(p.key in V))return"";var w=V[p.key];return '<div class="vwhy"><b>Jake\'s pick</b>'+(w?': '+esc(w):'')+'</div>'}
+ function face(x){return x.id?'<img class="lface" src="https://sleepercdn.com/content/nfl/players/thumb/'+esc(String(x.id))+'.jpg" alt="" onerror="this.remove()">':''}
+ function card(title,legs,V,note){if(!legs.length)return '<article class="pcard"><div class="phead"><h3>'+title+'</h3></div><p class="empty" style="padding:12px 14px">'+note+'</p></article>';
+  var pr=price(legs);
+  return '<article class="pcard"><div class="phead"><h3>'+title+' · '+legs.length+' leg'+(legs.length>1?'s':'')+'</h3><b>'+am(1/pr.price)+'</b></div>'+
+   '<div class="srcrow"><span class="src">'+(pr.real?'Expected Kalshi price':'Fair price from the model (no Kalshi TD price yet)')+'</span></div>'+
+   '<dl class="pstats"><div><dt>Est. chance</dt><dd>'+Math.round(pr.ch*100)+'%</dd></div><div><dt>Price</dt><dd>'+Math.round(pr.price*100)+'¢</dd></div><div><dt>$10 pays</dt><dd>$'+(10/pr.price).toFixed(0)+'</dd></div></dl>'+
+   '<ul class="legs">'+legs.map(function(x){return '<li><b>'+face(x)+esc(x.pl)+(x.key in V?'<span class="ven">Jake</span>':'')+'</b><span class="mono">'+(x.q!=null?Math.round(x.q)+'¢':Math.round(x.p*100)+'%')+'</span><small>Anytime TD · '+esc(x.gl)+' · '+esc(x.role||x.pos)+' · Venom '+x.score+'</small><small>chance '+Math.round(x.p*100)+'%</small><small class="tags">'+tags(x)+'</small><small class="lwhy">'+esc((x.why||[]).slice(0,3).join(" "))+'</small>'+(x.key in V&&V[x.key]?'<small class="lwhy news">Jake: '+esc(V[x.key])+'</small>':'')+'</li>'}).join("")+'</ul></article>'}
+ function paint(){var vm=venomMap(),V=vm.map,B=build(V),n=Object.keys(V).length;
+  box.innerHTML=(TD.has_td?"":'<p class="empty">Touchdown history loads on the next full update; until then chances use position averages only.</p>')+
+   card("Safest TD",B.safe,V,"No two scorers at 40%+ in different games (with 21+ projected team points) right now.")+card("Cheat Code TD",B.code,V,"Not enough players with 2+ cheat codes yet.");
+  var st=document.getElementById("vstat"),miss=(TD.venom_missing||[]).concat(vm.miss);
+  st.textContent=n?(n+" of Jake's picks matched to this week's players."+(miss.length?" Couldn't match: "+miss.join(", ")+".":"")):"No picks from Jake yet this week. Paste them below (or add them to td_watch.txt) to see where they rank.";
+  var top=P.slice().sort(function(a,b){return (b.p+(b.key in V?JB:0))-(a.p+(a.key in V?JB:0))}).slice(0,30);
+  list.innerHTML=top.map(function(p){return '<article class="tdc"><div class="top"><b>'+face(p)+esc(p.pl)+(p.key in V?'<span class="ven">Jake</span>':'')+'</b><div class="pc">'+Math.round(p.p*100)+'%<small>'+(p.q!=null?'Kalshi '+Math.round(p.q)+'¢':'no Kalshi price')+' · Venom '+p.score+'</small></div></div><small>'+esc(p.tm)+' '+esc(p.role||p.pos)+' vs '+esc(p.opp)+' · '+esc(p.gl)+'</small><div class="tags">'+tags(p)+'</div>'+vline(p,V)+'<ul>'+why(p)+'</ul>'+mprop(p)+'</article>'}).join("");
+  var F=TD.facts||{},ks=Object.keys(F);fbox.innerHTML=ks.length?ks.map(function(k){var gl=(P.filter(function(p){return p.g===k})[0]||{}).gl||k;return '<div><b>'+esc(gl)+'</b><ul>'+F[k].map(function(t){return '<li>'+esc(t)+'</li>'}).join("")+'</ul></div>'}).join(""):'<p class="empty">No defense is bottom-3 against a position in this week\'s games yet.</p>'}
+ var ta=document.getElementById("vtext");ta.value=local();
+ document.getElementById("vapply").addEventListener("click",function(){try{localStorage.setItem(STORE,ta.value)}catch(e){}paint()});
+ document.getElementById("vclear").addEventListener("click",function(){ta.value="";try{localStorage.removeItem(STORE)}catch(e){}paint()});
+ paint();
+})();
 </script>
