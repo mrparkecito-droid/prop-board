@@ -287,7 +287,7 @@ body.has-slip .wrap{padding-bottom:96px}
  <p>Weeks 1–5 only, so five games is the whole sample. A "—" means the player wasn't in Sleeper's stat feed for that week, which happens on very low-volume games; it counts as a miss.</p>
  
  <p>Players back from missing games, listed questionable, or with injury words in their latest headline lose 12% of their score and lean on Kalshi's price. Still check Sunday morning inactives.</p>
- <p>Stats: Sleeper weekly stats. Projections: Sleeper (Rotowire). Defense ranks: Sleeper box-score totals (PFR was unavailable). Prices: Kalshi yes ask, updated Mon Oct 12, 11:00 PM PT.</p>
+ <p>Stats: Sleeper weekly stats. Projections: Sleeper (Rotowire). Defense ranks: Sleeper box-score totals (PFR was unavailable). Prices: Kalshi yes ask, updated Mon Oct 12, 11:02 PM PT.</p>
 </div>
 </div>
 
@@ -316,7 +316,7 @@ body.has-slip .wrap{padding-bottom:96px}
   <p><b>Where the odds come from.</b> On each update the board builds the best parlays at +150 through +2000 and asks Kalshi for a real quote on each. Kalshi creates the combo, market makers quote it, and the request is cancelled without buying anything. Parlays with a quote show <i>Kalshi quote</i>. Any other parlay shows <i>Expected Kalshi price</i>: the legs' fair prices multiplied, plus the markup Kalshi has actually been adding to combos, learned from every real quote so far. If a leg has no seller showing, its price is estimated from the lines above and below it on the same ladder.</p>
   <p><b>Best parlays.</b> For each payout range (Safe +200 to +300, Medium +500 to +600, Flyer +1000 and up) it searches every combination of props and lines (the board's ladders plus any other ladder scoring 65+) and keeps the one with the highest chance of hitting, using only legs that are individually strong enough for the tier (Safe: every leg 62%+ and scoring 74+, Medium: 58%+ and 72+, Flyer: 45%+ and 65+; on a one-game TNF/MNF slate the score floors drop by 15), and counting low-volume legs (WR3s, backup backs, few expected targets) as riskier, where each leg's chance comes from the model and the Kalshi price and its overall score breaks ties (a leg scoring 85 counts like about 6 points of extra chance). Pick a slate to build only from that night's games. "Next option" shows the next-best combinations, and each one can be added to your slip in one tap.</p>
   <p><b>How legs are picked.</b> Only board props, using whichever line on each ladder gets you to your odds with the best chance. Each leg's chance is a 50/50 blend of the model and Kalshi's price, with a 3% safety discount per leg. Rules: one leg per player, at most two per game (unless you pick one game), 2 to 6 legs. The three options share at most one player, and no player is in all three.</p>
-  <p>Quotes are as of the last update (Mon Oct 12, 11:00 PM PT) and move with the market, so confirm the price in Kalshi before you place it.</p>
+  <p>Quotes are as of the last update (Mon Oct 12, 11:02 PM PT) and move with the market, so confirm the price in Kalshi before you place it.</p>
  </div>
 </div>
 
@@ -397,7 +397,7 @@ body.has-slip .wrap{padding-bottom:96px}
 <script type="application/json" id="td-data">{"players":[],"parlays":{"safe":[],"code":[]},"facts":{},"venom_n":0,"venom_missing":[],"has_td":true,"has_rz":true,"has_mk":false,"week":6}</script>
 <script>
 /* Home Screen app: iPhone keeps the old page around, so check for a newer board whenever the app is opened */
-(function(){var BUILD="2026-10-12T23:00:38-07:00";
+(function(){var BUILD="2026-10-12T23:02:46-07:00";
  function chk(){if(!window.fetch)return;fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(j){
   if(j.v&&j.v!==BUILD&&location.search.indexOf(encodeURIComponent(j.v))<0){location.replace(location.pathname+"?v="+encodeURIComponent(j.v)+location.hash)}}).catch(function(){})}
  document.addEventListener("visibilitychange",function(){if(!document.hidden)chk()});
