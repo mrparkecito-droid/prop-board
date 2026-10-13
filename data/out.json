@@ -80,9 +80,9 @@
     "id": "8150",
     "lam": 1.03,
     "pm": 0.644,
-    "p": 0.439,
-    "q": 23.5,
-    "ask": 24,
+    "p": 0.444,
+    "q": 24.5,
+    "ask": 25,
     "tk": "KXNFLTD-26OCT12BUFLAR-LARKWILLIAMS23-1",
     "ev": "KXNFLTD-26OCT12BUFLAR",
     "tds": 4.0,
@@ -145,9 +145,9 @@
     "id": "4984",
     "lam": 0.91,
     "pm": 0.596,
-    "p": 0.391,
-    "q": 18.5,
-    "ask": 19,
+    "p": 0.401,
+    "q": 20.5,
+    "ask": 21,
     "tk": "KXNFLTD-26OCT12BUFLAR-BUFJALLEN17-1",
     "ev": "KXNFLTD-26OCT12BUFLAR",
     "tds": 7.0,
@@ -187,7 +187,7 @@
      "LAR has allowed 1.0 QB TD in 4 games (12th most); 1.0 all last season.",
      "26% red-zone role, 20.6% TD rate, 8.5 touches a game.",
      "7.0 TDs in 4 games, scored in 4 (14.0 in 16 last season).",
-     "Kalshi 18\u00a2 vs model 60%."
+     "Kalshi 20\u00a2 vs model 60%."
     ]
    },
    {
@@ -249,6 +249,68 @@
      "BUF has allowed 6.0 WR TDs in 4 games (2nd most); 13.0 all last season.",
      "12% red-zone role, 24% target share, 5.3% TD rate, 9.5 touches a game.",
      "2.0 TDs in 4 games, scored in 1 (14.0 in 14 last season)."
+    ]
+   },
+   {
+    "key": "puka nacua",
+    "pl": "Puka Nacua",
+    "tm": "LAR",
+    "opp": "BUF",
+    "pos": "WR",
+    "role": "WR3",
+    "g": "BUFLAR",
+    "gl": "BUF @ LAR (Mon)",
+    "dy": "Mon",
+    "id": "9493",
+    "lam": 0.26,
+    "pm": 0.227,
+    "p": 0.251,
+    "q": 27.5,
+    "ask": 28,
+    "tk": "KXNFLTD-26OCT12BUFLAR-LARPNACUA12-1",
+    "ev": "KXNFLTD-26OCT12BUFLAR",
+    "tds": 1.0,
+    "n": 2,
+    "games_td": 1,
+    "ptd": 11.0,
+    "pn": 16,
+    "rz": 6,
+    "tdsh": 15,
+    "ts": 13,
+    "tdr": 4.5,
+    "tpg": 11.0,
+    "pts": null,
+    "sp": null,
+    "tot": null,
+    "d": {
+     "td": 6.0,
+     "n": 4,
+     "rank": 2,
+     "nteams": 32,
+     "ltd": 13.0,
+     "lrank": 23,
+     "leak": false,
+     "recent": [
+      0,
+      3.0
+     ]
+    },
+    "dfac": 1.06,
+    "debt": -0.4,
+    "inj": null,
+    "hist": true,
+    "tags": [
+     "RZ share top-10",
+     "High volume",
+     "Soft TD defense"
+    ],
+    "low": false,
+    "score": 54.3,
+    "why": [
+     "BUF has allowed 6.0 WR TDs in 4 games (2nd most); 13.0 all last season.",
+     "6% red-zone role, 13% target share, 4.5% TD rate, 11 touches a game.",
+     "1.0 TD in 2 games, scored in 1 (11.0 in 16 last season).",
+     "Kalshi 28\u00a2 vs model 23%."
     ]
    },
    {
@@ -314,68 +376,6 @@
     ]
    },
    {
-    "key": "puka nacua",
-    "pl": "Puka Nacua",
-    "tm": "LAR",
-    "opp": "BUF",
-    "pos": "WR",
-    "role": "WR3",
-    "g": "BUFLAR",
-    "gl": "BUF @ LAR (Mon)",
-    "dy": "Mon",
-    "id": "9493",
-    "lam": 0.26,
-    "pm": 0.227,
-    "p": 0.241,
-    "q": 25.5,
-    "ask": 26,
-    "tk": "KXNFLTD-26OCT12BUFLAR-LARPNACUA12-1",
-    "ev": "KXNFLTD-26OCT12BUFLAR",
-    "tds": 1.0,
-    "n": 2,
-    "games_td": 1,
-    "ptd": 11.0,
-    "pn": 16,
-    "rz": 6,
-    "tdsh": 15,
-    "ts": 13,
-    "tdr": 4.5,
-    "tpg": 11.0,
-    "pts": null,
-    "sp": null,
-    "tot": null,
-    "d": {
-     "td": 6.0,
-     "n": 4,
-     "rank": 2,
-     "nteams": 32,
-     "ltd": 13.0,
-     "lrank": 23,
-     "leak": false,
-     "recent": [
-      0,
-      3.0
-     ]
-    },
-    "dfac": 1.06,
-    "debt": -0.4,
-    "inj": null,
-    "hist": true,
-    "tags": [
-     "RZ share top-10",
-     "High volume",
-     "Soft TD defense"
-    ],
-    "low": false,
-    "score": 54.3,
-    "why": [
-     "BUF has allowed 6.0 WR TDs in 4 games (2nd most); 13.0 all last season.",
-     "6% red-zone role, 13% target share, 4.5% TD rate, 11 touches a game.",
-     "1.0 TD in 2 games, scored in 1 (11.0 in 16 last season).",
-     "Kalshi 26\u00a2 vs model 23%."
-    ]
-   },
-   {
     "key": "khalil shakir",
     "pl": "Khalil Shakir",
     "tm": "BUF",
@@ -388,9 +388,9 @@
     "id": "8134",
     "lam": 0.45,
     "pm": 0.359,
-    "p": 0.24,
-    "q": 12.0,
-    "ask": 13,
+    "p": 0.222,
+    "q": 8.5,
+    "ask": 9,
     "tk": "KXNFLTD-26OCT12BUFLAR-BUFKSHAKIR10-1",
     "ev": "KXNFLTD-26OCT12BUFLAR",
     "tds": 0,
@@ -437,7 +437,7 @@
      "14% red-zone role, 21% target share, 5.8 touches a game.",
      "No TDs yet in 4 games (4.0 in 16 last season).",
      "Due: 1.3 TD debt (his role says he should have scored more).",
-     "Kalshi 12\u00a2 vs model 36%."
+     "Kalshi 8\u00a2 vs model 36%."
     ]
    },
    {
@@ -515,9 +515,9 @@
     "id": "10236",
     "lam": 0.21,
     "pm": 0.188,
-    "p": 0.146,
-    "q": 10.5,
-    "ask": 11,
+    "p": 0.136,
+    "q": 8.5,
+    "ask": 9,
     "tk": "KXNFLTD-26OCT12BUFLAR-BUFDKINCAID86-1",
     "ev": "KXNFLTD-26OCT12BUFLAR",
     "tds": 1.0,
@@ -559,7 +559,67 @@
      "LAR has allowed 1.0 TE TD in 4 games (24th most); 8.0 all last season.",
      "3% red-zone role, 17% target share, 5.3% TD rate, 4.8 touches a game.",
      "1.0 TD in 4 games, scored in 1 (5.0 in 12 last season).",
-     "Kalshi 10\u00a2 vs model 19%."
+     "Kalshi 8\u00a2 vs model 19%."
+    ]
+   },
+   {
+    "key": "tyler higbee",
+    "pl": "Tyler Higbee",
+    "tm": "LAR",
+    "opp": "BUF",
+    "pos": "TE",
+    "role": "TE2",
+    "g": "BUFLAR",
+    "gl": "BUF @ LAR (Mon)",
+    "dy": "Mon",
+    "id": "3271",
+    "lam": 0.12,
+    "pm": 0.115,
+    "p": 0.12,
+    "q": 12.5,
+    "ask": 13,
+    "tk": "KXNFLTD-26OCT12BUFLAR-LARTHIGBEE89-1",
+    "ev": "KXNFLTD-26OCT12BUFLAR",
+    "tds": 1.0,
+    "n": 4,
+    "games_td": 1,
+    "ptd": 3.0,
+    "pn": 10,
+    "rz": 6,
+    "tdsh": 6,
+    "ts": 12,
+    "tdr": 5.3,
+    "tpg": 4.8,
+    "pts": null,
+    "sp": null,
+    "tot": null,
+    "d": {
+     "td": 1.0,
+     "n": 4,
+     "rank": 22,
+     "nteams": 32,
+     "ltd": 5.0,
+     "lrank": 27,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.77,
+    "debt": -0.3,
+    "inj": null,
+    "hist": true,
+    "tags": [
+     "RZ share top-10"
+    ],
+    "low": false,
+    "score": 51.2,
+    "why": [
+     "BUF has allowed 1.0 TE TD in 4 games (22nd most); 5.0 all last season.",
+     "6% red-zone role, 12% target share, 5.3% TD rate, 4.8 touches a game.",
+     "1.0 TD in 4 games, scored in 1 (3.0 in 10 last season).",
+     "Kalshi 12\u00a2 vs model 12%."
     ]
    },
    {
@@ -619,66 +679,6 @@
      "BUF has allowed 1.0 TE TD in 4 games (22nd most); 5.0 all last season.",
      "6% red-zone role, 3% target share, 1.7 touches a game.",
      "No TDs yet in 3 games (8.0 in 15 last season).",
-     "Kalshi 10\u00a2 vs model 12%."
-    ]
-   },
-   {
-    "key": "tyler higbee",
-    "pl": "Tyler Higbee",
-    "tm": "LAR",
-    "opp": "BUF",
-    "pos": "TE",
-    "role": "TE2",
-    "g": "BUFLAR",
-    "gl": "BUF @ LAR (Mon)",
-    "dy": "Mon",
-    "id": "3271",
-    "lam": 0.12,
-    "pm": 0.115,
-    "p": 0.11,
-    "q": 10.5,
-    "ask": 11,
-    "tk": "KXNFLTD-26OCT12BUFLAR-LARTHIGBEE89-1",
-    "ev": "KXNFLTD-26OCT12BUFLAR",
-    "tds": 1.0,
-    "n": 4,
-    "games_td": 1,
-    "ptd": 3.0,
-    "pn": 10,
-    "rz": 6,
-    "tdsh": 6,
-    "ts": 12,
-    "tdr": 5.3,
-    "tpg": 4.8,
-    "pts": null,
-    "sp": null,
-    "tot": null,
-    "d": {
-     "td": 1.0,
-     "n": 4,
-     "rank": 22,
-     "nteams": 32,
-     "ltd": 5.0,
-     "lrank": 27,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.77,
-    "debt": -0.3,
-    "inj": null,
-    "hist": true,
-    "tags": [
-     "RZ share top-10"
-    ],
-    "low": false,
-    "score": 51.2,
-    "why": [
-     "BUF has allowed 1.0 TE TD in 4 games (22nd most); 5.0 all last season.",
-     "6% red-zone role, 12% target share, 5.3% TD rate, 4.8 touches a game.",
-     "1.0 TD in 4 games, scored in 1 (3.0 in 10 last season).",
      "Kalshi 10\u00a2 vs model 12%."
     ]
    },
@@ -1590,7 +1590,7 @@
    3,
    4
   ],
-  "generated": "2026-10-12T19:23:40-07:00",
+  "generated": "2026-10-12T19:30:33-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 5 \u00b7 Mon Oct 12",
