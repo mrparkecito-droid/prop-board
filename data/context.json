@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T22:01:04+00:00",
+ "generated": "2026-10-14T22:31:08+00:00",
  "games": {
   "SEADEN": {
    "home": "DEN",
@@ -213,6 +213,13 @@
    "espn_wx": {
     "desc": "Sunny",
     "temp": 67
+   },
+   "wx": {
+    "wind": 14,
+    "gust": 21,
+    "pop": 0,
+    "rain": 0.0,
+    "temp": 65
    }
   },
   "BUFLV": {
@@ -258,17 +265,17 @@
  "inj": {
   "ARI": [
    {
+    "name": "Wydett Williams Jr.",
+    "pos": "S",
+    "status": "Out"
+   },
+   {
     "name": "Jeremiyah Love",
     "pos": "RB",
     "status": "Questionable"
    },
    {
     "name": "Andrew Wingard",
-    "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Wydett Williams Jr.",
     "pos": "S",
     "status": "Questionable"
    }
@@ -286,6 +293,11 @@
    }
   ],
   "BAL": [
+   {
+    "name": "Matt Hibner",
+    "pos": "TE",
+    "status": "Questionable"
+   },
    {
     "name": "Lamar Jackson",
     "pos": "QB",
@@ -403,14 +415,14 @@
     "status": "Out"
    },
    {
-    "name": "Dayo Odeyingbo",
-    "pos": "DE",
-    "status": "Out"
-   },
-   {
     "name": "T.J. Edwards",
     "pos": "LB",
     "status": "Doubtful"
+   },
+   {
+    "name": "Dayo Odeyingbo",
+    "pos": "DE",
+    "status": "Out"
    },
    {
     "name": "Caleb Williams",
@@ -457,6 +469,21 @@
   ],
   "CLE": [
    {
+    "name": "Elgton Jenkins",
+    "pos": "C",
+    "status": "Questionable"
+   },
+   {
+    "name": "Grant Delpit",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
+    "name": "Mason Graham",
+    "pos": "DT",
+    "status": "Doubtful"
+   },
+   {
     "name": "KC Concepcion",
     "pos": "WR",
     "status": "Questionable"
@@ -489,11 +516,6 @@
    {
     "name": "Carsen Ryan",
     "pos": "TE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Mason Graham",
-    "pos": "DT",
     "status": "Questionable"
    },
    {
@@ -915,6 +937,16 @@
   ],
   "NO": [
    {
+    "name": "Tyree Wilson",
+    "pos": "DE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Colby Wooden",
+    "pos": "DT",
+    "status": "Questionable"
+   },
+   {
     "name": "Alvin Kamara",
     "pos": "RB",
     "status": "Questionable"
@@ -1147,28 +1179,28 @@
   ],
   "SEA": [
    {
-    "name": "Drew Lock",
-    "pos": "QB",
-    "status": "Questionable"
-   },
-   {
     "name": "Zach Charbonnet",
     "pos": "RB",
     "status": "Out"
    },
    {
-    "name": "Jaxon Smith-Njigba",
-    "pos": "WR",
-    "status": "Questionable"
+    "name": "Drake Thomas",
+    "pos": "LB",
+    "status": "Out"
    },
    {
     "name": "Chazz Surratt",
     "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "Drew Lock",
+    "pos": "QB",
     "status": "Questionable"
    },
    {
-    "name": "Drake Thomas",
-    "pos": "LB",
+    "name": "Jaxon Smith-Njigba",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -1272,7 +1304,7 @@
  "news": {
   "marvin harrison": {
    "h": "Marvin Harrison Jr. will play for Texans on Sunday in London, coach says",
-   "t": "2026-10-14T21:50:48Z"
+   "t": "2026-10-14T21:37:28Z"
   },
   "rhamondre stevenson": {
    "h": "Cockcroft: Rhamondre Stevenson a borderline top-10 RB in Week 6",
@@ -1298,15 +1330,19 @@
    "h": "Jaylen Waddle's Week 6 fantasy preview",
    "t": "2026-10-14T16:52:18Z"
   },
+  "michael penix": {
+   "h": "Falcons QB Michael Penix on track to start vs. Bears if no setbacks, coach says",
+   "t": "2026-10-14T21:11:05Z"
+  },
   "emeka egbuka": {
    "h": "Emeka Egbuka's Week 6 fantasy preview",
    "t": "2026-10-14T16:25:11Z"
   },
-  "drake london": {
+  "christian watson": {
    "h": "Is Drake London or Christian Watson a better fantasy option in Week 6?",
    "t": "2026-10-14T15:39:12Z"
   },
-  "christian watson": {
+  "drake london": {
    "h": "Is Drake London or Christian Watson a better fantasy option in Week 6?",
    "t": "2026-10-14T15:39:12Z"
   },
@@ -1326,11 +1362,11 @@
    "h": "Is Kirk Cousins a viable streamer in Week 6?",
    "t": "2026-10-14T14:52:21Z"
   },
-  "trevor lawrence": {
+  "tony pollard": {
    "h": "Fantasy football matchup rankings: Upgrade Tony Pollard, fade Trevor Lawrence",
    "t": "2026-10-14T11:18:04Z"
   },
-  "tony pollard": {
+  "trevor lawrence": {
    "h": "Fantasy football matchup rankings: Upgrade Tony Pollard, fade Trevor Lawrence",
    "t": "2026-10-14T11:18:04Z"
   },
@@ -1346,139 +1382,139 @@
  "trend": {
   "dameon pierce": {
    "rank": 1,
-   "adds": 4152792
+   "adds": 4157008
   },
   "marshawn lloyd": {
    "rank": 2,
-   "adds": 2684475
+   "adds": 2678499
   },
   "brenton strange": {
    "rank": 3,
-   "adds": 1778481
+   "adds": 1777581
   },
   "darius cooper": {
    "rank": 5,
-   "adds": 1273475
+   "adds": 1272474
   },
   "kimani vidal": {
    "rank": 6,
-   "adds": 1042620
+   "adds": 1043700
   },
   "jaleel mclaughlin": {
    "rank": 9,
-   "adds": 918940
+   "adds": 929335
   },
   "tyler higbee": {
    "rank": 10,
-   "adds": 828927
+   "adds": 830808
   },
   "kendrick bourne": {
    "rank": 13,
-   "adds": 627816
+   "adds": 627615
   },
   "efton chism": {
    "rank": 14,
-   "adds": 587608
+   "adds": 588024
   },
   "kirk cousins": {
    "rank": 15,
-   "adds": 525488
+   "adds": 531736
   },
   "germie bernard": {
    "rank": 16,
-   "adds": 520873
+   "adds": 520441
   },
   "kendre miller": {
    "rank": 18,
-   "adds": 448570
+   "adds": 451984
   },
   "corey kiner": {
    "rank": 19,
-   "adds": 444564
+   "adds": 448530
   },
   "xavier worthy": {
    "rank": 20,
-   "adds": 438273
+   "adds": 442152
   },
   "aaron rodgers": {
    "rank": 21,
-   "adds": 434016
+   "adds": 435508
   },
   "ryan flournoy": {
-   "rank": 23,
-   "adds": 373128
+   "rank": 24,
+   "adds": 375232
   },
   "brandin cooks": {
    "rank": 26,
-   "adds": 316908
+   "adds": 319584
   },
   "cj stroud": {
    "rank": 27,
-   "adds": 310198
+   "adds": 311563
   },
   "keenan allen": {
    "rank": 28,
-   "adds": 295736
+   "adds": 298308
   },
   "woody marks": {
    "rank": 29,
-   "adds": 283663
+   "adds": 282977
   },
   "blake corum": {
    "rank": 30,
-   "adds": 264488
+   "adds": 266528
   },
   "darren waller": {
    "rank": 31,
-   "adds": 258768
+   "adds": 260172
   },
   "rhamondre stevenson": {
    "rank": 32,
-   "adds": 242478
+   "adds": 243828
   },
   "tre tucker": {
    "rank": 33,
-   "adds": 235410
+   "adds": 238440
   },
   "jayden daniels": {
    "rank": 34,
-   "adds": 229328
+   "adds": 228896
   },
   "ty johnson": {
    "rank": 35,
-   "adds": 213216
+   "adds": 214050
   },
   "khalil shakir": {
-   "rank": 36,
-   "adds": 204210
+   "rank": 37,
+   "adds": 204228
   },
   "matthew stafford": {
-   "rank": 41,
-   "adds": 176562
+   "rank": 40,
+   "adds": 177876
   },
   "jacory croskey merritt": {
-   "rank": 43,
-   "adds": 173115
+   "rank": 45,
+   "adds": 173061
   },
   "jordan love": {
    "rank": 47,
-   "adds": 163383
+   "adds": 163467
   },
   "keon coleman": {
    "rank": 48,
-   "adds": 162135
+   "adds": 161145
   },
   "kyle pitts": {
    "rank": 50,
-   "adds": 157311
+   "adds": 158060
   }
  },
  "buzz": {},
  "sources": {
   "lines": "13 games",
-  "weather": "7 outdoor games",
-  "injuries": "190 players listed",
-  "news": "18 players in headlines",
+  "weather": "8 outdoor games",
+  "injuries": "195 players listed",
+  "news": "19 players in headlines",
   "sleeper_trending": "32 board players trending",
   "reddit": "unavailable"
  }
