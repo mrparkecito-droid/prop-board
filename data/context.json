@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T22:01:11+00:00",
+ "generated": "2026-10-15T22:31:10+00:00",
  "games": {
   "SEADEN": {
    "home": "DEN",
@@ -275,6 +275,13 @@
    "espn_wx": {
     "desc": "Intermittent clouds",
     "temp": 66
+   },
+   "wx": {
+    "wind": 8,
+    "gust": 9,
+    "pop": 2,
+    "rain": 0.0,
+    "temp": 65
    }
   }
  },
@@ -387,6 +394,11 @@
   ],
   "BUF": [
    {
+    "name": "DJ Moore",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Ed Oliver",
     "pos": "DT",
     "status": "Questionable"
@@ -398,11 +410,6 @@
    },
    {
     "name": "Joshua Palmer",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "DJ Moore",
     "pos": "WR",
     "status": "Questionable"
    },
@@ -860,12 +867,17 @@
   ],
   "LAC": [
    {
-    "name": "Brenen Thompson",
+    "name": "Quentin Johnston",
     "pos": "WR",
     "status": "Questionable"
    },
    {
-    "name": "Marquez Valdes-Scantling",
+    "name": "Ladd McConkey",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Brenen Thompson",
     "pos": "WR",
     "status": "Questionable"
    },
@@ -903,16 +915,6 @@
     "name": "Tre' Harris",
     "pos": "WR",
     "status": "Doubtful"
-   },
-   {
-    "name": "Quentin Johnston",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Ladd McConkey",
-    "pos": "WR",
-    "status": "Questionable"
    },
    {
     "name": "Rodney Shelley",
@@ -1423,6 +1425,26 @@
   ],
   "WAS": [
    {
+    "name": "Treylon Burks",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Austin Ekeler",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Terry McLaurin",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Jacory Croskey-Merritt",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
     "name": "Stefon Diggs",
     "pos": "WR",
     "status": "Questionable"
@@ -1450,9 +1472,13 @@
   ]
  },
  "news": {
+  "caleb williams": {
+   "h": "Bears QB Williams unsure if he's playing, has to still go through protocols",
+   "t": "2026-10-15T22:07:38Z"
+  },
   "jayden daniels": {
    "h": "Jayden Daniels addresses teammates on gaffe, vows 'it'll never happen again'",
-   "t": "2026-10-15T21:31:20Z"
+   "t": "2026-10-15T22:06:28Z"
   },
   "aaron rodgers": {
    "h": "Aaron Rodgers vs. Todd Bowles should be quite a chess match when Steelers visit the Buccaneers",
@@ -1466,11 +1492,11 @@
    "h": "Raiders' Ashton Jeanty feels 'great' ahead of game vs. Bills",
    "t": "2026-10-15T21:09:13Z"
   },
-  "parker washington": {
+  "marvin harrison": {
    "h": "Marvin Harrison Jr. set to debut for Texans in London against Jaguars, Parker Washington",
    "t": "2026-10-15T20:09:28Z"
   },
-  "marvin harrison": {
+  "parker washington": {
    "h": "Marvin Harrison Jr. set to debut for Texans in London against Jaguars, Parker Washington",
    "t": "2026-10-15T20:09:28Z"
   },
@@ -1501,151 +1527,147 @@
   "sam darnold": {
    "h": "Is Seahawks OC Brian Fleury a 'home run' hire? How the rookie playcaller is faring",
    "t": "2026-10-15T16:56:47Z"
-  },
-  "garrett wilson": {
-   "h": "WR Garrett Wilson deems Patriots matchup a 'big-ass game' for Jets",
-   "t": "2026-10-15T14:24:03Z"
   }
  },
  "trend": {
   "dameon pierce": {
    "rank": 1,
-   "adds": 2800752
+   "adds": 2717032
   },
   "marshawn lloyd": {
    "rank": 2,
-   "adds": 1384929
+   "adds": 1319310
   },
   "brenton strange": {
    "rank": 3,
-   "adds": 1147176
+   "adds": 1113030
   },
   "jaleel mclaughlin": {
    "rank": 4,
-   "adds": 1114210
+   "adds": 1092955
   },
   "darius cooper": {
-   "rank": 6,
-   "adds": 921690
-  },
-  "kimani vidal": {
-   "rank": 8,
-   "adds": 803065
+   "rank": 7,
+   "adds": 912919
   },
   "tanner mckee": {
-   "rank": 10,
-   "adds": 768264
+   "rank": 8,
+   "adds": 818440
+  },
+  "kimani vidal": {
+   "rank": 9,
+   "adds": 784190
   },
   "kirk cousins": {
    "rank": 11,
-   "adds": 690048
+   "adds": 697880
   },
   "tyler higbee": {
    "rank": 13,
-   "adds": 566208
+   "adds": 559233
   },
   "kendrick bourne": {
    "rank": 15,
-   "adds": 458190
+   "adds": 445059
   },
   "corey kiner": {
    "rank": 16,
-   "adds": 443664
+   "adds": 431244
   },
   "xavier worthy": {
    "rank": 19,
-   "adds": 402300
-  },
-  "efton chism": {
-   "rank": 20,
-   "adds": 393128
+   "adds": 399852
   },
   "aaron rodgers": {
+   "rank": 20,
+   "adds": 388048
+  },
+  "efton chism": {
    "rank": 21,
-   "adds": 387080
+   "adds": 378928
   },
   "ryan flournoy": {
    "rank": 22,
-   "adds": 377888
+   "adds": 376592
   },
   "kendre miller": {
    "rank": 24,
-   "adds": 363888
+   "adds": 356734
   },
   "cj stroud": {
    "rank": 25,
-   "adds": 327852
-  },
-  "germie bernard": {
-   "rank": 26,
-   "adds": 326306
+   "adds": 330561
   },
   "brandin cooks": {
-   "rank": 27,
-   "adds": 324460
+   "rank": 26,
+   "adds": 320656
   },
-  "keenan allen": {
-   "rank": 28,
-   "adds": 278644
+  "germie bernard": {
+   "rank": 27,
+   "adds": 310388
   },
   "tre tucker": {
+   "rank": 28,
+   "adds": 278856
+  },
+  "keenan allen": {
    "rank": 29,
-   "adds": 276510
+   "adds": 276748
   },
   "darren waller": {
-   "rank": 32,
-   "adds": 220356
+   "rank": 33,
+   "adds": 217287
   },
   "blake corum": {
    "rank": 34,
-   "adds": 199272
-  },
-  "rhamondre stevenson": {
-   "rank": 37,
-   "adds": 164466
+   "adds": 197328
   },
   "jayden daniels": {
+   "rank": 37,
+   "adds": 160400
+  },
+  "rhamondre stevenson": {
    "rank": 38,
-   "adds": 162664
+   "adds": 159462
   },
   "ty johnson": {
    "rank": 40,
-   "adds": 156756
+   "adds": 153912
   },
   "kenny gainwell": {
    "rank": 42,
-   "adds": 148176
-  },
-  "matthew stafford": {
-   "rank": 43,
-   "adds": 147348
+   "adds": 149816
   },
   "michael penix": {
+   "rank": 43,
+   "adds": 146937
+  },
+  "matthew stafford": {
    "rank": 44,
-   "adds": 145293
+   "adds": 145872
   },
   "tyler shough": {
-   "rank": 46,
-   "adds": 140016
+   "rank": 45,
+   "adds": 143032
   },
-  "woody marks": {
-   "rank": 47,
-   "adds": 139849
+  "khalil shakir": {
+   "rank": 48,
+   "adds": 136584
   },
   "kyle pitts": {
    "rank": 49,
-   "adds": 137872
+   "adds": 135842
   },
-  "khalil shakir": {
+  "woody marks": {
    "rank": 50,
-   "adds": 135567
+   "adds": 132727
   }
  },
  "buzz": {},
  "sources": {
   "lines": "14 games",
-  "weather": "8 outdoor games",
-  "injuries": "221 players listed",
+  "weather": "9 outdoor games",
+  "injuries": "224 players listed",
   "news": "14 players in headlines",
   "sleeper_trending": "33 board players trending",
   "reddit": "unavailable"
