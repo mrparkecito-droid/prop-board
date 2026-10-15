@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T00:06:28+00:00",
+ "generated": "2026-10-15T00:31:05+00:00",
  "games": {
   "SEADEN": {
    "home": "DEN",
@@ -128,6 +128,13 @@
    "espn_wx": {
     "desc": "Sunny",
     "temp": 56
+   },
+   "wx": {
+    "wind": 8,
+    "gust": 11,
+    "pop": 1,
+    "rain": 0.0,
+    "temp": 60
    }
   },
   "CARPHI": {
@@ -144,6 +151,13 @@
    "espn_wx": {
     "desc": "Sunny",
     "temp": 57
+   },
+   "wx": {
+    "wind": 5,
+    "gust": 8,
+    "pop": 1,
+    "rain": 0.0,
+    "temp": 59
    }
   },
   "PITTB": {
@@ -199,6 +213,13 @@
    "espn_wx": {
     "desc": "Sunny",
     "temp": 67
+   },
+   "wx": {
+    "wind": 14,
+    "gust": 21,
+    "pop": 0,
+    "rain": 0.0,
+    "temp": 64
    }
   },
   "BUFLV": {
@@ -243,6 +264,11 @@
  },
  "inj": {
   "ARI": [
+   {
+    "name": "Devin Duvernay",
+    "pos": "WR",
+    "status": "Questionable"
+   },
    {
     "name": "Wydett Williams Jr.",
     "pos": "S",
@@ -565,7 +591,12 @@
   ],
   "DAL": [
    {
-    "name": "Ameer Speed",
+    "name": "Cobie Durant",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Joey Porter Jr.",
     "pos": "CB",
     "status": "Questionable"
    },
@@ -575,7 +606,7 @@
     "status": "Questionable"
    },
    {
-    "name": "Joey Porter Jr.",
+    "name": "Ameer Speed",
     "pos": "CB",
     "status": "Questionable"
    },
@@ -583,14 +614,14 @@
     "name": "Drew Shelton",
     "pos": "OT",
     "status": "Questionable"
-   },
-   {
-    "name": "Cobie Durant",
-    "pos": "CB",
-    "status": "Questionable"
    }
   ],
   "DEN": [
+   {
+    "name": "Riley Moss",
+    "pos": "CB",
+    "status": "Questionable"
+   },
    {
     "name": "Pat Surtain II",
     "pos": "CB",
@@ -600,11 +631,6 @@
     "name": "Talanoa Hufanga",
     "pos": "S",
     "status": "Out"
-   },
-   {
-    "name": "Riley Moss",
-    "pos": "CB",
-    "status": "Questionable"
    }
   ],
   "DET": [
@@ -636,13 +662,8 @@
   ],
   "GB": [
    {
-    "name": "Skyy Moore",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Devonte Wyatt",
-    "pos": "DT",
+    "name": "Keisean Nixon",
+    "pos": "CB",
     "status": "Questionable"
    },
    {
@@ -651,8 +672,13 @@
     "status": "Questionable"
    },
    {
-    "name": "Keisean Nixon",
-    "pos": "CB",
+    "name": "Skyy Moore",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Devonte Wyatt",
+    "pos": "DT",
     "status": "Questionable"
    },
    {
@@ -752,6 +778,16 @@
   ],
   "JAX": [
    {
+    "name": "Nate Boerkircher",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Montaric Brown",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
     "name": "Cole Van Lanen",
     "pos": "OT",
     "status": "Questionable"
@@ -772,18 +808,8 @@
     "status": "Questionable"
    },
    {
-    "name": "Nate Boerkircher",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
     "name": "Eric Murray",
     "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Montaric Brown",
-    "pos": "CB",
     "status": "Questionable"
    },
    {
@@ -838,6 +864,11 @@
   ],
   "LAC": [
    {
+    "name": "Brenen Thompson",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Marquez Valdes-Scantling",
     "pos": "WR",
     "status": "Questionable"
@@ -888,11 +919,6 @@
     "status": "Questionable"
    },
    {
-    "name": "Brenen Thompson",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
     "name": "Rodney Shelley",
     "pos": "CB",
     "status": "Questionable"
@@ -920,6 +946,28 @@
    {
     "name": "Bud Dupree",
     "pos": "LB",
+    "status": "Questionable"
+   }
+  ],
+  "LAR": [
+   {
+    "name": "Josh Wallace",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Colby Parkinson",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Nate Landman",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Davis Allen",
+    "pos": "TE",
     "status": "Questionable"
    }
   ],
@@ -1481,155 +1529,151 @@
    "h": "Is Kirk Cousins a viable streamer in Week 6?",
    "t": "2026-10-14T14:52:21Z"
   },
-  "trevor lawrence": {
-   "h": "Fantasy football matchup rankings: Upgrade Tony Pollard, fade Trevor Lawrence",
-   "t": "2026-10-14T11:18:04Z"
-  },
   "tony pollard": {
    "h": "Fantasy football matchup rankings: Upgrade Tony Pollard, fade Trevor Lawrence",
    "t": "2026-10-14T11:18:04Z"
   },
-  "matthew stafford": {
-   "h": "How NFL pros such as Matthew Stafford gain perspective from coaching their kids",
-   "t": "2026-10-14T16:45:00Z"
+  "trevor lawrence": {
+   "h": "Fantasy football matchup rankings: Upgrade Tony Pollard, fade Trevor Lawrence",
+   "t": "2026-10-14T11:18:04Z"
   }
  },
  "trend": {
   "dameon pierce": {
    "rank": 1,
-   "adds": 4191128
+   "adds": 4196576
   },
   "marshawn lloyd": {
    "rank": 2,
-   "adds": 2685627
+   "adds": 2688363
   },
   "brenton strange": {
    "rank": 3,
-   "adds": 1793718
+   "adds": 1796625
   },
   "darius cooper": {
    "rank": 5,
-   "adds": 1285130
+   "adds": 1287888
   },
   "kimani vidal": {
    "rank": 6,
-   "adds": 1055570
+   "adds": 1057470
   },
   "jaleel mclaughlin": {
    "rank": 8,
-   "adds": 953910
+   "adds": 956620
   },
   "tyler higbee": {
    "rank": 11,
-   "adds": 796158
+   "adds": 797913
   },
   "kendrick bourne": {
    "rank": 13,
-   "adds": 633771
+   "adds": 634809
   },
   "efton chism": {
    "rank": 14,
-   "adds": 591932
+   "adds": 592560
   },
   "kirk cousins": {
    "rank": 15,
-   "adds": 550344
+   "adds": 552264
   },
   "germie bernard": {
    "rank": 16,
-   "adds": 522247
+   "adds": 522624
   },
   "kendre miller": {
    "rank": 18,
-   "adds": 461508
+   "adds": 462506
   },
   "corey kiner": {
    "rank": 19,
-   "adds": 458688
+   "adds": 459954
   },
   "xavier worthy": {
    "rank": 20,
-   "adds": 452403
+   "adds": 453564
   },
   "aaron rodgers": {
    "rank": 22,
-   "adds": 442844
+   "adds": 443796
   },
   "ryan flournoy": {
    "rank": 24,
-   "adds": 384704
+   "adds": 385704
   },
   "brandin cooks": {
    "rank": 26,
-   "adds": 327476
+   "adds": 328408
   },
   "cj stroud": {
    "rank": 27,
-   "adds": 318129
+   "adds": 318927
   },
   "keenan allen": {
    "rank": 28,
-   "adds": 305832
+   "adds": 306704
   },
   "woody marks": {
    "rank": 29,
-   "adds": 283433
+   "adds": 283701
   },
   "blake corum": {
    "rank": 30,
-   "adds": 268424
+   "adds": 269256
   },
   "darren waller": {
    "rank": 31,
-   "adds": 264348
+   "adds": 264861
   },
   "rhamondre stevenson": {
    "rank": 32,
-   "adds": 249354
+   "adds": 249975
   },
   "tre tucker": {
    "rank": 33,
-   "adds": 247752
+   "adds": 248706
   },
   "jayden daniels": {
    "rank": 34,
-   "adds": 230800
+   "adds": 231200
   },
   "ty johnson": {
    "rank": 36,
-   "adds": 203478
+   "adds": 203796
   },
   "matthew stafford": {
    "rank": 39,
-   "adds": 182538
+   "adds": 183078
   },
   "jacory croskey merritt": {
    "rank": 44,
-   "adds": 175707
+   "adds": 176157
   },
   "jordan love": {
    "rank": 46,
-   "adds": 164683
+   "adds": 164887
   },
   "khalil shakir": {
    "rank": 47,
-   "adds": 162747
+   "adds": 163215
   },
   "kyle pitts": {
    "rank": 49,
-   "adds": 161882
+   "adds": 162442
   },
   "emmett johnson": {
    "rank": 50,
-   "adds": 147492
+   "adds": 147906
   }
  },
  "buzz": {},
  "sources": {
   "lines": "13 games",
-  "weather": "5 outdoor games",
-  "injuries": "223 players listed",
-  "news": "18 players in headlines",
+  "weather": "8 outdoor games",
+  "injuries": "228 players listed",
+  "news": "17 players in headlines",
   "sleeper_trending": "32 board players trending",
   "reddit": "unavailable"
  }
