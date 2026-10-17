@@ -2520,7 +2520,7 @@
    "prop": "Receptions",
    "line": 2,
    "ask": 86,
-   "bid": 81,
+   "bid": 82,
    "vals": [
     4.0,
     6.0,
@@ -2571,13 +2571,13 @@
    "rks": 61,
    "vs": 49,
    "agree": 3,
-   "score": 81.4,
+   "score": 81.5,
    "flags": [],
-   "pc": 0.8494,
+   "pc": 0.8519,
    "praw": 0.8673,
    "rg": "TE",
    "est": false,
-   "mid": 83.5,
+   "mid": 84.0,
    "tk": "KXNFLREC-26OCT18BALCLE-BALMANDREWS89-2",
    "ev": "KXNFLREC-26OCT18BALCLE",
    "ctx": 0.2,
@@ -3366,7 +3366,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 76,
-   "bid": 71,
+   "bid": 72,
    "vals": [
     27.0,
     34.0,
@@ -3419,11 +3419,11 @@
    "agree": 3,
    "score": 79.2,
    "flags": [],
-   "pc": 0.7573,
+   "pc": 0.7598,
    "praw": 0.8612,
    "rg": "RB1",
    "est": false,
-   "mid": 73.5,
+   "mid": 74.0,
    "tk": "KXNFLRECYDS-26OCT18PITTB-PITJWARREN30-15",
    "ev": "KXNFLRECYDS-26OCT18PITTB",
    "ctx": 0.3,
@@ -7531,10 +7531,10 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 275,
-   "ask": 35,
-   "q": 34.0,
-   "p": 0.3518,
-   "sc": 30.0,
+   "ask": 36,
+   "q": 34.5,
+   "p": 0.3561,
+   "sc": 29.8,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT19WASSF-SFBPURDY13-275",
    "ev": "KXNFLPASSYDS-26OCT19WASSF",
@@ -7716,9 +7716,9 @@
    "pr": "Rushing Yards",
    "ln": 30,
    "ask": 39,
-   "q": 37.5,
-   "p": 0.3653,
-   "sc": 37.3,
+   "q": 35.0,
+   "p": 0.3511,
+   "sc": 36.8,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT18BALCLE-BALTHUNTLEY5-30",
    "ev": "KXNFLRSHYDS-26OCT18BALCLE",
@@ -10292,8 +10292,8 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 76,
-   "q": 73.5,
-   "p": 0.7573,
+   "q": 74.0,
+   "p": 0.7598,
    "sc": 79.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT18PITTB-PITJWARREN30-15",
@@ -10351,6 +10351,29 @@
    "dy": "Sun",
    "df": 0.17,
    "xb": 1
+  },
+  {
+   "pl": "Pat Freiermuth",
+   "tm": "PIT",
+   "g": "PITTB",
+   "gl": "PIT @ TB",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 40,
+   "ask": 46,
+   "q": 44.5,
+   "p": 0.4255,
+   "sc": 30.8,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT18PITTB-PITPFREIERMUTH88-40",
+   "ev": "KXNFLRECYDS-26OCT18PITTB",
+   "wy": "Cleared 40+ in 2 of 5 games, by -6 on average (4 of 17 last season), TB let 3 of 5 TE1s reach it. His share of targets is up from 14% to 23%. TB secondary missing CB Benjamin Morrison, S Antoine Winfield Jr.. Ben Skowronek out, more targets to go around. Watch: PIT projected for only 20 pts (O/U 38.5).",
+   "id": "7600",
+   "cx": 0.5,
+   "nw": "",
+   "dy": "Sun",
+   "df": 0.3,
+   "xb": 0
   },
   {
    "pl": "Carnell Tate",
@@ -11327,9 +11350,9 @@
    "pr": "Receptions",
    "ln": 3,
    "ask": 71,
-   "q": 68.5,
-   "p": 0.702,
-   "sc": 65.8,
+   "q": 69.0,
+   "p": 0.7045,
+   "sc": 65.9,
    "est": 0,
    "tk": "KXNFLREC-26OCT18BALCLE-BALMANDREWS89-3",
    "ev": "KXNFLREC-26OCT18BALCLE",
@@ -11350,9 +11373,9 @@
    "pr": "Receptions",
    "ln": 2,
    "ask": 86,
-   "q": 83.5,
-   "p": 0.8494,
-   "sc": 81.4,
+   "q": 84.0,
+   "p": 0.8519,
+   "sc": 81.5,
    "est": 0,
    "tk": "KXNFLREC-26OCT18BALCLE-BALMANDREWS89-2",
    "ev": "KXNFLREC-26OCT18BALCLE",
@@ -13163,6 +13186,75 @@
     ]
    },
    {
+    "key": "caleb williams",
+    "pl": "Caleb Williams",
+    "tm": "CHI",
+    "opp": "ATL",
+    "pos": "QB",
+    "role": "QB",
+    "g": "CHIATL",
+    "gl": "CHI @ ATL",
+    "dy": "Sun",
+    "id": "11560",
+    "lam": 0.3,
+    "pm": 0.261,
+    "p": 0.583,
+    "q": 90.5,
+    "ask": 92,
+    "tk": "KXNFLPASSTDSPROT-26OCT18CHIATL-CHICWILLIAMS18-1",
+    "ev": "KXNFLPASSTDSPROT-26OCT18CHIATL",
+    "tds": 2.0,
+    "n": 2,
+    "games_td": 1,
+    "ptd": 3.0,
+    "pn": 17,
+    "rz": 5,
+    "tdsh": 9,
+    "ts": null,
+    "tdr": 13.3,
+    "tpg": 7.5,
+    "pts": 27.0,
+    "sp": -1.5,
+    "tot": 52.5,
+    "d": {
+     "td": 1.0,
+     "n": 5,
+     "rank": 12,
+     "nteams": 32,
+     "ltd": 3.0,
+     "lrank": 14,
+     "leak": false,
+     "recent": [
+      0,
+      1.0
+     ]
+    },
+    "dfac": 0.96,
+    "debt": -1.3,
+    "inj": "Questionable",
+    "hist": true,
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.849,
+     "ask": 89,
+     "sc": 64.0
+    },
+    "tags": [
+     "Shootout script"
+    ],
+    "low": false,
+    "score": 51.8,
+    "why": [
+     "ATL has allowed 1.0 QB TD in 5 games (12th most); 3.0 all last season.",
+     "5% red-zone role, 13.3% TD rate, 7.5 touches a game.",
+     "2.0 TDs in 2 games, scored in 1 (3.0 in 17 last season).",
+     "CHI projected for 27 pts (O/U 52.5, favored by 1.5).",
+     "Injury: listed questionable.",
+     "Kalshi 90\u00a2 vs model 26%."
+    ]
+   },
+   {
     "key": "dandre swift",
     "pl": "D'Andre Swift",
     "tm": "CHI",
@@ -13430,9 +13522,9 @@
     "prop": {
      "pr": "Passing Yards",
      "ln": 150,
-     "p": 0.849,
-     "ask": 89,
-     "sc": 64.0
+     "p": 0.883,
+     "ask": 92,
+     "sc": 72.0
     },
     "tags": [
      "Shootout script"
@@ -13580,6 +13672,75 @@
      "17% red-zone role, 13% target share, 2.6% TD rate, 15.2 touches a game.",
      "2.0 TDs in 5 games, scored in 2 (9.0 in 14 last season).",
      "NE projected for 26 pts (O/U 43.5, favored by 7.5)."
+    ]
+   },
+   {
+    "key": "brock purdy",
+    "pl": "Brock Purdy",
+    "tm": "SF",
+    "opp": "WAS",
+    "pos": "QB",
+    "role": "QB",
+    "g": "WASSF",
+    "gl": "WAS @ SF (Mon)",
+    "dy": "Mon",
+    "id": "8183",
+    "lam": 0.16,
+    "pm": 0.15,
+    "p": 0.557,
+    "q": 96.5,
+    "ask": 98,
+    "tk": "KXNFLPASSTDSPROT-26OCT19WASSF-SFBPURDY13-1",
+    "ev": "KXNFLPASSTDSPROT-26OCT19WASSF",
+    "tds": 1.0,
+    "n": 5,
+    "games_td": 1,
+    "ptd": 3.0,
+    "pn": 9,
+    "rz": 6,
+    "tdsh": 6,
+    "ts": null,
+    "tdr": 4.0,
+    "tpg": 5.0,
+    "pts": 30.0,
+    "sp": -7.5,
+    "tot": 52.5,
+    "d": {
+     "td": 1.0,
+     "n": 5,
+     "rank": 21,
+     "nteams": 32,
+     "ltd": 1.0,
+     "lrank": 26,
+     "leak": false,
+     "recent": [
+      1.0,
+      0
+     ]
+    },
+    "dfac": 0.73,
+    "debt": -0.3,
+    "inj": null,
+    "hist": true,
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 175,
+     "p": 0.842,
+     "ask": 88,
+     "sc": 76.9
+    },
+    "tags": [
+     "Shootout script",
+     "Favored"
+    ],
+    "low": false,
+    "score": 42.9,
+    "why": [
+     "WAS has allowed 1.0 QB TD in 5 games (21st most); 1.0 all last season.",
+     "6% red-zone role, 4% TD rate, 5 touches a game.",
+     "1.0 TD in 5 games, scored in 1 (3.0 in 9 last season).",
+     "SF projected for 30 pts (O/U 52.5, favored by 7.5).",
+     "Kalshi 96\u00a2 vs model 15%."
     ]
    },
    {
@@ -14041,9 +14202,9 @@
     "prop": {
      "pr": "Passing Yards",
      "ln": 150,
-     "p": 0.878,
-     "ask": 89,
-     "sc": 87.0
+     "p": 0.896,
+     "ask": 91,
+     "sc": 91.2
     },
     "tags": [
      "Soft TD defense"
@@ -14128,25 +14289,93 @@
     ]
    },
    {
-    "key": "bryce young",
-    "pl": "Bryce Young",
-    "tm": "CAR",
-    "opp": "PHI",
+    "key": "jayden daniels",
+    "pl": "Jayden Daniels",
+    "tm": "WAS",
+    "opp": "SF",
+    "pos": "QB",
+    "role": "QB",
+    "g": "WASSF",
+    "gl": "WAS @ SF (Mon)",
+    "dy": "Mon",
+    "id": "11566",
+    "lam": 0.19,
+    "pm": 0.175,
+    "p": 0.5,
+    "q": 82.5,
+    "ask": 84,
+    "tk": "KXNFLPASSTDSPROT-26OCT19WASSF-WASJDANIELS5-1",
+    "ev": "KXNFLPASSTDSPROT-26OCT19WASSF",
+    "tds": 2.0,
+    "n": 3,
+    "games_td": 1,
+    "ptd": 2.0,
+    "pn": 7,
+    "rz": 12,
+    "tdsh": 9,
+    "ts": null,
+    "tdr": 9.5,
+    "tpg": 7.0,
+    "pts": 22.5,
+    "sp": 7.5,
+    "tot": 52.5,
+    "d": {
+     "td": 1.0,
+     "n": 5,
+     "rank": 19,
+     "nteams": 32,
+     "ltd": 1.0,
+     "lrank": 28,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.73,
+    "debt": -1.2,
+    "inj": null,
+    "hist": true,
+    "prop": {
+     "pr": "Rushing Yards",
+     "ln": 15,
+     "p": 0.853,
+     "ask": 89,
+     "sc": 71.1
+    },
+    "tags": [
+     "Shootout script"
+    ],
+    "low": false,
+    "score": 46.0,
+    "why": [
+     "SF has allowed 1.0 QB TD in 5 games (19th most); 1.0 all last season.",
+     "12% red-zone role, 9.5% TD rate, 7 touches a game.",
+     "2.0 TDs in 3 games, scored in 1 (2.0 in 7 last season).",
+     "WAS projected for 22 pts (O/U 52.5, 7.5-pt underdog).",
+     "Kalshi 82\u00a2 vs model 18%."
+    ]
+   },
+   {
+    "key": "cam ward",
+    "pl": "Cam Ward",
+    "tm": "TEN",
+    "opp": "IND",
     "pos": "QB",
     "role": "QB",
     "g": "CARPHI",
     "gl": "CAR @ PHI",
     "dy": "Sun",
-    "id": "9228",
-    "lam": 0.26,
-    "pm": 0.232,
-    "p": 0.498,
-    "q": 76.5,
-    "ask": 78,
-    "tk": "KXNFLPASSTDS-26OCT18CARPHI-CARBYOUNG9-1",
-    "ev": "KXNFLPASSTDS-26OCT18CARPHI",
-    "tds": 1.0,
-    "n": 4,
+    "id": "12522",
+    "lam": 0.35,
+    "pm": 0.298,
+    "p": 0.499,
+    "q": 70.0,
+    "ask": 73,
+    "tk": "KXNFLPASSTDSPROT-26OCT18TENIND-TENCWARD1-1",
+    "ev": "KXNFLPASSTDSPROT-26OCT18TENIND",
+    "tds": 2.0,
+    "n": 5,
     "games_td": 1,
     "ptd": 2.0,
     "pn": 16,
@@ -14177,10 +14406,10 @@
     "hist": true,
     "prop": {
      "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.896,
-     "ask": 91,
-     "sc": 91.2
+     "ln": 125,
+     "p": 0.869,
+     "ask": 90,
+     "sc": 81.2
     },
     "tags": [
      "Soft TD defense",
@@ -14266,72 +14495,6 @@
      "12% red-zone role, 21% target share, 4.2% TD rate, 16 touches a game.",
      "2.0 TDs in 3 games, scored in 2 (11.0 in 16 last season).",
      "LAR projected for 32 pts (O/U 51.5, favored by 12.5)."
-    ]
-   },
-   {
-    "key": "cam ward",
-    "pl": "Cam Ward",
-    "tm": "TEN",
-    "opp": "IND",
-    "pos": "QB",
-    "role": "QB",
-    "g": "TENIND",
-    "gl": "TEN @ IND",
-    "dy": "Sun",
-    "id": "12522",
-    "lam": 0.35,
-    "pm": 0.298,
-    "p": 0.489,
-    "q": 68.0,
-    "ask": 70,
-    "tk": "KXNFLPASSTDS-26OCT18TENIND-TENCWARD1-1",
-    "ev": "KXNFLPASSTDS-26OCT18TENIND",
-    "tds": 2.0,
-    "n": 5,
-    "games_td": 1,
-    "ptd": 2.0,
-    "pn": 17,
-    "rz": 12,
-    "tdsh": 16,
-    "ts": null,
-    "tdr": 14.3,
-    "tpg": 2.8,
-    "pts": 18.8,
-    "sp": 7.0,
-    "tot": 44.5,
-    "d": {
-     "td": 1.0,
-     "n": 5,
-     "rank": 15,
-     "nteams": 32,
-     "ltd": 3.0,
-     "lrank": 18,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.96,
-    "debt": -1.2,
-    "inj": null,
-    "hist": true,
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 125,
-     "p": 0.869,
-     "ask": 90,
-     "sc": 81.2
-    },
-    "tags": [],
-    "low": true,
-    "score": 52.4,
-    "why": [
-     "IND has allowed 1.0 QB TD in 5 games (15th most); 3.0 all last season.",
-     "12% red-zone role, 14.3% TD rate, 2.8 touches a game.",
-     "2.0 TDs in 5 games, scored in 1 (2.0 in 17 last season).",
-     "Low total: TEN projected for 19 pts (O/U 44.5, 7-pt underdog).",
-     "Kalshi 68\u00a2 vs model 30%."
     ]
    },
    {
@@ -14793,9 +14956,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 40,
-     "p": 0.781,
+     "p": 0.787,
      "ask": 83,
-     "sc": 63.5
+     "sc": 63.6
     },
     "tags": [
      "Target monster",
@@ -15140,6 +15303,143 @@
      "17% red-zone role, 3% target share, 7.3% TD rate, 11 touches a game.",
      "4.0 TDs in 5 games, scored in 2 (2.0 in 17 last season).",
      "ATL projected for 26 pts (O/U 52.5, 1.5-pt underdog)."
+    ]
+   },
+   {
+    "key": "tyler huntley",
+    "pl": "Tyler Huntley",
+    "tm": "BAL",
+    "opp": "CLE",
+    "pos": "QB",
+    "role": "QB",
+    "g": "BALCLE",
+    "gl": "BAL @ CLE",
+    "dy": "Sun",
+    "id": "7083",
+    "lam": 0.05,
+    "pm": 0.051,
+    "p": 0.383,
+    "q": 71.5,
+    "ask": 73,
+    "tk": "KXNFLPASSTDSPROT-26OCT18BALCLE-BALTHUNTLEY5-1",
+    "ev": "KXNFLPASSTDSPROT-26OCT18BALCLE",
+    "tds": 1.0,
+    "n": 2,
+    "games_td": 1,
+    "ptd": 0,
+    "pn": 5,
+    "rz": 2,
+    "tdsh": 3,
+    "ts": null,
+    "tdr": 10.0,
+    "tpg": 5.0,
+    "pts": 21.2,
+    "sp": -3.0,
+    "tot": 39.5,
+    "d": {
+     "td": 0,
+     "n": 5,
+     "rank": 23,
+     "nteams": 32,
+     "ltd": 1.0,
+     "lrank": 30,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.7,
+    "debt": -0.7,
+    "inj": null,
+    "hist": true,
+    "prop": {
+     "pr": "Rushing Yards",
+     "ln": 10,
+     "p": 0.807,
+     "ask": 82,
+     "sc": 74.0
+    },
+    "tags": [
+     "Favored"
+    ],
+    "low": false,
+    "score": 23.9,
+    "why": [
+     "CLE has allowed 0 QB TDs in 5 games (23rd most); 1.0 all last season.",
+     "2% red-zone role, 10% TD rate, 5 touches a game.",
+     "1.0 TD in 2 games, scored in 1 (0 in 5 last season).",
+     "BAL projected for 21 pts (O/U 39.5, favored by 3).",
+     "Kalshi 72\u00a2 vs model 5%."
+    ]
+   },
+   {
+    "key": "justin herbert",
+    "pl": "Justin Herbert",
+    "tm": "LAC",
+    "opp": "KC",
+    "pos": "QB",
+    "role": "QB",
+    "g": "LACKC",
+    "gl": "LAC @ KC",
+    "dy": "Sun",
+    "id": "6797",
+    "lam": 0.1,
+    "pm": 0.093,
+    "p": 0.377,
+    "q": 66.0,
+    "ask": 69,
+    "tk": "KXNFLPASSTDSPROT-26OCT18LACKC-LACJHERBERT10-1",
+    "ev": "KXNFLPASSTDSPROT-26OCT18LACKC",
+    "tds": 0,
+    "n": 5,
+    "games_td": 0,
+    "ptd": 2.0,
+    "pn": 16,
+    "rz": 17,
+    "tdsh": 4,
+    "ts": null,
+    "tdr": 0.0,
+    "tpg": 5.0,
+    "pts": 17.0,
+    "sp": 7.5,
+    "tot": 41.5,
+    "d": {
+     "td": 0,
+     "n": 4,
+     "rank": 26,
+     "nteams": 32,
+     "ltd": 6.0,
+     "lrank": 3,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 1.11,
+    "debt": 1.1,
+    "inj": null,
+    "hist": true,
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 125,
+     "p": 0.847,
+     "ask": 86,
+     "sc": 67.2
+    },
+    "tags": [
+     "Due"
+    ],
+    "low": true,
+    "score": 42.6,
+    "why": [
+     "KC has allowed 0 QB TDs in 4 games (26th most); 6.0 all last season (3rd most).",
+     "17% red-zone role, 5 touches a game.",
+     "No TDs yet in 5 games (2.0 in 16 last season).",
+     "Low total: LAC projected for 17 pts (O/U 41.5, 7.5-pt underdog).",
+     "Due: 1.1 TD debt (his role says he should have scored more).",
+     "Kalshi 66\u00a2 vs model 9%."
     ]
    },
    {
@@ -15541,6 +15841,72 @@
     ]
    },
    {
+    "key": "jalon daniels",
+    "pl": "Jalon Daniels",
+    "tm": "TB",
+    "opp": "PIT",
+    "pos": "QB",
+    "role": "QB",
+    "g": "PITTB",
+    "gl": "PIT @ TB",
+    "dy": "Sun",
+    "id": "13425",
+    "lam": 0.04,
+    "pm": 0.037,
+    "p": 0.356,
+    "q": 67.5,
+    "ask": 70,
+    "tk": "KXNFLPASSTDSPROT-26OCT18PITTB-TBJDANIELS10-1",
+    "ev": "KXNFLPASSTDSPROT-26OCT18PITTB",
+    "tds": 0,
+    "n": 3,
+    "games_td": 0,
+    "ptd": null,
+    "pn": null,
+    "rz": 5,
+    "tdsh": 2,
+    "ts": null,
+    "tdr": 0.0,
+    "tpg": 5.3,
+    "pts": 18.0,
+    "sp": 2.5,
+    "tot": 38.5,
+    "d": {
+     "td": 0,
+     "n": 5,
+     "rank": 30,
+     "nteams": 32,
+     "ltd": 5.0,
+     "lrank": 8,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.96,
+    "debt": 0.5,
+    "inj": null,
+    "hist": true,
+    "prop": {
+     "pr": "Rushing Yards",
+     "ln": 15,
+     "p": 0.71,
+     "ask": 88,
+     "sc": 45.9
+    },
+    "tags": [],
+    "low": true,
+    "score": 29.9,
+    "why": [
+     "PIT has allowed 0 QB TDs in 5 games (30th most); 5.0 all last season (8th most).",
+     "5% red-zone role, 5.3 touches a game.",
+     "No TDs yet in 3 games.",
+     "Low total: TB projected for 18 pts (O/U 38.5, 2.5-pt underdog).",
+     "Kalshi 68\u00a2 vs model 4%."
+    ]
+   },
+   {
     "key": "tyler warren",
     "pl": "Tyler Warren",
     "tm": "IND",
@@ -15882,6 +16248,66 @@
      "16% red-zone role, 28% target share, 4.3% TD rate, 9.2 touches a game.",
      "2.0 TDs in 5 games, scored in 2 (2.0 in 4 last season).",
      "NYG projected for 22 pts (O/U 46.5, 1.5-pt underdog)."
+    ]
+   },
+   {
+    "key": "tanner mckee",
+    "pl": "Tanner McKee",
+    "tm": "PHI",
+    "opp": "CAR",
+    "pos": "QB",
+    "role": "QB",
+    "g": "CARPHI",
+    "gl": "CAR @ PHI",
+    "dy": "Sun",
+    "id": "9230",
+    "lam": 0.02,
+    "pm": 0.016,
+    "p": 0.341,
+    "q": 66.5,
+    "ask": 68,
+    "tk": "KXNFLPASSTDSPROT-26OCT18CARPHI-PHITMCKEE16-1",
+    "ev": "KXNFLPASSTDSPROT-26OCT18CARPHI",
+    "tds": 0,
+    "n": 0,
+    "games_td": 0,
+    "ptd": 0,
+    "pn": 4,
+    "rz": 0,
+    "tdsh": 1,
+    "ts": null,
+    "tdr": null,
+    "tpg": 0,
+    "pts": 18.2,
+    "sp": 3.0,
+    "tot": 39.5,
+    "d": {
+     "td": 2.0,
+     "n": 4,
+     "rank": 2,
+     "nteams": 32,
+     "ltd": 3.0,
+     "lrank": 15,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 1.22,
+    "debt": 0.0,
+    "inj": null,
+    "hist": true,
+    "tags": [
+     "Soft TD defense"
+    ],
+    "low": true,
+    "score": 23.0,
+    "why": [
+     "CAR has allowed 2.0 QB TDs in 4 games (2nd most); 3.0 all last season.",
+     "0% red-zone role.",
+     "Low total: PHI projected for 18 pts (O/U 39.5, 3-pt underdog).",
+     "Kalshi 66\u00a2 vs model 2%."
     ]
    },
    {
@@ -17003,9 +17429,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 4,
-     "p": 0.833,
-     "ask": 91,
-     "sc": 63.6
+     "p": 0.829,
+     "ask": 90,
+     "sc": 63.7
     },
     "tags": [
      "RZ share top-10",
@@ -17205,11 +17631,11 @@
     "inj": null,
     "hist": true,
     "prop": {
-     "pr": "Receiving Yards",
-     "ln": 25,
-     "p": 0.826,
-     "ask": 87,
-     "sc": 69.1
+     "pr": "Receptions",
+     "ln": 3,
+     "p": 0.874,
+     "ask": 90,
+     "sc": 73.9
     },
     "tags": [
      "High volume",
@@ -18987,9 +19413,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.849,
+     "p": 0.852,
      "ask": 86,
-     "sc": 81.4
+     "sc": 81.5
     },
     "tags": [
      "Favored"
@@ -22249,9 +22675,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 15,
-     "p": 0.779,
-     "ask": 86,
-     "sc": 46.3
+     "p": 0.773,
+     "ask": 84,
+     "sc": 46.4
     },
     "tags": [],
     "low": true,
@@ -25031,7 +25457,7 @@
    4,
    5
   ],
-  "generated": "2026-10-17T04:30:31-07:00",
+  "generated": "2026-10-17T04:33:14-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 6 \u00b7 Sun Oct 18 \u2013 Mon Oct 19",
