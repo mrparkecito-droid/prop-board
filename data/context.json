@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T01:31:00+00:00",
+ "generated": "2026-10-17T01:53:49+00:00",
  "games": {
   "HOUJAX": {
    "home": "JAX",
@@ -252,6 +252,13 @@
    "espn_wx": {
     "desc": "Intermittent clouds",
     "temp": 66
+   },
+   "wx": {
+    "wind": 9,
+    "gust": 11,
+    "pop": 2,
+    "rain": 0.0,
+    "temp": 64
    }
   }
  },
@@ -457,19 +464,9 @@
   ],
   "CLE": [
    {
-    "name": "Teven Jenkins",
-    "pos": "G",
-    "status": "Out"
-   },
-   {
     "name": "Mike Hall Jr.",
     "pos": "DT",
     "status": "Out"
-   },
-   {
-    "name": "Quinshon Judkins",
-    "pos": "RB",
-    "status": "Questionable"
    },
    {
     "name": "Carson Schwesinger",
@@ -479,6 +476,16 @@
    {
     "name": "Mason Graham",
     "pos": "DT",
+    "status": "Questionable"
+   },
+   {
+    "name": "Teven Jenkins",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Quinshon Judkins",
+    "pos": "RB",
     "status": "Questionable"
    },
    {
@@ -702,9 +709,9 @@
   ],
   "LAC": [
    {
-    "name": "Tre' Harris",
+    "name": "Brenen Thompson",
     "pos": "WR",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Rodney Shelley",
@@ -712,13 +719,23 @@
     "status": "Doubtful"
    },
    {
+    "name": "Derwin James Jr.",
+    "pos": "S",
+    "status": "Out"
+   },
+   {
     "name": "Donte Jackson",
     "pos": "CB",
     "status": "Out"
    },
    {
-    "name": "Derwin James Jr.",
-    "pos": "S",
+    "name": "Daiyan Henley",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Tre' Harris",
+    "pos": "WR",
     "status": "Out"
    },
    {
@@ -732,11 +749,6 @@
     "status": "Out"
    },
    {
-    "name": "Brenen Thompson",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
     "name": "Dalvin Tomlinson",
     "pos": "DT",
     "status": "Questionable"
@@ -744,11 +756,6 @@
    {
     "name": "Jamaree Caldwell",
     "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Daiyan Henley",
-    "pos": "LB",
     "status": "Questionable"
    }
   ],
@@ -1000,13 +1007,8 @@
   ],
   "PIT": [
    {
-    "name": "DK Metcalf",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Rico Dowdle",
-    "pos": "RB",
+    "name": "Jalen Ramsey",
+    "pos": "CB",
     "status": "Questionable"
    },
    {
@@ -1015,8 +1017,13 @@
     "status": "Questionable"
    },
    {
-    "name": "Jalen Ramsey",
-    "pos": "CB",
+    "name": "DK Metcalf",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Rico Dowdle",
+    "pos": "RB",
     "status": "Questionable"
    },
    {
@@ -1313,149 +1320,149 @@
  "trend": {
   "tanner mckee": {
    "rank": 1,
-   "adds": 1452920
+   "adds": 1456056
   },
   "dameon pierce": {
    "rank": 2,
-   "adds": 1083496
+   "adds": 1060448
   },
   "kirk cousins": {
    "rank": 3,
-   "adds": 626480
-  },
-  "darius cooper": {
-   "rank": 5,
-   "adds": 564592
+   "adds": 616936
   },
   "tyler allgeier": {
+   "rank": 5,
+   "adds": 555215
+  },
+  "darius cooper": {
    "rank": 6,
-   "adds": 548550
+   "adds": 550557
   },
   "tyler higbee": {
    "rank": 7,
-   "adds": 424134
+   "adds": 420714
   },
   "jaleel mclaughlin": {
    "rank": 8,
-   "adds": 411955
-  },
-  "brenton strange": {
-   "rank": 10,
-   "adds": 347031
+   "adds": 399065
   },
   "aaron rodgers": {
-   "rank": 11,
-   "adds": 341412
+   "rank": 10,
+   "adds": 337200
   },
-  "kimani vidal": {
-   "rank": 12,
-   "adds": 303690
+  "brenton strange": {
+   "rank": 11,
+   "adds": 331911
   },
   "cj stroud": {
-   "rank": 14,
-   "adds": 299061
+   "rank": 12,
+   "adds": 295379
+  },
+  "kimani vidal": {
+   "rank": 13,
+   "adds": 293705
   },
   "xavier worthy": {
    "rank": 15,
-   "adds": 294021
+   "adds": 288459
   },
   "marshawn lloyd": {
    "rank": 17,
-   "adds": 255132
+   "adds": 241695
   },
   "ryan flournoy": {
    "rank": 18,
-   "adds": 244680
+   "adds": 238920
   },
   "tre tucker": {
-   "rank": 21,
-   "adds": 211110
+   "rank": 20,
+   "adds": 206124
   },
   "brandin cooks": {
    "rank": 23,
-   "adds": 192100
-  },
-  "keenan allen": {
-   "rank": 27,
-   "adds": 158748
+   "adds": 187928
   },
   "tyler shough": {
+   "rank": 27,
+   "adds": 155248
+  },
+  "keenan allen": {
    "rank": 28,
-   "adds": 156984
+   "adds": 154980
   },
   "kendre miller": {
    "rank": 30,
-   "adds": 146954
+   "adds": 141634
   },
   "braelon allen": {
    "rank": 31,
-   "adds": 144996
-  },
-  "kendrick bourne": {
-   "rank": 32,
-   "adds": 143226
+   "adds": 141348
   },
   "michael penix": {
-   "rank": 33,
-   "adds": 141888
+   "rank": 32,
+   "adds": 139200
   },
   "pierre strong": {
+   "rank": 33,
+   "adds": 138420
+  },
+  "kendrick bourne": {
    "rank": 34,
-   "adds": 139464
+   "adds": 137340
   },
   "khalil shakir": {
    "rank": 36,
-   "adds": 127170
+   "adds": 125289
   },
   "kenny gainwell": {
    "rank": 37,
-   "adds": 127112
+   "adds": 124376
   },
   "keaton mitchell": {
    "rank": 38,
-   "adds": 118773
+   "adds": 116226
   },
   "blake corum": {
    "rank": 39,
-   "adds": 115112
+   "adds": 111240
   },
   "darren waller": {
-   "rank": 42,
-   "adds": 108432
-  },
-  "matthew stafford": {
-   "rank": 44,
-   "adds": 105903
-  },
-  "devaughn vele": {
-   "rank": 45,
-   "adds": 105658
+   "rank": 41,
+   "adds": 106146
   },
   "daniel jones": {
-   "rank": 46,
-   "adds": 104060
+   "rank": 44,
+   "adds": 103735
   },
-  "corey kiner": {
-   "rank": 47,
-   "adds": 102996
+  "matthew stafford": {
+   "rank": 45,
+   "adds": 103248
+  },
+  "devaughn vele": {
+   "rank": 46,
+   "adds": 102620
   },
   "keon coleman": {
+   "rank": 47,
+   "adds": 100944
+  },
+  "corey kiner": {
    "rank": 48,
-   "adds": 102267
+   "adds": 96510
   },
   "alvin kamara": {
    "rank": 49,
-   "adds": 97008
+   "adds": 94888
   },
   "kc concepcion": {
    "rank": 50,
-   "adds": 92304
+   "adds": 90549
   }
  },
  "buzz": {},
  "sources": {
   "lines": "13 games",
-  "weather": "7 outdoor games",
+  "weather": "8 outdoor games",
   "injuries": "191 players listed",
   "news": "8 players in headlines",
   "sleeper_trending": "35 board players trending",
