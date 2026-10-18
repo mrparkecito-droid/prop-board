@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T20:03:23+00:00",
+ "generated": "2026-10-18T20:06:43+00:00",
  "games": {
   "CHIATL": {
    "home": "ATL",
@@ -12,6 +12,22 @@
    "espn_wx": {
     "desc": "1",
     "temp": 64
+   }
+  },
+  "BALCLE": {
+   "home": "CLE",
+   "away": "BAL",
+   "kick": "2026-10-18T17:00Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {},
+   "total": null,
+   "wx": {
+    "wind": 8,
+    "gust": 14,
+    "pop": 0,
+    "rain": 0.0,
+    "temp": 63
    }
   },
   "TENIND": {
@@ -107,36 +123,17 @@
     "temp": 81
    }
   },
-  "BALCLE": {
-   "home": "CLE",
-   "away": "BAL",
-   "kick": "2026-10-18T17:00Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "wx": {
-    "wind": 8,
-    "gust": 14,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 63
-   }
-  },
   "ARILAR": {
    "home": "LAR",
    "away": "ARI",
    "kick": "2026-10-18T20:05Z",
    "indoor": true,
    "neutral": false,
-   "spread": {
-    "LAR": -12.5,
-    "ARI": 12.5
-   },
-   "total": 51.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
-    "desc": "Sunny",
-    "temp": 86
+    "desc": "1",
+    "temp": 85
    }
   },
   "LACKC": {
@@ -265,13 +262,13 @@
   ],
   "ATL": [
    {
-    "name": "Billy Bowman Jr.",
-    "pos": "CB",
+    "name": "Kendal Daniels",
+    "pos": "LB",
     "status": "Questionable"
    },
    {
-    "name": "Kendal Daniels",
-    "pos": "LB",
+    "name": "Billy Bowman Jr.",
+    "pos": "CB",
     "status": "Questionable"
    },
    {
@@ -1099,6 +1096,11 @@
     "status": "Out"
    },
    {
+    "name": "Andrew Thomas",
+    "pos": "OT",
+    "status": "Questionable"
+   },
+   {
     "name": "Darnell Mooney",
     "pos": "WR",
     "status": "Questionable"
@@ -1178,7 +1180,7 @@
   ],
   "PHI": [
    {
-    "name": "Makai Lemon",
+    "name": "Dontayvion Wicks",
     "pos": "WR",
     "status": "Questionable"
    },
@@ -1499,7 +1501,7 @@
  "news": {
   "romeo doubs": {
    "h": "Patriots' Romeo Doubs hurt on 42-yard TD catch vs. Jets",
-   "t": "2026-10-18T19:44:56Z"
+   "t": "2026-10-18T19:22:09Z"
   },
   "devonta smith": {
    "h": "Eagles WR DeVonta Smith leads NFL Week 6's best arrivals",
@@ -1694,7 +1696,7 @@
  },
  "buzz": {},
  "sources": {
-  "lines": "5 games",
+  "lines": "4 games",
   "weather": "8 outdoor games",
   "injuries": "241 players listed",
   "news": "7 players in headlines",
