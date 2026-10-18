@@ -688,7 +688,7 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 4,
-   "ask": 79,
+   "ask": 78,
    "bid": 73,
    "vals": [
     2.0,
@@ -740,13 +740,13 @@
    "rks": 90,
    "vs": 45,
    "agree": 2,
-   "score": 69.3,
+   "score": 69.4,
    "flags": [],
-   "pc": 0.7497,
+   "pc": 0.7466,
    "praw": 0.7401,
    "rg": "TE",
    "est": false,
-   "mid": 76.0,
+   "mid": 75.5,
    "tk": "KXNFLREC-26OCT19WASSF-SFGKITTLE85-4",
    "ev": "KXNFLREC-26OCT19WASSF",
    "ctx": 0.2,
@@ -2784,151 +2784,6 @@
    "game": "WASSF",
    "glabel": "WAS @ SF (Mon)",
    "day": "Mon",
-   "player": "Antonio Williams",
-   "team": "WAS",
-   "opp": "SF",
-   "pos": "WR",
-   "role": "WR3",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 63,
-   "bid": 59,
-   "vals": [
-    64.0,
-    24.0,
-    15.0,
-    21.0,
-    31.0
-   ],
-   "over": 5,
-   "n": 5,
-   "proj": 23.7,
-   "al": [
-    [
-     1,
-     "LAR",
-     8.0
-    ],
-    [
-     2,
-     "MIA",
-     19.0
-    ],
-    [
-     3,
-     "ARI",
-     22.0
-    ],
-    [
-     4,
-     "DEN",
-     10.0
-    ],
-    [
-     5,
-     "SEA",
-     15.0
-    ]
-   ],
-   "dhit": 3,
-   "dn": 5,
-   "most": 25,
-   "per": 210.8,
-   "dstat": "pass yds",
-   "p": 63,
-   "roi": 0,
-   "pp": 81,
-   "hs": 81,
-   "dhs": 57,
-   "rks": 23,
-   "vs": 50,
-   "agree": 2,
-   "score": 56.1,
-   "flags": [],
-   "pc": 0.63,
-   "praw": 0.7225,
-   "rg": "WR3",
-   "est": false,
-   "mid": 61.0,
-   "tk": "KXNFLRECYDS-26OCT19WASSF-WASAWILLIAMS14-15",
-   "ev": "KXNFLRECYDS-26OCT19WASSF",
-   "ctx": 0.15,
-   "cxs": 58,
-   "reasons": [
-    [
-     0.15,
-     "SF secondary missing S Marques Sigle"
-    ],
-    [
-     0.51,
-     "WAS a 7.5-pt underdog, trailing teams throw more"
-    ],
-    [
-     -0.21,
-     "SF gives up 24% fewer receiving yds to WR3s than average."
-    ],
-    [
-     -0.3,
-     "Low volume: about 4.5 targets a game as the WR3."
-    ],
-    [
-     -0.45,
-     "WAS's offense ranks 25th in passing (197 yds a game)."
-    ],
-    [
-     -0.02,
-     "Market check: Kalshi is lower on this low-volume WR3, so the chance leans toward its 61\u00a2 price."
-    ]
-   ],
-   "status": null,
-   "ppj": 76,
-   "pu": 85,
-   "uinfo": {
-    "share": [
-     14,
-     9,
-     13,
-     23,
-     13
-    ],
-    "kind": "targets",
-    "snap": 55,
-    "snap_last": 68,
-    "mu": 33.9,
-    "opp": 4.5,
-    "note": ""
-   },
-   "po": 0,
-   "pn": 0,
-   "pid": "13301",
-   "sx": 0.51,
-   "sxs": 76,
-   "mx": -0.43,
-   "mxs": 28,
-   "env": 0.05,
-   "dfac": -0.3,
-   "dfs": 35,
-   "off": -0.45,
-   "ofs": 28,
-   "cu": 77,
-   "avgm": 16.0,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Jayden Daniels",
-    "same": true,
-    "n": 3
-   },
-   "rank": 22,
-   "why": "Cleared 15+ in 5 of 5 games, by +16 on average, Sleeper projects 23.7, SF let 3 of 5 WR3s reach it. WAS a 7.5-pt underdog, trailing teams throw more. SF secondary missing S Marques Sigle. Watch: WAS's offense ranks 25th in passing (197 yds a game).; Low volume: about 4.5 targets a game as the WR3..",
-   "news": ""
-  },
-  {
-   "game": "WASSF",
-   "glabel": "WAS @ SF (Mon)",
-   "day": "Mon",
    "player": "Kaelon Black",
    "team": "SF",
    "opp": "WAS",
@@ -3062,8 +2917,153 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "rank": 23,
+   "rank": 22,
    "why": "Cleared 10+ in 5 of 5 games, by +17 on average, Sleeper projects 31.9, WAS let 2 of 5 No. 2 RBs reach it. His share of carries fell from 47% to 25%. SF favored by 7.5, should run a lot with a lead. SF projected for 30 pts (O/U 52.5). Watch: Low volume: about 6.9 carries a game as the RB2.; WAS gives up 35% fewer rushing yds to No. 2 RBs than average..",
+   "news": ""
+  },
+  {
+   "game": "WASSF",
+   "glabel": "WAS @ SF (Mon)",
+   "day": "Mon",
+   "player": "Antonio Williams",
+   "team": "WAS",
+   "opp": "SF",
+   "pos": "WR",
+   "role": "WR3",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 63,
+   "bid": 58,
+   "vals": [
+    64.0,
+    24.0,
+    15.0,
+    21.0,
+    31.0
+   ],
+   "over": 5,
+   "n": 5,
+   "proj": 23.7,
+   "al": [
+    [
+     1,
+     "LAR",
+     8.0
+    ],
+    [
+     2,
+     "MIA",
+     19.0
+    ],
+    [
+     3,
+     "ARI",
+     22.0
+    ],
+    [
+     4,
+     "DEN",
+     10.0
+    ],
+    [
+     5,
+     "SEA",
+     15.0
+    ]
+   ],
+   "dhit": 3,
+   "dn": 5,
+   "most": 25,
+   "per": 210.8,
+   "dstat": "pass yds",
+   "p": 63,
+   "roi": -1,
+   "pp": 81,
+   "hs": 81,
+   "dhs": 57,
+   "rks": 23,
+   "vs": 49,
+   "agree": 2,
+   "score": 56.0,
+   "flags": [],
+   "pc": 0.626,
+   "praw": 0.7225,
+   "rg": "WR3",
+   "est": false,
+   "mid": 60.5,
+   "tk": "KXNFLRECYDS-26OCT19WASSF-WASAWILLIAMS14-15",
+   "ev": "KXNFLRECYDS-26OCT19WASSF",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "SF secondary missing S Marques Sigle"
+    ],
+    [
+     0.51,
+     "WAS a 7.5-pt underdog, trailing teams throw more"
+    ],
+    [
+     -0.21,
+     "SF gives up 24% fewer receiving yds to WR3s than average."
+    ],
+    [
+     -0.3,
+     "Low volume: about 4.5 targets a game as the WR3."
+    ],
+    [
+     -0.45,
+     "WAS's offense ranks 25th in passing (197 yds a game)."
+    ],
+    [
+     -0.02,
+     "Market check: Kalshi is lower on this low-volume WR3, so the chance leans toward its 60\u00a2 price."
+    ]
+   ],
+   "status": null,
+   "ppj": 76,
+   "pu": 85,
+   "uinfo": {
+    "share": [
+     14,
+     9,
+     13,
+     23,
+     13
+    ],
+    "kind": "targets",
+    "snap": 55,
+    "snap_last": 68,
+    "mu": 33.9,
+    "opp": 4.5,
+    "note": ""
+   },
+   "po": 0,
+   "pn": 0,
+   "pid": "13301",
+   "sx": 0.51,
+   "sxs": 76,
+   "mx": -0.43,
+   "mxs": 28,
+   "env": 0.05,
+   "dfac": -0.3,
+   "dfs": 35,
+   "off": -0.45,
+   "ofs": 28,
+   "cu": 77,
+   "avgm": 16.0,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Jayden Daniels",
+    "same": true,
+    "n": 3
+   },
+   "rank": 23,
+   "why": "Cleared 15+ in 5 of 5 games, by +16 on average, Sleeper projects 23.7, SF let 3 of 5 WR3s reach it. WAS a 7.5-pt underdog, trailing teams throw more. SF secondary missing S Marques Sigle. Watch: WAS's offense ranks 25th in passing (197 yds a game).; Low volume: about 4.5 targets a game as the WR3..",
    "news": ""
   },
   {
@@ -4019,8 +4019,8 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 2,
-   "ask": 80,
-   "bid": 76,
+   "ask": 79,
+   "bid": 74,
    "vals": [
     2.0,
     -1,
@@ -4063,7 +4063,7 @@
    "most": 25,
    "per": 210.8,
    "dstat": "pass yds",
-   "p": 75,
+   "p": 74,
    "roi": -7,
    "pp": 82,
    "hs": 55,
@@ -4073,11 +4073,11 @@
    "agree": 1,
    "score": 49.1,
    "flags": [],
-   "pc": 0.7458,
+   "pc": 0.7377,
    "praw": 0.708,
    "rg": "TE",
    "est": false,
-   "mid": 78.0,
+   "mid": 76.5,
    "tk": "KXNFLREC-26OCT19WASSF-WASCOKONKWO85-2",
    "ev": "KXNFLREC-26OCT19WASSF",
    "ctx": 0.15,
@@ -7286,9 +7286,9 @@
    "pr": "Receiving Yards",
    "ln": 15,
    "ask": 63,
-   "q": 61.0,
-   "p": 0.63,
-   "sc": 56.1,
+   "q": 60.5,
+   "p": 0.626,
+   "sc": 56.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT19WASSF-WASAWILLIAMS14-15",
    "ev": "KXNFLRECYDS-26OCT19WASSF",
@@ -7975,10 +7975,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 4,
-   "ask": 79,
-   "q": 76.0,
-   "p": 0.7497,
-   "sc": 69.3,
+   "ask": 78,
+   "q": 75.5,
+   "p": 0.7466,
+   "sc": 69.4,
    "est": 0,
    "tk": "KXNFLREC-26OCT19WASSF-SFGKITTLE85-4",
    "ev": "KXNFLREC-26OCT19WASSF",
@@ -7998,10 +7998,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 3,
-   "ask": 90,
-   "q": 87.0,
-   "p": 0.8555,
-   "sc": 77.1,
+   "ask": 89,
+   "q": 86.5,
+   "p": 0.8523,
+   "sc": 77.2,
    "est": 0,
    "tk": "KXNFLREC-26OCT19WASSF-SFGKITTLE85-3",
    "ev": "KXNFLREC-26OCT19WASSF",
@@ -8359,9 +8359,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 3,
-     "p": 0.856,
-     "ask": 90,
-     "sc": 77.1
+     "p": 0.852,
+     "ask": 89,
+     "sc": 77.2
     },
     "tags": [
      "RZ share top-10",
@@ -9094,8 +9094,8 @@
     "id": "11566",
     "lam": 0.19,
     "pm": 0.175,
-    "p": 0.212,
-    "q": 25.0,
+    "p": 0.21,
+    "q": 24.5,
     "ask": 27,
     "tk": "KXNFLTDPROT-26OCT19WASSF-WASJDANIELS5-1",
     "ev": "KXNFLTDPROT-26OCT19WASSF",
@@ -9146,7 +9146,7 @@
      "12% red-zone role, 9.5% TD rate, 7 touches a game.",
      "2.0 TDs in 3 games, scored in 1 (2.0 in 7 last season).",
      "WAS projected for 22 pts (O/U 52.5, 7.5-pt underdog).",
-     "Kalshi 25\u00a2 vs model 18%."
+     "Kalshi 24\u00a2 vs model 18%."
     ]
    },
    {
@@ -9162,8 +9162,8 @@
     "id": "11783",
     "lam": 0.22,
     "pm": 0.195,
-    "p": 0.202,
-    "q": 21.0,
+    "p": 0.2,
+    "q": 20.5,
     "ask": 22,
     "tk": "KXNFLTDPROT-26OCT18DALGB-DALRFLOURNOY19-1",
     "ev": "KXNFLTDPROT-26OCT18DALGB",
@@ -9217,7 +9217,7 @@
      "No TDs yet in 5 games (4.0 in 16 last season).",
      "DAL projected for 28 pts (O/U 53.5, favored by 1.5).",
      "Due: 1 TD debt (his role says he should have scored more).",
-     "Kalshi 21\u00a2 vs model 20%."
+     "Kalshi 20\u00a2 vs model 20%."
     ]
    },
    {
@@ -9302,8 +9302,8 @@
     "id": "8116",
     "lam": 0.08,
     "pm": 0.078,
-    "p": 0.167,
-    "q": 25.5,
+    "p": 0.169,
+    "q": 26.0,
     "ask": 28,
     "tk": "KXNFLTDPROT-26OCT18DALGB-GBPSTRONG22-1",
     "ev": "KXNFLTDPROT-26OCT18DALGB",
@@ -9493,8 +9493,8 @@
     "id": "12504",
     "lam": 0.17,
     "pm": 0.153,
-    "p": 0.132,
-    "q": 11.0,
+    "p": 0.134,
+    "q": 11.5,
     "ask": 13,
     "tk": "KXNFLTDPROT-26OCT18DALGB-GBKJOHNSON26-1",
     "ev": "KXNFLTDPROT-26OCT18DALGB",
@@ -9542,7 +9542,7 @@
      "4% red-zone role, 2% target share, 6 touches a game.",
      "No TDs yet in 5 games (0 in 10 last season).",
      "GB projected for 26 pts (O/U 53.5, 1.5-pt underdog).",
-     "Kalshi 11\u00a2 vs model 15%."
+     "Kalshi 12\u00a2 vs model 15%."
     ]
    },
    {
@@ -9721,8 +9721,8 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.746,
-     "ask": 80,
+     "p": 0.738,
+     "ask": 79,
      "sc": 49.1
     },
     "tags": [
@@ -10052,6 +10052,68 @@
      "No TDs yet in 5 games (1.0 in 16 last season).",
      "GB projected for 26 pts (O/U 53.5, 1.5-pt underdog).",
      "Kalshi 12\u00a2 vs model 5%."
+    ]
+   },
+   {
+    "key": "jonnu smith",
+    "pl": "Jonnu Smith",
+    "tm": "GB",
+    "opp": "DAL",
+    "pos": "TE",
+    "role": "TE2",
+    "g": "DALGB",
+    "gl": "DAL @ GB",
+    "dy": "Sun",
+    "id": "4144",
+    "lam": 0.09,
+    "pm": 0.087,
+    "p": 0.081,
+    "q": 7.5,
+    "ask": 9,
+    "tk": "KXNFLTDPROT-26OCT18DALGB-GBJSMITH18-1",
+    "ev": "KXNFLTDPROT-26OCT18DALGB",
+    "tds": 0,
+    "n": 5,
+    "games_td": 0,
+    "ptd": 3.0,
+    "pn": 17,
+    "rz": 2,
+    "tdsh": 5,
+    "ts": 4,
+    "tdr": 0.0,
+    "tpg": 1.4,
+    "pts": 26.0,
+    "sp": 1.5,
+    "tot": 53.5,
+    "d": {
+     "td": 3.0,
+     "n": 5,
+     "rank": 12,
+     "nteams": 32,
+     "ltd": 5.0,
+     "lrank": 25,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.93,
+    "debt": 0.3,
+    "inj": null,
+    "hist": true,
+    "tags": [
+     "RZ share top-10",
+     "Shootout script"
+    ],
+    "low": false,
+    "score": 48.5,
+    "why": [
+     "DAL has allowed 3.0 TE TDs in 5 games (12th most); 5.0 all last season.",
+     "2% red-zone role, 4% target share, 1.4 touches a game.",
+     "No TDs yet in 5 games (3.0 in 17 last season).",
+     "GB projected for 26 pts (O/U 53.5, 1.5-pt underdog).",
+     "Kalshi 8\u00a2 vs model 9%."
     ]
    }
   ],
@@ -10951,7 +11013,7 @@
    4,
    5
   ],
-  "generated": "2026-10-18T15:30:14-07:00",
+  "generated": "2026-10-18T15:31:08-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 6 \u00b7 Sun Oct 18 \u2013 Mon Oct 19",
