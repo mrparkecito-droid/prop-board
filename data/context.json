@@ -1,68 +1,6 @@
 {
- "generated": "2026-10-18T20:06:43+00:00",
+ "generated": "2026-10-18T20:28:43+00:00",
  "games": {
-  "CHIATL": {
-   "home": "ATL",
-   "away": "CHI",
-   "kick": "2026-10-18T17:00Z",
-   "indoor": true,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 64
-   }
-  },
-  "BALCLE": {
-   "home": "CLE",
-   "away": "BAL",
-   "kick": "2026-10-18T17:00Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "wx": {
-    "wind": 8,
-    "gust": 14,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 63
-   }
-  },
-  "TENIND": {
-   "home": "IND",
-   "away": "TEN",
-   "kick": "2026-10-18T17:00Z",
-   "indoor": true,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 63
-   }
-  },
-  "NYJNE": {
-   "home": "NE",
-   "away": "NYJ",
-   "kick": "2026-10-18T17:00Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 54
-   },
-   "wx": {
-    "wind": 2,
-    "gust": 7,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 53
-   }
-  },
   "NONYG": {
    "home": "NYG",
    "away": "NO",
@@ -71,10 +9,6 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 57
-   },
    "wx": {
     "wind": 3,
     "gust": 7,
@@ -91,10 +25,6 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 59
-   },
    "wx": {
     "wind": 6,
     "gust": 8,
@@ -112,8 +42,8 @@
    "spread": {},
    "total": null,
    "espn_wx": {
-    "desc": "3",
-    "temp": 78
+    "desc": "2",
+    "temp": 81
    },
    "wx": {
     "wind": 14,
@@ -132,7 +62,7 @@
    "spread": {},
    "total": null,
    "espn_wx": {
-    "desc": "1",
+    "desc": "2",
     "temp": 85
    }
   },
@@ -142,14 +72,11 @@
    "kick": "2026-10-18T20:25Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "KC": -7.5,
-    "LAC": 7.5
-   },
-   "total": 41.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
-    "desc": "Sunny",
-    "temp": 66
+    "desc": "1",
+    "temp": 68
    },
    "wx": {
     "wind": 11,
@@ -165,15 +92,30 @@
    "kick": "2026-10-18T20:25Z",
    "indoor": true,
    "neutral": false,
-   "spread": {
-    "BUF": -5.5,
-    "LV": 5.5
-   },
-   "total": 53.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
-    "desc": "Mostly cloudy",
-    "temp": 75
+    "desc": "6",
+    "temp": 73
    }
+  },
+  "CHIATL": {
+   "home": "ATL",
+   "away": "CHI",
+   "kick": "2026-10-18T17:00Z",
+   "indoor": true,
+   "neutral": false,
+   "spread": {},
+   "total": null
+  },
+  "TENIND": {
+   "home": "IND",
+   "away": "TEN",
+   "kick": "2026-10-18T17:00Z",
+   "indoor": true,
+   "neutral": false,
+   "spread": {},
+   "total": null
   },
   "DALGB": {
    "home": "GB",
@@ -316,7 +258,7 @@
    {
     "name": "Rashod Bateman",
     "pos": "WR",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Andrew Vorhees",
@@ -1111,11 +1053,6 @@
     "status": "Questionable"
    },
    {
-    "name": "Andrew Thomas",
-    "pos": "OT",
-    "status": "Questionable"
-   },
-   {
     "name": "Jake Haener",
     "pos": "QB",
     "status": "Out"
@@ -1179,11 +1116,6 @@
    }
   ],
   "PHI": [
-   {
-    "name": "Dontayvion Wicks",
-    "pos": "WR",
-    "status": "Questionable"
-   },
    {
     "name": "Nolan Smith Jr.",
     "pos": "LB",
@@ -1499,17 +1431,9 @@
   ]
  },
  "news": {
-  "romeo doubs": {
-   "h": "Patriots' Romeo Doubs hurt on 42-yard TD catch vs. Jets",
-   "t": "2026-10-18T19:22:09Z"
-  },
   "devonta smith": {
    "h": "Eagles WR DeVonta Smith leads NFL Week 6's best arrivals",
    "t": "2026-10-18T19:32:13Z"
-  },
-  "zay flowers": {
-   "h": "'Sunny Strong': How one young Ravens fan with cancer inspires the team",
-   "t": "2026-10-18T16:21:54Z"
   },
   "tyler shough": {
    "h": "Sources: Saints QB Tyler Shough playing with 2 broken bones in non-throwing hand",
@@ -1518,188 +1442,180 @@
   "xavier worthy": {
    "h": "Ranking the top 10 rookie performances in Super Bowl history",
    "t": "2026-10-18T17:23:25Z"
-  },
-  "caleb williams": {
-   "h": "Bears start QB Caleb Williams in Week 6 against Falcons",
-   "t": "2026-10-18T15:35:48Z"
-  },
-  "aj brown": {
-   "h": "Patriots activate WR A.J. Brown for Sunday's game vs. Jets",
-   "t": "2026-10-17T20:14:34Z"
   }
  },
  "trend": {
   "tyler higbee": {
    "rank": 1,
-   "adds": 1451871
+   "adds": 1455291
   },
   "dameon pierce": {
    "rank": 2,
-   "adds": 939840
+   "adds": 941128
   },
   "tyler allgeier": {
    "rank": 3,
-   "adds": 689965
+   "adds": 690500
   },
   "roschon johnson": {
    "rank": 4,
-   "adds": 517144
+   "adds": 519656
   },
   "jaleel mclaughlin": {
    "rank": 6,
-   "adds": 498510
+   "adds": 499695
   },
   "tanner mckee": {
    "rank": 7,
-   "adds": 431336
+   "adds": 431992
   },
   "najee harris": {
    "rank": 8,
-   "adds": 414370
+   "adds": 415815
   },
   "xavier worthy": {
    "rank": 9,
-   "adds": 321354
+   "adds": 325674
   },
   "rachaad white": {
    "rank": 10,
-   "adds": 314493
+   "adds": 316341
   },
   "kirk cousins": {
    "rank": 11,
-   "adds": 297576
+   "adds": 298920
   },
   "darren waller": {
    "rank": 12,
-   "adds": 268353
+   "adds": 268533
   },
   "cyrus allen": {
    "rank": 13,
-   "adds": 243534
+   "adds": 247440
   },
   "kimani vidal": {
    "rank": 14,
-   "adds": 228695
+   "adds": 231315
   },
   "keon coleman": {
    "rank": 15,
-   "adds": 214803
+   "adds": 226350
   },
   "ryan flournoy": {
    "rank": 16,
-   "adds": 212320
-  },
-  "brandin cooks": {
-   "rank": 17,
-   "adds": 202108
+   "adds": 220160
   },
   "khalil shakir": {
+   "rank": 17,
+   "adds": 208170
+  },
+  "brandin cooks": {
    "rank": 18,
-   "adds": 198918
+   "adds": 204856
   },
   "keenan allen": {
    "rank": 20,
-   "adds": 189548
+   "adds": 190664
   },
   "cj stroud": {
    "rank": 22,
-   "adds": 175133
+   "adds": 177072
   },
   "aaron rodgers": {
    "rank": 23,
-   "adds": 163132
+   "adds": 163348
   },
   "tre tucker": {
    "rank": 24,
-   "adds": 156150
+   "adds": 159528
   },
   "austin ekeler": {
    "rank": 25,
-   "adds": 153624
+   "adds": 155324
   },
   "darnell washington": {
    "rank": 26,
-   "adds": 132590
+   "adds": 133365
   },
   "brenton strange": {
    "rank": 28,
-   "adds": 129987
+   "adds": 130914
   },
   "darius cooper": {
    "rank": 30,
-   "adds": 121758
-  },
-  "jacob cowing": {
-   "rank": 32,
-   "adds": 111336
+   "adds": 121807
   },
   "omar cooper": {
+   "rank": 31,
+   "adds": 120744
+  },
+  "jacob cowing": {
    "rank": 33,
-   "adds": 110168
+   "adds": 112602
   },
   "keaton mitchell": {
    "rank": 34,
-   "adds": 108459
+   "adds": 109854
   },
   "kenny gainwell": {
    "rank": 35,
-   "adds": 106624
-  },
-  "kc concepcion": {
-   "rank": 36,
-   "adds": 105327
+   "adds": 106712
   },
   "emmett johnson": {
+   "rank": 36,
+   "adds": 106641
+  },
+  "kc concepcion": {
    "rank": 37,
-   "adds": 104211
+   "adds": 105651
   },
   "kendrick bourne": {
    "rank": 38,
-   "adds": 101994
+   "adds": 102330
   },
   "alvin kamara": {
    "rank": 39,
-   "adds": 100216
-  },
-  "tyler shough": {
-   "rank": 40,
-   "adds": 98872
+   "adds": 101240
   },
   "ty johnson": {
+   "rank": 40,
+   "adds": 100536
+  },
+  "tyler shough": {
    "rank": 41,
-   "adds": 98850
+   "adds": 100080
   },
   "marshawn lloyd": {
    "rank": 43,
-   "adds": 96165
+   "adds": 97137
   },
   "tyler huntley": {
    "rank": 44,
-   "adds": 94790
+   "adds": 94844
   },
   "pierre strong": {
    "rank": 45,
-   "adds": 85770
+   "adds": 86067
   },
   "justice hill": {
    "rank": 46,
-   "adds": 84456
+   "adds": 84519
+  },
+  "kyle pitts": {
+   "rank": 48,
+   "adds": 80654
   },
   "daniel jones": {
-   "rank": 48,
-   "adds": 77640
-  },
-  "blake corum": {
-   "rank": 50,
-   "adds": 76520
+   "rank": 49,
+   "adds": 77735
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "4 games",
-  "weather": "8 outdoor games",
-  "injuries": "241 players listed",
-  "news": "7 players in headlines",
+  "lines": "2 games",
+  "weather": "6 outdoor games",
+  "injuries": "240 players listed",
+  "news": "3 players in headlines",
   "sleeper_trending": "41 board players trending",
   "reddit": "unavailable"
  }
