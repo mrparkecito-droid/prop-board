@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T19:32:13+00:00",
+ "generated": "2026-10-18T20:03:23+00:00",
  "games": {
   "CHIATL": {
    "home": "ATL",
@@ -14,26 +14,6 @@
     "temp": 64
    }
   },
-  "BALCLE": {
-   "home": "CLE",
-   "away": "BAL",
-   "kick": "2026-10-18T17:00Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 65
-   },
-   "wx": {
-    "wind": 8,
-    "gust": 13,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 61
-   }
-  },
   "TENIND": {
    "home": "IND",
    "away": "TEN",
@@ -44,7 +24,7 @@
    "total": null,
    "espn_wx": {
     "desc": "1",
-    "temp": 64
+    "temp": 63
    }
   },
   "NYJNE": {
@@ -57,10 +37,10 @@
    "total": null,
    "espn_wx": {
     "desc": "1",
-    "temp": 56
+    "temp": 54
    },
    "wx": {
-    "wind": 3,
+    "wind": 2,
     "gust": 7,
     "pop": 0,
     "rain": 0.0,
@@ -77,7 +57,7 @@
    "total": null,
    "espn_wx": {
     "desc": "1",
-    "temp": 59
+    "temp": 57
    },
    "wx": {
     "wind": 3,
@@ -97,11 +77,11 @@
    "total": null,
    "espn_wx": {
     "desc": "1",
-    "temp": 60
+    "temp": 59
    },
    "wx": {
     "wind": 6,
-    "gust": 10,
+    "gust": 8,
     "pop": 0,
     "rain": 0.0,
     "temp": 58
@@ -117,14 +97,30 @@
    "total": null,
    "espn_wx": {
     "desc": "3",
-    "temp": 81
+    "temp": 78
    },
    "wx": {
-    "wind": 15,
-    "gust": 24,
+    "wind": 14,
+    "gust": 22,
     "pop": 0,
     "rain": 0.0,
-    "temp": 80
+    "temp": 81
+   }
+  },
+  "BALCLE": {
+   "home": "CLE",
+   "away": "BAL",
+   "kick": "2026-10-18T17:00Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {},
+   "total": null,
+   "wx": {
+    "wind": 8,
+    "gust": 14,
+    "pop": 0,
+    "rain": 0.0,
+    "temp": 63
    }
   },
   "ARILAR": {
@@ -139,7 +135,7 @@
    },
    "total": 51.5,
    "espn_wx": {
-    "desc": "Mostly sunny",
+    "desc": "Sunny",
     "temp": 86
    }
   },
@@ -159,8 +155,8 @@
     "temp": 66
    },
    "wx": {
-    "wind": 12,
-    "gust": 18,
+    "wind": 11,
+    "gust": 17,
     "pop": 0,
     "rain": 0.0,
     "temp": 66
@@ -198,8 +194,8 @@
     "temp": 56
    },
    "wx": {
-    "wind": 10,
-    "gust": 20,
+    "wind": 9,
+    "gust": 21,
     "pop": 0,
     "rain": 0.0,
     "temp": 52
@@ -222,7 +218,7 @@
    },
    "wx": {
     "wind": 10,
-    "gust": 16,
+    "gust": 14,
     "pop": 1,
     "rain": 0.0,
     "temp": 60
@@ -269,13 +265,13 @@
   ],
   "ATL": [
    {
-    "name": "Kendal Daniels",
-    "pos": "LB",
-    "status": "Out"
+    "name": "Billy Bowman Jr.",
+    "pos": "CB",
+    "status": "Questionable"
    },
    {
-    "name": "Avieon Terrell",
-    "pos": "CB",
+    "name": "Kendal Daniels",
+    "pos": "LB",
     "status": "Questionable"
    },
    {
@@ -723,6 +719,11 @@
   ],
   "IND": [
    {
+    "name": "Rigoberto Sanchez",
+    "pos": "P",
+    "status": "Questionable"
+   },
+   {
     "name": "Sauce Gardner",
     "pos": "CB",
     "status": "Questionable"
@@ -999,9 +1000,14 @@
   ],
   "NE": [
    {
-    "name": "Romeo Doubs",
-    "pos": "WR",
-    "status": "Out"
+    "name": "Ben Brown",
+    "pos": "C",
+    "status": "Questionable"
+   },
+   {
+    "name": "Morgan Moses",
+    "pos": "OT",
+    "status": "Questionable"
    },
    {
     "name": "Alijah Vera-Tucker",
@@ -1009,9 +1015,9 @@
     "status": "Questionable"
    },
    {
-    "name": "Morgan Moses",
-    "pos": "OT",
-    "status": "Questionable"
+    "name": "Romeo Doubs",
+    "pos": "WR",
+    "status": "Out"
    },
    {
     "name": "Channing Canada",
@@ -1046,13 +1052,13 @@
   ],
   "NO": [
    {
-    "name": "Kool-Aid McKinstry",
-    "pos": "CB",
+    "name": "Cesar Ruiz",
+    "pos": "G",
     "status": "Questionable"
    },
    {
-    "name": "Cesar Ruiz",
-    "pos": "G",
+    "name": "Kool-Aid McKinstry",
+    "pos": "CB",
     "status": "Questionable"
    },
    {
@@ -1093,8 +1099,18 @@
     "status": "Out"
    },
    {
+    "name": "Darnell Mooney",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Greg Newsome II",
     "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Andrew Thomas",
+    "pos": "OT",
     "status": "Questionable"
    },
    {
@@ -1162,13 +1178,18 @@
   ],
   "PHI": [
    {
-    "name": "Carson Steele",
-    "pos": "RB",
+    "name": "Makai Lemon",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
     "name": "Nolan Smith Jr.",
     "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Carson Steele",
+    "pos": "RB",
     "status": "Questionable"
    },
    {
@@ -1476,9 +1497,13 @@
   ]
  },
  "news": {
+  "romeo doubs": {
+   "h": "Patriots' Romeo Doubs hurt on 42-yard TD catch vs. Jets",
+   "t": "2026-10-18T19:44:56Z"
+  },
   "devonta smith": {
    "h": "Eagles WR DeVonta Smith leads NFL Week 6's best arrivals",
-   "t": "2026-10-18T16:08:01Z"
+   "t": "2026-10-18T19:32:13Z"
   },
   "zay flowers": {
    "h": "'Sunny Strong': How one young Ravens fan with cancer inspires the team",
@@ -1504,175 +1529,175 @@
  "trend": {
   "tyler higbee": {
    "rank": 1,
-   "adds": 1438092
+   "adds": 1451871
   },
   "dameon pierce": {
    "rank": 2,
-   "adds": 975552
+   "adds": 939840
   },
   "tyler allgeier": {
    "rank": 3,
-   "adds": 789155
+   "adds": 689965
   },
   "roschon johnson": {
    "rank": 4,
-   "adds": 516536
+   "adds": 517144
   },
   "jaleel mclaughlin": {
-   "rank": 5,
-   "adds": 514090
+   "rank": 6,
+   "adds": 498510
   },
   "tanner mckee": {
    "rank": 7,
-   "adds": 449464
+   "adds": 431336
   },
   "najee harris": {
    "rank": 8,
-   "adds": 413815
+   "adds": 414370
   },
   "xavier worthy": {
    "rank": 9,
-   "adds": 316998
-  },
-  "kirk cousins": {
-   "rank": 10,
-   "adds": 313000
+   "adds": 321354
   },
   "rachaad white": {
+   "rank": 10,
+   "adds": 314493
+  },
+  "kirk cousins": {
    "rank": 11,
-   "adds": 311088
+   "adds": 297576
   },
   "darren waller": {
    "rank": 12,
-   "adds": 272340
-  },
-  "kimani vidal": {
-   "rank": 13,
-   "adds": 235460
+   "adds": 268353
   },
   "cyrus allen": {
+   "rank": 13,
+   "adds": 243534
+  },
+  "kimani vidal": {
    "rank": 14,
-   "adds": 234786
-  },
-  "brandin cooks": {
-   "rank": 16,
-   "adds": 197072
-  },
-  "ryan flournoy": {
-   "rank": 17,
-   "adds": 195552
-  },
-  "keenan allen": {
-   "rank": 18,
-   "adds": 193416
-  },
-  "cj stroud": {
-   "rank": 19,
-   "adds": 180124
+   "adds": 228695
   },
   "keon coleman": {
-   "rank": 20,
-   "adds": 175410
+   "rank": 15,
+   "adds": 214803
   },
-  "aaron rodgers": {
-   "rank": 21,
-   "adds": 174732
+  "ryan flournoy": {
+   "rank": 16,
+   "adds": 212320
+  },
+  "brandin cooks": {
+   "rank": 17,
+   "adds": 202108
   },
   "khalil shakir": {
+   "rank": 18,
+   "adds": 198918
+  },
+  "keenan allen": {
+   "rank": 20,
+   "adds": 189548
+  },
+  "cj stroud": {
+   "rank": 22,
+   "adds": 175133
+  },
+  "aaron rodgers": {
    "rank": 23,
-   "adds": 162243
+   "adds": 163132
   },
   "tre tucker": {
    "rank": 24,
-   "adds": 150174
+   "adds": 156150
   },
   "austin ekeler": {
    "rank": 25,
-   "adds": 148604
+   "adds": 153624
   },
-  "darius cooper": {
+  "darnell washington": {
    "rank": 26,
-   "adds": 141470
+   "adds": 132590
   },
   "brenton strange": {
    "rank": 28,
-   "adds": 135684
+   "adds": 129987
   },
-  "darnell washington": {
-   "rank": 29,
-   "adds": 131890
-  },
-  "kenny gainwell": {
-   "rank": 32,
-   "adds": 113784
-  },
-  "keaton mitchell": {
-   "rank": 33,
-   "adds": 111492
-  },
-  "kc concepcion": {
-   "rank": 34,
-   "adds": 110835
+  "darius cooper": {
+   "rank": 30,
+   "adds": 121758
   },
   "jacob cowing": {
-   "rank": 35,
-   "adds": 107892
-  },
-  "emmett johnson": {
-   "rank": 36,
-   "adds": 105111
-  },
-  "tyler huntley": {
-   "rank": 37,
-   "adds": 102468
-  },
-  "alvin kamara": {
-   "rank": 38,
-   "adds": 101472
+   "rank": 32,
+   "adds": 111336
   },
   "omar cooper": {
+   "rank": 33,
+   "adds": 110168
+  },
+  "keaton mitchell": {
+   "rank": 34,
+   "adds": 108459
+  },
+  "kenny gainwell": {
+   "rank": 35,
+   "adds": 106624
+  },
+  "kc concepcion": {
+   "rank": 36,
+   "adds": 105327
+  },
+  "emmett johnson": {
+   "rank": 37,
+   "adds": 104211
+  },
+  "kendrick bourne": {
+   "rank": 38,
+   "adds": 101994
+  },
+  "alvin kamara": {
    "rank": 39,
-   "adds": 101312
+   "adds": 100216
   },
   "tyler shough": {
    "rank": 40,
-   "adds": 100608
-  },
-  "marshawn lloyd": {
-   "rank": 41,
-   "adds": 99783
+   "adds": 98872
   },
   "ty johnson": {
-   "rank": 43,
-   "adds": 97110
+   "rank": 41,
+   "adds": 98850
   },
-  "kendrick bourne": {
+  "marshawn lloyd": {
+   "rank": 43,
+   "adds": 96165
+  },
+  "tyler huntley": {
    "rank": 44,
-   "adds": 96642
+   "adds": 94790
   },
   "pierre strong": {
    "rank": 45,
-   "adds": 95571
+   "adds": 85770
   },
   "justice hill": {
    "rank": 46,
-   "adds": 91674
+   "adds": 84456
   },
   "daniel jones": {
    "rank": 48,
-   "adds": 81405
+   "adds": 77640
   },
-  "kendre miller": {
-   "rank": 49,
-   "adds": 80722
+  "blake corum": {
+   "rank": 50,
+   "adds": 76520
   }
  },
  "buzz": {},
  "sources": {
   "lines": "5 games",
   "weather": "8 outdoor games",
-  "injuries": "236 players listed",
-  "news": "6 players in headlines",
+  "injuries": "241 players listed",
+  "news": "7 players in headlines",
   "sleeper_trending": "41 board players trending",
   "reddit": "unavailable"
  }
