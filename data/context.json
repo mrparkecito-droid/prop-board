@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T19:01:03+00:00",
+ "generated": "2026-10-21T19:20:12+00:00",
  "games": {
   "NECHI": {
    "home": "CHI",
@@ -89,6 +89,29 @@
    "espn_wx": {
     "desc": "Showers",
     "temp": 52
+   }
+  },
+  "MIANYJ": {
+   "home": "NYJ",
+   "away": "MIA",
+   "kick": "2026-10-25T17:00Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {
+    "NYJ": -4.5,
+    "MIA": 4.5
+   },
+   "total": 39.5,
+   "espn_wx": {
+    "desc": "Sunny",
+    "temp": 63
+   },
+   "wx": {
+    "wind": 8,
+    "gust": 10,
+    "pop": 0,
+    "rain": 0.0,
+    "temp": 65
    }
   },
   "TBCAR": {
@@ -228,6 +251,11 @@
  "inj": {
   "ARI": [
    {
+    "name": "Jeremiyah Love",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
     "name": "Wydett Williams Jr.",
     "pos": "S",
     "status": "Questionable"
@@ -235,11 +263,6 @@
    {
     "name": "Andrew Wingard",
     "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jeremiyah Love",
-    "pos": "RB",
     "status": "Questionable"
    }
   ],
@@ -267,13 +290,13 @@
   ],
   "BAL": [
    {
-    "name": "Rashod Bateman",
-    "pos": "WR",
+    "name": "Lamar Jackson",
+    "pos": "QB",
     "status": "Questionable"
    },
    {
-    "name": "Lamar Jackson",
-    "pos": "QB",
+    "name": "Rashod Bateman",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -311,13 +334,8 @@
   ],
   "CAR": [
    {
-    "name": "Monroe Freeling",
-    "pos": "OT",
-    "status": "Questionable"
-   },
-   {
-    "name": "AJ Dillon",
-    "pos": "RB",
+    "name": "Jaelan Phillips",
+    "pos": "LB",
     "status": "Questionable"
    },
    {
@@ -328,6 +346,16 @@
   ],
   "CHI": [
    {
+    "name": "Tyrique Stevenson Sr.",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "T.J. Edwards",
+    "pos": "LB",
+    "status": "Doubtful"
+   },
+   {
     "name": "Jack Sanborn",
     "pos": "LB",
     "status": "Questionable"
@@ -335,17 +363,7 @@
    {
     "name": "Kyle Monangai",
     "pos": "RB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jonah Jackson",
-    "pos": "G",
-    "status": "Questionable"
-   },
-   {
-    "name": "T.J. Edwards",
-    "pos": "LB",
-    "status": "Questionable"
+    "status": "Out"
    }
   ],
   "CIN": [
@@ -981,17 +999,21 @@
    "h": "Fantasy football buzz: What to expect from J.J. McCarthy in first Giants start",
    "t": "2026-10-21T18:47:48Z"
   },
-  "drake maye": {
+  "caleb williams": {
    "h": "It's Drake Maye versus Caleb Williams as the New England Patriots visit the Chicago Bears",
    "t": "2026-10-21T18:37:11Z"
   },
-  "caleb williams": {
+  "drake maye": {
    "h": "It's Drake Maye versus Caleb Williams as the New England Patriots visit the Chicago Bears",
    "t": "2026-10-21T18:37:11Z"
   },
   "sam laporta": {
    "h": "Sam LaPorta not feeling contract 'love' from Lions ahead of 2027 free agency",
    "t": "2026-10-21T18:51:07Z"
+  },
+  "isaiah likely": {
+   "h": "Daniel Dopp: Isaiah Likely can be started with confidence week in and week out",
+   "t": "2026-10-21T16:00:58Z"
   },
   "jared goff": {
    "h": "Daniel Dopp: Jared Goff locked in as a top-10 fantasy QB in Week 7",
@@ -1001,6 +1023,10 @@
    "h": "Daniel Dopp confident in Jonathan Taylor despite tough matchup in Week 7",
    "t": "2026-10-21T15:46:19Z"
   },
+  "malik nabers": {
+   "h": "Dopp, Clay face off on Nabers vs. Lamb as a better fantasy option in Week 7",
+   "t": "2026-10-21T15:15:49Z"
+  },
   "cj stroud": {
    "h": "Jared Goff vs. C.J. Stroud: Dopp and Clay debate the QBs for Week 7",
    "t": "2026-10-21T15:11:25Z"
@@ -1009,11 +1035,11 @@
    "h": "The frustration around Harold Fannin Jr. for fantasy managers",
    "t": "2026-10-21T15:17:09Z"
   },
-  "matthew stafford": {
+  "puka nacua": {
    "h": "Is Matthew Stafford a locked-in top-10 fantasy QB?",
    "t": "2026-10-21T15:26:05Z"
   },
-  "puka nacua": {
+  "matthew stafford": {
    "h": "Is Matthew Stafford a locked-in top-10 fantasy QB?",
    "t": "2026-10-21T15:26:05Z"
   },
@@ -1033,155 +1059,155 @@
  "trend": {
   "omar cooper": {
    "rank": 1,
-   "adds": 6852088
+   "adds": 6854976
   },
   "konata mumpfield": {
    "rank": 3,
-   "adds": 2158965
+   "adds": 2161863
   },
   "kyler murray": {
    "rank": 4,
-   "adds": 1314168
+   "adds": 1316008
   },
   "michael mayer": {
    "rank": 5,
-   "adds": 1207251
+   "adds": 1210023
   },
   "cj stroud": {
    "rank": 6,
-   "adds": 1112741
+   "adds": 1114582
   },
   "roschon johnson": {
    "rank": 7,
-   "adds": 1031696
+   "adds": 1034760
   },
   "tank dell": {
    "rank": 9,
-   "adds": 893376
+   "adds": 894552
   },
   "tyrone tracy": {
    "rank": 11,
-   "adds": 822528
+   "adds": 823744
   },
   "tre tucker": {
    "rank": 13,
-   "adds": 754494
+   "adds": 755778
   },
   "kyle pitts": {
    "rank": 16,
-   "adds": 652925
+   "adds": 653716
   },
   "tyler higbee": {
    "rank": 19,
-   "adds": 491229
+   "adds": 493182
   },
   "tanner mckee": {
    "rank": 20,
-   "adds": 431200
+   "adds": 432176
   },
   "malik washington": {
    "rank": 21,
-   "adds": 415480
+   "adds": 416696
   },
   "pierre strong": {
    "rank": 22,
-   "adds": 389241
+   "adds": 390087
   },
   "ryan flournoy": {
    "rank": 23,
-   "adds": 385720
+   "adds": 386448
   },
   "jj mccarthy": {
    "rank": 24,
-   "adds": 344937
+   "adds": 346152
   },
   "caleb douglas": {
    "rank": 25,
-   "adds": 340944
+   "adds": 342016
   },
   "bo nix": {
    "rank": 26,
-   "adds": 331512
+   "adds": 332598
   },
   "jordan mason": {
    "rank": 27,
-   "adds": 326605
+   "adds": 327495
   },
   "blake corum": {
    "rank": 29,
-   "adds": 299664
+   "adds": 300280
   },
   "geno smith": {
    "rank": 30,
-   "adds": 298412
+   "adds": 299216
   },
   "aaron rodgers": {
    "rank": 31,
-   "adds": 295316
+   "adds": 296232
   },
   "rico dowdle": {
    "rank": 32,
-   "adds": 270285
+   "adds": 270845
   },
   "kc concepcion": {
    "rank": 33,
-   "adds": 263187
+   "adds": 264105
   },
   "keenan allen": {
    "rank": 34,
-   "adds": 259560
+   "adds": 260164
   },
   "samaje perine": {
    "rank": 36,
-   "adds": 251572
+   "adds": 252108
   },
   "germie bernard": {
    "rank": 38,
-   "adds": 238293
+   "adds": 238458
   },
   "corey kiner": {
    "rank": 39,
-   "adds": 234264
+   "adds": 234750
   },
   "kirk cousins": {
    "rank": 40,
-   "adds": 228792
+   "adds": 229328
   },
   "ollie gordon": {
    "rank": 41,
-   "adds": 225918
+   "adds": 226394
   },
   "jordan watkins": {
    "rank": 43,
-   "adds": 210656
+   "adds": 211424
   },
   "dameon pierce": {
    "rank": 44,
-   "adds": 205792
+   "adds": 206240
   },
   "jordan addison": {
    "rank": 46,
-   "adds": 196947
+   "adds": 197694
   },
   "devin singletary": {
    "rank": 47,
-   "adds": 195156
+   "adds": 195696
   },
   "jakobi lane": {
    "rank": 48,
-   "adds": 186856
+   "adds": 187170
   },
   "hunter henry": {
    "rank": 49,
-   "adds": 183789
+   "adds": 184116
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "12 games",
-  "weather": "5 outdoor games",
-  "injuries": "137 players listed",
-  "news": "13 players in headlines",
+  "lines": "13 games",
+  "weather": "6 outdoor games",
+  "injuries": "136 players listed",
+  "news": "15 players in headlines",
   "sleeper_trending": "36 board players trending",
   "reddit": "unavailable"
  }
