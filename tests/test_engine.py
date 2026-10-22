@@ -272,7 +272,7 @@ def test_balanced_line_picking():
     stepped = [r for r in out["top"] if r.get("safer")]
     assert stepped, "some ladders should step up"
     for r in stepped:
-        assert r["line"] > r["safer"]["line"] and r["pc"] >= engine.BAL_MIN_P and r["roi"] >= 0
+        assert r["line"] > r["safer"]["line"] and r["pc"] >= engine.BAL_MIN_P and r["roi"] >= engine.BAL_MIN_ROI
         assert r["score"] >= r["safer"]["score"] - engine.BAL_TOL_BASE - engine.BAL_TOL_STRENGTH - 1e-9
     import build
     cards, _ = build.cards_html(out["top"])
@@ -428,6 +428,84 @@ def test_touchdowns():
     lp = next(x for x in L["players"] if x["key"] == pick["key"])
     assert lp["low"] and pick["key"] not in L["parlays"]["safe"] + L["parlays"]["code"]
 
+def test_week6_review():
+    """Week 6 lessons: role-cut news takes a player off the board, a hurt or new QB makes his pass-catchers risky
+    (penalized, kept out of Safe/Medium), TEs and rushing props are penalized, at most 4 props per team,
+    Safe parlays use one leg per team, and every chance gets a 2-point haircut."""
+    import context, parlay
+    assert context.classify(["Giants' Cam Skattebo: Could be headed for lighter workload"])[0]
+    assert context.classify(["Giants RB update is bad news for Cam Skattebo for Week 6 vs. Saints"])[0]
+    assert context.classify(["Darren Waller cleared off injury report for Week 6"]) [:2] == (False, False)
+    assert context.classify(["Jeremiyah Love trending well to play despite ankle reinjury"])[1]
+    assert context.QB_HURT.search("Sources: Saints QB Tyler Shough playing with 2 broken bones in non-throwing hand")
+    import datetime as dt
+    now = dt.datetime(2026, 10, 18, 16, 0, tzinfo=dt.timezone.utc)
+    rss = ("<rss><item><title>Giants&#39; Cam Skattebo: Could be headed for lighter workload - CBS Sports</title>"
+           "<pubDate>Sun, 18 Oct 2026 12:47:00 GMT</pubDate></item><item><title>Old Skattebo story - X</title>"
+           "<pubDate>Mon, 12 Oct 2026 12:00:00 GMT</pubDate></item><item><title>Giants beat Saints - ESPN</title>"
+           "<pubDate>Sun, 18 Oct 2026 12:00:00 GMT</pubDate></item></rss>")
+    assert context.parse_rss(rss, "Cam Skattebo", now) == ["Giants' Cam Skattebo: Could be headed for lighter workload"]
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    base = engine.run(data, ov)
+    top = base["top"]
+    assert max(sum(1 for r in top if r["team"] == t) for t in {r["team"] for r in top}) <= engine.MAX_PER_TEAM
+    victim = top[0]
+    d2 = json.loads(json.dumps(data))
+    d2["context"] = {"gnews": {context.norm(victim["player"]): {"h": ["x lighter workload"], "cut": True, "inj": False, "worst": "x"}}}
+    o2 = engine.run(d2, ov)
+    assert victim["player"] not in {r["player"] for r in o2["all"]} and victim["player"] in o2["cut_news"]
+    rec = max((r for r in base["all"] if r["stat"] in ("rec", "recyds") and r["pos"] == "WR" and r["pc"] > 0.6), key=lambda r: r["score"])
+    d3 = json.loads(json.dumps(data)); d3["context"] = {"qbhurt": [rec["team"]]}
+    r3 = next(r for r in engine.run(d3, ov)["all"] if (r["player"], r["stat"], r["line"]) == (rec["player"], rec["stat"], rec["line"]))
+    assert r3["risk"] and r3["score"] < rec["score"] * 0.95
+    legs = engine.parlay_legs(engine.run(d3, ov))
+    F = parlay.featured(legs, dict(parlay.PRIOR))
+    for p in F["all"]["safe"] + F["all"]["medium"]:
+        assert not any(l.get("rk") for l in p)
+    for p in F["all"]["safe"]:
+        assert len({l["tm"] for l in p}) == len(p)
+    assert all(r["pc"] <= r["praw"] + 0.5 for r in base["all"])
+
+
+def test_weeks4to6_review():
+    """WR1 catch/yardage props get a small bump, falling snaps cost score, big model-over-Kalshi gaps are trimmed,
+    parlays avoid low-total teams, and featured/TD parlays are recorded, frozen at kickoff and graded."""
+    import parlay, tracker, tempfile
+    data = json.load(open(os.path.join(HERE, "fixture_week4.json")))
+    ov = json.load(open(os.path.join(HERE, "fixture_overrides.json")))
+    out = engine.run(data, ov)
+    rows = out["all"]
+    assert all(r["pc"] <= r["mid"] / 100 + engine.EDGE_GAP + 0.4 * 0.3 for r in rows)
+    wr1 = [r for r in rows if r["role"] == "WR1" and r["stat"] in ("rec", "recyds")]
+    assert wr1
+    # team projected points: a low total makes a leg cost more and keeps it out of Safe/Medium
+    leg = {"pl": "A", "tm": "X", "g": "G", "st": "rec", "ln": 2, "q": 80, "p": 0.8, "sc": 80, "pt": 16}
+    assert parlay.leg_cost(leg) > parlay.leg_cost(dict(leg, pt=24))
+    assert not parlay.leg_ok(leg, strict=True) and parlay.leg_ok(leg, strict=False)
+    # tracker: record, replace until kickoff, freeze, grade
+    log = {"weeks": {}}
+    L1 = [{"pl": "Joe Burrow", "tm": "CIN", "g": "CINDET", "gl": "CIN @ DET", "st": "pass", "ln": 150, "ask": 90, "q": 89, "p": 0.9, "sc": 80}]
+    L2 = [dict(L1[0], ln=175)]
+    F = lambda L: {"sun": {"safe": [L]}}
+    tracker.record(log, 2026, 4, F(L1), None, [], lambda p: 0.33, "t1")
+    tracker.record(log, 2026, 4, F(L2), None, [], lambda p: 0.33, "t2")
+    assert log["weeks"]["2026-4"]["props"]["sun:safe"]["legs"][0]["ln"] == 175        # replaced before kickoff
+    tracker.record(log, 2026, 4, F(L1), None, ["CINDET"], lambda p: 0.33, "t3")
+    assert log["weeks"]["2026-4"]["props"]["sun:safe"]["legs"][0]["ln"] == 175        # frozen after kickoff
+    td = {"players": [{"key": "ja'marr chase", "pl": "Ja'Marr Chase", "tm": "CIN", "g": "CINDET", "gl": "CIN @ DET", "p": 0.5, "q": None}],
+          "parlays": {"safe": ["ja'marr chase"], "code": []}}
+    tracker.record(log, 2026, 4, {}, td, [], lambda p: 0.33, "t1")
+    stats = [{"wk": 4, "name": "Joe Burrow", "pos": "QB", "pass_yd": 210, "rtd": 0, "ctd": 0},
+             {"wk": 4, "name": "Ja'Marr Chase", "pos": "WR", "rec_yd": 80, "rtd": 0, "ctd": 1}]
+    G = tracker.grade(log, stats, [4])
+    items = {i["name"]: i for i in G[0]["items"]}
+    assert items["Sunday Safe"]["res"] == "hit" and items["Safest TD"]["res"] == "hit"
+    assert tracker.grade(log, [dict(stats[0], pass_yd=100)], [4])[0]["items"][0]["res"] == "miss"
+    import build
+    assert "Parlay results" in build.parlays_html(G) and "Sunday Safe" in build.parlays_html(G)
+
+
 if __name__ == "__main__":
     test_week4_reproduces_published_board()
     test_page_cards_match_published_board()
@@ -446,4 +524,6 @@ if __name__ == "__main__":
     test_returning_player()
     test_week5_review()
     test_touchdowns()
-    print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games, balanced line picking, new-QB target share, featured parlays, TNF review, Week 5 review, touchdowns), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
+    test_week6_review()
+    test_weeks4to6_review()
+    print("PASS: engine reproduces the saved Week 4 board exactly; Week-4 lessons (cushion, depth, matchup, offense, started games, balanced line picking, new-QB target share, featured parlays, TNF review, Week 5 review, touchdowns, Week 6 review, Weeks 4-6 review), grading, learning, price-fill, Kalshi quote, game-context, usage, QB, game-script and kickoff-lock checks pass")
