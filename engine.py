@@ -667,7 +667,10 @@ if __name__ == "__main__":
             pass
     cpath = os.path.join(DATA, "context.json")
     if os.path.exists(cpath) and len(sys.argv) <= 1:
-        C = json.load(open(cpath))
+        try:
+            C = json.load(open(cpath))
+        except ValueError as e:                 # a broken context file must never stop the board
+            print("context.json unreadable, running without it:", e); C = {}
         try:      # never use a stale context file (e.g. if context.py failed this run)
             import datetime as _dt
             age = abs(_dt.datetime.fromisoformat(data["generated"]) - _dt.datetime.fromisoformat(C["generated"]))

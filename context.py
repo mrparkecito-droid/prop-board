@@ -409,7 +409,8 @@ def main():
 
     # Google News for every player who could make the board or a parlay, plus each team's likely starting QB
     try:
-        C["gnews"], C["qbhurt"] = google_news(data, now)
+        C["gnews"], qbh = google_news(data, now)
+        C["qbhurt"] = sorted(qbh)              # a set can't be saved as JSON
         C["sources"]["google_news"] = (f"{sum(1 for v in C['gnews'].values() if v['cut'])} role-cut, "
                                        f"{sum(1 for v in C['gnews'].values() if v['inj'])} injury headlines; "
                                        f"QB hurt: {', '.join(sorted(C['qbhurt'])) or 'none'}")
@@ -436,7 +437,9 @@ def main():
     C["buzz"] = parse_reddit(listings, names)
     C["sources"]["reddit"] = f"{len(listings)} of 2 subreddits" if listings else "unavailable"
 
-    json.dump(C, open(OUT, "w"), indent=1)
+    tmp = OUT + ".tmp"                         # write to a temp file first so a failure never leaves a half-written file
+    json.dump(C, open(tmp, "w"), indent=1, default=lambda o: sorted(o) if isinstance(o, set) else str(o))
+    os.replace(tmp, OUT)
     print("context:", C["sources"])
 
 
