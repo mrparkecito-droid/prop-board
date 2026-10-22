@@ -198,6 +198,9 @@ def build(data, out, venom=None, ladders=None):
         for x in L:
             inj[norm(x["name"])] = x["status"]
     D, LG = defense_tables(stats, prev)
+    gnews = ctx.get("gnews") or {}
+    qbhurt = set(ctx.get("qbhurt") or [])
+    cnorm = lambda n: " ".join(re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", re.sub(r"[^a-z ]", "", (n or "").lower().replace("-", " "))).split())
     # team totals per game (this season and last)
     team, tgames = {}, {}
     for s in stats:
@@ -235,6 +238,9 @@ def build(data, out, venom=None, ladders=None):
         k = norm(p["name"])
         if inj.get(k) in ("Out", "Doubtful") or (p.get("inj") or "").lower() in ("out", "ir", "doubtful", "pup", "sus"):
             continue
+        gn = gnews.get(cnorm(p["name"])) or {}
+        if gn.get("cut"):
+            continue                    # news says his role is being cut (Week 6: Skattebo)
         g = next((gg for gg in games.values() if p["team"] in (gg["away"], gg["home"])), None)
         if not g or (live and g["key"] not in live):
             continue
@@ -282,6 +288,8 @@ def build(data, out, venom=None, ladders=None):
         else:
             dfac = 1.0
         lam = team_td * share * dfac
+        if p["team"] in qbhurt and pos in ("WR", "TE"):
+            lam *= 0.85                 # his QB is playing hurt
         pm = 1 - math.exp(-max(lam, 0))
         m = mk.get(k)
         pc = (1 - MKT_W) * pm + MKT_W * m["mid"] / 100 if m else pm
@@ -304,7 +312,8 @@ def build(data, out, venom=None, ladders=None):
             "tdr": round(100 * tds / touches, 1) if touches and has_td else None, "tpg": round(tpg, 1),
             "pts": round(pts, 1) if pts else None, "sp": sp, "tot": tot,
             "d": {kk: dd.get(kk) for kk in ("td", "n", "rank", "nteams", "ltd", "lrank", "leak", "recent")} if dd else None,
-            "dfac": round(dfac, 2), "debt": debt, "inj": inj.get(k) or (p.get("inj") or None), "hist": has_td,
+            "dfac": round(dfac, 2), "debt": debt, "hist": has_td,
+            "inj": inj.get(k) or (p.get("inj") or None) or ("News" if gn.get("inj") else None), "news": gn.get("worst") if gn.get("inj") else None,
         }
         r = lad.get(k)
         if r:
@@ -417,7 +426,9 @@ def reasons(x):
         out.append(("Low total: " if x.get("low") else "") + sc + ".")
     if x.get("debt") is not None and x["debt"] >= 1.0:
         out.append(f"Due: {x['debt']:g} TD debt (his role says he should have scored more).")
-    if x.get("inj") and x["inj"] not in ("Active",):
+    if x.get("news"):
+        out.append(f"Injury news: {x['news']}")
+    elif x.get("inj") and x["inj"] not in ("Active",):
         out.append(f"Injury: listed {str(x['inj']).lower()}.")
     if x.get("q") is not None:
         out.append(f"Kalshi {x['q']:.0f}¢ vs model {round(100 * x['pm'])}%.")

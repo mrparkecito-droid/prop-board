@@ -207,6 +207,32 @@ def results_html(track):
     return "\n".join(parts)
 
 
+def parlays_html(pt):
+    """Results tab: how the featured parlays and TD parlays did, week by week."""
+    if not pt:
+        return ('<section class="panel"><h2>Parlay results</h2><p class="sub">The featured Safe / Medium / Flyer parlays and the '
+                'TD parlays are recorded every update (frozen at their first kickoff) and graded here once the games are played.</p></section>')
+    rows = []
+    tot = {}
+    for W in pt:
+        for it in W["items"]:
+            if it["res"] != "void":
+                h, n = tot.get(it["name"], (0, 0)); tot[it["name"]] = (h + (it["res"] == "hit"), n + 1)
+    summ = "".join(f'<li><span>{html.escape(k)}</span><b>{h}–{n - h}</b></li>' for k, (h, n) in tot.items())
+    for W in pt[:3]:
+        cards = []
+        for it in W["items"]:
+            cls = it["res"]
+            odds = american(it["price"] * 100) if it.get("price") else ""
+            legs = "".join(f'<li class="{l["res"]}"><span class="g {l["res"]}">{"✓" if l["res"] == "hit" else ("✗" if l["res"] == "miss" else "–")}</span>'
+                           f'<span class="who">{html.escape(l["pl"])}<small>{"Anytime TD" if l["st"] == "td" else STATW[l["st"]] + " " + str(l["ln"]) + "+"} · {html.escape(l["gl"])}</small></span>'
+                           f'<span class="act"><b>{"DNP" if l["act"] is None else format(l["act"], "g")}</b></span></li>' for l in it["legs"])
+            cards.append(f'<div class="pres {cls}"><h3>{html.escape(it["name"])} <span class="g {cls}">{"HIT" if cls == "hit" else ("MISS" if cls == "miss" else "VOID")}</span> <small>{odds}</small></h3><ul class="graded">{legs}</ul></div>')
+        rows.append(f'<h3>Week {W["week"]}</h3>' + "".join(cards))
+    return (f'<section class="panel"><h2>Parlay results</h2><p class="sub">Each featured parlay as it stood right before its first game kicked off. '
+            f'All graded weeks:</p><ul class="wbw">{summ}</ul>{"".join(rows)}</section>')
+
+
 def _tlabel(ts):
     try:
         return dt.datetime.fromisoformat(ts).strftime("%a %-I:%M %p")
@@ -281,7 +307,7 @@ def render(out, template):
         "{{KALSHI}}": kalshi_json(out),
         "{{TD}}": json.dumps(out.get("td"), separators=(",", ":")).replace("</", "<\\/"),
         "{{KSTATUS}}": kalshi_status(out),
-        "{{RESULTS}}": results_html(out.get("track")),
+        "{{RESULTS}}": results_html(out.get("track")) + "\n" + parlays_html(out.get("ptrack")),
         "{{TITLE}}": f"Week {week} Prop Board",
         "{{EYEBROW}}": html.escape(meta.get("eyebrow") or f"Prop cheat sheet · Week {week}"),
         "{{H1}}": f"Week {week} top {len(out['top'])} props",

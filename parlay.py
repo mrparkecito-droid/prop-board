@@ -59,19 +59,24 @@ def key(legs):
 
 SCORE_W = 0.4      # a leg's overall board score nudges its cost: 85 -> like +6% chance, 55 -> like -6%
 LOWVOL_W = 0.10    # low-volume legs (WR3s, backup RBs, few expected targets) are boom-or-bust: extra cost in parlays
+PTS_W, PTS_REF, PTS_MIN = 0.10, 22.0, 19.0   # team projected points: legs cost more below 22 pts; Safe/Medium skip teams under 19
 SLATE_DAYS = {"all": None, "tnf": {"Thu"}, "sun": {"Sun"}, "mnf": {"Mon"}}
 # Featured parlays (mirrored in template.html): (id, name, low odds, high odds, max legs)
 # (id, name, low odds, high odds, max legs, minimum chance for every leg, minimum board score for every leg)
-TIERS = [("safe", "Safe", 200, 300, 5, 0.62, 74), ("medium", "Medium", 500, 600, 6, 0.58, 72), ("flyer", "Flyer", 1000, 2000, 10, 0.45, 65)]
+TIERS = [("safe", "Safe", 200, 300, 5, 0.60, 72), ("medium", "Medium", 500, 600, 8, 0.55, 68), ("flyer", "Flyer", 1000, 2000, 10, 0.45, 62)]
 SINGLE_RELAX = 15   # single-game slates have few players: every leg's score floor drops by 15 (not below 58)
 SINGLE = {"tnf", "mnf"}   # off-board ladders from thin games ("xb") are only used on single-game slates
+STRICT = {"safe", "medium"}   # no legs with injury/QB-hurt news in these tiers (Week 6 lessons)
+TEAM1 = {"safe"}              # Safe also uses at most one leg per team, so one stalled offense can't sink it
 
 
 def leg_cost(x):
-    return max(-math.log(chance(x) * HAIR) - SCORE_W * (x.get("sc", 70) - 70) / 100 + LOWVOL_W * max(0.0, -(x.get("df") or 0)), 0.01)
+    pt = x.get("pt")
+    low = PTS_W * max(0.0, PTS_REF - pt) / 10 if pt else 0.0
+    return max(-math.log(chance(x) * HAIR) - SCORE_W * (x.get("sc", 70) - 70) / 100 + LOWVOL_W * max(0.0, -(x.get("df") or 0)) + low, 0.01)
 
 
-def leg_ok(x, game="all", slate="all", minc=0.0, mins=0):
+def leg_ok(x, game="all", slate="all", minc=0.0, mins=0, strict=False):
     days = SLATE_DAYS.get(slate)
     if game != "all" and x["g"] != game:
         return False
@@ -79,21 +84,25 @@ def leg_ok(x, game="all", slate="all", minc=0.0, mins=0):
         return False
     if x.get("xb") and game == "all" and slate not in SINGLE:
         return False
+    if strict and (x.get("rk") or (x.get("pt") and x["pt"] < PTS_MIN)):
+        return False
     return chance(x) >= minc and x.get("sc", 70) >= mins
 
 
-def search(legs, target, K, game="all", band=BAND, maxl=MAXL, slate="all", minc=0.0, mins=0):
+def search(legs, target, K, game="all", band=BAND, maxl=MAXL, slate="all", minc=0.0, mins=0, strict=False, one_team=False):
     """Highest-confidence parlays whose expected Kalshi odds land between +target and band x that."""
     D = 1 + target / 100
     W = math.log(D)
     L = []
     for x in legs:
-        if not leg_ok(x, game, slate, minc, mins):
+        if not leg_ok(x, game, slate, minc, mins, strict):
             continue
         w = -math.log(x["q"] / 100) - K["k"]
         if w > 0.01:
             L.append((x, w, leg_cost(x)))
-    per_game = maxl if (game != "all" or len({t[0]["g"] for t in L}) <= 1) else 2
+    one_game = game != "all" or len({t[0]["g"] for t in L}) <= 1
+    per_game = maxl if one_game else 2
+    team1 = one_team and not one_game
     MAXL_ = maxl
     L.sort(key=lambda t: t[2] / t[1])
     if not L:
@@ -105,13 +114,13 @@ def search(legs, target, K, game="all", band=BAND, maxl=MAXL, slate="all", minc=
         for ix, w, c, pl, gm, last in beam:
             for j in range(last + 1, len(L)):
                 x, lw, lc = L[j]
-                if x["pl"] in pl or gm.get(x["g"], 0) >= per_game:
+                if x["pl"] in pl or gm.get(x["g"], 0) >= per_game or (team1 and ("T:" + x["tm"]) in pl):
                     continue
                 nw = w + lw
                 if nw > W + math.log(band) + 0.25:
                     continue
                 g2 = dict(gm); g2[x["g"]] = g2.get(x["g"], 0) + 1
-                s = (ix + (j,), nw, c + lc, pl | {x["pl"]}, g2, j)
+                s = (ix + (j,), nw, c + lc, pl | {x["pl"], "T:" + x["tm"]}, g2, j)
                 if nw >= W - 0.25 and d >= MINL:
                     picked = [L[i][0] for i in s[0]]
                     dec = 1 / expected_price(picked, K)
@@ -138,7 +147,7 @@ def featured(legs, K, n=3):
         for tid, _, lo, hi, maxl, minc, mins in TIERS:
             band = (1 + hi / 100) / (1 + lo / 100)
             ms = max(mins - SINGLE_RELAX, 58) if slate in SINGLE else mins
-            out[slate][tid] = search(legs, lo, K, band=band, maxl=maxl, slate=slate, minc=minc, mins=ms)[:n]
+            out[slate][tid] = search(legs, lo, K, band=band, maxl=maxl, slate=slate, minc=minc, mins=ms, strict=tid in STRICT, one_team=tid in TEAM1)[:n]
     return out
 
 
@@ -284,6 +293,15 @@ def main():
     log = json.load(open(LOG)) if os.path.exists(LOG) else []
     K = fit_markup(log)
     now = dt.datetime.now(PT)
+
+    try:     # record this update's featured + TD parlays so they get graded after the games (tracker.py)
+        import tracker
+        m = out.get("meta") or {}
+        tlog = tracker.record(tracker.load(), m.get("season"), m.get("week"), featured(legs, K), out.get("td"),
+                              out.get("started"), lambda p: expected_price(p, K), now.isoformat(timespec="seconds"))
+        json.dump(tlog, open(tracker.LOG, "w"), separators=(",", ":"))
+    except Exception as e:
+        print("parlay tracking failed:", e)
 
     cands, seen = [], set()
     for slate, tiers in featured(legs, K).items():          # the featured parlays get quoted first

@@ -10,6 +10,12 @@ Sources (all public, no keys; each one is optional - if a source fails the rest 
   Open-Meteo      : wind, rain chance and temperature at kickoff for outdoor games
   ESPN injuries   : this week's Out / Doubtful / Questionable list for every team
   ESPN news       : recent headlines that mention a player
+  Google News     : the last ~36 hours of headlines for every player on the board and each team's QB (RSS, no key).
+                    This is what catches beat-reporter news like "Skattebo could be headed for lighter workload"
+                    hours before kickoff. Headlines are sorted into:
+                      role cut   (less work, split, benched, inactive, ruled out...) -> player taken off the board
+                      injury     (limited, questionable, ankle, playing through...)  -> big penalty, leans on Kalshi
+                      QB hurt    (his QB broken/fractured/injured/questionable)        -> his team's pass props cut
   Sleeper         : most-added players in the last 48 hours (fantasy hype)
   Reddit          : how many hot posts on r/fantasyfootball and r/sportsbook mention a player
 """
@@ -57,6 +63,55 @@ def get(url, params=None, tries=3, timeout=20):
             if i == tries - 1:
                 raise
             time.sleep(2 + 2 * i)
+
+
+# ------------------------------------------------------------------ news classification (pure, tested)
+ROLE_CUT = re.compile(r"less work|lighter (work)?load|reduced (role|workload|work|snaps|usage)|smaller role|(even|50.50|split) "
+                      r"(split|reps|carries|backfield|work)|split (reps|carries|backfield|work)|committee|time.?share|"
+                      r"\bbench(ed|ing)?\b|demot|lose[sd]? (his )?(job|starting)|not (expected to |going to )?start|"
+                      r"won.?t start|backup role|healthy scratch|inactive|ruled out|will not play|won.?t play|\bout\b for|"
+                      r"\bdoubtful\b|limited snaps|snap count|pitch count|bad news for|losing (snaps|work|carries)|"
+                      r"not (expected to )?play|sit out|scratched", re.I)
+INJ_WORDS = re.compile(r"injur|ankle|hamstring|knee|groin|calf|foot|toe|shoulder|concussion|illness|limited|questionable|"
+                       r"game.?time|day.?to.?day|setback|not practic|did not practice|\bdnp\b|banged|tweak|aggravat|"
+                       r"playing (through|with)|fractur|broken|sprain|strain", re.I)
+QB_HURT = re.compile(r"fractur|broken|injur|questionable|limited|playing (through|with)|hand|thumb|wrist|ankle|knee|"
+                     r"concussion|shoulder|sprain|game.?time|banged", re.I)
+
+
+CLEARED = re.compile(r"cleared|off (the )?injury report|no injury designation|without (an )?injury designation|full participant|"
+                     r"practic(ed|es) fully|full practice|good to go|(will|expected to) play|\bactive\b|returns? to practice", re.I)
+
+
+def classify(headlines):
+    """(role_cut, injury, worst headline) for a player's recent headlines. 'Cleared off the injury report' and the
+    like don't count as injury news."""
+    cut = next((h for h in headlines if ROLE_CUT.search(h)), None)
+    inj = next((h for h in headlines if INJ_WORDS.search(h) and not CLEARED.search(h)), None)
+    return bool(cut), bool(inj), (cut or inj or (headlines[0] if headlines else ""))
+
+
+def parse_rss(xml, name, now, hours=36):
+    """Headlines from a Google News RSS search that actually name the player, newest first, last `hours` hours."""
+    import email.utils
+    out = []
+    last = norm(name).split()[-1]
+    for item in re.findall(r"<item>(.*?)</item>", xml or "", re.S):
+        t = re.search(r"<title>(.*?)</title>", item, re.S)
+        d = re.search(r"<pubDate>(.*?)</pubDate>", item, re.S)
+        if not t:
+            continue
+        title = re.sub(r"<!\[CDATA\[|\]\]>", "", t.group(1)).replace("&amp;", "&").replace("&#39;", "'").replace("&quot;", '"').strip()
+        title = re.sub(r"\s+-\s+[^-]{2,60}$", "", title)          # drop " - Source Name"
+        try:
+            when = email.utils.parsedate_to_datetime(d.group(1)) if d else now
+        except Exception:
+            when = now
+        if (now - when).total_seconds() > hours * 3600 or last not in norm(title).split():
+            continue
+        out.append((when, title))
+    out.sort(key=lambda x: x[0], reverse=True)
+    return [t for _, t in out]
 
 
 # ------------------------------------------------------------------ parsers (pure, tested)
@@ -257,6 +312,58 @@ def why(r, rs):
 
 
 # ------------------------------------------------------------------ pull
+GN_CACHE = os.path.join(HERE, "data", "news_cache.json")
+GN_FRESH = 40 * 60          # re-check a player's headlines at most every 40 minutes
+
+
+def _rss(q):
+    for i in range(2):
+        try:
+            r = requests.get("https://news.google.com/rss/search", params={"q": q, "hl": "en-US", "gl": "US", "ceid": "US:en"},
+                             headers=UA, timeout=20)
+            if r.status_code == 200:
+                return r.text
+            time.sleep(2)
+        except requests.RequestException:
+            time.sleep(2)
+    return ""
+
+
+def google_news(data, now):
+    """{norm name: {"h": [headlines], "cut", "inj", "worst"}}, {teams whose QB is banged up}."""
+    try:
+        cache = json.load(open(GN_CACHE))
+    except (OSError, ValueError):
+        cache = {}
+    names = {}
+    for m in data["markets"]:
+        names.setdefault(norm(m["name"]), m["name"])
+    qbs = {}
+    for p in data["proj"]:
+        if p.get("pos") == "QB" and (p.get("pass") or 0) > 100 and (p["team"] not in qbs or p["pass"] > qbs[p["team"]][1]):
+            qbs[p["team"]] = (p["name"], p["pass"])
+    for tm, (n, _) in qbs.items():
+        names.setdefault(norm(n), n)
+    out, t0 = {}, time.time()
+    for k, disp in names.items():
+        c = cache.get(k)
+        if not c or now.timestamp() - c.get("ts", 0) > GN_FRESH:
+            if time.time() - t0 > 240:          # keep the run short; the rest refresh next time
+                if not c:
+                    continue
+            else:
+                c = {"ts": now.timestamp(), "h": parse_rss(_rss(f'"{disp}" NFL when:2d'), disp, now)}
+                cache[k] = c
+                time.sleep(0.3)
+        h = [x for x in c.get("h", [])][:6]
+        cut, inj, worst = classify(h)
+        out[k] = {"h": h[:3], "cut": cut, "inj": inj, "worst": worst}
+    qbhurt = {tm for tm, (n, _) in qbs.items() if any(QB_HURT.search(x) for x in (out.get(norm(n)) or {}).get("h", []))}
+    cache = {k: v for k, v in cache.items() if now.timestamp() - v.get("ts", 0) < 4 * 86400}
+    json.dump(cache, open(GN_CACHE, "w"))
+    return {k: v for k, v in out.items() if v["h"]}, qbhurt
+
+
 def main():
     data = json.load(open(os.path.join(HERE, "data", "data.json")))
     now = dt.datetime.now(dt.timezone.utc)
@@ -299,6 +406,15 @@ def main():
         C["sources"]["news"] = f"{len(C['news'])} players in headlines"
     except Exception as e:
         print("ESPN news failed:", e); C["sources"]["news"] = "failed"
+
+    # Google News for every player who could make the board or a parlay, plus each team's likely starting QB
+    try:
+        C["gnews"], C["qbhurt"] = google_news(data, now)
+        C["sources"]["google_news"] = (f"{sum(1 for v in C['gnews'].values() if v['cut'])} role-cut, "
+                                       f"{sum(1 for v in C['gnews'].values() if v['inj'])} injury headlines; "
+                                       f"QB hurt: {', '.join(sorted(C['qbhurt'])) or 'none'}")
+    except Exception as e:
+        print("Google News failed:", e); C["sources"]["google_news"] = "failed"
 
     try:
         tr = get("https://api.sleeper.app/v1/players/nfl/trending/add", params={"lookback_hours": 48, "limit": 50})

@@ -32,14 +32,22 @@ SPREAD_LIMIT, SPREAD_PENALTY = 15, 0.90
 STALE_GAP, STALE_PENALTY = 3, 0.85
 ASK_MIN, ASK_MAX = 35, 88
 MAX_PER_PLAYER, BOARD_SIZE = 2, 50
+MAX_PER_TEAM = 4      # Week 6: four BAL props died together when the whole offense stalled
 MIN_GAMES = 2
 P_CAP = 0.97
-MARKET_BLEND = 0.50   # Weeks 4-5: Kalshi alone beat the model; a 50/50 blend beat both (was 0.30)
+MARKET_BLEND = 0.60   # Kalshi alone beat the model in Weeks 4, 5 and 6; lean on it more (was 0.30, then 0.50)
+SAFETY_HAIR = 0.02    # take 2 points off every final chance: better to be underconfident than overconfident
 RETURN_PEN = 0.12   # back from missing games, listed questionable, or injury news: score -12%, chance leans to Kalshi
 RUSH_KEEP = 0.40    # rushing and passing: keep only 40% of any edge over Kalshi (Weeks 4-5: rush picks hit 57% vs 77% expected, QB passing 75% vs 83%)
 SX_P, SX_S = 0.20, 0.30   # game script against him (sx < 0): chance -20 pts x |sx|, score -30% x |sx|
 INJ_NEWS = re.compile(r"injur|ankle|hamstring|knee|groin|calf|foot|concussion|illness|limited|questionable|game-time|"
                       r"day-to-day|setback|not practic|did not practice|dnp|banged", re.I)
+TE_KEEP, TE_PEN = 0.50, 0.10    # TE catches/yards: keep half of any edge over Kalshi, score -10% (TEs hit 68% vs 76% expected, Weeks 4-6)
+RUSH_PEN, QBRUSH_PEN = 0.15, 0.10   # rushing props: score -15% (QB rushing -10%); rush picks hit 62% vs 74% expected over 3 weeks
+QBHURT_PEN = 0.10                # his QB is playing hurt (news): pass/catch props score -10%, chance leans to Kalshi
+WR1_BONUS = 0.05     # WR1 catches/yards: score +5% (WR1s hit 88% on the board in Weeks 4-6 vs ~81% expected)
+SNAP_FALL_PEN, SNAP_LOW_PEN = 0.08, 0.05   # snaps falling 3 games in a row (10+ pts) / WR-TE under 50% of snaps last game
+EDGE_GAP, EDGE_KEEP = 0.04, 0.60   # any prop: when the model is 4+ points above Kalshi, keep only 60% of the gap
 VENOM_W, VENOM_MX = 0.03, 0.2   # Venom TD pick + matchup edge: main props +3% score (small on purpose)
 MKT_GAP, MKT_KEEP = 0.05, 0.40   # market check: above a 5-point gap on a low-volume player, keep only 40% of the gap    # final chance = 70% model + 30% Kalshi's price (Week 4: the blend was better calibrated than either)
 CTX_WEIGHT = 0.04      # game context (lines, weather, injuries, news, buzz) moves a score at most +/-4%
@@ -206,7 +214,7 @@ def run(data, overrides=None, learned=None):
 
     games = {g["key"]: g for g in data["games"]}
     est_asks = fill_missing_asks(data["markets"], proj)
-    rows, skipped = [], set()
+    rows, skipped, cut_news = [], set(), set()
     # games that have already kicked off are left off: Kalshi keeps trading them live, so their prices are in-game
     started = set()
     _now = data.get("generated")
@@ -227,6 +235,8 @@ def run(data, overrides=None, learned=None):
         g = games.get(m["game"])
         if not g or not lg or not pj:
             skipped.add(m["name"]); continue
+        if (((data.get("context") or {}).get("gnews") or {}).get(context.norm(m["name"])) or {}).get("cut"):
+            cut_news.add(m["name"]); continue        # news says his role is being cut: off the board
         stat = m["series"]; pos = lg["pos"]; team = lg["team"]
         if team not in (g["away"], g["home"]):
             skipped.add(m["name"]); continue
@@ -296,7 +306,10 @@ def run(data, overrides=None, learned=None):
         mx, mnote = matchup.matchup([v for _, _, v in al], role_avg(pos, stat, rank) if al else None, rank_s, opp,
                                     context.ROLEW.get(role, role + "s"), STATWORD[stat])
         # game script (spread + over/under) and, for receivers, the quarterback situation
-        sx, srs = script.game_script(team, stat, pos, ((data.get("context") or {}).get("games") or {}).get(m["game"]))
+        cg_ = ((data.get("context") or {}).get("games") or {}).get(m["game"]) or {}
+        sx, srs = script.game_script(team, stat, pos, cg_ or None)
+        sp_, tot_ = (cg_.get("spread") or {}).get(team), cg_.get("total")
+        tpts = round(tot_ / 2 - sp_ / 2, 1) if sp_ is not None and tot_ else None      # team's projected points
         qf, qnote, qinfo = 0.0, "", None
         if QB and stat in ("rec", "recyds") and pos in ("WR", "TE", "RB"):
             if team not in QB["now"]:
@@ -357,9 +370,23 @@ def run(data, overrides=None, learned=None):
         if sx < 0:
             p = max(0.01, p - SX_P * (-sx))     # trailing RBs, leading teams' passers: the script cuts volume
         st_now = ((QB or {}).get("status") or {}).get(k) or SLEEPER_STATUS.get(pj.get("inj") or "", "")
-        news_h = (((data.get("context") or {}).get("news") or {}).get(k) or {}).get("h", "")
-        inj_news = bool(news_h and INJ_NEWS.search(news_h))
+        if pos == "TE" and stat in ("rec", "recyds") and p > mq:
+            p = mq + (p - mq) * TE_KEEP
+        Cx = data.get("context") or {}
+        ck = context.norm(lg["name"])
+        news_h = ((Cx.get("news") or {}).get(ck) or {}).get("h", "")
+        gn = (Cx.get("gnews") or {}).get(ck) or {}
+        inj_news = bool(news_h and INJ_NEWS.search(news_h)) or bool(gn.get("inj"))
+        if gn.get("inj") and not (news_h and INJ_NEWS.search(news_h)):
+            news_h = gn.get("worst", "")
         back = missed >= 1 or st_now == "Questionable" or inj_news
+        qb_hurt = team in set(Cx.get("qbhurt") or []) and stat in ("pass", "rec", "recyds")
+        qb_new = bool(qinfo and not qinfo.get("same") and (qinfo.get("with") or 0) < 2) and stat in ("rec", "recyds")
+        # ^ backup / new QB with fewer than 2 games throwing to him (Week 6: Huntley, 1 game -> every BAL pass-catcher missed)
+        if qb_new and p > mq:
+            p = mq + (p - mq) * MKT_KEEP
+        if qb_hurt and p > mq:
+            p = mq + (p - mq) * MKT_KEEP
         if back and p > mq:
             # returning from injury (or playing hurt): his old games and projection don't know how healthy he is,
             # Kalshi's price usually does
@@ -367,6 +394,9 @@ def run(data, overrides=None, learned=None):
             why_ = (f"Back after missing his last {missed} game{'s' if missed > 1 else ''}" if missed else
                     "Listed questionable" if st_now == "Questionable" else "Injury in the news")
             mkt_note = (mkt_note + " " if mkt_note else "") + f"{why_}: rust/health risk, so the chance leans toward Kalshi's {round(mq * 100)}¢."
+        if p > mq + EDGE_GAP:
+            p = mq + EDGE_GAP + (p - mq - EDGE_GAP) * EDGE_KEEP     # lean underconfident: trust Kalshi on big disagreements
+        p = max(0.01, p - SAFETY_HAIR)
         roi = p / (m["ask"] / 100) - 1
         value = min(max(0.5 + roi / 1.0, 0), 1)
         agree = (pp >= 0.6) + (over == n) + (dh is not None and dc == dn)
@@ -388,6 +418,26 @@ def run(data, overrides=None, learned=None):
             score *= 1 - RETURN_PEN
         if sx < 0:
             score *= 1 - SX_S * (-sx)
+        if pos == "TE" and stat in ("rec", "recyds"):
+            score *= 1 - TE_PEN
+        if stat == "rush":
+            score *= 1 - (QBRUSH_PEN if pos == "QB" else RUSH_PEN)
+        if qb_new:
+            score *= 1 - QBHURT_PEN       # Week 6: every BAL pass-catcher with backup Huntley missed
+        if role == "WR1" and stat in ("rec", "recyds"):
+            score *= 1 + WR1_BONUS
+        sn = (uinfo or {}).get("snaps") or []
+        snap_fall = pos != "QB" and len(sn) >= 3 and sn[-1] < sn[-2] < sn[-3] and sn[-3] - sn[-1] >= 10
+        snap_low = pos in ("WR", "TE") and bool(sn) and sn[-1] < 50
+        if snap_fall:
+            score *= 1 - SNAP_FALL_PEN
+            mkt_note = (mkt_note + " " if mkt_note else "") + f"Snaps falling: {sn[-3]}% → {sn[-2]}% → {sn[-1]}%."
+        elif snap_low:
+            score *= 1 - SNAP_LOW_PEN
+            mkt_note = (mkt_note + " " if mkt_note else "") + f"Only {sn[-1]}% of snaps last game."
+        if qb_hurt:
+            score *= 1 - QBHURT_PEN
+            mkt_note = (mkt_note + " " if mkt_note else "") + "His QB is playing hurt (injury news), so pass-game props lean on Kalshi."
         reasons = reasons + srs
         if mnote:
             reasons.append((round(0.5 * mx, 2), mnote))
@@ -417,7 +467,7 @@ def run(data, overrides=None, learned=None):
                          po=po, pn=pn, pid=pj.get("id"),
                          sx=sx, sxs=round(50 + 50 * sx), mx=mx, mxs=round(50 + 50 * mx), env=envf, dfac=dfac, dfs=round(50 + 50 * dfac),
                          off=off, ofs=round(50 + 50 * off), cu=(round(cu * 100) if cu is not None else None),
-                         avgm=(round(avgm, 1) if avgm is not None else None), qf=qf, qfs=round(50 + 50 * qf), qnote=qnote, qinfo=qinfo))
+                         avgm=(round(avgm, 1) if avgm is not None else None), qf=qf, qfs=round(50 + 50 * qf), qnote=qnote, qinfo=qinfo, risk=int(bool(back or qb_hurt or qb_new or snap_fall)), tpts=tpts))
 
     lad = {}
     for r in rows:
@@ -445,10 +495,12 @@ def run(data, overrides=None, learned=None):
             best.append(pick)
     best.sort(key=lambda r: -r["score"])
     top, cnt = [], {}
+    tcnt = {}
     for r in best:
-        if cnt.get(r["player"], 0) >= MAX_PER_PLAYER:
+        if cnt.get(r["player"], 0) >= MAX_PER_PLAYER or tcnt.get(r["team"], 0) >= MAX_PER_TEAM:
             continue
         cnt[r["player"]] = cnt.get(r["player"], 0) + 1
+        tcnt[r["team"]] = tcnt.get(r["team"], 0) + 1
         top.append(r)
     alt = lambda a: {"line": a["line"], "ask": a["ask"], "bid": a.get("bid"), "p": a["p"], "pc": a["pc"], "roi": a["roi"],
                      "score": a["score"], "mid": a["mid"], "tk": a.get("tk")}
@@ -459,7 +511,8 @@ def run(data, overrides=None, learned=None):
     for i, r in enumerate(top):
         r["rank"] = i + 1
         r["why"], r["news"] = context.why(r, r["reasons"])
-    return {"top": top[:BOARD_SIZE], "rows": len(rows), "ladders": len(lad), "skipped": sorted(skipped), "all": rows}
+    return {"top": top[:BOARD_SIZE], "rows": len(rows), "ladders": len(lad), "skipped": sorted(skipped), "cut_news": sorted(cut_news),
+            "started": sorted(started), "all": rows}
 
 
 # ---------------- picking the line on each ladder: safe, but not needlessly low ----------------
@@ -469,14 +522,15 @@ def run(data, overrides=None, learned=None):
 # score is within a few points of the safest line. The stronger the case, the more score it may give up.
 BAL_MIN_P = 0.72
 BAL_TOL_BASE, BAL_TOL_STRENGTH = 2.0, 6.0
-STRETCH_MIN_P, STRETCH_MIN_ROI = 0.55, 5      # "bigger payout" alternative shown on the card
+STRETCH_MIN_P, STRETCH_MIN_ROI = 0.55, 0      # "bigger payout" alternative shown on the card
+BAL_MIN_ROI = -4      # chances carry a 2-point safety haircut, so "fair" now means within ~4% of the Kalshi price
 
 
 def balanced_pick(safe, rungs):
     headroom = (safe["proj"] - safe["line"]) / sd_for(safe["stat"], safe["pos"], max(safe["proj"], 1))
     strength = max(0.0, min(1.0, 0.5 * max(safe.get("env", 0), 0) + 0.5 * max(0.0, min(1.0, headroom))))
     tol = BAL_TOL_BASE + BAL_TOL_STRENGTH * strength
-    ok = [r for r in rungs if r["line"] > safe["line"] and r["pc"] >= BAL_MIN_P and r["roi"] >= 0
+    ok = [r for r in rungs if r["line"] > safe["line"] and r["pc"] >= BAL_MIN_P and r["roi"] >= BAL_MIN_ROI
           and r["score"] >= safe["score"] - tol]
     if not ok:
         return safe
@@ -524,7 +578,8 @@ def parlay_legs(out):
                      "est": 1 if r["est"] else 0, "tk": r["tk"], "ev": r["ev"],
                      "wy": context.why(r, r.get("reasons") or [])[0], "id": r.get("pid"),
                      "cx": r.get("ctx", 0), "nw": context.why(r, r.get("reasons") or [])[1], "dy": r.get("day", ""),
-                     "df": r.get("dfac", 0), "xb": 1 if (r["player"], r["stat"]) in extra else 0})
+                     "df": r.get("dfac", 0), "xb": 1 if (r["player"], r["stat"]) in extra else 0,
+                     "rk": r.get("risk", 0), "pt": r.get("tpts")})
     return legs
 
 
@@ -634,6 +689,11 @@ if __name__ == "__main__":
     except Exception as e:                      # the TD section must never break the props board
         print("TD section failed:", e); out["td"] = None
     out["track"] = track
+    try:
+        import tracker
+        out["ptrack"] = tracker.grade(tracker.load(), data["stats"], data["completed_weeks"])
+    except Exception as e:
+        print("parlay grading failed:", e); out["ptrack"] = []
     out["meta"] = {k: data[k] for k in ("season", "week", "completed_weeks", "generated", "league_source", "notes", "eyebrow") if k in data}
     out["meta"]["games"] = [g["label"] for g in data["games"]]
     out["meta"]["ctx_sources"] = (data.get("context") or {}).get("sources")

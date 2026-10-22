@@ -151,6 +151,7 @@ def chance(name_key, pos, team, stat, line, U, prev, sd_for, qb=None):
     pu = nb_over(line, mu) if stat == "rec" else Phi((mu - line + 0.5) / sd_for(stat, pos, mu))
     snaps = [g["snap"] for g in G if g["snap"] is not None]
     info["snap"] = round(100 * _wavg(snaps)) if snaps else None
+    info["snaps"] = [round(100 * x) for x in snaps][-4:]
     info["snap_last"] = round(100 * snaps[-1]) if snaps else None
     info["mu"] = round(mu, 1)
     info["opp"] = round(opp, 1)
