@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T17:31:10+00:00",
+ "generated": "2026-10-23T17:54:31+00:00",
  "games": {
   "PITNO": {
    "home": "NO",
@@ -88,7 +88,7 @@
     "gust": 5,
     "pop": 0,
     "rain": 0.0,
-    "temp": 65
+    "temp": 66
    }
   },
   "TBCAR": {
@@ -107,11 +107,11 @@
     "temp": 63
    },
    "wx": {
-    "wind": 8,
+    "wind": 9,
     "gust": 12,
     "pop": 0,
     "rain": 0.0,
-    "temp": 67
+    "temp": 68
    }
   },
   "CINBAL": {
@@ -130,7 +130,7 @@
     "temp": 59
    },
    "wx": {
-    "wind": 3,
+    "wind": 4,
     "gust": 4,
     "pop": 0,
     "rain": 0.0,
@@ -240,16 +240,31 @@
     "temp": 59
    },
    "wx": {
-    "wind": 4,
+    "wind": 5,
     "gust": 14,
     "pop": 0,
     "rain": 0.0,
-    "temp": 60
+    "temp": 61
    }
   }
  },
  "inj": {
   "ARI": [
+   {
+    "name": "Walter Nolen III",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Jon Gaines II",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Jeremiyah Love",
+    "pos": "RB",
+    "status": "Out"
+   },
    {
     "name": "Andrew Wingard",
     "pos": "S",
@@ -271,28 +286,13 @@
     "status": "Questionable"
    },
    {
-    "name": "Jeremiyah Love",
-    "pos": "RB",
-    "status": "Questionable"
-   },
-   {
     "name": "Darius Robinson",
     "pos": "DE",
     "status": "Questionable"
    },
    {
-    "name": "Jon Gaines II",
-    "pos": "G",
-    "status": "Questionable"
-   },
-   {
     "name": "Garrett Williams",
     "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Walter Nolen III",
-    "pos": "DT",
     "status": "Questionable"
    },
    {
@@ -303,9 +303,19 @@
   ],
   "ATL": [
    {
-    "name": "Olamide Zaccheaus",
-    "pos": "WR",
-    "status": "Questionable"
+    "name": "Michael Jerrell",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Billy Bowman Jr.",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Divine Deablo",
+    "pos": "LB",
+    "status": "Out"
    },
    {
     "name": "Brian Robinson Jr.",
@@ -313,8 +323,8 @@
     "status": "Out"
    },
    {
-    "name": "Cameron Thomas",
-    "pos": "DE",
+    "name": "Olamide Zaccheaus",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -333,11 +343,6 @@
     "status": "Questionable"
    },
    {
-    "name": "Divine Deablo",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
     "name": "Za'Darius Smith",
     "pos": "DE",
     "status": "Questionable"
@@ -345,11 +350,6 @@
    {
     "name": "Avieon Terrell",
     "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Michael Jerrell",
-    "pos": "OT",
     "status": "Questionable"
    },
    {
@@ -468,18 +468,8 @@
     "status": "Questionable"
    },
    {
-    "name": "Carson Schwesinger",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
     "name": "Grant Delpit",
     "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Denzel Boston",
-    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -753,6 +743,11 @@
    }
   ],
   "KC": [
+   {
+    "name": "Brashard Smith",
+    "pos": "RB",
+    "status": "Questionable"
+   },
    {
     "name": "Rashee Rice",
     "pos": "WR",
@@ -1293,6 +1288,10 @@
   ]
  },
  "news": {
+  "sam laporta": {
+   "h": "Lions' Dan Campbell downplays Sam LaPorta's contract comments",
+   "t": "2026-10-23T17:42:48Z"
+  },
   "jj mccarthy": {
    "h": "Yates details why J.J. McCarthy is an intriguing player to stash",
    "t": "2026-10-23T15:23:25Z"
@@ -1303,7 +1302,7 @@
   },
   "aaron rodgers": {
    "h": "Steelers' Aaron Rodgers backs NFL on holding Paris game despite recent unrest",
-   "t": "2026-10-23T11:08:49Z"
+   "t": "2026-10-23T17:21:41Z"
   },
   "marvin harrison": {
    "h": "Inside Marvin Harrison Jr.s' exit from the Cardinals",
@@ -1321,173 +1320,177 @@
  "trend": {
   "roschon johnson": {
    "rank": 1,
-   "adds": 1709040
+   "adds": 1690032
   },
   "konata mumpfield": {
    "rank": 2,
-   "adds": 1054053
+   "adds": 1043838
   },
   "tyler higbee": {
    "rank": 4,
-   "adds": 638901
+   "adds": 639999
   },
   "michael mayer": {
    "rank": 6,
-   "adds": 560052
+   "adds": 544869
   },
   "omar cooper": {
    "rank": 8,
-   "adds": 437120
-  },
-  "cj stroud": {
-   "rank": 9,
-   "adds": 386750
+   "adds": 408640
   },
   "seth mcgowan": {
-   "rank": 10,
-   "adds": 384504
+   "rank": 9,
+   "adds": 389936
   },
-  "kyler murray": {
-   "rank": 11,
-   "adds": 350904
+  "cj stroud": {
+   "rank": 10,
+   "adds": 374192
   },
   "zonovan knight": {
+   "rank": 11,
+   "adds": 343198
+  },
+  "kyler murray": {
    "rank": 12,
-   "adds": 337450
+   "adds": 334952
   },
   "malik washington": {
    "rank": 14,
-   "adds": 265656
+   "adds": 259056
   },
   "tyler allgeier": {
    "rank": 16,
-   "adds": 252765
+   "adds": 256950
   },
   "tre tucker": {
    "rank": 17,
-   "adds": 237594
+   "adds": 228066
+  },
+  "ryan flournoy": {
+   "rank": 18,
+   "adds": 210992
   },
   "bo nix": {
    "rank": 19,
-   "adds": 217422
-  },
-  "ryan flournoy": {
-   "rank": 20,
-   "adds": 215584
+   "adds": 208440
   },
   "jordan addison": {
    "rank": 21,
-   "adds": 199611
+   "adds": 196839
   },
   "tanner mckee": {
    "rank": 22,
-   "adds": 199112
+   "adds": 191392
   },
   "tank dell": {
    "rank": 23,
-   "adds": 187280
+   "adds": 180592
   },
   "brandin cooks": {
    "rank": 24,
-   "adds": 174396
+   "adds": 169528
   },
   "aaron rodgers": {
    "rank": 25,
-   "adds": 172832
+   "adds": 166224
   },
-  "jj mccarthy": {
+  "kyle pitts": {
    "rank": 26,
-   "adds": 162249
+   "adds": 154112
   },
   "geno smith": {
    "rank": 27,
-   "adds": 160892
-  },
-  "kyle pitts": {
-   "rank": 28,
-   "adds": 158291
+   "adds": 153684
   },
   "courtland sutton": {
-   "rank": 29,
-   "adds": 156618
-  },
-  "tyrone tracy": {
-   "rank": 31,
-   "adds": 152806
+   "rank": 28,
+   "adds": 153513
   },
   "chris godwin": {
-   "rank": 34,
-   "adds": 143334
+   "rank": 30,
+   "adds": 148782
+  },
+  "jj mccarthy": {
+   "rank": 31,
+   "adds": 144570
+  },
+  "tyrone tracy": {
+   "rank": 33,
+   "adds": 142456
   },
   "jordan watkins": {
    "rank": 35,
-   "adds": 136148
+   "adds": 131040
   },
   "pierre strong": {
    "rank": 36,
-   "adds": 133056
+   "adds": 127467
   },
   "kirk cousins": {
    "rank": 37,
-   "adds": 132320
+   "adds": 126776
   },
   "kc concepcion": {
    "rank": 38,
-   "adds": 131472
+   "adds": 125352
   },
   "devaughn vele": {
-   "rank": 40,
-   "adds": 123970
+   "rank": 39,
+   "adds": 121436
   },
   "colby parkinson": {
    "rank": 41,
-   "adds": 118386
+   "adds": 117780
   },
   "keenan allen": {
    "rank": 42,
-   "adds": 116360
+   "adds": 113332
   },
   "jordan mason": {
    "rank": 43,
-   "adds": 106760
+   "adds": 101655
   },
   "caleb douglas": {
    "rank": 44,
-   "adds": 104832
+   "adds": 98576
   },
   "blake corum": {
    "rank": 46,
-   "adds": 96816
+   "adds": 93304
   },
   "ollie gordon": {
    "rank": 47,
-   "adds": 94528
+   "adds": 90846
+  },
+  "emanuel wilson": {
+   "rank": 48,
+   "adds": 90099
   },
   "deshaun watson": {
    "rank": 49,
-   "adds": 93496
+   "adds": 89592
   }
  },
  "buzz": {},
  "sources": {
   "lines": "13 games",
   "weather": "6 outdoor games",
-  "injuries": "196 players listed",
-  "news": "6 players in headlines",
-  "google_news": "4 role-cut, 114 injury headlines; QB hurt: BAL, CAR, GB, NYG, PIT, TB",
-  "sleeper_trending": "37 board players trending",
+  "injuries": "195 players listed",
+  "news": "7 players in headlines",
+  "google_news": "7 role-cut, 114 injury headlines; QB hurt: BAL, CAR, GB, IND, NYG, PIT, TB",
+  "sleeper_trending": "38 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
   "aaron rodgers": {
    "h": [
-    "\"I can't say I'm real surprised\": Aaron Rodgers calls out NFL medical staff for mishandling Jalen Hurts' health condition",
-    "Aaron Rodgers Backs NFL\u2019s Security Plans for Paris Game Amid Demonstrations",
-    "Aaron Rodgers sounds annoyed with Steelers' travel plans for Paris: Why the QB is unhappy"
+    "Aaron Rodgers urges better funding for US women's flag football team",
+    "Aaron Rodgers says the NFL could play 16 international games in one week \u2014 and he\u2019d support it - Pittsburgh Post-Gazette",
+    "\u2018I Can\u2019t Say I\u2019m Real Surprised\u2019 \u2014 Aaron Rodgers Throws Shade at NFL\u2019s Chief Medical Officer Over Handling of Jalen Hurts\u2019 Health Scare"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "\"I can't say I'm real surprised\": Aaron Rodgers calls out NFL medical staff for mishandling Jalen Hurts' health condition"
+   "inj": true,
+   "worst": "Aaron Rodgers urges better funding for US women's flag football team"
   },
   "tyler shough": {
    "h": [
@@ -1503,7 +1506,7 @@
    "h": [
     "Bold quarterback predictions in NFL Week 7: Patrick Mahomes, Joe Burrow & more",
     "Josh Allen vs. Joe Burrow: Stats, Head-To-Head, MVP Odds",
-    "Ravens\u2019 Trey Hendrickson not feeling in a Taylor Swift mood for revenge game vs. Joe Burrow, Bengals"
+    "Did Joe Burrow Snub JD Vance? Cincinnati Bengals QB Reveals What Happened During Vice President\u2019s Surprise Visit"
    ],
    "cut": false,
    "inj": false,
@@ -1511,23 +1514,23 @@
   },
   "cam ward": {
    "h": [
+    "\"Brian Daboll Knows Cam Ward Stinks\": Podcaster Makes Thoughts Clear on Titans QB Amid 1-5 Start to Season",
     "Daboll likes direction Ward, Titans offense is heading, but not satisfied with results",
-    "Examining the Complex Blame Share for Titans' Offense Between Cam Ward and Brian Daboll",
-    "Cam Ward Names Pair of Titans He'd Like to Get Ball to More"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 7? Caleb Williams, Drake Maye, Jacoby Brissett, Lamar Jackson, Sam Darnold, Cam Ward, Daniel Jones, Tyler Huntley, Jalon Daniels"
-  },
-  "deshaun watson": {
-   "h": [
-    "Browns Give Blunt Reason for Backing Watson Over Shedeur Sanders",
-    "Todd Monken Reveals Why Deshaun Watson Beat Shedeur Sanders in Browns QB Battle",
-    "Browns free agent check-in: Maliek Collins states his case, Deshaun Watson a mystery"
+    "Examining the Complex Blame Share for Titans' Offense Between Cam Ward and Brian Daboll"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Browns Give Blunt Reason for Backing Watson Over Shedeur Sanders"
+   "worst": "\"Brian Daboll Knows Cam Ward Stinks\": Podcaster Makes Thoughts Clear on Titans QB Amid 1-5 Start to Season"
+  },
+  "deshaun watson": {
+   "h": [
+    "Deshaun Watson Knowns Browns Must Contain Jeffery Simmons to Beat Titans",
+    "Deshaun Watson Knowns Browns Must Contain Jeffery Simmons to Beat Titans",
+    "Browns Give Blunt Reason for Backing Watson Over Shedeur Sanders"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Deshaun Watson Knowns Browns Must Contain Jeffery Simmons to Beat Titans"
   },
   "kyler murray": {
    "h": [
@@ -1541,23 +1544,23 @@
   },
   "daniel jones": {
    "h": [
+    "Daniel Jones Is One Game From a Colts Mark Not Seen Since Chris Chandler in 1988",
     "Daniel Jones lack of TD passes unmatched by Colts QB since 1988",
-    "Brian Flores\u2019 Vikings Defense Can Put Daniel Jones in a Bind",
-    "Daniel Jones Prop Bets: Passing Over/Under Lines vs. Vikings"
+    "Brian Flores\u2019 Vikings Defense Can Put Daniel Jones in a Bind"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Daniel Jones lack of TD passes unmatched by Colts QB since 1988"
+   "worst": "Daniel Jones Is One Game From a Colts Mark Not Seen Since Chris Chandler in 1988"
   },
   "geno smith": {
    "h": [
-    "Jets Are Leaving Geno Smith Exposed to the Blitz",
-    "Geno Smith Week 7 Outlook - Dolphins at Jets",
-    "Garrett Wilson, Geno Smith see Jets building a winning culture"
+    "Best NFL Week 7 Player Prop Bets: Goff, Smith and Corum",
+    "Dolphins Opponent Intel: Jets Insider Dishes on Minkah, Mason Taylor, Geno Smith and More",
+    "Jets Are Leaving Geno Smith Exposed to the Blitz"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Jets Are Leaving Geno Smith Exposed to the Blitz"
+   "worst": "Best NFL Week 7 Player Prop Bets: Goff, Smith and Corum"
   },
   "malik willis": {
    "h": [
@@ -1601,9 +1604,9 @@
   },
   "brock purdy": {
    "h": [
-    "Week 7 Fantasy Football Start/Sit Advice: What to do with Brock Purdy, Cam Skattebo, more players",
-    "49ers QB Brock Purdy reveals what he learned from Mac Jones",
-    "49ers fans will love Brock Purdy more after his honest admission about commercials"
+    "NFL predictions: The 49ers will rely on Brock Purdy to beat the Falcons",
+    "49ers training camp: Brock Purdy, Mac Jones shine in practice as WR chemistry grows",
+    "Week 7 Fantasy Football Start/Sit Advice: What to do with Brock Purdy, Cam Skattebo, more players"
    ],
    "cut": false,
    "inj": true,
@@ -1636,8 +1639,8 @@
     "Broncos' Bo Nix given strong warning about 2027 NFL Draft amid rumors about his future"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Bo Nix Contract Extension Could Stall Over \u2018Limited Ceiling\u2019"
+   "inj": false,
+   "worst": "Broncos Could Make Drastic Bo Nix Decision After Latest ESPN Report"
   },
   "jordan love": {
    "h": [
@@ -1651,23 +1654,23 @@
   },
   "jared goff": {
    "h": [
-    "Jared Goff vs. Packers' stifling secondary: How this crucial NFC North showdown will be won",
-    "Jared Goff vs. Packers' stifling secondary: How this crucial NFC North showdown will be won",
-    "Jared Goff Prop Bets: Passing Over/Under Lines vs. Packers"
+    "Best NFL Week 7 Player Prop Bets: Goff, Smith and Corum",
+    "Jared Goff Says Packers Games Count for Two After Detroit Went 2-4 in the Division",
+    "Jared Goff vs. Packers' stifling secondary: How this crucial NFC North showdown will be won"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Jared Goff vs. Packers' stifling secondary: How this crucial NFC North showdown will be won"
+   "worst": "Best NFL Week 7 Player Prop Bets: Goff, Smith and Corum"
   },
   "kirk cousins": {
    "h": [
-    "Trade For Cousins? Jon Gruden Names 2 Contenders",
+    "Jon Gruden Proposes Blockbuster Kirk Cousins Trade That Could Shake Up NFL Playoff Race",
     "\u2018Unbelievable\u2019 \u2013 Tom Brady could not believe what he saw Kirk Cousins do in Raiders vs Bills",
     "Minnesota Vikings Urged to Trade for Kirk Cousins Despite Vikings\u2019 Undefeated Start With Kyler Murray"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Trade For Cousins? Jon Gruden Names 2 Contenders"
+   "worst": "Jon Gruden Proposes Blockbuster Kirk Cousins Trade That Could Shake Up NFL Playoff Race"
   },
   "matthew stafford": {
    "h": [
@@ -1731,9 +1734,9 @@
   },
   "alvin kamara": {
    "h": [
+    "Kamara (back) off injury report for Week 7",
     "Alvin Kamara Cleared to Play in Paris Against Steelers - NFL News | Fantasy Football",
-    "Saints Hit With Concerning Alvin Kamara Injury Update Before Historic Paris Game",
-    "Kamara (back) off injury report for Week 7"
+    "Saints Hit With Concerning Alvin Kamara Injury Update Before Historic Paris Game"
    ],
    "cut": false,
    "inj": true,
@@ -1752,8 +1755,8 @@
   "jaylen warren": {
    "h": [
     "Tyler Warren Still Not Practicing on Friday - NFL News | Fantasy Football",
-    "Jaylen Warren - Fantasy Football Fallers, Bust Candidates for Week 7 (2026)? - NFL News",
-    "Smash Steelers Spread and This Jalen Warren Prop for NFL London Action!"
+    "Derrell Jaylen Warren vs. Saints - NFL - Player Props, Lines and Trends",
+    "Jaylen Warren - Fantasy Football Fallers, Bust Candidates for Week 7 (2026)? - NFL News"
    ],
    "cut": false,
    "inj": true,
@@ -1762,8 +1765,8 @@
   "kendre miller": {
    "h": [
     "Fantasy Football Usage Report: Kendrick Bourne and Kendre Miller stepping into key roles ahead of Week 7",
-    "Kendre Miller, Kaden Elliss, Martin Emerson Jr., Spencer Rattler press conference | Saints vs. Steelers 2026 NFL Week 7",
-    "Week 7 Fantasy Football Start 'Em, Sit 'Em: Alvin Kamara vs. Kendre Miller"
+    "Kendre Miller or KC Concepcion Jr.: Who Should I Start in Week 7? Fantasy Football",
+    "Kendre Miller, Kaden Elliss, Martin Emerson Jr., Spencer Rattler press conference | Saints vs. Steelers 2026 NFL Week 7"
    ],
    "cut": false,
    "inj": true,
@@ -1832,8 +1835,8 @@
   "jonathan taylor": {
    "h": [
     "5 Jonathan Taylor landing spots as Colts enter post-Chris Ballard era",
-    "Ian Rapoport on possibility if Colts to trade Jonathan Taylor | 'GMFB'",
-    "Are Bengals one of the teams calling Colts on Jonathan Taylor trade?"
+    "Are Bengals one of the teams calling Colts on Jonathan Taylor trade?",
+    "Ian Rapoport on possibility if Colts trade Jonathan Taylor 'GMFB'"
    ],
    "cut": false,
    "inj": false,
@@ -1863,7 +1866,7 @@
    "h": [
     "New York Giants quarterback J.J. McCarthy (18) and New York Giants running back Tyrone Tracy Jr. (29) during a week 6 NFL football game between New York Giants and New Orleans Saints on Sunday, Oct. 18, 2026, at MetLife Stadium in East Rutherford,",
     "\u2018They Are Very Unhappy\u2019 \u2014 Super Bowl Champion Urges Giants To Make Trade for $44M All-Pro To Solve Cam Skattebo, Tyrone Tracy Jr. Dilemma",
-    "Bo Nix or Tyrone Tracy Jr.: Who Should I Pick Up? Fantasy Football (2026)"
+    "\u2018They Are Very Unhappy\u2019 \u2014 Super Bowl Champion Urges Giants To Make Trade for $44M All-Pro To Solve Cam Skattebo, Tyrone Tracy Jr. Dilemma"
    ],
    "cut": false,
    "inj": true,
@@ -1871,9 +1874,9 @@
   },
   "cam skattebo": {
    "h": [
-    "Fantasy Football Week 7 Start \u2018Em, Sit \u2018Em: Zach Charbonnet vs. Cam Skattebo",
-    "After demotion, Giants' Cam Skattebo has even bigger chip on shoulder",
-    "Week 7 Fantasy Football Start/Sit Advice: What to do with Brock Purdy, Cam Skattebo, more players"
+    "Cam Skattebo Issues Warning After Giants RB Decision",
+    "Giants RB Cam Skattebo Sends Clear Message Before Texans Game",
+    "Cam Skattebo Reacts to Najee Harris Being Released by John Harbaugh's Giants, 'Nobody Is Safe'"
    ],
    "cut": true,
    "inj": true,
@@ -1929,13 +1932,13 @@
   },
   "bucky irving": {
    "h": [
-    "Bucky Irving Practices again Friday",
-    "Bold running back predictions in NFL Week 7: Jonathan Taylor, Bucky Irving & more",
-    "Bucs Need Bucky Irving to Reset Their Ground Game in Carolina"
+    "Bucky Irving Off the Week 7 Injury Report - NFL News | Fantasy Football",
+    "Bucky Irving Avoids injury designation",
+    "Bucky Irving Practices again Friday"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Bucky Irving Logs limited practice Thursday"
+   "worst": "Bucky Irving Off the Week 7 Injury Report - NFL News | Fantasy Football"
   },
   "chuba hubbard": {
    "h": [
@@ -1949,9 +1952,9 @@
   },
   "bam knight": {
    "h": [
+    "Bam Knight or Ja'Kobi Lane",
     "Bam Knight or Josh Jacobs: Who Should I Draft? Fantasy Football (2026)",
-    "Carnell Tate or Bam Knight",
-    "Breece Hall or Bam Knight: Who Should I Draft? Fantasy Football (2026)"
+    "Carnell Tate or Bam Knight"
    ],
    "cut": false,
    "inj": true,
@@ -1970,8 +1973,8 @@
   "rj harvey": {
    "h": [
     "Broncos\u2019 OC loves RJ Harvey: \u2018He\u2019s special with the ball in his hands\u2019",
-    "Week 7 Fantasy Football Start \u2018Em, Sit \u2018Em: J.K. Dobbins vs. RJ Harvey",
-    "Fantasy Football Start 'Em, Sit 'Em Picks: Puka Nacua, RJ Harvey, Emanuel Wilson, Alvin Kamara, Harold Fannin Jr."
+    "Tyler Higbee or RJ Harvey",
+    "Week 7 Fantasy Football Start \u2018Em, Sit \u2018Em: J.K. Dobbins vs. RJ Harvey"
    ],
    "cut": false,
    "inj": true,
@@ -1979,9 +1982,9 @@
   },
   "jk dobbins": {
    "h": [
+    "J.K. Dobbins or Emmett Johnson",
     "Week 7 Fantasy Football Start \u2018Em, Sit \u2018Em: J.K. Dobbins vs. RJ Harvey",
-    "Sean Payton Should Make Jonah Coleman the Broncos' Lead Back Over J.K. Dobbins in Week 7",
-    "Jaylin Noel or J.K. Dobbins"
+    "Sean Payton Should Make Jonah Coleman the Broncos' Lead Back Over J.K. Dobbins in Week 7"
    ],
    "cut": false,
    "inj": true,
@@ -2036,8 +2039,9 @@
   },
   "blake corum": {
    "h": [
-    "Week 7 Fantasy Football Start \u2019Em, Sit \u2019Em: Jordan Mason VS Blake Corum",
-    "Fantasy Football FLEX Finder Week 7: Jaylin Noel, Blake Corum among the best bargain plays"
+    "Best NFL Week 7 Player Prop Bets: Goff, Smith and Corum",
+    "Blake Corum Game Log | Los Angeles Rams",
+    "Week 7 Fantasy Football Start \u2019Em, Sit \u2019Em: Jordan Mason VS Blake Corum"
    ],
    "cut": false,
    "inj": true,
@@ -2045,13 +2049,13 @@
   },
   "mike washington": {
    "h": [
-    "Can Mike Washington Jr. help ignite Raiders rushing offense? - Las Vegas Review-Journal",
-    "Mike Washington (foot/back) downgrades to DNP",
-    "Mike Washington Jr. or Xavier Worthy: Who Should I Start in Week 7? Fantasy Football"
+    "Mike Washington Jr. Misses Friday's practice",
+    "Mike Washington Jr.'s injury is throwing wrench into Raiders' perfect RB plan",
+    "Can Mike Washington Jr. help ignite Raiders rushing offense? - Las Vegas Review-Journal"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Mike Washington (foot/back) downgrades to DNP"
+   "worst": "Mike Washington Jr.'s injury is throwing wrench into Raiders' perfect RB plan"
   },
   "ashton jeanty": {
    "h": [
@@ -2065,7 +2069,7 @@
   },
   "emmett johnson": {
    "h": [
-    "Emmett Johnson or Ladd McConkey",
+    "J.K. Dobbins or Emmett Johnson",
     "Emmett Johnson Fantasy Football News, Rankings, Projections | Kansas City Chiefs",
     "Kyle Monangai or Emmett Johnson"
    ],
@@ -2075,13 +2079,13 @@
   },
   "kenneth walker": {
    "h": [
+    "Kenneth Walker III Talks About Facing Seahawks In Week 7",
     "Seahawks Took Controversial Action on Kenneth Walker as Star Cut Ties for Chiefs: Insider",
-    "NFL Week 7 bold predictions: Giants' J.J. McCarthy shreds Texans; Kenneth Walker III revenge game?",
-    "Seahawks' Mike Macdonald shares painful admission about Chiefs' Kenneth Walker III"
+    "NFL Week 7 bold predictions: Giants' J.J. McCarthy shreds Texans; Kenneth Walker III revenge game?"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Seahawks Took Controversial Action on Kenneth Walker as Star Cut Ties for Chiefs: Insider"
+   "worst": "Kenneth Walker III Talks About Facing Seahawks In Week 7"
   },
   "javonte williams": {
    "h": [
@@ -2113,6 +2117,7 @@
   },
   "pat freiermuth": {
    "h": [
+    "Pat Freiermuth, Steelers, on getting acclimated to Paris, treating it like \u2018business trip\u2019",
     "Pat Freiermuth Week 7 Outlook - Steelers at Saints",
     "Fantasy Football Start \u2019em, Sit \u2019em: Week 7 TEs Include Pat Freiermuth"
    ],
@@ -2153,11 +2158,12 @@
   "juwan johnson": {
    "h": [
     "Juwan Johnson Week 7 Outlook - Steelers at Saints",
-    "Jaylin Noel or Juwan Johnson"
+    "Jaylin Noel or Juwan Johnson",
+    "Juwan Johnson or Rashee Rice: Who Should I Start in Week 7? Fantasy Football"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Juwan Johnson Week 7 Outlook - Steelers at Saints"
+   "inj": true,
+   "worst": "Juwan Johnson or Rashee Rice: Who Should I Start in Week 7? Fantasy Football"
   },
   "devaughn vele": {
    "h": [
@@ -2208,13 +2214,13 @@
   },
   "jamarr chase": {
    "h": [
+    "Bengals\u2019 Ja\u2019Marr Chase Doesn\u2019t Hold Back Feelings on Ravens",
     "Bold predictions in NFL Week 7: Jahmyr Gibbs, Ja\u2019Marr Chase & more",
-    "Marlon Humphrey makes odd statement about Ja\u2019Marr Chase matchup",
-    "Ravens CB Makes Candid Admission on Bengals Ja\u2019Marr Chase"
+    "Marlon Humphrey makes odd statement about Ja\u2019Marr Chase matchup"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Bold predictions in NFL Week 7: Jahmyr Gibbs, Ja\u2019Marr Chase & more"
+   "worst": "Bengals\u2019 Ja\u2019Marr Chase Doesn\u2019t Hold Back Feelings on Ravens"
   },
   "jerry jeudy": {
    "h": [
@@ -2222,9 +2228,9 @@
     "Commanders could fix two major offensive weaknesses with bold Breece Hall and Jerry Jeudy trade deadline moves",
     "\"Can't Do Nothing\": Jerry Jeudy Gets Blunt Over Browns Future After WR Vents Frustration Over Decreased Role"
    ],
-   "cut": false,
+   "cut": true,
    "inj": false,
-   "worst": "AFC Notes: Trey Hendrickson, Boye Mafe, Jerry Jeudy, Bengals, Browns, Ravens"
+   "worst": "Jerry Jeudy making big plays, but still adjusting to reduced role with Browns"
   },
   "gunnar helm": {
    "h": [
@@ -2276,13 +2282,13 @@
   },
   "denzel boston": {
    "h": [
+    "Denzel Boston off Week 7 injury report",
     "Week 7 Best And Worst WR, TE Matchups: Denzel Boston, TJ Hockenson should cook",
-    "Fantasy Football Week 7 Start/Sit: Should You Start Germie Bernard and Denzel Boston?",
-    "Denzel Boston or Breece Hall: Who Should I Start in Week 7? Fantasy Football"
+    "Fantasy Football Week 7 Start/Sit: Should You Start Germie Bernard and Denzel Boston?"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Fantasy Football Week 7 Start/Sit: Should You Start Germie Bernard and Denzel Boston?"
+   "worst": "Denzel Boston off Week 7 injury report"
   },
   "will mallory": {
    "h": [
@@ -2314,13 +2320,13 @@
   },
   "josh downs": {
    "h": [
-    "Colts Trade Rumors: Fantasy Impact on Taylor and Downs",
     "Colts\u2019 Josh Downs Trade Truth Emerges",
-    "6 teams that should call the Indianapolis Colts about former UNC star Josh Downs"
+    "6 teams that should call the Indianapolis Colts about former UNC star Josh Downs",
+    "Colts WR Josh Downs acknowledges his struggles against Tennessee"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Colts Trade Rumors: Fantasy Impact on Taylor and Downs"
+   "inj": true,
+   "worst": "Josh Downs or Kc concepcion Jr.: Who Should I Start in Week 7? Fantasy Football"
   },
   "keenan allen": {
    "h": [
@@ -2364,19 +2370,12 @@
   },
   "malik washington": {
    "h": [
+    "Malik Washington Over 4.5 Receptions: Top Plus-Money Bet",
     "CeeDee Lamb or Malik Washington"
    ],
    "cut": false,
    "inj": false,
-   "worst": "CeeDee Lamb or Malik Washington"
-  },
-  "greg dulcich": {
-   "h": [
-    "Greg Dulcich or Colbie Young: Who Should I Start in Week 7? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Greg Dulcich or Colbie Young: Who Should I Start in Week 7? Fantasy Football"
+   "worst": "Malik Washington Over 4.5 Receptions: Top Plus-Money Bet"
   },
   "chris bell": {
    "h": [
@@ -2390,12 +2389,12 @@
   },
   "mason taylor": {
    "h": [
-    "Mason Taylor Week 7 Outlook - Dolphins at Jets",
-    "Mason Taylor or Colbie Young: Who Should I Start in Week 7? Fantasy Football"
+    "Dolphins Opponent Intel: Jets Insider Dishes on Minkah, Mason Taylor, Geno Smith and More",
+    "Mason Taylor Week 7 Outlook - Dolphins at Jets"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Mason Taylor or Colbie Young: Who Should I Start in Week 7? Fantasy Football"
+   "inj": false,
+   "worst": "Dolphins Opponent Intel: Jets Insider Dishes on Minkah, Mason Taylor, Geno Smith and More"
   },
   "kenyon sadiq": {
    "h": [
@@ -2494,11 +2493,12 @@
   },
   "nico collins": {
    "h": [
+    "Who Should I Start for Fantasy Football Week 7? Carnell Tate, Ja'Kobi Lane, Mike Washington Jr., KC Concepcion Jr., Drake London, Christian Watson, Nico Collins, Garrett Wilson",
     "Nico Collins 2026 Situational Stats"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Nico Collins 2026 Situational Stats"
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 7? Carnell Tate, Ja'Kobi Lane, Mike Washington Jr., KC Concepcion Jr., Drake London, Christian Watson, Nico Collins, Garrett Wilson"
   },
   "kyle juszczyk": {
    "h": [
@@ -2510,17 +2510,17 @@
   },
   "austin hooper": {
    "h": [
-    "Austin Hooper or Tyler Warren: Who Should I Start in Week 7? Fantasy Football"
+    "Tyler Warren or Austin Hooper: Who Should I Start in Week 7? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Austin Hooper or Tyler Warren: Who Should I Start in Week 7? Fantasy Football"
+   "worst": "Tyler Warren or Austin Hooper: Who Should I Start in Week 7? Fantasy Football"
   },
   "george kittle": {
    "h": [
     "49ers Bye Week Could Be Perfectly Timed, George Kittle Says",
     "Matthew Golden & George Kittle Headline Week 7 NFL Fantasy Football DFS Tournament-Winning Plays",
-    "49ers\u2019 George Kittle doesn\u2019t hold back on Brock Purdy expectations for 2026"
+    "49ers injury updates: Kyle Shanahan outlines practice plans for George Kittle, Nick Bosa"
    ],
    "cut": false,
    "inj": true,
@@ -2538,9 +2538,9 @@
   },
   "jahan dotson": {
    "h": [
+    "Is Jahan Dotson is worth a look in fantasy?",
     "Jahan Dotson Making His Case for Bigger Role in Falcons Offense",
-    "Jahan Dotson or T.J. Hockenson: Who Should I Pick Up? Fantasy Football (2026)",
-    "Brenen Thompson or Jahan Dotson: Who Should I Start in Week 7? Fantasy Football"
+    "Jahan Dotson or T.J. Hockenson: Who Should I Pick Up? Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
@@ -2581,11 +2581,12 @@
   },
   "ted hurst": {
    "h": [
+    "Fantasy Football Injury Impact: Emeka Egbuka Is Ruled OUT For Week 7, Opening The Door For Ted Hurst III",
     "Should I Pickup Tez Johnson or Ted Hurst III? Fantasy Football Waiver Wire Pickups for Week 7 (2026)"
    ],
-   "cut": false,
+   "cut": true,
    "inj": true,
-   "worst": "Should I Pickup Tez Johnson or Ted Hurst III? Fantasy Football Waiver Wire Pickups for Week 7 (2026)"
+   "worst": "Fantasy Football Injury Impact: Emeka Egbuka Is Ruled OUT For Week 7, Opening The Door For Ted Hurst III"
   },
   "chris godwin": {
    "h": [
@@ -2609,8 +2610,8 @@
   },
   "tetairoa mcmillan": {
    "h": [
-    "Tetairoa McMillan joins 'GMFB' to discuss second season with Panthers",
     "Bryce Young's 21-yard pass finds McMillan along the sideline",
+    "Tetairoa McMillan joins 'GMFB' to discuss second season with Panthers",
     "Can't-Miss Play: Bryce Young's sideline dime to toe-tapping Tetairoa McMillan dashes Lions' comeback hopes"
    ],
    "cut": false,
@@ -2640,11 +2641,11 @@
    "h": [
     "NFL Week 7 Start \u2018Em, Sit \u2018Em WRs: Jaylen Waddle Breakout Ahead?",
     "Jaylen Waddle or Darius Cooper",
-    "Jaylen Waddle Logs limited practice Thursday"
+    "Jaylen Waddle (chest) remains limited on Thursday"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jaylen Waddle Logs limited practice Thursday"
+   "worst": "Jaylen Waddle (chest) remains limited on Thursday"
   },
   "evan engram": {
    "h": [
@@ -2676,9 +2677,9 @@
   },
   "michael wilson": {
    "h": [
+    "Kendre Miller or Michael Wilson",
     "Better Days Ahead for Michael Wilson, Trey McBride? Fantasy Regression Candidates (Week 7)",
-    "'THE SENSE OF URGENCY WAS HIGH!' - Michael Wilson on Cardinals' win over Rams",
-    "NFL Week 7 fantasy football rankings: Are Michael Wilson, Colston Loveland in trouble?"
+    "'THE SENSE OF URGENCY WAS HIGH!' - Michael Wilson on Cardinals' win over Rams"
    ],
    "cut": false,
    "inj": true,
@@ -2741,23 +2742,23 @@
   },
   "sam laporta": {
    "h": [
-    "Dan Campbell Sends Clear Message About Sam LaPorta Controversy",
-    "Dan Campbell Loses His Cool Talking About Sam LaPorta",
-    "NFL Rumors: Insider Names 2 Teams to Watch as Potential Suitors for Sam LaPorta Trade"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Former Iowa football TE Sam LaPorta gets candid on Lions contract"
-  },
-  "jameson williams": {
-   "h": [
-    "Jameson Williams said Thursday, Oct. 22, 2026, he has underperformed through 5 games, but didn't characterize his play as a mental issue in Allen Park. #DetroitLions #JamesonWilliams",
-    "Detroit Free Press. . Jameson Williams said Thursday, Oct. 22, 2026, he has underperformed through 5 games, but didn't characterize his play as a mental issue in Allen Park \ud83d\udcf9 by Christian Romo, Detroit Free Press",
-    "Lions\u2019 Jameson Williams gives brutally honest review of his play to start 2026"
+    "Dan Campbell gets agitated with Lions reporter, walks off after repeated Sam LaPorta questions",
+    "Lions coach Dan Campbell trying to keep Sam LaPorta comments from becoming distraction",
+    "Dan Campbell Sends Clear Message About Sam LaPorta Controversy"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Jameson Williams said Thursday, Oct. 22, 2026, he has underperformed through 5 games, but didn't characterize his play as a mental issue in Allen Park. #DetroitLions #JamesonWilliams"
+   "worst": "Dan Campbell gets agitated with Lions reporter, walks off after repeated Sam LaPorta questions"
+  },
+  "jameson williams": {
+   "h": [
+    "Jameson Williams said Thursday, Oct. 22, 2026, he has underperformed through 5 games, but didn't characterize his play as a mental issue in Allen Park \ud83d\udcf9 by Christian Romo, Detroit Free Press",
+    "Lions\u2019 Jameson Williams gives brutally honest review of his play to start 2026",
+    "Lions WR Jameson Williams: My underperformance isn't a mental issue"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "14 QUESTIONS for Week 5! START or SIT Jameson Williams, Trevor Lawrence, Braelon Allen, DK Metcalf! | Fantasy Football Today Stream of National Football League"
   },
   "isaac teslaa": {
    "h": [
@@ -2799,13 +2800,13 @@
   },
   "puka nacua": {
    "h": [
-    "Rap: Nacua calf injury not considered serious",
-    "If Puka Nacua is injured, is any Rams WR worth starting in fantasy vs. the Raiders?",
-    "Insider shares telling Puka Nacua calf injury update before Rams game"
+    "Rams get bad news as Puka Nacua is 'very much up in the air' for Week 7",
+    "Rams Get Major Puka Nacua Injury Update Ahead of Raiders Game",
+    "Rap: Nacua calf injury not considered serious"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Rap: Nacua calf injury not considered serious"
+   "worst": "Rams Get Major Puka Nacua Injury Update Ahead of Raiders Game"
   },
   "konata mumpfield": {
    "h": [
@@ -2819,9 +2820,9 @@
   },
   "tyler higbee": {
    "h": [
+    "Tyler Higbee or Emanuel Wilson",
     "Week 7 Fantasy Football Rankings Standouts: Tyler Higbee & More Players HIgher/Lower Than Consensus",
-    "Tyler Higbee Week 7 Outlook - Rams at Raiders",
-    "3 Bold predictions for NFL Week 7: Talking 49ers, Malik Nabers, Tyler Higbee"
+    "Tyler Higbee Week 7 Outlook - Rams at Raiders"
    ],
    "cut": false,
    "inj": true,
@@ -2829,13 +2830,13 @@
   },
   "michael mayer": {
    "h": [
+    "How Michael Mayer went from a forgotten man to Raiders breakout star",
     "OPPORTUNITY: Las Vegas Raiders' Michael Mayer SURGES \u2013 Why He Belongs In Your Week 7 Lineup",
-    "Raiders news: Andrew Janocko sees Michael Mayer as valuable piece",
-    "How Michael Mayer went from a forgotten man to Raiders breakout star"
+    "Raiders news: Andrew Janocko sees Michael Mayer as valuable piece"
    ],
    "cut": false,
    "inj": false,
-   "worst": "OPPORTUNITY: Las Vegas Raiders' Michael Mayer SURGES \u2013 Why He Belongs In Your Week 7 Lineup"
+   "worst": "How Michael Mayer went from a forgotten man to Raiders breakout star"
   },
   "brock bowers": {
    "h": [
@@ -2849,9 +2850,9 @@
   },
   "xavier worthy": {
    "h": [
+    "Kenyon Sadiq or Xavier Worthy",
     "Xavier Worthy Stadium Tour Update Announced",
-    "Omar Cooper or Xavier Worthy: Who Should I Start in Week 7?",
-    "Patrick Mahomes' 15-yard dart to a leaping Xavier Worthy gets Chiefs into Chargers' territory on first drive"
+    "Omar Cooper or Xavier Worthy: Who Should I Start in Week 7?"
    ],
    "cut": false,
    "inj": true,
@@ -2859,11 +2860,11 @@
   },
   "noah gray": {
    "h": [
-    "Noah Gray or Tyler Warren: Who Should I Start in Week 7? Fantasy Football"
+    "Tyler Warren or Noah Gray: Who Should I Start in Week 7? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Noah Gray or Tyler Warren: Who Should I Start in Week 7? Fantasy Football"
+   "worst": "Tyler Warren or Noah Gray: Who Should I Start in Week 7? Fantasy Football"
   },
   "travis kelce": {
    "h": [
@@ -2934,9 +2935,9 @@
   },
   "ryan flournoy": {
    "h": [
+    "Quinshon Judkins or Ryan Flournoy",
     "Ryan Flournoy Prop Bets: Receiving Over/Under Lines vs. Eagles",
-    "Isaiah Likely or Ryan Flournoy",
-    "Who Should I Start for Fantasy Football Week 7? Omar Cooper Jr., Chris Olave, Marvin Harrison Jr., Rashee Rice, Christian Kirk, Dontayvion Wicks, Ashton Jeanty, Kyren Williams, Ryan Flournoy"
+    "Isaiah Likely or Ryan Flournoy"
    ],
    "cut": false,
    "inj": true,
@@ -2954,9 +2955,9 @@
   },
   "george pickens": {
    "h": [
+    "\u2018Talk to Your Superstar Players in Private\u2019 -- Eagles Super Bowl Champ Rips Cowboys HC Brian Schottenheimer for Calling George Pickens Out in Public",
     "George Pickens Fantasy Football Injury Update: Will WR Play This Week Against Eagles?",
-    "\"Never seen Andy Reid call out any player\": Patrick Mahomes' ex-teammate skewers Brian Schottenheimer for publicly criticizing George Pickens' efforts",
-    "\u2018He\u2019s a Puppet,\u2019 \u2018Jerry Jones Is Geppetto\u2019 -- NFL Legend Slams Cowboys HC Brian Schottenheimer for Publicly Singling Out George Pickens"
+    "\"Never seen Andy Reid call out any player\": Patrick Mahomes' ex-teammate skewers Brian Schottenheimer for publicly criticizing George Pickens' efforts"
    ],
    "cut": false,
    "inj": true,
@@ -2966,7 +2967,7 @@
    "h": [
     "49ers Get Strong Take on Cowboys\u2019 CeeDee Lamb Before Trade Deadline",
     "CeeDee Lamb Injury Update: Is he ready to Rock & Roll?",
-    "Zero to 100: CeeDee Lamb making the grade"
+    "CeeDee Lamb Fantasy Outlook & Stats"
    ],
    "cut": false,
    "inj": true,
@@ -2974,9 +2975,9 @@
   },
   "drake maye": {
    "h": [
+    "Bears Win Thriller as Caleb Williams Outduels Drake Maye",
     "Viral video catches what Caleb Williams said to Drake Maye after game",
-    "Caleb Williams outduels Drake Maye as Bears down Patriots on TNF: Winners and losers",
-    "Caleb Williams Outduels Drake Maye on Thursday Night Football"
+    "Caleb Williams outduels Drake Maye as Bears down Patriots on TNF: Winners and losers"
    ],
    "cut": false,
    "inj": true,
@@ -2984,39 +2985,40 @@
   },
   "caleb williams": {
    "h": [
-    "Bears Topple Patriots 30-24 Thanks to Caleb Williams and Cairo Santos",
-    "NFL to Announce Punishment Decision on Caleb Williams Incident",
+    "Caleb Williams pokes fun at Richard Sherman for Bears ranking: \u2018I see it all\u2019",
+    "Bears Win Thriller as Caleb Williams Outduels Drake Maye",
     "Is Caleb Williams actually a young Aaron Rodgers?"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Bears Topple Patriots 30-24 Thanks to Caleb Williams and Cairo Santos"
+   "worst": "Caleb Williams pokes fun at Richard Sherman for Bears ranking: \u2018I see it all\u2019"
   },
   "baker mayfield": {
    "h": [
+    "Baker Mayfield returns for Bucs, but WR Emeka Egbuka, RT Luke Goedeke out",
     "Buccaneers\u2019 Baker Mayfield gets \u2018ready to go\u2019 nod in latest injury update for Panthers clash",
-    "Buccaneers QB Baker Mayfield Starting Week 7",
-    "Eric Morris Compares Drew Mestemaker to Patrick Mahomes, Baker Mayfield as NFL GMs Focus on Stillwater"
+    "Baker Mayfield is back for the Bucs against the Panthers, but his return is complicated by two big problems"
    ],
-   "cut": false,
+   "cut": true,
    "inj": true,
-   "worst": "Buccaneers\u2019 Baker Mayfield gets \u2018ready to go\u2019 nod in latest injury update for Panthers clash"
+   "worst": "Baker Mayfield \"ready to go,\" Emeka Egbuka is doubtful to play for Bucs"
   },
   "lamar jackson": {
    "h": [
-    "Lamar Jackson (ankle) practicing again on Friday",
-    "Ravens\u2019 Lamar Jackson practices again, raising hopes for return vs. Bengals",
-    "Ravens\u2019 Lamar Jackson practices again, raising hopes for return vs. Bengals"
+    "Ravens Get \u2018Encouraging\u2019 Injury Update on QB Lamar Jackson for Bengals game",
+    "Ravens news: Latest Lamar Jackson injury update bodes well for Baltimore-Bengals tilt",
+    "Lamar Jackson (ankle) practicing again on Friday"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Lamar Jackson (ankle) practicing again on Friday"
+   "worst": "Ravens Get \u2018Encouraging\u2019 Injury Update on QB Lamar Jackson for Bengals game"
   }
  },
  "qbhurt": [
   "BAL",
   "CAR",
   "GB",
+  "IND",
   "NYG",
   "PIT",
   "TB"
