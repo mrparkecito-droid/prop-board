@@ -1,14 +1,18 @@
 {
- "generated": "2026-10-25T17:01:07+00:00",
+ "generated": "2026-10-25T17:10:15+00:00",
  "games": {
-  "PITNO": {
-   "home": "NO",
-   "away": "PIT",
-   "kick": "2026-10-25T13:30Z",
+  "INDMIN": {
+   "home": "MIN",
+   "away": "IND",
+   "kick": "2026-10-25T17:00Z",
    "indoor": true,
-   "neutral": true,
+   "neutral": false,
    "spread": {},
-   "total": null
+   "total": null,
+   "espn_wx": {
+    "desc": "7",
+    "temp": 52
+   }
   },
   "SFATL": {
    "home": "ATL",
@@ -16,11 +20,8 @@
    "kick": "2026-10-25T17:00Z",
    "indoor": true,
    "neutral": false,
-   "spread": {
-    "SF": -2.5,
-    "ATL": 2.5
-   },
-   "total": 49.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "1",
     "temp": 67
@@ -32,11 +33,8 @@
    "kick": "2026-10-25T17:00Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "CLE": -1.5,
-    "TEN": 1.5
-   },
-   "total": 36.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "1",
     "temp": 73
@@ -49,33 +47,14 @@
     "temp": 73
    }
   },
-  "INDMIN": {
-   "home": "MIN",
-   "away": "IND",
-   "kick": "2026-10-25T17:00Z",
-   "indoor": true,
-   "neutral": false,
-   "spread": {
-    "MIN": -6.5,
-    "IND": 6.5
-   },
-   "total": 41.5,
-   "espn_wx": {
-    "desc": "7",
-    "temp": 52
-   }
-  },
   "MIANYJ": {
    "home": "NYJ",
    "away": "MIA",
    "kick": "2026-10-25T17:00Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "NYJ": -3.5,
-    "MIA": 3.5
-   },
-   "total": 39.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "1",
     "temp": 62
@@ -94,11 +73,8 @@
    "kick": "2026-10-25T17:00Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "CAR": -3.0,
-    "TB": 3.0
-   },
-   "total": 44.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "1",
     "temp": 65
@@ -117,11 +93,8 @@
    "kick": "2026-10-25T17:00Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "CIN": -3.0,
-    "BAL": 3.0
-   },
-   "total": 46.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "2",
     "temp": 62
@@ -140,11 +113,8 @@
    "kick": "2026-10-25T17:00Z",
    "indoor": true,
    "neutral": false,
-   "spread": {
-    "HOU": -10.0,
-    "NYG": 10.0
-   },
-   "total": 42.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "1",
     "temp": 75
@@ -1237,23 +1207,27 @@
   },
   "patrick mahomes": {
    "h": "Sources: Josh Simmons told to leave Chiefs meeting by Andy Reid, Patrick Mahomes",
-   "t": "2026-10-25T14:44:48Z"
+   "t": "2026-10-25T16:21:08Z"
   },
   "kenneth walker": {
    "h": "How to bet Chiefs-Seahawks: Analysis, tips and top prop plays",
    "t": "2026-10-25T10:21:27Z"
   },
-  "derrick henry": {
+  "braelon allen": {
    "h": "Why Derrick Henry has taken Jets RB Braelon Allen under his wing",
    "t": "2026-10-25T13:38:22Z"
   },
-  "braelon allen": {
+  "derrick henry": {
    "h": "Why Derrick Henry has taken Jets RB Braelon Allen under his wing",
    "t": "2026-10-25T13:38:22Z"
   },
   "joe burrow": {
    "h": "How Bengals star QB Joe Burrow brings a chess mindset to football",
    "t": "2026-10-25T16:04:47Z"
+  },
+  "travis kelce": {
+   "h": "Mahomes and Kelce the Chiefs dynamic duo",
+   "t": "2026-10-25T16:20:13Z"
   },
   "aaron jones": {
    "h": "Vikings activate RB Jordan Mason off injured reserve",
@@ -1271,17 +1245,13 @@
    "h": "Will Niners have edge with ex-Falcons coach facing Penix?",
    "t": "2026-10-24T10:00:21Z"
   },
-  "ceedee lamb": {
-   "h": "Cowboys say still time to turn things around after 2-4 start",
-   "t": "2026-10-24T00:10:08Z"
-  },
   "dak prescott": {
    "h": "Cowboys say still time to turn things around after 2-4 start",
    "t": "2026-10-24T00:10:08Z"
   },
-  "quinshon judkins": {
-   "h": "Browns RBs Quinshon Judkins, Dylan Sampson expected to play",
-   "t": "2026-10-23T20:19:54Z"
+  "ceedee lamb": {
+   "h": "Cowboys say still time to turn things around after 2-4 start",
+   "t": "2026-10-24T00:10:08Z"
   }
  },
  "trend": {
@@ -1472,11 +1442,11 @@
  },
  "buzz": {},
  "sources": {
-  "lines": "12 games",
+  "lines": "5 games",
   "weather": "6 outdoor games",
   "injuries": "183 players listed",
   "news": "14 players in headlines",
-  "google_news": "5 role-cut, 152 injury headlines; QB hurt: CIN, TB",
+  "google_news": "5 role-cut, 151 injury headlines; QB hurt: CIN, TB",
   "sleeper_trending": "46 board players trending",
   "reddit": "unavailable"
  },
@@ -1720,16 +1690,6 @@
    "cut": true,
    "inj": false,
    "worst": "\u201cHe Can\u2019t Go Anywhere\u201d: Cam Newton Fears Dak Prescott-Like Embarrassing Treatment for Bryce Underwood After Michigan Benching"
-  },
-  "cj donaldson": {
-   "h": [
-    "CJ Donaldson Injury Update: Saints RB News Impacts Steelers Game",
-    "CJ Donaldson or Andrew Armstrong: Who Should I Start in Week 7? Fantasy Football",
-    "CJ Donaldson Week 7 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "CJ Donaldson Injury Update: Saints RB News Impacts Steelers Game"
   },
   "samaje perine": {
    "h": [
@@ -2211,16 +2171,6 @@
    "inj": true,
    "worst": "Is Ja'Marr Chase Playing Today? (Injury Update, Betting Impact for Bengals vs. Ravens in NFL Week 7)"
   },
-  "jerry jeudy": {
-   "h": [
-    "Browns rumors: Jerry Jeudy trade buzz is dying, but don\u2019t completely rule it out",
-    "Browns Unlikely To Trade WR Jerry Jeudy?",
-    "Browns have clear stance on trading Jerry Jeudy amid trade speculation"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Browns rumors: Jerry Jeudy trade buzz is dying, but don\u2019t completely rule it out"
-  },
   "gunnar helm": {
    "h": [
     "Gunnar Helm or Thomas Fidone II: Who Should I Start in Week 7? Fantasy Football",
@@ -2230,6 +2180,16 @@
    "cut": false,
    "inj": true,
    "worst": "Gunnar Helm or Thomas Fidone II: Who Should I Start in Week 7? Fantasy Football"
+  },
+  "jerry jeudy": {
+   "h": [
+    "Browns rumors: Jerry Jeudy trade buzz is dying, but don\u2019t completely rule it out",
+    "Browns Unlikely To Trade WR Jerry Jeudy?",
+    "Browns have clear stance on trading Jerry Jeudy amid trade speculation"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Browns rumors: Jerry Jeudy trade buzz is dying, but don\u2019t completely rule it out"
   },
   "wandale robinson": {
    "h": [
@@ -2279,6 +2239,16 @@
    "inj": true,
    "worst": "Denzel Boston Fantasy Football Start or Sit Advice for Week 7"
   },
+  "jauan jennings": {
+   "h": [
+    "Vikings Receive Strong Jauan Jennings Message Amid 49ers Speculation",
+    "Vikings Game Panel for Week 7: The Winner, The Sack Total, and Jauan Jennings (Sort of) Exploding",
+    "Jauan Jennings trade rumors give Chiefs an intriguing opportunity to upgrade at WR"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Vikings Receive Strong Jauan Jennings Message Amid 49ers Speculation"
+  },
   "tj hockenson": {
    "h": [
     "Fantasy Football injury update: T.J. Hockenson cleared of concussion",
@@ -2298,16 +2268,6 @@
    "cut": false,
    "inj": true,
    "worst": "Mark Redman or Will Mallory: Who Should I Start in Week 7? Fantasy Football"
-  },
-  "jauan jennings": {
-   "h": [
-    "Vikings Receive Strong Jauan Jennings Message Amid 49ers Speculation",
-    "Vikings Game Panel for Week 7: The Winner, The Sack Total, and Jauan Jennings (Sort of) Exploding",
-    "Jauan Jennings trade rumors give Chiefs an intriguing opportunity to upgrade at WR"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Vikings Receive Strong Jauan Jennings Message Amid 49ers Speculation"
   },
   "josh downs": {
    "h": [
@@ -2433,14 +2393,6 @@
    "inj": true,
    "worst": "Andrew Armstrong or Garrett Wilson: Who Should I Start in Week 7? Fantasy Football"
   },
-  "darnell mooney": {
-   "h": [
-    "Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football"
-  },
   "devin singletary": {
    "h": [
     "Corey Kiner or Devin Singletary: Who Should I Start in Week 7? Fantasy Football"
@@ -2448,6 +2400,32 @@
    "cut": false,
    "inj": true,
    "worst": "Corey Kiner or Devin Singletary: Who Should I Start in Week 7? Fantasy Football"
+  },
+  "xavier hutchinson": {
+   "h": [
+    "Cyrus Allen or Xavier Hutchinson: Who Should I Start in Week 7? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Cyrus Allen or Xavier Hutchinson: Who Should I Start in Week 7? Fantasy Football"
+  },
+  "kayshon boutte": {
+   "h": [
+    "How Kayshon Boutte Nearly Lost His NFL Career Rklb (2IJD6cjqFr)",
+    "Britain Covey or Kayshon Boutte: Who Should I Start in Week 7? Fantasy Football",
+    "Kayshon Boutte Week 7 Outlook for Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Britain Covey or Kayshon Boutte: Who Should I Start in Week 7? Fantasy Football"
+  },
+  "darnell mooney": {
+   "h": [
+    "Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football"
   },
   "malik nabers": {
    "h": [
@@ -2506,14 +2484,6 @@
    "inj": true,
    "worst": "Foster Moreau Week 7 Outlook for Fantasy Football (2026)"
   },
-  "xavier hutchinson": {
-   "h": [
-    "Cyrus Allen or Xavier Hutchinson: Who Should I Start in Week 7? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Cyrus Allen or Xavier Hutchinson: Who Should I Start in Week 7? Fantasy Football"
-  },
   "marvin harrison": {
    "h": [
     "Week 7 NFL odds, prop picks, predictions: Target NFL player props for Marvin Harrison Jr., Tee Higgins today",
@@ -2524,16 +2494,6 @@
    "inj": false,
    "worst": "Week 7 NFL odds, prop picks, predictions: Target NFL player props for Marvin Harrison Jr., Tee Higgins today"
   },
-  "kayshon boutte": {
-   "h": [
-    "How Kayshon Boutte Nearly Lost His NFL Career Rklb (2IJD6cjqFr)",
-    "Britain Covey or Kayshon Boutte: Who Should I Start in Week 7? Fantasy Football",
-    "Kayshon Boutte Week 7 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Britain Covey or Kayshon Boutte: Who Should I Start in Week 7? Fantasy Football"
-  },
   "nico collins": {
    "h": [
     "Nico Collins or Jaylin Noel: Who Should I Start in Week 7? Fantasy Football",
@@ -2543,6 +2503,25 @@
    "cut": false,
    "inj": true,
    "worst": "Nico Collins or Jaylin Noel: Who Should I Start in Week 7? Fantasy Football"
+  },
+  "zachariah branch": {
+   "h": [
+    "Jalen Brooks or Zachariah Branch: Who Should I Start in Week 7? Fantasy Football",
+    "Zachariah Branch Week 7 Outlook for Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jalen Brooks or Zachariah Branch: Who Should I Start in Week 7? Fantasy Football"
+  },
+  "jahan dotson": {
+   "h": [
+    "Tee Higgins or Jahan Dotson: Who Should I Start in Week 7? Fantasy Football",
+    "Ted Hurst III or Jahan Dotson: Who Should I Pick Up? Fantasy Football (2026)",
+    "Jahan Dotson Week 7 Outlook for Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Tee Higgins or Jahan Dotson: Who Should I Start in Week 7? Fantasy Football"
   },
   "jordan watkins": {
    "h": [
@@ -2564,15 +2543,6 @@
    "inj": true,
    "worst": "Brandin Cooks or Ted Hurst III: Who Should I Pick Up? Fantasy Football (2026)"
   },
-  "zachariah branch": {
-   "h": [
-    "Jalen Brooks or Zachariah Branch: Who Should I Start in Week 7? Fantasy Football",
-    "Zachariah Branch Week 7 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jalen Brooks or Zachariah Branch: Who Should I Start in Week 7? Fantasy Football"
-  },
   "george kittle": {
    "h": [
     "49ers\u2019 George Kittle provides encouraging update on Achilles recovery",
@@ -2592,16 +2562,6 @@
    "cut": false,
    "inj": true,
    "worst": "Kyle Pitts Sr. or Luke Farrell: Who Should I Start in Week 7? Fantasy Football"
-  },
-  "jahan dotson": {
-   "h": [
-    "Tee Higgins or Jahan Dotson: Who Should I Start in Week 7? Fantasy Football",
-    "Ted Hurst III or Jahan Dotson: Who Should I Pick Up? Fantasy Football (2026)",
-    "Jahan Dotson Week 7 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Tee Higgins or Jahan Dotson: Who Should I Start in Week 7? Fantasy Football"
   },
   "drake london": {
    "h": [
