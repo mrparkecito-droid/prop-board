@@ -173,7 +173,7 @@
    "prop": "Receiving Yards",
    "line": 40,
    "ask": 88,
-   "bid": 86,
+   "bid": 85,
    "vals": [
     44.0,
     153.0,
@@ -222,7 +222,7 @@
    "most": 8,
    "per": 253.8,
    "dstat": "pass yds",
-   "p": 84,
+   "p": 83,
    "roi": -5,
    "pp": 85,
    "hs": 77,
@@ -232,11 +232,11 @@
    "agree": 2,
    "score": 72.6,
    "flags": [],
-   "pc": 0.8365,
+   "pc": 0.8335,
    "praw": 0.8568,
    "rg": "WR1",
    "est": false,
-   "mid": 87.0,
+   "mid": 86.5,
    "tk": "KXNFLRECYDS-26OCT26DALPHI-DALCLAMB88-40",
    "ev": "KXNFLRECYDS-26OCT26DALPHI",
    "ctx": 0.35,
@@ -848,7 +848,7 @@
    "rks": 26,
    "vs": 44,
    "agree": 2,
-   "score": 57.7,
+   "score": 58.0,
    "flags": [],
    "pc": 0.8058,
    "praw": 0.787,
@@ -857,9 +857,13 @@
    "mid": 85.5,
    "tk": "KXNFLRECYDS-26OCT25KCSEA-SEAJSMITHNJIGBA11-50",
    "ev": "KXNFLRECYDS-26OCT25KCSEA",
-   "ctx": 0,
-   "cxs": 50,
+   "ctx": 0.15,
+   "cxs": 58,
    "reasons": [
+    [
+     0.15,
+     "KC secondary missing CB Jadon Canady"
+    ],
     [
      -0.24,
      "KC gives up 31% fewer receiving yds to WR1s than average."
@@ -915,7 +919,7 @@
    "risk": 1,
    "tpts": 23.2,
    "rank": 6,
-   "why": "Cleared 50+ in 6 of 6 games, by +70 on average (16 of 17 last season), Sleeper projects 107.6, KC let 3 of 5 WR1s reach it. His share of targets fell from 46% to 35%. Watch: KC gives up 31% fewer receiving yds to WR1s than average..",
+   "why": "Cleared 50+ in 6 of 6 games, by +70 on average (16 of 17 last season), Sleeper projects 107.6, KC let 3 of 5 WR1s reach it. His share of targets fell from 46% to 35%. KC secondary missing CB Jadon Canady. Watch: KC gives up 31% fewer receiving yds to WR1s than average..",
    "news": ""
   },
   {
@@ -930,8 +934,8 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 5,
-   "ask": 82,
-   "bid": 81,
+   "ask": 83,
+   "bid": 82,
    "vals": [
     8.0,
     9.0,
@@ -983,18 +987,22 @@
    "rks": 26,
    "vs": 45,
    "agree": 2,
-   "score": 57.4,
+   "score": 57.7,
    "flags": [],
-   "pc": 0.7782,
+   "pc": 0.785,
    "praw": 0.7617,
    "rg": "WR1",
    "est": false,
-   "mid": 81.5,
+   "mid": 82.5,
    "tk": "KXNFLREC-26OCT25KCSEA-SEAJSMITHNJIGBA11-5",
    "ev": "KXNFLREC-26OCT25KCSEA",
-   "ctx": 0,
-   "cxs": 50,
+   "ctx": 0.15,
+   "cxs": 58,
    "reasons": [
+    [
+     0.15,
+     "KC secondary missing CB Jadon Canady"
+    ],
     [
      -0.17,
      "KC gives up 16% fewer catches to WR1s than average."
@@ -1050,132 +1058,7 @@
    "risk": 1,
    "tpts": 23.2,
    "rank": 7,
-   "why": "Cleared 5+ in 6 of 6 games, by +3 on average (15 of 17 last season), Sleeper projects 7.2, KC let 3 of 5 WR1s reach it. His share of targets fell from 46% to 35%. Watch: KC gives up 16% fewer catches to WR1s than average..",
-   "news": ""
-  },
-  {
-   "game": "KCSEA",
-   "glabel": "KC @ SEA",
-   "day": "Sun",
-   "player": "Sam Darnold",
-   "team": "SEA",
-   "opp": "KC",
-   "pos": "QB",
-   "role": "QB",
-   "stat": "pass",
-   "prop": "Passing Yards",
-   "line": 150,
-   "ask": 88,
-   "bid": 87,
-   "vals": [
-    13.0,
-    null,
-    379.0,
-    168.0,
-    195.0,
-    278.0
-   ],
-   "over": 4,
-   "n": 5,
-   "proj": 223.3,
-   "al": [
-    [
-     1,
-     "DEN",
-     131.0
-    ],
-    [
-     2,
-     "IND",
-     210.0
-    ],
-    [
-     3,
-     "MIA",
-     210.0
-    ],
-    [
-     4,
-     "LV",
-     365.0
-    ],
-    [
-     6,
-     "LAC",
-     204.0
-    ]
-   ],
-   "dhit": 4,
-   "dn": 5,
-   "most": 24,
-   "per": 224.0,
-   "dstat": "pass yds",
-   "p": 83,
-   "roi": -5,
-   "pp": 95,
-   "hs": 75,
-   "dhs": 71,
-   "rks": 26,
-   "vs": 45,
-   "agree": 1,
-   "score": 54.7,
-   "flags": [],
-   "pc": 0.8334,
-   "praw": 0.8173,
-   "rg": "QB",
-   "est": false,
-   "mid": 87.5,
-   "tk": "KXNFLPASSYDS-26OCT25KCSEA-SEASDARNOLD14-150",
-   "ev": "KXNFLPASSYDS-26OCT25KCSEA",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [],
-   "status": null,
-   "ppj": 93,
-   "pu": 97,
-   "uinfo": {
-    "share": [
-     2.0,
-     45.0,
-     22.0,
-     29.0,
-     51.0
-    ],
-    "kind": "attempts",
-    "snap": 88,
-    "snaps": [
-     100,
-     100,
-     100,
-     100
-    ],
-    "snap_last": 100,
-    "mu": 251.9,
-    "opp": 32.5,
-    "note": ""
-   },
-   "po": 15,
-   "pn": 17,
-   "pid": "4943",
-   "sx": 0.0,
-   "sxs": 50,
-   "mx": -0.22,
-   "mxs": 39,
-   "env": -0.13,
-   "dfac": 0.0,
-   "dfs": 50,
-   "off": 0.08,
-   "ofs": 54,
-   "cu": 74,
-   "avgm": 56.6,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
-   "risk": 1,
-   "tpts": 23.2,
-   "rank": 8,
-   "why": "Cleared 150+ in 4 of 5 games, by +57 on average (15 of 17 last season), Sleeper projects 223.3, KC let 4 of 5 QBs reach it.",
+   "why": "Cleared 5+ in 6 of 6 games, by +3 on average (15 of 17 last season), Sleeper projects 7.2, KC let 3 of 5 WR1s reach it. His share of targets fell from 46% to 35%. KC secondary missing CB Jadon Canady. Watch: KC gives up 16% fewer catches to WR1s than average..",
    "news": ""
   },
   {
@@ -1243,7 +1126,7 @@
    "rks": 26,
    "vs": 47,
    "agree": 2,
-   "score": 52.0,
+   "score": 52.3,
    "flags": [],
    "pc": 0.708,
    "praw": 0.7401,
@@ -1252,9 +1135,13 @@
    "mid": 72.5,
    "tk": "KXNFLREC-26OCT25KCSEA-SEACKUPP10-2",
    "ev": "KXNFLREC-26OCT25KCSEA",
-   "ctx": 0,
-   "cxs": 50,
+   "ctx": 0.15,
+   "cxs": 58,
    "reasons": [
+    [
+     0.15,
+     "KC secondary missing CB Jadon Canady"
+    ],
     [
      -0.18,
      "KC gives up 20% fewer catches to WR2s than average."
@@ -1313,8 +1200,147 @@
    },
    "risk": 1,
    "tpts": 23.2,
+   "rank": 8,
+   "why": "Cleared 2+ in 5 of 6 games, by +0.7 on average (14 of 16 last season), Sleeper projects 2.6, KC let 5 of 5 WR2s reach it. His share of targets is up from 12% to 22%. KC secondary missing CB Jadon Canady. Watch: KC gives up 20% fewer catches to WR2s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 72\u00a2..",
+   "news": ""
+  },
+  {
+   "game": "KCSEA",
+   "glabel": "KC @ SEA",
+   "day": "Sun",
+   "player": "Cooper Kupp",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 69,
+   "bid": 67,
+   "vals": [
+    35.0,
+    20.0,
+    46.0,
+    13.0,
+    15.0,
+    50.0
+   ],
+   "over": 5,
+   "n": 6,
+   "proj": 32.3,
+   "al": [
+    [
+     1,
+     "DEN",
+     11.0
+    ],
+    [
+     2,
+     "IND",
+     61.0
+    ],
+    [
+     3,
+     "MIA",
+     56.0
+    ],
+    [
+     4,
+     "LV",
+     36.0
+    ],
+    [
+     6,
+     "LAC",
+     32.0
+    ]
+   ],
+   "dhit": 4,
+   "dn": 5,
+   "most": 24,
+   "per": 224.0,
+   "dstat": "pass yds",
+   "p": 67,
+   "roi": -3,
+   "pp": 84,
+   "hs": 78,
+   "dhs": 71,
+   "rks": 26,
+   "vs": 47,
+   "agree": 1,
+   "score": 51.6,
+   "flags": [],
+   "pc": 0.671,
+   "praw": 0.7779,
+   "rg": "WR2",
+   "est": false,
+   "mid": 68.0,
+   "tk": "KXNFLRECYDS-26OCT25KCSEA-SEACKUPP10-15",
+   "ev": "KXNFLRECYDS-26OCT25KCSEA",
+   "ctx": 0.15,
+   "cxs": 58,
+   "reasons": [
+    [
+     0.15,
+     "KC secondary missing CB Jadon Canady"
+    ],
+    [
+     -0.04,
+     "Injury in the news: rust/health risk, so the chance leans toward Kalshi's 68\u00a2."
+    ]
+   ],
+   "status": null,
+   "ppj": 84,
+   "pu": 84,
+   "uinfo": {
+    "share": [
+     12,
+     8,
+     11,
+     10,
+     11,
+     22
+    ],
+    "kind": "targets",
+    "snap": 70,
+    "snaps": [
+     67,
+     57,
+     81,
+     85
+    ],
+    "snap_last": 85,
+    "mu": 32.5,
+    "opp": 4.1,
+    "note": "His share of targets is up from 12% to 22%."
+   },
+   "po": 15,
+   "pn": 16,
+   "pid": "4039",
+   "sx": 0.0,
+   "sxs": 50,
+   "mx": -0.27,
+   "mxs": 36,
+   "env": -0.16,
+   "dfac": -0.13,
+   "dfs": 44,
+   "off": 0.08,
+   "ofs": 54,
+   "cu": 75,
+   "avgm": 14.8,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Sam Darnold",
+    "same": true,
+    "n": 4
+   },
+   "risk": 1,
+   "tpts": 23.2,
    "rank": 9,
-   "why": "Cleared 2+ in 5 of 6 games, by +0.7 on average (14 of 16 last season), Sleeper projects 2.6, KC let 5 of 5 WR2s reach it. His share of targets is up from 12% to 22%. Watch: KC gives up 20% fewer catches to WR2s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 72\u00a2..",
+   "why": "Cleared 15+ in 5 of 6 games, by +15 on average (15 of 16 last season), Sleeper projects 32.3, KC let 4 of 5 WR2s reach it. His share of targets is up from 12% to 22%. KC secondary missing CB Jadon Canady. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 68\u00a2..",
    "news": ""
   },
   {
@@ -1783,7 +1809,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 85,
-   "bid": 71,
+   "bid": 75,
    "vals": [
     -5.0,
     14.0,
@@ -1832,21 +1858,21 @@
    "most": 13,
    "per": 239.2,
    "dstat": "pass yds",
-   "p": 78,
-   "roi": -9,
+   "p": 76,
+   "roi": -11,
    "pp": 84,
    "hs": 65,
    "dhs": 88,
    "rks": 61,
-   "vs": 41,
+   "vs": 39,
    "agree": 2,
-   "score": 43.7,
+   "score": 43.4,
    "flags": [],
-   "pc": 0.7772,
+   "pc": 0.7562,
    "praw": 0.7609,
    "rg": "WR2",
    "est": false,
-   "mid": 83.5,
+   "mid": 80.0,
    "tk": "KXNFLRECYDS-26OCT26DALPHI-PHIMLEMON9-15",
    "ev": "KXNFLRECYDS-26OCT26DALPHI",
    "ctx": 0.28,
@@ -1951,7 +1977,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 85,
-   "bid": 73,
+   "bid": 75,
    "vals": [
     0.0,
     26.0,
@@ -2000,21 +2026,21 @@
    "most": 13,
    "per": 239.2,
    "dstat": "pass yds",
-   "p": 75,
-   "roi": -12,
+   "p": 73,
+   "roi": -14,
    "pp": 78,
    "hs": 50,
    "dhs": 88,
    "rks": 61,
-   "vs": 38,
+   "vs": 36,
    "agree": 2,
-   "score": 36.4,
+   "score": 36.2,
    "flags": [],
-   "pc": 0.7501,
+   "pc": 0.7291,
    "praw": 0.682,
    "rg": "WR1",
    "est": false,
-   "mid": 83.5,
+   "mid": 80.0,
    "tk": "KXNFLRECYDS-26OCT26DALPHI-PHIDCOOPER80-15",
    "ev": "KXNFLRECYDS-26OCT26DALPHI",
    "ctx": 0.28,
@@ -2437,41 +2463,18 @@
    "news": ""
   }
  ],
- "rows": 450,
- "ladders": 56,
+ "rows": 436,
+ "ladders": 54,
  "skipped": [],
- "cut_news": [],
+ "cut_news": [
+  "Sam Darnold"
+ ],
  "started": [
   "DENARI",
   "GBDET",
   "LARLV"
  ],
  "parlay": [
-  {
-   "pl": "Sam Darnold",
-   "tm": "SEA",
-   "g": "KCSEA",
-   "gl": "KC @ SEA",
-   "st": "pass",
-   "pr": "Passing Yards",
-   "ln": 200,
-   "ask": 67,
-   "q": 66.5,
-   "p": 0.645,
-   "sc": 38.2,
-   "est": 0,
-   "tk": "KXNFLPASSYDS-26OCT25KCSEA-SEASDARNOLD14-200",
-   "ev": "KXNFLPASSYDS-26OCT25KCSEA",
-   "wy": "Cleared 200+ in 2 of 5 games, by +7 on average (12 of 17 last season), Sleeper projects 223.3, KC let 4 of 5 QBs reach it. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 66\u00a2..",
-   "id": "4943",
-   "cx": 0,
-   "nw": "",
-   "dy": "Sun",
-   "df": 0.0,
-   "xb": 0,
-   "rk": 1,
-   "pt": 23.2
-  },
   {
    "pl": "Jaxon Smith-Njigba",
    "tm": "SEA",
@@ -2483,13 +2486,13 @@
    "ask": 36,
    "q": 35.5,
    "p": 0.3399,
-   "sc": 21.7,
+   "sc": 21.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT25KCSEA-SEAJSMITHNJIGBA11-110",
    "ev": "KXNFLRECYDS-26OCT25KCSEA",
-   "wy": "Cleared 110+ in 4 of 6 games, by +10 on average (7 of 17 last season), KC let 0 of 5 WR1s reach it. His share of targets fell from 46% to 35%. Watch: KC gives up 31% fewer receiving yds to WR1s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 36\u00a2..",
+   "wy": "Cleared 110+ in 4 of 6 games, by +10 on average (7 of 17 last season), KC let 0 of 5 WR1s reach it. His share of targets fell from 46% to 35%. KC secondary missing CB Jadon Canady. Watch: KC gives up 31% fewer receiving yds to WR1s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 36\u00a2..",
    "id": "9488",
-   "cx": 0,
+   "cx": 0.15,
    "nw": "",
    "dy": "Sun",
    "df": 0.3,
@@ -2506,21 +2509,96 @@
    "pr": "Receiving Yards",
    "ln": 100,
    "ask": 44,
-   "q": 43.0,
-   "p": 0.4121,
-   "sc": 27.0,
+   "q": 43.5,
+   "p": 0.4163,
+   "sc": 27.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT25KCSEA-SEAJSMITHNJIGBA11-100",
    "ev": "KXNFLRECYDS-26OCT25KCSEA",
-   "wy": "Cleared 100+ in 5 of 6 games, by +20 on average (9 of 17 last season), Sleeper projects 107.6, KC let 0 of 5 WR1s reach it. His share of targets fell from 46% to 35%. Watch: KC gives up 31% fewer receiving yds to WR1s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 43\u00a2..",
+   "wy": "Cleared 100+ in 5 of 6 games, by +20 on average (9 of 17 last season), Sleeper projects 107.6, KC let 0 of 5 WR1s reach it. His share of targets fell from 46% to 35%. KC secondary missing CB Jadon Canady. Watch: KC gives up 31% fewer receiving yds to WR1s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 44\u00a2..",
    "id": "9488",
-   "cx": 0,
+   "cx": 0.15,
    "nw": "",
    "dy": "Sun",
    "df": 0.3,
    "xb": 0,
    "rk": 1,
    "pt": 23.2
+  },
+  {
+   "pl": "Cooper Kupp",
+   "tm": "SEA",
+   "g": "KCSEA",
+   "gl": "KC @ SEA",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 25,
+   "ask": 52,
+   "q": 51.5,
+   "p": 0.5099,
+   "sc": 36.2,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT25KCSEA-SEACKUPP10-25",
+   "ev": "KXNFLRECYDS-26OCT25KCSEA",
+   "wy": "Cleared 25+ in 3 of 6 games, by +5 on average (11 of 16 last season), Sleeper projects 32.3, KC let 4 of 5 WR2s reach it. His share of targets is up from 12% to 22%. KC secondary missing CB Jadon Canady. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 52\u00a2..",
+   "id": "4039",
+   "cx": 0.15,
+   "nw": "",
+   "dy": "Sun",
+   "df": -0.13,
+   "xb": 0,
+   "rk": 1,
+   "pt": 23.2
+  },
+  {
+   "pl": "Cooper Kupp",
+   "tm": "SEA",
+   "g": "KCSEA",
+   "gl": "KC @ SEA",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 15,
+   "ask": 69,
+   "q": 68.0,
+   "p": 0.671,
+   "sc": 51.6,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT25KCSEA-SEACKUPP10-15",
+   "ev": "KXNFLRECYDS-26OCT25KCSEA",
+   "wy": "Cleared 15+ in 5 of 6 games, by +15 on average (15 of 16 last season), Sleeper projects 32.3, KC let 4 of 5 WR2s reach it. His share of targets is up from 12% to 22%. KC secondary missing CB Jadon Canady. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 68\u00a2..",
+   "id": "4039",
+   "cx": 0.15,
+   "nw": "",
+   "dy": "Sun",
+   "df": -0.13,
+   "xb": 0,
+   "rk": 1,
+   "pt": 23.2
+  },
+  {
+   "pl": "Darius Cooper",
+   "tm": "PHI",
+   "g": "DALPHI",
+   "gl": "DAL @ PHI (Mon)",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 50,
+   "ask": 38,
+   "q": 33.5,
+   "p": 0.3153,
+   "sc": 15.9,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26OCT26DALPHI-PHIDCOOPER80-50",
+   "ev": "KXNFLRECYDS-26OCT26DALPHI",
+   "wy": "Cleared 50+ in 1 of 6 games, by -27 on average (0 of 12 last season), DAL let 6 of 6 WR1s reach it. QB change: Tanner McKee starts (Jalen Hurts isn't projected to start). With him: cleared 50+ in 0 of 2 (9, 33). With McKee: 5% of targets (1 game), about the same as with Hurts (9%). Dontayvion Wicks out, more targets to go around. PHI a 4.5-pt underdog, trailing teams throw more. Watch: Low volume: about 2.3 targets a game as the WR1.; PHI's offense ranks 26th in passing (191 yds a game)..",
+   "id": "13150",
+   "cx": 0.28,
+   "nw": "",
+   "dy": "Mon",
+   "df": -0.73,
+   "xb": 0,
+   "rk": 1,
+   "pt": 19.5
   },
   {
    "pl": "Ryan Flournoy",
@@ -2758,13 +2836,13 @@
    "ask": 73,
    "q": 72.5,
    "p": 0.708,
-   "sc": 52.0,
+   "sc": 52.3,
    "est": 0,
    "tk": "KXNFLREC-26OCT25KCSEA-SEACKUPP10-2",
    "ev": "KXNFLREC-26OCT25KCSEA",
-   "wy": "Cleared 2+ in 5 of 6 games, by +0.7 on average (14 of 16 last season), Sleeper projects 2.6, KC let 5 of 5 WR2s reach it. His share of targets is up from 12% to 22%. Watch: KC gives up 20% fewer catches to WR2s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 72\u00a2..",
+   "wy": "Cleared 2+ in 5 of 6 games, by +0.7 on average (14 of 16 last season), Sleeper projects 2.6, KC let 5 of 5 WR2s reach it. His share of targets is up from 12% to 22%. KC secondary missing CB Jadon Canady. Watch: KC gives up 20% fewer catches to WR2s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 72\u00a2..",
    "id": "4039",
-   "cx": 0,
+   "cx": 0.15,
    "nw": "",
    "dy": "Sun",
    "df": -0.13,
@@ -2823,7 +2901,7 @@
     "debt": -3.2,
     "hist": true,
     "inj": "News",
-    "news": "Javonte Williams or Velus Jones Jr.: Who Should I Start in Week 7? Fantasy Football",
+    "news": "A.J. Brown or Javonte Williams: Who Should I Start in Week 7? Fantasy Football",
     "prop": {
      "pr": "Rushing Yards",
      "ln": 40,
@@ -2844,7 +2922,7 @@
      "43% red-zone role, 9% target share, 7.5% TD rate, 17.8 touches a game.",
      "8.0 TDs in 6 games, scored in 5 (13.0 in 16 last season).",
      "DAL projected for 24 pts (O/U 43.5, favored by 4.5).",
-     "Injury news: Javonte Williams or Velus Jones Jr.: Who Should I Start in Week 7? Fantasy Football"
+     "Injury news: A.J. Brown or Javonte Williams: Who Should I Start in Week 7? Fantasy Football"
     ]
    },
    {
@@ -2973,7 +3051,7 @@
      "ln": 10,
      "p": 0.861,
      "ask": 92,
-     "sc": 47.6
+     "sc": 47.9
     },
     "tags": [
      "Elite red zone role",
@@ -3045,7 +3123,7 @@
      "ln": 4,
      "p": 0.886,
      "ask": 92,
-     "sc": 74.2
+     "sc": 74.6
     },
     "tags": [
      "RZ share top-10",
@@ -3115,7 +3193,7 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 40,
-     "p": 0.837,
+     "p": 0.834,
      "ask": 88,
      "sc": 72.6
     },
@@ -3249,13 +3327,13 @@
     "debt": -3.0,
     "hist": true,
     "inj": "News",
-    "news": "Darius Cooper or Kc concepcion Jr.: Who Should I Start in Week 7? Fantasy Football",
+    "news": "Brock Bowers or Darius Cooper: Who Should I Draft? Fantasy Football (2026)",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 15,
-     "p": 0.75,
+     "p": 0.729,
      "ask": 85,
-     "sc": 36.4
+     "sc": 36.2
     },
     "tags": [
      "RZ share top-10",
@@ -3270,7 +3348,7 @@
      "9% red-zone role, 8% target share, 26.7% TD rate, 2.5 touches a game.",
      "4.0 TDs in 6 games, scored in 3 (0 in 13 last season).",
      "Low total: PHI projected for 20 pts (O/U 43.5, 4.5-pt underdog).",
-     "Injury news: Darius Cooper or Kc concepcion Jr.: Who Should I Start in Week 7? Fantasy Football"
+     "Injury news: Brock Bowers or Darius Cooper: Who Should I Draft? Fantasy Football (2026)"
     ]
    },
    {
@@ -3392,7 +3470,7 @@
     "debt": 0.8,
     "hist": true,
     "inj": "News",
-    "news": "George Holani or Brandon Smith: Who Should I Start in Week 7? Fantasy Football",
+    "news": "George Holani or Corey Kiner: Who Should I Start in Week 7? Fantasy Football",
     "tags": [
      "RZ share top-10",
      "Favored"
@@ -3404,7 +3482,7 @@
      "17% red-zone role, 6% target share, 2.3% TD rate, 7.2 touches a game.",
      "1.0 TD in 6 games, scored in 1 (1.0 in 11 last season).",
      "SEA projected for 23 pts (O/U 43.5, favored by 3).",
-     "Injury news: George Holani or Brandon Smith: Who Should I Start in Week 7? Fantasy Football"
+     "Injury news: George Holani or Corey Kiner: Who Should I Start in Week 7? Fantasy Football"
     ]
    },
    {
@@ -3459,9 +3537,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.756,
+     "p": 0.753,
      "ask": 79,
-     "sc": 45.0
+     "sc": 45.2
     },
     "tags": [
      "RZ share top-10",
@@ -4065,7 +4143,7 @@
      "ln": 2,
      "p": 0.708,
      "ask": 73,
-     "sc": 52.0
+     "sc": 52.3
     },
     "tags": [
      "RZ share top-10",
@@ -4129,7 +4207,7 @@
     "debt": 0.8,
     "hist": true,
     "inj": "News",
-    "news": "Emmett Johnson or Elijah Moore: Who Should I Start in Week 7? Fantasy Football",
+    "news": "Emmett Johnson Fantasy Football News, Rankings, Projections | Kansas City Chiefs",
     "tags": [
      "RZ share top-10",
      "Active leak"
@@ -4142,7 +4220,7 @@
      "5% red-zone role, 5% target share, 5.4 touches a game.",
      "No TDs yet in 5 games.",
      "Low total: KC projected for 20 pts (O/U 43.5, 3-pt underdog).",
-     "Injury news: Emmett Johnson or Elijah Moore: Who Should I Start in Week 7? Fantasy Football"
+     "Injury news: Emmett Johnson Fantasy Football News, Rankings, Projections | Kansas City Chiefs"
     ]
    },
    {
@@ -5279,7 +5357,7 @@
    5,
    6
   ],
-  "generated": "2026-10-25T16:04:38-07:00",
+  "generated": "2026-10-25T16:28:47-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 7 \u00b7 Sun Oct 25 \u2013 Mon Oct 26",
@@ -5293,10 +5371,10 @@
   "ctx_sources": {
    "lines": "2 games",
    "weather": "2 outdoor games",
-   "injuries": "216 players listed",
+   "injuries": "221 players listed",
    "news": "1 players in headlines",
-   "google_news": "4 role-cut, 65 injury headlines; QB hurt: none",
-   "sleeper_trending": "45 board players trending",
+   "google_news": "5 role-cut, 63 injury headlines; QB hurt: TEN",
+   "sleeper_trending": "46 board players trending",
    "reddit": "unavailable"
   },
   "ovr_note": ""
