@@ -1102,161 +1102,6 @@
    "news": ""
   },
   {
-   "game": "INDMIN",
-   "glabel": "IND @ MIN",
-   "day": "Sun",
-   "player": "Aaron Jones Sr.",
-   "team": "MIN",
-   "opp": "IND",
-   "pos": "RB",
-   "role": "RB1",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 20,
-   "ask": 79,
-   "bid": 78,
-   "vals": [
-    40.0,
-    105.0,
-    58.0,
-    94.0,
-    113.0,
-    null
-   ],
-   "over": 5,
-   "n": 5,
-   "proj": 63.7,
-   "al": [
-    [
-     1,
-     "BAL",
-     144.0
-    ],
-    [
-     2,
-     "KC",
-     117.0
-    ],
-    [
-     3,
-     "HOU",
-     33.0
-    ],
-    [
-     4,
-     "WAS",
-     29.0
-    ],
-    [
-     5,
-     "PIT",
-     101.0
-    ],
-    [
-     6,
-     "TEN",
-     76.0
-    ]
-   ],
-   "dhit": 6,
-   "dn": 6,
-   "most": 12,
-   "per": 122.0,
-   "dstat": "rush yds",
-   "p": 77,
-   "roi": -2,
-   "pp": 91,
-   "hs": 92,
-   "dhs": 88,
-   "rks": 65,
-   "vs": 48,
-   "agree": 3,
-   "score": 70.9,
-   "flags": [],
-   "pc": 0.7731,
-   "praw": 0.9396,
-   "rg": "RB1",
-   "est": false,
-   "mid": 78.5,
-   "tk": "KXNFLRSHYDS-26OCT25INDMIN-MINAJONES33-20",
-   "ev": "KXNFLRSHYDS-26OCT25INDMIN",
-   "ctx": 0.12,
-   "cxs": 56,
-   "reasons": [
-    [
-     0.12,
-     "IND front missing LB CJ Allen"
-    ],
-    [
-     0.0,
-     "In the news: \"Vikings activate RB Jordan Mason off injured reserve\""
-    ],
-    [
-     0.57,
-     "MIN favored by 7, should run a lot with a lead"
-    ],
-    [
-     0.12,
-     "MIN projected for 24 pts (O/U 41.5)"
-    ],
-    [
-     0.17,
-     "IND gives up 25% more rushing yds to lead RBs than average."
-    ],
-    [
-     -0.04,
-     "Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2."
-    ]
-   ],
-   "status": null,
-   "ppj": 90,
-   "pu": 92,
-   "uinfo": {
-    "share": [
-     35,
-     82,
-     74,
-     65,
-     69
-    ],
-    "kind": "carries",
-    "snap": 76,
-    "snaps": [
-     81,
-     80,
-     73,
-     87
-    ],
-    "snap_last": 87,
-    "mu": 85.5,
-    "opp": 20.3,
-    "note": "His share of carries is up from 35% to 69%."
-   },
-   "po": 10,
-   "pn": 12,
-   "pid": "4199",
-   "sx": 0.7,
-   "sxs": 85,
-   "mx": 0.35,
-   "mxs": 68,
-   "env": 0.73,
-   "dfac": 0.3,
-   "dfs": 65,
-   "off": 0.1,
-   "ofs": 55,
-   "cu": 99,
-   "avgm": 62.0,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
-   "risk": 1,
-   "tpts": 24.2,
-   "rank": 8,
-   "why": "Cleared 20+ in 5 of 5 games, by +62 on average (10 of 12 last season), Sleeper projects 63.7, IND let 6 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 7, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2..",
-   "news": "In the news: \"Vikings activate RB Jordan Mason off injured reserve\""
-  },
-  {
    "game": "DALPHI",
    "glabel": "DAL @ PHI (Mon)",
    "day": "Mon",
@@ -1412,9 +1257,164 @@
    },
    "risk": 0,
    "tpts": 24.0,
-   "rank": 9,
+   "rank": 8,
    "why": "Cleared 3+ in 5 of 6 games, by +2 on average (15 of 17 last season), Sleeper projects 4.1, PHI let 5 of 6 WR2s reach it, PHI allows the 8th most pass yds. DAL has a top passing offense (6th, 273 yds a game).. PHI gives up 28% more catches to WR2s than average.. Watch: DAL favored by 4.5, may not need to throw late.",
    "news": ""
+  },
+  {
+   "game": "INDMIN",
+   "glabel": "IND @ MIN",
+   "day": "Sun",
+   "player": "Aaron Jones Sr.",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rush",
+   "prop": "Rushing Yards",
+   "line": 20,
+   "ask": 79,
+   "bid": 78,
+   "vals": [
+    40.0,
+    105.0,
+    58.0,
+    94.0,
+    113.0,
+    null
+   ],
+   "over": 5,
+   "n": 5,
+   "proj": 63.7,
+   "al": [
+    [
+     1,
+     "BAL",
+     144.0
+    ],
+    [
+     2,
+     "KC",
+     117.0
+    ],
+    [
+     3,
+     "HOU",
+     33.0
+    ],
+    [
+     4,
+     "WAS",
+     29.0
+    ],
+    [
+     5,
+     "PIT",
+     101.0
+    ],
+    [
+     6,
+     "TEN",
+     76.0
+    ]
+   ],
+   "dhit": 6,
+   "dn": 6,
+   "most": 12,
+   "per": 122.0,
+   "dstat": "rush yds",
+   "p": 77,
+   "roi": -2,
+   "pp": 91,
+   "hs": 92,
+   "dhs": 88,
+   "rks": 65,
+   "vs": 48,
+   "agree": 3,
+   "score": 70.3,
+   "flags": [],
+   "pc": 0.7729,
+   "praw": 0.937,
+   "rg": "RB1",
+   "est": false,
+   "mid": 78.5,
+   "tk": "KXNFLRSHYDS-26OCT25INDMIN-MINAJONES33-20",
+   "ev": "KXNFLRSHYDS-26OCT25INDMIN",
+   "ctx": 0.12,
+   "cxs": 56,
+   "reasons": [
+    [
+     0.12,
+     "IND front missing LB CJ Allen"
+    ],
+    [
+     0.0,
+     "In the news: \"Vikings activate RB Jordan Mason off injured reserve\""
+    ],
+    [
+     0.5,
+     "MIN favored by 6.5, should run a lot with a lead"
+    ],
+    [
+     0.11,
+     "MIN projected for 24 pts (O/U 41.5)"
+    ],
+    [
+     0.17,
+     "IND gives up 25% more rushing yds to lead RBs than average."
+    ],
+    [
+     -0.04,
+     "Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2."
+    ]
+   ],
+   "status": null,
+   "ppj": 90,
+   "pu": 92,
+   "uinfo": {
+    "share": [
+     35,
+     82,
+     74,
+     65,
+     69
+    ],
+    "kind": "carries",
+    "snap": 76,
+    "snaps": [
+     81,
+     80,
+     73,
+     87
+    ],
+    "snap_last": 87,
+    "mu": 85.5,
+    "opp": 20.3,
+    "note": "His share of carries is up from 35% to 69%."
+   },
+   "po": 10,
+   "pn": 12,
+   "pid": "4199",
+   "sx": 0.61,
+   "sxs": 80,
+   "mx": 0.35,
+   "mxs": 68,
+   "env": 0.66,
+   "dfac": 0.3,
+   "dfs": 65,
+   "off": 0.1,
+   "ofs": 55,
+   "cu": 99,
+   "avgm": 62.0,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": null,
+   "risk": 1,
+   "tpts": 24.0,
+   "rank": 9,
+   "why": "Cleared 20+ in 5 of 5 games, by +62 on average (10 of 12 last season), Sleeper projects 63.7, IND let 6 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 6.5, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2..",
+   "news": "In the news: \"Vikings activate RB Jordan Mason off injured reserve\""
   },
   {
    "game": "LARLV",
@@ -1728,157 +1728,6 @@
    "news": ""
   },
   {
-   "game": "INDMIN",
-   "glabel": "IND @ MIN",
-   "day": "Sun",
-   "player": "Josh Downs",
-   "team": "IND",
-   "opp": "MIN",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 86,
-   "bid": 81,
-   "vals": [
-    37.0,
-    72.0,
-    77.0,
-    16.0,
-    47.0,
-    40.0
-   ],
-   "over": 6,
-   "n": 6,
-   "proj": 48.9,
-   "al": [
-    [
-     1,
-     "GB",
-     147.0
-    ],
-    [
-     2,
-     "CHI",
-     43.0
-    ],
-    [
-     3,
-     "TB",
-     62.0
-    ],
-    [
-     4,
-     "MIA",
-     67.0
-    ],
-    [
-     5,
-     "NO",
-     46.0
-    ]
-   ],
-   "dhit": 5,
-   "dn": 5,
-   "most": 30,
-   "per": 195.4,
-   "dstat": "pass yds",
-   "p": 82,
-   "roi": -5,
-   "pp": 90,
-   "hs": 88,
-   "dhs": 86,
-   "rks": 6,
-   "vs": 45,
-   "agree": 3,
-   "score": 69.5,
-   "flags": [],
-   "pc": 0.8186,
-   "praw": 0.8728,
-   "rg": "WR1",
-   "est": false,
-   "mid": 83.5,
-   "tk": "KXNFLRECYDS-26OCT25INDMIN-INDJDOWNS2-15",
-   "ev": "KXNFLRECYDS-26OCT25INDMIN",
-   "ctx": 0.2,
-   "cxs": 60,
-   "reasons": [
-    [
-     0.2,
-     "Tyler Warren out, more targets to go around"
-    ],
-    [
-     0.46,
-     "IND a 7-pt underdog, trailing teams throw more"
-    ],
-    [
-     -0.38,
-     "IND projected for only 17 pts (O/U 41.5)"
-    ],
-    [
-     -0.25,
-     "IND's offense ranks 22nd in passing (215 yds a game)."
-    ],
-    [
-     -0.04,
-     "Injury in the news: rust/health risk, so the chance leans toward Kalshi's 84\u00a2."
-    ]
-   ],
-   "status": null,
-   "ppj": 90,
-   "pu": 90,
-   "uinfo": {
-    "share": [
-     14,
-     30,
-     31,
-     14,
-     14,
-     21
-    ],
-    "kind": "targets",
-    "snap": 81,
-    "snaps": [
-     68,
-     77,
-     85,
-     86
-    ],
-    "snap_last": 86,
-    "mu": 48.0,
-    "opp": 6.9,
-    "note": ""
-   },
-   "po": 12,
-   "pn": 16,
-   "pid": "9500",
-   "sx": 0.08,
-   "sxs": 54,
-   "mx": -0.45,
-   "mxs": 28,
-   "env": -0.22,
-   "dfac": 0.3,
-   "dfs": 65,
-   "off": -0.25,
-   "ofs": 38,
-   "cu": 91,
-   "avgm": 33.2,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Daniel Jones",
-    "same": true,
-    "n": 6
-   },
-   "risk": 1,
-   "tpts": 17.2,
-   "rank": 12,
-   "why": "Cleared 15+ in 6 of 6 games, by +33 on average (12 of 16 last season), Sleeper projects 48.9, MIN let 5 of 5 WR1s reach it. IND a 7-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 17 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
-   "news": ""
-  },
-  {
    "game": "TBCAR",
    "glabel": "TB @ CAR",
    "day": "Sun",
@@ -2013,8 +1862,159 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 23.8,
-   "rank": 13,
+   "rank": 12,
    "why": "Cleared 175+ in 5 of 5 games, by +135 on average (7 of 16 last season), Sleeper projects 224.3, TB let 5 of 6 QBs reach it. CAR has a top passing offense (1st, 310 yds a game).. TB secondary missing S Antoine Winfield Jr..",
+   "news": ""
+  },
+  {
+   "game": "INDMIN",
+   "glabel": "IND @ MIN",
+   "day": "Sun",
+   "player": "Josh Downs",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 86,
+   "bid": 81,
+   "vals": [
+    37.0,
+    72.0,
+    77.0,
+    16.0,
+    47.0,
+    40.0
+   ],
+   "over": 6,
+   "n": 6,
+   "proj": 48.9,
+   "al": [
+    [
+     1,
+     "GB",
+     147.0
+    ],
+    [
+     2,
+     "CHI",
+     43.0
+    ],
+    [
+     3,
+     "TB",
+     62.0
+    ],
+    [
+     4,
+     "MIA",
+     67.0
+    ],
+    [
+     5,
+     "NO",
+     46.0
+    ]
+   ],
+   "dhit": 5,
+   "dn": 5,
+   "most": 30,
+   "per": 195.4,
+   "dstat": "pass yds",
+   "p": 82,
+   "roi": -5,
+   "pp": 90,
+   "hs": 88,
+   "dhs": 86,
+   "rks": 6,
+   "vs": 45,
+   "agree": 3,
+   "score": 69.2,
+   "flags": [],
+   "pc": 0.8184,
+   "praw": 0.8717,
+   "rg": "WR1",
+   "est": false,
+   "mid": 83.5,
+   "tk": "KXNFLRECYDS-26OCT25INDMIN-INDJDOWNS2-15",
+   "ev": "KXNFLRECYDS-26OCT25INDMIN",
+   "ctx": 0.2,
+   "cxs": 60,
+   "reasons": [
+    [
+     0.2,
+     "Tyler Warren out, more targets to go around"
+    ],
+    [
+     0.4,
+     "IND a 6.5-pt underdog, trailing teams throw more"
+    ],
+    [
+     -0.36,
+     "IND projected for only 18 pts (O/U 41.5)"
+    ],
+    [
+     -0.25,
+     "IND's offense ranks 22nd in passing (215 yds a game)."
+    ],
+    [
+     -0.04,
+     "Injury in the news: rust/health risk, so the chance leans toward Kalshi's 84\u00a2."
+    ]
+   ],
+   "status": null,
+   "ppj": 90,
+   "pu": 90,
+   "uinfo": {
+    "share": [
+     14,
+     30,
+     31,
+     14,
+     14,
+     21
+    ],
+    "kind": "targets",
+    "snap": 81,
+    "snaps": [
+     68,
+     77,
+     85,
+     86
+    ],
+    "snap_last": 86,
+    "mu": 48.0,
+    "opp": 6.9,
+    "note": ""
+   },
+   "po": 12,
+   "pn": 16,
+   "pid": "9500",
+   "sx": 0.04,
+   "sxs": 52,
+   "mx": -0.45,
+   "mxs": 28,
+   "env": -0.25,
+   "dfac": 0.3,
+   "dfs": 65,
+   "off": -0.25,
+   "ofs": 38,
+   "cu": 91,
+   "avgm": 33.2,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Daniel Jones",
+    "same": true,
+    "n": 6
+   },
+   "risk": 1,
+   "tpts": 17.5,
+   "rank": 13,
+   "why": "Cleared 15+ in 6 of 6 games, by +33 on average (12 of 16 last season), Sleeper projects 48.9, MIN let 5 of 5 WR1s reach it. IND a 6.5-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 18 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
    "news": ""
   },
   {
@@ -6580,7 +6580,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 40,
-   "ask": 79,
+   "ask": 78,
    "bid": 77,
    "vals": [
     69.0,
@@ -6631,20 +6631,20 @@
    "per": 264.5,
    "dstat": "pass yds",
    "p": 75,
-   "roi": -5,
+   "roi": -4,
    "pp": 80,
    "hs": 67,
    "dhs": 88,
    "rks": 84,
-   "vs": 45,
+   "vs": 46,
    "agree": 2,
-   "score": 54.8,
+   "score": 54.9,
    "flags": [],
-   "pc": 0.7537,
+   "pc": 0.75,
    "praw": 0.7817,
    "rg": "WR1",
    "est": false,
-   "mid": 78.0,
+   "mid": 77.5,
    "tk": "KXNFLRECYDS-26OCT25NYGHOU-NYGMNABERS1-40",
    "ev": "KXNFLRECYDS-26OCT25NYGHOU",
    "ctx": 0.5,
@@ -7005,8 +7005,8 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 2,
-   "ask": 83,
-   "bid": 82,
+   "ask": 84,
+   "bid": 83,
    "vals": [
     2.0,
     5.0,
@@ -7055,7 +7055,7 @@
    "most": 16,
    "per": 235.3,
    "dstat": "pass yds",
-   "p": 75,
+   "p": 76,
    "roi": -10,
    "pp": 78,
    "hs": 70,
@@ -7065,11 +7065,11 @@
    "agree": 2,
    "score": 54.0,
    "flags": [],
-   "pc": 0.7485,
+   "pc": 0.7552,
    "praw": 0.7787,
    "rg": "WR1",
    "est": false,
-   "mid": 82.5,
+   "mid": 83.5,
    "tk": "KXNFLREC-26OCT25CLETEN-CLEDBOSTON12-2",
    "ev": "KXNFLREC-26OCT25CLETEN",
    "ctx": 0,
@@ -7206,10 +7206,10 @@
    "rks": 6,
    "vs": 44,
    "agree": 2,
-   "score": 54.0,
+   "score": 53.9,
    "flags": [],
-   "pc": 0.7671,
-   "praw": 0.7458,
+   "pc": 0.767,
+   "praw": 0.7452,
    "rg": "WR1",
    "est": false,
    "mid": 80.5,
@@ -7223,12 +7223,12 @@
      "Tyler Warren out, more targets to go around"
     ],
     [
-     0.46,
-     "IND a 7-pt underdog, trailing teams throw more"
+     0.4,
+     "IND a 6.5-pt underdog, trailing teams throw more"
     ],
     [
-     -0.38,
-     "IND projected for only 17 pts (O/U 41.5)"
+     -0.36,
+     "IND projected for only 18 pts (O/U 41.5)"
     ],
     [
      -0.24,
@@ -7267,11 +7267,11 @@
    "po": 10,
    "pn": 16,
    "pid": "9500",
-   "sx": 0.08,
-   "sxs": 54,
+   "sx": 0.04,
+   "sxs": 52,
    "mx": -0.49,
    "mxs": 26,
-   "env": -0.25,
+   "env": -0.27,
    "dfac": 0.3,
    "dfs": 65,
    "off": -0.25,
@@ -7287,9 +7287,9 @@
     "n": 6
    },
    "risk": 1,
-   "tpts": 17.2,
+   "tpts": 17.5,
    "rank": 49,
-   "why": "Cleared 3+ in 5 of 6 games, by +1 on average (10 of 16 last season), Sleeper projects 3.7, MIN let 5 of 5 WR1s reach it. IND a 7-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 17 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
+   "why": "Cleared 3+ in 5 of 6 games, by +1 on average (10 of 16 last season), Sleeper projects 3.7, MIN let 5 of 5 WR1s reach it. IND a 6.5-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 18 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
    "news": ""
   },
   {
@@ -7481,9 +7481,9 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 250,
-   "ask": 45,
-   "q": 44.5,
-   "p": 0.4362,
+   "ask": 46,
+   "q": 45.5,
+   "p": 0.4449,
    "sc": 36.2,
    "est": 0,
    "tk": "KXNFLPASSYDS-26OCT25SFATL-SFBPURDY13-250",
@@ -7908,12 +7908,12 @@
    "ln": 50,
    "ask": 37,
    "q": 36.5,
-   "p": 0.362,
-   "sc": 45.0,
+   "p": 0.3619,
+   "sc": 44.6,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT25INDMIN-MINAJONES33-50",
    "ev": "KXNFLRSHYDS-26OCT25INDMIN",
-   "wy": "Cleared 50+ in 4 of 5 games, by +32 on average (5 of 12 last season), Sleeper projects 63.7, IND let 4 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 7, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 36\u00a2..",
+   "wy": "Cleared 50+ in 4 of 5 games, by +32 on average (5 of 12 last season), Sleeper projects 63.7, IND let 4 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 6.5, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 36\u00a2..",
    "id": "4199",
    "cx": 0.12,
    "nw": "In the news: \"Vikings activate RB Jordan Mason off injured reserve\"",
@@ -7921,7 +7921,7 @@
    "df": 0.3,
    "xb": 0,
    "rk": 1,
-   "pt": 24.2
+   "pt": 24.0
   },
   {
    "pl": "Aaron Jones Sr.",
@@ -7933,12 +7933,12 @@
    "ln": 40,
    "ask": 50,
    "q": 49.5,
-   "p": 0.4891,
-   "sc": 54.4,
+   "p": 0.489,
+   "sc": 53.9,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT25INDMIN-MINAJONES33-40",
    "ev": "KXNFLRSHYDS-26OCT25INDMIN",
-   "wy": "Cleared 40+ in 5 of 5 games, by +42 on average (7 of 12 last season), Sleeper projects 63.7, IND let 4 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 7, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 50\u00a2..",
+   "wy": "Cleared 40+ in 5 of 5 games, by +42 on average (7 of 12 last season), Sleeper projects 63.7, IND let 4 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 6.5, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 50\u00a2..",
    "id": "4199",
    "cx": 0.12,
    "nw": "In the news: \"Vikings activate RB Jordan Mason off injured reserve\"",
@@ -7946,7 +7946,7 @@
    "df": 0.3,
    "xb": 0,
    "rk": 1,
-   "pt": 24.2
+   "pt": 24.0
   },
   {
    "pl": "Aaron Jones Sr.",
@@ -7958,12 +7958,12 @@
    "ln": 30,
    "ask": 65,
    "q": 64.5,
-   "p": 0.6359,
-   "sc": 61.9,
+   "p": 0.6358,
+   "sc": 61.4,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT25INDMIN-MINAJONES33-30",
    "ev": "KXNFLRSHYDS-26OCT25INDMIN",
-   "wy": "Cleared 30+ in 5 of 5 games, by +52 on average (8 of 12 last season), Sleeper projects 63.7, IND let 5 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 7, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 64\u00a2..",
+   "wy": "Cleared 30+ in 5 of 5 games, by +52 on average (8 of 12 last season), Sleeper projects 63.7, IND let 5 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 6.5, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 64\u00a2..",
    "id": "4199",
    "cx": 0.12,
    "nw": "In the news: \"Vikings activate RB Jordan Mason off injured reserve\"",
@@ -7971,7 +7971,7 @@
    "df": 0.3,
    "xb": 0,
    "rk": 1,
-   "pt": 24.2
+   "pt": 24.0
   },
   {
    "pl": "Aaron Jones Sr.",
@@ -7983,12 +7983,12 @@
    "ln": 25,
    "ask": 73,
    "q": 72.5,
-   "p": 0.7152,
-   "sc": 69.7,
+   "p": 0.715,
+   "sc": 69.1,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT25INDMIN-MINAJONES33-25",
    "ev": "KXNFLRSHYDS-26OCT25INDMIN",
-   "wy": "Cleared 25+ in 5 of 5 games, by +57 on average (8 of 12 last season), Sleeper projects 63.7, IND let 6 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 7, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 72\u00a2..",
+   "wy": "Cleared 25+ in 5 of 5 games, by +57 on average (8 of 12 last season), Sleeper projects 63.7, IND let 6 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 6.5, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 72\u00a2..",
    "id": "4199",
    "cx": 0.12,
    "nw": "In the news: \"Vikings activate RB Jordan Mason off injured reserve\"",
@@ -7996,7 +7996,7 @@
    "df": 0.3,
    "xb": 0,
    "rk": 1,
-   "pt": 24.2
+   "pt": 24.0
   },
   {
    "pl": "Aaron Jones Sr.",
@@ -8008,12 +8008,12 @@
    "ln": 20,
    "ask": 79,
    "q": 78.5,
-   "p": 0.7731,
-   "sc": 70.9,
+   "p": 0.7729,
+   "sc": 70.3,
    "est": 0,
    "tk": "KXNFLRSHYDS-26OCT25INDMIN-MINAJONES33-20",
    "ev": "KXNFLRSHYDS-26OCT25INDMIN",
-   "wy": "Cleared 20+ in 5 of 5 games, by +62 on average (10 of 12 last season), Sleeper projects 63.7, IND let 6 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 7, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2..",
+   "wy": "Cleared 20+ in 5 of 5 games, by +62 on average (10 of 12 last season), Sleeper projects 63.7, IND let 6 of 6 lead RBs reach it. His share of carries is up from 35% to 69%. MIN favored by 6.5, should run a lot with a lead. IND gives up 25% more rushing yds to lead RBs than average.. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2..",
    "id": "4199",
    "cx": 0.12,
    "nw": "In the news: \"Vikings activate RB Jordan Mason off injured reserve\"",
@@ -8021,7 +8021,7 @@
    "df": 0.3,
    "xb": 0,
    "rk": 1,
-   "pt": 24.2
+   "pt": 24.0
   },
   {
    "pl": "J.K. Dobbins",
@@ -8283,12 +8283,12 @@
    "ln": 40,
    "ask": 63,
    "q": 62.5,
-   "p": 0.6089,
-   "sc": 46.1,
+   "p": 0.6088,
+   "sc": 45.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT25INDMIN-INDJDOWNS2-40",
    "ev": "KXNFLRECYDS-26OCT25INDMIN",
-   "wy": "Cleared 40+ in 4 of 6 games, by +8 on average (7 of 16 last season), Sleeper projects 48.9, MIN let 5 of 5 WR1s reach it. IND a 7-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 17 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
+   "wy": "Cleared 40+ in 4 of 6 games, by +8 on average (7 of 16 last season), Sleeper projects 48.9, MIN let 5 of 5 WR1s reach it. IND a 6.5-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 18 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
    "id": "9500",
    "cx": 0.2,
    "nw": "",
@@ -8296,7 +8296,7 @@
    "df": 0.3,
    "xb": 0,
    "rk": 1,
-   "pt": 17.2
+   "pt": 17.5
   },
   {
    "pl": "Josh Downs",
@@ -8308,12 +8308,12 @@
    "ln": 30,
    "ask": 73,
    "q": 72.5,
-   "p": 0.7086,
-   "sc": 56.5,
+   "p": 0.7084,
+   "sc": 56.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT25INDMIN-INDJDOWNS2-30",
    "ev": "KXNFLRECYDS-26OCT25INDMIN",
-   "wy": "Cleared 30+ in 5 of 6 games, by +18 on average (10 of 16 last season), Sleeper projects 48.9, MIN let 5 of 5 WR1s reach it. IND a 7-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 17 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
+   "wy": "Cleared 30+ in 5 of 6 games, by +18 on average (10 of 16 last season), Sleeper projects 48.9, MIN let 5 of 5 WR1s reach it. IND a 6.5-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 18 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
    "id": "9500",
    "cx": 0.2,
    "nw": "",
@@ -8321,32 +8321,7 @@
    "df": 0.3,
    "xb": 0,
    "rk": 1,
-   "pt": 17.2
-  },
-  {
-   "pl": "Josh Downs",
-   "tm": "IND",
-   "g": "INDMIN",
-   "gl": "IND @ MIN",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 25,
-   "ask": 79,
-   "q": 78.5,
-   "p": 0.7651,
-   "sc": 58.7,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26OCT25INDMIN-INDJDOWNS2-25",
-   "ev": "KXNFLRECYDS-26OCT25INDMIN",
-   "wy": "Cleared 25+ in 5 of 6 games, by +23 on average (10 of 16 last season), Sleeper projects 48.9, MIN let 5 of 5 WR1s reach it. IND a 7-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 17 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
-   "id": "9500",
-   "cx": 0.2,
-   "nw": "",
-   "dy": "Sun",
-   "df": 0.3,
-   "xb": 0,
-   "rk": 1,
-   "pt": 17.2
+   "pt": 17.5
   },
   {
    "pl": "Josh Downs",
@@ -8358,12 +8333,12 @@
    "ln": 20,
    "ask": 83,
    "q": 81.5,
-   "p": 0.796,
-   "sc": 60.6,
+   "p": 0.7958,
+   "sc": 60.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT25INDMIN-INDJDOWNS2-20",
    "ev": "KXNFLRECYDS-26OCT25INDMIN",
-   "wy": "Cleared 20+ in 5 of 6 games, by +28 on average (12 of 16 last season), Sleeper projects 48.9, MIN let 5 of 5 WR1s reach it. IND a 7-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 17 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
+   "wy": "Cleared 20+ in 5 of 6 games, by +28 on average (12 of 16 last season), Sleeper projects 48.9, MIN let 5 of 5 WR1s reach it. IND a 6.5-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 18 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
    "id": "9500",
    "cx": 0.2,
    "nw": "",
@@ -8371,7 +8346,7 @@
    "df": 0.3,
    "xb": 0,
    "rk": 1,
-   "pt": 17.2
+   "pt": 17.5
   },
   {
    "pl": "Josh Downs",
@@ -8383,12 +8358,12 @@
    "ln": 15,
    "ask": 86,
    "q": 83.5,
-   "p": 0.8186,
-   "sc": 69.5,
+   "p": 0.8184,
+   "sc": 69.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT25INDMIN-INDJDOWNS2-15",
    "ev": "KXNFLRECYDS-26OCT25INDMIN",
-   "wy": "Cleared 15+ in 6 of 6 games, by +33 on average (12 of 16 last season), Sleeper projects 48.9, MIN let 5 of 5 WR1s reach it. IND a 7-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 17 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
+   "wy": "Cleared 15+ in 6 of 6 games, by +33 on average (12 of 16 last season), Sleeper projects 48.9, MIN let 5 of 5 WR1s reach it. IND a 6.5-pt underdog, trailing teams throw more. Tyler Warren out, more targets to go around. Watch: IND projected for only 18 pts (O/U 41.5); IND's offense ranks 22nd in passing (215 yds a game)..",
    "id": "9500",
    "cx": 0.2,
    "nw": "",
@@ -8396,7 +8371,7 @@
    "df": 0.3,
    "xb": 0,
    "rk": 1,
-   "pt": 17.2
+   "pt": 17.5
   },
   {
    "pl": "Malik Nabers",
@@ -8457,9 +8432,9 @@
    "pr": "Receiving Yards",
    "ln": 60,
    "ask": 59,
-   "q": 58.0,
-   "p": 0.5635,
-   "sc": 44.0,
+   "q": 58.5,
+   "p": 0.5682,
+   "sc": 44.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT25NYGHOU-NYGMNABERS1-60",
    "ev": "KXNFLRECYDS-26OCT25NYGHOU",
@@ -8982,9 +8957,9 @@
    "pr": "Receiving Yards",
    "ln": 25,
    "ask": 73,
-   "q": 71.5,
-   "p": 0.7111,
-   "sc": 69.7,
+   "q": 72.0,
+   "p": 0.7153,
+   "sc": 69.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT25LARLV-LVTTUCKER1-25",
    "ev": "KXNFLRECYDS-26OCT25LARLV",
@@ -9732,13 +9707,13 @@
    "pr": "Receptions",
    "ln": 3,
    "ask": 66,
-   "q": 65.5,
-   "p": 0.6407,
-   "sc": 48.1,
+   "q": 65.0,
+   "p": 0.6365,
+   "sc": 48.0,
    "est": 0,
    "tk": "KXNFLREC-26OCT25LARLV-LVTTUCKER1-3",
    "ev": "KXNFLREC-26OCT25LARLV",
-   "wy": "Cleared 3+ in 5 of 6 games, by +1 on average (11 of 17 last season), LAR let 5 of 6 WR1s reach it. LV has a top passing offense (8th, 272 yds a game).. LV a 3.5-pt underdog, trailing teams throw more. Watch: LAR gives up 38% fewer catches to WR1s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 66\u00a2..",
+   "wy": "Cleared 3+ in 5 of 6 games, by +1 on average (11 of 17 last season), LAR let 5 of 6 WR1s reach it. LV has a top passing offense (8th, 272 yds a game).. LV a 3.5-pt underdog, trailing teams throw more. Watch: LAR gives up 38% fewer catches to WR1s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 65\u00a2..",
    "id": "10213",
    "cx": 0,
    "nw": "",
@@ -9847,6 +9822,31 @@
    "xb": 0,
    "rk": 1,
    "pt": 26.0
+  },
+  {
+   "pl": "Jaxon Smith-Njigba",
+   "tm": "SEA",
+   "g": "KCSEA",
+   "gl": "KC @ SEA",
+   "st": "rec",
+   "pr": "Receptions",
+   "ln": 8,
+   "ask": 41,
+   "q": 40.5,
+   "p": 0.386,
+   "sc": 21.2,
+   "est": 0,
+   "tk": "KXNFLREC-26OCT25KCSEA-SEAJSMITHNJIGBA11-8",
+   "ev": "KXNFLREC-26OCT25KCSEA",
+   "wy": "Cleared 8+ in 4 of 6 games, by +0.2 on average (10 of 17 last season), KC let 0 of 5 WR1s reach it. His share of targets fell from 46% to 35%. Watch: KC gives up 16% fewer catches to WR1s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 40\u00a2..",
+   "id": "9488",
+   "cx": 0,
+   "nw": "",
+   "dy": "Sun",
+   "df": 0.3,
+   "xb": 0,
+   "rk": 1,
+   "pt": 22.8
   },
   {
    "pl": "George Pickens",
@@ -10151,8 +10151,8 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.84,
-     "ask": 89,
+     "p": 0.844,
+     "ask": 90,
      "sc": 57.8
     },
     "tags": [
@@ -10236,7 +10236,7 @@
      "Favored"
     ],
     "low": false,
-    "score": 79.4,
+    "score": 80.2,
     "why": [
      "PHI has allowed 4.0 RB TDs in 6 games (21st most); 17.0 all last season (10th most).",
      "43% red-zone role, 9% target share, 7.5% TD rate, 17.8 touches a game.",
@@ -10330,9 +10330,9 @@
     "gl": "IND @ MIN",
     "dy": "Sun",
     "id": "4199",
-    "lam": 0.96,
-    "pm": 0.616,
-    "p": 0.616,
+    "lam": 0.95,
+    "pm": 0.612,
+    "p": 0.612,
     "q": null,
     "ask": null,
     "tk": null,
@@ -10347,8 +10347,8 @@
     "ts": 14,
     "tdr": 1.7,
     "tpg": 23.0,
-    "pts": 24.2,
-    "sp": -7.0,
+    "pts": 24.0,
+    "sp": -6.5,
     "tot": 41.5,
     "d": {
      "td": 6.0,
@@ -10373,7 +10373,7 @@
      "ln": 20,
      "p": 0.773,
      "ask": 79,
-     "sc": 70.9
+     "sc": 70.3
     },
     "tags": [
      "Elite red zone role",
@@ -10387,7 +10387,7 @@
      "IND has allowed 6.0 RB TDs in 6 games (10th most); 15.0 all last season.",
      "38% red-zone role, 14% target share, 1.7% TD rate, 23 touches a game.",
      "2.0 TDs in 5 games, scored in 2 (3.0 in 12 last season).",
-     "MIN projected for 24 pts (O/U 41.5, favored by 7).",
+     "MIN projected for 24 pts (O/U 41.5, favored by 6.5).",
      "Due: 1.4 TD debt (his role says he should have scored more)."
     ]
    },
@@ -10902,6 +10902,71 @@
     ]
    },
    {
+    "key": "jonathan taylor",
+    "pl": "Jonathan Taylor",
+    "tm": "IND",
+    "opp": "MIN",
+    "pos": "RB",
+    "role": "RB1",
+    "g": "INDMIN",
+    "gl": "IND @ MIN",
+    "dy": "Sun",
+    "id": "6813",
+    "lam": 0.78,
+    "pm": 0.539,
+    "p": 0.539,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
+    "tds": 7.0,
+    "n": 6,
+    "games_td": 4,
+    "ptd": 20.0,
+    "pn": 17,
+    "rz": 48,
+    "tdsh": 42,
+    "ts": 11,
+    "tdr": 4.8,
+    "tpg": 24.2,
+    "pts": 17.5,
+    "sp": 6.5,
+    "tot": 41.5,
+    "d": {
+     "td": 2.0,
+     "n": 5,
+     "rank": 29,
+     "nteams": 32,
+     "ltd": 12.0,
+     "lrank": 27,
+     "leak": true,
+     "recent": [
+      1.0,
+      1.0
+     ]
+    },
+    "dfac": 0.8,
+    "debt": -1.8,
+    "hist": true,
+    "inj": null,
+    "news": null,
+    "tags": [
+     "Elite red zone role",
+     "RZ share top-10",
+     "High volume",
+     "Active leak"
+    ],
+    "low": true,
+    "score": 66.6,
+    "why": [
+     "MIN has allowed 2.0 RB TDs in 5 games (29th most); 12.0 all last season.",
+     "Active leak: gave up a RB TD in each of its last 2 games.",
+     "48% red-zone role, 11% target share, 4.8% TD rate, 24.2 touches a game.",
+     "7.0 TDs in 6 games, scored in 4 (20.0 in 17 last season).",
+     "Low total: IND projected for 18 pts (O/U 41.5, 6.5-pt underdog)."
+    ]
+   },
+   {
     "key": "chase brown",
     "pl": "Chase Brown",
     "tm": "CIN",
@@ -10972,71 +11037,6 @@
      "CIN projected for 25 pts (O/U 46.5, favored by 3).",
      "Due: 2.1 TD debt (his role says he should have scored more).",
      "Injury news: Chase Brown or Thomas Fidone II: Who Should I Start in Week 7? Fantasy Football"
-    ]
-   },
-   {
-    "key": "jonathan taylor",
-    "pl": "Jonathan Taylor",
-    "tm": "IND",
-    "opp": "MIN",
-    "pos": "RB",
-    "role": "RB1",
-    "g": "INDMIN",
-    "gl": "IND @ MIN",
-    "dy": "Sun",
-    "id": "6813",
-    "lam": 0.76,
-    "pm": 0.534,
-    "p": 0.534,
-    "q": null,
-    "ask": null,
-    "tk": null,
-    "ev": null,
-    "tds": 7.0,
-    "n": 6,
-    "games_td": 4,
-    "ptd": 20.0,
-    "pn": 17,
-    "rz": 48,
-    "tdsh": 42,
-    "ts": 11,
-    "tdr": 4.8,
-    "tpg": 24.2,
-    "pts": 17.2,
-    "sp": 7.0,
-    "tot": 41.5,
-    "d": {
-     "td": 2.0,
-     "n": 5,
-     "rank": 29,
-     "nteams": 32,
-     "ltd": 12.0,
-     "lrank": 27,
-     "leak": true,
-     "recent": [
-      1.0,
-      1.0
-     ]
-    },
-    "dfac": 0.8,
-    "debt": -1.8,
-    "hist": true,
-    "inj": null,
-    "news": null,
-    "tags": [
-     "Elite red zone role",
-     "RZ share top-10",
-     "High volume",
-     "Active leak"
-    ],
-    "low": true,
-    "score": 66.3,
-    "why": [
-     "MIN has allowed 2.0 RB TDs in 5 games (29th most); 12.0 all last season.",
-     "Active leak: gave up a RB TD in each of its last 2 games.",
-     "48% red-zone role, 11% target share, 4.8% TD rate, 24.2 touches a game.",
-     "7.0 TDs in 6 games, scored in 4 (20.0 in 17 last season).",
-     "Low total: IND projected for 17 pts (O/U 41.5, 7-pt underdog)."
     ]
    },
    {
@@ -11510,9 +11510,9 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 40,
-     "p": 0.765,
-     "ask": 82,
-     "sc": 46.9
+     "p": 0.757,
+     "ask": 80,
+     "sc": 47.0
     },
     "tags": [
      "Elite red zone role",
@@ -11740,7 +11740,7 @@
     "dy": "Sun",
     "id": "5849",
     "lam": 0.07,
-    "pm": 0.066,
+    "pm": 0.065,
     "p": 0.448,
     "q": 83.0,
     "ask": 86,
@@ -11756,8 +11756,8 @@
     "ts": null,
     "tdr": 0.0,
     "tpg": 5.0,
-    "pts": 24.2,
-    "sp": -7.0,
+    "pts": 24.0,
+    "sp": -6.5,
     "tot": 41.5,
     "d": {
      "td": 1.0,
@@ -11780,22 +11780,22 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 10,
-     "p": 0.775,
-     "ask": 81,
-     "sc": 51.7
+     "p": 0.766,
+     "ask": 79,
+     "sc": 51.8
     },
     "tags": [
      "Favored"
     ],
     "low": false,
-    "score": 49.4,
+    "score": 49.3,
     "why": [
      "IND has allowed 1.0 QB TD in 6 games (17th most); 3.0 all last season.",
      "12% red-zone role, 5 touches a game.",
      "No TDs yet in 4 games (1.0 in 5 last season).",
-     "MIN projected for 24 pts (O/U 41.5, favored by 7).",
+     "MIN projected for 24 pts (O/U 41.5, favored by 6.5).",
      "Injury news: Who Should I Start for Fantasy Football Week 7? Aaron Rodgers, Kyler Murray, C.J. Stroud, Geno Smith, Tyler Shough, Bo Nix, Kirk Cousins, Bryce Young, Jacoby Brissett, Brock Purdy",
-     "Kalshi 83\u00a2 vs model 7%."
+     "Kalshi 83\u00a2 vs model 6%."
     ]
    },
    {
@@ -12338,7 +12338,7 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 10,
-     "p": 0.765,
+     "p": 0.768,
      "ask": 88,
      "sc": 46.1
     },
@@ -13187,7 +13187,7 @@
      "Favored"
     ],
     "low": false,
-    "score": 62.4,
+    "score": 63.0,
     "why": [
      "PHI has allowed 7.0 WR TDs in 6 games (8th most); 6.0 all last season.",
      "15% red-zone role, 29% target share, 5.6% TD rate, 11.8 touches a game.",
@@ -13326,68 +13326,6 @@
      "3.0 TDs in 6 games, scored in 2 (5.0 in 17 last season).",
      "LV projected for 22 pts (O/U 48.5, 3.5-pt underdog).",
      "Injury news: Who Should I Start for Fantasy Football Week 7? Tre Tucker, Josh Jacobs, RJ Harvey, Blake Corum, Jaylen Waddle, Jameson Williams, Bam Knight, J.K. Dobbins, Michael Wilson, Tyler Allgeier"
-    ]
-   },
-   {
-    "key": "jordan mason",
-    "pl": "Jordan Mason",
-    "tm": "MIN",
-    "opp": "IND",
-    "pos": "RB",
-    "role": "RB2",
-    "g": "INDMIN",
-    "gl": "IND @ MIN",
-    "dy": "Sun",
-    "id": "8408",
-    "lam": 0.37,
-    "pm": 0.307,
-    "p": 0.307,
-    "q": null,
-    "ask": null,
-    "tk": null,
-    "ev": null,
-    "tds": 1.0,
-    "n": 1,
-    "games_td": 1,
-    "ptd": 6.0,
-    "pn": 16,
-    "rz": 12,
-    "tdsh": 15,
-    "ts": 0,
-    "tdr": 6.7,
-    "tpg": 15.0,
-    "pts": 24.2,
-    "sp": -7.0,
-    "tot": 41.5,
-    "d": {
-     "td": 6.0,
-     "n": 6,
-     "rank": 10,
-     "nteams": 32,
-     "ltd": 15.0,
-     "lrank": 16,
-     "leak": false,
-     "recent": [
-      2.0,
-      0
-     ]
-    },
-    "dfac": 1.03,
-    "debt": -0.3,
-    "hist": true,
-    "inj": null,
-    "news": null,
-    "tags": [
-     "High volume",
-     "Favored"
-    ],
-    "low": false,
-    "score": 58.1,
-    "why": [
-     "IND has allowed 6.0 RB TDs in 6 games (10th most); 15.0 all last season.",
-     "12% red-zone role, 0% target share, 6.7% TD rate, 15 touches a game.",
-     "1.0 TD in 1 games, scored in 1 (6.0 in 16 last season).",
-     "MIN projected for 24 pts (O/U 41.5, favored by 7)."
     ]
    },
    {
@@ -13593,6 +13531,68 @@
      "1.0 TD in 6 games, scored in 1 (8.0 in 17 last season).",
      "Low total: TB projected for 21 pts (O/U 44.5, 3-pt underdog).",
      "Injury news: Kenny Gainwell or Khalil Herbert: Who Should I Start in Week 7? Fantasy Football"
+    ]
+   },
+   {
+    "key": "jordan mason",
+    "pl": "Jordan Mason",
+    "tm": "MIN",
+    "opp": "IND",
+    "pos": "RB",
+    "role": "RB2",
+    "g": "INDMIN",
+    "gl": "IND @ MIN",
+    "dy": "Sun",
+    "id": "8408",
+    "lam": 0.36,
+    "pm": 0.304,
+    "p": 0.304,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
+    "tds": 1.0,
+    "n": 1,
+    "games_td": 1,
+    "ptd": 6.0,
+    "pn": 16,
+    "rz": 12,
+    "tdsh": 15,
+    "ts": 0,
+    "tdr": 6.7,
+    "tpg": 15.0,
+    "pts": 24.0,
+    "sp": -6.5,
+    "tot": 41.5,
+    "d": {
+     "td": 6.0,
+     "n": 6,
+     "rank": 10,
+     "nteams": 32,
+     "ltd": 15.0,
+     "lrank": 16,
+     "leak": false,
+     "recent": [
+      2.0,
+      0
+     ]
+    },
+    "dfac": 1.03,
+    "debt": -0.3,
+    "hist": true,
+    "inj": null,
+    "news": null,
+    "tags": [
+     "High volume",
+     "Favored"
+    ],
+    "low": false,
+    "score": 57.9,
+    "why": [
+     "IND has allowed 6.0 RB TDs in 6 games (10th most); 15.0 all last season.",
+     "12% red-zone role, 0% target share, 6.7% TD rate, 15 touches a game.",
+     "1.0 TD in 1 games, scored in 1 (6.0 in 16 last season).",
+     "MIN projected for 24 pts (O/U 41.5, favored by 6.5)."
     ]
    },
    {
@@ -13885,8 +13885,8 @@
     "dy": "Sun",
     "id": "6794",
     "lam": 0.33,
-    "pm": 0.282,
-    "p": 0.282,
+    "pm": 0.28,
+    "p": 0.28,
     "q": null,
     "ask": null,
     "tk": null,
@@ -13901,8 +13901,8 @@
     "ts": 19,
     "tdr": 12.0,
     "tpg": 6.2,
-    "pts": 24.2,
-    "sp": -7.0,
+    "pts": 24.0,
+    "sp": -6.5,
     "tot": 41.5,
     "d": {
      "td": 5.0,
@@ -13925,21 +13925,21 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 40,
-     "p": 0.723,
+     "p": 0.729,
      "ask": 83,
-     "sc": 42.0
+     "sc": 42.6
     },
     "tags": [
      "RZ share top-10",
      "Favored"
     ],
     "low": false,
-    "score": 61.5,
+    "score": 61.3,
     "why": [
      "IND has allowed 5.0 WR TDs in 6 games (18th most); 16.0 all last season.",
      "12% red-zone role, 19% target share, 12% TD rate, 6.2 touches a game.",
      "3.0 TDs in 4 games, scored in 2 (2.0 in 17 last season).",
-     "MIN projected for 24 pts (O/U 41.5, favored by 7).",
+     "MIN projected for 24 pts (O/U 41.5, favored by 6.5).",
      "Injury news: Final Injury Report for Colts-Vikings: Will Justin Jefferson, Tyler Warren Play?"
     ]
    },
@@ -14757,7 +14757,7 @@
      "Favored"
     ],
     "low": false,
-    "score": 57.6,
+    "score": 58.1,
     "why": [
      "PHI has allowed 7.0 WR TDs in 6 games (8th most); 6.0 all last season.",
      "8% red-zone role, 22% target share, 1.9% TD rate, 8.7 touches a game.",
@@ -14843,9 +14843,9 @@
     "gl": "IND @ MIN",
     "dy": "Sun",
     "id": "5844",
-    "lam": 0.29,
-    "pm": 0.248,
-    "p": 0.248,
+    "lam": 0.28,
+    "pm": 0.246,
+    "p": 0.246,
     "q": null,
     "ask": null,
     "tk": null,
@@ -14860,8 +14860,8 @@
     "ts": 21,
     "tdr": 3.7,
     "tpg": 5.4,
-    "pts": 24.2,
-    "sp": -7.0,
+    "pts": 24.0,
+    "sp": -6.5,
     "tot": 41.5,
     "d": {
      "td": 4.0,
@@ -14884,21 +14884,21 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.8,
+     "p": 0.807,
      "ask": 91,
-     "sc": 35.5
+     "sc": 36.0
     },
     "tags": [
      "RZ share top-10",
      "Favored"
     ],
     "low": false,
-    "score": 64.0,
+    "score": 63.8,
     "why": [
      "IND has allowed 4.0 TE TDs in 6 games (10th most); 6.0 all last season.",
      "12% red-zone role, 21% target share, 3.7% TD rate, 5.4 touches a game.",
      "1.0 TD in 5 games, scored in 1 (3.0 in 15 last season).",
-     "MIN projected for 24 pts (O/U 41.5, favored by 7).",
+     "MIN projected for 24 pts (O/U 41.5, favored by 6.5).",
      "Injury news: T.J. Hockenson - Fantasy Football Waiver Wire Pickups for Week 7 (2026) - NFL News"
     ]
    },
@@ -15507,8 +15507,8 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.715,
-     "ask": 79,
+     "p": 0.709,
+     "ask": 78,
      "sc": 50.9
     },
     "tags": [
@@ -16117,7 +16117,7 @@
      "Favored"
     ],
     "low": false,
-    "score": 46.3,
+    "score": 46.8,
     "why": [
      "PHI has allowed 2.0 TE TDs in 6 games (22nd most); 4.0 all last season.",
      "7% red-zone role, 10% target share, 12.5% TD rate, 4 touches a game.",
@@ -16773,7 +16773,7 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.844,
+     "p": 0.847,
      "ask": 89,
      "sc": 72.3
     },
@@ -16782,7 +16782,7 @@
      "Favored"
     ],
     "low": false,
-    "score": 49.9,
+    "score": 50.4,
     "why": [
      "PHI has allowed 7.0 WR TDs in 6 games (8th most); 6.0 all last season.",
      "7% red-zone role, 15% target share, 2.8% TD rate, 6 touches a game.",
@@ -17237,6 +17237,76 @@
     ]
    },
    {
+    "key": "josh downs",
+    "pl": "Josh Downs",
+    "tm": "IND",
+    "opp": "MIN",
+    "pos": "WR",
+    "role": "WR1",
+    "g": "INDMIN",
+    "gl": "IND @ MIN",
+    "dy": "Sun",
+    "id": "9500",
+    "lam": 0.16,
+    "pm": 0.15,
+    "p": 0.15,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
+    "tds": 0,
+    "n": 6,
+    "games_td": 0,
+    "ptd": 4.0,
+    "pn": 16,
+    "rz": 12,
+    "tdsh": 6,
+    "ts": 21,
+    "tdr": 0.0,
+    "tpg": 7.2,
+    "pts": 17.5,
+    "sp": 6.5,
+    "tot": 41.5,
+    "d": {
+     "td": 3.0,
+     "n": 5,
+     "rank": 25,
+     "nteams": 32,
+     "ltd": 9.0,
+     "lrank": 30,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.77,
+    "debt": 1.7,
+    "hist": true,
+    "inj": "News",
+    "news": "Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football",
+    "prop": {
+     "pr": "Receiving Yards",
+     "ln": 15,
+     "p": 0.818,
+     "ask": 86,
+     "sc": 69.2
+    },
+    "tags": [
+     "Due"
+    ],
+    "low": true,
+    "score": 44.6,
+    "why": [
+     "MIN has allowed 3.0 WR TDs in 5 games (25th most); 9.0 all last season.",
+     "12% red-zone role, 21% target share, 7.2 touches a game.",
+     "No TDs yet in 6 games (4.0 in 16 last season).",
+     "Low total: IND projected for 18 pts (O/U 41.5, 6.5-pt underdog).",
+     "Due: 1.7 TD debt (his role says he should have scored more).",
+     "Injury news: Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football"
+    ]
+   },
+   {
     "key": "jauan jennings",
     "pl": "Jauan Jennings",
     "tm": "MIN",
@@ -17248,8 +17318,8 @@
     "dy": "Sun",
     "id": "7049",
     "lam": 0.16,
-    "pm": 0.152,
-    "p": 0.152,
+    "pm": 0.15,
+    "p": 0.15,
     "q": null,
     "ask": null,
     "tk": null,
@@ -17264,8 +17334,8 @@
     "ts": 4,
     "tdr": 0.0,
     "tpg": 1.2,
-    "pts": 24.2,
-    "sp": -7.0,
+    "pts": 24.0,
+    "sp": -6.5,
     "tot": 41.5,
     "d": {
      "td": 5.0,
@@ -17289,82 +17359,12 @@
      "Favored"
     ],
     "low": false,
-    "score": 44.8,
+    "score": 44.7,
     "why": [
      "IND has allowed 5.0 WR TDs in 6 games (18th most); 16.0 all last season.",
      "3% red-zone role, 4% target share, 1.2 touches a game.",
      "No TDs yet in 4 games (9.0 in 15 last season).",
-     "MIN projected for 24 pts (O/U 41.5, favored by 7)."
-    ]
-   },
-   {
-    "key": "josh downs",
-    "pl": "Josh Downs",
-    "tm": "IND",
-    "opp": "MIN",
-    "pos": "WR",
-    "role": "WR1",
-    "g": "INDMIN",
-    "gl": "IND @ MIN",
-    "dy": "Sun",
-    "id": "9500",
-    "lam": 0.16,
-    "pm": 0.148,
-    "p": 0.148,
-    "q": null,
-    "ask": null,
-    "tk": null,
-    "ev": null,
-    "tds": 0,
-    "n": 6,
-    "games_td": 0,
-    "ptd": 4.0,
-    "pn": 16,
-    "rz": 12,
-    "tdsh": 6,
-    "ts": 21,
-    "tdr": 0.0,
-    "tpg": 7.2,
-    "pts": 17.2,
-    "sp": 7.0,
-    "tot": 41.5,
-    "d": {
-     "td": 3.0,
-     "n": 5,
-     "rank": 25,
-     "nteams": 32,
-     "ltd": 9.0,
-     "lrank": 30,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.77,
-    "debt": 1.7,
-    "hist": true,
-    "inj": "News",
-    "news": "Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football",
-    "prop": {
-     "pr": "Receiving Yards",
-     "ln": 15,
-     "p": 0.819,
-     "ask": 86,
-     "sc": 69.5
-    },
-    "tags": [
-     "Due"
-    ],
-    "low": true,
-    "score": 44.4,
-    "why": [
-     "MIN has allowed 3.0 WR TDs in 5 games (25th most); 9.0 all last season.",
-     "12% red-zone role, 21% target share, 7.2 touches a game.",
-     "No TDs yet in 6 games (4.0 in 16 last season).",
-     "Low total: IND projected for 17 pts (O/U 41.5, 7-pt underdog).",
-     "Due: 1.7 TD debt (his role says he should have scored more).",
-     "Injury news: Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football"
+     "MIN projected for 24 pts (O/U 41.5, favored by 6.5)."
     ]
    },
    {
@@ -17379,8 +17379,8 @@
     "dy": "Sun",
     "id": "1479",
     "lam": 0.15,
-    "pm": 0.141,
-    "p": 0.141,
+    "pm": 0.143,
+    "p": 0.143,
     "q": null,
     "ask": null,
     "tk": null,
@@ -17395,8 +17395,8 @@
     "ts": 20,
     "tdr": 2.5,
     "tpg": 8.0,
-    "pts": 17.2,
-    "sp": 7.0,
+    "pts": 17.5,
+    "sp": 6.5,
     "tot": 41.5,
     "d": {
      "td": 3.0,
@@ -17421,18 +17421,18 @@
      "ln": 15,
      "p": 0.792,
      "ask": 84,
-     "sc": 46.6
+     "sc": 46.4
     },
     "tags": [
      "High volume"
     ],
     "low": true,
-    "score": 40.9,
+    "score": 41.0,
     "why": [
      "MIN has allowed 3.0 WR TDs in 5 games (25th most); 9.0 all last season.",
      "8% red-zone role, 20% target share, 2.5% TD rate, 8 touches a game.",
      "1.0 TD in 5 games, scored in 1 (4.0 in 17 last season).",
-     "Low total: IND projected for 17 pts (O/U 41.5, 7-pt underdog).",
+     "Low total: IND projected for 18 pts (O/U 41.5, 6.5-pt underdog).",
      "Injury news: Keenan Allen Fantasy Football Start or Sit Advice for Week 7"
     ]
    },
@@ -17448,8 +17448,8 @@
     "dy": "Sun",
     "id": "9756",
     "lam": 0.15,
-    "pm": 0.141,
-    "p": 0.141,
+    "pm": 0.14,
+    "p": 0.14,
     "q": null,
     "ask": null,
     "tk": null,
@@ -17464,8 +17464,8 @@
     "ts": 17,
     "tdr": 4.3,
     "tpg": 5.8,
-    "pts": 24.2,
-    "sp": -7.0,
+    "pts": 24.0,
+    "sp": -6.5,
     "tot": 41.5,
     "d": {
      "td": 5.0,
@@ -17488,20 +17488,20 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.727,
+     "p": 0.733,
      "ask": 83,
-     "sc": 39.5
+     "sc": 40.1
     },
     "tags": [
      "Favored"
     ],
     "low": false,
-    "score": 43.0,
+    "score": 42.9,
     "why": [
      "IND has allowed 5.0 WR TDs in 6 games (18th most); 16.0 all last season.",
      "0% red-zone role, 17% target share, 4.3% TD rate, 5.8 touches a game.",
      "1.0 TD in 4 games, scored in 1 (4.0 in 14 last season).",
-     "MIN projected for 24 pts (O/U 41.5, favored by 7).",
+     "MIN projected for 24 pts (O/U 41.5, favored by 6.5).",
      "Injury news: Jordan Watkins or Jordan Addison: Who Should I Start in Week 7? Fantasy Football"
     ]
    },
@@ -17557,9 +17557,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 20,
-     "p": 0.756,
+     "p": 0.753,
      "ask": 86,
-     "sc": 49.7
+     "sc": 49.6
     },
     "tags": [],
     "low": true,
@@ -19506,7 +19506,7 @@
      "Favored"
     ],
     "low": false,
-    "score": 37.2,
+    "score": 38.0,
     "why": [
      "PHI has allowed 4.0 RB TDs in 6 games (21st most); 17.0 all last season (10th most).",
      "5% red-zone role, 2% target share, 4 touches a game.",
@@ -19948,67 +19948,6 @@
     ]
    },
    {
-    "key": "myles price",
-    "pl": "Myles Price",
-    "tm": "MIN",
-    "opp": "IND",
-    "pos": "WR",
-    "role": "WR3",
-    "g": "INDMIN",
-    "gl": "IND @ MIN",
-    "dy": "Sun",
-    "id": "13075",
-    "lam": 0.09,
-    "pm": 0.085,
-    "p": 0.085,
-    "q": null,
-    "ask": null,
-    "tk": null,
-    "ev": null,
-    "tds": 0,
-    "n": 5,
-    "games_td": 0,
-    "ptd": 0,
-    "pn": 16,
-    "rz": 6,
-    "tdsh": 1,
-    "ts": 5,
-    "tdr": 0.0,
-    "tpg": 1.6,
-    "pts": 24.2,
-    "sp": -7.0,
-    "tot": 41.5,
-    "d": {
-     "td": 5.0,
-     "n": 6,
-     "rank": 18,
-     "nteams": 32,
-     "ltd": 16.0,
-     "lrank": 17,
-     "leak": false,
-     "recent": [
-      0,
-      1.0
-     ]
-    },
-    "dfac": 1.0,
-    "debt": 0.5,
-    "hist": true,
-    "inj": null,
-    "news": null,
-    "tags": [
-     "Favored"
-    ],
-    "low": false,
-    "score": 43.8,
-    "why": [
-     "IND has allowed 5.0 WR TDs in 6 games (18th most); 16.0 all last season.",
-     "6% red-zone role, 5% target share, 1.6 touches a game.",
-     "No TDs yet in 5 games (0 in 16 last season).",
-     "MIN projected for 24 pts (O/U 41.5, favored by 7)."
-    ]
-   },
-   {
     "key": "marquise brown",
     "pl": "Marquise Brown",
     "tm": "PHI",
@@ -20197,6 +20136,67 @@
      "No TDs yet in 5 games (0 in 11 last season).",
      "DET projected for 30 pts (O/U 55.5, favored by 3.5).",
      "Injury news: Ja'Kobi Lane or Sione Vaki: Who Should I Start in Week 7? Fantasy Football"
+    ]
+   },
+   {
+    "key": "myles price",
+    "pl": "Myles Price",
+    "tm": "MIN",
+    "opp": "IND",
+    "pos": "WR",
+    "role": "WR3",
+    "g": "INDMIN",
+    "gl": "IND @ MIN",
+    "dy": "Sun",
+    "id": "13075",
+    "lam": 0.09,
+    "pm": 0.084,
+    "p": 0.084,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
+    "tds": 0,
+    "n": 5,
+    "games_td": 0,
+    "ptd": 0,
+    "pn": 16,
+    "rz": 6,
+    "tdsh": 1,
+    "ts": 5,
+    "tdr": 0.0,
+    "tpg": 1.6,
+    "pts": 24.0,
+    "sp": -6.5,
+    "tot": 41.5,
+    "d": {
+     "td": 5.0,
+     "n": 6,
+     "rank": 18,
+     "nteams": 32,
+     "ltd": 16.0,
+     "lrank": 17,
+     "leak": false,
+     "recent": [
+      0,
+      1.0
+     ]
+    },
+    "dfac": 1.0,
+    "debt": 0.5,
+    "hist": true,
+    "inj": null,
+    "news": null,
+    "tags": [
+     "Favored"
+    ],
+    "low": false,
+    "score": 43.8,
+    "why": [
+     "IND has allowed 5.0 WR TDs in 6 games (18th most); 16.0 all last season.",
+     "6% red-zone role, 5% target share, 1.6 touches a game.",
+     "No TDs yet in 5 games (0 in 16 last season).",
+     "MIN projected for 24 pts (O/U 41.5, favored by 6.5)."
     ]
    },
    {
@@ -21297,7 +21297,7 @@
    5,
    6
   ],
-  "generated": "2026-10-25T08:00:38-07:00",
+  "generated": "2026-10-25T08:08:21-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 7 \u00b7 Sun Oct 25 \u2013 Mon Oct 26",
