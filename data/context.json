@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T19:01:09+00:00",
+ "generated": "2026-10-25T19:13:51+00:00",
  "games": {
   "SFATL": {
    "home": "ATL",
@@ -11,7 +11,7 @@
    "total": null,
    "espn_wx": {
     "desc": "1",
-    "temp": 68
+    "temp": 70
    }
   },
   "CLETEN": {
@@ -24,7 +24,7 @@
    "total": null,
    "espn_wx": {
     "desc": "1",
-    "temp": 73
+    "temp": 74
    },
    "wx": {
     "wind": 3,
@@ -43,8 +43,8 @@
    "spread": {},
    "total": null,
    "espn_wx": {
-    "desc": "6",
-    "temp": 54
+    "desc": "12",
+    "temp": 53
    }
   },
   "MIANYJ": {
@@ -77,7 +77,7 @@
    "total": null,
    "espn_wx": {
     "desc": "1",
-    "temp": 68
+    "temp": 70
    },
    "wx": {
     "wind": 10,
@@ -218,6 +218,11 @@
  "inj": {
   "ARI": [
    {
+    "name": "Max Melton",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
     "name": "Carson Beck",
     "pos": "QB",
     "status": "Out"
@@ -235,11 +240,6 @@
    {
     "name": "Jeremiyah Love",
     "pos": "RB",
-    "status": "Out"
-   },
-   {
-    "name": "Max Melton",
-    "pos": "CB",
     "status": "Out"
    },
    {
@@ -335,6 +335,11 @@
    }
   ],
   "CAR": [
+   {
+    "name": "Taylor Moton",
+    "pos": "OT",
+    "status": "Questionable"
+   },
    {
     "name": "Haynes King",
     "pos": "QB",
@@ -491,6 +496,16 @@
   ],
   "DEN": [
    {
+    "name": "Sam Ehlinger",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Pat Surtain II",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
     "name": "Tyler Onyedim",
     "pos": "DT",
     "status": "Out"
@@ -514,19 +529,34 @@
     "name": "Kage Casey",
     "pos": "OT",
     "status": "Out"
-   },
-   {
-    "name": "Sam Ehlinger",
-    "pos": "QB",
-    "status": "Out"
-   },
-   {
-    "name": "Pat Surtain II",
-    "pos": "CB",
-    "status": "Out"
    }
   ],
   "DET": [
+   {
+    "name": "Mekhi Wingo",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Seth McLaughlin",
+    "pos": "C",
+    "status": "Out"
+   },
+   {
+    "name": "Jackson Meeks",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
+    "name": "Ahmed Hassanein",
+    "pos": "DE",
+    "status": "Out"
+   },
+   {
+    "name": "Bishop Fitzgerald",
+    "pos": "S",
+    "status": "Out"
+   },
    {
     "name": "Kerby Joseph",
     "pos": "S",
@@ -535,14 +565,19 @@
   ],
   "GB": [
    {
-    "name": "Aaron Banks",
-    "pos": "G",
-    "status": "Questionable"
+    "name": "Benjamin St-Juste",
+    "pos": "CB",
+    "status": "Out"
    },
    {
-    "name": "Bo Melton",
-    "pos": "WR",
-    "status": "Questionable"
+    "name": "Kevin Zeitler",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Kaleb Johnson",
+    "pos": "RB",
+    "status": "Out"
    },
    {
     "name": "Zaire Franklin",
@@ -550,14 +585,19 @@
     "status": "Out"
    },
    {
-    "name": "Luke Musgrave",
-    "pos": "TE",
+    "name": "Donovan Jennings",
+    "pos": "G",
     "status": "Out"
    },
    {
-    "name": "Benjamin St-Juste",
-    "pos": "CB",
-    "status": "Questionable"
+    "name": "Jager Burton",
+    "pos": "C",
+    "status": "Out"
+   },
+   {
+    "name": "Luke Musgrave",
+    "pos": "TE",
+    "status": "Out"
    },
    {
     "name": "Micah Parsons",
@@ -734,11 +774,6 @@
   ],
   "LAR": [
    {
-    "name": "Puka Nacua",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
     "name": "Trent McDuffie",
     "pos": "CB",
     "status": "Questionable"
@@ -750,6 +785,11 @@
    }
   ],
   "MIA": [
+   {
+    "name": "Dante Trader Jr.",
+    "pos": "S",
+    "status": "Questionable"
+   },
    {
     "name": "Robert Beal Jr.",
     "pos": "DE",
@@ -1131,6 +1171,11 @@
   ],
   "TB": [
    {
+    "name": "Kenny Gainwell",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
     "name": "Antoine Winfield Jr.",
     "pos": "S",
     "status": "Out"
@@ -1229,7 +1274,7 @@
  "news": {
   "puka nacua": {
    "h": "Fantasy football Week 7 inactives: Puka Nacua uncertain, DeVonta Smith out",
-   "t": "2026-10-25T18:43:38Z"
+   "t": "2026-10-25T18:59:40Z"
   },
   "cam skattebo": {
    "h": "Sources: Cam Skattebo expected to resume role as Giants' lead RB vs. Texans",
@@ -1283,210 +1328,200 @@
  "trend": {
   "seth mcgowan": {
    "rank": 1,
-   "adds": 1136328
+   "adds": 1143704
   },
   "darius cooper": {
    "rank": 2,
-   "adds": 857633
+   "adds": 873810
   },
   "konata mumpfield": {
    "rank": 3,
-   "adds": 628281
+   "adds": 631341
   },
   "tyler higbee": {
    "rank": 4,
-   "adds": 515529
+   "adds": 517725
   },
   "emanuel wilson": {
    "rank": 5,
-   "adds": 467100
+   "adds": 469656
   },
   "chris godwin": {
    "rank": 6,
-   "adds": 394740
+   "adds": 395070
   },
   "justice hill": {
    "rank": 7,
-   "adds": 287964
+   "adds": 288225
   },
   "ted hurst": {
    "rank": 8,
-   "adds": 248916
+   "adds": 248952
   },
   "kyler murray": {
    "rank": 9,
-   "adds": 224176
+   "adds": 224584
   },
   "michael mayer": {
    "rank": 10,
-   "adds": 219258
+   "adds": 221202
   },
   "kaelon black": {
    "rank": 11,
-   "adds": 200515
+   "adds": 205506
   },
   "zonovan knight": {
    "rank": 12,
-   "adds": 198034
+   "adds": 199620
   },
   "xavier worthy": {
    "rank": 13,
-   "adds": 190233
+   "adds": 192735
   },
   "makai lemon": {
    "rank": 15,
-   "adds": 174928
-  },
-  "brandin cooks": {
-   "rank": 16,
-   "adds": 170216
+   "adds": 177536
   },
   "kc concepcion": {
+   "rank": 16,
+   "adds": 170559
+  },
+  "brandin cooks": {
    "rank": 17,
-   "adds": 162666
+   "adds": 170292
   },
   "tyler allgeier": {
    "rank": 19,
-   "adds": 150860
+   "adds": 152070
   },
   "bo nix": {
    "rank": 20,
-   "adds": 145254
+   "adds": 146532
   },
   "caleb douglas": {
    "rank": 21,
-   "adds": 144360
+   "adds": 144800
   },
   "malik washington": {
    "rank": 23,
-   "adds": 137760
+   "adds": 137968
   },
   "adonai mitchell": {
    "rank": 24,
-   "adds": 115504
+   "adds": 115552
   },
   "cj stroud": {
    "rank": 25,
-   "adds": 111510
-  },
-  "geno smith": {
-   "rank": 26,
-   "adds": 107296
+   "adds": 111636
   },
   "dameon pierce": {
-   "rank": 27,
-   "adds": 106696
+   "rank": 26,
+   "adds": 108384
   },
   "ryan flournoy": {
+   "rank": 27,
+   "adds": 107688
+  },
+  "geno smith": {
    "rank": 28,
-   "adds": 106088
+   "adds": 107432
   },
   "cade otton": {
    "rank": 29,
-   "adds": 104550
+   "adds": 104598
   },
   "jordan watkins": {
    "rank": 30,
-   "adds": 103860
+   "adds": 103892
   },
   "keenan allen": {
    "rank": 31,
-   "adds": 101812
+   "adds": 101936
   },
-  "will mallory": {
+  "kirk cousins": {
    "rank": 32,
-   "adds": 97659
+   "adds": 98000
   },
   "colby parkinson": {
    "rank": 33,
-   "adds": 97128
-  },
-  "kirk cousins": {
-   "rank": 34,
-   "adds": 96584
+   "adds": 97908
   },
   "courtland sutton": {
-   "rank": 35,
-   "adds": 96084
+   "rank": 34,
+   "adds": 97686
   },
-  "aaron rodgers": {
-   "rank": 37,
-   "adds": 91288
+  "will mallory": {
+   "rank": 35,
+   "adds": 97686
   },
   "tank dell": {
+   "rank": 37,
+   "adds": 91552
+  },
+  "aaron rodgers": {
    "rank": 38,
-   "adds": 88896
-  },
-  "tre tucker": {
-   "rank": 39,
-   "adds": 82572
-  },
-  "kyle pitts": {
-   "rank": 40,
-   "adds": 81760
-  },
-  "tanner mckee": {
-   "rank": 41,
-   "adds": 77192
-  },
-  "jordan addison": {
-   "rank": 42,
-   "adds": 75807
-  },
-  "braelon allen": {
-   "rank": 43,
-   "adds": 71660
+   "adds": 91424
   },
   "omar cooper": {
+   "rank": 39,
+   "adds": 89328
+  },
+  "tre tucker": {
+   "rank": 40,
+   "adds": 83904
+  },
+  "kyle pitts": {
+   "rank": 41,
+   "adds": 83461
+  },
+  "tanner mckee": {
+   "rank": 42,
+   "adds": 78760
+  },
+  "jordan addison": {
+   "rank": 43,
+   "adds": 75933
+  },
+  "braelon allen": {
    "rank": 44,
-   "adds": 71320
+   "adds": 72092
   },
   "devaughn vele": {
    "rank": 45,
-   "adds": 71127
+   "adds": 71785
   },
   "mike gesicki": {
    "rank": 46,
-   "adds": 68712
+   "adds": 69096
   },
   "jaylin noel": {
    "rank": 47,
-   "adds": 64682
+   "adds": 64719
   },
   "khalil herbert": {
    "rank": 48,
-   "adds": 62568
+   "adds": 62793
   },
   "alvin kamara": {
    "rank": 49,
-   "adds": 62240
+   "adds": 62656
   },
   "deshaun watson": {
    "rank": 50,
-   "adds": 60184
+   "adds": 60256
   }
  },
  "buzz": {},
  "sources": {
   "lines": "5 games",
   "weather": "6 outdoor games",
-  "injuries": "189 players listed",
+  "injuries": "198 players listed",
   "news": "13 players in headlines",
   "google_news": "3 role-cut, 150 injury headlines; QB hurt: CIN, MIN, NO, TB",
   "sleeper_trending": "46 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
-  "joe burrow": {
-   "h": [
-    "How Bengals star QB Joe Burrow brings a chess mindset to football",
-    "The Bengals Are Protecting Joe Burrow Better Than Ever",
-    "Will Joe Burrow play against the Baltimore Ravens today? Latest injury update on the Cincinnati Bengals q"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "How Bengals star QB Joe Burrow brings a chess mindset to football"
-  },
   "tyler huntley": {
    "h": [
     "Baltimore Ravens wide receiver Zay Flowers makes 19-yard dash after quarterback Tyler Huntley connection",
@@ -1496,6 +1531,16 @@
    "cut": false,
    "inj": false,
    "worst": "Baltimore Ravens wide receiver Zay Flowers makes 19-yard dash after quarterback Tyler Huntley connection"
+  },
+  "joe burrow": {
+   "h": [
+    "How Bengals star QB Joe Burrow brings a chess mindset to football",
+    "The Bengals Are Protecting Joe Burrow Better Than Ever",
+    "Will Joe Burrow play against the Baltimore Ravens today? Latest injury update on the Cincinnati Bengals q"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "How Bengals star QB Joe Burrow brings a chess mindset to football"
   },
   "deshaun watson": {
    "h": [
@@ -1597,16 +1642,6 @@
    "inj": false,
    "worst": "NFL Week 7 best bets: Brock Purdy, 49ers headline spread picks"
   },
-  "baker mayfield": {
-   "h": [
-    "How Rays are helping Buccaneers\u2019 Baker Mayfield make thumb injury return vs. Panthers",
-    "Buccaneers\u2019 Baker Mayfield returns for Week 7 with custom protective glove",
-    "NFL Week 7 Injury Report: Lamar Jackson out, Baker Mayfield in"
-   ],
-   "cut": true,
-   "inj": true,
-   "worst": "Buccaneers vs. Panthers Week 7 inactives: Baker Mayfield returns"
-  },
   "bryce young": {
    "h": [
     "Bryce Young connects with Darren Waller for 50-yard TD, trimming Panthers' lead over Bucs | NFL Highlights",
@@ -1616,6 +1651,16 @@
    "cut": false,
    "inj": true,
    "worst": "Fantasy Football Start or Sit: Bryce Young & Tetairoa McMillan"
+  },
+  "baker mayfield": {
+   "h": [
+    "How Rays are helping Buccaneers\u2019 Baker Mayfield make thumb injury return vs. Panthers",
+    "Buccaneers\u2019 Baker Mayfield returns for Week 7 with custom protective glove",
+    "NFL Week 7 Injury Report: Lamar Jackson out, Baker Mayfield in"
+   ],
+   "cut": true,
+   "inj": true,
+   "worst": "Buccaneers vs. Panthers Week 7 inactives: Baker Mayfield returns"
   },
   "jacoby brissett": {
    "h": [
@@ -1885,6 +1930,16 @@
    "inj": false,
    "worst": "49ers\u2019 Defensive Weakness Could Be Exposed Against Falcons\u2019 Bijan Robinson"
   },
+  "chuba hubbard": {
+   "h": [
+    "Chuba Hubbard Leads Top NFL Touchdown Scorer Picks",
+    "Should You Start Chuba Hubbard Against the Buccaneers in Week 7? The Workload Says Yes",
+    "Fantasy Football Start or Sit: Jalen Coker, Chuba Hubbard & Darren Waller"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Fantasy Football Start or Sit: Jalen Coker, Chuba Hubbard & Darren Waller"
+  },
   "kenny gainwell": {
    "h": [
     "Kenyon Sadiq or Kenny Gainwell",
@@ -1903,16 +1958,6 @@
    "cut": false,
    "inj": true,
    "worst": "Cyrus Allen or Sean Tucker: Who Should I Start in Week 7? Fantasy Football"
-  },
-  "chuba hubbard": {
-   "h": [
-    "Chuba Hubbard Leads Top NFL Touchdown Scorer Picks",
-    "Should You Start Chuba Hubbard Against the Buccaneers in Week 7? The Workload Says Yes",
-    "Fantasy Football Start or Sit: Jalen Coker, Chuba Hubbard & Darren Waller"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Start or Sit: Jalen Coker, Chuba Hubbard & Darren Waller"
   },
   "bucky irving": {
    "h": [
@@ -2442,6 +2487,25 @@
    "inj": true,
    "worst": "Andrew Armstrong or Garrett Wilson: Who Should I Start in Week 7? Fantasy Football"
   },
+  "darnell mooney": {
+   "h": [
+    "New York Giants running back Darnell Mooney converts on fourth down with 3-yard pickup",
+    "Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football"
+  },
+  "malachi fields": {
+   "h": [
+    "J.J. McCarthy finds Malachi Fields for 47-yard gain | Giants vs. Texans Highlights",
+    "Can't-Miss Play: Houston has a problem defending Malachi Fields on WR's 47-yard catch and run",
+    "Walk 50 Yards with Malachi Fields"
+   ],
+   "cut": true,
+   "inj": false,
+   "worst": "Malachi Fields could break out for the Giants this week Presented by Kalshi - use the code ATOZ when you sign up"
+  },
   "jaylin noel": {
    "h": [
     "Ollie Gordon or Jaylin Noel",
@@ -2498,15 +2562,6 @@
    "inj": true,
    "worst": "Britain Covey or Kayshon Boutte: Who Should I Start in Week 7? Fantasy Football"
   },
-  "darnell mooney": {
-   "h": [
-    "New York Giants running back Darnell Mooney converts on fourth down with 3-yard pickup",
-    "Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Adam Thielen or Courtland Sutton or Darnell Mooney or Josh Downs: Who Should I Start in Week 7? Fantasy Football"
-  },
   "malik nabers": {
    "h": [
     "J.J. McCarthy hits Malik Nabers with deep ball, leads TD drive on first possession as Giants starter",
@@ -2526,16 +2581,6 @@
    "cut": false,
    "inj": true,
    "worst": "Isaiah Likely or Erick All Jr.: Who Should I Start in Week 7? Fantasy Football"
-  },
-  "malachi fields": {
-   "h": [
-    "J.J. McCarthy finds Malachi Fields for 47-yard gain | Giants vs. Texans Highlights",
-    "Can't-Miss Play: Houston has a problem defending Malachi Fields on WR's 47-yard catch and run",
-    "Walk 50 Yards with Malachi Fields"
-   ],
-   "cut": true,
-   "inj": false,
-   "worst": "Malachi Fields could break out for the Giants this week Presented by Kalshi - use the code ATOZ when you sign up"
   },
   "dalton schultz": {
    "h": [
