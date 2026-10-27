@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T22:00:50+00:00",
+ "generated": "2026-10-27T22:30:56+00:00",
  "games": {
   "CARGB": {
    "home": "GB",
@@ -37,6 +37,29 @@
    "total": 46.5,
    "espn_wx": {
     "desc": "Cloudy",
+    "temp": 62
+   }
+  },
+  "KCDEN": {
+   "home": "DEN",
+   "away": "KC",
+   "kick": "2026-11-01T21:25Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {
+    "KC": -1.5,
+    "DEN": 1.5
+   },
+   "total": 41.5,
+   "espn_wx": {
+    "desc": "Mostly cloudy",
+    "temp": 64
+   },
+   "wx": {
+    "wind": 5,
+    "gust": 11,
+    "pop": 10,
+    "rain": 0.0,
     "temp": 62
    }
   }
@@ -806,165 +829,165 @@
  "trend": {
   "caleb douglas": {
    "rank": 1,
-   "adds": 1573664
+   "adds": 1606512
   },
   "seth mcgowan": {
    "rank": 3,
-   "adds": 781296
+   "adds": 805752
   },
   "kc concepcion": {
    "rank": 4,
-   "adds": 719253
+   "adds": 732546
   },
   "brenton strange": {
    "rank": 6,
-   "adds": 460494
+   "adds": 471186
   },
   "omar cooper": {
    "rank": 8,
-   "adds": 371672
-  },
-  "tre tucker": {
-   "rank": 9,
-   "adds": 354702
+   "adds": 377168
   },
   "jonah coleman": {
+   "rank": 9,
+   "adds": 362866
+  },
+  "tre tucker": {
    "rank": 10,
-   "adds": 352194
+   "adds": 361362
   },
   "ryan flournoy": {
    "rank": 11,
-   "adds": 338792
+   "adds": 346824
   },
   "darius cooper": {
    "rank": 16,
-   "adds": 249221
+   "adds": 249298
   },
   "elijah mitchell": {
    "rank": 17,
-   "adds": 234369
-  },
-  "hunter henry": {
-   "rank": 18,
-   "adds": 216171
+   "adds": 243648
   },
   "makai lemon": {
+   "rank": 18,
+   "adds": 220460
+  },
+  "hunter henry": {
    "rank": 19,
-   "adds": 215472
+   "adds": 219918
   },
   "kirk cousins": {
    "rank": 20,
-   "adds": 196992
+   "adds": 199952
   },
   "emanuel wilson": {
    "rank": 21,
-   "adds": 189459
+   "adds": 191718
   },
   "mason taylor": {
    "rank": 22,
-   "adds": 174285
+   "adds": 178160
   },
   "keon coleman": {
    "rank": 23,
-   "adds": 162801
+   "adds": 166491
   },
   "dameon pierce": {
    "rank": 24,
-   "adds": 160376
+   "adds": 161544
   },
   "dylan sampson": {
    "rank": 25,
-   "adds": 157465
+   "adds": 161480
   },
   "rachaad white": {
    "rank": 26,
-   "adds": 151695
+   "adds": 155556
   },
   "kyle pitts": {
    "rank": 27,
-   "adds": 150227
+   "adds": 152439
   },
   "jakobi meyers": {
    "rank": 29,
-   "adds": 144330
+   "adds": 148092
   },
   "blake corum": {
    "rank": 30,
-   "adds": 140984
+   "adds": 142552
   },
   "khalil shakir": {
    "rank": 31,
-   "adds": 131175
+   "adds": 134694
   },
   "savion williams": {
    "rank": 32,
-   "adds": 127953
+   "adds": 132440
   },
   "rico dowdle": {
    "rank": 33,
-   "adds": 118390
+   "adds": 120780
   },
   "malik willis": {
    "rank": 35,
-   "adds": 107975
+   "adds": 110418
   },
   "treylon burks": {
    "rank": 36,
-   "adds": 101304
+   "adds": 104902
   },
   "jordan mason": {
    "rank": 37,
-   "adds": 95925
+   "adds": 97700
   },
   "jayden daniels": {
    "rank": 38,
-   "adds": 93688
+   "adds": 95912
   },
   "mike gesicki": {
    "rank": 39,
-   "adds": 85360
+   "adds": 86512
   },
   "michael penix": {
    "rank": 40,
-   "adds": 84900
+   "adds": 86052
   },
   "tj hockenson": {
    "rank": 41,
-   "adds": 76195
+   "adds": 77913
   },
   "colby parkinson": {
    "rank": 43,
-   "adds": 73074
+   "adds": 74706
   },
   "tony pollard": {
    "rank": 44,
-   "adds": 72985
+   "adds": 74005
   },
   "dak prescott": {
    "rank": 45,
-   "adds": 71742
+   "adds": 73248
   },
   "michael mayer": {
    "rank": 46,
-   "adds": 70209
-  },
-  "kyler murray": {
-   "rank": 48,
-   "adds": 65440
-  },
-  "tanner mckee": {
-   "rank": 49,
-   "adds": 65344
+   "adds": 71649
   },
   "geno smith": {
+   "rank": 48,
+   "adds": 66884
+  },
+  "kyler murray": {
+   "rank": 49,
+   "adds": 66776
+  },
+  "tanner mckee": {
    "rank": 50,
-   "adds": 65092
+   "adds": 65912
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "2 games",
-  "weather": "1 outdoor games",
+  "lines": "3 games",
+  "weather": "2 outdoor games",
   "injuries": "139 players listed",
   "news": "0 players in headlines",
   "google_news": "3 role-cut, 30 injury headlines; QB hurt: GB",
@@ -1011,6 +1034,26 @@
    "cut": false,
    "inj": false,
    "worst": "POWER RANKINGS: Why The NFC North Is The TOUGHEST Division In The NFL + Jared Goff Slander Continues"
+  },
+  "patrick mahomes": {
+   "h": [
+    "Week 8 Fantasy Football Quarterback Rankings: Lamar Jackson Is Back In The Mix And Patrick Mahomes Falls",
+    "Patrick Mahomes: 'Extra special' Kansas City Chiefs quarterback has proven he is one of the greatest athletes of his generation",
+    "Patrick Mahomes loses his cool with struggling Chiefs WR in heated on-field moment"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Week 8 Fantasy Football Quarterback Rankings: Lamar Jackson Is Back In The Mix And Patrick Mahomes Falls"
+  },
+  "bo nix": {
+   "h": [
+    "Broncos Fans Take Over Cardinals Stadium, Drawing Praise From Bo Nix",
+    "Quinn Meinerz on Bo Nix, Sean Payton & Becoming the NFL's Best Guard",
+    "Broncos' Power Rankings Roundup Is Split on Denver as Bo Nix Questions Linger Before Chiefs"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Broncos Fans Take Over Cardinals Stadium, Drawing Praise From Bo Nix"
   },
   "chuba hubbard": {
    "h": [
@@ -1321,16 +1364,6 @@
    "inj": true,
    "worst": "Should Eagles Start Joe Milton Over Tanner McKee? Stream of National Football League"
   },
-  "bo nix": {
-   "h": [
-    "Broncos Fans Take Over Cardinals Stadium, Drawing Praise From Bo Nix",
-    "Quinn Meinerz on Bo Nix, Sean Payton & Becoming the NFL's Best Guard",
-    "Broncos' Power Rankings Roundup Is Split on Denver as Bo Nix Questions Linger Before Chiefs"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Broncos Fans Take Over Cardinals Stadium, Drawing Praise From Bo Nix"
-  },
   "cam ward": {
    "h": [
     "Cam Ward Week 7 film breakdown reveals some of his best work mixed in with the glaring flaws that still threaten his Titans future",
@@ -1380,16 +1413,6 @@
    "cut": false,
    "inj": false,
    "worst": "NFL execs pick between Drake Maye and Caleb Williams in impromptu poll"
-  },
-  "patrick mahomes": {
-   "h": [
-    "Week 8 Fantasy Football Quarterback Rankings: Lamar Jackson Is Back In The Mix And Patrick Mahomes Falls",
-    "Patrick Mahomes: 'Extra special' Kansas City Chiefs quarterback has proven he is one of the greatest athletes of his generation",
-    "Patrick Mahomes loses his cool with struggling Chiefs WR in heated on-field moment"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Week 8 Fantasy Football Quarterback Rankings: Lamar Jackson Is Back In The Mix And Patrick Mahomes Falls"
   },
   "lamar jackson": {
    "h": [
