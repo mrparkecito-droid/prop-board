@@ -12,8 +12,8 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 20,
-   "ask": 80,
-   "bid": 74,
+   "ask": 81,
+   "bid": 76,
    "vals": [
     53.0,
     43.0,
@@ -68,7 +68,7 @@
    "most": 14,
    "per": 239.0,
    "dstat": "pass yds",
-   "p": 77,
+   "p": 78,
    "roi": -4,
    "pp": 83,
    "hs": 85,
@@ -78,11 +78,11 @@
    "agree": 3,
    "score": 80.0,
    "flags": [],
-   "pc": 0.7712,
+   "pc": 0.7809,
    "praw": 0.8532,
    "rg": "WR1",
    "est": false,
-   "mid": 77.0,
+   "mid": 78.5,
    "tk": "KXNFLRECYDS-26NOV01NEMIA-MIAMWASHINGTON6-20",
    "ev": "KXNFLRECYDS-26NOV01NEMIA",
    "ctx": 0,
@@ -153,14 +153,25 @@
    "stepup": 0.6,
    "safer": {
     "line": 15,
-    "ask": 87,
-    "bid": 81,
-    "p": 83,
-    "pc": 0.8271,
+    "ask": 88,
+    "bid": 83,
+    "p": 84,
+    "pc": 0.8369,
     "roi": -5,
     "score": 82.1,
-    "mid": 84.0,
+    "mid": 85.5,
     "tk": "KXNFLRECYDS-26NOV01NEMIA-MIAMWASHINGTON6-15"
+   },
+   "bigger": {
+    "line": 30,
+    "ask": 64,
+    "bid": 62,
+    "p": 64,
+    "pc": 0.6422,
+    "roi": 0,
+    "score": 65.6,
+    "mid": 63.0,
+    "tk": "KXNFLRECYDS-26NOV01NEMIA-MIAMWASHINGTON6-30"
    },
    "rank": 1,
    "why": "Cleared 20+ in 6 of 6 games, by +28 on average (8 of 17 last season), Sleeper projects 40.9, NE let 7 of 7 WR1s reach it. His share of targets fell from 30% to 14%. MIA a 7-pt underdog, trailing teams throw more. Watch: MIA's offense ranks 30th in passing (176 yds a game).; MIA projected for only 19 pts (O/U 44.5).",
@@ -471,6 +482,155 @@
    "news": ""
   },
   {
+   "game": "MINDET",
+   "glabel": "MIN @ DET",
+   "day": "Sun",
+   "player": "Jameson Williams",
+   "team": "DET",
+   "opp": "MIN",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 20,
+   "ask": 87,
+   "bid": 82,
+   "vals": [
+    45.0,
+    33.0,
+    49.0,
+    102.0,
+    47.0,
+    null,
+    91.0
+   ],
+   "over": 6,
+   "n": 6,
+   "proj": 53.2,
+   "al": [
+    [
+     1,
+     "GB",
+     95.0
+    ],
+    [
+     2,
+     "CHI",
+     40.0
+    ],
+    [
+     3,
+     "TB",
+     40.0
+    ],
+    [
+     4,
+     "MIA",
+     3.0
+    ],
+    [
+     5,
+     "NO",
+     26.0
+    ],
+    [
+     7,
+     "IND",
+     19.0
+    ]
+   ],
+   "dhit": 4,
+   "dn": 6,
+   "most": 31,
+   "per": 180.8,
+   "dstat": "pass yds",
+   "p": 82,
+   "roi": -6,
+   "pp": 89,
+   "hs": 92,
+   "dhs": 62,
+   "rks": 3,
+   "vs": 44,
+   "agree": 2,
+   "score": 63.3,
+   "flags": [],
+   "pc": 0.8164,
+   "praw": 0.8334,
+   "rg": "WR2",
+   "est": false,
+   "mid": 84.5,
+   "tk": "KXNFLRECYDS-26NOV01MINDET-DETJWILLIAMS1-20",
+   "ev": "KXNFLRECYDS-26NOV01MINDET",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.16,
+     "DET projected for 25 pts (O/U 46.5)"
+    ],
+    [
+     0.6,
+     "DET has a top passing offense (1st, 298 yds a game)."
+    ],
+    [
+     -0.02,
+     "Snaps falling: 99% \u2192 89% \u2192 84%."
+    ]
+   ],
+   "status": null,
+   "ppj": 88,
+   "pu": 90,
+   "uinfo": {
+    "share": [
+     23,
+     11,
+     13,
+     16,
+     14,
+     29
+    ],
+    "kind": "targets",
+    "snap": 89,
+    "snaps": [
+     82,
+     99,
+     89,
+     84
+    ],
+    "snap_last": 84,
+    "mu": 65.6,
+    "opp": 6.6,
+    "note": ""
+   },
+   "po": 14,
+   "pn": 17,
+   "pid": "8148",
+   "sx": 0.16,
+   "sxs": 58,
+   "mx": -0.48,
+   "mxs": 26,
+   "env": -0.19,
+   "dfac": 0.3,
+   "dfs": 65,
+   "off": 0.6,
+   "ofs": 80,
+   "cu": 97,
+   "avgm": 41.2,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Jared Goff",
+    "same": true,
+    "n": 6
+   },
+   "risk": 1,
+   "tpts": 24.8,
+   "rank": 4,
+   "why": "Cleared 20+ in 6 of 6 games, by +41 on average (14 of 17 last season), Sleeper projects 53.2, MIN let 4 of 6 WR2s reach it. DET has a top passing offense (1st, 298 yds a game).. DET projected for 25 pts (O/U 46.5). Watch: Snaps falling: 99% \u2192 89% \u2192 84%..",
+   "news": ""
+  },
+  {
    "game": "TENCIN",
    "glabel": "TEN @ CIN",
    "day": "Sun",
@@ -626,8 +786,162 @@
    },
    "risk": 1,
    "tpts": 18.2,
-   "rank": 4,
+   "rank": 5,
    "why": "Cleared 25+ in 6 of 7 games, by +34 on average, Sleeper projects 69.9, CIN let 6 of 6 WR1s reach it, CIN allows the 7th most pass yds. TEN a 10-pt underdog, trailing teams throw more. CIN secondary missing S Kyle Dugger. Watch: TEN's offense ranks 32nd in passing (168 yds a game).; TEN projected for only 18 pts (O/U 46.5).",
+   "news": ""
+  },
+  {
+   "game": "INDJAX",
+   "glabel": "IND @ JAX",
+   "day": "Sun",
+   "player": "Parker Washington",
+   "team": "JAX",
+   "opp": "IND",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 30,
+   "ask": 88,
+   "bid": 84,
+   "vals": [
+    83.0,
+    98.0,
+    40.0,
+    7.0,
+    124.0,
+    64.0,
+    null
+   ],
+   "over": 5,
+   "n": 6,
+   "proj": 76.4,
+   "al": [
+    [
+     1,
+     "BAL",
+     150.0
+    ],
+    [
+     2,
+     "KC",
+     86.0
+    ],
+    [
+     3,
+     "HOU",
+     51.0
+    ],
+    [
+     4,
+     "WAS",
+     65.0
+    ],
+    [
+     5,
+     "PIT",
+     80.0
+    ],
+    [
+     6,
+     "TEN",
+     70.0
+    ],
+    [
+     7,
+     "MIN",
+     44.0
+    ]
+   ],
+   "dhit": 7,
+   "dn": 7,
+   "most": 22,
+   "per": 227.4,
+   "dstat": "pass yds",
+   "p": 79,
+   "roi": -10,
+   "pp": 85,
+   "hs": 75,
+   "dhs": 89,
+   "rks": 32,
+   "vs": 40,
+   "agree": 2,
+   "score": 59.2,
+   "flags": [],
+   "pc": 0.7943,
+   "praw": 0.8382,
+   "rg": "WR1",
+   "est": false,
+   "mid": 86.0,
+   "tk": "KXNFLRECYDS-26NOV01INDJAC-JACPWASHINGTON11-30",
+   "ev": "KXNFLRECYDS-26NOV01INDJAC",
+   "ctx": -0.3,
+   "cxs": 35,
+   "reasons": [
+    [
+     -0.3,
+     "Windy: about 15 mph at kickoff"
+    ],
+    [
+     -0.56,
+     "JAX favored by 9.5, may not need to throw late"
+    ],
+    [
+     0.39,
+     "JAX projected for 28 pts (O/U 46.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 87,
+   "pu": 84,
+   "uinfo": {
+    "share": [
+     30,
+     41,
+     19,
+     13,
+     24,
+     30
+    ],
+    "kind": "targets",
+    "snap": 77,
+    "snaps": [
+     81,
+     80,
+     82,
+     73
+    ],
+    "snap_last": 73,
+    "mu": 65.1,
+    "opp": 7.4,
+    "note": ""
+   },
+   "po": 10,
+   "pn": 16,
+   "pid": "9487",
+   "sx": -0.16,
+   "sxs": 42,
+   "mx": -0.18,
+   "mxs": 41,
+   "env": -0.22,
+   "dfac": 0.3,
+   "dfs": 65,
+   "off": 0.14,
+   "ofs": 57,
+   "cu": 79,
+   "avgm": 39.3,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Trevor Lawrence",
+    "same": true,
+    "n": 6
+   },
+   "risk": 1,
+   "tpts": 28.0,
+   "rank": 6,
+   "why": "Cleared 30+ in 5 of 6 games, by +39 on average (10 of 16 last season), Sleeper projects 76.4, IND let 7 of 7 WR1s reach it. JAX projected for 28 pts (O/U 46.5). Watch: JAX favored by 9.5, may not need to throw late; Windy: about 15 mph at kickoff.",
    "news": ""
   },
   {
@@ -784,159 +1098,8 @@
    },
    "risk": 1,
    "tpts": 22.0,
-   "rank": 5,
+   "rank": 7,
    "why": "Cleared 4+ in 5 of 6 games, by +2 on average (10 of 17 last season), Sleeper projects 5.2, GB let 7 of 7 WR1s reach it. CAR has a top passing offense (2nd, 293 yds a game).. CAR a 3.5-pt underdog, trailing teams throw more. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 76\u00a2. Snaps falling: 89% \u2192 76% \u2192 68%..",
-   "news": ""
-  },
-  {
-   "game": "MINDET",
-   "glabel": "MIN @ DET",
-   "day": "Sun",
-   "player": "Jameson Williams",
-   "team": "DET",
-   "opp": "MIN",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 20,
-   "ask": 87,
-   "bid": 71,
-   "vals": [
-    45.0,
-    33.0,
-    49.0,
-    102.0,
-    47.0,
-    null,
-    91.0
-   ],
-   "over": 6,
-   "n": 6,
-   "proj": 53.2,
-   "al": [
-    [
-     1,
-     "GB",
-     95.0
-    ],
-    [
-     2,
-     "CHI",
-     40.0
-    ],
-    [
-     3,
-     "TB",
-     40.0
-    ],
-    [
-     4,
-     "MIA",
-     3.0
-    ],
-    [
-     5,
-     "NO",
-     26.0
-    ],
-    [
-     7,
-     "IND",
-     19.0
-    ]
-   ],
-   "dhit": 4,
-   "dn": 6,
-   "most": 31,
-   "per": 180.8,
-   "dstat": "pass yds",
-   "p": 82,
-   "roi": -5,
-   "pp": 89,
-   "hs": 92,
-   "dhs": 62,
-   "rks": 3,
-   "vs": 45,
-   "agree": 2,
-   "score": 57.1,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.8224,
-   "praw": 0.8334,
-   "rg": "WR2",
-   "est": false,
-   "mid": 85.5,
-   "tk": "KXNFLRECYDS-26NOV01MINDET-DETJWILLIAMS1-20",
-   "ev": "KXNFLRECYDS-26NOV01MINDET",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     0.16,
-     "DET projected for 25 pts (O/U 46.5)"
-    ],
-    [
-     0.6,
-     "DET has a top passing offense (1st, 298 yds a game)."
-    ],
-    [
-     -0.02,
-     "Snaps falling: 99% \u2192 89% \u2192 84%."
-    ]
-   ],
-   "status": null,
-   "ppj": 88,
-   "pu": 90,
-   "uinfo": {
-    "share": [
-     23,
-     11,
-     13,
-     16,
-     14,
-     29
-    ],
-    "kind": "targets",
-    "snap": 89,
-    "snaps": [
-     82,
-     99,
-     89,
-     84
-    ],
-    "snap_last": 84,
-    "mu": 65.6,
-    "opp": 6.6,
-    "note": ""
-   },
-   "po": 14,
-   "pn": 17,
-   "pid": "8148",
-   "sx": 0.16,
-   "sxs": 58,
-   "mx": -0.48,
-   "mxs": 26,
-   "env": -0.19,
-   "dfac": 0.3,
-   "dfs": 65,
-   "off": 0.6,
-   "ofs": 80,
-   "cu": 97,
-   "avgm": 41.2,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Jared Goff",
-    "same": true,
-    "n": 6
-   },
-   "risk": 1,
-   "tpts": 24.8,
-   "rank": 6,
-   "why": "Cleared 20+ in 6 of 6 games, by +41 on average (14 of 17 last season), Sleeper projects 53.2, MIN let 4 of 6 WR2s reach it. DET has a top passing offense (1st, 298 yds a game).. DET projected for 25 pts (O/U 46.5). Watch: Snaps falling: 99% \u2192 89% \u2192 84%..",
    "news": ""
   },
   {
@@ -1079,7 +1242,7 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 21.8,
-   "rank": 7,
+   "rank": 8,
    "why": "Cleared 150+ in 4 of 5 games, by +12 on average (5 of 5 last season), Sleeper projects 216.9, DET let 6 of 6 QBs reach it, DET allows the most pass yds. DET gives up 35% more passing yds to QBs than average.. DET secondary missing S Kerby Joseph. Watch: MIN's offense ranks 29th in passing (181 yds a game). First season with MIN, so last year's numbers carry less..",
    "news": ""
   },
@@ -1108,7 +1271,7 @@
    ],
    "over": 5,
    "n": 6,
-   "proj": 226.4,
+   "proj": 226.1,
    "al": [
     [
      1,
@@ -1162,7 +1325,7 @@
    "score": 56.3,
    "flags": [],
    "pc": 0.7757,
-   "praw": 0.8198,
+   "praw": 0.8196,
    "rg": "QB",
    "est": false,
    "mid": 79.5,
@@ -1221,8 +1384,8 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 21.5,
-   "rank": 8,
-   "why": "Cleared 175+ in 5 of 6 games, by +71 on average (13 of 14 last season), Sleeper projects 226.4, DEN let 6 of 7 QBs reach it. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 80\u00a2..",
+   "rank": 9,
+   "why": "Cleared 175+ in 5 of 6 games, by +71 on average (13 of 14 last season), Sleeper projects 226.1, DEN let 6 of 7 QBs reach it. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 80\u00a2..",
    "news": ""
   },
   {
@@ -1375,7 +1538,7 @@
    },
    "risk": 1,
    "tpts": 22.0,
-   "rank": 9,
+   "rank": 10,
    "why": "Cleared 40+ in 5 of 6 games, by +45 on average (12 of 17 last season), Sleeper projects 77.2, GB let 6 of 7 WR1s reach it. CAR has a top passing offense (2nd, 293 yds a game).. CAR a 3.5-pt underdog, trailing teams throw more. Watch: Snaps falling: 89% \u2192 76% \u2192 68%..",
    "news": ""
   },
@@ -1391,7 +1554,7 @@
    "stat": "rush",
    "prop": "Rushing Yards",
    "line": 40,
-   "ask": 83,
+   "ask": 85,
    "bid": 72,
    "vals": [
     45.0,
@@ -1447,7 +1610,7 @@
    "most": 29,
    "per": 88.9,
    "dstat": "rush yds",
-   "p": 77,
+   "p": 79,
    "roi": -7,
    "pp": 80,
    "hs": 84,
@@ -1457,11 +1620,11 @@
    "agree": 2,
    "score": 54.8,
    "flags": [],
-   "pc": 0.7738,
+   "pc": 0.7878,
    "praw": 0.7854,
    "rg": "RB1",
    "est": false,
-   "mid": 81.5,
+   "mid": 83.5,
    "tk": "KXNFLRSHYDS-26NOV01ATLTB-TBBIRVING7-40",
    "ev": "KXNFLRSHYDS-26NOV01ATLTB",
    "ctx": 0,
@@ -1526,7 +1689,7 @@
    "qinfo": null,
    "risk": 0,
    "tpts": 24.0,
-   "rank": 10,
+   "rank": 11,
    "why": "Cleared 40+ in 7 of 7 games, by +40 on average (8 of 10 last season), Sleeper projects 75.3, ATL let 5 of 7 lead RBs reach it. His share of carries is up from 40% to 49%. TB has a top rushing offense (3rd, 146 yds a game).. TB projected for 24 pts (O/U 45.5). Watch: ATL gives up 26% fewer rushing yds to lead RBs than average..",
    "news": ""
   },
@@ -1555,7 +1718,7 @@
    ],
    "over": 5,
    "n": 6,
-   "proj": 94.9,
+   "proj": 94.4,
    "al": [
     [
      1,
@@ -1611,7 +1774,7 @@
     "Wide bid/ask spread, thin market"
    ],
    "pc": 0.7997,
-   "praw": 0.8204,
+   "praw": 0.8202,
    "rg": "RB1",
    "est": false,
    "mid": 83.5,
@@ -1670,8 +1833,8 @@
    "qinfo": null,
    "risk": 0,
    "tpts": 21.5,
-   "rank": 11,
-   "why": "Cleared 50+ in 5 of 6 games, by +67 on average (11 of 17 last season), Sleeper projects 94.9, DEN let 6 of 7 lead RBs reach it, DEN allows the 5th most rush yds. His share of carries is up from 61% to 88%. KC has a top rushing offense (6th, 139 yds a game)..",
+   "rank": 12,
+   "why": "Cleared 50+ in 5 of 6 games, by +67 on average (11 of 17 last season), Sleeper projects 94.4, DEN let 6 of 7 lead RBs reach it, DEN allows the 5th most rush yds. His share of carries is up from 61% to 88%. KC has a top rushing offense (6th, 139 yds a game)..",
    "news": ""
   },
   {
@@ -1826,7 +1989,7 @@
    },
    "risk": 1,
    "tpts": 25.5,
-   "rank": 12,
+   "rank": 13,
    "why": "Cleared 3+ in 7 of 7 games, by +2 on average (7 of 10 last season), Sleeper projects 4.2, CAR let 5 of 6 WR1s reach it. GB has a top passing offense (4th, 280 yds a game).. GB projected for 26 pts (O/U 47.5). Watch: GB favored by 3.5, may not need to throw late; His QB is playing hurt (injury news), so pass-game props lean on Kalshi..",
    "news": ""
   },
@@ -1843,7 +2006,7 @@
    "prop": "Rushing Yards",
    "line": 10,
    "ask": 85,
-   "bid": 66,
+   "bid": 68,
    "vals": [
     47.0,
     17.0,
@@ -1939,7 +2102,7 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 25.8,
-   "rank": 13,
+   "rank": 14,
    "why": "Cleared 10+ in 7 of 7 games, by +20 on average (16 of 17 last season), Sleeper projects 36.8. NE projected for 26 pts (O/U 44.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 84\u00a2..",
    "news": ""
   },
@@ -2101,7 +2264,7 @@
    },
    "risk": 1,
    "tpts": 22.0,
-   "rank": 14,
+   "rank": 15,
    "why": "Cleared 10+ in 5 of 6 games, by +23 on average (7 of 9 last season), Sleeper projects 30.1, GB let 7 of 7 TE1s reach it. CAR has a top passing offense (2nd, 293 yds a game).. CAR a 3.5-pt underdog, trailing teams throw more. Watch: Low volume: about 3.6 targets a game as the TE1.; GB gives up 40% fewer receiving yds to TE1s than average..",
    "news": ""
   },
@@ -2261,7 +2424,7 @@
    },
    "risk": 1,
    "tpts": 18.2,
-   "rank": 15,
+   "rank": 16,
    "why": "Cleared 15+ in 5 of 7 games, by +14 on average (15 of 16 last season), Sleeper projects 46.9, CIN let 6 of 6 WR2s reach it, CIN allows the 7th most pass yds. TEN a 10-pt underdog, trailing teams throw more. CIN secondary missing S Kyle Dugger. Watch: TEN's offense ranks 32nd in passing (168 yds a game).; TEN projected for only 18 pts (O/U 46.5).",
    "news": ""
   },
@@ -2410,164 +2573,8 @@
    },
    "risk": 1,
    "tpts": 21.8,
-   "rank": 16,
-   "why": "Cleared 20+ in 4 of 6 games, by +20 on average (8 of 15 last season), Sleeper projects 45.8, DET let 6 of 6 TE1s reach it, DET allows the most pass yds. DET gives up 63% more receiving yds to TE1s than average.. DET secondary missing S Kerby Joseph. Watch: MIN's offense ranks 29th in passing (181 yds a game)..",
-   "news": ""
-  },
-  {
-   "game": "INDJAX",
-   "glabel": "IND @ JAX",
-   "day": "Sun",
-   "player": "Parker Washington",
-   "team": "JAX",
-   "opp": "IND",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 40,
-   "ask": 81,
-   "bid": 65,
-   "vals": [
-    83.0,
-    98.0,
-    40.0,
-    7.0,
-    124.0,
-    64.0,
-    null
-   ],
-   "over": 5,
-   "n": 6,
-   "proj": 76.4,
-   "al": [
-    [
-     1,
-     "BAL",
-     150.0
-    ],
-    [
-     2,
-     "KC",
-     86.0
-    ],
-    [
-     3,
-     "HOU",
-     51.0
-    ],
-    [
-     4,
-     "WAS",
-     65.0
-    ],
-    [
-     5,
-     "PIT",
-     80.0
-    ],
-    [
-     6,
-     "TEN",
-     70.0
-    ],
-    [
-     7,
-     "MIN",
-     44.0
-    ]
-   ],
-   "dhit": 7,
-   "dn": 7,
-   "most": 22,
-   "per": 227.4,
-   "dstat": "pass yds",
-   "p": 73,
-   "roi": -9,
-   "pp": 79,
-   "hs": 70,
-   "dhs": 89,
-   "rks": 32,
-   "vs": 41,
-   "agree": 2,
-   "score": 50.7,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.7346,
-   "praw": 0.7959,
-   "rg": "WR1",
-   "est": false,
-   "mid": 79.5,
-   "tk": "KXNFLRECYDS-26NOV01INDJAC-JACPWASHINGTON11-40",
-   "ev": "KXNFLRECYDS-26NOV01INDJAC",
-   "ctx": -0.3,
-   "cxs": 35,
-   "reasons": [
-    [
-     -0.3,
-     "Windy: about 15 mph at kickoff"
-    ],
-    [
-     -0.56,
-     "JAX favored by 9.5, may not need to throw late"
-    ],
-    [
-     0.39,
-     "JAX projected for 28 pts (O/U 46.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 81,
-   "pu": 76,
-   "uinfo": {
-    "share": [
-     30,
-     41,
-     19,
-     13,
-     24,
-     30
-    ],
-    "kind": "targets",
-    "snap": 77,
-    "snaps": [
-     81,
-     80,
-     82,
-     73
-    ],
-    "snap_last": 73,
-    "mu": 65.1,
-    "opp": 7.4,
-    "note": ""
-   },
-   "po": 8,
-   "pn": 16,
-   "pid": "9487",
-   "sx": -0.16,
-   "sxs": 42,
-   "mx": -0.18,
-   "mxs": 41,
-   "env": -0.22,
-   "dfac": 0.3,
-   "dfs": 65,
-   "off": 0.14,
-   "ofs": 57,
-   "cu": 73,
-   "avgm": 29.3,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Trevor Lawrence",
-    "same": true,
-    "n": 6
-   },
-   "risk": 1,
-   "tpts": 28.0,
    "rank": 17,
-   "why": "Cleared 40+ in 5 of 6 games, by +29 on average (8 of 16 last season), Sleeper projects 76.4, IND let 7 of 7 WR1s reach it. JAX projected for 28 pts (O/U 46.5). Watch: JAX favored by 9.5, may not need to throw late; Windy: about 15 mph at kickoff.",
+   "why": "Cleared 20+ in 4 of 6 games, by +20 on average (8 of 15 last season), Sleeper projects 45.8, DET let 6 of 6 TE1s reach it, DET allows the most pass yds. DET gives up 63% more receiving yds to TE1s than average.. DET secondary missing S Kerby Joseph. Watch: MIN's offense ranks 29th in passing (181 yds a game)..",
    "news": ""
   },
   {
@@ -3631,148 +3638,6 @@
    "news": ""
   },
   {
-   "game": "NEMIA",
-   "glabel": "NE @ MIA",
-   "day": "Sun",
-   "player": "Rhamondre Stevenson",
-   "team": "NE",
-   "opp": "MIA",
-   "pos": "RB",
-   "role": "RB1",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 30,
-   "ask": 79,
-   "bid": 70,
-   "vals": [
-    51.0,
-    43.0,
-    22.0,
-    47.0,
-    64.0,
-    36.0,
-    22.0
-   ],
-   "over": 5,
-   "n": 7,
-   "proj": 33.8,
-   "al": [
-    [
-     1,
-     "LV",
-     102.0
-    ],
-    [
-     2,
-     "SF",
-     25.0
-    ],
-    [
-     3,
-     "KC",
-     70.0
-    ],
-    [
-     4,
-     "MIN",
-     94.0
-    ],
-    [
-     5,
-     "CIN",
-     68.0
-    ],
-    [
-     7,
-     "NYJ",
-     104.0
-    ]
-   ],
-   "dhit": 5,
-   "dn": 6,
-   "most": 17,
-   "per": 110.2,
-   "dstat": "rush yds",
-   "p": 70,
-   "roi": -11,
-   "pp": 66,
-   "hs": 67,
-   "dhs": 75,
-   "rks": 48,
-   "vs": 39,
-   "agree": 1,
-   "score": 45.3,
-   "flags": [],
-   "pc": 0.7032,
-   "praw": 0.7115,
-   "rg": "RB1",
-   "est": false,
-   "mid": 74.5,
-   "tk": "KXNFLRSHYDS-26NOV01NEMIA-NERSTEVENSON38-30",
-   "ev": "KXNFLRSHYDS-26NOV01NEMIA",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     0.57,
-     "NE favored by 7, should run a lot with a lead"
-    ],
-    [
-     0.23,
-     "NE projected for 26 pts (O/U 44.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 59,
-   "pu": 73,
-   "uinfo": {
-    "share": [
-     58,
-     21,
-     27,
-     37,
-     42,
-     39,
-     35
-    ],
-    "kind": "carries",
-    "snap": 63,
-    "snaps": [
-     66,
-     71,
-     60,
-     69
-    ],
-    "snap_last": 69,
-    "mu": 44.6,
-    "opp": 10.7,
-    "note": "His share of carries fell from 58% to 35%."
-   },
-   "po": 9,
-   "pn": 14,
-   "pid": "7611",
-   "sx": 0.8,
-   "sxs": 90,
-   "mx": 0.12,
-   "mxs": 56,
-   "env": 0.59,
-   "dfac": 0.12,
-   "dfs": 56,
-   "off": 0.17,
-   "ofs": 58,
-   "cu": 67,
-   "avgm": 10.7,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
-   "risk": 0,
-   "tpts": 25.8,
-   "rank": 25,
-   "why": "Cleared 30+ in 5 of 7 games, by +11 on average (9 of 14 last season), Sleeper projects 33.8, MIA let 5 of 6 lead RBs reach it. His share of carries fell from 58% to 35%. NE favored by 7, should run a lot with a lead. NE projected for 26 pts (O/U 44.5).",
-   "news": ""
-  },
-  {
    "game": "CARGB",
    "glabel": "CAR @ GB (Thu)",
    "day": "Thu",
@@ -3914,7 +3779,7 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 22.0,
-   "rank": 26,
+   "rank": 25,
    "why": "Cleared 200+ in 5 of 6 games, by +85 on average (4 of 16 last season), Sleeper projects 241.2, GB let 4 of 7 QBs reach it. Snaps dropped to 77% last game. CAR has a top passing offense (2nd, 293 yds a game).. CAR a 3.5-pt underdog, trailing teams throw more.",
    "news": ""
   },
@@ -4069,7 +3934,7 @@
    },
    "risk": 0,
    "tpts": 24.0,
-   "rank": 27,
+   "rank": 26,
    "why": "Cleared 10+ in 3 of 7 games, by +1 on average (8 of 10 last season), Sleeper projects 19.8, ATL let 7 of 7 lead RBs reach it, ATL allows the 4th most pass yds. His share of targets fell from 26% to 18%. TB projected for 24 pts (O/U 45.5). Watch: TB's offense ranks 31st in passing (169 yds a game).; Low volume: about 3.4 targets a game as the RB1..",
    "news": ""
   },
@@ -4223,7 +4088,7 @@
    },
    "risk": 1,
    "tpts": 28.2,
-   "rank": 28,
+   "rank": 27,
    "why": "Cleared 60+ in 4 of 6 games, by -2 on average (11 of 16 last season), Sleeper projects 82.7, TEN let 6 of 7 WR1s reach it, TEN allows the 10th most pass yds. His share of targets is up from 12% to 25%. CIN has a top passing offense (5th, 276 yds a game).. CIN projected for 28 pts (O/U 46.5). Watch: CIN favored by 10, may not need to throw late.",
    "news": ""
   },
@@ -4252,7 +4117,7 @@
    ],
    "over": 4,
    "n": 6,
-   "proj": 24.4,
+   "proj": 24.3,
    "al": [],
    "dhit": null,
    "dn": null,
@@ -4272,7 +4137,7 @@
     "Wide bid/ask spread, thin market"
    ],
    "pc": 0.58,
-   "praw": 0.7315,
+   "praw": 0.7313,
    "rg": "QB",
    "est": false,
    "mid": 59.5,
@@ -4291,7 +4156,7 @@
     ]
    ],
    "status": null,
-   "ppj": 85,
+   "ppj": 84,
    "pu": 75,
    "uinfo": {
     "share": [
@@ -4335,8 +4200,8 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 21.5,
-   "rank": 29,
-   "why": "Cleared 10+ in 4 of 6 games, by +2 on average (10 of 14 last season), Sleeper projects 24.4, DEN allows the 5th most rush yds. KC has a top rushing offense (6th, 139 yds a game).. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 60\u00a2..",
+   "rank": 28,
+   "why": "Cleared 10+ in 4 of 6 games, by +2 on average (10 of 14 last season), Sleeper projects 24.3, DEN allows the 5th most rush yds. KC has a top rushing offense (6th, 139 yds a game).. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 60\u00a2..",
    "news": ""
   },
   {
@@ -4491,7 +4356,7 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 28.0,
-   "rank": 30,
+   "rank": 29,
    "why": "Cleared 40+ in 5 of 6 games, by +25 on average (2 of 15 last season), Sleeper projects 68.6, IND let 5 of 7 lead RBs reach it. JAX favored by 9.5, should run a lot with a lead. JAX projected for 28 pts (O/U 46.5).",
    "news": ""
   },
@@ -4655,8 +4520,152 @@
    },
    "risk": 0,
    "tpts": 18.2,
-   "rank": 31,
+   "rank": 30,
    "why": "Cleared 10+ in 4 of 7 games, by +2 on average (12 of 16 last season), Sleeper projects 22.9, CIN let 6 of 6 TE1s reach it, CIN allows the 7th most pass yds. TEN a 10-pt underdog, trailing teams throw more. CIN gives up 62% more receiving yds to TE1s than average.. Watch: Low volume: about 2.2 targets a game as the TE1.; TEN's offense ranks 32nd in passing (168 yds a game)..",
+   "news": ""
+  },
+  {
+   "game": "NEMIA",
+   "glabel": "NE @ MIA",
+   "day": "Sun",
+   "player": "Rhamondre Stevenson",
+   "team": "NE",
+   "opp": "MIA",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rush",
+   "prop": "Rushing Yards",
+   "line": 30,
+   "ask": 79,
+   "bid": 9,
+   "vals": [
+    51.0,
+    43.0,
+    22.0,
+    47.0,
+    64.0,
+    36.0,
+    22.0
+   ],
+   "over": 5,
+   "n": 7,
+   "proj": 33.8,
+   "al": [
+    [
+     1,
+     "LV",
+     102.0
+    ],
+    [
+     2,
+     "SF",
+     25.0
+    ],
+    [
+     3,
+     "KC",
+     70.0
+    ],
+    [
+     4,
+     "MIN",
+     94.0
+    ],
+    [
+     5,
+     "CIN",
+     68.0
+    ],
+    [
+     7,
+     "NYJ",
+     104.0
+    ]
+   ],
+   "dhit": 5,
+   "dn": 6,
+   "most": 17,
+   "per": 110.2,
+   "dstat": "rush yds",
+   "p": 72,
+   "roi": -9,
+   "pp": 66,
+   "hs": 67,
+   "dhs": 75,
+   "rks": 48,
+   "vs": 41,
+   "agree": 1,
+   "score": 41.1,
+   "flags": [
+    "Wide bid/ask spread, thin market"
+   ],
+   "pc": 0.7212,
+   "praw": 0.7115,
+   "rg": "RB1",
+   "est": false,
+   "mid": 77.5,
+   "tk": "KXNFLRSHYDS-26NOV01NEMIA-NERSTEVENSON38-30",
+   "ev": "KXNFLRSHYDS-26NOV01NEMIA",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.57,
+     "NE favored by 7, should run a lot with a lead"
+    ],
+    [
+     0.23,
+     "NE projected for 26 pts (O/U 44.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 59,
+   "pu": 73,
+   "uinfo": {
+    "share": [
+     58,
+     21,
+     27,
+     37,
+     42,
+     39,
+     35
+    ],
+    "kind": "carries",
+    "snap": 63,
+    "snaps": [
+     66,
+     71,
+     60,
+     69
+    ],
+    "snap_last": 69,
+    "mu": 44.6,
+    "opp": 10.7,
+    "note": "His share of carries fell from 58% to 35%."
+   },
+   "po": 9,
+   "pn": 14,
+   "pid": "7611",
+   "sx": 0.8,
+   "sxs": 90,
+   "mx": 0.12,
+   "mxs": 56,
+   "env": 0.59,
+   "dfac": 0.12,
+   "dfs": 56,
+   "off": 0.17,
+   "ofs": 58,
+   "cu": 67,
+   "avgm": 10.7,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": null,
+   "risk": 0,
+   "tpts": 25.8,
+   "rank": 31,
+   "why": "Cleared 30+ in 5 of 7 games, by +11 on average (9 of 14 last season), Sleeper projects 33.8, MIA let 5 of 6 lead RBs reach it. His share of carries fell from 58% to 35%. NE favored by 7, should run a lot with a lead. NE projected for 26 pts (O/U 44.5).",
    "news": ""
   },
   {
@@ -4671,7 +4680,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 25,
-   "ask": 86,
+   "ask": 87,
    "bid": 68,
    "vals": [
     26.0,
@@ -4722,7 +4731,7 @@
    "most": 15,
    "per": 236.2,
    "dstat": "pass yds",
-   "p": 76,
+   "p": 77,
    "roi": -11,
    "pp": 86,
    "hs": 43,
@@ -4730,15 +4739,15 @@
    "rks": 55,
    "vs": 39,
    "agree": 2,
-   "score": 39.7,
+   "score": 39.6,
    "flags": [
     "Wide bid/ask spread, thin market"
    ],
-   "pc": 0.7632,
+   "pc": 0.7703,
    "praw": 0.7461,
    "rg": "WR1",
    "est": false,
-   "mid": 84.5,
+   "mid": 85.5,
    "tk": "KXNFLRECYDS-26NOV01NEMIA-NEABROWN1-25",
    "ev": "KXNFLRECYDS-26NOV01NEMIA",
    "ctx": 0,
@@ -4959,8 +4968,8 @@
    "stat": "rush",
    "prop": "Rushing Yards",
    "line": 15,
-   "ask": 85,
-   "bid": 68,
+   "ask": 88,
+   "bid": 71,
    "vals": [
     39.0,
     6.0,
@@ -4979,7 +4988,7 @@
    "most": 25,
    "per": 95.3,
    "dstat": "rush yds",
-   "p": 72,
+   "p": 75,
    "roi": -15,
    "pp": 82,
    "hs": 70,
@@ -4987,15 +4996,15 @@
    "rks": 23,
    "vs": 35,
    "agree": 1,
-   "score": 32.7,
+   "score": 32.6,
    "flags": [
     "Wide bid/ask spread, thin market"
    ],
-   "pc": 0.725,
+   "pc": 0.7465,
    "praw": 0.7584,
    "rg": "QB",
    "est": false,
-   "mid": 83.5,
+   "mid": 86.5,
    "tk": "KXNFLRSHYDS-26NOV01NEMIA-MIAMWILLIS2-15",
    "ev": "KXNFLRSHYDS-26NOV01NEMIA",
    "ctx": 0.0,
@@ -5412,7 +5421,7 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26NOV01KCDEN-KCPMAHOMES15-225",
    "ev": "KXNFLPASSYDS-26NOV01KCDEN",
-   "wy": "Cleared 225+ in 4 of 6 games, by +21 on average (10 of 14 last season), Sleeper projects 226.4, DEN let 3 of 7 QBs reach it. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 52\u00a2..",
+   "wy": "Cleared 225+ in 4 of 6 games, by +21 on average (10 of 14 last season), Sleeper projects 226.1, DEN let 3 of 7 QBs reach it. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 52\u00a2..",
    "id": "4046",
    "cx": 0,
    "nw": "",
@@ -5437,7 +5446,7 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26NOV01KCDEN-KCPMAHOMES15-175",
    "ev": "KXNFLPASSYDS-26NOV01KCDEN",
-   "wy": "Cleared 175+ in 5 of 6 games, by +71 on average (13 of 14 last season), Sleeper projects 226.4, DEN let 6 of 7 QBs reach it. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 80\u00a2..",
+   "wy": "Cleared 175+ in 5 of 6 games, by +71 on average (13 of 14 last season), Sleeper projects 226.1, DEN let 6 of 7 QBs reach it. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 80\u00a2..",
    "id": "4046",
    "cx": 0,
    "nw": "",
@@ -5462,7 +5471,7 @@
    "est": 0,
    "tk": "KXNFLPASSYDS-26NOV01KCDEN-KCPMAHOMES15-150",
    "ev": "KXNFLPASSYDS-26NOV01KCDEN",
-   "wy": "Cleared 150+ in 6 of 6 games, by +96 on average (14 of 14 last season), Sleeper projects 226.4, DEN let 6 of 7 QBs reach it. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 84\u00a2..",
+   "wy": "Cleared 150+ in 6 of 6 games, by +96 on average (14 of 14 last season), Sleeper projects 226.1, DEN let 6 of 7 QBs reach it. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 84\u00a2..",
    "id": "4046",
    "cx": 0,
    "nw": "",
@@ -5633,7 +5642,7 @@
    "ask": 37,
    "q": 35.5,
    "p": 0.3411,
-   "sc": 23.0,
+   "sc": 22.9,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01KCDEN-KCKWALKER9-100",
    "ev": "KXNFLRSHYDS-26NOV01KCDEN",
@@ -5657,12 +5666,12 @@
    "ln": 90,
    "ask": 44,
    "q": 40.5,
-   "p": 0.3902,
+   "p": 0.3901,
    "sc": 24.4,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01KCDEN-KCKWALKER9-90",
    "ev": "KXNFLRSHYDS-26NOV01KCDEN",
-   "wy": "Cleared 90+ in 4 of 6 games, by +27 on average (3 of 17 last season), Sleeper projects 94.9, DEN let 1 of 7 lead RBs reach it, DEN allows the 5th most rush yds. His share of carries is up from 61% to 88%. KC has a top rushing offense (6th, 139 yds a game)..",
+   "wy": "Cleared 90+ in 4 of 6 games, by +27 on average (3 of 17 last season), Sleeper projects 94.4, DEN let 1 of 7 lead RBs reach it, DEN allows the 5th most rush yds. His share of carries is up from 61% to 88%. KC has a top rushing offense (6th, 139 yds a game)..",
    "id": "8151",
    "cx": 0,
    "nw": "",
@@ -5687,7 +5696,7 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01KCDEN-KCPMAHOMES15-20",
    "ev": "KXNFLRSHYDS-26NOV01KCDEN",
-   "wy": "Cleared 20+ in 1 of 6 games, by -8 on average (9 of 14 last season), Sleeper projects 24.4, DEN allows the 5th most rush yds. KC has a top rushing offense (6th, 139 yds a game).. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 34\u00a2..",
+   "wy": "Cleared 20+ in 1 of 6 games, by -8 on average (9 of 14 last season), Sleeper projects 24.3, DEN allows the 5th most rush yds. KC has a top rushing offense (6th, 139 yds a game).. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 34\u00a2..",
    "id": "4046",
    "cx": 0,
    "nw": "",
@@ -5712,7 +5721,7 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01KCDEN-KCPMAHOMES15-15",
    "ev": "KXNFLRSHYDS-26NOV01KCDEN",
-   "wy": "Cleared 15+ in 3 of 6 games, by -3 on average (10 of 14 last season), Sleeper projects 24.4, DEN allows the 5th most rush yds. KC has a top rushing offense (6th, 139 yds a game).. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 46\u00a2..",
+   "wy": "Cleared 15+ in 3 of 6 games, by -3 on average (10 of 14 last season), Sleeper projects 24.3, DEN allows the 5th most rush yds. KC has a top rushing offense (6th, 139 yds a game).. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 46\u00a2..",
    "id": "4046",
    "cx": 0,
    "nw": "",
@@ -5737,7 +5746,7 @@
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01KCDEN-KCPMAHOMES15-10",
    "ev": "KXNFLRSHYDS-26NOV01KCDEN",
-   "wy": "Cleared 10+ in 4 of 6 games, by +2 on average (10 of 14 last season), Sleeper projects 24.4, DEN allows the 5th most rush yds. KC has a top rushing offense (6th, 139 yds a game).. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 60\u00a2..",
+   "wy": "Cleared 10+ in 4 of 6 games, by +2 on average (10 of 14 last season), Sleeper projects 24.3, DEN allows the 5th most rush yds. KC has a top rushing offense (6th, 139 yds a game).. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 60\u00a2..",
    "id": "4046",
    "cx": 0,
    "nw": "",
@@ -5755,10 +5764,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 60,
-   "ask": 36,
-   "q": 33.0,
-   "p": 0.3123,
-   "sc": 14.5,
+   "ask": 35,
+   "q": 33.5,
+   "p": 0.3163,
+   "sc": 13.3,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01NEMIA-NERSTEVENSON38-60",
    "ev": "KXNFLRSHYDS-26NOV01NEMIA",
@@ -5780,10 +5789,10 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 30,
-   "ask": 39,
-   "q": 37.5,
-   "p": 0.358,
-   "sc": 20.2,
+   "ask": 40,
+   "q": 38.5,
+   "p": 0.3675,
+   "sc": 22.5,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01NEMIA-NEDMAYE10-30",
    "ev": "KXNFLRSHYDS-26NOV01NEMIA",
@@ -5805,14 +5814,14 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 25,
-   "ask": 48,
-   "q": 47.5,
-   "p": 0.4589,
-   "sc": 33.9,
+   "ask": 52,
+   "q": 49.5,
+   "p": 0.4781,
+   "sc": 33.5,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01NEMIA-NEDMAYE10-25",
    "ev": "KXNFLRSHYDS-26NOV01NEMIA",
-   "wy": "Cleared 25+ in 4 of 7 games, by +5 on average (8 of 17 last season), Sleeper projects 36.8. NE projected for 26 pts (O/U 44.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 48\u00a2..",
+   "wy": "Cleared 25+ in 4 of 7 games, by +5 on average (8 of 17 last season), Sleeper projects 36.8. NE projected for 26 pts (O/U 44.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 50\u00a2..",
    "id": "11564",
    "cx": 0,
    "nw": "",
@@ -5830,14 +5839,14 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 20,
-   "ask": 59,
-   "q": 57.5,
-   "p": 0.5597,
-   "sc": 41.3,
+   "ask": 63,
+   "q": 61.5,
+   "p": 0.5976,
+   "sc": 37.2,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01NEMIA-NEDMAYE10-20",
    "ev": "KXNFLRSHYDS-26NOV01NEMIA",
-   "wy": "Cleared 20+ in 5 of 7 games, by +10 on average (11 of 17 last season), Sleeper projects 36.8. NE projected for 26 pts (O/U 44.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 57\u00a2..",
+   "wy": "Cleared 20+ in 5 of 7 games, by +10 on average (11 of 17 last season), Sleeper projects 36.8. NE projected for 26 pts (O/U 44.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 62\u00a2..",
    "id": "11564",
    "cx": 0,
    "nw": "",
@@ -5855,14 +5864,14 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 15,
-   "ask": 71,
-   "q": 69.5,
-   "p": 0.68,
+   "ask": 74,
+   "q": 72.5,
+   "p": 0.7084,
    "sc": 49.8,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01NEMIA-NEDMAYE10-15",
    "ev": "KXNFLRSHYDS-26NOV01NEMIA",
-   "wy": "Cleared 15+ in 7 of 7 games, by +15 on average (11 of 17 last season), Sleeper projects 36.8. NE projected for 26 pts (O/U 44.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 70\u00a2..",
+   "wy": "Cleared 15+ in 7 of 7 games, by +15 on average (11 of 17 last season), Sleeper projects 36.8. NE projected for 26 pts (O/U 44.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 72\u00a2..",
    "id": "11564",
    "cx": 0,
    "nw": "",
@@ -6031,9 +6040,9 @@
    "pr": "Receiving Yards",
    "ln": 80,
    "ask": 45,
-   "q": 44.0,
-   "p": 0.4208,
-   "sc": 22.6,
+   "q": 43.5,
+   "p": 0.4166,
+   "sc": 22.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT29CARGB-CARTMCMILLAN4-80",
    "ev": "KXNFLRECYDS-26OCT29CARGB",
@@ -6181,8 +6190,8 @@
    "pr": "Receiving Yards",
    "ln": 40,
    "ask": 81,
-   "q": 78.5,
-   "p": 0.7657,
+   "q": 79.0,
+   "p": 0.7704,
    "sc": 59.4,
    "est": 0,
    "tk": "KXNFLRECYDS-26OCT29CARGB-GBCWATSON9-40",
@@ -6371,31 +6380,6 @@
    "xb": 0,
    "rk": 1,
    "pt": 24.8
-  },
-  {
-   "pl": "Wan'Dale Robinson",
-   "tm": "TEN",
-   "g": "TENCIN",
-   "gl": "TEN @ CIN",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 30,
-   "ask": 64,
-   "q": 62.5,
-   "p": 0.6119,
-   "sc": 36.4,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26NOV01TENCIN-TENWROBINSON4-30",
-   "ev": "KXNFLRECYDS-26NOV01TENCIN",
-   "wy": "Cleared 30+ in 3 of 7 games, by -0.7 on average (13 of 16 last season), Sleeper projects 46.9, CIN let 6 of 6 WR2s reach it, CIN allows the 7th most pass yds. TEN a 10-pt underdog, trailing teams throw more. CIN secondary missing S Kyle Dugger. Watch: TEN's offense ranks 32nd in passing (168 yds a game).; TEN projected for only 18 pts (O/U 46.5).",
-   "id": "8126",
-   "cx": 0.15,
-   "nw": "",
-   "dy": "Sun",
-   "df": 0.3,
-   "xb": 0,
-   "rk": 1,
-   "pt": 18.2
   },
   {
    "pl": "Wan'Dale Robinson",
@@ -6630,10 +6614,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 50,
-   "ask": 35,
-   "q": 33.5,
-   "p": 0.3485,
-   "sc": 29.8,
+   "ask": 38,
+   "q": 36.5,
+   "p": 0.3689,
+   "sc": 26.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV01NEMIA-MIAMWASHINGTON6-50",
    "ev": "KXNFLRECYDS-26NOV01NEMIA",
@@ -6655,10 +6639,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 49,
-   "q": 47.5,
-   "p": 0.4931,
-   "sc": 49.8,
+   "ask": 52,
+   "q": 50.5,
+   "p": 0.5132,
+   "sc": 44.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV01NEMIA-MIAMWASHINGTON6-40",
    "ev": "KXNFLRECYDS-26NOV01NEMIA",
@@ -6681,9 +6665,9 @@
    "pr": "Receiving Yards",
    "ln": 30,
    "ask": 64,
-   "q": 61.0,
-   "p": 0.6301,
-   "sc": 65.3,
+   "q": 63.0,
+   "p": 0.6422,
+   "sc": 65.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV01NEMIA-MIAMWASHINGTON6-30",
    "ev": "KXNFLRECYDS-26NOV01NEMIA",
@@ -6706,9 +6690,9 @@
    "pr": "Receiving Yards",
    "ln": 25,
    "ask": 72,
-   "q": 69.0,
-   "p": 0.7031,
-   "sc": 76.8,
+   "q": 70.5,
+   "p": 0.7121,
+   "sc": 77.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV01NEMIA-MIAMWASHINGTON6-25",
    "ev": "KXNFLRECYDS-26NOV01NEMIA",
@@ -6730,9 +6714,9 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 20,
-   "ask": 80,
-   "q": 77.0,
-   "p": 0.7712,
+   "ask": 81,
+   "q": 78.5,
+   "p": 0.7809,
    "sc": 80.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV01NEMIA-MIAMWASHINGTON6-20",
@@ -6755,9 +6739,9 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 87,
-   "q": 84.0,
-   "p": 0.8271,
+   "ask": 88,
+   "q": 85.5,
+   "p": 0.8369,
    "sc": 82.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV01NEMIA-MIAMWASHINGTON6-15",
@@ -7138,8 +7122,8 @@
     "prop": {
      "pr": "Passing Yards",
      "ln": 175,
-     "p": 0.836,
-     "ask": 89,
+     "p": 0.846,
+     "ask": 90,
      "sc": 70.7
     },
     "tags": [
@@ -7279,8 +7263,8 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 40,
-     "p": 0.774,
-     "ask": 83,
+     "p": 0.788,
+     "ask": 85,
      "sc": 54.8
     },
     "tags": [
@@ -7762,9 +7746,9 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 30,
-     "p": 0.703,
+     "p": 0.721,
      "ask": 79,
-     "sc": 45.3
+     "sc": 41.1
     },
     "tags": [
      "Soft TD defense",
@@ -8110,9 +8094,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 30,
-     "p": 0.819,
-     "ask": 91,
-     "sc": 53.2
+     "p": 0.794,
+     "ask": 88,
+     "sc": 59.2
     },
     "tags": [
      "RZ share top-10",
@@ -9436,9 +9420,9 @@
     "id": "5859",
     "lam": 0.18,
     "pm": 0.167,
-    "p": 0.291,
-    "q": 41.5,
-    "ask": 43,
+    "p": 0.296,
+    "q": 42.5,
+    "ask": 44,
     "tk": "KXNFLTDPROT-26NOV01NEMIA-NEABROWN1-1",
     "ev": "KXNFLTDPROT-26NOV01NEMIA",
     "tds": 0,
@@ -9475,8 +9459,8 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 20,
-     "p": 0.799,
-     "ask": 90,
+     "p": 0.806,
+     "ask": 91,
      "sc": 40.6
     },
     "tags": [
@@ -9872,9 +9856,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 20,
-     "p": 0.822,
+     "p": 0.816,
      "ask": 87,
-     "sc": 57.1
+     "sc": 63.3
     },
     "tags": [
      "Favored"
@@ -10718,9 +10702,9 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 15,
-     "p": 0.725,
-     "ask": 85,
-     "sc": 32.7
+     "p": 0.747,
+     "ask": 88,
+     "sc": 32.6
     },
     "tags": [],
     "low": true,
@@ -10786,8 +10770,8 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 15,
-     "p": 0.827,
-     "ask": 87,
+     "p": 0.837,
+     "ask": 88,
      "sc": 82.1
     },
     "tags": [
@@ -12626,8 +12610,8 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 15,
-     "p": 0.718,
-     "ask": 84,
+     "p": 0.764,
+     "ask": 90,
      "sc": 16.9
     },
     "tags": [
@@ -15216,7 +15200,7 @@
    6,
    7
   ],
-  "generated": "2026-10-27T19:46:52-07:00",
+  "generated": "2026-10-27T20:00:36-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [
    "Some markets weren't open when this was pulled. ATL @ TB: no priced passing, receptions markets yet. BAL @ BUF: no priced rushing, receiving yards, receptions markets yet. IND @ JAX: no priced passing, receptions markets yet. KC @ DEN: no priced receiving yards, receptions markets yet. MIN @ DET: no priced receptions markets yet. NE @ MIA: no priced passing, receptions markets yet. TEN @ CIN: no priced passing, receptions markets yet."
