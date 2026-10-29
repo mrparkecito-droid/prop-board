@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T23:21:47+00:00",
+ "generated": "2026-10-29T23:31:09+00:00",
  "games": {
   "CARGB": {
    "home": "GB",
@@ -11,9 +11,9 @@
     "GB": -3.5,
     "CAR": 3.5
    },
-   "total": 46.5,
+   "total": 47.5,
    "espn_wx": {
-    "desc": "Partly cloudy",
+    "desc": "Mostly clear",
     "temp": 53
    },
    "wx": {
@@ -40,11 +40,11 @@
     "temp": 65
    },
    "wx": {
-    "wind": 4,
+    "wind": 6,
     "gust": 10,
     "pop": 1,
     "rain": 0.0,
-    "temp": 61
+    "temp": 60
    }
   },
   "TENCIN": {
@@ -63,11 +63,11 @@
     "temp": 66
    },
    "wx": {
-    "wind": 5,
+    "wind": 6,
     "gust": 20,
     "pop": 22,
-    "rain": 0.7,
-    "temp": 59
+    "rain": 1.7,
+    "temp": 58
    }
   },
   "ARIDAL": {
@@ -118,11 +118,11 @@
     "temp": 62
    },
    "wx": {
-    "wind": 4,
+    "wind": 6,
     "gust": 6,
     "pop": 0,
     "rain": 0.0,
-    "temp": 60
+    "temp": 59
    }
   },
   "CLEPIT": {
@@ -141,11 +141,11 @@
     "temp": 67
    },
    "wx": {
-    "wind": 4,
+    "wind": 5,
     "gust": 7,
     "pop": 1,
     "rain": 0.0,
-    "temp": 67
+    "temp": 66
    }
   },
   "ATLTB": {
@@ -167,8 +167,8 @@
     "wind": 13,
     "gust": 23,
     "pop": 70,
-    "rain": 3.7,
-    "temp": 77
+    "rain": 5.7,
+    "temp": 80
    }
   },
   "INDJAX": {
@@ -187,11 +187,11 @@
     "temp": 79
    },
    "wx": {
-    "wind": 12,
+    "wind": 13,
     "gust": 19,
     "pop": 34,
-    "rain": 0.2,
-    "temp": 78
+    "rain": 0.8,
+    "temp": 77
    }
   },
   "LACLAR": {
@@ -230,7 +230,7 @@
     "gust": 8,
     "pop": 2,
     "rain": 0.0,
-    "temp": 60
+    "temp": 61
    }
   },
   "NEMIA": {
@@ -249,11 +249,11 @@
     "temp": 82
    },
    "wx": {
-    "wind": 13,
+    "wind": 14,
     "gust": 17,
     "pop": 84,
-    "rain": 0.1,
-    "temp": 82
+    "rain": 0.0,
+    "temp": 83
    }
   },
   "PHIWAS": {
@@ -272,7 +272,7 @@
     "temp": 51
    },
    "wx": {
-    "wind": 4,
+    "wind": 5,
     "gust": 8,
     "pop": 0,
     "rain": 0.0,
@@ -299,12 +299,22 @@
     "gust": 11,
     "pop": 5,
     "rain": 0.0,
-    "temp": 48
+    "temp": 47
    }
   }
  },
  "inj": {
   "ARI": [
+   {
+    "name": "Tyler Allgeier",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Jeremiyah Love",
+    "pos": "RB",
+    "status": "Questionable"
+   },
    {
     "name": "Hjalte Froholdt",
     "pos": "C",
@@ -326,18 +336,8 @@
     "status": "Questionable"
    },
    {
-    "name": "Tyler Allgeier",
-    "pos": "RB",
-    "status": "Questionable"
-   },
-   {
     "name": "Elijah Wilkinson",
     "pos": "OT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jeremiyah Love",
-    "pos": "RB",
     "status": "Questionable"
    },
    {
@@ -509,8 +509,8 @@
   ],
   "CAR": [
    {
-    "name": "Ja'Tavion Sanders",
-    "pos": "TE",
+    "name": "Bobby Brown III",
+    "pos": "DT",
     "status": "Out"
    },
    {
@@ -519,8 +519,8 @@
     "status": "Out"
    },
    {
-    "name": "Bobby Brown III",
-    "pos": "DT",
+    "name": "Ja'Tavion Sanders",
+    "pos": "TE",
     "status": "Out"
    },
    {
@@ -718,6 +718,11 @@
   ],
   "GB": [
    {
+    "name": "Kaleb Johnson",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
     "name": "Jonnu Smith",
     "pos": "TE",
     "status": "Out"
@@ -735,11 +740,6 @@
    {
     "name": "Donovan Jennings",
     "pos": "G",
-    "status": "Out"
-   },
-   {
-    "name": "Kaleb Johnson",
-    "pos": "RB",
     "status": "Out"
    },
    {
@@ -1257,6 +1257,11 @@
   ],
   "SEA": [
    {
+    "name": "Anthony Bradford",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
     "name": "Rashid Shaheed",
     "pos": "WR",
     "status": "Questionable"
@@ -1310,11 +1315,6 @@
     "name": "Charles Cross",
     "pos": "OT",
     "status": "Doubtful"
-   },
-   {
-    "name": "Velus Jones Jr.",
-    "pos": "RB",
-    "status": "Questionable"
    }
   ],
   "TB": [
@@ -1430,175 +1430,171 @@
    "h": "Does Deshaun Watson have a future with Browns? Adam Schefter weighs in",
    "t": "2026-10-29T13:45:24Z"
   },
-  "omarion hampton": {
+  "ashton jeanty": {
    "h": "What has gone wrong for 2025 running backs? Ashton Jeanty, Omarion Hampton, more",
    "t": "2026-10-29T10:37:57Z"
   },
-  "ashton jeanty": {
+  "omarion hampton": {
    "h": "What has gone wrong for 2025 running backs? Ashton Jeanty, Omarion Hampton, more",
    "t": "2026-10-29T10:37:57Z"
   },
   "denzel boston": {
    "h": "Ranking the best 2026 NFL rookies: Arvell Reese, Denzel Boston, others in top 10",
    "t": "2026-10-29T10:32:13Z"
-  },
-  "garrett wilson": {
-   "h": "Garrett Wilson frustrated with role in Jets' offense",
-   "t": "2026-10-29T00:55:08Z"
   }
  },
  "trend": {
   "elijah mitchell": {
    "rank": 3,
-   "adds": 1423215
+   "adds": 1449270
   },
   "caleb douglas": {
    "rank": 4,
-   "adds": 1352240
+   "adds": 1361976
   },
   "seth mcgowan": {
    "rank": 5,
-   "adds": 956000
+   "adds": 958248
   },
   "brenton strange": {
    "rank": 8,
-   "adds": 671265
+   "adds": 687537
   },
   "kc concepcion": {
    "rank": 10,
-   "adds": 601065
+   "adds": 606735
   },
   "ryan flournoy": {
    "rank": 11,
-   "adds": 595928
+   "adds": 605448
   },
   "jaydon blue": {
    "rank": 12,
-   "adds": 541936
-  },
-  "jonah coleman": {
-   "rank": 15,
-   "adds": 348138
+   "adds": 553464
   },
   "savion williams": {
+   "rank": 15,
+   "adds": 350924
+  },
+  "jonah coleman": {
    "rank": 16,
-   "adds": 346794
+   "adds": 349910
   },
   "tre tucker": {
    "rank": 17,
-   "adds": 334002
+   "adds": 338238
   },
   "mason taylor": {
    "rank": 18,
-   "adds": 305965
+   "adds": 316795
   },
   "kirk cousins": {
    "rank": 20,
-   "adds": 290840
+   "adds": 299856
   },
   "khalil shakir": {
    "rank": 21,
-   "adds": 286155
+   "adds": 290556
   },
   "makai lemon": {
    "rank": 22,
-   "adds": 273084
+   "adds": 275404
   },
   "keon coleman": {
    "rank": 23,
-   "adds": 248985
+   "adds": 252180
   },
   "dylan sampson": {
    "rank": 25,
-   "adds": 236500
+   "adds": 237760
   },
   "treylon burks": {
    "rank": 26,
-   "adds": 231833
+   "adds": 233149
   },
   "rachaad white": {
    "rank": 27,
-   "adds": 223518
+   "adds": 226521
   },
   "omar cooper": {
    "rank": 28,
-   "adds": 220424
+   "adds": 222368
   },
   "jakobi meyers": {
    "rank": 29,
-   "adds": 206652
+   "adds": 208878
   },
   "emanuel wilson": {
    "rank": 30,
-   "adds": 204300
+   "adds": 206820
   },
   "hunter henry": {
    "rank": 31,
-   "adds": 190281
-  },
-  "rico dowdle": {
-   "rank": 34,
-   "adds": 167960
+   "adds": 193512
   },
   "kyler murray": {
-   "rank": 35,
-   "adds": 166480
+   "rank": 34,
+   "adds": 174480
   },
-  "malik willis": {
-   "rank": 36,
-   "adds": 163429
+  "rico dowdle": {
+   "rank": 35,
+   "adds": 171320
   },
   "geno smith": {
+   "rank": 36,
+   "adds": 168416
+  },
+  "malik willis": {
    "rank": 37,
-   "adds": 162608
+   "adds": 165767
   },
   "chris rodriguez": {
    "rank": 38,
-   "adds": 162459
+   "adds": 164115
   },
   "jayden daniels": {
    "rank": 39,
-   "adds": 149568
+   "adds": 152688
   },
   "jordan mason": {
    "rank": 40,
-   "adds": 137075
+   "adds": 140220
   },
   "kyle pitts": {
    "rank": 41,
-   "adds": 135226
-  },
-  "josh downs": {
-   "rank": 42,
-   "adds": 132290
+   "adds": 136437
   },
   "samaje perine": {
+   "rank": 42,
+   "adds": 134836
+  },
+  "josh downs": {
    "rank": 43,
-   "adds": 130948
+   "adds": 133615
   },
   "kimani vidal": {
    "rank": 44,
-   "adds": 127780
+   "adds": 129765
   },
   "zonovan knight": {
    "rank": 45,
-   "adds": 126478
+   "adds": 128818
   },
   "blake corum": {
    "rank": 46,
-   "adds": 116856
+   "adds": 118416
   },
   "kendrick bourne": {
    "rank": 47,
-   "adds": 115350
-  },
-  "antonio williams": {
-   "rank": 49,
-   "adds": 104537
+   "adds": 117990
   },
   "aj barner": {
+   "rank": 49,
+   "adds": 109002
+  },
+  "antonio williams": {
    "rank": 50,
-   "adds": 104382
+   "adds": 104971
   }
  },
  "buzz": {},
@@ -1606,7 +1602,7 @@
   "lines": "14 games",
   "weather": "11 outdoor games",
   "injuries": "204 players listed",
-  "news": "14 players in headlines",
+  "news": "13 players in headlines",
   "google_news": "6 role-cut, 133 injury headlines; QB hurt: BAL, CAR, DEN, KC, MIN",
   "sleeper_trending": "38 board players trending",
   "reddit": "unavailable"
@@ -2134,13 +2130,12 @@
   },
   "kimani vidal": {
    "h": [
-    "BEAST MODE! Chargers RB Kimani Vidal channels his inner Marshawn Lynch on this 42-yard TD run",
     "Kimani Vidal or Dylan Sampson | Who Should I Start Week 8",
     "Chargers Preseason Star Gets Claimed, Shutting Down Kimani Vidal Trade Rumors"
    ],
    "cut": false,
    "inj": false,
-   "worst": "BEAST MODE! Chargers RB Kimani Vidal channels his inner Marshawn Lynch on this 42-yard TD run"
+   "worst": "Kimani Vidal or Dylan Sampson | Who Should I Start Week 8"
   },
   "omarion hampton": {
    "h": [
@@ -2928,6 +2923,7 @@
   },
   "charlie kolar": {
    "h": [
+    "Charlie Kolar",
     "Charlie Kolar & His Wife Madie Take A Couples Quiz",
     "Chig Okonkwo or Charlie Kolar: Who Should I Start in Week 8? Fantasy Football"
    ],
@@ -2954,6 +2950,14 @@
    "cut": false,
    "inj": true,
    "worst": "Kansas City blow: Travis Kelce ankle injury takes worrying turn before Broncos game"
+  },
+  "kyle williams": {
+   "h": [
+    "The 'X' Play Dilemma: It\u2019s Time for Josh McDaniels to Live with the Growing Pains of Kyle Williams and TreVeyon Henderson"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "The 'X' Play Dilemma: It\u2019s Time for Josh McDaniels to Live with the Growing Pains of Kyle Williams and TreVeyon Henderson"
   },
   "eli raridon": {
    "h": [
