@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T20:42:49+00:00",
+ "generated": "2026-10-29T21:01:20+00:00",
  "games": {
   "CARGB": {
    "home": "GB",
@@ -65,7 +65,7 @@
    "wx": {
     "wind": 5,
     "gust": 20,
-    "pop": 34,
+    "pop": 22,
     "rain": 0.7,
     "temp": 59
    }
@@ -166,7 +166,7 @@
    "wx": {
     "wind": 13,
     "gust": 23,
-    "pop": 63,
+    "pop": 70,
     "rain": 3.7,
     "temp": 77
    }
@@ -189,7 +189,7 @@
    "wx": {
     "wind": 12,
     "gust": 19,
-    "pop": 30,
+    "pop": 34,
     "rain": 0.2,
     "temp": 78
    }
@@ -228,7 +228,7 @@
    "wx": {
     "wind": 8,
     "gust": 8,
-    "pop": 7,
+    "pop": 2,
     "rain": 0.0,
     "temp": 60
    }
@@ -251,7 +251,7 @@
    "wx": {
     "wind": 13,
     "gust": 17,
-    "pop": 82,
+    "pop": 84,
     "rain": 0.1,
     "temp": 82
    }
@@ -306,6 +306,11 @@
  "inj": {
   "ARI": [
    {
+    "name": "Michael Wilson",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Andrew Wingard",
     "pos": "S",
     "status": "Questionable"
@@ -318,11 +323,6 @@
    {
     "name": "Tyler Allgeier",
     "pos": "RB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Michael Wilson",
-    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -450,11 +450,6 @@
     "status": "Questionable"
    },
    {
-    "name": "Lamar Jackson",
-    "pos": "QB",
-    "status": "Questionable"
-   },
-   {
     "name": "Roquan Smith",
     "pos": "LB",
     "status": "Questionable"
@@ -468,24 +463,14 @@
     "name": "John Simpson",
     "pos": "G",
     "status": "Questionable"
-   },
-   {
-    "name": "Ronnie Stanley",
-    "pos": "OT",
-    "status": "Questionable"
-   },
-   {
-    "name": "John Jenkins",
-    "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Broderick Washington Jr.",
-    "pos": "DT",
-    "status": "Questionable"
    }
   ],
   "BUF": [
+   {
+    "name": "Joe Andreessen",
+    "pos": "LB",
+    "status": "Questionable"
+   },
    {
     "name": "Ray Davis",
     "pos": "RB",
@@ -502,19 +487,9 @@
     "status": "Questionable"
    },
    {
-    "name": "Ed Oliver",
-    "pos": "DT",
-    "status": "Questionable"
-   },
-   {
     "name": "Tyrell Shavers",
     "pos": "WR",
     "status": "Out"
-   },
-   {
-    "name": "T.J. Sanders",
-    "pos": "DT",
-    "status": "Questionable"
    },
    {
     "name": "TJ Parker",
@@ -560,6 +535,11 @@
    }
   ],
   "CHI": [
+   {
+    "name": "Anthony Johnson Jr.",
+    "pos": "S",
+    "status": "Out"
+   },
    {
     "name": "Kyle Monangai",
     "pos": "RB",
@@ -679,12 +659,12 @@
   ],
   "DEN": [
    {
-    "name": "Marvin Mims Jr.",
+    "name": "Jaylen Waddle",
     "pos": "WR",
     "status": "Questionable"
    },
    {
-    "name": "Jaylen Waddle",
+    "name": "Marvin Mims Jr.",
     "pos": "WR",
     "status": "Questionable"
    },
@@ -846,6 +826,11 @@
   ],
   "KC": [
    {
+    "name": "Travis Kelce",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
     "name": "Mansoor Delane",
     "pos": "CB",
     "status": "Questionable"
@@ -873,17 +858,17 @@
   ],
   "LV": [
    {
+    "name": "Jackson Powers-Johnson",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
     "name": "Patrick Johnson",
     "pos": "DE",
     "status": "Questionable"
    },
    {
     "name": "Ian Thomas",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Brock Bowers",
     "pos": "TE",
     "status": "Questionable"
    },
@@ -895,11 +880,6 @@
    {
     "name": "DJ Glaze",
     "pos": "OT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Quay Walker",
-    "pos": "LB",
     "status": "Questionable"
    }
   ],
@@ -1119,6 +1099,11 @@
   ],
   "NYJ": [
    {
+    "name": "Breece Hall",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
     "name": "Joseph Ossai",
     "pos": "DE",
     "status": "Doubtful"
@@ -1132,11 +1117,6 @@
     "name": "T'Vondre Sweat",
     "pos": "DT",
     "status": "Doubtful"
-   },
-   {
-    "name": "Breece Hall",
-    "pos": "RB",
-    "status": "Questionable"
    },
    {
     "name": "Dylan Parham",
@@ -1445,164 +1425,164 @@
  "trend": {
   "caleb douglas": {
    "rank": 2,
-   "adds": 1457480
+   "adds": 1461632
   },
   "elijah mitchell": {
    "rank": 4,
-   "adds": 1361124
+   "adds": 1374975
   },
   "seth mcgowan": {
    "rank": 5,
-   "adds": 1053416
+   "adds": 1055304
   },
   "brenton strange": {
    "rank": 8,
-   "adds": 679095
+   "adds": 683802
   },
   "kc concepcion": {
    "rank": 10,
-   "adds": 636489
+   "adds": 639036
   },
   "ryan flournoy": {
    "rank": 11,
-   "adds": 596088
+   "adds": 600344
   },
   "jaydon blue": {
    "rank": 12,
-   "adds": 467640
+   "adds": 477240
   },
   "jonah coleman": {
    "rank": 15,
-   "adds": 383956
+   "adds": 384692
   },
   "savion williams": {
    "rank": 16,
-   "adds": 349146
+   "adds": 351421
   },
   "tre tucker": {
    "rank": 17,
-   "adds": 347136
+   "adds": 349092
   },
   "mason taylor": {
    "rank": 19,
-   "adds": 295115
-  },
-  "khalil shakir": {
-   "rank": 20,
-   "adds": 284193
+   "adds": 298575
   },
   "kirk cousins": {
+   "rank": 20,
+   "adds": 286448
+  },
+  "khalil shakir": {
    "rank": 21,
-   "adds": 283976
+   "adds": 286335
   },
   "makai lemon": {
    "rank": 22,
-   "adds": 282880
+   "adds": 284260
   },
   "keon coleman": {
    "rank": 23,
-   "adds": 249687
+   "adds": 251496
   },
   "dylan sampson": {
    "rank": 24,
-   "adds": 248635
+   "adds": 249385
   },
   "treylon burks": {
    "rank": 25,
-   "adds": 240422
+   "adds": 241304
   },
   "omar cooper": {
    "rank": 26,
-   "adds": 234040
+   "adds": 235088
   },
   "rachaad white": {
    "rank": 27,
-   "adds": 228702
+   "adds": 230151
   },
   "jakobi meyers": {
    "rank": 29,
-   "adds": 213654
+   "adds": 214698
   },
   "emanuel wilson": {
    "rank": 30,
-   "adds": 206595
+   "adds": 207801
   },
   "hunter henry": {
    "rank": 31,
-   "adds": 197481
+   "adds": 198504
   },
   "malik willis": {
    "rank": 34,
-   "adds": 167699
+   "adds": 168455
   },
   "rico dowdle": {
    "rank": 35,
-   "adds": 166315
+   "adds": 167625
   },
   "chris rodriguez": {
    "rank": 36,
-   "adds": 164088
-  },
-  "geno smith": {
-   "rank": 37,
-   "adds": 156344
+   "adds": 164817
   },
   "kyler murray": {
+   "rank": 37,
+   "adds": 158184
+  },
+  "geno smith": {
    "rank": 38,
-   "adds": 156336
+   "adds": 157764
   },
   "jayden daniels": {
    "rank": 39,
-   "adds": 149776
+   "adds": 150864
   },
   "kyle pitts": {
    "rank": 40,
-   "adds": 138019
+   "adds": 138831
   },
   "jordan mason": {
    "rank": 41,
-   "adds": 134495
+   "adds": 135965
   },
   "josh downs": {
    "rank": 42,
-   "adds": 130295
+   "adds": 131270
   },
   "samaje perine": {
    "rank": 43,
-   "adds": 126824
+   "adds": 128008
   },
   "kimani vidal": {
    "rank": 44,
-   "adds": 125765
+   "adds": 126820
   },
   "zonovan knight": {
    "rank": 45,
-   "adds": 124754
+   "adds": 125690
   },
   "blake corum": {
    "rank": 46,
-   "adds": 116296
+   "adds": 117072
   },
   "kendrick bourne": {
    "rank": 47,
-   "adds": 111192
+   "adds": 112290
   },
   "antonio williams": {
    "rank": 48,
-   "adds": 110856
+   "adds": 111159
   },
   "eli raridon": {
    "rank": 50,
-   "adds": 102627
+   "adds": 103096
   }
  },
  "buzz": {},
  "sources": {
   "lines": "14 games",
   "weather": "11 outdoor games",
-  "injuries": "203 players listed",
+  "injuries": "199 players listed",
   "news": "14 players in headlines",
-  "google_news": "5 role-cut, 126 injury headlines; QB hurt: none",
+  "google_news": "5 role-cut, 125 injury headlines; QB hurt: none",
   "sleeper_trending": "38 board players trending",
   "reddit": "unavailable"
  },
@@ -2102,19 +2082,18 @@
   },
   "kimani vidal": {
    "h": [
-    "BEAST MODE! Chargers RB Kimani Vidal channels his inner Marshawn Lynch on this 42-yard TD run",
     "Kimani Vidal or Dylan Sampson | Who Should I Start Week 8",
     "Chargers Preseason Star Gets Claimed, Shutting Down Kimani Vidal Trade Rumors"
    ],
    "cut": false,
    "inj": false,
-   "worst": "BEAST MODE! Chargers RB Kimani Vidal channels his inner Marshawn Lynch on this 42-yard TD run"
+   "worst": "Kimani Vidal or Dylan Sampson | Who Should I Start Week 8"
   },
   "omarion hampton": {
    "h": [
     "Week 8 Fantasy Football Start \u2019Em, Sit \u2019Em: Omarion Hampton VS Rachaad White",
-    "Who Should I Start for Week 8? Jameson Williams, Omarion Hampton, TreVeyon Henderson, Parker Washington, Quinshon Judkins, Courtland Sutton, George Pickens, Aaron Jones Sr.",
-    "What has gone wrong for 2025 running backs? Jeanty, Hampton, more"
+    "Omarion Hampton Week 8 Outlook - Chargers at Rams",
+    "Who Should I Start for Week 8? Jameson Williams, Omarion Hampton, TreVeyon Henderson, Parker Washington, Quinshon Judkins, Courtland Sutton, George Pickens, Aaron Jones Sr."
    ],
    "cut": false,
    "inj": true,
@@ -2254,14 +2233,6 @@
    "cut": false,
    "inj": false,
    "worst": "Bo Melton"
-  },
-  "mitchell evans": {
-   "h": [
-    "Dohnte Meyers or Mitchell Evans: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Dohnte Meyers or Mitchell Evans: Who Should I Start in Week 8? Fantasy Football"
   },
   "tommy tremble": {
    "h": [
@@ -2801,11 +2772,11 @@
   },
   "drew sample": {
    "h": [
-    "Chig Okonkwo or Drew Sample: Who Should I Start in Week 8? Fantasy Football"
+    "Mason Taylor or Drew Sample: Who Should I Start in Week 8? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Chig Okonkwo or Drew Sample: Who Should I Start in Week 8? Fantasy Football"
+   "worst": "Mason Taylor or Drew Sample: Who Should I Start in Week 8? Fantasy Football"
   },
   "daniel bellinger": {
    "h": [
