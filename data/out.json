@@ -978,8 +978,8 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 2,
-   "ask": 85,
-   "bid": 70,
+   "ask": 86,
+   "bid": 69,
    "vals": [
     2.0,
     7.0,
@@ -1029,7 +1029,7 @@
    "most": 3,
    "per": 283.0,
    "dstat": "pass yds",
-   "p": 82,
+   "p": 83,
    "roi": -3,
    "pp": 88,
    "hs": 84,
@@ -1041,11 +1041,11 @@
    "flags": [
     "Wide bid/ask spread, thin market"
    ],
-   "pc": 0.8216,
+   "pc": 0.8303,
    "praw": 0.8884,
    "rg": "WR1",
    "est": false,
-   "mid": 83.5,
+   "mid": 84.5,
    "tk": "KXNFLREC-26NOV01INDJAC-INDJDOWNS2-2",
    "ev": "KXNFLREC-26NOV01INDJAC",
    "ctx": 0.35,
@@ -1138,146 +1138,154 @@
    "game": "NEMIA",
    "glabel": "NE @ MIA",
    "day": "Sun",
-   "player": "Drake Maye",
-   "team": "NE",
-   "opp": "MIA",
-   "pos": "QB",
-   "role": "QB",
-   "stat": "pass",
-   "prop": "Passing Yards",
-   "line": 175,
-   "ask": 83,
-   "bid": 80,
+   "player": "Malik Washington",
+   "team": "MIA",
+   "opp": "NE",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 3,
+   "ask": 82,
+   "bid": 75,
    "vals": [
-    178.0,
-    208.0,
-    199.0,
-    269.0,
-    374.0,
-    235.0,
-    321.0
+    3.0,
+    4.0,
+    5.0,
+    5.0,
+    6.0,
+    null,
+    3.0
    ],
-   "over": 7,
-   "n": 7,
-   "proj": 253.9,
+   "over": 6,
+   "n": 6,
+   "proj": 3.7,
    "al": [
     [
      1,
-     "LV",
-     160.0
+     "SEA",
+     8.0
     ],
     [
      2,
-     "SF",
-     287.0
+     "PIT",
+     5.0
     ],
     [
      3,
-     "KC",
-     246.0
+     "JAX",
+     7.0
     ],
     [
      4,
-     "MIN",
-     247.0
+     "BUF",
+     7.0
     ],
     [
      5,
-     "CIN",
-     190.0
+     "LV",
+     4.0
+    ],
+    [
+     6,
+     "NYJ",
+     6.0
     ],
     [
      7,
-     "NYJ",
-     287.0
+     "CHI",
+     4.0
     ]
    ],
-   "dhit": 5,
-   "dn": 6,
-   "most": 15,
-   "per": 236.2,
+   "dhit": 7,
+   "dn": 7,
+   "most": 14,
+   "per": 239.0,
    "dstat": "pass yds",
    "p": 77,
    "roi": -7,
-   "pp": 93,
-   "hs": 88,
-   "dhs": 75,
-   "rks": 55,
+   "pp": 72,
+   "hs": 79,
+   "dhs": 89,
+   "rks": 58,
    "vs": 43,
-   "agree": 2,
-   "score": 71.9,
+   "agree": 3,
+   "score": 73.2,
    "flags": [],
-   "pc": 0.7705,
-   "praw": 0.8664,
-   "rg": "QB",
+   "pc": 0.7661,
+   "praw": 0.7878,
+   "rg": "WR1",
    "est": false,
-   "mid": 81.5,
-   "tk": "KXNFLPASSYDS-26NOV01NEMIA-NEDMAYE10-175",
-   "ev": "KXNFLPASSYDS-26NOV01NEMIA",
+   "mid": 78.5,
+   "tk": "KXNFLREC-26NOV01NEMIA-MIAMWASHINGTON6-3",
+   "ev": "KXNFLREC-26NOV01NEMIA",
    "ctx": 0,
    "cxs": 50,
    "reasons": [
     [
-     -0.34,
-     "NE favored by 7, may not need to throw late"
+     0.46,
+     "MIA a 7-pt underdog, trailing teams throw more"
     ],
     [
-     0.2,
-     "NE projected for 25 pts (O/U 43.5)"
+     -0.3,
+     "MIA projected for only 18 pts (O/U 43.5)"
     ],
     [
-     0.29,
-     "NE has a top passing offense (9th, 259 yds a game)."
+     -0.6,
+     "MIA's offense ranks 30th in passing (176 yds a game)."
     ]
    ],
    "status": null,
-   "ppj": 92,
-   "pu": 93,
+   "ppj": 68,
+   "pu": 76,
    "uinfo": {
     "share": [
-     33.0,
-     22.0,
-     25.0,
-     37.0,
-     34.0,
-     32.0,
-     31.0
+     30,
+     22,
+     28,
+     29,
+     31,
+     14
     ],
-    "kind": "attempts",
-    "snap": 98,
+    "kind": "targets",
+    "snap": 83,
     "snaps": [
-     100,
-     100,
-     100,
-     100
+     86,
+     87,
+     80,
+     80
     ],
-    "snap_last": 100,
-    "mu": 261.1,
-    "opp": 30.9,
-    "note": ""
+    "snap_last": 80,
+    "mu": 4.2,
+    "opp": 6.3,
+    "note": "His share of targets fell from 30% to 14%."
    },
-   "po": 16,
+   "po": 10,
    "pn": 17,
-   "pid": "11564",
-   "sx": -0.15,
-   "sxs": 42,
-   "mx": 0.06,
-   "mxs": 53,
-   "env": -0.05,
-   "dfac": 0.0,
-   "dfs": 50,
-   "off": 0.29,
-   "ofs": 64,
-   "cu": 86,
-   "avgm": 79.9,
+   "pid": "11610",
+   "sx": 0.15,
+   "sxs": 58,
+   "mx": 0.07,
+   "mxs": 54,
+   "env": 0.14,
+   "dfac": 0.3,
+   "dfs": 65,
+   "off": -0.6,
+   "ofs": 20,
+   "cu": 77,
+   "avgm": 1.3,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
-   "qinfo": null,
+   "qinfo": {
+    "qb": "Malik Willis",
+    "same": true,
+    "n": 6
+   },
    "risk": 0,
-   "tpts": 25.2,
+   "tpts": 18.2,
    "rank": 8,
-   "why": "Cleared 175+ in 7 of 7 games, by +80 on average (16 of 17 last season), Sleeper projects 253.9, MIA let 5 of 6 QBs reach it. NE has a top passing offense (9th, 259 yds a game).. NE projected for 25 pts (O/U 43.5). Watch: NE favored by 7, may not need to throw late.",
+   "why": "Cleared 3+ in 6 of 6 games, by +1 on average (10 of 17 last season), Sleeper projects 3.7, NE let 7 of 7 WR1s reach it. His share of targets fell from 30% to 14%. MIA a 7-pt underdog, trailing teams throw more. Watch: MIA's offense ranks 30th in passing (176 yds a game).; MIA projected for only 18 pts (O/U 43.5).",
    "news": ""
   },
   {
@@ -1921,8 +1929,8 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 20,
-   "ask": 78,
-   "bid": 67,
+   "ask": 77,
+   "bid": 71,
    "vals": [
     32.0,
     5.0,
@@ -1972,21 +1980,21 @@
    "most": 3,
    "per": 283.0,
    "dstat": "pass yds",
-   "p": 76,
-   "roi": -2,
+   "p": 75,
+   "roi": -3,
    "pp": 84,
    "hs": 71,
    "dhs": 88,
    "rks": 94,
-   "vs": 48,
+   "vs": 47,
    "agree": 2,
-   "score": 71.1,
+   "score": 70.9,
    "flags": [],
-   "pc": 0.7628,
+   "pc": 0.7472,
    "praw": 0.8375,
    "rg": "WR2",
    "est": false,
-   "mid": 76.5,
+   "mid": 74.0,
    "tk": "KXNFLRECYDS-26NOV01INDJAC-INDKALLEN10-20",
    "ev": "KXNFLRECYDS-26NOV01INDJAC",
    "ctx": 0.35,
@@ -2242,7 +2250,7 @@
    "prop": "Passing Yards",
    "line": 125,
    "ask": 85,
-   "bid": 81,
+   "bid": 73,
    "vals": [
     166.0,
     210.0,
@@ -2292,7 +2300,7 @@
    "most": 3,
    "per": 283.0,
    "dstat": "pass yds",
-   "p": 81,
+   "p": 82,
    "roi": -4,
    "pp": 97,
    "hs": 81,
@@ -2300,13 +2308,13 @@
    "rks": 94,
    "vs": 46,
    "agree": 2,
-   "score": 70.5,
+   "score": 70.6,
    "flags": [],
-   "pc": 0.8139,
+   "pc": 0.8186,
    "praw": 0.9096,
    "rg": "QB",
    "est": false,
-   "mid": 83.0,
+   "mid": 83.5,
    "tk": "KXNFLPASSYDS-26NOV01INDJAC-INDDJONES17-125",
    "ev": "KXNFLPASSYDS-26NOV01INDJAC",
    "ctx": 0.15,
@@ -2334,7 +2342,7 @@
     ],
     [
      -0.04,
-     "Injury in the news: rust/health risk, so the chance leans toward Kalshi's 83\u00a2."
+     "Injury in the news: rust/health risk, so the chance leans toward Kalshi's 84\u00a2."
     ]
    ],
    "status": null,
@@ -2546,8 +2554,8 @@
    "stat": "pass",
    "prop": "Passing Yards",
    "line": 125,
-   "ask": 87,
-   "bid": 83,
+   "ask": 86,
+   "bid": 76,
    "vals": [
     null,
     null,
@@ -2597,21 +2605,21 @@
    "most": 5,
    "per": 268.0,
    "dstat": "pass yds",
-   "p": 82,
-   "roi": -6,
+   "p": 79,
+   "roi": -9,
    "pp": 97,
    "hs": 81,
    "dhs": 88,
    "rks": 87,
-   "vs": 44,
+   "vs": 41,
    "agree": 3,
-   "score": 69.9,
+   "score": 69.5,
    "flags": [],
-   "pc": 0.8199,
+   "pc": 0.7861,
    "praw": 0.8875,
    "rg": "QB",
    "est": false,
-   "mid": 85.0,
+   "mid": 81.0,
    "tk": "KXNFLPASSYDS-26NOV01PHIWAS-PHITMCKEE16-125",
    "ev": "KXNFLPASSYDS-26NOV01PHIWAS",
    "ctx": 0,
@@ -3297,8 +3305,8 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 20,
-   "ask": 86,
-   "bid": 78,
+   "ask": 88,
+   "bid": 81,
    "vals": [
     63.0,
     32.0,
@@ -3353,7 +3361,7 @@
    "most": 32,
    "per": 158.0,
    "dstat": "pass yds",
-   "p": 80,
+   "p": 81,
    "roi": -7,
    "pp": 89,
    "hs": 91,
@@ -3361,13 +3369,13 @@
    "rks": 0,
    "vs": 43,
    "agree": 2,
-   "score": 67.4,
+   "score": 67.3,
    "flags": [],
-   "pc": 0.7977,
+   "pc": 0.8146,
    "praw": 0.8301,
    "rg": "WR1",
    "est": false,
-   "mid": 82.0,
+   "mid": 84.5,
    "tk": "KXNFLRECYDS-26NOV02CHISEA-CHILBURDEN10-20",
    "ev": "KXNFLRECYDS-26NOV02CHISEA",
    "ctx": 0,
@@ -3580,113 +3588,6 @@
    "news": "In the news: \"Ravens coach Jesse Minter expects Lamar Jackson back this week\""
   },
   {
-   "game": "NEMIA",
-   "glabel": "NE @ MIA",
-   "day": "Sun",
-   "player": "Drake Maye",
-   "team": "NE",
-   "opp": "MIA",
-   "pos": "QB",
-   "role": "QB",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 10,
-   "ask": 81,
-   "bid": 79,
-   "vals": [
-    47.0,
-    17.0,
-    18.0,
-    54.0,
-    25.0,
-    24.0,
-    26.0
-   ],
-   "over": 7,
-   "n": 7,
-   "proj": 38.2,
-   "al": [],
-   "dhit": null,
-   "dn": null,
-   "most": 17,
-   "per": 110.2,
-   "dstat": "rush yds",
-   "p": 79,
-   "roi": -2,
-   "pp": 88,
-   "hs": 91,
-   "dhs": 50,
-   "rks": 48,
-   "vs": 48,
-   "agree": 2,
-   "score": 66.7,
-   "flags": [],
-   "pc": 0.7898,
-   "praw": 0.8969,
-   "rg": "QB",
-   "est": false,
-   "mid": 80.0,
-   "tk": "KXNFLRSHYDS-26NOV01NEMIA-NEDMAYE10-10",
-   "ev": "KXNFLRSHYDS-26NOV01NEMIA",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     0.2,
-     "NE projected for 25 pts (O/U 43.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 89,
-   "pu": 86,
-   "uinfo": {
-    "share": [
-     7.0,
-     4.0,
-     4.0,
-     8.0,
-     7.0,
-     4.0,
-     4.0
-    ],
-    "kind": "carries",
-    "snap": 98,
-    "snaps": [
-     100,
-     100,
-     100,
-     100
-    ],
-    "snap_last": 100,
-    "mu": 26.1,
-    "opp": 5.3,
-    "note": ""
-   },
-   "po": 16,
-   "pn": 17,
-   "pid": "11564",
-   "sx": 0.2,
-   "sxs": 60,
-   "mx": -0.03,
-   "mxs": 48,
-   "env": 0.1,
-   "dfac": 0.0,
-   "dfs": 50,
-   "off": 0.17,
-   "ofs": 58,
-   "cu": 91,
-   "avgm": 20.1,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
-   "risk": 0,
-   "tpts": 25.2,
-   "rank": 24,
-   "why": "Cleared 10+ in 7 of 7 games, by +20 on average (16 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5).",
-   "news": ""
-  },
-  {
    "game": "ATLTB",
    "glabel": "ATL @ TB",
    "day": "Sun",
@@ -3833,7 +3734,7 @@
    },
    "risk": 0,
    "tpts": 20.5,
-   "rank": 25,
+   "rank": 24,
    "why": "Cleared 40+ in 6 of 7 games, by +48 on average (10 of 12 last season), Sleeper projects 90.7, TB let 7 of 7 WR1s reach it. Watch: ATL's offense ranks 24th in passing (211 yds a game).; ATL projected for only 20 pts (O/U 43.5).",
    "news": ""
   },
@@ -3991,7 +3892,7 @@
    },
    "risk": 1,
    "tpts": 23.0,
-   "rank": 26,
+   "rank": 25,
    "why": "Cleared 10+ in 6 of 6 games, by +24 on average, Sleeper projects 34.4, PHI let 7 of 7 WR2s reach it, PHI allows the 9th most pass yds. PHI gives up 30% more receiving yds to WR2s than average.. PHI secondary missing CB Jonathan Jones. Watch: WAS's offense ranks 22nd in passing (214 yds a game).; WAS favored by 5.5, may not need to throw late.",
    "news": ""
   },
@@ -4140,7 +4041,7 @@
    },
    "risk": 1,
    "tpts": 25.8,
-   "rank": 27,
+   "rank": 26,
    "why": "Cleared 4+ in 6 of 7 games, by +2 on average (13 of 17 last season), Sleeper projects 5.7, BUF let 6 of 6 WR1s reach it, BUF allows the 2nd most pass yds. BUF gives up 43% more catches to WR1s than average.. BAL projected for 26 pts (O/U 54.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 84\u00a2. His QB is playing hurt (injury news), so pass-game props lean on Kalshi..",
    "news": ""
   },
@@ -4289,164 +4190,8 @@
    },
    "risk": 1,
    "tpts": 24.8,
-   "rank": 28,
+   "rank": 27,
    "why": "Cleared 2+ in 6 of 6 games, by +2 on average (14 of 17 last season), Sleeper projects 3.1, MIN let 5 of 6 WR2s reach it. DET has a top passing offense (1st, 298 yds a game).. DET projected for 25 pts (O/U 46.5). Watch: Snaps falling: 99% \u2192 89% \u2192 84%..",
-   "news": ""
-  },
-  {
-   "game": "NEMIA",
-   "glabel": "NE @ MIA",
-   "day": "Sun",
-   "player": "Malik Washington",
-   "team": "MIA",
-   "opp": "NE",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 3,
-   "ask": 82,
-   "bid": 67,
-   "vals": [
-    3.0,
-    4.0,
-    5.0,
-    5.0,
-    6.0,
-    null,
-    3.0
-   ],
-   "over": 6,
-   "n": 6,
-   "proj": 3.7,
-   "al": [
-    [
-     1,
-     "SEA",
-     8.0
-    ],
-    [
-     2,
-     "PIT",
-     5.0
-    ],
-    [
-     3,
-     "JAX",
-     7.0
-    ],
-    [
-     4,
-     "BUF",
-     7.0
-    ],
-    [
-     5,
-     "LV",
-     4.0
-    ],
-    [
-     6,
-     "NYJ",
-     6.0
-    ],
-    [
-     7,
-     "CHI",
-     4.0
-    ]
-   ],
-   "dhit": 7,
-   "dn": 7,
-   "most": 14,
-   "per": 239.0,
-   "dstat": "pass yds",
-   "p": 78,
-   "roi": -5,
-   "pp": 72,
-   "hs": 79,
-   "dhs": 89,
-   "rks": 58,
-   "vs": 45,
-   "agree": 3,
-   "score": 66.1,
-   "flags": [
-    "Wide bid/ask spread, thin market"
-   ],
-   "pc": 0.7781,
-   "praw": 0.7878,
-   "rg": "WR1",
-   "est": false,
-   "mid": 80.5,
-   "tk": "KXNFLREC-26NOV01NEMIA-MIAMWASHINGTON6-3",
-   "ev": "KXNFLREC-26NOV01NEMIA",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     0.46,
-     "MIA a 7-pt underdog, trailing teams throw more"
-    ],
-    [
-     -0.3,
-     "MIA projected for only 18 pts (O/U 43.5)"
-    ],
-    [
-     -0.6,
-     "MIA's offense ranks 30th in passing (176 yds a game)."
-    ]
-   ],
-   "status": null,
-   "ppj": 68,
-   "pu": 76,
-   "uinfo": {
-    "share": [
-     30,
-     22,
-     28,
-     29,
-     31,
-     14
-    ],
-    "kind": "targets",
-    "snap": 83,
-    "snaps": [
-     86,
-     87,
-     80,
-     80
-    ],
-    "snap_last": 80,
-    "mu": 4.2,
-    "opp": 6.3,
-    "note": "His share of targets fell from 30% to 14%."
-   },
-   "po": 10,
-   "pn": 17,
-   "pid": "11610",
-   "sx": 0.15,
-   "sxs": 58,
-   "mx": 0.07,
-   "mxs": 54,
-   "env": 0.14,
-   "dfac": 0.3,
-   "dfs": 65,
-   "off": -0.6,
-   "ofs": 20,
-   "cu": 77,
-   "avgm": 1.3,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Malik Willis",
-    "same": true,
-    "n": 6
-   },
-   "risk": 0,
-   "tpts": 18.2,
-   "rank": 29,
-   "why": "Cleared 3+ in 6 of 6 games, by +1 on average (10 of 17 last season), Sleeper projects 3.7, NE let 7 of 7 WR1s reach it. His share of targets fell from 30% to 14%. MIA a 7-pt underdog, trailing teams throw more. Watch: MIA's offense ranks 30th in passing (176 yds a game).; MIA projected for only 18 pts (O/U 43.5).",
    "news": ""
   },
   {
@@ -4599,7 +4344,7 @@
    },
    "risk": 1,
    "tpts": 29.5,
-   "rank": 30,
+   "rank": 28,
    "why": "Cleared 10+ in 4 of 6 games, by +14 on average (14 of 17 last season), Sleeper projects 24.2, TEN let 7 of 7 lead RBs reach it, TEN allows the 10th most pass yds. CIN projected for 30 pts (O/U 46.5). CIN has a top passing offense (5th, 276 yds a game).. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 74\u00a2..",
    "news": ""
   },
@@ -4762,7 +4507,7 @@
    },
    "risk": 1,
    "tpts": 30.8,
-   "rank": 31,
+   "rank": 29,
    "why": "Cleared 50+ in 5 of 7 games, by +43 on average (11 of 14 last season), Sleeper projects 108, ARI let 7 of 7 WR1s reach it. His share of targets is up from 27% to 46%. DAL projected for 31 pts (O/U 54.5). DAL has a top passing offense (8th, 264 yds a game).. Watch: DAL favored by 7, may not need to throw late; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 80\u00a2..",
    "news": ""
   },
@@ -4923,7 +4668,7 @@
     "mid": 86.5,
     "tk": "KXNFLRECYDS-26NOV01BALBUF-BALZFLOWERS4-40"
    },
-   "rank": 32,
+   "rank": 30,
    "why": "Cleared 50+ in 6 of 7 games, by +37 on average (13 of 17 last season), Sleeper projects 91.1, BUF let 6 of 6 WR1s reach it, BUF allows the 2nd most pass yds. BUF gives up 20% more receiving yds to WR1s than average.. BAL projected for 26 pts (O/U 54.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 80\u00a2. His QB is playing hurt (injury news), so pass-game props lean on Kalshi..",
    "news": ""
   },
@@ -5077,8 +4822,321 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 17.0,
-   "rank": 33,
+   "rank": 31,
    "why": "Cleared 125+ in 6 of 7 games, by +43 on average (13 of 17 last season), Sleeper projects 207.2, CIN let 6 of 6 QBs reach it, CIN allows the 7th most pass yds. TEN a 12.5-pt underdog, trailing teams throw more. CIN secondary missing S Kyle Dugger. Watch: TEN's offense ranks 32nd in passing (168 yds a game).; TEN projected for only 17 pts (O/U 46.5).",
+   "news": ""
+  },
+  {
+   "game": "ARIDAL",
+   "glabel": "ARI @ DAL",
+   "day": "Sun",
+   "player": "Ryan Flournoy",
+   "team": "DAL",
+   "opp": "ARI",
+   "pos": "WR",
+   "role": "WR3",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 15,
+   "ask": 83,
+   "bid": 70,
+   "vals": [
+    22.0,
+    23.0,
+    22.0,
+    37.0,
+    90.0,
+    40.0,
+    70.0
+   ],
+   "over": 7,
+   "n": 7,
+   "proj": 41.8,
+   "al": [
+    [
+     1,
+     "LAC",
+     17.0
+    ],
+    [
+     2,
+     "SEA",
+     20.0
+    ],
+    [
+     3,
+     "SF",
+     34.0
+    ],
+    [
+     4,
+     "NYG",
+     0.0
+    ],
+    [
+     5,
+     "DET",
+     0.0
+    ],
+    [
+     6,
+     "LAR",
+     15.0
+    ],
+    [
+     7,
+     "DEN",
+     45.0
+    ]
+   ],
+   "dhit": 5,
+   "dn": 7,
+   "most": 12,
+   "per": 243.7,
+   "dstat": "pass yds",
+   "p": 79,
+   "roi": -4,
+   "pp": 89,
+   "hs": 85,
+   "dhs": 67,
+   "rks": 65,
+   "vs": 46,
+   "agree": 2,
+   "score": 63.7,
+   "flags": [],
+   "pc": 0.7949,
+   "praw": 0.8225,
+   "rg": "WR3",
+   "est": false,
+   "mid": 81.5,
+   "tk": "KXNFLRECYDS-26NOV01ARIDAL-DALRFLOURNOY19-15",
+   "ev": "KXNFLRECYDS-26NOV01ARIDAL",
+   "ctx": 0.28,
+   "cxs": 64,
+   "reasons": [
+    [
+     0.2,
+     "KaVontae Turpin out, more targets to go around"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#5 most added)"
+    ],
+    [
+     0.0,
+     "In the news: \"Fantasy football last-minute pickups: Geno Smith, Ryan Flournoy are top options\""
+    ],
+    [
+     -0.34,
+     "DAL favored by 7, may not need to throw late"
+    ],
+    [
+     0.5,
+     "DAL projected for 31 pts (O/U 54.5)"
+    ],
+    [
+     0.35,
+     "DAL has a top passing offense (8th, 264 yds a game)."
+    ]
+   ],
+   "status": null,
+   "ppj": 88,
+   "pu": 89,
+   "uinfo": {
+    "share": [
+     13,
+     19,
+     20,
+     12,
+     10,
+     17,
+     15
+    ],
+    "kind": "targets",
+    "snap": 75,
+    "snaps": [
+     74,
+     68,
+     87,
+     78
+    ],
+    "snap_last": 78,
+    "mu": 45.6,
+    "opp": 5.7,
+    "note": ""
+   },
+   "po": 8,
+   "pn": 15,
+   "pid": "11783",
+   "sx": 0.16,
+   "sxs": 58,
+   "mx": 0.1,
+   "mxs": 55,
+   "env": 0.16,
+   "dfac": 0.0,
+   "dfs": 50,
+   "off": 0.35,
+   "ofs": 68,
+   "cu": 89,
+   "avgm": 28.4,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Dak Prescott",
+    "same": true,
+    "n": 7
+   },
+   "risk": 1,
+   "tpts": 30.8,
+   "rank": 32,
+   "why": "Cleared 15+ in 7 of 7 games, by +28 on average (8 of 15 last season), Sleeper projects 41.8, ARI let 5 of 7 WR3s reach it. DAL projected for 31 pts (O/U 54.5). DAL has a top passing offense (8th, 264 yds a game).. Watch: DAL favored by 7, may not need to throw late.",
+   "news": "In the news: \"Fantasy football last-minute pickups: Geno Smith, Ryan Flournoy are top options\""
+  },
+  {
+   "game": "NEMIA",
+   "glabel": "NE @ MIA",
+   "day": "Sun",
+   "player": "Drake Maye",
+   "team": "NE",
+   "opp": "MIA",
+   "pos": "QB",
+   "role": "QB",
+   "stat": "pass",
+   "prop": "Passing Yards",
+   "line": 175,
+   "ask": 83,
+   "bid": 80,
+   "vals": [
+    178.0,
+    208.0,
+    199.0,
+    269.0,
+    374.0,
+    235.0,
+    321.0
+   ],
+   "over": 7,
+   "n": 7,
+   "proj": 253.9,
+   "al": [
+    [
+     1,
+     "LV",
+     160.0
+    ],
+    [
+     2,
+     "SF",
+     287.0
+    ],
+    [
+     3,
+     "KC",
+     246.0
+    ],
+    [
+     4,
+     "MIN",
+     247.0
+    ],
+    [
+     5,
+     "CIN",
+     190.0
+    ],
+    [
+     7,
+     "NYJ",
+     287.0
+    ]
+   ],
+   "dhit": 5,
+   "dn": 6,
+   "most": 15,
+   "per": 236.2,
+   "dstat": "pass yds",
+   "p": 77,
+   "roi": -7,
+   "pp": 93,
+   "hs": 88,
+   "dhs": 75,
+   "rks": 55,
+   "vs": 43,
+   "agree": 2,
+   "score": 63.3,
+   "flags": [],
+   "pc": 0.7705,
+   "praw": 0.8664,
+   "rg": "QB",
+   "est": false,
+   "mid": 81.5,
+   "tk": "KXNFLPASSYDS-26NOV01NEMIA-NEDMAYE10-175",
+   "ev": "KXNFLPASSYDS-26NOV01NEMIA",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     -0.34,
+     "NE favored by 7, may not need to throw late"
+    ],
+    [
+     0.2,
+     "NE projected for 25 pts (O/U 43.5)"
+    ],
+    [
+     0.29,
+     "NE has a top passing offense (9th, 259 yds a game)."
+    ]
+   ],
+   "status": null,
+   "ppj": 92,
+   "pu": 93,
+   "uinfo": {
+    "share": [
+     33.0,
+     22.0,
+     25.0,
+     37.0,
+     34.0,
+     32.0,
+     31.0
+    ],
+    "kind": "attempts",
+    "snap": 98,
+    "snaps": [
+     100,
+     100,
+     100,
+     100
+    ],
+    "snap_last": 100,
+    "mu": 261.1,
+    "opp": 30.9,
+    "note": ""
+   },
+   "po": 16,
+   "pn": 17,
+   "pid": "11564",
+   "sx": -0.15,
+   "sxs": 42,
+   "mx": 0.06,
+   "mxs": 53,
+   "env": -0.05,
+   "dfac": 0.0,
+   "dfs": 50,
+   "off": 0.29,
+   "ofs": 64,
+   "cu": 86,
+   "avgm": 79.9,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": null,
+   "risk": 1,
+   "tpts": 25.2,
+   "rank": 33,
+   "why": "Cleared 175+ in 7 of 7 games, by +80 on average (16 of 17 last season), Sleeper projects 253.9, MIA let 5 of 6 QBs reach it. NE has a top passing offense (9th, 259 yds a game).. NE projected for 25 pts (O/U 43.5). Watch: NE favored by 7, may not need to throw late.",
    "news": ""
   },
   {
@@ -5231,177 +5289,6 @@
    "news": ""
   },
   {
-   "game": "ARIDAL",
-   "glabel": "ARI @ DAL",
-   "day": "Sun",
-   "player": "Ryan Flournoy",
-   "team": "DAL",
-   "opp": "ARI",
-   "pos": "WR",
-   "role": "WR3",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 15,
-   "ask": 83,
-   "bid": 73,
-   "vals": [
-    22.0,
-    23.0,
-    22.0,
-    37.0,
-    90.0,
-    40.0,
-    70.0
-   ],
-   "over": 7,
-   "n": 7,
-   "proj": 41.8,
-   "al": [
-    [
-     1,
-     "LAC",
-     17.0
-    ],
-    [
-     2,
-     "SEA",
-     20.0
-    ],
-    [
-     3,
-     "SF",
-     34.0
-    ],
-    [
-     4,
-     "NYG",
-     0.0
-    ],
-    [
-     5,
-     "DET",
-     0.0
-    ],
-    [
-     6,
-     "LAR",
-     15.0
-    ],
-    [
-     7,
-     "DEN",
-     45.0
-    ]
-   ],
-   "dhit": 5,
-   "dn": 7,
-   "most": 12,
-   "per": 243.7,
-   "dstat": "pass yds",
-   "p": 77,
-   "roi": -8,
-   "pp": 89,
-   "hs": 85,
-   "dhs": 67,
-   "rks": 65,
-   "vs": 42,
-   "agree": 2,
-   "score": 63.2,
-   "flags": [],
-   "pc": 0.7656,
-   "praw": 0.8225,
-   "rg": "WR3",
-   "est": false,
-   "mid": 78.0,
-   "tk": "KXNFLRECYDS-26NOV01ARIDAL-DALRFLOURNOY19-15",
-   "ev": "KXNFLRECYDS-26NOV01ARIDAL",
-   "ctx": 0.28,
-   "cxs": 64,
-   "reasons": [
-    [
-     0.2,
-     "KaVontae Turpin out, more targets to go around"
-    ],
-    [
-     0.08,
-     "Trending on Sleeper (#5 most added)"
-    ],
-    [
-     0.0,
-     "In the news: \"Fantasy football last-minute pickups: Geno Smith, Ryan Flournoy are top options\""
-    ],
-    [
-     -0.34,
-     "DAL favored by 7, may not need to throw late"
-    ],
-    [
-     0.5,
-     "DAL projected for 31 pts (O/U 54.5)"
-    ],
-    [
-     0.35,
-     "DAL has a top passing offense (8th, 264 yds a game)."
-    ],
-    [
-     -0.04,
-     "Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2."
-    ]
-   ],
-   "status": null,
-   "ppj": 88,
-   "pu": 89,
-   "uinfo": {
-    "share": [
-     13,
-     19,
-     20,
-     12,
-     10,
-     17,
-     15
-    ],
-    "kind": "targets",
-    "snap": 75,
-    "snaps": [
-     74,
-     68,
-     87,
-     78
-    ],
-    "snap_last": 78,
-    "mu": 45.6,
-    "opp": 5.7,
-    "note": ""
-   },
-   "po": 8,
-   "pn": 15,
-   "pid": "11783",
-   "sx": 0.16,
-   "sxs": 58,
-   "mx": 0.1,
-   "mxs": 55,
-   "env": 0.16,
-   "dfac": 0.0,
-   "dfs": 50,
-   "off": 0.35,
-   "ofs": 68,
-   "cu": 89,
-   "avgm": 28.4,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Dak Prescott",
-    "same": true,
-    "n": 7
-   },
-   "risk": 1,
-   "tpts": 30.8,
-   "rank": 35,
-   "why": "Cleared 15+ in 7 of 7 games, by +28 on average (8 of 15 last season), Sleeper projects 41.8, ARI let 5 of 7 WR3s reach it. DAL projected for 31 pts (O/U 54.5). DAL has a top passing offense (8th, 264 yds a game).. Watch: DAL favored by 7, may not need to throw late; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2..",
-   "news": "In the news: \"Fantasy football last-minute pickups: Geno Smith, Ryan Flournoy are top options\""
-  },
-  {
    "game": "PHIWAS",
    "glabel": "PHI @ WAS",
    "day": "Sun",
@@ -5550,7 +5437,7 @@
    },
    "risk": 1,
    "tpts": 23.0,
-   "rank": 36,
+   "rank": 35,
    "why": "Cleared 15+ in 5 of 6 games, by +21 on average (16 of 17 last season), Sleeper projects 48.5, PHI let 7 of 7 WR1s reach it, PHI allows the 9th most pass yds. His share of targets fell from 31% to 20%. PHI secondary missing CB Jonathan Jones. Watch: WAS's offense ranks 22nd in passing (214 yds a game).; WAS favored by 5.5, may not need to throw late.",
    "news": ""
   },
@@ -5728,7 +5615,7 @@
     "mid": 79.0,
     "tk": "KXNFLRECYDS-26NOV01BALBUF-BUFKSHAKIR10-15"
    },
-   "rank": 37,
+   "rank": 36,
    "why": "Cleared 20+ in 5 of 6 games, by +28 on average (12 of 16 last season), Sleeper projects 46.6, BAL let 7 of 7 WR2s reach it. BUF projected for 29 pts (O/U 54.5). Tyrell Shavers out, more targets to go around. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2. Snaps falling: 76% \u2192 69% \u2192 60%..",
    "news": ""
   },
@@ -5887,7 +5774,7 @@
     "mid": 85.5,
     "tk": "KXNFLRECYDS-26NOV01CLEPIT-PITDMETCALF4-20"
    },
-   "rank": 38,
+   "rank": 37,
    "why": "Cleared 25+ in 6 of 7 games, by +28 on average (12 of 15 last season), Sleeper projects 51.6, CLE let 7 of 7 WR1s reach it. Watch: PIT favored by 3.5, may not need to throw late.",
    "news": ""
   },
@@ -6054,7 +5941,7 @@
    },
    "risk": 1,
    "tpts": 30.8,
-   "rank": 39,
+   "rank": 38,
    "why": "Cleared 30+ in 6 of 7 games, by +39 on average (16 of 17 last season), Sleeper projects 76, ARI let 6 of 7 WR2s reach it. Snaps dropped to 60% last game. DAL projected for 31 pts (O/U 54.5). DAL has a top passing offense (8th, 264 yds a game).. Watch: Listed questionable this week; DAL favored by 7, may not need to throw late.",
    "news": ""
   },
@@ -6206,7 +6093,7 @@
    },
    "risk": 1,
    "tpts": 21.0,
-   "rank": 40,
+   "rank": 39,
    "why": "Cleared 2+ in 6 of 6 games, by +2 on average (12 of 14 last season), Sleeper projects 3.4, DEN let 7 of 7 WR2s reach it. DEN secondary missing S Talanoa Hufanga. Watch: KC projected for only 21 pts (O/U 40.5).",
    "news": ""
   },
@@ -6354,7 +6241,7 @@
    "qinfo": null,
    "risk": 0,
    "tpts": 23.0,
-   "rank": 41,
+   "rank": 40,
    "why": "Cleared 150+ in 3 of 4 games, by +40 on average (6 of 7 last season), Sleeper projects 187.4, PHI let 7 of 7 QBs reach it, PHI allows the 9th most pass yds. PHI secondary missing CB Jonathan Jones. Watch: WAS's offense ranks 22nd in passing (214 yds a game).; WAS favored by 5.5, may not need to throw late.",
    "news": ""
   },
@@ -6453,7 +6340,7 @@
    "qinfo": null,
    "risk": 0,
    "tpts": 23.0,
-   "rank": 42,
+   "rank": 41,
    "why": "Cleared 15+ in 3 of 4 games, by +38 on average (7 of 7 last season), Sleeper projects 47.8, PHI allows the 6th most rush yds.",
    "news": ""
   },
@@ -6604,7 +6491,7 @@
    },
    "risk": 0,
    "tpts": 20.5,
-   "rank": 43,
+   "rank": 42,
    "why": "Cleared 10+ in 6 of 7 games, by +25 on average (8 of 17 last season), Sleeper projects 25.8, TB let 7 of 7 WR2s reach it. His share of targets fell from 19% to 9%. Watch: ATL's offense ranks 24th in passing (211 yds a game).; ATL projected for only 20 pts (O/U 43.5).",
    "news": ""
   },
@@ -6759,7 +6646,7 @@
    },
    "risk": 1,
    "tpts": 21.5,
-   "rank": 44,
+   "rank": 43,
    "why": "Cleared 10+ in 7 of 7 games, by +19 on average (13 of 17 last season), Sleeper projects 33.7, CLE let 7 of 7 TE1s reach it. Watch: CLE gives up 20% fewer receiving yds to TE1s than average.; PIT favored by 3.5, may not need to throw late.",
    "news": ""
   },
@@ -6910,7 +6797,7 @@
    },
    "risk": 0,
    "tpts": 24.8,
-   "rank": 45,
+   "rank": 44,
    "why": "Cleared 5+ in 7 of 7 games, by +3 on average (15 of 17 last season), Sleeper projects 7.3, CHI let 3 of 7 WR1s reach it. SEA projected for 25 pts (O/U 46.5). Watch: CHI gives up 19% fewer catches to WR1s than average..",
    "news": ""
   },
@@ -6926,7 +6813,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 30,
-   "ask": 86,
+   "ask": 85,
    "bid": 84,
    "vals": [
     83.0,
@@ -6990,13 +6877,13 @@
    "rks": 32,
    "vs": 41,
    "agree": 2,
-   "score": 59.5,
+   "score": 59.6,
    "flags": [],
-   "pc": 0.78,
+   "pc": 0.7762,
    "praw": 0.837,
    "rg": "WR1",
    "est": false,
-   "mid": 85.0,
+   "mid": 84.5,
    "tk": "KXNFLRECYDS-26NOV01INDJAC-JACPWASHINGTON11-30",
    "ev": "KXNFLRECYDS-26NOV01INDJAC",
    "ctx": 0.15,
@@ -7064,7 +6951,7 @@
    },
    "risk": 1,
    "tpts": 28.2,
-   "rank": 46,
+   "rank": 45,
    "why": "Cleared 30+ in 5 of 6 games, by +39 on average (10 of 16 last season), Sleeper projects 75.2, IND let 7 of 7 WR1s reach it. JAX projected for 28 pts (O/U 46.5). IND secondary missing CB Justin Walley. Watch: JAX favored by 10, may not need to throw late.",
    "news": ""
   },
@@ -7215,7 +7102,7 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 23.5,
-   "rank": 47,
+   "rank": 46,
    "why": "Cleared 175+ in 6 of 7 games, by +57 on average (9 of 15 last season), Sleeper projects 236.9, LV let 7 of 7 QBs reach it. Watch: First season with NYJ, so last year's numbers carry less.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2..",
    "news": "In the news: \"Fantasy football last-minute pickups: Geno Smith, Ryan Flournoy are top options\""
   },
@@ -7374,7 +7261,7 @@
    },
    "risk": 1,
    "tpts": 22.0,
-   "rank": 48,
+   "rank": 47,
    "why": "Cleared 3+ in 6 of 7 games, by +1 on average (11 of 17 last season), Sleeper projects 3.4, NYJ let 7 of 7 WR1s reach it. His share of targets is up from 14% to 28%. LV has a top passing offense (6th, 275 yds a game).. Trending on Sleeper (#25 most added). Watch: NYJ gives up 22% fewer catches to WR1s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 70\u00a2..",
    "news": ""
   },
@@ -7540,7 +7427,7 @@
    },
    "risk": 1,
    "tpts": 17.0,
-   "rank": 49,
+   "rank": 48,
    "why": "Cleared 10+ in 6 of 7 games, by +15 on average (15 of 16 last season), Sleeper projects 45.8, CIN let 6 of 6 WR2s reach it, CIN allows the 7th most pass yds. His share of targets is up from 11% to 23%. TEN a 12.5-pt underdog, trailing teams throw more. Carnell Tate out, more targets to go around. Watch: TEN's offense ranks 32nd in passing (168 yds a game).; Low volume: about 3.2 targets a game as the WR2..",
    "news": ""
   },
@@ -7690,8 +7577,119 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 29.5,
-   "rank": 50,
+   "rank": 49,
    "why": "Cleared 200+ in 5 of 6 games, by +76 on average (6 of 8 last season), Sleeper projects 292.2, TEN let 6 of 7 QBs reach it, TEN allows the 10th most pass yds. CIN projected for 30 pts (O/U 46.5). CIN has a top passing offense (5th, 276 yds a game).. Watch: CIN favored by 12.5, may not need to throw late.",
+   "news": ""
+  },
+  {
+   "game": "NEMIA",
+   "glabel": "NE @ MIA",
+   "day": "Sun",
+   "player": "Drake Maye",
+   "team": "NE",
+   "opp": "MIA",
+   "pos": "QB",
+   "role": "QB",
+   "stat": "rush",
+   "prop": "Rushing Yards",
+   "line": 10,
+   "ask": 81,
+   "bid": 79,
+   "vals": [
+    47.0,
+    17.0,
+    18.0,
+    54.0,
+    25.0,
+    24.0,
+    26.0
+   ],
+   "over": 7,
+   "n": 7,
+   "proj": 38.2,
+   "al": [],
+   "dhit": null,
+   "dn": null,
+   "most": 17,
+   "per": 110.2,
+   "dstat": "rush yds",
+   "p": 78,
+   "roi": -3,
+   "pp": 88,
+   "hs": 91,
+   "dhs": 50,
+   "rks": 48,
+   "vs": 47,
+   "agree": 2,
+   "score": 58.6,
+   "flags": [],
+   "pc": 0.7839,
+   "praw": 0.8969,
+   "rg": "QB",
+   "est": false,
+   "mid": 80.0,
+   "tk": "KXNFLRSHYDS-26NOV01NEMIA-NEDMAYE10-10",
+   "ev": "KXNFLRSHYDS-26NOV01NEMIA",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.2,
+     "NE projected for 25 pts (O/U 43.5)"
+    ],
+    [
+     -0.04,
+     "Injury in the news: rust/health risk, so the chance leans toward Kalshi's 80\u00a2."
+    ]
+   ],
+   "status": null,
+   "ppj": 89,
+   "pu": 86,
+   "uinfo": {
+    "share": [
+     7.0,
+     4.0,
+     4.0,
+     8.0,
+     7.0,
+     4.0,
+     4.0
+    ],
+    "kind": "carries",
+    "snap": 98,
+    "snaps": [
+     100,
+     100,
+     100,
+     100
+    ],
+    "snap_last": 100,
+    "mu": 26.1,
+    "opp": 5.3,
+    "note": ""
+   },
+   "po": 16,
+   "pn": 17,
+   "pid": "11564",
+   "sx": 0.2,
+   "sxs": 60,
+   "mx": -0.03,
+   "mxs": 48,
+   "env": 0.1,
+   "dfac": 0.0,
+   "dfs": 50,
+   "off": 0.17,
+   "ofs": 58,
+   "cu": 91,
+   "avgm": 20.1,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": null,
+   "risk": 1,
+   "tpts": 25.2,
+   "rank": 50,
+   "why": "Cleared 10+ in 7 of 7 games, by +20 on average (16 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 80\u00a2..",
    "news": ""
   }
  ],
@@ -7967,9 +7965,9 @@
    "pr": "Passing Yards",
    "ln": 125,
    "ask": 85,
-   "q": 83.0,
-   "p": 0.8139,
-   "sc": 70.5,
+   "q": 83.5,
+   "p": 0.8186,
+   "sc": 70.6,
    "est": 0,
    "tk": "KXNFLPASSYDS-26NOV01INDJAC-INDDJONES17-125",
    "ev": "KXNFLPASSYDS-26NOV01INDJAC",
@@ -7991,9 +7989,9 @@
    "st": "pass",
    "pr": "Passing Yards",
    "ln": 100,
-   "ask": 91,
-   "q": 89.5,
-   "p": 0.8773,
+   "ask": 90,
+   "q": 88.5,
+   "p": 0.8679,
    "sc": 72.1,
    "est": 0,
    "tk": "KXNFLPASSYDS-26NOV01INDJAC-INDDJONES17-100",
@@ -8049,31 +8047,6 @@
    "tk": "KXNFLPASSYDS-26NOV01LVNYJ-NYJGSMITH7-225",
    "ev": "KXNFLPASSYDS-26NOV01LVNYJ",
    "wy": "Cleared 225+ in 4 of 7 games, by +7 on average (6 of 15 last season), Sleeper projects 236.9, LV let 4 of 7 QBs reach it. Watch: First season with NYJ, so last year's numbers carry less.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 51\u00a2..",
-   "id": "1373",
-   "cx": 0.0,
-   "nw": "In the news: \"Fantasy football last-minute pickups: Geno Smith, Ryan Flournoy are top options\"",
-   "dy": "Sun",
-   "df": 0.0,
-   "xb": 0,
-   "rk": 1,
-   "pt": 23.5
-  },
-  {
-   "pl": "Geno Smith",
-   "tm": "NYJ",
-   "g": "LVNYJ",
-   "gl": "LV @ NYJ",
-   "st": "pass",
-   "pr": "Passing Yards",
-   "ln": 200,
-   "ask": 67,
-   "q": 65.0,
-   "p": 0.6301,
-   "sc": 39.2,
-   "est": 0,
-   "tk": "KXNFLPASSYDS-26NOV01LVNYJ-NYJGSMITH7-200",
-   "ev": "KXNFLPASSYDS-26NOV01LVNYJ",
-   "wy": "Cleared 200+ in 5 of 7 games, by +32 on average (7 of 15 last season), Sleeper projects 236.9, LV let 5 of 7 QBs reach it. Watch: First season with NYJ, so last year's numbers carry less.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 65\u00a2..",
    "id": "1373",
    "cx": 0.0,
    "nw": "In the news: \"Fantasy football last-minute pickups: Geno Smith, Ryan Flournoy are top options\"",
@@ -8192,9 +8165,9 @@
    "pr": "Passing Yards",
    "ln": 200,
    "ask": 51,
-   "q": 50.0,
-   "p": 0.4819,
-   "sc": 49.8,
+   "q": 50.5,
+   "p": 0.4865,
+   "sc": 50.0,
    "est": 0,
    "tk": "KXNFLPASSYDS-26NOV01PHIWAS-PHITMCKEE16-200",
    "ev": "KXNFLPASSYDS-26NOV01PHIWAS",
@@ -8343,19 +8316,19 @@
    "ln": 30,
    "ask": 39,
    "q": 38.0,
-   "p": 0.3673,
-   "sc": 25.9,
+   "p": 0.3629,
+   "sc": 22.7,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01NEMIA-NEDMAYE10-30",
    "ev": "KXNFLRSHYDS-26NOV01NEMIA",
-   "wy": "Cleared 30+ in 2 of 7 games, by +0.1 on average (6 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5).",
+   "wy": "Cleared 30+ in 2 of 7 games, by +0.1 on average (6 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 38\u00a2..",
    "id": "11564",
    "cx": 0,
    "nw": "",
    "dy": "Sun",
    "df": 0.0,
    "xb": 0,
-   "rk": 0,
+   "rk": 1,
    "pt": 25.2
   },
   {
@@ -8368,19 +8341,19 @@
    "ln": 25,
    "ask": 49,
    "q": 48.0,
-   "p": 0.4698,
-   "sc": 38.6,
+   "p": 0.4639,
+   "sc": 33.9,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01NEMIA-NEDMAYE10-25",
    "ev": "KXNFLRSHYDS-26NOV01NEMIA",
-   "wy": "Cleared 25+ in 4 of 7 games, by +5 on average (8 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5).",
+   "wy": "Cleared 25+ in 4 of 7 games, by +5 on average (8 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 48\u00a2..",
    "id": "11564",
    "cx": 0,
    "nw": "",
    "dy": "Sun",
    "df": 0.0,
    "xb": 0,
-   "rk": 0,
+   "rk": 1,
    "pt": 25.2
   },
   {
@@ -8391,21 +8364,21 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 20,
-   "ask": 59,
-   "q": 58.0,
-   "p": 0.5713,
-   "sc": 47.2,
+   "ask": 60,
+   "q": 58.5,
+   "p": 0.5693,
+   "sc": 41.3,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01NEMIA-NEDMAYE10-20",
    "ev": "KXNFLRSHYDS-26NOV01NEMIA",
-   "wy": "Cleared 20+ in 5 of 7 games, by +10 on average (11 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5).",
+   "wy": "Cleared 20+ in 5 of 7 games, by +10 on average (11 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 58\u00a2..",
    "id": "11564",
    "cx": 0,
    "nw": "",
    "dy": "Sun",
    "df": 0.0,
    "xb": 0,
-   "rk": 0,
+   "rk": 1,
    "pt": 25.2
   },
   {
@@ -8418,19 +8391,19 @@
    "ln": 15,
    "ask": 72,
    "q": 70.5,
-   "p": 0.6964,
-   "sc": 62.9,
+   "p": 0.6895,
+   "sc": 55.3,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01NEMIA-NEDMAYE10-15",
    "ev": "KXNFLRSHYDS-26NOV01NEMIA",
-   "wy": "Cleared 15+ in 7 of 7 games, by +15 on average (11 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5).",
+   "wy": "Cleared 15+ in 7 of 7 games, by +15 on average (11 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 70\u00a2..",
    "id": "11564",
    "cx": 0,
    "nw": "",
    "dy": "Sun",
    "df": 0.0,
    "xb": 0,
-   "rk": 0,
+   "rk": 1,
    "pt": 25.2
   },
   {
@@ -8443,19 +8416,19 @@
    "ln": 10,
    "ask": 81,
    "q": 80.0,
-   "p": 0.7898,
-   "sc": 66.7,
+   "p": 0.7839,
+   "sc": 58.6,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV01NEMIA-NEDMAYE10-10",
    "ev": "KXNFLRSHYDS-26NOV01NEMIA",
-   "wy": "Cleared 10+ in 7 of 7 games, by +20 on average (16 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5).",
+   "wy": "Cleared 10+ in 7 of 7 games, by +20 on average (16 of 17 last season), Sleeper projects 38.2. NE projected for 25 pts (O/U 43.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 80\u00a2..",
    "id": "11564",
    "cx": 0,
    "nw": "",
    "dy": "Sun",
    "df": 0.0,
    "xb": 0,
-   "rk": 0,
+   "rk": 1,
    "pt": 25.2
   },
   {
@@ -8632,31 +8605,6 @@
    "xb": 0,
    "rk": 1,
    "pt": 23.8
-  },
-  {
-   "pl": "Ryan Flournoy",
-   "tm": "DAL",
-   "g": "ARIDAL",
-   "gl": "ARI @ DAL",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 15,
-   "ask": 83,
-   "q": 78.0,
-   "p": 0.7656,
-   "sc": 63.2,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26NOV01ARIDAL-DALRFLOURNOY19-15",
-   "ev": "KXNFLRECYDS-26NOV01ARIDAL",
-   "wy": "Cleared 15+ in 7 of 7 games, by +28 on average (8 of 15 last season), Sleeper projects 41.8, ARI let 5 of 7 WR3s reach it. DAL projected for 31 pts (O/U 54.5). DAL has a top passing offense (8th, 264 yds a game).. Watch: DAL favored by 7, may not need to throw late; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2..",
-   "id": "11783",
-   "cx": 0.28,
-   "nw": "In the news: \"Fantasy football last-minute pickups: Geno Smith, Ryan Flournoy are top options\"",
-   "dy": "Sun",
-   "df": 0.0,
-   "xb": 0,
-   "rk": 1,
-   "pt": 30.8
   },
   {
    "pl": "George Pickens",
@@ -8867,13 +8815,13 @@
    "pr": "Receiving Yards",
    "ln": 40,
    "ask": 52,
-   "q": 51.5,
-   "p": 0.5044,
+   "q": 51.0,
+   "p": 0.5002,
    "sc": 34.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV01ATLTB-TBCGODWIN14-40",
    "ev": "KXNFLRECYDS-26NOV01ATLTB",
-   "wy": "Cleared 40+ in 2 of 7 games, by -5 on average (3 of 9 last season), Sleeper projects 48.9, ATL let 7 of 7 WR1s reach it, ATL allows the 4th most pass yds. His share of targets is up from 15% to 45%. Emeka Egbuka out, more targets to go around. Trending on Sleeper (#22 most added). Watch: TB's offense ranks 31st in passing (169 yds a game).; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 52\u00a2..",
+   "wy": "Cleared 40+ in 2 of 7 games, by -5 on average (3 of 9 last season), Sleeper projects 48.9, ATL let 7 of 7 WR1s reach it, ATL allows the 4th most pass yds. His share of targets is up from 15% to 45%. Emeka Egbuka out, more targets to go around. Trending on Sleeper (#22 most added). Watch: TB's offense ranks 31st in passing (169 yds a game).; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 51\u00a2..",
    "id": "4037",
    "cx": 0.28,
    "nw": "",
@@ -9292,9 +9240,9 @@
    "pr": "Receiving Yards",
    "ln": 20,
    "ask": 62,
-   "q": 60.5,
-   "p": 0.5935,
-   "sc": 44.6,
+   "q": 60.0,
+   "p": 0.5889,
+   "sc": 44.5,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV01CLEPIT-PITPFREIERMUTH88-20",
    "ev": "KXNFLRECYDS-26NOV01CLEPIT",
@@ -9516,10 +9464,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 30,
-   "ask": 56,
-   "q": 54.0,
-   "p": 0.5489,
-   "sc": 61.5,
+   "ask": 58,
+   "q": 55.0,
+   "p": 0.5578,
+   "sc": 61.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV01INDJAC-INDJDOWNS2-30",
    "ev": "KXNFLRECYDS-26NOV01INDJAC",
@@ -9641,10 +9589,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 45,
+   "ask": 46,
    "q": 44.0,
-   "p": 0.4649,
-   "sc": 40.0,
+   "p": 0.4653,
+   "sc": 39.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV01INDJAC-INDKALLEN10-40",
    "ev": "KXNFLRECYDS-26NOV01INDJAC",
@@ -9716,10 +9664,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 20,
-   "ask": 78,
-   "q": 76.5,
-   "p": 0.7628,
-   "sc": 71.1,
+   "ask": 77,
+   "q": 74.0,
+   "p": 0.7472,
+   "sc": 70.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV01INDJAC-INDKALLEN10-20",
    "ev": "KXNFLRECYDS-26NOV01INDJAC",
@@ -10341,10 +10289,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 100,
-   "ask": 52,
-   "q": 51.0,
-   "p": 0.4973,
-   "sc": 40.8,
+   "ask": 49,
+   "q": 48.5,
+   "p": 0.4801,
+   "sc": 41.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV02CHISEA-SEAJSMITHNJIGBA11-100",
    "ev": "KXNFLRECYDS-26NOV02CHISEA",
@@ -10417,13 +10365,38 @@
    "pr": "Receiving Yards",
    "ln": 40,
    "ask": 65,
-   "q": 61.0,
-   "p": 0.6067,
-   "sc": 48.0,
+   "q": 63.5,
+   "p": 0.6217,
+   "sc": 48.3,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV02CHISEA-CHILBURDEN10-40",
    "ev": "KXNFLRECYDS-26NOV02CHISEA",
    "wy": "Cleared 40+ in 6 of 7 games, by +30 on average (7 of 15 last season), Sleeper projects 57.6, SEA let 4 of 7 WR1s reach it. Watch: SEA gives up 37% fewer receiving yds to WR1s than average..",
+   "id": "12519",
+   "cx": 0,
+   "nw": "",
+   "dy": "Mon",
+   "df": 0.3,
+   "xb": 0,
+   "rk": 0,
+   "pt": 21.8
+  },
+  {
+   "pl": "Luther Burden III",
+   "tm": "CHI",
+   "g": "CHISEA",
+   "gl": "CHI @ SEA (Mon)",
+   "st": "recyds",
+   "pr": "Receiving Yards",
+   "ln": 30,
+   "ask": 78,
+   "q": 73.0,
+   "p": 0.7116,
+   "sc": 58.7,
+   "est": 0,
+   "tk": "KXNFLRECYDS-26NOV02CHISEA-CHILBURDEN10-30",
+   "ev": "KXNFLRECYDS-26NOV02CHISEA",
+   "wy": "Cleared 30+ in 7 of 7 games, by +40 on average (9 of 15 last season), Sleeper projects 57.6, SEA let 4 of 7 WR1s reach it. Watch: SEA gives up 37% fewer receiving yds to WR1s than average..",
    "id": "12519",
    "cx": 0,
    "nw": "",
@@ -10716,9 +10689,9 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 2,
-   "ask": 85,
-   "q": 83.5,
-   "p": 0.8216,
+   "ask": 86,
+   "q": 84.5,
+   "p": 0.8303,
    "sc": 73.2,
    "est": 0,
    "tk": "KXNFLREC-26NOV01INDJAC-INDJDOWNS2-2",
@@ -10742,13 +10715,13 @@
    "pr": "Receptions",
    "ln": 4,
    "ask": 52,
-   "q": 51.0,
-   "p": 0.5011,
-   "sc": 39.5,
+   "q": 51.5,
+   "p": 0.5053,
+   "sc": 39.6,
    "est": 0,
    "tk": "KXNFLREC-26NOV01LVNYJ-LVTTUCKER1-4",
    "ev": "KXNFLREC-26NOV01LVNYJ",
-   "wy": "Cleared 4+ in 6 of 7 games, by +0.1 on average (7 of 17 last season), NYJ let 5 of 7 WR1s reach it. His share of targets is up from 14% to 28%. LV has a top passing offense (6th, 275 yds a game).. Trending on Sleeper (#25 most added). Watch: NYJ gives up 22% fewer catches to WR1s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 51\u00a2..",
+   "wy": "Cleared 4+ in 6 of 7 games, by +0.1 on average (7 of 17 last season), NYJ let 5 of 7 WR1s reach it. His share of targets is up from 14% to 28%. LV has a top passing offense (6th, 275 yds a game).. Trending on Sleeper (#25 most added). Watch: NYJ gives up 22% fewer catches to WR1s than average.; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 52\u00a2..",
    "id": "10213",
    "cx": 0.08,
    "nw": "",
@@ -10817,8 +10790,8 @@
    "pr": "Receptions",
    "ln": 4,
    "ask": 45,
-   "q": 44.5,
-   "p": 0.4368,
+   "q": 44.0,
+   "p": 0.4338,
    "sc": 26.4,
    "est": 0,
    "tk": "KXNFLREC-26NOV01MINDET-DETJWILLIAMS1-4",
@@ -10974,6 +10947,31 @@
    "tk": "KXNFLREC-26NOV01NEMIA-MIAMWASHINGTON6-4",
    "ev": "KXNFLREC-26NOV01NEMIA",
    "wy": "Cleared 4+ in 4 of 6 games, by +0.3 on average (5 of 17 last season), NE let 7 of 7 WR1s reach it. His share of targets fell from 30% to 14%. MIA a 7-pt underdog, trailing teams throw more. Watch: MIA's offense ranks 30th in passing (176 yds a game).; MIA projected for only 18 pts (O/U 43.5).",
+   "id": "11610",
+   "cx": 0,
+   "nw": "",
+   "dy": "Sun",
+   "df": 0.3,
+   "xb": 0,
+   "rk": 0,
+   "pt": 18.2
+  },
+  {
+   "pl": "Malik Washington",
+   "tm": "MIA",
+   "g": "NEMIA",
+   "gl": "NE @ MIA",
+   "st": "rec",
+   "pr": "Receptions",
+   "ln": 3,
+   "ask": 82,
+   "q": 78.5,
+   "p": 0.7661,
+   "sc": 73.2,
+   "est": 0,
+   "tk": "KXNFLREC-26NOV01NEMIA-MIAMWASHINGTON6-3",
+   "ev": "KXNFLREC-26NOV01NEMIA",
+   "wy": "Cleared 3+ in 6 of 6 games, by +1 on average (10 of 17 last season), Sleeper projects 3.7, NE let 7 of 7 WR1s reach it. His share of targets fell from 30% to 14%. MIA a 7-pt underdog, trailing teams throw more. Watch: MIA's offense ranks 30th in passing (176 yds a game).; MIA projected for only 18 pts (O/U 43.5).",
    "id": "11610",
    "cx": 0,
    "nw": "",
@@ -11223,11 +11221,11 @@
     "id": "4984",
     "lam": 1.1,
     "pm": 0.666,
-    "p": 0.753,
-    "q": 84.0,
-    "ask": 89,
-    "tk": "KXNFLPASSTDSPROT-26NOV01BALBUF-BUFJALLEN17-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01BALBUF",
+    "p": 0.765,
+    "q": 86.5,
+    "ask": 88,
+    "tk": "KXNFLPASSTDS-26NOV01BALBUF-BUFJALLEN17-1",
+    "ev": "KXNFLPASSTDS-26NOV01BALBUF",
     "tds": 8.0,
     "n": 6,
     "games_td": 5,
@@ -11277,7 +11275,7 @@
      "22% red-zone role, 16.3% TD rate, 8.2 touches a game.",
      "8.0 TDs in 6 games, scored in 5 (14.0 in 16 last season).",
      "BUF projected for 29 pts (O/U 54.5, favored by 3).",
-     "Kalshi 84\u00a2 vs model 67%."
+     "Kalshi 86\u00a2 vs model 67%."
     ]
    },
    {
@@ -11401,7 +11399,7 @@
     "debt": -1.2,
     "hist": true,
     "inj": "News",
-    "news": "Greg Dulcich or James Cook III: Who Should I Start in Week 8? Fantasy Football",
+    "news": "Ameer Abdullah or James Cook III: Who Should I Start in Week 8? Fantasy Football",
     "prop": {
      "pr": "Rushing Yards",
      "ln": 50,
@@ -11424,7 +11422,7 @@
      "40% red-zone role, 9% target share, 4.6% TD rate, 21.8 touches a game.",
      "6.0 TDs in 6 games, scored in 5 (14.0 in 17 last season).",
      "BUF projected for 29 pts (O/U 54.5, favored by 3).",
-     "Injury news: Greg Dulcich or James Cook III: Who Should I Start in Week 8? Fantasy Football"
+     "Injury news: Ameer Abdullah or James Cook III: Who Should I Start in Week 8? Fantasy Football"
     ]
    },
    {
@@ -11869,75 +11867,6 @@
     ]
    },
    {
-    "key": "drake maye",
-    "pl": "Drake Maye",
-    "tm": "NE",
-    "opp": "MIA",
-    "pos": "QB",
-    "role": "QB",
-    "g": "NEMIA",
-    "gl": "NE @ MIA",
-    "dy": "Sun",
-    "id": "11564",
-    "lam": 0.3,
-    "pm": 0.256,
-    "p": 0.57,
-    "q": 88.5,
-    "ask": 90,
-    "tk": "KXNFLPASSTDSPROT-26NOV01NEMIA-NEDMAYE10-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01NEMIA",
-    "tds": 2.0,
-    "n": 7,
-    "games_td": 2,
-    "ptd": 4.0,
-    "pn": 17,
-    "rz": 10,
-    "tdsh": 9,
-    "ts": null,
-    "tdr": 5.3,
-    "tpg": 5.4,
-    "pts": 25.2,
-    "sp": -7.0,
-    "tot": 43.5,
-    "d": {
-     "td": 1.0,
-     "n": 6,
-     "rank": 14,
-     "nteams": 32,
-     "ltd": 4.0,
-     "lrank": 13,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 1.05,
-    "debt": -0.9,
-    "hist": true,
-    "inj": null,
-    "news": null,
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.845,
-     "ask": 90,
-     "sc": 82.0
-    },
-    "tags": [
-     "Favored"
-    ],
-    "low": false,
-    "score": 53.5,
-    "why": [
-     "MIA has allowed 1.0 QB TD in 6 games (14th most); 4.0 all last season.",
-     "10% red-zone role, 5.3% TD rate, 5.4 touches a game.",
-     "2.0 TDs in 7 games, scored in 2 (4.0 in 17 last season).",
-     "NE projected for 25 pts (O/U 43.5, favored by 7).",
-     "Kalshi 88\u00a2 vs model 26%."
-    ]
-   },
-   {
     "key": "bijan robinson",
     "pl": "Bijan Robinson",
     "tm": "ATL",
@@ -12080,6 +12009,76 @@
     ]
    },
    {
+    "key": "drake maye",
+    "pl": "Drake Maye",
+    "tm": "NE",
+    "opp": "MIA",
+    "pos": "QB",
+    "role": "QB",
+    "g": "NEMIA",
+    "gl": "NE @ MIA",
+    "dy": "Sun",
+    "id": "11564",
+    "lam": 0.3,
+    "pm": 0.256,
+    "p": 0.558,
+    "q": 86.0,
+    "ask": 88,
+    "tk": "KXNFLPASSTDS-26NOV01NEMIA-NEDMAYE10-1",
+    "ev": "KXNFLPASSTDS-26NOV01NEMIA",
+    "tds": 2.0,
+    "n": 7,
+    "games_td": 2,
+    "ptd": 4.0,
+    "pn": 17,
+    "rz": 10,
+    "tdsh": 9,
+    "ts": null,
+    "tdr": 5.3,
+    "tpg": 5.4,
+    "pts": 25.2,
+    "sp": -7.0,
+    "tot": 43.5,
+    "d": {
+     "td": 1.0,
+     "n": 6,
+     "rank": 14,
+     "nteams": 32,
+     "ltd": 4.0,
+     "lrank": 13,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 1.05,
+    "debt": -0.9,
+    "hist": true,
+    "inj": "News",
+    "news": "Drake Maye Finds Hunter Henry for Patriots Touchdown Stream of National Football League",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.845,
+     "ask": 90,
+     "sc": 72.1
+    },
+    "tags": [
+     "Favored"
+    ],
+    "low": false,
+    "score": 53.5,
+    "why": [
+     "MIA has allowed 1.0 QB TD in 6 games (14th most); 4.0 all last season.",
+     "10% red-zone role, 5.3% TD rate, 5.4 touches a game.",
+     "2.0 TDs in 7 games, scored in 2 (4.0 in 17 last season).",
+     "NE projected for 25 pts (O/U 43.5, favored by 7).",
+     "Injury news: Drake Maye Finds Hunter Henry for Patriots Touchdown Stream of National Football League",
+     "Kalshi 86\u00a2 vs model 26%."
+    ]
+   },
+   {
     "key": "jayden daniels",
     "pl": "Jayden Daniels",
     "tm": "WAS",
@@ -12092,11 +12091,11 @@
     "id": "11566",
     "lam": 0.37,
     "pm": 0.308,
-    "p": 0.552,
-    "q": 79.5,
+    "p": 0.547,
+    "q": 78.5,
     "ask": 81,
-    "tk": "KXNFLPASSTDSPROT-26NOV01PHIWAS-WASJDANIELS5-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01PHIWAS",
+    "tk": "KXNFLPASSTDS-26NOV01PHIWAS-WASJDANIELS5-1",
+    "ev": "KXNFLPASSTDS-26NOV01PHIWAS",
     "tds": 2.0,
     "n": 4,
     "games_td": 1,
@@ -12131,9 +12130,9 @@
     "prop": {
      "pr": "Passing Yards",
      "ln": 125,
-     "p": 0.798,
+     "p": 0.804,
      "ask": 89,
-     "sc": 66.1
+     "sc": 66.2
     },
     "tags": [
      "Soft TD defense",
@@ -12146,7 +12145,7 @@
      "12% red-zone role, 8% TD rate, 6.2 touches a game.",
      "2.0 TDs in 4 games, scored in 1 (2.0 in 7 last season).",
      "WAS projected for 23 pts (O/U 40.5, favored by 5.5).",
-     "Kalshi 80\u00a2 vs model 31%."
+     "Kalshi 78\u00a2 vs model 31%."
     ]
    },
    {
@@ -12213,77 +12212,6 @@
      "8.0 TDs in 7 games, scored in 5 (20.0 in 17 last season).",
      "Low total: IND projected for 18 pts (O/U 46.5, 10-pt underdog).",
      "Injury news: Jonathan Taylor trade rumors could spell trouble for fantasy football managers"
-    ]
-   },
-   {
-    "key": "joe burrow",
-    "pl": "Joe Burrow",
-    "tm": "CIN",
-    "opp": "TEN",
-    "pos": "QB",
-    "role": "QB",
-    "g": "TENCIN",
-    "gl": "TEN @ CIN",
-    "dy": "Sun",
-    "id": "6770",
-    "lam": 0.11,
-    "pm": 0.106,
-    "p": 0.535,
-    "q": 96.5,
-    "ask": 98,
-    "tk": "KXNFLPASSTDSPROT-26NOV01TENCIN-CINJBURROW9-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01TENCIN",
-    "tds": 1.0,
-    "n": 6,
-    "games_td": 1,
-    "ptd": 0,
-    "pn": 8,
-    "rz": 11,
-    "tdsh": 3,
-    "ts": null,
-    "tdr": 5.9,
-    "tpg": 2.8,
-    "pts": 29.5,
-    "sp": -12.5,
-    "tot": 46.5,
-    "d": {
-     "td": 2.0,
-     "n": 7,
-     "rank": 12,
-     "nteams": 32,
-     "ltd": 3.0,
-     "lrank": 19,
-     "leak": false,
-     "recent": [
-      0,
-      1.0
-     ]
-    },
-    "dfac": 1.11,
-    "debt": -0.1,
-    "hist": true,
-    "inj": "News",
-    "news": "Joe Burrow Creeps into 3rd in NFL MVP Odds Stream of National Football League",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 175,
-     "p": 0.861,
-     "ask": 92,
-     "sc": 68.7
-    },
-    "tags": [
-     "Shootout script",
-     "Favored"
-    ],
-    "low": false,
-    "score": 49.7,
-    "why": [
-     "TEN has allowed 2.0 QB TDs in 7 games (12th most); 3.0 all last season.",
-     "11% red-zone role, 5.9% TD rate, 2.8 touches a game.",
-     "1.0 TD in 6 games, scored in 1 (0 in 8 last season).",
-     "CIN projected for 30 pts (O/U 46.5, favored by 12.5).",
-     "Injury news: Joe Burrow Creeps into 3rd in NFL MVP Odds Stream of National Football League",
-     "Kalshi 96\u00a2 vs model 11%."
     ]
    },
    {
@@ -12425,6 +12353,77 @@
     ]
    },
    {
+    "key": "joe burrow",
+    "pl": "Joe Burrow",
+    "tm": "CIN",
+    "opp": "TEN",
+    "pos": "QB",
+    "role": "QB",
+    "g": "TENCIN",
+    "gl": "TEN @ CIN",
+    "dy": "Sun",
+    "id": "6770",
+    "lam": 0.11,
+    "pm": 0.106,
+    "p": 0.513,
+    "q": 92.0,
+    "ask": 94,
+    "tk": "KXNFLPASSTDS-26NOV01TENCIN-CINJBURROW9-1",
+    "ev": "KXNFLPASSTDS-26NOV01TENCIN",
+    "tds": 1.0,
+    "n": 6,
+    "games_td": 1,
+    "ptd": 0,
+    "pn": 8,
+    "rz": 11,
+    "tdsh": 3,
+    "ts": null,
+    "tdr": 5.9,
+    "tpg": 2.8,
+    "pts": 29.5,
+    "sp": -12.5,
+    "tot": 46.5,
+    "d": {
+     "td": 2.0,
+     "n": 7,
+     "rank": 12,
+     "nteams": 32,
+     "ltd": 3.0,
+     "lrank": 19,
+     "leak": false,
+     "recent": [
+      0,
+      1.0
+     ]
+    },
+    "dfac": 1.11,
+    "debt": -0.1,
+    "hist": true,
+    "inj": "News",
+    "news": "Joe Burrow Creeps into 3rd in NFL MVP Odds Stream of National Football League",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 175,
+     "p": 0.861,
+     "ask": 92,
+     "sc": 68.7
+    },
+    "tags": [
+     "Shootout script",
+     "Favored"
+    ],
+    "low": false,
+    "score": 49.7,
+    "why": [
+     "TEN has allowed 2.0 QB TDs in 7 games (12th most); 3.0 all last season.",
+     "11% red-zone role, 5.9% TD rate, 2.8 touches a game.",
+     "1.0 TD in 6 games, scored in 1 (0 in 8 last season).",
+     "CIN projected for 30 pts (O/U 46.5, favored by 12.5).",
+     "Injury news: Joe Burrow Creeps into 3rd in NFL MVP Odds Stream of National Football League",
+     "Kalshi 92\u00a2 vs model 11%."
+    ]
+   },
+   {
     "key": "aaron jones",
     "pl": "Aaron Jones Sr.",
     "tm": "MIN",
@@ -12494,74 +12493,6 @@
      "MIN projected for 22 pts (O/U 46.5, 3-pt underdog).",
      "Due: 1.7 TD debt (his role says he should have scored more).",
      "Injury news: Aaron Jones Sr. or Keandre Lambert-Smith: Who Should I Start in Week 8? Fantasy Football"
-    ]
-   },
-   {
-    "key": "bo nix",
-    "pl": "Bo Nix",
-    "tm": "DEN",
-    "opp": "KC",
-    "pos": "QB",
-    "role": "QB",
-    "g": "KCDEN",
-    "gl": "KC @ DEN",
-    "dy": "Sun",
-    "id": "11563",
-    "lam": 0.31,
-    "pm": 0.27,
-    "p": 0.503,
-    "q": 73.5,
-    "ask": 75,
-    "tk": "KXNFLPASSTDSPROT-26NOV01KCDEN-DENBNIX10-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01KCDEN",
-    "tds": 2.0,
-    "n": 7,
-    "games_td": 2,
-    "ptd": 5.0,
-    "pn": 17,
-    "rz": 15,
-    "tdsh": 12,
-    "ts": null,
-    "tdr": 6.9,
-    "tpg": 4.1,
-    "pts": 19.5,
-    "sp": 1.5,
-    "tot": 40.5,
-    "d": {
-     "td": 0,
-     "n": 6,
-     "rank": 27,
-     "nteams": 32,
-     "ltd": 6.0,
-     "lrank": 3,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 1.05,
-    "debt": -0.8,
-    "hist": true,
-    "inj": "News",
-    "news": "Bo Nix Shows Off Arms and Legs in Win Over Cardinals Stream of National Football League",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.709,
-     "ask": 80,
-     "sc": 35.2
-    },
-    "tags": [],
-    "low": true,
-    "score": 53.4,
-    "why": [
-     "KC has allowed 0 QB TDs in 6 games (27th most); 6.0 all last season (3rd most).",
-     "15% red-zone role, 6.9% TD rate, 4.1 touches a game.",
-     "2.0 TDs in 7 games, scored in 2 (5.0 in 17 last season).",
-     "Low total: DEN projected for 20 pts (O/U 40.5, 1.5-pt underdog).",
-     "Injury news: Bo Nix Shows Off Arms and Legs in Win Over Cardinals Stream of National Football League",
-     "Kalshi 74\u00a2 vs model 27%."
     ]
    },
    {
@@ -12701,141 +12632,71 @@
     ]
    },
    {
-    "key": "patrick mahomes",
-    "pl": "Patrick Mahomes",
-    "tm": "KC",
-    "opp": "DEN",
+    "key": "bo nix",
+    "pl": "Bo Nix",
+    "tm": "DEN",
+    "opp": "KC",
     "pos": "QB",
     "role": "QB",
     "g": "KCDEN",
     "gl": "KC @ DEN",
     "dy": "Sun",
-    "id": "4046",
-    "lam": 0.23,
-    "pm": 0.209,
-    "p": 0.492,
-    "q": 77.5,
-    "ask": 79,
-    "tk": "KXNFLPASSTDSPROT-26NOV01KCDEN-KCPMAHOMES15-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01KCDEN",
-    "tds": 1.0,
-    "n": 6,
-    "games_td": 1,
+    "id": "11563",
+    "lam": 0.31,
+    "pm": 0.27,
+    "p": 0.483,
+    "q": 69.5,
+    "ask": 71,
+    "tk": "KXNFLPASSTDS-26NOV01KCDEN-DENBNIX10-1",
+    "ev": "KXNFLPASSTDS-26NOV01KCDEN",
+    "tds": 2.0,
+    "n": 7,
+    "games_td": 2,
     "ptd": 5.0,
-    "pn": 14,
-    "rz": 8,
-    "tdsh": 10,
+    "pn": 17,
+    "rz": 15,
+    "tdsh": 12,
     "ts": null,
-    "tdr": 5.3,
-    "tpg": 3.2,
-    "pts": 21.0,
-    "sp": -1.5,
+    "tdr": 6.9,
+    "tpg": 4.1,
+    "pts": 19.5,
+    "sp": 1.5,
     "tot": 40.5,
-    "d": {
-     "td": 1.0,
-     "n": 7,
-     "rank": 19,
-     "nteams": 32,
-     "ltd": 3.0,
-     "lrank": 16,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.91,
-    "debt": -0.1,
-    "hist": true,
-    "inj": "News",
-    "news": "Patrick Mahomes Week 8 Outlook for Fantasy Football (2026)",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.824,
-     "ask": 89,
-     "sc": 64.2
-    },
-    "tags": [],
-    "low": false,
-    "score": 39.9,
-    "why": [
-     "DEN has allowed 1.0 QB TD in 7 games (19th most); 3.0 all last season.",
-     "8% red-zone role, 5.3% TD rate, 3.2 touches a game.",
-     "1.0 TD in 6 games, scored in 1 (5.0 in 14 last season).",
-     "KC projected for 21 pts (O/U 40.5, favored by 1.5).",
-     "Injury news: Patrick Mahomes Week 8 Outlook for Fantasy Football (2026)",
-     "Kalshi 78\u00a2 vs model 21%."
-    ]
-   },
-   {
-    "key": "lamar jackson",
-    "pl": "Lamar Jackson",
-    "tm": "BAL",
-    "opp": "BUF",
-    "pos": "QB",
-    "role": "QB",
-    "g": "BALBUF",
-    "gl": "BAL @ BUF",
-    "dy": "Sun",
-    "id": "4881",
-    "lam": 0.13,
-    "pm": 0.124,
-    "p": 0.49,
-    "q": 85.5,
-    "ask": 87,
-    "tk": "KXNFLPASSTDSPROT-26NOV01BALBUF-BALLJACKSON8-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01BALBUF",
-    "tds": 1.0,
-    "n": 4,
-    "games_td": 1,
-    "ptd": 2.0,
-    "pn": 13,
-    "rz": 7,
-    "tdsh": 5,
-    "ts": null,
-    "tdr": 5.3,
-    "tpg": 4.8,
-    "pts": 25.8,
-    "sp": 3.0,
-    "tot": 54.5,
     "d": {
      "td": 0,
      "n": 6,
-     "rank": 24,
+     "rank": 27,
      "nteams": 32,
-     "ltd": 4.0,
-     "lrank": 12,
+     "ltd": 6.0,
+     "lrank": 3,
      "leak": false,
      "recent": [
       0,
       0
      ]
     },
-    "dfac": 0.83,
-    "debt": -0.1,
+    "dfac": 1.05,
+    "debt": -0.8,
     "hist": true,
     "inj": "News",
-    "news": "\u2018Is He a More Talented Kyler Murray?\u2019 \u2014 Colin Cowherd Takes Aim at Lamar Jackson After Ravens Star\u2019s \u2018Weird Communication\u2019 About Injuries",
+    "news": "Bo Nix Shows Off Arms and Legs in Win Over Cardinals Stream of National Football League",
     "prop": {
      "pr": "Passing Yards",
      "ln": 150,
-     "p": 0.875,
-     "ask": 91,
-     "sc": 72.1
+     "p": 0.709,
+     "ask": 80,
+     "sc": 35.2
     },
-    "tags": [
-     "Shootout script"
-    ],
-    "low": false,
-    "score": 36.3,
+    "tags": [],
+    "low": true,
+    "score": 53.4,
     "why": [
-     "BUF has allowed 0 QB TDs in 6 games (24th most); 4.0 all last season.",
-     "7% red-zone role, 5.3% TD rate, 4.8 touches a game.",
-     "1.0 TD in 4 games, scored in 1 (2.0 in 13 last season).",
-     "BAL projected for 26 pts (O/U 54.5, 3-pt underdog).",
-     "Injury news: \u2018Is He a More Talented Kyler Murray?\u2019 \u2014 Colin Cowherd Takes Aim at Lamar Jackson After Ravens Star\u2019s \u2018Weird Communication\u2019 About Injuries",
-     "Kalshi 86\u00a2 vs model 12%."
+     "KC has allowed 0 QB TDs in 6 games (27th most); 6.0 all last season (3rd most).",
+     "15% red-zone role, 6.9% TD rate, 4.1 touches a game.",
+     "2.0 TDs in 7 games, scored in 2 (5.0 in 17 last season).",
+     "Low total: DEN projected for 20 pts (O/U 40.5, 1.5-pt underdog).",
+     "Injury news: Bo Nix Shows Off Arms and Legs in Win Over Cardinals Stream of National Football League",
+     "Kalshi 70\u00a2 vs model 27%."
     ]
    },
    {
@@ -12972,6 +12833,144 @@
     ]
    },
    {
+    "key": "patrick mahomes",
+    "pl": "Patrick Mahomes",
+    "tm": "KC",
+    "opp": "DEN",
+    "pos": "QB",
+    "role": "QB",
+    "g": "KCDEN",
+    "gl": "KC @ DEN",
+    "dy": "Sun",
+    "id": "4046",
+    "lam": 0.23,
+    "pm": 0.209,
+    "p": 0.472,
+    "q": 73.5,
+    "ask": 75,
+    "tk": "KXNFLPASSTDS-26NOV01KCDEN-KCPMAHOMES15-1",
+    "ev": "KXNFLPASSTDS-26NOV01KCDEN",
+    "tds": 1.0,
+    "n": 6,
+    "games_td": 1,
+    "ptd": 5.0,
+    "pn": 14,
+    "rz": 8,
+    "tdsh": 10,
+    "ts": null,
+    "tdr": 5.3,
+    "tpg": 3.2,
+    "pts": 21.0,
+    "sp": -1.5,
+    "tot": 40.5,
+    "d": {
+     "td": 1.0,
+     "n": 7,
+     "rank": 19,
+     "nteams": 32,
+     "ltd": 3.0,
+     "lrank": 16,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.91,
+    "debt": -0.1,
+    "hist": true,
+    "inj": "News",
+    "news": "Patrick Mahomes Week 8 Outlook for Fantasy Football (2026)",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.824,
+     "ask": 89,
+     "sc": 64.2
+    },
+    "tags": [],
+    "low": false,
+    "score": 39.9,
+    "why": [
+     "DEN has allowed 1.0 QB TD in 7 games (19th most); 3.0 all last season.",
+     "8% red-zone role, 5.3% TD rate, 3.2 touches a game.",
+     "1.0 TD in 6 games, scored in 1 (5.0 in 14 last season).",
+     "KC projected for 21 pts (O/U 40.5, favored by 1.5).",
+     "Injury news: Patrick Mahomes Week 8 Outlook for Fantasy Football (2026)",
+     "Kalshi 74\u00a2 vs model 21%."
+    ]
+   },
+   {
+    "key": "lamar jackson",
+    "pl": "Lamar Jackson",
+    "tm": "BAL",
+    "opp": "BUF",
+    "pos": "QB",
+    "role": "QB",
+    "g": "BALBUF",
+    "gl": "BAL @ BUF",
+    "dy": "Sun",
+    "id": "4881",
+    "lam": 0.13,
+    "pm": 0.124,
+    "p": 0.47,
+    "q": 81.5,
+    "ask": 84,
+    "tk": "KXNFLPASSTDS-26NOV01BALBUF-BALLJACKSON8-1",
+    "ev": "KXNFLPASSTDS-26NOV01BALBUF",
+    "tds": 1.0,
+    "n": 4,
+    "games_td": 1,
+    "ptd": 2.0,
+    "pn": 13,
+    "rz": 7,
+    "tdsh": 5,
+    "ts": null,
+    "tdr": 5.3,
+    "tpg": 4.8,
+    "pts": 25.8,
+    "sp": 3.0,
+    "tot": 54.5,
+    "d": {
+     "td": 0,
+     "n": 6,
+     "rank": 24,
+     "nteams": 32,
+     "ltd": 4.0,
+     "lrank": 12,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.83,
+    "debt": -0.1,
+    "hist": true,
+    "inj": "News",
+    "news": "\u2018Is He a More Talented Kyler Murray?\u2019 \u2014 Colin Cowherd Takes Aim at Lamar Jackson After Ravens Star\u2019s \u2018Weird Communication\u2019 About Injuries",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.875,
+     "ask": 91,
+     "sc": 72.1
+    },
+    "tags": [
+     "Shootout script"
+    ],
+    "low": false,
+    "score": 36.3,
+    "why": [
+     "BUF has allowed 0 QB TDs in 6 games (24th most); 4.0 all last season.",
+     "7% red-zone role, 5.3% TD rate, 4.8 touches a game.",
+     "1.0 TD in 4 games, scored in 1 (2.0 in 13 last season).",
+     "BAL projected for 26 pts (O/U 54.5, 3-pt underdog).",
+     "Injury news: \u2018Is He a More Talented Kyler Murray?\u2019 \u2014 Colin Cowherd Takes Aim at Lamar Jackson After Ravens Star\u2019s \u2018Weird Communication\u2019 About Injuries",
+     "Kalshi 82\u00a2 vs model 12%."
+    ]
+   },
+   {
     "key": "baker mayfield",
     "pl": "Baker Mayfield",
     "tm": "TB",
@@ -12984,11 +12983,11 @@
     "id": "4892",
     "lam": 0.12,
     "pm": 0.117,
-    "p": 0.471,
-    "q": 82.5,
-    "ask": 84,
-    "tk": "KXNFLPASSTDSPROT-26NOV01ATLTB-TBBMAYFIELD6-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01ATLTB",
+    "p": 0.454,
+    "q": 79.0,
+    "ask": 81,
+    "tk": "KXNFLPASSTDS-26NOV01ATLTB-TBBMAYFIELD6-1",
+    "ev": "KXNFLPASSTDS-26NOV01ATLTB",
     "tds": 1.0,
     "n": 4,
     "games_td": 1,
@@ -13036,7 +13035,7 @@
      "1.0 TD in 4 games, scored in 1 (1.0 in 17 last season).",
      "TB projected for 23 pts (O/U 43.5, favored by 2.5).",
      "Injury news: Baker Mayfield on Track to Return vs. Panthers Stream of National Football League",
-     "Kalshi 82\u00a2 vs model 12%."
+     "Kalshi 79\u00a2 vs model 12%."
     ]
    },
    {
@@ -13052,11 +13051,11 @@
     "id": "11560",
     "lam": 0.15,
     "pm": 0.14,
-    "p": 0.468,
-    "q": 79.5,
-    "ask": 81,
-    "tk": "KXNFLPASSTDSPROT-26NOV02CHISEA-CHICWILLIAMS18-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV02CHISEA",
+    "p": 0.453,
+    "q": 76.5,
+    "ask": 78,
+    "tk": "KXNFLPASSTDS-26NOV02CHISEA-CHICWILLIAMS18-1",
+    "ev": "KXNFLPASSTDS-26NOV02CHISEA",
     "tds": 2.0,
     "n": 4,
     "games_td": 1,
@@ -13103,7 +13102,7 @@
      "7% red-zone role, 8.3% TD rate, 6 touches a game.",
      "2.0 TDs in 4 games, scored in 1 (3.0 in 17 last season).",
      "CHI projected for 22 pts (O/U 46.5, 3-pt underdog).",
-     "Kalshi 80\u00a2 vs model 14%."
+     "Kalshi 76\u00a2 vs model 14%."
     ]
    },
    {
@@ -13119,11 +13118,11 @@
     "id": "12522",
     "lam": 0.29,
     "pm": 0.255,
-    "p": 0.457,
-    "q": 66.0,
-    "ask": 69,
-    "tk": "KXNFLPASSTDSPROT-26NOV01TENCIN-TENCWARD1-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01TENCIN",
+    "p": 0.45,
+    "q": 64.5,
+    "ask": 65,
+    "tk": "KXNFLPASSTDS-26NOV01TENCIN-TENCWARD1-1",
+    "ev": "KXNFLPASSTDS-26NOV01TENCIN",
     "tds": 2.0,
     "n": 7,
     "games_td": 1,
@@ -13173,148 +13172,7 @@
      "2.0 TDs in 7 games, scored in 1 (2.0 in 17 last season).",
      "Low total: TEN projected for 17 pts (O/U 46.5, 12.5-pt underdog).",
      "Injury news: Carnell Tate Injury Update Could Leave Cam Ward Without His Top Receiver Against the Bengals",
-     "Kalshi 66\u00a2 vs model 26%."
-    ]
-   },
-   {
-    "key": "sam darnold",
-    "pl": "Sam Darnold",
-    "tm": "SEA",
-    "opp": "CHI",
-    "pos": "QB",
-    "role": "QB",
-    "g": "CHISEA",
-    "gl": "CHI @ SEA (Mon)",
-    "dy": "Mon",
-    "id": "4943",
-    "lam": 0.02,
-    "pm": 0.022,
-    "p": 0.438,
-    "q": 85.5,
-    "ask": 87,
-    "tk": "KXNFLPASSTDSPROT-26NOV02CHISEA-SEASDARNOLD14-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV02CHISEA",
-    "tds": 0,
-    "n": 6,
-    "games_td": 0,
-    "ptd": 0,
-    "pn": 17,
-    "rz": 3,
-    "tdsh": 0,
-    "ts": null,
-    "tdr": 0.0,
-    "tpg": 1.5,
-    "pts": 24.8,
-    "sp": -3.0,
-    "tot": 46.5,
-    "d": {
-     "td": 3.0,
-     "n": 7,
-     "rank": 1,
-     "nteams": 32,
-     "ltd": 5.0,
-     "lrank": 10,
-     "leak": false,
-     "recent": [
-      0,
-      1.0
-     ]
-    },
-    "dfac": 1.45,
-    "debt": 0.4,
-    "hist": true,
-    "inj": "News",
-    "news": "Adam Thielen or DJ Moore or Patrick Mahomes or Sam Darnold: Who Should I Start in Week 8? Fantasy Football",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.853,
-     "ask": 92,
-     "sc": 56.0
-    },
-    "tags": [
-     "Soft TD defense",
-     "Favored"
-    ],
-    "low": false,
-    "score": 32.3,
-    "why": [
-     "CHI has allowed 3.0 QB TDs in 7 games, the most in the league; 5.0 all last season (10th most).",
-     "3% red-zone role, 1.5 touches a game.",
-     "No TDs yet in 6 games (0 in 17 last season).",
-     "SEA projected for 25 pts (O/U 46.5, favored by 3).",
-     "Injury news: Adam Thielen or DJ Moore or Patrick Mahomes or Sam Darnold: Who Should I Start in Week 8? Fantasy Football",
-     "Kalshi 86\u00a2 vs model 2%."
-    ]
-   },
-   {
-    "key": "kyler murray",
-    "pl": "Kyler Murray",
-    "tm": "MIN",
-    "opp": "DET",
-    "pos": "QB",
-    "role": "QB",
-    "g": "MINDET",
-    "gl": "MIN @ DET",
-    "dy": "Sun",
-    "id": "5849",
-    "lam": 0.07,
-    "pm": 0.07,
-    "p": 0.437,
-    "q": 80.5,
-    "ask": 82,
-    "tk": "KXNFLPASSTDSPROT-26NOV01MINDET-MINKMURRAY1-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01MINDET",
-    "tds": 0,
-    "n": 5,
-    "games_td": 0,
-    "ptd": 1.0,
-    "pn": 5,
-    "rz": 10,
-    "tdsh": 2,
-    "ts": null,
-    "tdr": 0.0,
-    "tpg": 5.0,
-    "pts": 21.8,
-    "sp": 3.0,
-    "tot": 46.5,
-    "d": {
-     "td": 2.0,
-     "n": 6,
-     "rank": 7,
-     "nteams": 32,
-     "ltd": 3.0,
-     "lrank": 20,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 1.15,
-    "debt": 0.8,
-    "hist": true,
-    "inj": "News",
-    "news": "\u2018Is He a More Talented Kyler Murray?\u2019 \u2014 Colin Cowherd Takes Aim at Lamar Jackson After Ravens Star\u2019s \u2018Weird Communication\u2019 About Injuries",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.814,
-     "ask": 88,
-     "sc": 50.9
-    },
-    "tags": [
-     "Soft TD defense"
-    ],
-    "low": false,
-    "score": 42.6,
-    "why": [
-     "DET has allowed 2.0 QB TDs in 6 games (7th most); 3.0 all last season.",
-     "10% red-zone role, 5 touches a game.",
-     "No TDs yet in 5 games (1.0 in 5 last season).",
-     "MIN projected for 22 pts (O/U 46.5, 3-pt underdog).",
-     "Injury news: \u2018Is He a More Talented Kyler Murray?\u2019 \u2014 Colin Cowherd Takes Aim at Lamar Jackson After Ravens Star\u2019s \u2018Weird Communication\u2019 About Injuries",
-     "Kalshi 80\u00a2 vs model 7%."
+     "Kalshi 64\u00a2 vs model 26%."
     ]
    },
    {
@@ -13430,7 +13288,7 @@
     "debt": 0.9,
     "hist": true,
     "inj": "News",
-    "news": "Jeremiyah Love Week 8 Outlook for Fantasy Football (2026)",
+    "news": "Cardinals injury report: Jeremiyah Love to play vs. Cowboys",
     "tags": [
      "High volume",
      "Soft TD defense",
@@ -13443,78 +13301,7 @@
      "15% red-zone role, 5% target share, 2.5% TD rate, 16.2 touches a game.",
      "2.0 TDs in 5 games, scored in 2.",
      "ARI projected for 24 pts (O/U 54.5, 7-pt underdog).",
-     "Injury news: Jeremiyah Love Week 8 Outlook for Fantasy Football (2026)"
-    ]
-   },
-   {
-    "key": "justin herbert",
-    "pl": "Justin Herbert",
-    "tm": "LAC",
-    "opp": "LAR",
-    "pos": "QB",
-    "role": "QB",
-    "g": "LACLAR",
-    "gl": "LAC @ LAR",
-    "dy": "Sun",
-    "id": "6797",
-    "lam": 0.09,
-    "pm": 0.087,
-    "p": 0.431,
-    "q": 77.5,
-    "ask": 79,
-    "tk": "KXNFLPASSTDSPROT-26NOV01LACLAR-LACJHERBERT10-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01LACLAR",
-    "tds": 0,
-    "n": 6,
-    "games_td": 0,
-    "ptd": 2.0,
-    "pn": 16,
-    "rz": 14,
-    "tdsh": 4,
-    "ts": null,
-    "tdr": 0.0,
-    "tpg": 5.0,
-    "pts": 19.5,
-    "sp": 6.5,
-    "tot": 45.5,
-    "d": {
-     "td": 2.0,
-     "n": 7,
-     "rank": 10,
-     "nteams": 32,
-     "ltd": 1.0,
-     "lrank": 31,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.91,
-    "debt": 1.2,
-    "hist": true,
-    "inj": "News",
-    "news": "PODCAST: Chargers Football Therapy: Can Justin Herbert Spark a Reset Against the Rams?",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 125,
-     "p": 0.824,
-     "ask": 88,
-     "sc": 47.0
-    },
-    "tags": [
-     "Due"
-    ],
-    "low": true,
-    "score": 40.7,
-    "why": [
-     "LAR has allowed 2.0 QB TDs in 7 games (10th most); 1.0 all last season.",
-     "14% red-zone role, 5 touches a game.",
-     "No TDs yet in 6 games (2.0 in 16 last season).",
-     "Low total: LAC projected for 20 pts (O/U 45.5, 6.5-pt underdog).",
-     "Due: 1.2 TD debt (his role says he should have scored more).",
-     "Injury news: PODCAST: Chargers Football Therapy: Can Justin Herbert Spark a Reset Against the Rams?",
-     "Kalshi 78\u00a2 vs model 9%."
+     "Injury news: Cardinals injury report: Jeremiyah Love to play vs. Cowboys"
     ]
    },
    {
@@ -13656,6 +13443,77 @@
     ]
    },
    {
+    "key": "sam darnold",
+    "pl": "Sam Darnold",
+    "tm": "SEA",
+    "opp": "CHI",
+    "pos": "QB",
+    "role": "QB",
+    "g": "CHISEA",
+    "gl": "CHI @ SEA (Mon)",
+    "dy": "Mon",
+    "id": "4943",
+    "lam": 0.02,
+    "pm": 0.022,
+    "p": 0.428,
+    "q": 83.5,
+    "ask": 86,
+    "tk": "KXNFLPASSTDS-26NOV02CHISEA-SEASDARNOLD14-1",
+    "ev": "KXNFLPASSTDS-26NOV02CHISEA",
+    "tds": 0,
+    "n": 6,
+    "games_td": 0,
+    "ptd": 0,
+    "pn": 17,
+    "rz": 3,
+    "tdsh": 0,
+    "ts": null,
+    "tdr": 0.0,
+    "tpg": 1.5,
+    "pts": 24.8,
+    "sp": -3.0,
+    "tot": 46.5,
+    "d": {
+     "td": 3.0,
+     "n": 7,
+     "rank": 1,
+     "nteams": 32,
+     "ltd": 5.0,
+     "lrank": 10,
+     "leak": false,
+     "recent": [
+      0,
+      1.0
+     ]
+    },
+    "dfac": 1.45,
+    "debt": 0.4,
+    "hist": true,
+    "inj": "News",
+    "news": "Adam Thielen or DJ Moore or Patrick Mahomes or Sam Darnold: Who Should I Start in Week 8? Fantasy Football",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.849,
+     "ask": 91,
+     "sc": 56.0
+    },
+    "tags": [
+     "Soft TD defense",
+     "Favored"
+    ],
+    "low": false,
+    "score": 32.3,
+    "why": [
+     "CHI has allowed 3.0 QB TDs in 7 games, the most in the league; 5.0 all last season (10th most).",
+     "3% red-zone role, 1.5 touches a game.",
+     "No TDs yet in 6 games (0 in 17 last season).",
+     "SEA projected for 25 pts (O/U 46.5, favored by 3).",
+     "Injury news: Adam Thielen or DJ Moore or Patrick Mahomes or Sam Darnold: Who Should I Start in Week 8? Fantasy Football",
+     "Kalshi 84\u00a2 vs model 2%."
+    ]
+   },
+   {
     "key": "trey mcbride",
     "pl": "Trey McBride",
     "tm": "ARI",
@@ -13703,7 +13561,7 @@
     "debt": 0.3,
     "hist": true,
     "inj": "News",
-    "news": "Trey McBride Hurdles Defender on Huge Gain vs. Broncos Stream of National Football League",
+    "news": "Trey McBride Week 8 Outlook for Fantasy Football (2026)",
     "prop": {
      "pr": "Receptions",
      "ln": 5,
@@ -13724,7 +13582,77 @@
      "19% red-zone role, 29% target share, 5.1% TD rate, 11.1 touches a game.",
      "4.0 TDs in 7 games, scored in 4 (11.0 in 17 last season).",
      "ARI projected for 24 pts (O/U 54.5, 7-pt underdog).",
-     "Injury news: Trey McBride Hurdles Defender on Huge Gain vs. Broncos Stream of National Football League"
+     "Injury news: Trey McBride Week 8 Outlook for Fantasy Football (2026)"
+    ]
+   },
+   {
+    "key": "kyler murray",
+    "pl": "Kyler Murray",
+    "tm": "MIN",
+    "opp": "DET",
+    "pos": "QB",
+    "role": "QB",
+    "g": "MINDET",
+    "gl": "MIN @ DET",
+    "dy": "Sun",
+    "id": "5849",
+    "lam": 0.07,
+    "pm": 0.07,
+    "p": 0.425,
+    "q": 78.0,
+    "ask": 80,
+    "tk": "KXNFLPASSTDS-26NOV01MINDET-MINKMURRAY1-1",
+    "ev": "KXNFLPASSTDS-26NOV01MINDET",
+    "tds": 0,
+    "n": 5,
+    "games_td": 0,
+    "ptd": 1.0,
+    "pn": 5,
+    "rz": 10,
+    "tdsh": 2,
+    "ts": null,
+    "tdr": 0.0,
+    "tpg": 5.0,
+    "pts": 21.8,
+    "sp": 3.0,
+    "tot": 46.5,
+    "d": {
+     "td": 2.0,
+     "n": 6,
+     "rank": 7,
+     "nteams": 32,
+     "ltd": 3.0,
+     "lrank": 20,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 1.15,
+    "debt": 0.8,
+    "hist": true,
+    "inj": "News",
+    "news": "\u2018Is He a More Talented Kyler Murray?\u2019 \u2014 Colin Cowherd Takes Aim at Lamar Jackson After Ravens Star\u2019s \u2018Weird Communication\u2019 About Injuries",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.814,
+     "ask": 88,
+     "sc": 50.9
+    },
+    "tags": [
+     "Soft TD defense"
+    ],
+    "low": false,
+    "score": 42.6,
+    "why": [
+     "DET has allowed 2.0 QB TDs in 6 games (7th most); 3.0 all last season.",
+     "10% red-zone role, 5 touches a game.",
+     "No TDs yet in 5 games (1.0 in 5 last season).",
+     "MIN projected for 22 pts (O/U 46.5, 3-pt underdog).",
+     "Injury news: \u2018Is He a More Talented Kyler Murray?\u2019 \u2014 Colin Cowherd Takes Aim at Lamar Jackson After Ravens Star\u2019s \u2018Weird Communication\u2019 About Injuries",
+     "Kalshi 78\u00a2 vs model 7%."
     ]
    },
    {
@@ -13779,9 +13707,9 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 40,
-     "p": 0.772,
-     "ask": 81,
-     "sc": 55.6
+     "p": 0.777,
+     "ask": 82,
+     "sc": 55.5
     },
     "tags": [
      "High volume",
@@ -13950,9 +13878,9 @@
     "pm": 0.171,
     "p": 0.403,
     "q": 63.5,
-    "ask": 66,
-    "tk": "KXNFLPASSTDSPROT-26NOV01NEMIA-MIAMWILLIS2-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01NEMIA",
+    "ask": 64,
+    "tk": "KXNFLPASSTDS-26NOV01NEMIA-MIAMWILLIS2-1",
+    "ev": "KXNFLPASSTDS-26NOV01NEMIA",
     "tds": 3.0,
     "n": 6,
     "games_td": 3,
@@ -13987,9 +13915,9 @@
     "prop": {
      "pr": "Passing Yards",
      "ln": 125,
-     "p": 0.791,
+     "p": 0.8,
      "ask": 84,
-     "sc": 56.5
+     "sc": 56.7
     },
     "tags": [],
     "low": true,
@@ -14001,6 +13929,77 @@
      "Low total: MIA projected for 18 pts (O/U 43.5, 7-pt underdog).",
      "Injury news: Malik Willis Taking Steps Forward in Dolphins Offense Stream of National Football League",
      "Kalshi 64\u00a2 vs model 17%."
+    ]
+   },
+   {
+    "key": "justin herbert",
+    "pl": "Justin Herbert",
+    "tm": "LAC",
+    "opp": "LAR",
+    "pos": "QB",
+    "role": "QB",
+    "g": "LACLAR",
+    "gl": "LAC @ LAR",
+    "dy": "Sun",
+    "id": "6797",
+    "lam": 0.09,
+    "pm": 0.087,
+    "p": 0.401,
+    "q": 71.5,
+    "ask": 73,
+    "tk": "KXNFLPASSTDS-26NOV01LACLAR-LACJHERBERT10-1",
+    "ev": "KXNFLPASSTDS-26NOV01LACLAR",
+    "tds": 0,
+    "n": 6,
+    "games_td": 0,
+    "ptd": 2.0,
+    "pn": 16,
+    "rz": 14,
+    "tdsh": 4,
+    "ts": null,
+    "tdr": 0.0,
+    "tpg": 5.0,
+    "pts": 19.5,
+    "sp": 6.5,
+    "tot": 45.5,
+    "d": {
+     "td": 2.0,
+     "n": 7,
+     "rank": 10,
+     "nteams": 32,
+     "ltd": 1.0,
+     "lrank": 31,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.91,
+    "debt": 1.2,
+    "hist": true,
+    "inj": "News",
+    "news": "PODCAST: Chargers Football Therapy: Can Justin Herbert Spark a Reset Against the Rams?",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 125,
+     "p": 0.825,
+     "ask": 89,
+     "sc": 46.9
+    },
+    "tags": [
+     "Due"
+    ],
+    "low": true,
+    "score": 40.7,
+    "why": [
+     "LAR has allowed 2.0 QB TDs in 7 games (10th most); 1.0 all last season.",
+     "14% red-zone role, 5 touches a game.",
+     "No TDs yet in 6 games (2.0 in 16 last season).",
+     "Low total: LAC projected for 20 pts (O/U 45.5, 6.5-pt underdog).",
+     "Due: 1.2 TD debt (his role says he should have scored more).",
+     "Injury news: PODCAST: Chargers Football Therapy: Can Justin Herbert Spark a Reset Against the Rams?",
+     "Kalshi 72\u00a2 vs model 9%."
     ]
    },
    {
@@ -14051,7 +14050,7 @@
     "debt": -0.2,
     "hist": true,
     "inj": "News",
-    "news": "Chris Rodriguez Jr. or Kc concepcion Jr.: Who Should I Start in Week 8? Fantasy Football",
+    "news": "Chris Rodriguez Jr. or Mark Andrews: Who Should I Pick Up? Fantasy Football (2026)",
     "prop": {
      "pr": "Rushing Yards",
      "ln": 10,
@@ -14070,7 +14069,7 @@
      "17% red-zone role, 1% target share, 4.9% TD rate, 6.8 touches a game.",
      "2.0 TDs in 6 games, scored in 2 (6.0 in 13 last season).",
      "JAX projected for 28 pts (O/U 46.5, favored by 10).",
-     "Injury news: Chris Rodriguez Jr. or Kc concepcion Jr.: Who Should I Start in Week 8? Fantasy Football"
+     "Injury news: Chris Rodriguez Jr. or Mark Andrews: Who Should I Pick Up? Fantasy Football (2026)"
     ]
    },
    {
@@ -14189,9 +14188,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 30,
-     "p": 0.78,
-     "ask": 86,
-     "sc": 59.5
+     "p": 0.776,
+     "ask": 85,
+     "sc": 59.6
     },
     "tags": [
      "RZ share top-10",
@@ -14541,11 +14540,11 @@
     "inj": "News",
     "news": "Amon-Ra St. Brown or Ted Hurst III: Who Should I Start in Week 8? Fantasy Football",
     "prop": {
-     "pr": "Receiving Yards",
-     "ln": 40,
-     "p": 0.822,
-     "ask": 89,
-     "sc": 53.0
+     "pr": "Receptions",
+     "ln": 4,
+     "p": 0.867,
+     "ask": 92,
+     "sc": 61.8
     },
     "tags": [
      "RZ share top-10",
@@ -14680,7 +14679,7 @@
     "debt": -0.4,
     "hist": true,
     "inj": "News",
-    "news": "Ben Skowronek or Puka Nacua: Who Should I Start in Week 8? Fantasy Football",
+    "news": "Charlie Kolar or Puka Nacua: Who Should I Start in Week 8? Fantasy Football",
     "prop": {
      "pr": "Receptions",
      "ln": 5,
@@ -14701,7 +14700,7 @@
      "14% red-zone role, 23% target share, 4.5% TD rate, 13.4 touches a game.",
      "3.0 TDs in 5 games, scored in 3 (11.0 in 16 last season).",
      "LAR projected for 26 pts (O/U 45.5, favored by 6.5).",
-     "Injury news: Ben Skowronek or Puka Nacua: Who Should I Start in Week 8? Fantasy Football"
+     "Injury news: Charlie Kolar or Puka Nacua: Who Should I Start in Week 8? Fantasy Football"
     ]
    },
    {
@@ -15318,7 +15317,7 @@
     "debt": -3.8,
     "hist": true,
     "inj": "News",
-    "news": "Mike Gesicki Week 8 Outlook for Fantasy Football (2026)",
+    "news": "Mark Andrews or Mike Gesicki: Who Should I Pick Up? Fantasy Football (2026)",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
@@ -15337,7 +15336,7 @@
      "9% red-zone role, 8% target share, 27.8% TD rate, 3 touches a game.",
      "5.0 TDs in 6 games, scored in 5 (2.0 in 13 last season).",
      "CIN projected for 30 pts (O/U 46.5, favored by 12.5).",
-     "Injury news: Mike Gesicki Week 8 Outlook for Fantasy Football (2026)"
+     "Injury news: Mark Andrews or Mike Gesicki: Who Should I Pick Up? Fantasy Football (2026)"
     ]
    },
    {
@@ -15863,7 +15862,7 @@
     "debt": 0.7,
     "hist": true,
     "inj": "News",
-    "news": "Eagles\u2019 Saquon Barkley Sends Clear Message Regarding His Status for Sunday Night Football",
+    "news": "Eagles' Saquon Barkley Sends Clear Message Regarding His Stats for Sunday Night Football",
     "tags": [],
     "low": true,
     "score": 50.6,
@@ -15872,7 +15871,7 @@
      "15% red-zone role, 4% target share, 1.9% TD rate, 10.4 touches a game.",
      "1.0 TD in 5 games, scored in 1 (9.0 in 16 last season).",
      "Low total: PHI projected for 18 pts (O/U 40.5, 5.5-pt underdog).",
-     "Injury news: Eagles\u2019 Saquon Barkley Sends Clear Message Regarding His Status for Sunday Night Football"
+     "Injury news: Eagles' Saquon Barkley Sends Clear Message Regarding His Stats for Sunday Night Football"
     ]
    },
    {
@@ -16126,7 +16125,7 @@
     "debt": 0.8,
     "hist": true,
     "inj": "News",
-    "news": "Who Should I Start for Fantasy Football Week 8? Jaylen Warren, Ollie Gordon II, Keenan Allen, Michael Wilson, Rhamondre Stevenson, Khalil Shakir, Bam Knight, Malik Washington",
+    "news": "Khalil Shakir Scores Touchdown vs. Raiders Stream of National Football League",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 15,
@@ -16145,7 +16144,7 @@
      "12% red-zone role, 20% target share, 3.1% TD rate, 5.3 touches a game.",
      "1.0 TD in 6 games, scored in 1 (4.0 in 16 last season).",
      "BUF projected for 29 pts (O/U 54.5, favored by 3).",
-     "Injury news: Who Should I Start for Fantasy Football Week 8? Jaylen Warren, Ollie Gordon II, Keenan Allen, Michael Wilson, Rhamondre Stevenson, Khalil Shakir, Bam Knight, Malik Washington"
+     "Injury news: Khalil Shakir Scores Touchdown vs. Raiders Stream of National Football League"
     ]
    },
    {
@@ -16531,7 +16530,7 @@
     "debt": -0.5,
     "hist": true,
     "inj": "Questionable",
-    "news": "Jaguars\u2019 Jakobi Meyers injury update will catch Trevor Lawrence\u2019s attention before Colts clash",
+    "news": "Jakobi Meyers DNP Friday, draws \u2018Q\u2019 tag for Week 8",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 25,
@@ -16550,7 +16549,7 @@
      "10% red-zone role, 16% target share, 6.9% TD rate, 4.8 touches a game.",
      "2.0 TDs in 6 games, scored in 2 (3.0 in 16 last season).",
      "JAX projected for 28 pts (O/U 46.5, favored by 10).",
-     "Injury news: Jaguars\u2019 Jakobi Meyers injury update will catch Trevor Lawrence\u2019s attention before Colts clash"
+     "Injury news: Jakobi Meyers DNP Friday, draws \u2018Q\u2019 tag for Week 8"
     ]
    },
    {
@@ -17008,9 +17007,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 20,
-     "p": 0.755,
-     "ask": 82,
-     "sc": 37.5
+     "p": 0.727,
+     "ask": 81,
+     "sc": 37.3
     },
     "tags": [
      "Soft TD defense",
@@ -17075,7 +17074,7 @@
     "debt": 0.3,
     "hist": true,
     "inj": "News",
-    "news": "Ryan Flournoy Week 8 Outlook for Fantasy Football (2026)",
+    "news": "Jonathon Brooks or Ryan Flournoy: Who Should I Pick Up? Fantasy Football (2026)",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
@@ -17095,7 +17094,7 @@
      "5% red-zone role, 15% target share, 2.5% TD rate, 5.7 touches a game.",
      "1.0 TD in 7 games, scored in 1 (4.0 in 16 last season).",
      "DAL projected for 31 pts (O/U 54.5, favored by 7).",
-     "Injury news: Ryan Flournoy Week 8 Outlook for Fantasy Football (2026)"
+     "Injury news: Jonathon Brooks or Ryan Flournoy: Who Should I Pick Up? Fantasy Football (2026)"
     ]
    },
    {
@@ -17557,9 +17556,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.796,
+     "p": 0.817,
      "ask": 89,
-     "sc": 59.6
+     "sc": 59.9
     },
     "tags": [
      "Active leak",
@@ -17906,8 +17905,8 @@
     "dfac": 0.94,
     "debt": -1.7,
     "hist": true,
-    "inj": "News",
-    "news": "Darnell Washington or Justin Jefferson: Who Should I Start in Week 8? Fantasy Football",
+    "inj": null,
+    "news": null,
     "tags": [
      "RZ share top-10",
      "Favored"
@@ -17918,8 +17917,7 @@
      "CLE has allowed 4.0 TE TDs in 7 games (13th most); 5.0 all last season.",
      "12% red-zone role, 9% target share, 13% TD rate, 3.3 touches a game.",
      "3.0 TDs in 7 games, scored in 3 (1.0 in 16 last season).",
-     "PIT projected for 22 pts (O/U 39.5, favored by 3.5).",
-     "Injury news: Darnell Washington or Justin Jefferson: Who Should I Start in Week 8? Fantasy Football"
+     "PIT projected for 22 pts (O/U 39.5, favored by 3.5)."
     ]
    },
    {
@@ -18033,7 +18031,7 @@
     "debt": -1.4,
     "hist": true,
     "inj": "News",
-    "news": "Fantasy Football Week 8 WR Start/Sit Advice: Omar Cooper, Denzel Boston, and More",
+    "news": "Omar Cooper Jr. Hauls In Deep Touchdown for the Jets Stream of National Football League",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 15,
@@ -18053,7 +18051,7 @@
      "5% red-zone role, 7% target share, 15.4% TD rate, 4.3 touches a game.",
      "2.0 TDs in 3 games, scored in 2.",
      "NYJ projected for 24 pts (O/U 45.5, favored by 1.5).",
-     "Injury news: Fantasy Football Week 8 WR Start/Sit Advice: Omar Cooper, Denzel Boston, and More"
+     "Injury news: Omar Cooper Jr. Hauls In Deep Touchdown for the Jets Stream of National Football League"
     ]
    },
    {
@@ -18441,14 +18439,14 @@
     "dfac": 0.98,
     "debt": -0.9,
     "hist": true,
-    "inj": "News",
-    "news": "Travis Kelce Week 8 Outlook for Fantasy Football (2026)",
+    "inj": null,
+    "news": null,
     "prop": {
      "pr": "Receiving Yards",
      "ln": 20,
      "p": 0.777,
      "ask": 85,
-     "sc": 47.3
+     "sc": 53.7
     },
     "tags": [],
     "low": false,
@@ -18457,8 +18455,7 @@
      "DEN has allowed 4.0 TE TDs in 7 games (14th most); 6.0 all last season.",
      "5% red-zone role, 20% target share, 5.7% TD rate, 5.8 touches a game.",
      "2.0 TDs in 6 games, scored in 2 (5.0 in 17 last season).",
-     "KC projected for 21 pts (O/U 40.5, favored by 1.5).",
-     "Injury news: Travis Kelce Week 8 Outlook for Fantasy Football (2026)"
+     "KC projected for 21 pts (O/U 40.5, favored by 1.5)."
     ]
    },
    {
@@ -18571,7 +18568,7 @@
     "debt": -0.4,
     "hist": true,
     "inj": "News",
-    "news": "Ladd McConkey removed from injury report Friday",
+    "news": "Who Should I Start for Fantasy Football Week 8? Stefon Diggs, DJ Moore, Ladd McConkey, Keon Coleman, Bhayshul Tuten, Bucky Irving, Kendrick Bourne, RJ Harvey, Tyler Allgeier, JK Dobbins",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 15,
@@ -18589,7 +18586,7 @@
      "5% red-zone role, 10% target share, 5.6% TD rate, 3.6 touches a game.",
      "1.0 TD in 5 games, scored in 1 (6.0 in 16 last season).",
      "Low total: LAC projected for 20 pts (O/U 45.5, 6.5-pt underdog).",
-     "Injury news: Ladd McConkey removed from injury report Friday"
+     "Injury news: Who Should I Start for Fantasy Football Week 8? Stefon Diggs, DJ Moore, Ladd McConkey, Keon Coleman, Bhayshul Tuten, Bucky Irving, Kendrick Bourne, RJ Harvey, Tyler Allgeier, JK Dobbins"
     ]
    },
    {
@@ -18707,7 +18704,7 @@
     "debt": 0.4,
     "hist": true,
     "inj": "News",
-    "news": "Oronde Gadsden or Rashee Rice: Who Should I Start in Week 8? Fantasy Football",
+    "news": "DJ Moore or Oronde Gadsden: Who Should I Start in Week 8? Fantasy Football",
     "tags": [
      "RZ share top-10"
     ],
@@ -18718,7 +18715,7 @@
      "14% red-zone role, 12% target share, 4.5% TD rate, 3.7 touches a game.",
      "1.0 TD in 6 games, scored in 1 (3.0 in 15 last season).",
      "Low total: LAC projected for 20 pts (O/U 45.5, 6.5-pt underdog).",
-     "Injury news: Oronde Gadsden or Rashee Rice: Who Should I Start in Week 8? Fantasy Football"
+     "Injury news: DJ Moore or Oronde Gadsden: Who Should I Start in Week 8? Fantasy Football"
     ]
    },
    {
@@ -18769,7 +18766,7 @@
     "debt": -1.4,
     "hist": true,
     "inj": "News",
-    "news": "Caleb Douglas or Dontayvion Wicks: Who Should I Start in Week 8? Fantasy Football",
+    "news": "Caleb Douglas or Mark Andrews: Who Should I Pick Up? Fantasy Football (2026)",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
@@ -18788,7 +18785,7 @@
      "4% red-zone role, 9% target share, 15.4% TD rate, 4.3 touches a game.",
      "2.0 TDs in 3 games, scored in 1.",
      "Low total: MIA projected for 18 pts (O/U 43.5, 7-pt underdog).",
-     "Injury news: Caleb Douglas or Dontayvion Wicks: Who Should I Start in Week 8? Fantasy Football"
+     "Injury news: Caleb Douglas or Mark Andrews: Who Should I Pick Up? Fantasy Football (2026)"
     ]
    },
    {
@@ -19299,7 +19296,7 @@
     "debt": -0.1,
     "hist": true,
     "inj": "News",
-    "news": "Top Potential Landing Spots for Brian Thomas Jr. Stream of National Football League",
+    "news": "What Is Brian Thomas Jr.'s Trade Value? Stream of National Football League",
     "tags": [
      "Shootout script",
      "Favored"
@@ -19311,7 +19308,7 @@
      "5% red-zone role, 12% target share, 5% TD rate, 3.3 touches a game.",
      "1.0 TD in 6 games, scored in 1 (3.0 in 14 last season).",
      "JAX projected for 28 pts (O/U 46.5, favored by 10).",
-     "Injury news: Top Potential Landing Spots for Brian Thomas Jr. Stream of National Football League"
+     "Injury news: What Is Brian Thomas Jr.'s Trade Value? Stream of National Football League"
     ]
    },
    {
@@ -19362,7 +19359,7 @@
     "debt": 1.7,
     "hist": true,
     "inj": "News",
-    "news": "Josh Downs Landing Spots: Chiefs Stream of National Football League",
+    "news": "Josh Downs Week 8 Outlook for Fantasy Football (2026)",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
@@ -19383,7 +19380,7 @@
      "No TDs yet in 7 games (4.0 in 16 last season).",
      "Low total: IND projected for 18 pts (O/U 46.5, 10-pt underdog).",
      "Due: 1.7 TD debt (his role says he should have scored more).",
-     "Injury news: Josh Downs Landing Spots: Chiefs Stream of National Football League"
+     "Injury news: Josh Downs Week 8 Outlook for Fantasy Football (2026)"
     ]
    },
    {
@@ -19775,9 +19772,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 20,
-     "p": 0.763,
-     "ask": 78,
-     "sc": 71.1
+     "p": 0.747,
+     "ask": 77,
+     "sc": 70.9
     },
     "tags": [
      "Active leak"
@@ -20096,14 +20093,14 @@
     "dfac": 0.7,
     "debt": 0.5,
     "hist": true,
-    "inj": null,
-    "news": null,
+    "inj": "News",
+    "news": "Mark Andrews or Mike Gesicki: Who Should I Pick Up? Fantasy Football (2026)",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.811,
+     "p": 0.81,
      "ask": 85,
-     "sc": 59.7
+     "sc": 52.6
     },
     "tags": [
      "Shootout script"
@@ -20114,7 +20111,8 @@
      "BUF has allowed 1.0 TE TD in 6 games (26th most); 5.0 all last season.",
      "7% red-zone role, 19% target share, 2.7% TD rate, 5.3 touches a game.",
      "1.0 TD in 7 games, scored in 1 (6.0 in 17 last season).",
-     "BAL projected for 26 pts (O/U 54.5, 3-pt underdog)."
+     "BAL projected for 26 pts (O/U 54.5, 3-pt underdog).",
+     "Injury news: Mark Andrews or Mike Gesicki: Who Should I Pick Up? Fantasy Football (2026)"
     ]
    },
    {
@@ -20814,7 +20812,7 @@
     "debt": -0.5,
     "hist": true,
     "inj": "News",
-    "news": "Dawson Knox Value Bump Week 8 \u2013 Dalton Kincaid Questionable",
+    "news": "Dawson Knox or Jahmyr Gibbs: Who Should I Start in Week 8? Fantasy Football",
     "tags": [
      "Soft TD defense",
      "Shootout script",
@@ -20827,7 +20825,7 @@
      "3% red-zone role, 6% target share, 9.1% TD rate, 1.8 touches a game.",
      "1.0 TD in 6 games, scored in 1 (4.0 in 17 last season).",
      "BUF projected for 29 pts (O/U 54.5, favored by 3).",
-     "Injury news: Dawson Knox Value Bump Week 8 \u2013 Dalton Kincaid Questionable"
+     "Injury news: Dawson Knox or Jahmyr Gibbs: Who Should I Start in Week 8? Fantasy Football"
     ]
    },
    {
@@ -21764,7 +21762,7 @@
     "debt": 0.4,
     "hist": true,
     "inj": "News",
-    "news": "Jeremy McNichols or Jonathon Brooks: Who Should I Pick Up? Fantasy Football (2026)",
+    "news": "Jeremy McNichols or Makai Lemon: Who Should I Start in Week 8? Fantasy Football",
     "tags": [
      "Active leak",
      "Favored"
@@ -21777,7 +21775,7 @@
      "7% red-zone role, 0% target share, 5 touches a game.",
      "No TDs yet in 1 games (1.0 in 17 last season).",
      "WAS projected for 23 pts (O/U 40.5, favored by 5.5).",
-     "Injury news: Jeremy McNichols or Jonathon Brooks: Who Should I Pick Up? Fantasy Football (2026)"
+     "Injury news: Jeremy McNichols or Makai Lemon: Who Should I Start in Week 8? Fantasy Football"
     ]
    },
    {
@@ -22145,8 +22143,8 @@
     "dfac": 1.21,
     "debt": -0.7,
     "hist": true,
-    "inj": null,
-    "news": null,
+    "inj": "News",
+    "news": "Devontez Walker or Dont'e Thornton Jr.: Who Should I Start in Week 8? Fantasy Football",
     "tags": [
      "Soft TD defense",
      "Active leak",
@@ -22159,7 +22157,8 @@
      "Active leak: gave up a WR TD in each of its last 2 games.",
      "1% red-zone role, 5% target share, 11.1% TD rate, 1.5 touches a game.",
      "1.0 TD in 6 games, scored in 1 (3.0 in 12 last season).",
-     "BAL projected for 26 pts (O/U 54.5, 3-pt underdog)."
+     "BAL projected for 26 pts (O/U 54.5, 3-pt underdog).",
+     "Injury news: Devontez Walker or Dont'e Thornton Jr.: Who Should I Start in Week 8? Fantasy Football"
     ]
    },
    {
@@ -24370,7 +24369,7 @@
    6,
    7
   ],
-  "generated": "2026-10-31T01:30:34-07:00",
+  "generated": "2026-10-31T02:00:32-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 8 \u00b7 Sun Nov 1 \u2013 Mon Nov 2",
@@ -24394,7 +24393,7 @@
    "weather": "10 outdoor games",
    "injuries": "154 players listed",
    "news": "14 players in headlines",
-   "google_news": "2 role-cut, 147 injury headlines; QB hurt: BAL, MIN",
+   "google_news": "2 role-cut, 147 injury headlines; QB hurt: BAL, CAR, MIN",
    "sleeper_trending": "40 board players trending",
    "reddit": "unavailable"
   },
