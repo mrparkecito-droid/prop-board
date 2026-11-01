@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T19:31:06+00:00",
+ "generated": "2026-11-01T19:59:02+00:00",
  "games": {
   "BALBUF": {
    "home": "BUF",
@@ -10,7 +10,7 @@
    "spread": {},
    "total": null,
    "espn_wx": {
-    "desc": "1",
+    "desc": "2",
     "temp": 68
    },
    "wx": {
@@ -31,7 +31,7 @@
    "total": null,
    "espn_wx": {
     "desc": "7",
-    "temp": 69
+    "temp": 68
    },
    "wx": {
     "wind": 2,
@@ -51,7 +51,7 @@
    "total": null,
    "espn_wx": {
     "desc": "6",
-    "temp": 78
+    "temp": 79
    }
   },
   "MINDET": {
@@ -63,7 +63,7 @@
    "spread": {},
    "total": null,
    "espn_wx": {
-    "desc": "3",
+    "desc": "6",
     "temp": 66
    }
   },
@@ -76,8 +76,8 @@
    "spread": {},
    "total": null,
    "espn_wx": {
-    "desc": "2",
-    "temp": 60
+    "desc": "1",
+    "temp": 61
    },
    "wx": {
     "wind": 4,
@@ -96,8 +96,8 @@
    "spread": {},
    "total": null,
    "espn_wx": {
-    "desc": "3",
-    "temp": 67
+    "desc": "6",
+    "temp": 68
    },
    "wx": {
     "wind": 6,
@@ -117,7 +117,7 @@
    "total": null,
    "espn_wx": {
     "desc": "18",
-    "temp": 73
+    "temp": 74
    },
    "wx": {
     "wind": 10,
@@ -136,8 +136,8 @@
    "spread": {},
    "total": null,
    "espn_wx": {
-    "desc": "12",
-    "temp": 78
+    "desc": "7",
+    "temp": 75
    },
    "wx": {
     "wind": 11,
@@ -175,7 +175,7 @@
    },
    "total": 41.5,
    "espn_wx": {
-    "desc": "Intermittent clouds",
+    "desc": "Showers",
     "temp": 63
    },
    "wx": {
@@ -258,6 +258,16 @@
  },
  "inj": {
   "ARI": [
+   {
+    "name": "Kendrick Bourne",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
+    "name": "Bam Knight",
+    "pos": "RB",
+    "status": "Questionable"
+   },
    {
     "name": "Jeremiyah Love",
     "pos": "RB",
@@ -400,6 +410,11 @@
   ],
   "BUF": [
    {
+    "name": "Dee Alford",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
     "name": "Joshua Palmer",
     "pos": "WR",
     "status": "Questionable"
@@ -432,11 +447,6 @@
    {
     "name": "Mike Danna",
     "pos": "DE",
-    "status": "Out"
-   },
-   {
-    "name": "Dee Alford",
-    "pos": "CB",
     "status": "Out"
    },
    {
@@ -538,8 +548,8 @@
   ],
   "CLE": [
    {
-    "name": "Maliek Collins",
-    "pos": "DT",
+    "name": "Tyson Campbell",
+    "pos": "CB",
     "status": "Questionable"
    },
    {
@@ -641,6 +651,16 @@
    {
     "name": "Jacob Saylors",
     "pos": "RB",
+    "status": "Questionable"
+   },
+   {
+    "name": "DJ Wonnum",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Brian Branch",
+    "pos": "S",
     "status": "Questionable"
    },
    {
@@ -883,8 +903,23 @@
   ],
   "LAC": [
    {
-    "name": "Kayode Awosika",
-    "pos": "G",
+    "name": "Theo Wease Jr.",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
+    "name": "Rodney Shelley",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Brenen Thompson",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
+    "name": "Donte Jackson",
+    "pos": "CB",
     "status": "Out"
    },
    {
@@ -893,46 +928,41 @@
     "status": "Out"
    },
    {
-    "name": "Donte Jackson",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Brenen Thompson",
-    "pos": "WR",
+    "name": "Kayode Awosika",
+    "pos": "G",
     "status": "Out"
-   },
-   {
-    "name": "Rodney Shelley",
-    "pos": "CB",
-    "status": "Questionable"
    }
   ],
   "LAR": [
    {
-    "name": "Trent McDuffie",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jordan Whittington",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
     "name": "Colby Parkinson",
     "pos": "TE",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Ty Simpson",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Keagen Trost",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Bill Murray",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Desjuan Johnson",
+    "pos": "DE",
+    "status": "Out"
    },
    {
     "name": "Joe Cardona",
     "pos": "LS",
-    "status": "Doubtful"
-   },
-   {
-    "name": "Coleman Shelton",
-    "pos": "C",
-    "status": "Questionable"
+    "status": "Out"
    }
   ],
   "MIA": [
@@ -953,6 +983,11 @@
    }
   ],
   "MIN": [
+   {
+    "name": "Theo Jackson",
+    "pos": "S",
+    "status": "Questionable"
+   },
    {
     "name": "Max Brosmer",
     "pos": "QB",
@@ -1269,6 +1304,11 @@
   ],
   "TEN": [
    {
+    "name": "Marcus Harris",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
     "name": "Jaylon Jones",
     "pos": "CB",
     "status": "Out"
@@ -1401,174 +1441,174 @@
  "trend": {
   "seth mcgowan": {
    "rank": 2,
-   "adds": 497128
+   "adds": 495848
   },
   "samaje perine": {
    "rank": 3,
-   "adds": 436512
+   "adds": 434860
   },
   "ryan flournoy": {
    "rank": 4,
-   "adds": 390712
+   "adds": 387888
   },
   "makai lemon": {
    "rank": 6,
-   "adds": 303640
+   "adds": 301544
   },
   "elijah mitchell": {
    "rank": 7,
-   "adds": 285516
-  },
-  "elic ayomanor": {
-   "rank": 8,
-   "adds": 236768
+   "adds": 278217
   },
   "corey kiner": {
+   "rank": 8,
+   "adds": 239628
+  },
+  "elic ayomanor": {
    "rank": 9,
-   "adds": 235866
+   "adds": 233596
   },
   "chris godwin": {
    "rank": 10,
-   "adds": 216306
+   "adds": 211212
   },
   "mason taylor": {
    "rank": 12,
-   "adds": 166125
+   "adds": 162940
   },
   "chris rodriguez": {
    "rank": 13,
-   "adds": 158922
+   "adds": 157410
   },
   "kimani vidal": {
    "rank": 14,
-   "adds": 149655
+   "adds": 151115
   },
   "darius cooper": {
    "rank": 15,
-   "adds": 143948
-  },
-  "keon coleman": {
-   "rank": 16,
-   "adds": 142146
+   "adds": 143829
   },
   "jadarian price": {
+   "rank": 16,
+   "adds": 139788
+  },
+  "keon coleman": {
    "rank": 17,
-   "adds": 141129
+   "adds": 139671
   },
   "jordan addison": {
    "rank": 18,
-   "adds": 126036
+   "adds": 124893
   },
   "khalil shakir": {
    "rank": 21,
-   "adds": 115992
+   "adds": 113742
   },
   "kyle williams": {
    "rank": 22,
-   "adds": 108865
+   "adds": 111045
   },
   "kc concepcion": {
    "rank": 23,
-   "adds": 104778
+   "adds": 101754
   },
   "brenton strange": {
    "rank": 25,
-   "adds": 101664
+   "adds": 99387
   },
   "tyler higbee": {
    "rank": 26,
-   "adds": 89514
+   "adds": 95508
   },
   "hunter henry": {
    "rank": 27,
-   "adds": 88620
-  },
-  "jaydon blue": {
-   "rank": 28,
-   "adds": 85656
+   "adds": 88449
   },
   "tre tucker": {
-   "rank": 29,
-   "adds": 85548
+   "rank": 28,
+   "adds": 84018
   },
   "caleb douglas": {
    "rank": 30,
-   "adds": 83792
+   "adds": 80664
   },
   "kenny gainwell": {
+   "rank": 32,
+   "adds": 79848
+  },
+  "jaydon blue": {
    "rank": 33,
-   "adds": 80152
+   "adds": 78760
   },
   "efton chism": {
    "rank": 34,
-   "adds": 77844
-  },
-  "kyler murray": {
-   "rank": 35,
-   "adds": 76144
+   "adds": 76984
   },
   "jonah coleman": {
+   "rank": 35,
+   "adds": 75278
+  },
+  "kyler murray": {
    "rank": 36,
-   "adds": 75424
+   "adds": 75144
   },
   "dylan sampson": {
    "rank": 37,
-   "adds": 75325
-  },
-  "emanuel wilson": {
-   "rank": 38,
-   "adds": 68040
-  },
-  "geno smith": {
-   "rank": 39,
-   "adds": 66960
+   "adds": 74320
   },
   "cooper kupp": {
-   "rank": 40,
-   "adds": 66780
+   "rank": 38,
+   "adds": 68154
+  },
+  "emanuel wilson": {
+   "rank": 39,
+   "adds": 67698
   },
   "malik washington": {
-   "rank": 41,
-   "adds": 66192
+   "rank": 40,
+   "adds": 66400
   },
-  "kendrick bourne": {
-   "rank": 42,
-   "adds": 66090
+  "geno smith": {
+   "rank": 41,
+   "adds": 66228
   },
   "rico dowdle": {
-   "rank": 43,
-   "adds": 65660
+   "rank": 42,
+   "adds": 65360
   },
-  "kirk cousins": {
-   "rank": 44,
-   "adds": 64768
+  "kendrick bourne": {
+   "rank": 43,
+   "adds": 64638
   },
   "marshawn lloyd": {
+   "rank": 44,
+   "adds": 64566
+  },
+  "kirk cousins": {
    "rank": 45,
-   "adds": 64278
+   "adds": 63744
   },
   "keenan allen": {
    "rank": 46,
-   "adds": 63452
+   "adds": 62632
   },
   "braelon allen": {
    "rank": 47,
-   "adds": 62536
+   "adds": 62484
   },
   "justice hill": {
    "rank": 48,
-   "adds": 59967
+   "adds": 59652
   },
   "omar cooper": {
    "rank": 49,
-   "adds": 58872
+   "adds": 57632
   }
  },
  "buzz": {},
  "sources": {
   "lines": "5 games",
   "weather": "10 outdoor games",
-  "injuries": "202 players listed",
+  "injuries": "210 players listed",
   "news": "16 players in headlines",
   "google_news": "11 role-cut, 175 injury headlines; QB hurt: BAL, CLE, LAC, TB",
   "sleeper_trending": "41 board players trending",
@@ -1655,16 +1695,6 @@
    "inj": true,
    "worst": "What happened to Deshaun Watson? Injury update for Browns QB"
   },
-  "trevor lawrence": {
-   "h": [
-    "Can't-Miss Play: Trevor Lawrence cooks up an appetizing recipe on 31-yard TD launch to Boerkircher",
-    "CJ Allen lassos Lawrence for his first career NFL sack",
-    "Why Nearly Every NFL Expert Is Backing Trevor Lawrence and the Jaguars Against the Colts"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Week 8 Fantasy Football & NFL Bets FIRE & ICE Players: START Trevor Lawrence, SIT Patrick Mahomes"
-  },
   "daniel jones": {
    "h": [
     "Vikings rumors: Is a Kirk Cousins or Daniel Jones trade deadline reunion actually in play?",
@@ -1674,6 +1704,16 @@
    "cut": true,
    "inj": false,
    "worst": "Colts refuse to bench Daniel Jones amid Jonathan Taylor trade rumors and team fire sale"
+  },
+  "trevor lawrence": {
+   "h": [
+    "Can't-Miss Play: Trevor Lawrence cooks up an appetizing recipe on 31-yard TD launch to Boerkircher",
+    "CJ Allen lassos Lawrence for his first career NFL sack",
+    "Why Nearly Every NFL Expert Is Backing Trevor Lawrence and the Jaguars Against the Colts"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Week 8 Fantasy Football & NFL Bets FIRE & ICE Players: START Trevor Lawrence, SIT Patrick Mahomes"
   },
   "geno smith": {
    "h": [
@@ -1953,6 +1993,16 @@
    "inj": true,
    "worst": "Germie Bernard or James Cook III: Who Should I Start in Week 8? Fantasy Football"
   },
+  "jaylen warren": {
+   "h": [
+    "Can't-Miss Play: 51-yard gain! Jaylen Warren bolts through Browns' defense for massive pickup",
+    "Antonio Williams or Jaylen Warren",
+    "Jaylen Warren Fantasy Outlook & Stats"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jaylen Warren or KC Concepcion Jr.: Who Should I Start in Week 8? Fantasy Football"
+  },
   "rico dowdle": {
    "h": [
     "Pittsburgh Steelers running back Rico Dowdle rips off 15 yards on his first carry vs. Cleveland Browns",
@@ -1973,16 +2023,6 @@
    "inj": true,
    "worst": "Dylan Sampson Week 8 Outlook for Fantasy Football (2026)"
   },
-  "jaylen warren": {
-   "h": [
-    "Can't-Miss Play: 51-yard gain! Jaylen Warren bolts through Browns' defense for massive pickup",
-    "Antonio Williams or Jaylen Warren",
-    "Jaylen Warren Fantasy Outlook & Stats"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jaylen Warren or KC Concepcion Jr.: Who Should I Start in Week 8? Fantasy Football"
-  },
   "quinshon judkins": {
    "h": [
     "Quinshon Judkins or Reggie Virgil: Who Should I Start in Week 8? Fantasy Football",
@@ -1993,16 +2033,6 @@
    "inj": true,
    "worst": "Quinshon Judkins or Reggie Virgil: Who Should I Start in Week 8? Fantasy Football"
   },
-  "jonathan taylor": {
-   "h": [
-    "Commanders Learn Colts\u2019 Asking Price for Jonathan Taylor Trade",
-    "Jonathan Taylor could command hefty asking price",
-    "Russell Wilson Just Named the PERFECT Landing Spot for Jonathan Taylor"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Commanders Learn Colts\u2019 Asking Price for Jonathan Taylor Trade"
-  },
   "bhayshul tuten": {
    "h": [
     "Jaguars RB Bhayshul Tuten, OG Ezra Cleveland injured, able to return - FL Times-Union",
@@ -2012,6 +2042,16 @@
    "cut": false,
    "inj": true,
    "worst": "Jaguars RB Bhayshul Tuten, OG Ezra Cleveland injured, able to return - FL Times-Union"
+  },
+  "jonathan taylor": {
+   "h": [
+    "Commanders Learn Colts\u2019 Asking Price for Jonathan Taylor Trade",
+    "Jonathan Taylor could command hefty asking price",
+    "Russell Wilson Just Named the PERFECT Landing Spot for Jonathan Taylor"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Commanders Learn Colts\u2019 Asking Price for Jonathan Taylor Trade"
   },
   "seth mcgowan": {
    "h": [
@@ -2559,6 +2599,23 @@
    "inj": true,
    "worst": "Jahan Dotson Week 8 Outlook for Fantasy Football (2026)"
   },
+  "rashod bateman": {
+   "h": [
+    "Ben Yurosek or Rashod Bateman: Who Should I Start in Week 8? Fantasy Football",
+    "Rashod Bateman Week 8 Outlook for Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Ben Yurosek or Rashod Bateman: Who Should I Start in Week 8? Fantasy Football"
+  },
+  "josh cuevas": {
+   "h": [
+    "Who Should I Start for Fantasy Football Week 8? Colston Loveland, Michael Mayer, Darnell Washington, Evan Engram, Greg Dulcich, Davis Allen, Brevyn Spann-Ford, Josh Cuevas"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 8? Colston Loveland, Michael Mayer, Darnell Washington, Evan Engram, Greg Dulcich, Davis Allen, Brevyn Spann-Ford, Josh Cuevas"
+  },
   "zay flowers": {
    "h": [
     "Week 8 NFL odds, prop picks, predictions: Target NFL player props for Zay Flowers, Ja'Marr Chase on Sunday",
@@ -2596,14 +2653,6 @@
    "cut": false,
    "inj": true,
    "worst": "Devontez Walker or Marvin Mims Jr.: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "josh cuevas": {
-   "h": [
-    "Who Should I Start for Fantasy Football Week 8? Colston Loveland, Michael Mayer, Darnell Washington, Evan Engram, Greg Dulcich, Davis Allen, Brevyn Spann-Ford, Josh Cuevas"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 8? Colston Loveland, Michael Mayer, Darnell Washington, Evan Engram, Greg Dulcich, Davis Allen, Brevyn Spann-Ford, Josh Cuevas"
   },
   "joshua palmer": {
    "h": [
@@ -2644,15 +2693,6 @@
    "cut": false,
    "inj": true,
    "worst": "Ja\u2019Kobi Lane Fantasy Football Start or Sit Advice for Week 8"
-  },
-  "rashod bateman": {
-   "h": [
-    "Ben Yurosek or Rashod Bateman: Who Should I Start in Week 8? Fantasy Football",
-    "Rashod Bateman Week 8 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ben Yurosek or Rashod Bateman: Who Should I Start in Week 8? Fantasy Football"
   },
   "mark andrews": {
    "h": [
@@ -2754,6 +2794,14 @@
    "inj": true,
    "worst": "Denzel Boston or DJ Moore: Who Should I Start in Week 8? Fantasy Football"
   },
+  "ashton dulin": {
+   "h": [
+    "Ashton Dulin or Drew Stevens: Who Should I Start in Week 8? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Ashton Dulin or Drew Stevens: Who Should I Start in Week 8? Fantasy Football"
+  },
   "brian thomas": {
    "h": [
     "Jaguars news: Brian Thomas Jr. is actually alive after benching, trade rumors",
@@ -2783,14 +2831,6 @@
    "cut": false,
    "inj": true,
    "worst": "Josh Cameron or Zach Charbonnet: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "ashton dulin": {
-   "h": [
-    "Ashton Dulin or Drew Stevens: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ashton Dulin or Drew Stevens: Who Should I Start in Week 8? Fantasy Football"
   },
   "nate boerkircher": {
    "h": [
@@ -2870,6 +2910,16 @@
    "inj": true,
    "worst": "Parker Washington Week 8 Outlook for Fantasy Football (2026)"
   },
+  "omar cooper": {
+   "h": [
+    "Omar Cooper Jr. Fantasy Football Start or Sit Advice for Week 8",
+    "Jets WR Omar Cooper Jr. has two straight games with 100-plus yards and a touchdown",
+    "Omar Cooper Jr. Sit Start Fantasy Football Advice Week 8 (2026) - NFL News"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Omar Cooper Jr. Fantasy Football Start or Sit Advice for Week 8"
+  },
   "adonai mitchell": {
    "h": [
     "New York Jets quarterback Geno Smith pinpoints wide receiver Adonai Mitchell on sideline for 21 yards",
@@ -2929,16 +2979,6 @@
    "inj": true,
    "worst": "Michael Mayer Fantasy Football Projections | Las Vegas Raiders"
   },
-  "omar cooper": {
-   "h": [
-    "Omar Cooper Jr. Fantasy Football Start or Sit Advice for Week 8",
-    "Jets WR Omar Cooper Jr. has two straight games with 100-plus yards and a touchdown",
-    "Omar Cooper Jr. Sit Start Fantasy Football Advice Week 8 (2026) - NFL News"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Omar Cooper Jr. Fantasy Football Start or Sit Advice for Week 8"
-  },
   "mason taylor": {
    "h": [
     "Mason Taylor or Jaylen Waddle",
@@ -2968,6 +3008,16 @@
    "cut": false,
    "inj": true,
    "worst": "Under The Cap: Should the Chiefs Trade for Garrett Wilson? Stream of National Football League"
+  },
+  "jordan addison": {
+   "h": [
+    "Vikings, Jordan Addison Trade Floated As Deadline Nears",
+    "Fantasy Football Start/Sit: Keenan Allen, Jordan Addison, Caleb Williams",
+    "Germie Bernard or Jordan Addison: Who Should I Start in Week 8? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Fantasy Football Start/Sit: Keenan Allen, Jordan Addison, Caleb Williams"
   },
   "justin jefferson": {
    "h": [
@@ -3018,16 +3068,6 @@
    "cut": false,
    "inj": true,
    "worst": "Who Should I Start for Fantasy Football Week 8? Kyle Pitts Sr., Tyler Higbee, Mason Taylor, Travis Kelce, Hunter Henry, Sam LaPorta, Mark Andrews, T.J. Hockenson, Brenton Strange"
-  },
-  "jordan addison": {
-   "h": [
-    "Vikings, Jordan Addison Trade Floated As Deadline Nears",
-    "Fantasy Football Start/Sit: Keenan Allen, Jordan Addison, Caleb Williams",
-    "Germie Bernard or Jordan Addison: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Start/Sit: Keenan Allen, Jordan Addison, Caleb Williams"
   },
   "sam laporta": {
    "h": [
