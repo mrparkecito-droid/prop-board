@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T18:01:08+00:00",
+ "generated": "2026-11-01T18:31:10+00:00",
  "games": {
   "BALBUF": {
    "home": "BUF",
@@ -7,13 +7,10 @@
    "kick": "2026-11-01T18:00Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "BUF": -3.0,
-    "BAL": 3.0
-   },
-   "total": 54.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
-    "desc": "1",
+    "desc": "2",
     "temp": 68
    },
    "wx": {
@@ -30,14 +27,11 @@
    "kick": "2026-11-01T18:00Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "CIN": -13.5,
-    "TEN": 13.5
-   },
-   "total": 46.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "7",
-    "temp": 71
+    "temp": 72
    },
    "wx": {
     "wind": 3,
@@ -53,14 +47,11 @@
    "kick": "2026-11-01T18:00Z",
    "indoor": true,
    "neutral": false,
-   "spread": {
-    "DAL": -7.0,
-    "ARI": 7.0
-   },
-   "total": 54.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
-    "desc": "3",
-    "temp": 74
+    "desc": "2",
+    "temp": 75
    }
   },
   "MINDET": {
@@ -69,11 +60,8 @@
    "kick": "2026-11-01T18:00Z",
    "indoor": true,
    "neutral": false,
-   "spread": {
-    "DET": -3.0,
-    "MIN": 3.0
-   },
-   "total": 46.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "3",
     "temp": 66
@@ -85,14 +73,11 @@
    "kick": "2026-11-01T18:00Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "NYJ": -1.5,
-    "LV": 1.5
-   },
-   "total": 46.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "1",
-    "temp": 58
+    "temp": 60
    },
    "wx": {
     "wind": 3,
@@ -108,14 +93,11 @@
    "kick": "2026-11-01T18:00Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "PIT": -3.5,
-    "CLE": 3.5
-   },
-   "total": 38.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "3",
-    "temp": 65
+    "temp": 66
    },
    "wx": {
     "wind": 7,
@@ -131,14 +113,11 @@
    "kick": "2026-11-01T18:00Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "TB": -2.5,
-    "ATL": 2.5
-   },
-   "total": 42.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
-    "desc": "7",
-    "temp": 77
+    "desc": "15",
+    "temp": 76
    },
    "wx": {
     "wind": 11,
@@ -154,14 +133,11 @@
    "kick": "2026-11-01T18:00Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "JAX": -10.0,
-    "IND": 10.0
-   },
-   "total": 45.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
-    "desc": "7",
-    "temp": 77
+    "desc": "12",
+    "temp": 76
    },
    "wx": {
     "wind": 11,
@@ -223,7 +199,7 @@
    "total": 41.5,
    "espn_wx": {
     "desc": "Mostly cloudy w/ t-storms",
-    "temp": 78
+    "temp": 77
    },
    "wx": {
     "wind": 6,
@@ -325,6 +301,11 @@
   ],
   "ATL": [
    {
+    "name": "Drake London",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Andy Dalton",
     "pos": "QB",
     "status": "Out"
@@ -366,6 +347,11 @@
    }
   ],
   "BAL": [
+   {
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "status": "Questionable"
+   },
    {
     "name": "Joe Fagnano",
     "pos": "QB",
@@ -569,6 +555,11 @@
   ],
   "DAL": [
    {
+    "name": "Jake Ferguson",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
     "name": "Luke Schoonmaker",
     "pos": "TE",
     "status": "Out"
@@ -761,6 +752,11 @@
   ],
   "JAX": [
    {
+    "name": "Eric Murray",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
     "name": "CJ Williams",
     "pos": "WR",
     "status": "Out"
@@ -804,6 +800,11 @@
    }
   ],
   "LV": [
+   {
+    "name": "Darien Porter",
+    "pos": "CB",
+    "status": "Questionable"
+   },
    {
     "name": "Malik Benson",
     "pos": "WR",
@@ -1287,6 +1288,10 @@
   ]
  },
  "news": {
+  "kyler murray": {
+   "h": "NFL Week 8's best arrivals, led by Vikings' Kyler Murray",
+   "t": "2026-11-01T17:05:43Z"
+  },
   "caleb williams": {
    "h": "Bears QB Caleb Williams won't 'spat' custom cleats out of principle, source says",
    "t": "2026-11-01T16:58:24Z"
@@ -1338,188 +1343,180 @@
   "michael penix": {
    "h": "Michael Penix Jr. shows he could be Atlanta's QB1",
    "t": "2026-10-31T10:00:02Z"
-  },
-  "cooper kupp": {
-   "h": "Cooper Kupp's 'I scored a touchdown' story: SB LVI",
-   "t": "2026-11-01T16:19:46Z"
-  },
-  "josh downs": {
-   "h": "Colts' Shane Steichen: WR Josh Downs 'ready to go' despite trade request",
-   "t": "2026-10-30T22:19:00Z"
   }
  },
  "trend": {
   "seth mcgowan": {
    "rank": 2,
-   "adds": 495320
+   "adds": 497288
   },
   "samaje perine": {
    "rank": 3,
-   "adds": 436944
+   "adds": 438812
   },
   "ryan flournoy": {
    "rank": 4,
-   "adds": 387952
+   "adds": 390088
   },
   "makai lemon": {
    "rank": 6,
-   "adds": 294388
+   "adds": 301276
   },
   "elijah mitchell": {
    "rank": 7,
-   "adds": 290781
+   "adds": 294174
   },
   "elic ayomanor": {
    "rank": 8,
-   "adds": 240856
+   "adds": 241396
   },
   "chris godwin": {
    "rank": 9,
-   "adds": 222414
+   "adds": 223242
   },
   "corey kiner": {
    "rank": 10,
-   "adds": 211944
+   "adds": 222840
   },
   "mason taylor": {
    "rank": 12,
-   "adds": 169245
+   "adds": 169995
   },
   "chris rodriguez": {
    "rank": 13,
-   "adds": 159246
+   "adds": 160776
   },
   "keon coleman": {
    "rank": 14,
-   "adds": 144756
-  },
-  "jadarian price": {
-   "rank": 15,
-   "adds": 140013
+   "adds": 145431
   },
   "darius cooper": {
+   "rank": 15,
+   "adds": 141848
+  },
+  "jadarian price": {
    "rank": 16,
-   "adds": 138411
+   "adds": 141795
   },
   "kimani vidal": {
    "rank": 17,
-   "adds": 133230
+   "adds": 141620
   },
   "jordan addison": {
    "rank": 18,
-   "adds": 126333
+   "adds": 127206
   },
   "khalil shakir": {
    "rank": 21,
-   "adds": 113418
+   "adds": 118530
   },
   "kc concepcion": {
    "rank": 22,
-   "adds": 108234
+   "adds": 108639
   },
   "brenton strange": {
-   "rank": 24,
-   "adds": 103977
-  },
-  "jaydon blue": {
-   "rank": 25,
-   "adds": 94632
+   "rank": 23,
+   "adds": 104778
   },
   "kyle williams": {
-   "rank": 26,
-   "adds": 94165
+   "rank": 25,
+   "adds": 100170
   },
-  "tre tucker": {
-   "rank": 27,
-   "adds": 87036
+  "jaydon blue": {
+   "rank": 26,
+   "adds": 94744
   },
   "caleb douglas": {
-   "rank": 28,
-   "adds": 86800
+   "rank": 27,
+   "adds": 87648
   },
   "hunter henry": {
-   "rank": 29,
-   "adds": 85812
+   "rank": 28,
+   "adds": 87606
   },
-  "kenny gainwell": {
-   "rank": 32,
-   "adds": 80200
+  "tre tucker": {
+   "rank": 29,
+   "adds": 87396
   },
   "tyler higbee": {
+   "rank": 30,
+   "adds": 84897
+  },
+  "kenny gainwell": {
    "rank": 33,
-   "adds": 79659
+   "adds": 80808
   },
   "efton chism": {
    "rank": 34,
-   "adds": 77052
+   "adds": 78468
   },
   "dylan sampson": {
    "rank": 35,
-   "adds": 76470
+   "adds": 76840
   },
   "kyler murray": {
    "rank": 36,
-   "adds": 75304
+   "adds": 76144
   },
   "jonah coleman": {
    "rank": 37,
-   "adds": 73250
+   "adds": 74592
   },
   "kendrick bourne": {
    "rank": 38,
-   "adds": 67962
+   "adds": 68250
   },
   "geno smith": {
    "rank": 39,
-   "adds": 66848
+   "adds": 67316
   },
   "emanuel wilson": {
    "rank": 40,
-   "adds": 65241
-  },
-  "kirk cousins": {
-   "rank": 41,
-   "adds": 64288
-  },
-  "keenan allen": {
-   "rank": 42,
-   "adds": 64164
-  },
-  "marshawn lloyd": {
-   "rank": 43,
-   "adds": 63090
+   "adds": 67077
   },
   "rico dowdle": {
+   "rank": 41,
+   "adds": 65125
+  },
+  "kirk cousins": {
+   "rank": 42,
+   "adds": 65104
+  },
+  "keenan allen": {
+   "rank": 43,
+   "adds": 64376
+  },
+  "marshawn lloyd": {
    "rank": 44,
-   "adds": 62465
-  },
-  "braelon allen": {
-   "rank": 45,
-   "adds": 61176
-  },
-  "justice hill": {
-   "rank": 46,
-   "adds": 60660
+   "adds": 63729
   },
   "malik washington": {
+   "rank": 45,
+   "adds": 63576
+  },
+  "braelon allen": {
+   "rank": 46,
+   "adds": 61760
+  },
+  "cooper kupp": {
    "rank": 47,
-   "adds": 59992
+   "adds": 60984
+  },
+  "justice hill": {
+   "rank": 48,
+   "adds": 60921
   },
   "omar cooper": {
-   "rank": 48,
-   "adds": 59944
-  },
-  "tyler goodson": {
    "rank": 49,
-   "adds": 55551
+   "adds": 60256
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "13 games",
+  "lines": "5 games",
   "weather": "10 outdoor games",
-  "injuries": "188 players listed",
-  "news": "15 players in headlines",
+  "injuries": "193 players listed",
+  "news": "14 players in headlines",
   "google_news": "10 role-cut, 177 injury headlines; QB hurt: BAL, LAC",
   "sleeper_trending": "41 board players trending",
   "reddit": "unavailable"
@@ -1585,16 +1582,6 @@
    "inj": false,
    "worst": "Josh Allen vs Lamar Jackson: Buffalo Bills and Baltimore Ravens resume rivalry as NFL greats knock at Super Bowl door again - NFL Gameday Guide"
   },
-  "aaron rodgers": {
-   "h": [
-    "Aaron Rodgers\u2019 $37K donation to New Jersey police sparks privacy backlash as critics question rich people",
-    "Who Should I Start for Fantasy Football Week 8? Jacoby Brissett, Jayden Daniels, Geno Smith, Jared Goff, Bo Nix, Kirk Cousins, Michael Penix Jr., Aaron Rodgers, Dak Prescott",
-    "Aaron Rodgers or Jonathon Brooks: Who Should I Pick Up? Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 8? Jacoby Brissett, Jayden Daniels, Geno Smith, Jared Goff, Bo Nix, Kirk Cousins, Michael Penix Jr., Aaron Rodgers, Dak Prescott"
-  },
   "deshaun watson": {
    "h": [
     "Deshaun Watson or Luther Burden",
@@ -1604,6 +1591,16 @@
    "cut": false,
    "inj": true,
    "worst": "Chicago Bears or Deshaun Watson: Who Should I Pick Up? Fantasy Football (2026)"
+  },
+  "aaron rodgers": {
+   "h": [
+    "Aaron Rodgers\u2019 $37K donation to New Jersey police sparks privacy backlash as critics question rich people",
+    "Who Should I Start for Fantasy Football Week 8? Jacoby Brissett, Jayden Daniels, Geno Smith, Jared Goff, Bo Nix, Kirk Cousins, Michael Penix Jr., Aaron Rodgers, Dak Prescott",
+    "Aaron Rodgers or Jonathon Brooks: Who Should I Pick Up? Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 8? Jacoby Brissett, Jayden Daniels, Geno Smith, Jared Goff, Bo Nix, Kirk Cousins, Michael Penix Jr., Aaron Rodgers, Dak Prescott"
   },
   "trevor lawrence": {
    "h": [
@@ -1785,15 +1782,15 @@
    "inj": false,
    "worst": "NFL Makes Punishment Decision After Caleb Williams Incident"
   },
-  "jeremiyah love": {
+  "bam knight": {
    "h": [
-    "Is Jeremiyah Love playing today? The latest on the Cardinals RB",
-    "Jeremiyah Love Delivers Blunt 6-Word Reality Check Before Cardinals vs. Cowboys",
-    "Jeremiyah Love Start or Sit Advice for Week 8"
+    "Bam Knight Fantasy Football Half PPR Ros Rankings | Arizona Cardinals",
+    "Bam Knight or Chris Bell: Who Should I Start in Week 8? Fantasy Football",
+    "Bam Knight Week 8 Outlook for Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Is Jeremiyah Love Playing Today? (Injury Update, Betting Impact for Cardinals vs. Cowboys in NFL Week 8)"
+   "worst": "Bam Knight Fantasy Football Half PPR Ros Rankings | Arizona Cardinals"
   },
   "tyler allgeier": {
    "h": [
@@ -1805,15 +1802,15 @@
    "inj": true,
    "worst": "Week 8 Fantasy Football Rankings Risers & Fallers: Jonah Coleman, Tyler Allgeier & More"
   },
-  "bam knight": {
+  "jeremiyah love": {
    "h": [
-    "Bam Knight Fantasy Football Half PPR Ros Rankings | Arizona Cardinals",
-    "Bam Knight or Chris Bell: Who Should I Start in Week 8? Fantasy Football",
-    "Bam Knight Week 8 Outlook for Fantasy Football (2026)"
+    "Is Jeremiyah Love playing today? The latest on the Cardinals RB",
+    "Jeremiyah Love Delivers Blunt 6-Word Reality Check Before Cardinals vs. Cowboys",
+    "Jeremiyah Love Start or Sit Advice for Week 8"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Bam Knight Fantasy Football Half PPR Ros Rankings | Arizona Cardinals"
+   "worst": "Is Jeremiyah Love Playing Today? (Injury Update, Betting Impact for Cardinals vs. Cowboys in NFL Week 8)"
   },
   "tyler goodson": {
    "h": [
@@ -1833,16 +1830,6 @@
    "inj": true,
    "worst": "Feel Good Moments: Javonte Williams Shines in Cowboys' Win Over Eagles Stream of National Football League"
   },
-  "kenny gainwell": {
-   "h": [
-    "Kenny Gainwell (hip) active for Week 8",
-    "Kenny Gainwell Active as expected Sunday",
-    "Kenny Gainwell Expected to play Sunday"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Kenny Gainwell Week 8 Outlook for Fantasy Football (2026)"
-  },
   "sean tucker": {
    "h": [
     "Sean Tucker Rushes for 46-Yard TD | Bucs vs. Panthers Highlights",
@@ -1852,6 +1839,16 @@
    "cut": false,
    "inj": false,
    "worst": "Sean Tucker Rushes for 46-Yard TD | Bucs vs. Panthers Highlights"
+  },
+  "kenny gainwell": {
+   "h": [
+    "Kenny Gainwell (hip) active for Week 8",
+    "Kenny Gainwell Active as expected Sunday",
+    "Kenny Gainwell Expected to play Sunday"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Kenny Gainwell Week 8 Outlook for Fantasy Football (2026)"
   },
   "khalil herbert": {
    "h": [
@@ -1883,14 +1880,6 @@
    "inj": false,
    "worst": "Bucky Irving and Tampa Bay Buccaneers receive a shot in the arm hours before kickoff against Falcons"
   },
-  "justice hill": {
-   "h": [
-    "The Wisdom of Justice Hill"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "The Wisdom of Justice Hill"
-  },
   "derrick henry": {
    "h": [
     "Top NFL Player Props: Gibbs, Henry and Jaguars Overs",
@@ -1900,6 +1889,14 @@
    "cut": false,
    "inj": true,
    "worst": "Derrick Henry Week 8 Outlook for Fantasy Football (2026)"
+  },
+  "justice hill": {
+   "h": [
+    "The Wisdom of Justice Hill"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "The Wisdom of Justice Hill"
   },
   "james cook": {
    "h": [
@@ -1951,16 +1948,6 @@
    "inj": true,
    "worst": "Quinshon Judkins or Reggie Virgil: Who Should I Start in Week 8? Fantasy Football"
   },
-  "seth mcgowan": {
-   "h": [
-    "Brock Wright or Seth McGowan: Who Should I Start in Week 8? Fantasy Football",
-    "Jeremy McNichols or Seth McGowan: Who Should I Start in Week 8? Fantasy Football",
-    "Seth McGowan or Thomas Fidoneii: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Brock Wright or Seth McGowan: Who Should I Start in Week 8? Fantasy Football"
-  },
   "jonathan taylor": {
    "h": [
     "Jonathan Taylor trade rumors: Colts not actively shopping around star running back before deadline",
@@ -1970,6 +1957,16 @@
    "cut": false,
    "inj": false,
    "worst": "Jonathan Taylor trade rumors: Colts not actively shopping around star running back before deadline"
+  },
+  "seth mcgowan": {
+   "h": [
+    "Brock Wright or Seth McGowan: Who Should I Start in Week 8? Fantasy Football",
+    "Jeremy McNichols or Seth McGowan: Who Should I Start in Week 8? Fantasy Football",
+    "Seth McGowan or Thomas Fidoneii: Who Should I Start in Week 8? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Brock Wright or Seth McGowan: Who Should I Start in Week 8? Fantasy Football"
   },
   "chris rodriguez": {
    "h": [
@@ -2019,6 +2016,15 @@
    "inj": true,
    "worst": "Ashton Jeanty Fantasy Football Projections | Las Vegas Raiders"
   },
+  "sione vaki": {
+   "h": [
+    "Elijah Mitchell or Sione Vaki: Who Should I Start in Week 8? Fantasy Football",
+    "Lan Larison or Sione Vaki: Who Should I Start in Week 8? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Elijah Mitchell or Sione Vaki: Who Should I Start in Week 8? Fantasy Football"
+  },
   "jordan mason": {
    "h": [
     "Kenyon Sadiq or Jordan Mason",
@@ -2038,15 +2044,6 @@
    "cut": false,
    "inj": true,
    "worst": "Final Injury Report for Vikings-Lions: Will Amon-Ra St. Brown, Aaron Jones Sr. Play?"
-  },
-  "sione vaki": {
-   "h": [
-    "Elijah Mitchell or Sione Vaki: Who Should I Start in Week 8? Fantasy Football",
-    "Lan Larison or Sione Vaki: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Elijah Mitchell or Sione Vaki: Who Should I Start in Week 8? Fantasy Football"
   },
   "jahmyr gibbs": {
    "h": [
@@ -2345,6 +2342,24 @@
    "inj": true,
    "worst": "Elijah Higgins or Michael Mayer: Who Should I Start in Week 8? Fantasy Football"
   },
+  "brevyn spann ford": {
+   "h": [
+    "Who Should I Start for Fantasy Football Week 8? Colston Loveland, Michael Mayer, Darnell Washington, Evan Engram, Greg Dulcich, Davis Allen, Brevyn Spann-Ford, Josh Cuevas"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 8? Colston Loveland, Michael Mayer, Darnell Washington, Evan Engram, Greg Dulcich, Davis Allen, Brevyn Spann-Ford, Josh Cuevas"
+  },
+  "jake ferguson": {
+   "h": [
+    "Jake Ferguson or Jaylen Waddle: Who Should I Start in Week 8? Fantasy Football",
+    "\"Boozy Brunch\": Haley Cavinder-Ferguson Shares Candid Snaps From Her Halloween-Themed 'Cowboys WAGs Brunch'",
+    "Who Should I Start for Fantasy Football Week 8? Pat Freiermuth, Harold Fannin Jr., Tyler Warren, AJ Barner, Cade Otton, Mike Gesicki, Colby Parkinson, Eli Raridon, Jake Ferguson"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jake Ferguson or Jaylen Waddle: Who Should I Start in Week 8? Fantasy Football"
+  },
   "michael wilson": {
    "h": [
     "Week 8 Start \u2018Em, Sit \u2018Em WRs: Michael Wilson vs. Luther Burden III",
@@ -2365,14 +2380,6 @@
    "inj": true,
    "worst": "KC Concepcion Jr. or Kendrick Bourne: Who Should I Start in Week 8? Fantasy Football"
   },
-  "brevyn spann ford": {
-   "h": [
-    "Who Should I Start for Fantasy Football Week 8? Colston Loveland, Michael Mayer, Darnell Washington, Evan Engram, Greg Dulcich, Davis Allen, Brevyn Spann-Ford, Josh Cuevas"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 8? Colston Loveland, Michael Mayer, Darnell Washington, Evan Engram, Greg Dulcich, Davis Allen, Brevyn Spann-Ford, Josh Cuevas"
-  },
   "ryan flournoy": {
    "h": [
     "Ryan Flournoy or Colston Loveland",
@@ -2382,16 +2389,6 @@
    "cut": false,
    "inj": true,
    "worst": "Fantasy football last-minute pickups: Geno Smith, Ryan Flournoy are top options"
-  },
-  "jake ferguson": {
-   "h": [
-    "Jake Ferguson or Jaylen Waddle: Who Should I Start in Week 8? Fantasy Football",
-    "\"Boozy Brunch\": Haley Cavinder-Ferguson Shares Candid Snaps From Her Halloween-Themed 'Cowboys WAGs Brunch'",
-    "Who Should I Start for Fantasy Football Week 8? Pat Freiermuth, Harold Fannin Jr., Tyler Warren, AJ Barner, Cade Otton, Mike Gesicki, Colby Parkinson, Eli Raridon, Jake Ferguson"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jake Ferguson or Jaylen Waddle: Who Should I Start in Week 8? Fantasy Football"
   },
   "george pickens": {
    "h": [
@@ -2423,6 +2420,24 @@
    "inj": true,
    "worst": "Eli Stowers or Trey McBride: Who Should I Start in Week 8? Fantasy Football"
   },
+  "drake london": {
+   "h": [
+    "49ers' Dre Greenlaw Fined $12,537 for Punch That Hit Falcons' Drake London",
+    "Drake London drops USC prediction for big Ohio State clash",
+    "Dohnte Meyers or Drake London: Who Should I Start in Week 8? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Dohnte Meyers or Drake London: Who Should I Start in Week 8? Fantasy Football"
+  },
+  "zachariah branch": {
+   "h": [
+    "(EDITOR\u2019S NOTE: Resubmitted with alternate crop.) Georgia Bulldogs wide receiver Zachariah Branch (1) leaps while being shoved out of bounds by Florida Gators defensive back Bryce Thornton (18) while picking up a third down during the second quarter o"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "(EDITOR\u2019S NOTE: Resubmitted with alternate crop.) Georgia Bulldogs wide receiver Zachariah Branch (1) leaps while being shoved out of bounds by Florida Gators defensive back Bryce Thornton (18) while picking up a third down during the second quarter o"
+  },
   "austin hooper": {
    "h": [
     "Austin Hooper or Travis Kelce: Who Should I Start in Week 8? Fantasy Football",
@@ -2432,14 +2447,6 @@
    "cut": false,
    "inj": true,
    "worst": "Austin Hooper or Travis Kelce: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "zachariah branch": {
-   "h": [
-    "(EDITOR\u2019S NOTE: Resubmitted with alternate crop.) Georgia Bulldogs wide receiver Zachariah Branch (1) leaps while being shoved out of bounds by Florida Gators defensive back Bryce Thornton (18) while picking up a third down during the second quarter o"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "(EDITOR\u2019S NOTE: Resubmitted with alternate crop.) Georgia Bulldogs wide receiver Zachariah Branch (1) leaps while being shoved out of bounds by Florida Gators defensive back Bryce Thornton (18) while picking up a third down during the second quarter o"
   },
   "cade otton": {
    "h": [
@@ -2480,16 +2487,6 @@
    "inj": true,
    "worst": "Chris Godwin Jr. or Tyler Higbee: Who Should I Pick Up? Fantasy Football (2026)"
   },
-  "drake london": {
-   "h": [
-    "49ers' Dre Greenlaw Fined $12,537 for Punch That Hit Falcons' Drake London",
-    "Drake London drops USC prediction for big Ohio State clash",
-    "Dohnte Meyers or Drake London: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Dohnte Meyers or Drake London: Who Should I Start in Week 8? Fantasy Football"
-  },
   "kyle pitts": {
    "h": [
     "Falcons vs. Buccaneers prediction, Week 8 props: Kyle Pitts\u2019 hot streak continues for Atlanta",
@@ -2509,15 +2506,15 @@
    "inj": true,
    "worst": "Jahan Dotson Week 8 Outlook for Fantasy Football (2026)"
   },
-  "dj moore": {
+  "khalil shakir": {
    "h": [
-    "Buffalo Bills Week 8 Inactives: DJ Moore, Dalton Kincaid Will be in Action",
-    "DJ Moore, Ed Oliver Return As Bills Announce Inactives Against Ravens",
-    "Is DJ Moore playing vs. Ravens? Final Week 8 injury update"
+    "Should You Start Khalil Shakir Against the Ravens in Week 8? The Slot Matchup Says Yes",
+    "Khalil Shakir - Fantasy Football Waiver Wire Pickups for Week 8 (2026) - NFL News",
+    "Corey Kiner or Khalil Shakir: Who Should I Pick Up? Fantasy Football (2026)"
    ],
-   "cut": true,
+   "cut": false,
    "inj": true,
-   "worst": "Buffalo Bills Week 8 Inactives: DJ Moore, Dalton Kincaid Will be in Action"
+   "worst": "Khalil Shakir - Fantasy Football Waiver Wire Pickups for Week 8 (2026) - NFL News"
   },
   "dawson knox": {
    "h": [
@@ -2544,6 +2541,16 @@
    "cut": false,
    "inj": true,
    "worst": "Who Should I Start for Fantasy Football Week 8? Colston Loveland, Michael Mayer, Darnell Washington, Evan Engram, Greg Dulcich, Davis Allen, Brevyn Spann-Ford, Josh Cuevas"
+  },
+  "dj moore": {
+   "h": [
+    "Buffalo Bills Week 8 Inactives: DJ Moore, Dalton Kincaid Will be in Action",
+    "DJ Moore, Ed Oliver Return As Bills Announce Inactives Against Ravens",
+    "Is DJ Moore playing vs. Ravens? Final Week 8 injury update"
+   ],
+   "cut": true,
+   "inj": true,
+   "worst": "Buffalo Bills Week 8 Inactives: DJ Moore, Dalton Kincaid Will be in Action"
   },
   "dalton kincaid": {
    "h": [
@@ -2594,16 +2601,6 @@
    "cut": false,
    "inj": true,
    "worst": "Kimani Vidal or Mark Andrews: Who Should I Pick Up? Fantasy Football (2026)"
-  },
-  "khalil shakir": {
-   "h": [
-    "Should You Start Khalil Shakir Against the Ravens in Week 8? The Slot Matchup Says Yes",
-    "Khalil Shakir - Fantasy Football Waiver Wire Pickups for Week 8 (2026) - NFL News",
-    "Corey Kiner or Khalil Shakir: Who Should I Pick Up? Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Khalil Shakir - Fantasy Football Waiver Wire Pickups for Week 8 (2026) - NFL News"
   },
   "keon coleman": {
    "h": [
@@ -2695,14 +2692,6 @@
    "inj": true,
    "worst": "Denzel Boston or DJ Moore: Who Should I Start in Week 8? Fantasy Football"
   },
-  "ashton dulin": {
-   "h": [
-    "Ashton Dulin or Drew Stevens: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ashton Dulin or Drew Stevens: Who Should I Start in Week 8? Fantasy Football"
-  },
   "brian thomas": {
    "h": [
     "Brian Thomas Jr. & Josh Downs Potential WR Targets For Chiefs?",
@@ -2732,6 +2721,14 @@
    "cut": false,
    "inj": true,
    "worst": "AJ Barner or Josh Cameron: Who Should I Start in Week 8? Fantasy Football"
+  },
+  "ashton dulin": {
+   "h": [
+    "Ashton Dulin or Drew Stevens: Who Should I Start in Week 8? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Ashton Dulin or Drew Stevens: Who Should I Start in Week 8? Fantasy Football"
   },
   "nate boerkircher": {
    "h": [
