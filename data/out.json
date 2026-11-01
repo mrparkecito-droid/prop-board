@@ -1638,7 +1638,7 @@
    "stat": "pass",
    "prop": "Passing Yards",
    "line": 150,
-   "ask": 87,
+   "ask": 88,
    "bid": 86,
    "vals": [
     184.0,
@@ -1694,21 +1694,21 @@
    "most": 16,
    "per": 236.0,
    "dstat": "pass yds",
-   "p": 82,
-   "roi": -5,
+   "p": 83,
+   "roi": -6,
    "pp": 94,
    "hs": 90,
    "dhs": 78,
    "rks": 52,
-   "vs": 45,
+   "vs": 44,
    "agree": 2,
    "score": 73.2,
    "flags": [],
-   "pc": 0.8237,
+   "pc": 0.8282,
    "praw": 0.8811,
    "rg": "QB",
    "est": false,
-   "mid": 86.5,
+   "mid": 87.0,
    "tk": "KXNFLPASSYDS-26NOV01KCDEN-KCPMAHOMES15-150",
    "ev": "KXNFLPASSYDS-26NOV01KCDEN",
    "ctx": 0.15,
@@ -3770,6 +3770,165 @@
    "news": ""
   },
   {
+   "game": "LVNYJ",
+   "glabel": "LV @ NYJ",
+   "day": "Sun",
+   "player": "Garrett Wilson",
+   "team": "NYJ",
+   "opp": "LV",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 40,
+   "ask": 75,
+   "bid": 74,
+   "vals": [
+    79.0,
+    57.0,
+    107.0,
+    27.0,
+    104.0,
+    44.0,
+    26.0
+   ],
+   "over": 5,
+   "n": 7,
+   "proj": 74.6,
+   "al": [
+    [
+     1,
+     "MIA",
+     94.0
+    ],
+    [
+     2,
+     "LAC",
+     53.0
+    ],
+    [
+     3,
+     "NO",
+     107.0
+    ],
+    [
+     4,
+     "KC",
+     111.0
+    ],
+    [
+     5,
+     "NE",
+     91.0
+    ],
+    [
+     6,
+     "BUF",
+     59.0
+    ],
+    [
+     7,
+     "LAR",
+     68.0
+    ]
+   ],
+   "dhit": 7,
+   "dn": 7,
+   "most": 11,
+   "per": 245.1,
+   "dstat": "pass yds",
+   "p": 73,
+   "roi": -3,
+   "pp": 76,
+   "hs": 67,
+   "dhs": 89,
+   "rks": 68,
+   "vs": 47,
+   "agree": 2,
+   "score": 64.9,
+   "flags": [],
+   "pc": 0.7264,
+   "praw": 0.7797,
+   "rg": "WR1",
+   "est": false,
+   "mid": 74.5,
+   "tk": "KXNFLRECYDS-26NOV01LVNYJ-NYJGWILSON5-40",
+   "ev": "KXNFLRECYDS-26NOV01LVNYJ",
+   "ctx": 0.0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.0,
+     "In the news: \"'No way' that Jets trade star WR Garrett Wilson before deadline, source says\""
+    ]
+   ],
+   "status": null,
+   "ppj": 80,
+   "pu": 71,
+   "uinfo": {
+    "share": [
+     30,
+     19,
+     36,
+     27,
+     38,
+     21,
+     10
+    ],
+    "kind": "targets",
+    "snap": 91,
+    "snaps": [
+     100,
+     93,
+     98,
+     85
+    ],
+    "snap_last": 85,
+    "mu": 56.5,
+    "opp": 7.1,
+    "note": "His share of targets fell from 30% to 10%."
+   },
+   "po": 5,
+   "pn": 7,
+   "pid": "8146",
+   "sx": 0.0,
+   "sxs": 50,
+   "mx": 0.16,
+   "mxs": 58,
+   "env": 0.1,
+   "dfac": 0.3,
+   "dfs": 65,
+   "off": -0.04,
+   "ofs": 48,
+   "cu": 67,
+   "avgm": 23.4,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Geno Smith",
+    "same": true,
+    "n": 7
+   },
+   "risk": 0,
+   "tpts": 23.5,
+   "stepup": 0.55,
+   "safer": {
+    "line": 30,
+    "ask": 84,
+    "bid": 83,
+    "p": 80,
+    "pc": 0.8044,
+    "roi": -4,
+    "score": 68.5,
+    "mid": 83.5,
+    "tk": "KXNFLRECYDS-26NOV01LVNYJ-NYJGWILSON5-30"
+   },
+   "rank": 25,
+   "why": "Cleared 40+ in 5 of 7 games, by +23 on average (5 of 7 last season), Sleeper projects 74.6, LV let 7 of 7 WR1s reach it. His share of targets fell from 30% to 10%.",
+   "news": "In the news: \"'No way' that Jets trade star WR Garrett Wilson before deadline, source says\""
+  },
+  {
    "game": "PHIWAS",
    "glabel": "PHI @ WAS",
    "day": "Sun",
@@ -3923,158 +4082,171 @@
    },
    "risk": 1,
    "tpts": 23.2,
-   "rank": 25,
+   "rank": 26,
    "why": "Cleared 10+ in 6 of 6 games, by +24 on average, Sleeper projects 34.3, PHI let 7 of 7 WR2s reach it, PHI allows the 9th most pass yds. PHI gives up 30% more receiving yds to WR2s than average.. PHI secondary missing CB Jonathan Jones. Watch: WAS favored by 6, may not need to throw late; WAS's offense ranks 22nd in passing (214 yds a game)..",
    "news": ""
   },
   {
-   "game": "ATLTB",
-   "glabel": "ATL @ TB",
+   "game": "INDJAX",
+   "glabel": "IND @ JAX",
    "day": "Sun",
-   "player": "Michael Penix Jr.",
-   "team": "ATL",
-   "opp": "TB",
-   "pos": "QB",
-   "role": "QB",
-   "stat": "pass",
-   "prop": "Passing Yards",
-   "line": 150,
-   "ask": 88,
-   "bid": 87,
+   "player": "Jonathan Taylor",
+   "team": "IND",
+   "opp": "JAX",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 69,
+   "bid": 68,
    "vals": [
-    null,
-    null,
-    256.0,
-    223.0,
-    240.0,
-    225.0,
-    213.0
+    3.0,
+    4.0,
+    2.0,
+    1.0,
+    3.0,
+    2.0,
+    2.0
    ],
-   "over": 5,
-   "n": 5,
-   "proj": 214.3,
+   "over": 6,
+   "n": 7,
+   "proj": 2.1,
    "al": [
     [
      1,
-     "CIN",
-     254.0
+     "CLE",
+     3.0
     ],
     [
      2,
-     "CLE",
-     238.0
+     "DEN",
+     3.0
     ],
     [
      3,
-     "MIN",
-     168.0
+     "NE",
+     3.0
     ],
     [
      4,
-     "GB",
-     197.0
+     "CIN",
+     11.0
     ],
     [
      5,
-     "DAL",
-     316.0
+     "PHI",
+     2.0
     ],
     [
      6,
-     "PIT",
-     253.0
-    ],
-    [
-     7,
-     "CAR",
-     163.0
+     "HOU",
+     2.0
     ]
    ],
-   "dhit": 7,
-   "dn": 7,
-   "most": 19,
-   "per": 233.7,
+   "dhit": 6,
+   "dn": 6,
+   "most": 3,
+   "per": 283.0,
    "dstat": "pass yds",
-   "p": 83,
-   "roi": -6,
-   "pp": 92,
-   "hs": 91,
-   "dhs": 89,
-   "rks": 42,
-   "vs": 44,
-   "agree": 3,
+   "p": 68,
+   "roi": -1,
+   "pp": 67,
+   "hs": 71,
+   "dhs": 88,
+   "rks": 94,
+   "vs": 49,
+   "agree": 2,
    "score": 64.5,
    "flags": [],
-   "pc": 0.8285,
-   "praw": 0.8963,
-   "rg": "QB",
+   "pc": 0.6826,
+   "praw": 0.7455,
+   "rg": "RB1",
    "est": false,
-   "mid": 87.5,
-   "tk": "KXNFLPASSYDS-26NOV01ATLTB-ATLMPENIX9-150",
-   "ev": "KXNFLPASSYDS-26NOV01ATLTB",
-   "ctx": 0.0,
-   "cxs": 50,
+   "mid": 68.5,
+   "tk": "KXNFLREC-26NOV01INDJAC-INDJTAYLOR28-2",
+   "ev": "KXNFLREC-26NOV01INDJAC",
+   "ctx": 0.15,
+   "cxs": 58,
    "reasons": [
     [
+     0.15,
+     "JAX secondary missing S Antonio Johnson"
+    ],
+    [
      0.0,
-     "In the news: \"Michael Penix Jr. shows he could be Atlanta's QB1\""
+     "In the news: \"Jeremy Fowler: Interest in Jonathan Taylor is 'heavy' and 'real'\""
     ],
     [
-     -0.14,
-     "ATL projected for only 20 pts (O/U 43.5)"
+     0.6,
+     "IND a 10-pt underdog, backs catch more when trailing"
     ],
     [
-     -0.29,
-     "ATL's offense ranks 24th in passing (211 yds a game)."
+     -0.3,
+     "IND projected for only 18 pts (O/U 46.5)"
+    ],
+    [
+     0.28,
+     "JAX gives up 23% more catches to lead RBs than average."
+    ],
+    [
+     -0.42,
+     "IND's offense ranks 25th in passing (200 yds a game)."
     ]
    ],
    "status": null,
-   "ppj": 92,
-   "pu": 93,
+   "ppj": 60,
+   "pu": 75,
    "uinfo": {
     "share": [
-     25.0,
-     20.0,
-     32.0,
-     33.0,
-     34.0
+     14,
+     13,
+     9,
+     14,
+     9,
+     11,
+     14
     ],
-    "kind": "attempts",
-    "snap": 99,
+    "kind": "targets",
+    "snap": 79,
     "snaps": [
-     100,
-     95,
-     100,
-     99
+     71,
+     73,
+     78,
+     71
     ],
-    "snap_last": 99,
-    "mu": 223.0,
-    "opp": 29.8,
+    "snap_last": 71,
+    "mu": 2.9,
+    "opp": 3.8,
     "note": ""
    },
-   "po": 8,
-   "pn": 9,
-   "pid": "11559",
-   "sx": -0.14,
-   "sxs": 43,
-   "mx": -0.08,
-   "mxs": 46,
-   "env": -0.14,
-   "dfac": 0.0,
-   "dfs": 50,
-   "off": -0.29,
-   "ofs": 36,
-   "cu": 95,
-   "avgm": 81.4,
+   "po": 16,
+   "pn": 17,
+   "pid": "6813",
+   "sx": 0.3,
+   "sxs": 65,
+   "mx": 0.56,
+   "mxs": 78,
+   "env": 0.58,
+   "dfac": -0.23,
+   "dfs": 38,
+   "off": -0.42,
+   "ofs": 29,
+   "cu": 59,
+   "avgm": 0.4,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
-   "qinfo": null,
-   "risk": 1,
-   "tpts": 20.5,
-   "rank": 26,
-   "why": "Cleared 150+ in 5 of 5 games, by +81 on average (8 of 9 last season), Sleeper projects 214.3, TB let 7 of 7 QBs reach it. Watch: ATL's offense ranks 24th in passing (211 yds a game).; ATL projected for only 20 pts (O/U 43.5).",
-   "news": "In the news: \"Michael Penix Jr. shows he could be Atlanta's QB1\""
+   "qinfo": {
+    "qb": "Daniel Jones",
+    "same": true,
+    "n": 7
+   },
+   "risk": 0,
+   "tpts": 18.2,
+   "rank": 27,
+   "why": "Cleared 2+ in 6 of 7 games, by +0.4 on average (16 of 17 last season), Sleeper projects 2.1, JAX let 6 of 6 lead RBs reach it, JAX allows the 3rd most pass yds. IND a 10-pt underdog, backs catch more when trailing. JAX gives up 23% more catches to lead RBs than average.. Watch: IND's offense ranks 25th in passing (200 yds a game).; IND projected for only 18 pts (O/U 46.5).",
+   "news": "In the news: \"Jeremy Fowler: Interest in Jonathan Taylor is 'heavy' and 'real'\""
   },
   {
    "game": "ARIDAL",
@@ -4235,7 +4407,7 @@
    },
    "risk": 1,
    "tpts": 30.8,
-   "rank": 27,
+   "rank": 28,
    "why": "Cleared 50+ in 5 of 7 games, by +43 on average (11 of 14 last season), Sleeper projects 107.9, ARI let 7 of 7 WR1s reach it. His share of targets is up from 27% to 46%. DAL projected for 31 pts (O/U 54.5). DAL has a top passing offense (8th, 264 yds a game).. Watch: DAL favored by 7, may not need to throw late; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 81\u00a2..",
    "news": ""
   },
@@ -7646,7 +7818,7 @@
     ],
     [
      0.08,
-     "Trending on Sleeper (#12 most added)"
+     "Trending on Sleeper (#11 most added)"
     ],
     [
      0.8,
@@ -11127,7 +11299,7 @@
     "debt": -1.5,
     "hist": true,
     "inj": "News",
-    "news": "Derrick Henry Week 8 Outlook for Fantasy Football (2026)",
+    "news": "NFL Week 8 RB Battle: Derrick Henry vs. James Cook Stream of National Football League",
     "prop": {
      "pr": "Rushing Yards",
      "ln": 50,
@@ -11151,7 +11323,7 @@
      "51% red-zone role, 6% target share, 5% TD rate, 22.7 touches a game.",
      "8.0 TDs in 7 games, scored in 5 (16.0 in 17 last season).",
      "BAL projected for 26 pts (O/U 54.5, 3-pt underdog).",
-     "Injury news: Derrick Henry Week 8 Outlook for Fantasy Football (2026)"
+     "Injury news: NFL Week 8 RB Battle: Derrick Henry vs. James Cook Stream of National Football League"
     ]
    },
    {
@@ -11242,11 +11414,11 @@
     "id": "4984",
     "lam": 1.1,
     "pm": 0.666,
-    "p": 0.775,
-    "q": 88.5,
-    "ask": 90,
-    "tk": "KXNFLPASSTDSPROT-26NOV01BALBUF-BUFJALLEN17-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01BALBUF",
+    "p": 0.765,
+    "q": 86.5,
+    "ask": 87,
+    "tk": "KXNFLPASSTDS-26NOV01BALBUF-BUFJALLEN17-1",
+    "ev": "KXNFLPASSTDS-26NOV01BALBUF",
     "tds": 8.0,
     "n": 6,
     "games_td": 5,
@@ -11296,7 +11468,7 @@
      "22% red-zone role, 16.3% TD rate, 8.2 touches a game.",
      "8.0 TDs in 6 games, scored in 5 (14.0 in 16 last season).",
      "BUF projected for 29 pts (O/U 54.5, favored by 3).",
-     "Kalshi 88\u00a2 vs model 67%."
+     "Kalshi 86\u00a2 vs model 67%."
     ]
    },
    {
@@ -11499,7 +11671,7 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.877,
+     "p": 0.88,
      "ask": 91,
      "sc": 67.3
     },
@@ -11961,144 +12133,74 @@
     ]
    },
    {
-    "key": "jayden daniels",
-    "pl": "Jayden Daniels",
-    "tm": "WAS",
-    "opp": "PHI",
+    "key": "trevor lawrence",
+    "pl": "Trevor Lawrence",
+    "tm": "JAX",
+    "opp": "IND",
     "pos": "QB",
     "role": "QB",
-    "g": "PHIWAS",
-    "gl": "PHI @ WAS",
+    "g": "INDJAX",
+    "gl": "IND @ JAX",
     "dy": "Sun",
-    "id": "11566",
-    "lam": 0.37,
-    "pm": 0.311,
-    "p": 0.588,
-    "q": 86.5,
-    "ask": 88,
-    "tk": "KXNFLPASSTDSPROT-26NOV01PHIWAS-WASJDANIELS5-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01PHIWAS",
-    "tds": 2.0,
-    "n": 4,
-    "games_td": 1,
-    "ptd": 2.0,
-    "pn": 7,
-    "rz": 12,
-    "tdsh": 9,
-    "ts": null,
-    "tdr": 8.0,
-    "tpg": 6.2,
-    "pts": 23.2,
-    "sp": -6.0,
-    "tot": 40.5,
-    "d": {
-     "td": 3.0,
-     "n": 7,
-     "rank": 4,
-     "nteams": 32,
-     "ltd": 7.0,
-     "lrank": 2,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 1.45,
-    "debt": -1.1,
-    "hist": true,
-    "inj": "News",
-    "news": "Jayden Daniels Week 8 Outlook for Fantasy Football (2026)",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 125,
-     "p": 0.787,
-     "ask": 88,
-     "sc": 57.0
-    },
-    "tags": [
-     "Soft TD defense",
-     "Favored"
-    ],
-    "low": false,
-    "score": 64.0,
-    "why": [
-     "PHI has allowed 3.0 QB TDs in 7 games (4th most); 7.0 all last season (2nd most).",
-     "12% red-zone role, 8% TD rate, 6.2 touches a game.",
-     "2.0 TDs in 4 games, scored in 1 (2.0 in 7 last season).",
-     "WAS projected for 23 pts (O/U 40.5, favored by 6).",
-     "Injury news: Jayden Daniels Week 8 Outlook for Fantasy Football (2026)",
-     "Kalshi 86\u00a2 vs model 31%."
-    ]
-   },
-   {
-    "key": "drake maye",
-    "pl": "Drake Maye",
-    "tm": "NE",
-    "opp": "MIA",
-    "pos": "QB",
-    "role": "QB",
-    "g": "NEMIA",
-    "gl": "NE @ MIA",
-    "dy": "Sun",
-    "id": "11564",
-    "lam": 0.3,
-    "pm": 0.256,
-    "p": 0.57,
-    "q": 88.5,
-    "ask": 90,
-    "tk": "KXNFLPASSTDSPROT-26NOV01NEMIA-NEDMAYE10-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01NEMIA",
-    "tds": 2.0,
-    "n": 7,
-    "games_td": 2,
-    "ptd": 4.0,
+    "id": "7523",
+    "lam": 0.34,
+    "pm": 0.287,
+    "p": 0.593,
+    "q": 90.0,
+    "ask": 91,
+    "tk": "KXNFLPASSTDS-26NOV01INDJAC-JACTLAWRENCE16-1",
+    "ev": "KXNFLPASSTDS-26NOV01INDJAC",
+    "tds": 0,
+    "n": 6,
+    "games_td": 0,
+    "ptd": 9.0,
     "pn": 17,
-    "rz": 10,
-    "tdsh": 9,
+    "rz": 3,
+    "tdsh": 10,
     "ts": null,
-    "tdr": 5.3,
-    "tpg": 5.4,
-    "pts": 25.2,
-    "sp": -7.0,
-    "tot": 43.5,
+    "tdr": 0.0,
+    "tpg": 2.8,
+    "pts": 28.2,
+    "sp": -10.0,
+    "tot": 46.5,
     "d": {
      "td": 1.0,
-     "n": 6,
-     "rank": 14,
+     "n": 7,
+     "rank": 20,
      "nteams": 32,
-     "ltd": 4.0,
-     "lrank": 13,
+     "ltd": 3.0,
+     "lrank": 18,
      "leak": false,
      "recent": [
       0,
       0
      ]
     },
-    "dfac": 1.05,
-    "debt": -0.9,
+    "dfac": 0.91,
+    "debt": 0.5,
     "hist": true,
     "inj": "News",
-    "news": "Drake Maye Week 8 Outlook for Fantasy Football (2026)",
+    "news": "Week 8 Fantasy Football & NFL Bets FIRE & ICE Players: START Trevor Lawrence, SIT Patrick Mahomes",
     "prop": {
      "pr": "Passing Yards",
      "ln": 150,
-     "p": 0.854,
+     "p": 0.835,
      "ask": 91,
-     "sc": 72.1
+     "sc": 60.8
     },
     "tags": [
+     "Shootout script",
      "Favored"
     ],
     "low": false,
-    "score": 55.6,
+    "score": 48.7,
     "why": [
-     "MIA has allowed 1.0 QB TD in 6 games (14th most); 4.0 all last season.",
-     "10% red-zone role, 5.3% TD rate, 5.4 touches a game.",
-     "2.0 TDs in 7 games, scored in 2 (4.0 in 17 last season).",
-     "NE projected for 25 pts (O/U 43.5, favored by 7).",
-     "Injury news: Drake Maye Week 8 Outlook for Fantasy Football (2026)",
-     "Kalshi 88\u00a2 vs model 26%."
+     "IND has allowed 1.0 QB TD in 7 games (20th most); 3.0 all last season.",
+     "3% red-zone role, 2.8 touches a game.",
+     "No TDs yet in 6 games (9.0 in 17 last season).",
+     "JAX projected for 28 pts (O/U 46.5, favored by 10).",
+     "Injury news: Week 8 Fantasy Football & NFL Bets FIRE & ICE Players: START Trevor Lawrence, SIT Patrick Mahomes",
+     "Kalshi 90\u00a2 vs model 29%."
     ]
    },
    {
@@ -12171,6 +12273,147 @@
      "8.0 TDs in 7 games, scored in 5 (10.0 in 17 last season).",
      "SEA projected for 25 pts (O/U 46.5, favored by 3).",
      "Injury news: Jaxon Smith-Njigba Week 8 Outlook for Fantasy Football (2026)"
+    ]
+   },
+   {
+    "key": "drake maye",
+    "pl": "Drake Maye",
+    "tm": "NE",
+    "opp": "MIA",
+    "pos": "QB",
+    "role": "QB",
+    "g": "NEMIA",
+    "gl": "NE @ MIA",
+    "dy": "Sun",
+    "id": "11564",
+    "lam": 0.3,
+    "pm": 0.256,
+    "p": 0.558,
+    "q": 86.0,
+    "ask": 87,
+    "tk": "KXNFLPASSTDS-26NOV01NEMIA-NEDMAYE10-1",
+    "ev": "KXNFLPASSTDS-26NOV01NEMIA",
+    "tds": 2.0,
+    "n": 7,
+    "games_td": 2,
+    "ptd": 4.0,
+    "pn": 17,
+    "rz": 10,
+    "tdsh": 9,
+    "ts": null,
+    "tdr": 5.3,
+    "tpg": 5.4,
+    "pts": 25.2,
+    "sp": -7.0,
+    "tot": 43.5,
+    "d": {
+     "td": 1.0,
+     "n": 6,
+     "rank": 14,
+     "nteams": 32,
+     "ltd": 4.0,
+     "lrank": 13,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 1.05,
+    "debt": -0.9,
+    "hist": true,
+    "inj": "News",
+    "news": "Drake Maye Week 8 Outlook for Fantasy Football (2026)",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.854,
+     "ask": 91,
+     "sc": 72.1
+    },
+    "tags": [
+     "Favored"
+    ],
+    "low": false,
+    "score": 55.6,
+    "why": [
+     "MIA has allowed 1.0 QB TD in 6 games (14th most); 4.0 all last season.",
+     "10% red-zone role, 5.3% TD rate, 5.4 touches a game.",
+     "2.0 TDs in 7 games, scored in 2 (4.0 in 17 last season).",
+     "NE projected for 25 pts (O/U 43.5, favored by 7).",
+     "Injury news: Drake Maye Week 8 Outlook for Fantasy Football (2026)",
+     "Kalshi 86\u00a2 vs model 26%."
+    ]
+   },
+   {
+    "key": "jayden daniels",
+    "pl": "Jayden Daniels",
+    "tm": "WAS",
+    "opp": "PHI",
+    "pos": "QB",
+    "role": "QB",
+    "g": "PHIWAS",
+    "gl": "PHI @ WAS",
+    "dy": "Sun",
+    "id": "11566",
+    "lam": 0.37,
+    "pm": 0.311,
+    "p": 0.556,
+    "q": 80.0,
+    "ask": 81,
+    "tk": "KXNFLPASSTDS-26NOV01PHIWAS-WASJDANIELS5-1",
+    "ev": "KXNFLPASSTDS-26NOV01PHIWAS",
+    "tds": 2.0,
+    "n": 4,
+    "games_td": 1,
+    "ptd": 2.0,
+    "pn": 7,
+    "rz": 12,
+    "tdsh": 9,
+    "ts": null,
+    "tdr": 8.0,
+    "tpg": 6.2,
+    "pts": 23.2,
+    "sp": -6.0,
+    "tot": 40.5,
+    "d": {
+     "td": 3.0,
+     "n": 7,
+     "rank": 4,
+     "nteams": 32,
+     "ltd": 7.0,
+     "lrank": 2,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 1.45,
+    "debt": -1.1,
+    "hist": true,
+    "inj": "News",
+    "news": "Boomer thinks Jayden Daniels has a big game on Sunday en route to a Commanders win over the Eagles on Sunday Night Football.",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 125,
+     "p": 0.787,
+     "ask": 88,
+     "sc": 57.0
+    },
+    "tags": [
+     "Soft TD defense",
+     "Favored"
+    ],
+    "low": false,
+    "score": 64.0,
+    "why": [
+     "PHI has allowed 3.0 QB TDs in 7 games (4th most); 7.0 all last season (2nd most).",
+     "12% red-zone role, 8% TD rate, 6.2 touches a game.",
+     "2.0 TDs in 4 games, scored in 1 (2.0 in 7 last season).",
+     "WAS projected for 23 pts (O/U 40.5, favored by 6).",
+     "Injury news: Boomer thinks Jayden Daniels has a big game on Sunday en route to a Commanders win over the Eagles on Sunday Night Football.",
+     "Kalshi 80\u00a2 vs model 31%."
     ]
    },
    {
@@ -12583,140 +12826,71 @@
     ]
    },
    {
-    "key": "lamar jackson",
-    "pl": "Lamar Jackson",
-    "tm": "BAL",
-    "opp": "BUF",
+    "key": "bo nix",
+    "pl": "Bo Nix",
+    "tm": "DEN",
+    "opp": "KC",
     "pos": "QB",
     "role": "QB",
-    "g": "BALBUF",
-    "gl": "BAL @ BUF",
+    "g": "KCDEN",
+    "gl": "KC @ DEN",
     "dy": "Sun",
-    "id": "4881",
-    "lam": 0.13,
-    "pm": 0.124,
-    "p": 0.49,
-    "q": 85.5,
-    "ask": 87,
-    "tk": "KXNFLPASSTDSPROT-26NOV01BALBUF-BALLJACKSON8-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01BALBUF",
-    "tds": 1.0,
-    "n": 4,
-    "games_td": 1,
-    "ptd": 2.0,
-    "pn": 13,
-    "rz": 7,
-    "tdsh": 5,
+    "id": "11563",
+    "lam": 0.31,
+    "pm": 0.27,
+    "p": 0.485,
+    "q": 70.0,
+    "ask": 71,
+    "tk": "KXNFLPASSTDS-26NOV01KCDEN-DENBNIX10-1",
+    "ev": "KXNFLPASSTDS-26NOV01KCDEN",
+    "tds": 2.0,
+    "n": 7,
+    "games_td": 2,
+    "ptd": 5.0,
+    "pn": 17,
+    "rz": 15,
+    "tdsh": 12,
     "ts": null,
-    "tdr": 5.3,
-    "tpg": 4.8,
-    "pts": 25.8,
-    "sp": 3.0,
-    "tot": 54.5,
+    "tdr": 6.9,
+    "tpg": 4.1,
+    "pts": 19.5,
+    "sp": 1.5,
+    "tot": 40.5,
     "d": {
      "td": 0,
      "n": 6,
-     "rank": 24,
+     "rank": 27,
      "nteams": 32,
-     "ltd": 4.0,
-     "lrank": 12,
+     "ltd": 6.0,
+     "lrank": 3,
      "leak": false,
      "recent": [
       0,
       0
      ]
     },
-    "dfac": 0.83,
-    "debt": -0.1,
-    "hist": true,
-    "inj": "News",
-    "news": "Why Ravens Shouldn't Rush Lamar Jackson Back Stream of National Football League",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.848,
-     "ask": 89,
-     "sc": 80.0
-    },
-    "tags": [
-     "Shootout script"
-    ],
-    "low": false,
-    "score": 37.2,
-    "why": [
-     "BUF has allowed 0 QB TDs in 6 games (24th most); 4.0 all last season.",
-     "7% red-zone role, 5.3% TD rate, 4.8 touches a game.",
-     "1.0 TD in 4 games, scored in 1 (2.0 in 13 last season).",
-     "BAL projected for 26 pts (O/U 54.5, 3-pt underdog).",
-     "Injury news: Why Ravens Shouldn't Rush Lamar Jackson Back Stream of National Football League",
-     "Kalshi 86\u00a2 vs model 12%."
-    ]
-   },
-   {
-    "key": "caleb williams",
-    "pl": "Caleb Williams",
-    "tm": "CHI",
-    "opp": "SEA",
-    "pos": "QB",
-    "role": "QB",
-    "g": "CHISEA",
-    "gl": "CHI @ SEA (Mon)",
-    "dy": "Mon",
-    "id": "11560",
-    "lam": 0.15,
-    "pm": 0.14,
-    "p": 0.478,
-    "q": 81.5,
-    "ask": 83,
-    "tk": "KXNFLPASSTDSPROT-26NOV02CHISEA-CHICWILLIAMS18-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV02CHISEA",
-    "tds": 2.0,
-    "n": 4,
-    "games_td": 1,
-    "ptd": 3.0,
-    "pn": 17,
-    "rz": 7,
-    "tdsh": 8,
-    "ts": null,
-    "tdr": 8.3,
-    "tpg": 6.0,
-    "pts": 21.8,
-    "sp": 3.0,
-    "tot": 46.5,
-    "d": {
-     "td": 0,
-     "n": 7,
-     "rank": 31,
-     "nteams": 32,
-     "ltd": 3.0,
-     "lrank": 17,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.7,
+    "dfac": 1.05,
     "debt": -0.8,
     "hist": true,
-    "inj": null,
-    "news": null,
+    "inj": "News",
+    "news": "Bo Nix Week 8 Outlook for Fantasy Football (2026)",
     "prop": {
      "pr": "Passing Yards",
      "ln": 150,
-     "p": 0.83,
-     "ask": 90,
-     "sc": 55.0
+     "p": 0.709,
+     "ask": 80,
+     "sc": 35.4
     },
     "tags": [],
-    "low": false,
-    "score": 34.8,
+    "low": true,
+    "score": 54.2,
     "why": [
-     "SEA has allowed 0 QB TDs in 7 games (31st most); 3.0 all last season.",
-     "7% red-zone role, 8.3% TD rate, 6 touches a game.",
-     "2.0 TDs in 4 games, scored in 1 (3.0 in 17 last season).",
-     "CHI projected for 22 pts (O/U 46.5, 3-pt underdog).",
-     "Kalshi 82\u00a2 vs model 14%."
+     "KC has allowed 0 QB TDs in 6 games (27th most); 6.0 all last season (3rd most).",
+     "15% red-zone role, 6.9% TD rate, 4.1 touches a game.",
+     "2.0 TDs in 7 games, scored in 2 (5.0 in 17 last season).",
+     "Low total: DEN projected for 20 pts (O/U 40.5, 1.5-pt underdog).",
+     "Injury news: Bo Nix Week 8 Outlook for Fantasy Football (2026)",
+     "Kalshi 70\u00a2 vs model 27%."
     ]
    },
    {
@@ -12734,9 +12908,9 @@
     "pm": 0.209,
     "p": 0.477,
     "q": 74.5,
-    "ask": 76,
-    "tk": "KXNFLPASSTDSPROT-26NOV01KCDEN-KCPMAHOMES15-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01KCDEN",
+    "ask": 75,
+    "tk": "KXNFLPASSTDS-26NOV01KCDEN-KCPMAHOMES15-1",
+    "ev": "KXNFLPASSTDS-26NOV01KCDEN",
     "tds": 1.0,
     "n": 6,
     "games_td": 1,
@@ -12771,8 +12945,8 @@
     "prop": {
      "pr": "Passing Yards",
      "ln": 150,
-     "p": 0.824,
-     "ask": 87,
+     "p": 0.828,
+     "ask": 88,
      "sc": 73.2
     },
     "tags": [],
@@ -12992,6 +13166,76 @@
     ]
    },
    {
+    "key": "lamar jackson",
+    "pl": "Lamar Jackson",
+    "tm": "BAL",
+    "opp": "BUF",
+    "pos": "QB",
+    "role": "QB",
+    "g": "BALBUF",
+    "gl": "BAL @ BUF",
+    "dy": "Sun",
+    "id": "4881",
+    "lam": 0.13,
+    "pm": 0.124,
+    "p": 0.47,
+    "q": 81.5,
+    "ask": 84,
+    "tk": "KXNFLPASSTDS-26NOV01BALBUF-BALLJACKSON8-1",
+    "ev": "KXNFLPASSTDS-26NOV01BALBUF",
+    "tds": 1.0,
+    "n": 4,
+    "games_td": 1,
+    "ptd": 2.0,
+    "pn": 13,
+    "rz": 7,
+    "tdsh": 5,
+    "ts": null,
+    "tdr": 5.3,
+    "tpg": 4.8,
+    "pts": 25.8,
+    "sp": 3.0,
+    "tot": 54.5,
+    "d": {
+     "td": 0,
+     "n": 6,
+     "rank": 24,
+     "nteams": 32,
+     "ltd": 4.0,
+     "lrank": 12,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.83,
+    "debt": -0.1,
+    "hist": true,
+    "inj": "News",
+    "news": "Predicting What Lamar Jackson Will Do Vs. Bills In First Game Back From Injury",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.848,
+     "ask": 89,
+     "sc": 80.0
+    },
+    "tags": [
+     "Shootout script"
+    ],
+    "low": false,
+    "score": 37.2,
+    "why": [
+     "BUF has allowed 0 QB TDs in 6 games (24th most); 4.0 all last season.",
+     "7% red-zone role, 5.3% TD rate, 4.8 touches a game.",
+     "1.0 TD in 4 games, scored in 1 (2.0 in 13 last season).",
+     "BAL projected for 26 pts (O/U 54.5, 3-pt underdog).",
+     "Injury news: Predicting What Lamar Jackson Will Do Vs. Bills In First Game Back From Injury",
+     "Kalshi 82\u00a2 vs model 12%."
+    ]
+   },
+   {
     "key": "baker mayfield",
     "pl": "Baker Mayfield",
     "tm": "TB",
@@ -13004,11 +13248,11 @@
     "id": "4892",
     "lam": 0.12,
     "pm": 0.117,
-    "p": 0.466,
-    "q": 81.5,
-    "ask": 83,
-    "tk": "KXNFLPASSTDSPROT-26NOV01ATLTB-TBBMAYFIELD6-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01ATLTB",
+    "p": 0.461,
+    "q": 80.5,
+    "ask": 81,
+    "tk": "KXNFLPASSTDS-26NOV01ATLTB-TBBMAYFIELD6-1",
+    "ev": "KXNFLPASSTDS-26NOV01ATLTB",
     "tds": 1.0,
     "n": 4,
     "games_td": 1,
@@ -13056,7 +13300,74 @@
      "1.0 TD in 4 games, scored in 1 (1.0 in 17 last season).",
      "TB projected for 23 pts (O/U 43.5, favored by 2.5).",
      "Injury news: Fantasy football Week 8: Should you start Baker Mayfield?",
-     "Kalshi 82\u00a2 vs model 12%."
+     "Kalshi 80\u00a2 vs model 12%."
+    ]
+   },
+   {
+    "key": "caleb williams",
+    "pl": "Caleb Williams",
+    "tm": "CHI",
+    "opp": "SEA",
+    "pos": "QB",
+    "role": "QB",
+    "g": "CHISEA",
+    "gl": "CHI @ SEA (Mon)",
+    "dy": "Mon",
+    "id": "11560",
+    "lam": 0.15,
+    "pm": 0.14,
+    "p": 0.455,
+    "q": 77.0,
+    "ask": 79,
+    "tk": "KXNFLPASSTDS-26NOV02CHISEA-CHICWILLIAMS18-1",
+    "ev": "KXNFLPASSTDS-26NOV02CHISEA",
+    "tds": 2.0,
+    "n": 4,
+    "games_td": 1,
+    "ptd": 3.0,
+    "pn": 17,
+    "rz": 7,
+    "tdsh": 8,
+    "ts": null,
+    "tdr": 8.3,
+    "tpg": 6.0,
+    "pts": 21.8,
+    "sp": 3.0,
+    "tot": 46.5,
+    "d": {
+     "td": 0,
+     "n": 7,
+     "rank": 31,
+     "nteams": 32,
+     "ltd": 3.0,
+     "lrank": 17,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.7,
+    "debt": -0.8,
+    "hist": true,
+    "inj": null,
+    "news": null,
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.829,
+     "ask": 89,
+     "sc": 55.1
+    },
+    "tags": [],
+    "low": false,
+    "score": 34.8,
+    "why": [
+     "SEA has allowed 0 QB TDs in 7 games (31st most); 3.0 all last season.",
+     "7% red-zone role, 8.3% TD rate, 6 touches a game.",
+     "2.0 TDs in 4 games, scored in 1 (3.0 in 17 last season).",
+     "CHI projected for 22 pts (O/U 46.5, 3-pt underdog).",
+     "Kalshi 77\u00a2 vs model 14%."
     ]
    },
    {
@@ -13072,11 +13383,11 @@
     "id": "12522",
     "lam": 0.29,
     "pm": 0.255,
-    "p": 0.46,
-    "q": 66.5,
-    "ask": 69,
-    "tk": "KXNFLPASSTDSPROT-26NOV01TENCIN-TENCWARD1-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01TENCIN",
+    "p": 0.45,
+    "q": 64.5,
+    "ask": 65,
+    "tk": "KXNFLPASSTDS-26NOV01TENCIN-TENCWARD1-1",
+    "ev": "KXNFLPASSTDS-26NOV01TENCIN",
     "tds": 2.0,
     "n": 7,
     "games_td": 1,
@@ -13125,148 +13436,7 @@
      "11% red-zone role, 10.5% TD rate, 2.7 touches a game.",
      "2.0 TDs in 7 games, scored in 1 (2.0 in 17 last season).",
      "Low total: TEN projected for 17 pts (O/U 46.5, 12.5-pt underdog).",
-     "Kalshi 66\u00a2 vs model 26%."
-    ]
-   },
-   {
-    "key": "kyler murray",
-    "pl": "Kyler Murray",
-    "tm": "MIN",
-    "opp": "DET",
-    "pos": "QB",
-    "role": "QB",
-    "g": "MINDET",
-    "gl": "MIN @ DET",
-    "dy": "Sun",
-    "id": "5849",
-    "lam": 0.07,
-    "pm": 0.07,
-    "p": 0.447,
-    "q": 82.5,
-    "ask": 84,
-    "tk": "KXNFLPASSTDSPROT-26NOV01MINDET-MINKMURRAY1-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01MINDET",
-    "tds": 0,
-    "n": 5,
-    "games_td": 0,
-    "ptd": 1.0,
-    "pn": 5,
-    "rz": 10,
-    "tdsh": 2,
-    "ts": null,
-    "tdr": 0.0,
-    "tpg": 5.0,
-    "pts": 21.8,
-    "sp": 3.0,
-    "tot": 46.5,
-    "d": {
-     "td": 2.0,
-     "n": 6,
-     "rank": 7,
-     "nteams": 32,
-     "ltd": 3.0,
-     "lrank": 20,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 1.15,
-    "debt": 0.8,
-    "hist": true,
-    "inj": "News",
-    "news": "\u2018More Talented Kyler Murray?\u2019 \u201860%, 65% of Josh Allen\u2019 \u2013 Colin Cowherd claps back at Lamar Jackson Over Being Banged Up",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.813,
-     "ask": 87,
-     "sc": 50.8
-    },
-    "tags": [
-     "Soft TD defense"
-    ],
-    "low": false,
-    "score": 43.9,
-    "why": [
-     "DET has allowed 2.0 QB TDs in 6 games (7th most); 3.0 all last season.",
-     "10% red-zone role, 5 touches a game.",
-     "No TDs yet in 5 games (1.0 in 5 last season).",
-     "MIN projected for 22 pts (O/U 46.5, 3-pt underdog).",
-     "Injury news: \u2018More Talented Kyler Murray?\u2019 \u201860%, 65% of Josh Allen\u2019 \u2013 Colin Cowherd claps back at Lamar Jackson Over Being Banged Up",
-     "Kalshi 82\u00a2 vs model 7%."
-    ]
-   },
-   {
-    "key": "justin herbert",
-    "pl": "Justin Herbert",
-    "tm": "LAC",
-    "opp": "LAR",
-    "pos": "QB",
-    "role": "QB",
-    "g": "LACLAR",
-    "gl": "LAC @ LAR",
-    "dy": "Sun",
-    "id": "6797",
-    "lam": 0.09,
-    "pm": 0.087,
-    "p": 0.436,
-    "q": 78.5,
-    "ask": 80,
-    "tk": "KXNFLPASSTDSPROT-26NOV01LACLAR-LACJHERBERT10-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01LACLAR",
-    "tds": 0,
-    "n": 6,
-    "games_td": 0,
-    "ptd": 2.0,
-    "pn": 16,
-    "rz": 14,
-    "tdsh": 4,
-    "ts": null,
-    "tdr": 0.0,
-    "tpg": 5.0,
-    "pts": 19.5,
-    "sp": 6.5,
-    "tot": 45.5,
-    "d": {
-     "td": 2.0,
-     "n": 7,
-     "rank": 10,
-     "nteams": 32,
-     "ltd": 1.0,
-     "lrank": 31,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.91,
-    "debt": 1.2,
-    "hist": true,
-    "inj": "News",
-    "news": "Justin Herbert Week 8 Outlook for Fantasy Football (2026)",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 125,
-     "p": 0.83,
-     "ask": 88,
-     "sc": 47.1
-    },
-    "tags": [
-     "Due"
-    ],
-    "low": true,
-    "score": 41.8,
-    "why": [
-     "LAR has allowed 2.0 QB TDs in 7 games (10th most); 1.0 all last season.",
-     "14% red-zone role, 5 touches a game.",
-     "No TDs yet in 6 games (2.0 in 16 last season).",
-     "Low total: LAC projected for 20 pts (O/U 45.5, 6.5-pt underdog).",
-     "Due: 1.2 TD debt (his role says he should have scored more).",
-     "Injury news: Justin Herbert Week 8 Outlook for Fantasy Football (2026)",
-     "Kalshi 78\u00a2 vs model 9%."
+     "Kalshi 64\u00a2 vs model 26%."
     ]
    },
    {
@@ -13475,6 +13645,76 @@
     ]
    },
    {
+    "key": "kyler murray",
+    "pl": "Kyler Murray",
+    "tm": "MIN",
+    "opp": "DET",
+    "pos": "QB",
+    "role": "QB",
+    "g": "MINDET",
+    "gl": "MIN @ DET",
+    "dy": "Sun",
+    "id": "5849",
+    "lam": 0.07,
+    "pm": 0.07,
+    "p": 0.43,
+    "q": 79.0,
+    "ask": 80,
+    "tk": "KXNFLPASSTDS-26NOV01MINDET-MINKMURRAY1-1",
+    "ev": "KXNFLPASSTDS-26NOV01MINDET",
+    "tds": 0,
+    "n": 5,
+    "games_td": 0,
+    "ptd": 1.0,
+    "pn": 5,
+    "rz": 10,
+    "tdsh": 2,
+    "ts": null,
+    "tdr": 0.0,
+    "tpg": 5.0,
+    "pts": 21.8,
+    "sp": 3.0,
+    "tot": 46.5,
+    "d": {
+     "td": 2.0,
+     "n": 6,
+     "rank": 7,
+     "nteams": 32,
+     "ltd": 3.0,
+     "lrank": 20,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 1.15,
+    "debt": 0.8,
+    "hist": true,
+    "inj": "News",
+    "news": "\u2018More Talented Kyler Murray?\u2019 \u201860%, 65% of Josh Allen\u2019 \u2013 Colin Cowherd claps back at Lamar Jackson Over Being Banged Up",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.813,
+     "ask": 87,
+     "sc": 50.8
+    },
+    "tags": [
+     "Soft TD defense"
+    ],
+    "low": false,
+    "score": 43.9,
+    "why": [
+     "DET has allowed 2.0 QB TDs in 6 games (7th most); 3.0 all last season.",
+     "10% red-zone role, 5 touches a game.",
+     "No TDs yet in 5 games (1.0 in 5 last season).",
+     "MIN projected for 22 pts (O/U 46.5, 3-pt underdog).",
+     "Injury news: \u2018More Talented Kyler Murray?\u2019 \u201860%, 65% of Josh Allen\u2019 \u2013 Colin Cowherd claps back at Lamar Jackson Over Being Banged Up",
+     "Kalshi 79\u00a2 vs model 7%."
+    ]
+   },
+   {
     "key": "ollie gordon",
     "pl": "Ollie Gordon II",
     "tm": "MIA",
@@ -13534,6 +13774,77 @@
      "4.0 TDs in 6 games, scored in 4 (4.0 in 17 last season).",
      "Low total: MIA projected for 18 pts (O/U 43.5, 7-pt underdog).",
      "Injury news: Who Should I Start for Fantasy Football Week 8? Jaylen Warren, Ollie Gordon II, Keenan Allen, Michael Wilson, Rhamondre Stevenson, Khalil Shakir, Bam Knight, Malik Washington"
+    ]
+   },
+   {
+    "key": "sam darnold",
+    "pl": "Sam Darnold",
+    "tm": "SEA",
+    "opp": "CHI",
+    "pos": "QB",
+    "role": "QB",
+    "g": "CHISEA",
+    "gl": "CHI @ SEA (Mon)",
+    "dy": "Mon",
+    "id": "4943",
+    "lam": 0.02,
+    "pm": 0.022,
+    "p": 0.428,
+    "q": 83.5,
+    "ask": 86,
+    "tk": "KXNFLPASSTDS-26NOV02CHISEA-SEASDARNOLD14-1",
+    "ev": "KXNFLPASSTDS-26NOV02CHISEA",
+    "tds": 0,
+    "n": 6,
+    "games_td": 0,
+    "ptd": 0,
+    "pn": 17,
+    "rz": 3,
+    "tdsh": 0,
+    "ts": null,
+    "tdr": 0.0,
+    "tpg": 1.5,
+    "pts": 24.8,
+    "sp": -3.0,
+    "tot": 46.5,
+    "d": {
+     "td": 3.0,
+     "n": 7,
+     "rank": 1,
+     "nteams": 32,
+     "ltd": 5.0,
+     "lrank": 10,
+     "leak": false,
+     "recent": [
+      0,
+      1.0
+     ]
+    },
+    "dfac": 1.45,
+    "debt": 0.4,
+    "hist": true,
+    "inj": "News",
+    "news": "Sam Darnold Week 8 Outlook for Fantasy Football (2026)",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.856,
+     "ask": 92,
+     "sc": 56.0
+    },
+    "tags": [
+     "Soft TD defense",
+     "Favored"
+    ],
+    "low": false,
+    "score": 33.2,
+    "why": [
+     "CHI has allowed 3.0 QB TDs in 7 games, the most in the league; 5.0 all last season (10th most).",
+     "3% red-zone role, 1.5 touches a game.",
+     "No TDs yet in 6 games (0 in 17 last season).",
+     "SEA projected for 25 pts (O/U 46.5, favored by 3).",
+     "Injury news: Sam Darnold Week 8 Outlook for Fantasy Football (2026)",
+     "Kalshi 84\u00a2 vs model 2%."
     ]
    },
    {
@@ -13606,6 +13917,77 @@
      "4.0 TDs in 7 games, scored in 4 (11.0 in 17 last season).",
      "ARI projected for 24 pts (O/U 54.5, 7-pt underdog).",
      "Injury news: Trey McBride Week 8 Outlook for Fantasy Football (2026)"
+    ]
+   },
+   {
+    "key": "justin herbert",
+    "pl": "Justin Herbert",
+    "tm": "LAC",
+    "opp": "LAR",
+    "pos": "QB",
+    "role": "QB",
+    "g": "LACLAR",
+    "gl": "LAC @ LAR",
+    "dy": "Sun",
+    "id": "6797",
+    "lam": 0.09,
+    "pm": 0.087,
+    "p": 0.419,
+    "q": 75.0,
+    "ask": 76,
+    "tk": "KXNFLPASSTDS-26NOV01LACLAR-LACJHERBERT10-1",
+    "ev": "KXNFLPASSTDS-26NOV01LACLAR",
+    "tds": 0,
+    "n": 6,
+    "games_td": 0,
+    "ptd": 2.0,
+    "pn": 16,
+    "rz": 14,
+    "tdsh": 4,
+    "ts": null,
+    "tdr": 0.0,
+    "tpg": 5.0,
+    "pts": 19.5,
+    "sp": 6.5,
+    "tot": 45.5,
+    "d": {
+     "td": 2.0,
+     "n": 7,
+     "rank": 10,
+     "nteams": 32,
+     "ltd": 1.0,
+     "lrank": 31,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.91,
+    "debt": 1.2,
+    "hist": true,
+    "inj": "News",
+    "news": "Justin Herbert Week 8 Outlook for Fantasy Football (2026)",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 125,
+     "p": 0.83,
+     "ask": 88,
+     "sc": 47.1
+    },
+    "tags": [
+     "Due"
+    ],
+    "low": true,
+    "score": 41.8,
+    "why": [
+     "LAR has allowed 2.0 QB TDs in 7 games (10th most); 1.0 all last season.",
+     "14% red-zone role, 5 touches a game.",
+     "No TDs yet in 6 games (2.0 in 16 last season).",
+     "Low total: LAC projected for 20 pts (O/U 45.5, 6.5-pt underdog).",
+     "Due: 1.2 TD debt (his role says he should have scored more).",
+     "Injury news: Justin Herbert Week 8 Outlook for Fantasy Football (2026)",
+     "Kalshi 75\u00a2 vs model 9%."
     ]
    },
    {
@@ -13693,11 +14075,11 @@
     "id": "8161",
     "lam": 0.19,
     "pm": 0.171,
-    "p": 0.413,
-    "q": 65.5,
-    "ask": 67,
-    "tk": "KXNFLPASSTDSPROT-26NOV01NEMIA-MIAMWILLIS2-1",
-    "ev": "KXNFLPASSTDSPROT-26NOV01NEMIA",
+    "p": 0.408,
+    "q": 64.5,
+    "ask": 65,
+    "tk": "KXNFLPASSTDS-26NOV01NEMIA-MIAMWILLIS2-1",
+    "ev": "KXNFLPASSTDS-26NOV01NEMIA",
     "tds": 3.0,
     "n": 6,
     "games_td": 3,
@@ -13745,7 +14127,7 @@
      "3.0 TDs in 6 games, scored in 3 (2.0 in 4 last season).",
      "Low total: MIA projected for 18 pts (O/U 43.5, 7-pt underdog).",
      "Injury news: Malik Willis Week 8 Outlook for Fantasy Football (2026)",
-     "Kalshi 66\u00a2 vs model 17%."
+     "Kalshi 64\u00a2 vs model 17%."
     ]
    },
    {
@@ -14425,9 +14807,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 15,
-     "p": 0.828,
-     "ask": 87,
-     "sc": 47.6
+     "p": 0.832,
+     "ask": 88,
+     "sc": 47.5
     },
     "tags": [
      "RZ share top-10",
@@ -14497,9 +14879,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 4,
-     "p": 0.87,
+     "p": 0.873,
      "ask": 92,
-     "sc": 61.8
+     "sc": 61.9
     },
     "tags": [
      "RZ share top-10",
@@ -15403,7 +15785,7 @@
     "debt": -0.8,
     "hist": true,
     "inj": "News",
-    "news": "Eli Raridon or Xavier Worthy: Who Should I Start in Week 8? Fantasy Football",
+    "news": "Eli Raridon Week 8 Outlook for Fantasy Football (2026)",
     "tags": [
      "RZ share top-10",
      "Soft TD defense",
@@ -15418,7 +15800,7 @@
      "10% red-zone role, 8% target share, 12.5% TD rate, 2.7 touches a game.",
      "2.0 TDs in 6 games, scored in 2.",
      "NE projected for 25 pts (O/U 43.5, favored by 7).",
-     "Injury news: Eli Raridon or Xavier Worthy: Who Should I Start in Week 8? Fantasy Football"
+     "Injury news: Eli Raridon Week 8 Outlook for Fantasy Football (2026)"
     ]
    },
    {
@@ -15536,7 +15918,7 @@
     "debt": -0.9,
     "hist": true,
     "inj": "News",
-    "news": "Brevyn Spann-Ford or Brock Bowers: Who Should I Start in Week 8? Fantasy Football",
+    "news": "Brock Bowers or Davis Allen: Who Should I Start in Week 8? Fantasy Football",
     "prop": {
      "pr": "Receptions",
      "ln": 4,
@@ -15555,7 +15937,7 @@
      "10% red-zone role, 20% target share, 5.8% TD rate, 10.4 touches a game.",
      "3.0 TDs in 5 games, scored in 3 (7.0 in 12 last season).",
      "LV projected for 22 pts (O/U 45.5, 1.5-pt underdog).",
-     "Injury news: Brevyn Spann-Ford or Brock Bowers: Who Should I Start in Week 8? Fantasy Football"
+     "Injury news: Brock Bowers or Davis Allen: Who Should I Start in Week 8? Fantasy Football"
     ]
    },
    {
@@ -16141,7 +16523,7 @@
      "ln": 15,
      "p": 0.738,
      "ask": 83,
-     "sc": 30.0
+     "sc": 26.4
     },
     "tags": [
      "Soft TD defense",
@@ -18473,9 +18855,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.768,
-     "ask": 89,
-     "sc": 40.9
+     "p": 0.759,
+     "ask": 87,
+     "sc": 41.0
     },
     "tags": [
      "RZ share top-10"
@@ -18610,7 +18992,7 @@
     "debt": -3.0,
     "hist": true,
     "inj": "News",
-    "news": "Darius Cooper or Elijah Mitchell: Who Should I Start in Week 8? Fantasy Football",
+    "news": "Darius Cooper or Denzel Boston: Who Should I Start in Week 8? Fantasy Football",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
@@ -18628,7 +19010,7 @@
      "8% red-zone role, 8% target share, 22.2% TD rate, 2.6 touches a game.",
      "4.0 TDs in 7 games, scored in 3 (0 in 13 last season).",
      "Low total: PHI projected for 17 pts (O/U 40.5, 6-pt underdog).",
-     "Injury news: Darius Cooper or Elijah Mitchell: Who Should I Start in Week 8? Fantasy Football"
+     "Injury news: Darius Cooper or Denzel Boston: Who Should I Start in Week 8? Fantasy Football"
     ]
    },
    {
@@ -20474,9 +20856,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.806,
-     "ask": 86,
-     "sc": 47.8
+     "p": 0.802,
+     "ask": 85,
+     "sc": 47.9
     },
     "tags": [
      "Soft TD defense"
@@ -21104,8 +21486,8 @@
     "dfac": 1.02,
     "debt": -0.5,
     "hist": true,
-    "inj": null,
-    "news": null,
+    "inj": "News",
+    "news": "Drew Sample or Ted Hurst III: Who Should I Start in Week 8? Fantasy Football",
     "tags": [
      "Shootout script",
      "Favored"
@@ -21116,7 +21498,8 @@
      "TEN has allowed 3.0 TE TDs in 7 games (19th most); 9.0 all last season (9th most).",
      "4% red-zone role, 4% target share, 12.5% TD rate, 1.3 touches a game.",
      "1.0 TD in 6 games, scored in 1 (1.0 in 17 last season).",
-     "CIN projected for 30 pts (O/U 46.5, favored by 12.5)."
+     "CIN projected for 30 pts (O/U 46.5, favored by 12.5).",
+     "Injury news: Drew Sample or Ted Hurst III: Who Should I Start in Week 8? Fantasy Football"
     ]
    },
    {
@@ -23902,7 +24285,7 @@
    6,
    7
   ],
-  "generated": "2026-10-31T18:00:40-07:00",
+  "generated": "2026-10-31T18:03:46-07:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 8 \u00b7 Sun Nov 1 \u2013 Mon Nov 2",
@@ -23926,7 +24309,7 @@
    "weather": "10 outdoor games",
    "injuries": "144 players listed",
    "news": "13 players in headlines",
-   "google_news": "8 role-cut, 174 injury headlines; QB hurt: CAR, MIA, MIN",
+   "google_news": "8 role-cut, 173 injury headlines; QB hurt: CAR, MIA, MIN",
    "sleeper_trending": "40 board players trending",
    "reddit": "unavailable"
   },
