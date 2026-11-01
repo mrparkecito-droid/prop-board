@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T21:18:11+00:00",
+ "generated": "2026-11-01T21:31:04+00:00",
  "games": {
   "BALBUF": {
    "home": "BUF",
@@ -9,10 +9,6 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "2",
-    "temp": 67
-   },
    "wx": {
     "wind": 7,
     "gust": 11,
@@ -30,7 +26,7 @@
    "spread": {},
    "total": null,
    "espn_wx": {
-    "desc": "12",
+    "desc": "7",
     "temp": 68
    },
    "wx": {
@@ -51,7 +47,7 @@
    "total": null,
    "espn_wx": {
     "desc": "6",
-    "temp": 78
+    "temp": 80
    }
   },
   "LACLAR": {
@@ -92,22 +88,6 @@
     "temp": 61
    }
   },
-  "CLEPIT": {
-   "home": "PIT",
-   "away": "CLE",
-   "kick": "2026-11-01T18:00Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "wx": {
-    "wind": 5,
-    "gust": 11,
-    "pop": 5,
-    "rain": 0.0,
-    "temp": 68
-   }
-  },
   "ATLTB": {
    "home": "TB",
    "away": "ATL",
@@ -146,14 +126,11 @@
    "kick": "2026-11-01T21:25Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "DEN": -1.5,
-    "KC": 1.5
-   },
-   "total": 42.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
-    "desc": "Showers",
-    "temp": 66
+    "desc": "6",
+    "temp": 62
    },
    "wx": {
     "wind": 7,
@@ -169,14 +146,11 @@
    "kick": "2026-11-01T21:25Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "NE": -7.0,
-    "MIA": 7.0
-   },
-   "total": 41.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
-    "desc": "Thunderstorms",
-    "temp": 74
+    "desc": "18",
+    "temp": 79
    },
    "wx": {
     "wind": 5,
@@ -236,6 +210,11 @@
  "inj": {
   "ARI": [
    {
+    "name": "Jeremiyah Love",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
     "name": "Jayden Williams",
     "pos": "OT",
     "status": "Questionable"
@@ -249,11 +228,6 @@
     "name": "Kendrick Bourne",
     "pos": "WR",
     "status": "Out"
-   },
-   {
-    "name": "Jeremiyah Love",
-    "pos": "RB",
-    "status": "Questionable"
    },
    {
     "name": "Carson Beck",
@@ -437,6 +411,11 @@
     "status": "Out"
    },
    {
+    "name": "DJ Moore",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Tyrell Shavers",
     "pos": "WR",
     "status": "Out"
@@ -508,6 +487,11 @@
   ],
   "CIN": [
    {
+    "name": "Cashius Howell",
+    "pos": "DE",
+    "status": "Questionable"
+   },
+   {
     "name": "Cedric Johnson",
     "pos": "DE",
     "status": "Questionable"
@@ -515,11 +499,6 @@
    {
     "name": "DJ Turner II",
     "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Cashius Howell",
-    "pos": "DE",
     "status": "Questionable"
    },
    {
@@ -661,6 +640,11 @@
   ],
   "DET": [
    {
+    "name": "Jimmy Rolder",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
     "name": "Cade Mays",
     "pos": "C",
     "status": "Questionable"
@@ -674,11 +658,6 @@
     "name": "Jack Campbell",
     "pos": "LB",
     "status": "Doubtful"
-   },
-   {
-    "name": "Jimmy Rolder",
-    "pos": "LB",
-    "status": "Questionable"
    },
    {
     "name": "Jacob Saylors",
@@ -960,6 +939,11 @@
   ],
   "LAC": [
    {
+    "name": "Daiyan Henley",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
     "name": "Rodney Shelley",
     "pos": "CB",
     "status": "Out"
@@ -1036,6 +1020,11 @@
    {
     "name": "Kadyn Proctor",
     "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Christian Haynes",
+    "pos": "G",
     "status": "Out"
    },
    {
@@ -1470,14 +1459,6 @@
   ]
  },
  "news": {
-  "lamar jackson": {
-   "h": "Michael Florio: Lamar Jackson fantasy managers need to have a backup plan",
-   "t": "2026-11-01T20:08:30Z"
-  },
-  "jauan jennings": {
-   "h": "Source: Jauan Jennings wanted to stay with Vikings amid 49ers trade talks",
-   "t": "2026-11-01T20:12:44Z"
-  },
   "caleb williams": {
    "h": "Bears QB Caleb Williams won't 'spat' custom cleats out of principle, source says",
    "t": "2026-11-01T16:58:24Z"
@@ -1509,189 +1490,181 @@
   "jonathan taylor": {
    "h": "Jeremy Fowler: Interest in Jonathan Taylor is 'heavy' and 'real'",
    "t": "2026-10-31T14:44:08Z"
-  },
-  "garrett wilson": {
-   "h": "'No way' that Jets trade star WR Garrett Wilson before deadline, source says",
-   "t": "2026-10-31T20:25:52Z"
-  },
-  "tee higgins": {
-   "h": "Joe Burrow's trust makes Tee Higgins level up for Bengals",
-   "t": "2026-10-31T10:00:00Z"
   }
  },
  "trend": {
   "seth mcgowan": {
    "rank": 2,
-   "adds": 496864
+   "adds": 493128
   },
   "samaje perine": {
    "rank": 3,
-   "adds": 431032
+   "adds": 422048
   },
   "ryan flournoy": {
    "rank": 4,
-   "adds": 390624
+   "adds": 379672
   },
   "makai lemon": {
    "rank": 6,
-   "adds": 296976
-  },
-  "elijah mitchell": {
-   "rank": 7,
-   "adds": 267543
+   "adds": 287228
   },
   "corey kiner": {
+   "rank": 7,
+   "adds": 265056
+  },
+  "elijah mitchell": {
    "rank": 8,
-   "adds": 265404
+   "adds": 250803
   },
   "elic ayomanor": {
    "rank": 9,
-   "adds": 216900
+   "adds": 207712
   },
   "chris godwin": {
-   "rank": 10,
-   "adds": 196752
+   "rank": 11,
+   "adds": 187332
   },
   "kimani vidal": {
    "rank": 12,
-   "adds": 165850
+   "adds": 160440
   },
   "chris rodriguez": {
    "rank": 13,
-   "adds": 157905
+   "adds": 152604
   },
   "mason taylor": {
    "rank": 14,
-   "adds": 155205
+   "adds": 148330
   },
   "darius cooper": {
    "rank": 15,
-   "adds": 142723
-  },
-  "jadarian price": {
-   "rank": 16,
-   "adds": 139986
-  },
-  "keon coleman": {
-   "rank": 17,
-   "adds": 132615
+   "adds": 138663
   },
   "adonai mitchell": {
-   "rank": 18,
-   "adds": 132344
+   "rank": 16,
+   "adds": 138000
+  },
+  "jadarian price": {
+   "rank": 17,
+   "adds": 136764
   },
   "kyle williams": {
+   "rank": 18,
+   "adds": 127855
+  },
+  "keon coleman": {
    "rank": 19,
-   "adds": 127615
+   "adds": 127647
   },
   "jordan addison": {
    "rank": 21,
-   "adds": 124605
+   "adds": 121986
   },
   "tyler higbee": {
    "rank": 23,
-   "adds": 113715
-  },
-  "khalil shakir": {
-   "rank": 24,
-   "adds": 109053
+   "adds": 111492
   },
   "tyler allgeier": {
-   "rank": 25,
-   "adds": 105500
+   "rank": 24,
+   "adds": 108495
   },
-  "kc concepcion": {
+  "khalil shakir": {
+   "rank": 25,
+   "adds": 103572
+  },
+  "hunter henry": {
    "rank": 27,
-   "adds": 92727
+   "adds": 88563
   },
   "brenton strange": {
    "rank": 28,
-   "adds": 92655
+   "adds": 87552
   },
-  "hunter henry": {
+  "kc concepcion": {
    "rank": 29,
-   "adds": 89679
+   "adds": 87489
   },
   "kenny gainwell": {
    "rank": 30,
-   "adds": 85600
-  },
-  "tre tucker": {
-   "rank": 32,
-   "adds": 79368
+   "adds": 83872
   },
   "cooper kupp": {
-   "rank": 33,
-   "adds": 78120
+   "rank": 32,
+   "adds": 78504
   },
-  "jonah coleman": {
-   "rank": 35,
-   "adds": 77000
+  "tre tucker": {
+   "rank": 33,
+   "adds": 76440
   },
   "kyler murray": {
+   "rank": 35,
+   "adds": 74984
+  },
+  "jonah coleman": {
    "rank": 36,
-   "adds": 76728
+   "adds": 73638
   },
   "efton chism": {
    "rank": 37,
-   "adds": 76684
-  },
-  "dylan sampson": {
-   "rank": 38,
-   "adds": 73505
-  },
-  "caleb douglas": {
-   "rank": 39,
-   "adds": 73008
+   "adds": 73560
   },
   "kirk cousins": {
-   "rank": 40,
-   "adds": 72464
+   "rank": 38,
+   "adds": 71280
+  },
+  "dylan sampson": {
+   "rank": 39,
+   "adds": 71040
   },
   "emanuel wilson": {
-   "rank": 41,
-   "adds": 70479
+   "rank": 40,
+   "adds": 68292
   },
   "malik washington": {
+   "rank": 41,
+   "adds": 68008
+  },
+  "caleb douglas": {
    "rank": 42,
-   "adds": 70088
+   "adds": 66864
   },
   "geno smith": {
    "rank": 43,
-   "adds": 67544
+   "adds": 66008
   },
-  "jaydon blue": {
+  "marshawn lloyd": {
    "rank": 44,
-   "adds": 67408
+   "adds": 65763
   },
   "braelon allen": {
    "rank": 45,
-   "adds": 66444
-  },
-  "marshawn lloyd": {
-   "rank": 46,
-   "adds": 65979
+   "adds": 65624
   },
   "rico dowdle": {
-   "rank": 47,
-   "adds": 65605
+   "rank": 46,
+   "adds": 61110
   },
   "keenan allen": {
-   "rank": 48,
-   "adds": 61716
+   "rank": 47,
+   "adds": 60168
+  },
+  "jaydon blue": {
+   "rank": 49,
+   "adds": 57184
   },
   "justice hill": {
    "rank": 50,
-   "adds": 58689
+   "adds": 55998
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "4 games",
-  "weather": "10 outdoor games",
-  "injuries": "234 players listed",
-  "news": "12 players in headlines",
-  "google_news": "13 role-cut, 158 injury headlines; QB hurt: BAL, LAC, WAS",
+  "lines": "2 games",
+  "weather": "9 outdoor games",
+  "injuries": "237 players listed",
+  "news": "8 players in headlines",
+  "google_news": "13 role-cut, 132 injury headlines; QB hurt: BAL, LAC, WAS",
   "sleeper_trending": "41 board players trending",
   "reddit": "unavailable"
  },
@@ -1715,46 +1688,6 @@
    "cut": false,
    "inj": false,
    "worst": "Criticism Grows Over FOX\u2019s Greg Olsen for Bizarre Comment on Dak Prescott During Cowboys-Cardinals Broadcast"
-  },
-  "lamar jackson": {
-   "h": [
-    "Who is Joe Fagnano? Meet Ravens undrafted QB replacing injured Lamar Jackson, Tyler Huntley",
-    "Lamar Jackson Sports Splint After Leaving Week 8 With Injury - NFL News | Fantasy Football",
-    "Who is Ravens' Joe Fagnano? Baltimore turns to third QB after Lamar Jackson, Tyler Huntley injuries"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Who is Joe Fagnano? Meet Ravens undrafted QB replacing injured Lamar Jackson, Tyler Huntley"
-  },
-  "josh allen": {
-   "h": [
-    "Josh Allen connects with DJ Moore in the end zone for a TD vs. Ravens",
-    "Josh Allen Passes Jim Kelly for Bills Franchise Touchdown Record",
-    "Josh Allen overtakes Jim Kelly for most touchdown passes in Bills history"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Josh Allen connects with DJ Moore in the end zone for a TD vs. Ravens"
-  },
-  "aaron rodgers": {
-   "h": [
-    "Pittsburgh Steelers quarterback Aaron Rodgers finds tight end Pat Freiermuth for a 28-yard gain up the seam",
-    "Steelers Bold Predictions: Aaron Rodgers Torches Browns With AFC North Lead at Stake",
-    "Aaron Rodgers\u2019 $37K donation to New Jersey police sparks privacy backlash as critics question rich people"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 8? Jacoby Brissett, Jayden Daniels, Geno Smith, Jared Goff, Bo Nix, Kirk Cousins, Michael Penix Jr., Aaron Rodgers, Dak Prescott"
-  },
-  "deshaun watson": {
-   "h": [
-    "Steelers-Browns scouting report: The highly paid pass rush has to get to Deshaun Watson - Pittsburgh Post-Gazette",
-    "\u201cRather pour bleach mixed with acid into my eyes\u201d: NFL fans mock Shedeur Sanders\u2019 \u201cawful\u201d drive after replacing Deshaun Watson vs. Steelers",
-    "\"Ruining the game!\" Bad call. Dumb\": NFL fans rip refs for flagging Steelers for rough hit on Deshaun Watson as Shedeur Sanders takes over"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "What happened to Deshaun Watson? Injury update for Browns QB"
   },
   "joe burrow": {
    "h": [
@@ -1973,56 +1906,6 @@
    "inj": true,
    "worst": "James Cook Injury Update: Buffalo Bills RB Status Following Scary Hit"
   },
-  "jaylen warren": {
-   "h": [
-    "Can't-Miss Play: 51-yard gain! Jaylen Warren bolts through Browns' defense for massive pickup",
-    "Antonio Williams or Jaylen Warren",
-    "Jaylen Warren Fantasy Outlook & Stats"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Can't-Miss Play: 51-yard gain! Jaylen Warren bolts through Browns' defense for massive pickup"
-  },
-  "rico dowdle": {
-   "h": [
-    "Pittsburgh Steelers running back Rico Dowdle rips off 15 yards on his first carry vs. Cleveland Browns",
-    "Dowdle will not be denied on a physical 9-yard TD run",
-    "After Deshaun Watson fumble, Rico Dowdle TD gives Steelers 7-0 lead"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Steelers Start or Sit Week 8: DK Metcalf, Rico Dowdle Lead Key Fantasy Calls vs. Browns"
-  },
-  "dylan sampson": {
-   "h": [
-    "Dylan Sampson Week 8 Outlook for Fantasy Football (2026)",
-    "Dylan Sampson or Pat Freiermuth",
-    "Ryan Flournoy or Dylan Sampson"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Dylan Sampson Week 8 Outlook for Fantasy Football (2026)"
-  },
-  "quinshon judkins": {
-   "h": [
-    "Cam Heyward absolutely ambushes Quinshon Judkins for a powerful TFL",
-    "Quinshon Judkins or Reggie Virgil: Who Should I Start in Week 8? Fantasy Football",
-    "Corey Kiner or Quinshon Judkins: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Quinshon Judkins or Reggie Virgil: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "jonathan taylor": {
-   "h": [
-    "Russell Wilson names the NFL team Jonathan Taylor should be pushing to secure trade to before the deadline",
-    "Giants Trade For Taylor Risks Repeating Past Mistakes",
-    "Ranking Rumored Jonathan Taylor Trade Contenders: Can NY Giants Beat Packers, Vikings, Bengals & Broncos in Trade Chase?"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Russell Wilson names the NFL team Jonathan Taylor should be pushing to secure trade to before the deadline"
-  },
   "bhayshul tuten": {
    "h": [
     "WATCH: Tuten scores 39-yard TD vs Colts just before halftime",
@@ -2042,72 +1925,6 @@
    "cut": false,
    "inj": true,
    "worst": "Seth McGowan or Tre' Harris: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "mike washington": {
-   "h": [
-    "Mike Washington Jr. gets early carries over Ashton Jeanty for Raiders vs. Jets - Las Vegas Review-Journal",
-    "Mike Washington Jr. Fantasy Football Start or Sit Advice for Week 8",
-    "Jonathon Brooks or Mike Washington Jr. | Who Should I Start? - Week 8 - PPR"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Mike Washington Jr. Fantasy Football Start or Sit Advice for Week 8"
-  },
-  "braelon allen": {
-   "h": [
-    "Braelon Allen rushes for 21-yard TD, extending Jets' lead over Raiders | NFL Highlights",
-    "Ian Rapoport's Breece Hall, Braelon Allen updates make decision easier for fantasy managers",
-    "New York Jets running back Braelon Allen channels Marshawn Lynch on rugged 24-yard run against Raiders"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Is Breece Hall playing today? Injury update, Braelon Allen start-or-sit advice for Week 8"
-  },
-  "isaiah davis": {
-   "h": [
-    "Adonai Mitchell or Isaiah Davis: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Adonai Mitchell or Isaiah Davis: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "sione vaki": {
-   "h": [
-    "Lan Larison or Sione Vaki: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Lan Larison or Sione Vaki: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "jordan mason": {
-   "h": [
-    "Kenyon Sadiq or Jordan Mason",
-    "Fantasy Football Start/Sit: Jordan Mason, Breece Hall, Braelon Allen",
-    "NFL Week 8 Start \u2018Em, Sit \u2018Em RBs: Jordan Mason vs. J.K. Dobbins"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Start/Sit: Jordan Mason, Breece Hall, Braelon Allen"
-  },
-  "jahmyr gibbs": {
-   "h": [
-    "Lions' Jahmyr Gibbs Scores on Impressive 30-Yard Rushing TD Against Vikings | NFL Highlights",
-    "Can't-Miss Play: Goff chases Gibbs down on RB's 30-yard TD run against Vikings",
-    "Gibbs fights his way for six and a lions lead"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Vikings-Lions injury watch: Jahmyr Gibbs' Week 8 status"
-  },
-  "aaron jones": {
-   "h": [
-    "Final Injury Report for Vikings-Lions: Will Amon-Ra St. Brown, Aaron Jones Sr. Play?",
-    "Is Aaron Jones Playing Today? (Injury Update, Betting Impact for Vikings vs. Lions in NFL Week 8)",
-    "Vikings Announce RB Move After Aaron Jones News"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Final Injury Report for Vikings-Lions: Will Amon-Ra St. Brown, Aaron Jones Sr. Play?"
   },
   "michael carter": {
    "h": [
@@ -2149,6 +1966,15 @@
    "inj": true,
    "worst": "Ja'Kobi Lane or Tony Pollard: Who Should I Start in Week 8? Fantasy Football"
   },
+  "kimani vidal": {
+   "h": [
+    "Josh Cameron or Kimani Vidal: Who Should I Pick Up? Fantasy Football (2026)",
+    "Kimani Vidal Week 8 Outlook for Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Josh Cameron or Kimani Vidal: Who Should I Pick Up? Fantasy Football (2026)"
+  },
   "puka nacua": {
    "h": [
     "Is Puka Nacua Playing Today? (Injury Update, Betting Impact for Chargers vs. Rams in NFL Week 8)",
@@ -2168,15 +1994,6 @@
    "cut": false,
    "inj": true,
    "worst": "Keaton Mitchell or Ladd McConkey: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "kimani vidal": {
-   "h": [
-    "Josh Cameron or Kimani Vidal: Who Should I Pick Up? Fantasy Football (2026)",
-    "Kimani Vidal Week 8 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Josh Cameron or Kimani Vidal: Who Should I Pick Up? Fantasy Football (2026)"
   },
   "omarion hampton": {
    "h": [
@@ -2608,86 +2425,6 @@
    "inj": true,
    "worst": "\"Mark Andrews might be the worst\" \"Got money against Ravens\": NFL fans rip 3x Pro Bowl TE over questionable catch attempt vs. Bills"
   },
-  "harold fannin": {
-   "h": [
-    "Cleveland Browns tight end Harold Fannin Jr. adds 27 yards to his growing career-high in receiving yards",
-    "Cleveland Browns tight end Harold Fannin Jr.'s 37-yard reception puts Cleveland deep inside the red zone",
-    "Cleveland Browns tight end Harold Fannin Jr.'s fumble leads to the Pittsburgh Steelers' opening drive takeaway"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Eli Stowers or Harold Fannin Jr.: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "darnell washington": {
-   "h": [
-    "Can't-Miss Play: 58-yard gain for 264-pound Darnell Washington burns Browns' defense",
-    "Darnell Washington and Carson Schwesinger have a close encounter on TE's 24-yard reception",
-    "That's a BIG gain for a BIG man as Darnell Washington walks the sideline tightrope"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Can't-Miss Play: 58-yard gain for 264-pound Darnell Washington burns Browns' defense"
-  },
-  "jerry jeudy": {
-   "h": [
-    "Dalton Kincaid or Jerry Jeudy: Who Should I Start in Week 8? Fantasy Football",
-    "Insider Drops Truth Bomb on Browns\u2019 Jerry Jeudy Trade Rumors",
-    "Update: The 5-2 Browns Aren't Expected to Trade Jerry Jeudy Now That the Playoffs Are Within Reach, NFL Insider Says"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Dalton Kincaid or Jerry Jeudy: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "pat freiermuth": {
-   "h": [
-    "Freiermuth extends the Steelers' lead with a tush-push TD",
-    "Pittsburgh Steelers quarterback Aaron Rodgers finds tight end Pat Freiermuth for a 28-yard gain up the seam",
-    "Dylan Sampson or Pat Freiermuth"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Josh Cameron or Pat Freiermuth: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "germie bernard": {
-   "h": [
-    "Corey Kiner or Germie Bernard: Who Should I Start in Week 8? Fantasy Football",
-    "Germie Bernard Sit Start Fantasy Football Advice Week 8 (2026) - NFL News",
-    "Germie Bernard or James Cook III: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Corey Kiner or Germie Bernard: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "dk metcalf": {
-   "h": [
-    "Steelers' DK Metcalf turning a wide-open catch into an interception is 1 of the worst gaffes you'll ever see",
-    "Steelers Start or Sit Week 8: DK Metcalf, Rico Dowdle Lead Key Fantasy Calls vs. Browns",
-    "Adam Thielen explains issues between Aaron Rodgers and DK Metcalf"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Steelers' DK Metcalf turning a wide-open catch into an interception is 1 of the worst gaffes you'll ever see"
-  },
-  "kc concepcion": {
-   "h": [
-    "KC Concepcion Jr. or Malik Turner: Who Should I Start in Week 8? Fantasy Football",
-    "Josh Cameron or KC Concepcion Jr.: Who Should I Start in Week 8? Fantasy Football",
-    "KC Concepcion Jr. or Tony Pollard: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "KC Concepcion Jr. or Malik Turner: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "denzel boston": {
-   "h": [
-    "Cleveland Browns wide receiver Denzel Boston nearly makes one of the best one-handed catches of the year",
-    "Mike Gesicki or Denzel Boston",
-    "Denzel Boston or Chris Godwin"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Denzel Boston or DJ Moore: Who Should I Start in Week 8? Fantasy Football"
-  },
   "josh downs": {
    "h": [
     "Josh Downs catches touchdown v. Jaguars in midst of trade speculation",
@@ -2776,6 +2513,16 @@
    "inj": true,
    "worst": "Keenan Allen - Fantasy Football Waiver Wire Pickups for Week 8 (2026) - NFL News"
   },
+  "jonathan taylor": {
+   "h": [
+    "Russell Wilson names the NFL team Jonathan Taylor should be pushing to secure trade to before the deadline",
+    "Giants Trade For Taylor Risks Repeating Past Mistakes",
+    "Ranking Rumored Jonathan Taylor Trade Contenders: Can NY Giants Beat Packers, Vikings, Bengals & Broncos in Trade Chase?"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Russell Wilson names the NFL team Jonathan Taylor should be pushing to secure trade to before the deadline"
+  },
   "brenton strange": {
    "h": [
     "Who Should I Start for Fantasy Football Week 8? Kyle Pitts Sr., Tyler Higbee, Mason Taylor, Travis Kelce, Hunter Henry, Sam LaPorta, Mark Andrews, T.J. Hockenson, Brenton Strange",
@@ -2806,16 +2553,6 @@
    "inj": true,
    "worst": "Parker Washington Week 8 Outlook for Fantasy Football (2026)"
   },
-  "adonai mitchell": {
-   "h": [
-    "Can't-Miss Play: Geno Smith's 47-yard deep ball to Adonai Mitchell is immaculately accurate",
-    "Colts\u2019 Adonai Mitchell Trade Looks Even Worse With Jets News, Draft Pick Update",
-    "Adonai Mitchell or Isaiah Davis: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Adonai Mitchell or Isaiah Davis: Who Should I Start in Week 8? Fantasy Football"
-  },
   "omar cooper": {
    "h": [
     "Omar Cooper Jr. Fantasy Football Start or Sit Advice for Week 8",
@@ -2836,66 +2573,6 @@
    "inj": true,
    "worst": "Jack Bech Injury Update: Raiders WR\u2019s Week 8 Status Revealed"
   },
-  "jalen nailor": {
-   "h": [
-    "Speedy TD! Jalen Nailor snags 2-yard touchdown from Kirk Cousins",
-    "Quarterback Kirk Cousins' TD pass to wide receiver Jalen Nailor gives Las Vegas Raiders a 34-30 lead against Jets",
-    "Kirk Cousins finds Jalen Nailor for 2-Yard TD, giving Raiders lead over Jets | NFL Highlights"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jadarian Price or Jalen Nailor: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "mason taylor": {
-   "h": [
-    "Mason Taylor or Jaylen Waddle",
-    "Who Should I Start for Fantasy Football Week 8? Kyle Pitts Sr., Tyler Higbee, Mason Taylor, Travis Kelce, Hunter Henry, Sam LaPorta, Mark Andrews, T.J. Hockenson, Brenton Strange",
-    "Geno Smith Finds Mason Taylor for Jets Touchdown Stream of National Football League"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 8? Kyle Pitts Sr., Tyler Higbee, Mason Taylor, Travis Kelce, Hunter Henry, Sam LaPorta, Mark Andrews, T.J. Hockenson, Brenton Strange"
-  },
-  "kenyon sadiq": {
-   "h": [
-    "New York Jets tight end Kenyon Sadiq goes WAY upstairs for 22-yard catch",
-    "Kenyon Sadiq or Jordan Mason",
-    "Jordan Whittington or Kenyon Sadiq: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jordan Whittington or Kenyon Sadiq: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "garrett wilson": {
-   "h": [
-    "New York Jets quarterback Geno Smith's first pass of game is 31-yard connection with wide receiver Garrett Wilson",
-    "Jets\u2019 Garrett Wilson frustrated, but not asking for trade",
-    "The Jets Trading Garrett Wilson Would Be a Massive Mistake"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "New York Jets quarterback Geno Smith's first pass of game is 31-yard connection with wide receiver Garrett Wilson"
-  },
-  "justin jefferson": {
-   "h": [
-    "NFL: Justin Jefferson makes an incredible juggling catch",
-    "Justin Jefferson makes incredible juggling TD catch in 1st half of Minnesota-Detroit game",
-    "Justin Jefferson gets Vikings on the board with crazy juggling touchdown catch"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "NFL: Justin Jefferson makes an incredible juggling catch"
-  },
-  "jordan addison": {
-   "h": [
-    "Can't-Miss Play: Murray's 51-yard rainbow to Addison ends with pure gold at the catch point",
-    "Murray's two-point-conversion pass locates wide-open Addison for a 15-12 lead",
-    "Vikings, Jordan Addison Trade Floated As Deadline Nears"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Start/Sit: Keenan Allen, Jordan Addison, Caleb Williams"
-  },
   "isaac teslaa": {
    "h": [
     "Roundtable: Should Detroit Lions Trade WR Isaac TeSlaa?",
@@ -2905,56 +2582,6 @@
    "cut": false,
    "inj": true,
    "worst": "Isaac TeSlaa or Jadarian Price: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "amon ra st brown": {
-   "h": [
-    "Detroit Lions Star Amon-Ra St. Brown Makes NFL History After Injury Scare",
-    "Detroit Lions wide receiver Amon-Ra St. Brown applies serious stiff-arm on Harrison Smith",
-    "Lions\u2019 Amon-Ra St. Brown returns from injury after review takes TD away"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Detroit Lions Star Amon-Ra St. Brown Makes NFL History After Injury Scare"
-  },
-  "jauan jennings": {
-   "h": [
-    "Vikings and 49ers Agree to Jauan Jennings Trade, Jennings Declines Reunion",
-    "Vikings WR Jauan Jennings Nixed Trade Back To 49ers",
-    "\u2018Brandon Aiyuk Isn\u2019t the Only Player Who Hates Them,\u2019 \u2018Can\u2019t Blame Him\u2019 \u2014 NFL World Reacts to Jauan Jennings Rejecting Trade to 49ers"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Vikings and 49ers Agree to Jauan Jennings Trade, Jennings Declines Reunion"
-  },
-  "tj hockenson": {
-   "h": [
-    "Kyler Murray's 8-yard TD pass to Hockenson gives Vikings a 13-12 lead against Lions",
-    "Kyler Murray connects with T.J. Hockenson for an eight-yard TD, giving Vikings lead over Lions | NFL Highlights",
-    "Detroit Lions have allowed the most catches (56), yards (602) and touchdowns (10) to TEs in the NFL this season. Watch for Vikings' T.J. Hockenson. See link below \u2b07\ufe0f \ud83d\udcf8 Junfu Han, Detroit Free Press"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 8? Kyle Pitts Sr., Tyler Higbee, Mason Taylor, Travis Kelce, Hunter Henry, Sam LaPorta, Mark Andrews, T.J. Hockenson, Brenton Strange"
-  },
-  "sam laporta": {
-   "h": [
-    "Sam LaPorta Fantasy Outlook & Stats",
-    "Who Should I Start for Fantasy Football Week 8? Kyle Pitts Sr., Tyler Higbee, Mason Taylor, Travis Kelce, Hunter Henry, Sam LaPorta, Mark Andrews, T.J. Hockenson, Brenton Strange",
-    "Noah Gray or Sam LaPorta: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 8? Kyle Pitts Sr., Tyler Higbee, Mason Taylor, Travis Kelce, Hunter Henry, Sam LaPorta, Mark Andrews, T.J. Hockenson, Brenton Strange"
-  },
-  "jameson williams": {
-   "h": [
-    "Toe-tap tuddy! Goff's TD toss to Jameson Williams gives Lions an 18-15 lead vs. Vikes",
-    "Jared Goff finds Jameson Williams for 7-yard TD, giving Lions' lead against Vikings",
-    "\"Jamo slipped on his route\" \"Dude is such a liability\": NFL fans react as Jameson Williams costs Jared Goff an INT vs. Vikings"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Toe-tap tuddy! Goff's TD toss to Jameson Williams gives Lions an 18-15 lead vs. Vikes"
   },
   "gunnar helm": {
    "h": [
@@ -3055,6 +2682,16 @@
    "inj": true,
    "worst": "Fantasy football Week 8 inactives: Chase to play; Brown, Henderson, Egbuka out"
   },
+  "konata mumpfield": {
+   "h": [
+    "Austin Ekeler or Konata Mumpfield: Who Should I Start in Week 8? Fantasy Football",
+    "Konata Mumpfield To See Increased Role",
+    "Keandre Lambert-Smith or Konata Mumpfield: Who Should I Start in Week 8? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Austin Ekeler or Konata Mumpfield: Who Should I Start in Week 8? Fantasy Football"
+  },
   "tre harris": {
    "h": [
     "Seth McGowan or Tre' Harris: Who Should I Start in Week 8? Fantasy Football",
@@ -3094,16 +2731,6 @@
    "cut": false,
    "inj": true,
    "worst": "Matt Hibner or Oronde Gadsden: Who Should I Start in Week 8? Fantasy Football"
-  },
-  "konata mumpfield": {
-   "h": [
-    "Austin Ekeler or Konata Mumpfield: Who Should I Start in Week 8? Fantasy Football",
-    "Konata Mumpfield To See Increased Role",
-    "Keandre Lambert-Smith or Konata Mumpfield: Who Should I Start in Week 8? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Austin Ekeler or Konata Mumpfield: Who Should I Start in Week 8? Fantasy Football"
   },
   "tyler higbee": {
    "h": [
@@ -3487,6 +3114,16 @@
    "inj": false,
    "worst": "Baker Mayfield made NFL history without completing a single pass against Falcons"
   },
+  "aaron rodgers": {
+   "h": [
+    "Pittsburgh Steelers quarterback Aaron Rodgers finds tight end Pat Freiermuth for a 28-yard gain up the seam",
+    "Steelers Bold Predictions: Aaron Rodgers Torches Browns With AFC North Lead at Stake",
+    "Aaron Rodgers\u2019 $37K donation to New Jersey police sparks privacy backlash as critics question rich people"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 8? Jacoby Brissett, Jayden Daniels, Geno Smith, Jared Goff, Bo Nix, Kirk Cousins, Michael Penix Jr., Aaron Rodgers, Dak Prescott"
+  },
   "michael penix": {
    "h": [
     "A tough outing for Michael Penix Jr.",
@@ -3506,6 +3143,16 @@
    "cut": false,
    "inj": true,
    "worst": "Who Should I Start for Fantasy Football Week 8? Jacoby Brissett, Jayden Daniels, Geno Smith, Jared Goff, Bo Nix, Kirk Cousins, Michael Penix Jr., Aaron Rodgers, Dak Prescott"
+  },
+  "deshaun watson": {
+   "h": [
+    "Steelers-Browns scouting report: The highly paid pass rush has to get to Deshaun Watson - Pittsburgh Post-Gazette",
+    "\u201cRather pour bleach mixed with acid into my eyes\u201d: NFL fans mock Shedeur Sanders\u2019 \u201cawful\u201d drive after replacing Deshaun Watson vs. Steelers",
+    "\"Ruining the game!\" Bad call. Dumb\": NFL fans rip refs for flagging Steelers for rough hit on Deshaun Watson as Shedeur Sanders takes over"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "What happened to Deshaun Watson? Injury update for Browns QB"
   },
   "daniel jones": {
    "h": [
@@ -3536,6 +3183,26 @@
    "cut": false,
    "inj": false,
    "worst": "Jared Goff finds Jameson Williams for 7-yard TD, giving Lions' lead against Vikings"
+  },
+  "josh allen": {
+   "h": [
+    "Josh Allen connects with DJ Moore in the end zone for a TD vs. Ravens",
+    "Josh Allen Passes Jim Kelly for Bills Franchise Touchdown Record",
+    "Josh Allen overtakes Jim Kelly for most touchdown passes in Bills history"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Josh Allen connects with DJ Moore in the end zone for a TD vs. Ravens"
+  },
+  "lamar jackson": {
+   "h": [
+    "Who is Joe Fagnano? Meet Ravens undrafted QB replacing injured Lamar Jackson, Tyler Huntley",
+    "Lamar Jackson Sports Splint After Leaving Week 8 With Injury - NFL News | Fantasy Football",
+    "Who is Ravens' Joe Fagnano? Baltimore turns to third QB after Lamar Jackson, Tyler Huntley injuries"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who is Joe Fagnano? Meet Ravens undrafted QB replacing injured Lamar Jackson, Tyler Huntley"
   },
   "kyler murray": {
    "h": [
