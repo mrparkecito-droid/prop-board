@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T23:01:08+00:00",
+ "generated": "2026-11-06T23:31:13+00:00",
  "games": {
   "CINATL": {
    "home": "ATL",
@@ -49,7 +49,7 @@
     "gust": 11,
     "pop": 0,
     "rain": 0.0,
-    "temp": 64
+    "temp": 63
    }
   },
   "DETMIA": {
@@ -68,11 +68,11 @@
     "temp": 84
    },
    "wx": {
-    "wind": 9,
+    "wind": 11,
     "gust": 7,
     "pop": 10,
     "rain": 0.0,
-    "temp": 83
+    "temp": 84
    }
   },
   "CLENO": {
@@ -153,11 +153,11 @@
     "temp": 65
    },
    "wx": {
-    "wind": 6,
+    "wind": 7,
     "gust": 8,
     "pop": 0,
     "rain": 0.0,
-    "temp": 64
+    "temp": 65
    }
   },
   "HOULAC": {
@@ -426,24 +426,34 @@
   ],
   "CAR": [
    {
-    "name": "Damien Lewis",
+    "name": "Torricelli Simpkins III",
     "pos": "G",
-    "status": "Questionable"
-   },
-   {
-    "name": "Will Lee III",
-    "pos": "CB",
     "status": "Questionable"
    },
    {
     "name": "Bobby Okereke",
     "pos": "LB",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
     "name": "Jaelan Phillips",
     "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "Corey Bullock",
+    "pos": "C",
     "status": "Questionable"
+   },
+   {
+    "name": "Damien Lewis",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Will Lee III",
+    "pos": "CB",
+    "status": "Out"
    }
   ],
   "CHI": [
@@ -813,16 +823,6 @@
     "status": "Questionable"
    },
    {
-    "name": "Isaiah Rodgers",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jake Golday",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
     "name": "Demond Claiborne",
     "pos": "RB",
     "status": "Questionable"
@@ -831,14 +831,14 @@
     "name": "Kyler Murray",
     "pos": "QB",
     "status": "Questionable"
-   },
-   {
-    "name": "Christian Darrisaw",
-    "pos": "OT",
-    "status": "Questionable"
    }
   ],
   "NE": [
+   {
+    "name": "TreVeyon Henderson",
+    "pos": "RB",
+    "status": "Out"
+   },
    {
     "name": "Hunter Henry",
     "pos": "TE",
@@ -847,11 +847,6 @@
    {
     "name": "A.J. Brown",
     "pos": "WR",
-    "status": "Out"
-   },
-   {
-    "name": "TreVeyon Henderson",
-    "pos": "RB",
     "status": "Out"
    },
    {
@@ -894,24 +889,9 @@
   ],
   "NYG": [
    {
-    "name": "Jermaine Eluemunor",
-    "pos": "OT",
-    "status": "Questionable"
-   },
-   {
     "name": "Cam Skattebo",
     "pos": "RB",
     "status": "Doubtful"
-   },
-   {
-    "name": "Andrew Thomas",
-    "pos": "OT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Darius Alexander",
-    "pos": "DT",
-    "status": "Questionable"
    },
    {
     "name": "Charlie Jones",
@@ -1054,6 +1034,16 @@
   ],
   "SEA": [
    {
+    "name": "Uchenna Nwosu",
+    "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "Brandon Pili",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
     "name": "Rashid Shaheed",
     "pos": "WR",
     "status": "Out"
@@ -1066,22 +1056,12 @@
    {
     "name": "Charles Cross",
     "pos": "OT",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
     "name": "Leonard Williams",
     "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Ernest Jones IV",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Derick Hall",
-    "pos": "LB",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
     "name": "Sam Darnold",
@@ -1096,16 +1076,6 @@
    {
     "name": "Velus Jones Jr.",
     "pos": "RB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Brandon Pili",
-    "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Uchenna Nwosu",
-    "pos": "LB",
     "status": "Questionable"
    }
   ],
@@ -1177,6 +1147,10 @@
   ]
  },
  "news": {
+  "christian mccaffrey": {
+   "h": "Nick Bosa back, Christian McCaffrey good to go for Niners",
+   "t": "2026-11-06T22:59:52Z"
+  },
   "malik nabers": {
    "h": "Giants' Cam Skattebo doubtful vs. Eagles; Malik Nabers 'full go'",
    "t": "2026-11-06T22:38:03Z"
@@ -1217,11 +1191,11 @@
    "h": "How the Bucs' defense could create problems for Caleb Williams",
    "t": "2026-11-06T15:20:18Z"
   },
-  "kaelon black": {
+  "malik willis": {
    "h": "Fantasy football last-minute pickups: Kaelon Black and Malik Willis lead the way",
    "t": "2026-11-06T12:11:43Z"
   },
-  "malik willis": {
+  "kaelon black": {
    "h": "Fantasy football last-minute pickups: Kaelon Black and Malik Willis lead the way",
    "t": "2026-11-06T12:11:43Z"
   }
@@ -1229,169 +1203,169 @@
  "trend": {
   "devin singletary": {
    "rank": 1,
-   "adds": 1056285
+   "adds": 1080801
   },
   "chris rodriguez": {
    "rank": 2,
-   "adds": 746433
+   "adds": 747063
   },
   "adonai mitchell": {
    "rank": 3,
-   "adds": 630624
+   "adds": 636984
   },
   "carson wentz": {
    "rank": 5,
-   "adds": 575118
+   "adds": 577530
   },
   "demarcus robinson": {
    "rank": 7,
-   "adds": 423474
+   "adds": 431184
   },
   "malik willis": {
    "rank": 8,
-   "adds": 408870
+   "adds": 410536
   },
   "emmett johnson": {
    "rank": 10,
-   "adds": 285030
+   "adds": 287496
   },
   "joe milton": {
    "rank": 11,
-   "adds": 273620
+   "adds": 274216
   },
   "elijah mitchell": {
    "rank": 12,
-   "adds": 238446
+   "adds": 239886
   },
   "mike gesicki": {
    "rank": 13,
-   "adds": 234292
+   "adds": 235756
   },
   "malik washington": {
    "rank": 14,
-   "adds": 215184
+   "adds": 216800
   },
   "ryan flournoy": {
    "rank": 15,
-   "adds": 209104
+   "adds": 210736
   },
   "jadarian price": {
    "rank": 17,
-   "adds": 195003
+   "adds": 195840
   },
   "omar cooper": {
    "rank": 18,
-   "adds": 188936
+   "adds": 193640
   },
   "dylan sampson": {
    "rank": 20,
-   "adds": 161115
+   "adds": 162425
   },
   "shedeur sanders": {
    "rank": 21,
-   "adds": 159208
+   "adds": 160424
   },
   "keenan allen": {
    "rank": 23,
-   "adds": 149792
+   "adds": 150860
   },
   "kaelon black": {
    "rank": 24,
-   "adds": 136752
+   "adds": 137795
   },
   "kirk cousins": {
    "rank": 26,
-   "adds": 117560
+   "adds": 118048
   },
   "corey kiner": {
    "rank": 27,
-   "adds": 114450
+   "adds": 117714
   },
   "caleb douglas": {
    "rank": 28,
-   "adds": 106232
+   "adds": 107240
   },
   "darius cooper": {
    "rank": 29,
-   "adds": 104643
+   "adds": 106981
   },
   "sione vaki": {
    "rank": 30,
-   "adds": 104496
-  },
-  "cj stroud": {
-   "rank": 31,
-   "adds": 102354
+   "adds": 104825
   },
   "alvin kamara": {
+   "rank": 31,
+   "adds": 102912
+  },
+  "cj stroud": {
    "rank": 32,
-   "adds": 101856
+   "adds": 102697
   },
   "kendre miller": {
    "rank": 34,
-   "adds": 91194
+   "adds": 91714
   },
   "michael mayer": {
    "rank": 35,
-   "adds": 91008
+   "adds": 91611
   },
   "khalil shakir": {
    "rank": 37,
-   "adds": 88533
+   "adds": 89379
   },
   "drew lock": {
    "rank": 38,
-   "adds": 87163
+   "adds": 87549
   },
   "tyler allgeier": {
    "rank": 40,
-   "adds": 80890
+   "adds": 81170
   },
   "gardner minshew": {
    "rank": 41,
-   "adds": 80148
+   "adds": 80328
   },
   "austin ekeler": {
    "rank": 42,
-   "adds": 79352
+   "adds": 80276
   },
   "kenny gainwell": {
    "rank": 43,
-   "adds": 76992
+   "adds": 77616
   },
   "justice hill": {
-   "rank": 45,
-   "adds": 73908
+   "rank": 44,
+   "adds": 74745
   },
   "xavier worthy": {
    "rank": 49,
-   "adds": 67887
+   "adds": 68517
   },
   "jordan addison": {
    "rank": 50,
-   "adds": 65556
+   "adds": 66501
   }
  },
  "buzz": {},
  "sources": {
   "lines": "14 games",
   "weather": "9 outdoor games",
-  "injuries": "165 players listed",
-  "news": "12 players in headlines",
-  "google_news": "8 role-cut, 143 injury headlines; QB hurt: CAR, DAL, MIA, NE, PHI, WAS",
+  "injuries": "159 players listed",
+  "news": "13 players in headlines",
+  "google_news": "11 role-cut, 149 injury headlines; QB hurt: CAR, CLE, DAL, PHI, WAS",
   "sleeper_trending": "36 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
   "joe burrow": {
    "h": [
-    "Bengals\u2019 Joe Burrow Makes Candid Admission About Super Bowl Chances",
     "Bengals' Joe Burrow enjoying Madrid's museums, feeling like \u2018normal person\u2019 ahead of Madrid game",
-    "The Atlanta Falcons have a huge problem vs Joe Burrow | NFL Pro"
+    "The Atlanta Falcons have a huge problem vs Joe Burrow | NFL Pro",
+    "Why Bengals QB Joe Burrow views Madrid game as \u2018dream come true\u2019"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Bengals\u2019 Joe Burrow Makes Candid Admission About Super Bowl Chances"
+   "worst": "Bengals' Joe Burrow enjoying Madrid's museums, feeling like \u2018normal person\u2019 ahead of Madrid game"
   },
   "michael penix": {
    "h": [
@@ -1405,13 +1379,13 @@
   },
   "shedeur sanders": {
    "h": [
-    "Browns QB Shedeur Sanders Refuses to Address Personal Move",
-    "Browns Send Strong Message on Shedeur Sanders After Starting Nod",
-    "Shedeur Sanders Might Not Be Lock To Start Sunday vs. Saints"
+    "Browns to start Shedeur Sanders at quarterback as Deshaun Watson remains in concussion protocol",
+    "Shedeur Sanders Might Not Be Lock To Start Sunday vs. Saints",
+    "Browns to start Shedeur Sanders vs. Saints with Deshaun Watson in concussion protocol"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Browns QB Shedeur Sanders Refuses to Address Personal Move"
+   "inj": true,
+   "worst": "Browns to start Shedeur Sanders at quarterback as Deshaun Watson remains in concussion protocol"
   },
   "tyler shough": {
    "h": [
@@ -1445,19 +1419,19 @@
   },
   "bo nix": {
    "h": [
-    "Bo Nix praises confident, intelligent Broncos RB Jonah Coleman",
     "Comeback king? This surprising number shows how clutch Bo Nix is",
-    "Broncos urged to trade for 3x Eagles Pro Bowl OL to help protect Bo Nix"
+    "Broncos urged to trade for 3x Eagles Pro Bowl OL to help protect Bo Nix",
+    "All 32 NFL quarterbacks (including Bo Nix) ranked by Total QBR in Week 9"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Bo Nix praises confident, intelligent Broncos RB Jonah Coleman"
+   "worst": "Comeback king? This surprising number shows how clutch Bo Nix is"
   },
   "bryce young": {
    "h": [
     "Who Should I Start for Fantasy Football Week 9? Bo Nix, Drew Lock, C.J. Stroud, Bryce Young, Geno Smith, Jordan Love, Matthew Stafford, Carson Wentz, Joe Burrow, Justin Herbert",
-    "Bryce Young Ready to play, ankle improving",
-    "Bryce Young Keeps Taking Sacks, but the Numbers Point to a Bigger Panthers Problem"
+    "Panthers Reportedly Close to Extending Bryce Young Despite Rough Stretch",
+    "Bryce Young Ready to play, ankle improving"
    ],
    "cut": false,
    "inj": true,
@@ -1465,9 +1439,9 @@
   },
   "malik willis": {
    "h": [
-    "NFL 2026 Week 9 Start \u2018Em Sit \u2018Em: Stack Malik Willis and Caleb Douglas",
-    "Have injuries slowed Dolphins QB Malik Willis this season?",
-    "Fantasy Football Start/Sit Week 9: Malik Willis, Patrick Mahomes, Quinshon Judkins, Breece Hall, and More"
+    "How Much Is the Miami Dolphins Offense Holding Back Malik Willis?",
+    "Malik Willis expected to play in Week 9",
+    "NFL 2026 Week 9 Start \u2018Em Sit \u2018Em: Stack Malik Willis and Caleb Douglas"
    ],
    "cut": false,
    "inj": true,
@@ -1516,18 +1490,18 @@
   "tanner mckee": {
    "h": [
     "New Tanner McKee Development Could Benefit Eagles Rookie QB",
-    "Eagles\u2019 Nick Sirianni Sends Clear Message on Tanner McKee Benching",
-    "Tanner McKee Lands In NFL Trade Rumor After Eagles Benching"
+    "Eagles-Giants Final Injury Report: Tanner McKee questionable",
+    "Eagles\u2019 Nick Sirianni Sends Clear Message on Tanner McKee Benching"
    ],
    "cut": true,
-   "inj": false,
+   "inj": true,
    "worst": "Eagles\u2019 Nick Sirianni Sends Clear Message on Tanner McKee Benching"
   },
   "jj mccarthy": {
    "h": [
+    "NFC Notes: DaRon Bland, J.J. McCarthy, Cowboys, Eagles, Giants",
     "NFL Week 9 fantasy sleepers: Giants QB J.J. McCarthy, Cowboys WR Ryan Flournoy offer upside",
-    "J.J. McCarthy Fantasy Outlook & Stats",
-    "Eagles Coach Sends Strong 1-Word Message to Giants QB J.J. McCarthy"
+    "J.J. McCarthy Fantasy Outlook & Stats"
    ],
    "cut": true,
    "inj": false,
@@ -1545,9 +1519,9 @@
   },
   "patrick mahomes": {
    "h": [
+    "Erin Andrews\u2019 2-Word Message for Brittany Mahomes After Chiefs Game",
     "Patrick Mahomes Week 9 Outlook for Fantasy Football (2026)",
-    "Patrick Mahomes showed again why he\u2019s a great teammate after Emmett Johnson\u2019s TD",
-    "Drew Mestemaker trained with Patrick Mahomes' quarterback coach, now he's emerging as a 2027 NFL Draft fa"
+    "Patrick Mahomes showed again why he\u2019s a great teammate after Emmett Johnson\u2019s TD"
    ],
    "cut": false,
    "inj": true,
@@ -1565,13 +1539,23 @@
   },
   "cj stroud": {
    "h": [
-    "C.J. Stroud rejects massive Houston Texans contract offer for surprising reason",
-    "CJ Stroud says Texans need \"to be more balanced\" with the run game",
-    "Zay Flowers or C.J. Stroud"
+    "Who Should I Start for Fantasy Football Week 9? Bo Nix, Drew Lock, C.J. Stroud, Bryce Young, Geno Smith, Jordan Love, Matthew Stafford, Carson Wentz, Joe Burrow, Justin Herbert",
+    "Former Ohio State C.J. Stroud gives vote of confidence to Luke Fahey moving forward",
+    "C.J. Stroud rejects massive Houston Texans contract offer for surprising reason"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "C.J. Stroud rejects massive Houston Texans contract offer for surprising reason"
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 9? Bo Nix, Drew Lock, C.J. Stroud, Bryce Young, Geno Smith, Jordan Love, Matthew Stafford, Carson Wentz, Joe Burrow, Justin Herbert"
+  },
+  "drew lock": {
+   "h": [
+    "Drew Lock Confirmed to Start Against Cardinals in Week 9 - NFL News | Fantasy Football",
+    "Drew Lock Set for Week 9 start",
+    "Drew Lock reveals why Week 9 start against Arizona means so much more"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Drew Lock Confirmed to Start Against Cardinals in Week 9 - NFL News | Fantasy Football"
   },
   "gardner minshew": {
    "h": [
@@ -1585,9 +1569,9 @@
   },
   "drake maye": {
    "h": [
+    "AFC Notes: Adonai Mitchell, Drake Maye, Trade Market, Jets, Patriots",
     "Watch Why Jordan Love and Drake Maye are the ultimate franchise quarterbacks - The Herd with Colin Cowherd",
-    "Drake Maye & More React as Patriots' TreVeyon Henderson Announces Concerning Medical Update",
-    "Friday Patriots Roundtable Read: Can Drake Maye & Banged-Up Patriots Weather Green Bay Before Germany?"
+    "Drake Maye & More React as Patriots' TreVeyon Henderson Announces Concerning Medical Update"
    ],
    "cut": false,
    "inj": true,
@@ -1615,13 +1599,13 @@
   },
   "kirk cousins": {
    "h": [
+    "Vikings Get Kirk Cousins, Derrick Henry Take Before Trade Deadline",
     "Raheem Morris Sounds Off On Kirk Cousins Ahead of 49ers-Raiders Matchup",
-    "NFL QB Kirk Cousins Follows Jesus, No Matter What It Costs",
-    "The Raiders got a vintage comeback from Kirk Cousins. They may need his heroics in upcoming stretch - www.the-messenger.com"
+    "NFL QB Kirk Cousins Follows Jesus, No Matter What It Costs"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Raheem Morris Sounds Off On Kirk Cousins Ahead of 49ers-Raiders Matchup"
+   "worst": "Vikings Get Kirk Cousins, Derrick Henry Take Before Trade Deadline"
   },
   "baker mayfield": {
    "h": [
@@ -1635,9 +1619,9 @@
   },
   "caleb williams": {
    "h": [
-    "Donte Whitner Picks Bucs to Serve Caleb Williams, Bears 'Humble Pie' in Week 9",
-    "Week 9 Fantasy Football & NFL Bets FIRE & ICE Players: START Justin Jefferson, SIT Caleb Williams",
-    "Caleb Williams Is Carrying All Of Chicago Sports On His Back"
+    "Caleb Williams Would Have to Make NFL History",
+    "Why the combo of Ben Johnson & Caleb Williams should scare the rest of the NFL | Bears Blitz",
+    "Donte Whitner Picks Bucs to Serve Caleb Williams, Bears 'Humble Pie' in Week 9"
    ],
    "cut": false,
    "inj": true,
@@ -1666,11 +1650,12 @@
   "samaje perine": {
    "h": [
     "Samaje Perine or Dontayvion Wicks",
+    "Eli Raridon or Samaje Perine: Who Should I Start in Week 9? Fantasy Football",
     "Who Should I Start for Fantasy Football Week 9? Keon Coleman, Bam Knight, Chris Bell, Tank Dell, Samaje Perine, Seth McGowan, Kenny Gainwell, Tetairoa McMillan, James Cook, Jonathan Taylor"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 9? Keon Coleman, Bam Knight, Chris Bell, Tank Dell, Samaje Perine, Seth McGowan, Kenny Gainwell, Tetairoa McMillan, James Cook, Jonathan Taylor"
+   "worst": "Eli Raridon or Samaje Perine: Who Should I Start in Week 9? Fantasy Football"
   },
   "chase brown": {
    "h": [
@@ -1692,11 +1677,21 @@
    "inj": false,
    "worst": "NFL Madrid: Cincinnati Bengals head coach Zac Taylor on Joe Burrow, Ja'Marr Chase, Tee Higgins and Bijan Robinson"
   },
+  "dylan sampson": {
+   "h": [
+    "Who Should I Start for Fantasy Football Week 9? DeMario Douglas, Devin Singletary, Dylan Sampson, Christian Watson, Ollie Gordon II, Jordan Mason, Michael Wilson, Tyler Allgeier",
+    "Next week\u2019s waiver wire: Dylan Sampson and more players to add before the Week 10 rush",
+    "Derrick Henry or Dylan Sampson: Who Should I Start in Week 9? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 9? DeMario Douglas, Devin Singletary, Dylan Sampson, Christian Watson, Ollie Gordon II, Jordan Mason, Michael Wilson, Tyler Allgeier"
+  },
   "alvin kamara": {
    "h": [
-    "Alvin Kamara Ready for Sunday",
+    "Full practice for Alvin Kamara on Friday",
     "No injury designation for Alvin Kamara for Week 9",
-    "Saints' Alvin Kamara: Ready for Sunday"
+    "Alvin Kamara Ready for Sunday"
    ],
    "cut": false,
    "inj": true,
@@ -1709,14 +1704,14 @@
     "Aaron Jones Sr. or Kendre Miller"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Saints Rule RB Out, Complicating Alvin Kamara and Kendre Miller Trade Rumors"
+   "inj": true,
+   "worst": "Brian Thomas Jr. or Kendre Miller: Who Should I Start in Week 9? Fantasy Football"
   },
   "quinshon judkins": {
    "h": [
     "Week 9 Best FLEX Plays: Top 5 Must-Starts Featuring Jonah Coleman and Quinshon Judkins",
     "Fantasy Football Start/Sit Week 9: Malik Willis, Patrick Mahomes, Quinshon Judkins, Breece Hall, and More",
-    "Should you start RB Quinshon Judkins in fantasy football in Week 9?"
+    "Quinshon Judkins or MarShawn Lloyd"
    ],
    "cut": false,
    "inj": true,
@@ -1734,41 +1729,43 @@
   },
   "tyler goodson": {
    "h": [
-    "Jordyn Tyson or Tyler Goodson: Who Should I Start in Week 9? Fantasy Football"
+    "Nick Sorensen On Tyler Goodson And KaVontae Turpin",
+    "Brian Robinson or Tyler Goodson: Who Should I Start in Week 9? Fantasy Football",
+    "DeVonta Smith or Tyler Goodson: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jordyn Tyson or Tyler Goodson: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Brian Robinson or Tyler Goodson: Who Should I Start in Week 9? Fantasy Football"
   },
   "jonathan taylor": {
    "h": [
-    "NFL Trade Deadline: Latest on Derrick Henry, Jonathan Taylor and more",
-    "The Colts may be forced to keep Jonathan Taylor if they do not lower their very high financial expectations",
-    "Colts Want This Specific Price for Jonathan Taylor \u2014 or Trade Might Not Happen"
+    "Derrick Henry would be intriguing Giants pivot if Jonathan Taylor is too expensive",
+    "Stampede Blue Reacts results (Week 9): Colts confidence falls to 19%, fans favor Taylor trade",
+    "NFL Trade Deadline: Latest on Derrick Henry, Jonathan Taylor and more"
    ],
    "cut": false,
    "inj": false,
-   "worst": "NFL Trade Deadline: Latest on Derrick Henry, Jonathan Taylor and more"
+   "worst": "Derrick Henry would be intriguing Giants pivot if Jonathan Taylor is too expensive"
   },
   "javonte williams": {
    "h": [
+    "Feel Good Moments: Javonte Williams Shines in Cowboys' Win Over Eagles Stream of National Football League",
     "Week 9 NFL odds, prop picks, predictions: Target NFL player props for Javonte Williams, Drake London on Sunday",
-    "Cowboys Urged To Pursue Colts Star Jonathan Taylor Despite Javonte Williams' Success",
-    "Javonte Williams or Jonah Coleman | Who Should I Start Week 9"
+    "Cowboys Urged To Pursue Colts Star Jonathan Taylor Despite Javonte Williams' Success"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Javonte Williams or Kenny Gainwell: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Feel Good Moments: Javonte Williams Shines in Cowboys' Win Over Eagles Stream of National Football League"
   },
   "jk dobbins": {
    "h": [
+    "How should the Broncos split carries between J.K. Dobbins and Jonah Coleman? \u2013 Denver Sports",
     "Albert Breer provides Broncos trade updates on Jonathan Taylor and J.K. Dobbins",
-    "Broncos get noteworthy J.K. Dobbins trade update after RB room news",
-    "Demarcus Robinson or J.K. Dobbins: Who Should I Start in Week 9? Fantasy Football"
+    "Broncos get noteworthy J.K. Dobbins trade update after RB room news"
    ],
-   "cut": false,
+   "cut": true,
    "inj": true,
-   "worst": "Demarcus Robinson or J.K. Dobbins: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "How should the Broncos split carries between J.K. Dobbins and Jonah Coleman? \u2013 Denver Sports"
   },
   "jonah coleman": {
    "h": [
@@ -1783,8 +1780,8 @@
   "chuba hubbard": {
    "h": [
     "Who Should I Start for Fantasy Football Week 9? Jordyn Tyson, DJ Moore, Luther Burden III, Omarion Hampton, Josh Jacobs, Chuba Hubbard, Rome Odunze, Rashee Rice, Jordan Watkins",
-    "Chuba Hubbard or Josh Cuevas: Who Should I Start in Week 9? Fantasy Football",
-    "Chuba Hubbard Fantasy Stats, News, Rankings, Projections"
+    "Chuba Hubbard or Seth McGowan: Who Should I Start in Week 9? Fantasy Football",
+    "Andrew Armstrong or Chuba Hubbard: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -1816,9 +1813,9 @@
     "Who Should I Start for Fantasy Football Week 9? DeMario Douglas, Devin Singletary, Dylan Sampson, Christian Watson, Ollie Gordon II, Jordan Mason, Michael Wilson, Tyler Allgeier",
     "Ollie Gordon II - Fantasy Football Fallers, Bust Candidates for Week 9 (2026)? - NFL News"
    ],
-   "cut": false,
+   "cut": true,
    "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 9? DeMario Douglas, Devin Singletary, Dylan Sampson, Christian Watson, Ollie Gordon II, Jordan Mason, Michael Wilson, Tyler Allgeier"
+   "worst": "Why Daniel Dopp would bench Ollie Gordon II if he had the chance"
   },
   "jahmyr gibbs": {
    "h": [
@@ -1833,7 +1830,7 @@
   "rachaad white": {
    "h": [
     "Rachaad White - Fantasy Football Fallers, Bust Candidates for Week 9 (2026)? - NFL News",
-    "Commanders' RB Rachaad White 'does it all, and does it well'",
+    "Efton Chism III or Rachaad White: Who Should I Start in Week 9? Fantasy Football",
     "Commanders' RB Rachaad White 'does it all, and does it well'"
    ],
    "cut": false,
@@ -1853,12 +1850,12 @@
   "blake corum": {
    "h": [
     "Blake Nolan Corum Week 9 Preview vs. the Commanders",
-    "Who Should I Start for Fantasy Football Week 9? Adonai Mitchell, Blake Corum, Jalen Coker, Aaron Jones Sr., Alvin Kamara, George Pickens, Deebo Samuel, Malik Washington, Garrett Wilson",
-    "Why Clay doesn't feel good about Blake Corum in the long-term"
+    "Blake Corum or CeeDee Lamb: Who Should I Start in Week 9? Fantasy Football",
+    "Who Should I Start for Fantasy Football Week 9? Adonai Mitchell, Blake Corum, Jalen Coker, Aaron Jones Sr., Alvin Kamara, George Pickens, Deebo Samuel, Malik Washington, Garrett Wilson"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 9? Adonai Mitchell, Blake Corum, Jalen Coker, Aaron Jones Sr., Alvin Kamara, George Pickens, Deebo Samuel, Malik Washington, Garrett Wilson"
+   "worst": "Blake Corum or CeeDee Lamb: Who Should I Start in Week 9? Fantasy Football"
   },
   "devin singletary": {
    "h": [
@@ -1874,7 +1871,7 @@
    "h": [
     "Saquon Barkley Week 9 Outlook for Fantasy Football (2026)",
     "Eagles receive Saquon Barkley boost ahead of Giants game",
-    "Saquon Barkley Clear for Week 9 action"
+    "Saquon Barkley set to play as Eagles remain without DeVonta Smith, Dontayvion Wicks"
    ],
    "cut": false,
    "inj": true,
@@ -1888,7 +1885,7 @@
    ],
    "cut": false,
    "inj": true,
-   "worst": "Will Breece Hall play for the Jets against the Chiefs? New York RB\u2019s injury status"
+   "worst": "NFL Week 9 Injury Report: Kyler Murray Questionable for Vikings, Breece Hall Probable for Jets"
   },
   "braelon allen": {
    "h": [
@@ -1920,35 +1917,45 @@
    "inj": true,
    "worst": "Emmett Johnson Week 9 Outlook for Fantasy Football (2026)"
   },
-  "woody marks": {
+  "keaton mitchell": {
    "h": [
-    "Texans OC Nick Caley on Woody Marks: \"He can play on all three downs\"",
-    "Woody Marks Is A Sneaky Week 9 Option For Fantasy Football",
-    "Demarcus Robinson or Woody Marks: Who Should I Start in Week 9? Fantasy Football"
+    "Bucky Irving or Keaton Mitchell",
+    "Keaton Mitchell or Nate Boerkircher: Who Should I Start in Week 9? Fantasy Football",
+    "Colbie Young or Keaton Mitchell: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Woody Marks Is A Sneaky Week 9 Option For Fantasy Football"
+   "worst": "Keaton Mitchell or Nate Boerkircher: Who Should I Start in Week 9? Fantasy Football"
+  },
+  "woody marks": {
+   "h": [
+    "Texans' Woody Marks nominated for NFL Salute to Service award",
+    "Woody Marks\u2019 Texans Opportunity Comes With a Bigger Test Against Chargers",
+    "Texans OC Nick Caley on Woody Marks: \"He can play on all three downs\""
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Khalil Herbert or Woody Marks: Who Should I Start in Week 9? Fantasy Football"
   },
   "omarion hampton": {
    "h": [
     "Omarion Hampton Week 9 Outlook Is Brighter Than Ever Thanks to New Mike McDaniel Quote",
-    "Who Should I Start for Fantasy Football Week 9? Jordyn Tyson, DJ Moore, Luther Burden III, Omarion Hampton, Josh Jacobs, Chuba Hubbard, Rome Odunze, Rashee Rice, Jordan Watkins",
-    "Mike McDaniel Hints at Bigger Omarion Hampton Workload"
+    "Mike McDaniel Hints at Bigger Omarion Hampton Workload",
+    "Bijan Robinson or Omarion Hampton | Who Should I Start Week 9"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 9? Jordyn Tyson, DJ Moore, Luther Burden III, Omarion Hampton, Josh Jacobs, Chuba Hubbard, Rome Odunze, Rashee Rice, Jordan Watkins"
+   "worst": "Ameer Abdullah or Omarion Hampton: Who Should I Start in Week 9? Fantasy Football"
   },
   "tyler allgeier": {
    "h": [
+    "Josh Cuevas or Tyler Allgeier: Who Should I Draft? Fantasy Football (2026)",
     "Tyler Allgeier Takes Over as Cardinals' RB1 Stream of National Football League",
-    "Fantasy Managers Should Trade for Tyler Allgeier Ahead Of Week 9",
-    "George Pickens or Tyler Allgeier: Who Should I Start in Week 9? Fantasy Football"
+    "J.J. McCarthy or Tyler Allgeier"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Tyler Allgeier Takes Over as Cardinals' RB1 Stream of National Football League"
+   "worst": "Josh Cuevas or Tyler Allgeier: Who Should I Draft? Fantasy Football (2026)"
   },
   "zach charbonnet": {
    "h": [
@@ -1963,12 +1970,12 @@
   "jadarian price": {
    "h": [
     "Seahawks rookie RB Jadarian Price earns subpar PFF grade for Week 8",
-    "Demond Claiborne or Jadarian Price: Who Should I Start in Week 9? Fantasy Football",
-    "Jadarian Price Week 9 Outlook - Cardinals at Seahawks"
+    "Evan Hull or Jadarian Price: Who Should I Start in Week 9? Fantasy Football",
+    "Demond Claiborne or Jadarian Price: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Demond Claiborne or Jadarian Price: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Evan Hull or Jadarian Price: Who Should I Start in Week 9? Fantasy Football"
   },
   "corey kiner": {
    "h": [
@@ -1984,7 +1991,7 @@
    "h": [
     "Rhamondre Stevenson Set for expanded workload again in Week 9",
     "Patriots' Rhamondre Stevenson: Set for expanded workload again in Week 9",
-    "Rhamondre Stevenson Week 9 Outlook for Fantasy Football (2026)"
+    "Rashid Shaheed or Rhamondre Stevenson or Romeo Doubs or Wandale Robinson: Who Should I Start for Week 9?"
    ],
    "cut": false,
    "inj": true,
@@ -2000,11 +2007,21 @@
    "inj": true,
    "worst": "Josh Jacobs Week 9 Outlook for Fantasy Football (2026)"
   },
+  "christian mccaffrey": {
+   "h": [
+    "49ers news: Nick Bosa, Christian McCaffrey in, Mike Evans, Deebo Samuel out vs. Raiders",
+    "Nick Bosa back, Christian McCaffrey good to go for Niners",
+    "San Francisco 49ers Announce Christian McCaffrey Decision Before Raiders Game"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "A.J. Brown, Christian McCaffrey, NFL Injury Statuses and Fantasy Impact for Week 9"
+  },
   "kaelon black": {
    "h": [
+    "Breece Hall or Kaelon Black",
     "Kaelon Black or Ashton Jeanty",
-    "Kaelon Black or Zach Charbonnet",
-    "49ers rookie Kaelon Black reflects on NFL debut, sees room for growth"
+    "Kaelon Black or Zach Charbonnet"
    ],
    "cut": false,
    "inj": true,
@@ -2012,9 +2029,9 @@
   },
   "mike washington": {
    "h": [
+    "49ers doing extensive pre-draft work on Arkansas RB Mike Washington Jr.",
     "RJ Harvey or Mike Washington",
-    "Fantasy Football Week 9 Running Back Start Em Sit Em: Jonah Coleman, Mike Washington Jr., Ashton Jeanty",
-    "Andrew Janocko on Mike Washington Jr.: 'Someone that continues to improve'"
+    "Fantasy Football Week 9 Running Back Start Em Sit Em: Jonah Coleman, Mike Washington Jr., Ashton Jeanty"
    ],
    "cut": false,
    "inj": true,
@@ -2022,13 +2039,13 @@
   },
   "ashton jeanty": {
    "h": [
+    "Ashton Jeanty Seeing Decline in Production Stream of National Football League",
     "Why Ashton Jeanty is Primed for a Bounce Back Week vs 49ers",
-    "Stock Down: Why Ashton Jeanty Has Struggled In Las Vegas Stream of National Football League",
-    "Ashton Jeanty or Jacoby Brissett"
+    "Stock Down: Why Ashton Jeanty Has Struggled In Las Vegas Stream of National Football League"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Stock Down: Why Ashton Jeanty Has Struggled In Las Vegas Stream of National Football League"
+   "worst": "Ashton Jeanty Seeing Decline in Production Stream of National Football League"
   },
   "roschon johnson": {
    "h": [
@@ -2064,7 +2081,7 @@
    "h": [
     "Bucky Irving Week 9 Outlook for Fantasy Football (2026)",
     "Bucky Irving Powers Ahead for TD | Falcons vs. Bucs Highlights",
-    "Jeremiyah Love or Bucky Irving"
+    "Some Folks Never Learn, Bucky Irving Homecoming, and Other Bears Bullets"
    ],
    "cut": false,
    "inj": true,
@@ -2072,11 +2089,12 @@
   },
   "ray davis": {
    "h": [
-    "Ray Davis Discusses Facing Vikings On MNF"
+    "Ray Davis Discusses Facing Vikings On MNF",
+    "J. Michael Sturdivant or Ray Davis: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Ray Davis Discusses Facing Vikings On MNF"
+   "inj": true,
+   "worst": "J. Michael Sturdivant or Ray Davis: Who Should I Start in Week 9? Fantasy Football"
   },
   "jordan mason": {
    "h": [
@@ -2102,7 +2120,7 @@
    "h": [
     "Bold running back predictions in NFL Week 9: Jonathan Taylor, James Cook & more",
     "George Kittle or James Cook III: Who Should I Start in Week 9? Fantasy Football",
-    "Brian Robinson or James Cook III: Who Should I Start in Week 9? Fantasy Football"
+    "James Cook III or KC Concepcion Jr.: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -2118,8 +2136,7 @@
   },
   "austin hooper": {
    "h": [
-    "Austin Hooper or Eli Raridon: Who Should I Start in Week 9? Fantasy Football",
-    "Austin Hooper or Jake Ferguson: Who Should I Start in Week 9? Fantasy Football"
+    "Austin Hooper or Eli Raridon: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -2127,13 +2144,13 @@
   },
   "drake london": {
    "h": [
+    "Why a Drake London mismatch could be big for fantasy",
     "Week 9 NFL odds, prop picks, predictions: Target NFL player props for Javonte Williams, Drake London on Sunday",
-    "Drake London or George Pickens or Tee Higgins or Terry Mclaurin: Who Should I Start in Week 9? Fantasy Football",
     "NFL Player Props & Anytime TD Picks For Week 9: Drake London, Jonah Coleman & More"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Drake London or George Pickens or Tee Higgins or Terry Mclaurin: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Drake London or Eli Raridon: Who Should I Start in Week 9? Fantasy Football"
   },
   "dohnte meyers": {
    "h": [
@@ -2149,7 +2166,7 @@
    "h": [
     "Mike Gesicki or Seth McGowan: Who Should I Start in Week 9? Fantasy Football",
     "Mike Gesicki Week 9 Outlook for Fantasy Football (2026)",
-    "Week 9 Fantasy QB and TE Rankings: Harold Fannin Jr. or Mike Gesicki?"
+    "Rashee Rice or Mike Gesicki"
    ],
    "cut": false,
    "inj": true,
@@ -2167,9 +2184,9 @@
   },
   "tee higgins": {
    "h": [
+    "Oak Ridge native Tee Higgins to play an NFL game in Spain",
     "Tee Higgins Week 9 Outlook for Fantasy Football (2026)",
-    "Falcons' key to victory in Week 9 is slowing down Ja'Marr Chase and Tee Higgins",
-    "NFL Madrid: Cincinnati Bengals head coach Zac Taylor on Joe Burrow, Ja'Marr Chase, Tee Higgins and Bijan Robinson"
+    "Falcons' key to victory in Week 9 is slowing down Ja'Marr Chase and Tee Higgins"
    ],
    "cut": false,
    "inj": true,
@@ -2188,32 +2205,42 @@
   "kyle pitts": {
    "h": [
     "Who Should I Start for Fantasy Football Week 9? Dalton Kincaid, Travis Kelce, Isaiah Likely, Sam LaPorta, Kyle Pitts Sr., Chig Okonkwo, Dalton Schultz, Mike Gesicki, Greg Dulcich",
-    "Kyle Pitts Sr. or Roschon Johnson: Who Should I Start in Week 9? Fantasy Football",
-    "Kyle Pitts Sr. Week 9 Outlook - Bengals at Falcons"
+    "Kyle Pitts Sr. Week 9 Outlook - Bengals at Falcons",
+    "Week 9 Fantasy Football Tight End Start \u2018Em, Sit \u2018Em: Kyle Pitts vs. Brenton Strange"
    ],
    "cut": false,
    "inj": true,
    "worst": "Who Should I Start for Fantasy Football Week 9? Dalton Kincaid, Travis Kelce, Isaiah Likely, Sam LaPorta, Kyle Pitts Sr., Chig Okonkwo, Dalton Schultz, Mike Gesicki, Greg Dulcich"
   },
+  "jerry jeudy": {
+   "h": [
+    "Browns Send Clear Message on Jerry Jeudy Trade",
+    "Trade Rumors Again Swirling Around Browns' Jerry Jeudy",
+    "Jerry Jeudy delivers strong Shedeur Sanders endorsement ahead of potential Browns QB change"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Browns Send Clear Message on Jerry Jeudy Trade"
+  },
   "juwan johnson": {
    "h": [
+    "CJ Donaldson or Juwan Johnson: Who Should I Start in Week 9? Fantasy Football",
     "Should I Trade (Half PPR) Juwan Johnson for Bam Knight (2026)?",
-    "Josh Cuevas or Juwan Johnson: Who Should I Start in Week 9? Fantasy Football",
     "Juwan Johnson Week 9 Outlook - Browns at Saints"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Josh Cuevas or Juwan Johnson: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "CJ Donaldson or Juwan Johnson: Who Should I Start in Week 9? Fantasy Football"
   },
   "denzel boston": {
    "h": [
+    "Denzel Boston (calf) limited again on Thursday",
     "Fantasy Football Week 9 Start 'Em Sit 'Em: Denzel Boston or Ladd McConkey?",
-    "Denzel Boston (calf) off injury report for Sunday",
-    "Denzel Boston (calf) will play Week 9 vs. Saints"
+    "Denzel Boston (calf) off injury report for Sunday"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Fantasy Football Week 9 Start 'Em Sit 'Em: Denzel Boston or Ladd McConkey?"
+   "worst": "Denzel Boston (calf) limited again on Thursday"
   },
   "chris olave": {
    "h": [
@@ -2227,13 +2254,13 @@
   },
   "kc concepcion": {
    "h": [
-    "Chris Bell or Kc concepcion Jr.: Who Should I Start in Week 9? Fantasy Football",
     "Fantasy Football Week 9 Start 'Em, Sit 'Em: KC Concepcion Jr vs. Jaylen Waddle",
-    "James Cook III or KC Concepcion Jr.: Who Should I Start in Week 9? Fantasy Football"
+    "James Cook III or KC Concepcion Jr.: Who Should I Start in Week 9? Fantasy Football",
+    "KC Concepcion Jr. or Seth McGowan: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Chris Bell or Kc concepcion Jr.: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Fantasy Football Week 9 Start 'Em, Sit 'Em: KC Concepcion Jr vs. Jaylen Waddle"
   },
   "harold fannin": {
    "h": [
@@ -2256,13 +2283,13 @@
   },
   "josh downs": {
    "h": [
-    "Colts news: Josh Downs draws interest from Chiefs, Steelers before trade deadline",
+    "Colts\u2019 Josh Downs draws interest from Chiefs, Steelers before trade deadline",
     "Breer: Josh Downs leads the wide receiver market",
-    "Colts\u2019 Josh Downs Gets Major Trade Update From Sports Illustrated"
+    "Ex-Dolphins WR Tyreek Hill Not Helped by Chiefs\u2019 Josh Downs Update"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Colts news: Josh Downs draws interest from Chiefs, Steelers before trade deadline"
+   "worst": "Colts\u2019 Josh Downs draws interest from Chiefs, Steelers before trade deadline"
   },
   "keenan allen": {
    "h": [
@@ -2296,9 +2323,9 @@
   },
   "george pickens": {
    "h": [
-    "Week 9 Fantasy Football Injury Report: The Latest Updates On George Pickens, Cam Skattebo, Hunter Herny, And More",
-    "Caleb Downs has no injury designation, George Pickens listed as questionable",
-    "George Pickens' Week 9 status in question"
+    "Cowboys Make Final Trade Decision on George Pickens: Report",
+    "Big Trade? More Targets? Why Are Cowboys Talking In Circles About George Pickens?",
+    "Week 9 Fantasy Football Injury Report: The Latest Updates On George Pickens, Cam Skattebo, Hunter Herny, And More"
    ],
    "cut": false,
    "inj": true,
@@ -2307,8 +2334,8 @@
   "ceedee lamb": {
    "h": [
     "CeeDee Lamb Questions Why George Pickens Trade Talk Even Exists In Dallas",
-    "CeeDee Lamb Makes Strong Assessment Of Cowboys' Roster Despite Losing Record",
-    "Lamb, JSN, Golden lead Week 9 fantasy football wide receiver rankings"
+    "CeeDee Lamb Says Cowboys Take Too Long To Adjust, Calls For Simpler Offense",
+    "CeeDee Lamb Makes Strong Assessment Of Cowboys' Roster Despite Losing Record"
    ],
    "cut": false,
    "inj": true,
@@ -2316,11 +2343,13 @@
   },
   "john metchie": {
    "h": [
-    "John Metchie III or Kaleb Johnson: Who Should I Start in Week 9? Fantasy Football"
+    "Darius Cooper or John Metchie III: Who Should I Start in Week 9? Fantasy Football",
+    "John Metchie III or Kaleb Johnson: Who Should I Start in Week 9? Fantasy Football",
+    "Elijah Higgins or John Metchie III: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "John Metchie III or Kaleb Johnson: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Darius Cooper or John Metchie III: Who Should I Start in Week 9? Fantasy Football"
   },
   "mitchell evans": {
    "h": [
@@ -2329,6 +2358,14 @@
    "cut": false,
    "inj": true,
    "worst": "Mitchell Evans or Pat Freiermuth: Who Should I Start in Week 9? Fantasy Football"
+  },
+  "troy franklin": {
+   "h": [
+    "Carson Wentz or Troy Franklin: Who Should I Start in Week 9? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Carson Wentz or Troy Franklin: Who Should I Start in Week 9? Fantasy Football"
   },
   "marvin mims": {
    "h": [
@@ -2348,19 +2385,11 @@
    "inj": true,
    "worst": "Who Should I Start for Fantasy Football Week 9? Braelon Allen, Breece Hall, Jaylen Waddle, DeVaughn Vele, Ashton Jeanty, Keenan Allen, Jameson Williams, Emeka Egbuka, JK Dobbins"
   },
-  "evan engram": {
-   "h": [
-    "Evan Engram or Marvin Harrison Jr.: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Evan Engram or Marvin Harrison Jr.: Who Should I Start in Week 9? Fantasy Football"
-  },
   "courtland sutton": {
    "h": [
     "Courtland Sutton should be getting more looks in the red zone \u2013 Denver Sports",
-    "Courtland Sutton or Kenny Gainwell",
-    "Courtland Sutton a full participant Thursday"
+    "Courtland Sutton or Mike Washington",
+    "Courtland Sutton or Kenny Gainwell"
    ],
    "cut": false,
    "inj": false,
@@ -2377,8 +2406,8 @@
   "tetairoa mcmillan": {
    "h": [
     "Tetairoa McMillan - Fantasy Football Risers, Breakouts for Week 9 (2026) - NFL News",
-    "Mike Washington Jr. or Tetairoa McMillan: Who Should I Start in Week 9? Fantasy Football",
-    "Tetairoa McMillan Week 9 Outlook - Broncos at Panthers"
+    "Tetairoa McMillan Week 9 Outlook - Broncos at Panthers",
+    "Who Should I Start for Fantasy Football Week 9? Keon Coleman, Bam Knight, Chris Bell, Tank Dell, Samaje Perine, Seth McGowan, Kenny Gainwell, Tetairoa McMillan, James Cook, Jonathan Taylor"
    ],
    "cut": false,
    "inj": true,
@@ -2396,13 +2425,13 @@
   },
   "amon ra st brown": {
    "h": [
-    "Amon-Ra St. Brown (ribs) questionable for Week 9",
-    "Amon-Ra St. Brown Listed questionable for Sunday",
-    "Amon-Ra St. Brown or Jordyn Tyson: Who Should I Start in Week 9? Fantasy Football"
+    "Amon-Ra St. Brown listed as questionable for Lions",
+    "Amon-Ra St. Brown Questionable for Week 9 Against Dolphins - NFL News | Fantasy Football",
+    "Questionable tag for Amon-Ra St. Brown"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Amon-Ra St. Brown (ribs) questionable for Week 9"
+   "worst": "Amon-Ra St. Brown listed as questionable for Lions"
   },
   "malik washington": {
    "h": [
@@ -2417,12 +2446,12 @@
   "greg dulcich": {
    "h": [
     "Greg Dulcich Week 9 Preview vs. the Lions",
-    "Greg Dulcich Week 9 Outlook - Lions at Dolphins",
-    "Fantasy Football Sleepers Week 9: Breakout Players to Start, Antonio Williams, Greg Dulcich"
+    "Greg Dulcich or Oronde Gadsden: Who Should I Start in Week 9? Fantasy Football",
+    "Greg Dulcich Week 9 Outlook - Lions at Dolphins"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Fantasy Football Sleepers Week 9: Breakout Players to Start, Antonio Williams, Greg Dulcich"
+   "worst": "Greg Dulcich or Oronde Gadsden: Who Should I Start in Week 9? Fantasy Football"
   },
   "caleb douglas": {
    "h": [
@@ -2434,33 +2463,25 @@
    "inj": true,
    "worst": "Week 9 Fantasy Football Start \u2019Em, Sit \u2019Em: Malik Washington VS Caleb Douglas"
   },
-  "chris bell": {
-   "h": [
-    "Chris Bell or Kc concepcion Jr.: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Chris Bell or Kc concepcion Jr.: Who Should I Start in Week 9? Fantasy Football"
-  },
   "sam laporta": {
    "h": [
+    "Who Should I Start for Fantasy Football Week 9? Dalton Kincaid, Travis Kelce, Isaiah Likely, Sam LaPorta, Kyle Pitts Sr., Chig Okonkwo, Dalton Schultz, Mike Gesicki, Greg Dulcich",
     "Sam LaPorta NFL Stats, Game Log & Bio",
-    "Nico Collins, Sam LaPorta and the DFS Sleepers of Week 9",
-    "Denzel Boston or Sam LaPorta: Who Should I Start in Week 9? Fantasy Football"
+    "Nico Collins, Sam LaPorta and the DFS Sleepers of Week 9"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Denzel Boston or Sam LaPorta: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Who Should I Start for Fantasy Football Week 9? Dalton Kincaid, Travis Kelce, Isaiah Likely, Sam LaPorta, Kyle Pitts Sr., Chig Okonkwo, Dalton Schultz, Mike Gesicki, Greg Dulcich"
   },
   "jameson williams": {
    "h": [
+    "How to handle Jameson Williams' fantasy 'roller coaster'",
     "Jameson Williams Could Swing Your Week 9 Fantasy Matchup",
-    "Jameson Williams or Jonah Coleman",
-    "Lions, Vikings mic\u2019d up video shows redemption arc for Jameson Williams"
+    "Jameson Williams or Jordyn Tyson: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jameson Williams or Joe Milton III: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Jameson Williams or Jordyn Tyson: Who Should I Start in Week 9? Fantasy Football"
   },
   "antonio williams": {
    "h": [
@@ -2484,9 +2505,9 @@
   },
   "stefon diggs": {
    "h": [
+    "Stefon Diggs Fantasy Outlook & Stats",
     "Week 9 Fantasy Football Start \u2019Em, Sit \u2019Em: DJ Moore VS Stefon Diggs",
-    "Diggs\u2019 Daddy Duty! Meet Stefon Diggs\u2019 Six Children, Including His Son Grey With Cardi B & Three Other Alleged Arrivals In 2025",
-    "Cardi B reveals name of son with Stefon Diggs on his first birthday"
+    "Diggs\u2019 Daddy Duty! Meet Stefon Diggs\u2019 Six Children, Including His Son Grey With Cardi B & Three Other Alleged Arrivals In 2025"
    ],
    "cut": false,
    "inj": true,
@@ -2494,9 +2515,9 @@
   },
   "puka nacua": {
    "h": [
+    "Puka Nacua Can Hurt the Commanders Before Matthew Stafford Even Throws",
     "Puka Nacua Presents Latest Challenge for Commanders Secondary",
-    "Puka Nacua Week 9 Outlook for Fantasy Football (2026)",
-    "Commanders defense faces major challenge in Rams WR Puka Nacua"
+    "Puka Nacua Week 9 Outlook for Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
@@ -2505,8 +2526,8 @@
   "eli stowers": {
    "h": [
     "Eli Stowers Taking Positive Steps, but Eagles Still Have Work to Do With Rookie TE",
-    "Eli Stowers or Hunter Henry: Who Should I Start in Week 9? Fantasy Football",
-    "Eagles snap counts: Time to see more of Eli Stowers"
+    "Eagles snap counts: Time to see more of Eli Stowers",
+    "Eli Stowers or Jake Ferguson: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": true,
    "inj": true,
@@ -2515,8 +2536,8 @@
   "makai lemon": {
    "h": [
     "Eagles Rookie Makai Lemon Delivers Thoughts On Joe Milton Move",
-    "Makai Lemon or Chris Godwin",
-    "Makai Lemon Fantasy Outlook & Stats"
+    "Makai Lemon or Tre Tucker | Who Should I Start Week 9",
+    "Makai Lemon or Chris Godwin"
    ],
    "cut": false,
    "inj": false,
@@ -2534,16 +2555,17 @@
   },
   "darius cooper": {
    "h": [
+    "Darius Cooper Week 9 Outlook for Fantasy Football (2026)",
     "Darius Cooper or Travis Kelce: Who Should I Start in Week 9? Fantasy Football",
-    "T.J. Hockenson or Darius Cooper | Who Should I Start Week 9",
-    "Kenny Gainwell or Darius Cooper | Who Should I Start Week 9"
+    "Darius Cooper or Roschon Johnson: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Darius Cooper or Travis Kelce: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Darius Cooper Week 9 Outlook for Fantasy Football (2026)"
   },
   "hollywood brown": {
    "h": [
+    "Amon-Ra St. Brown Questionable for Week 9 Against Dolphins - NFL News | Fantasy Football",
     "Hollywood Brown Week 9 Outlook for Fantasy Football (2026)",
     "A.J. Brown, TreVeyon Henderson ruled out for Week 9 - NFL News | Fantasy Football"
    ],
@@ -2553,21 +2575,13 @@
   },
   "malik nabers": {
    "h": [
-    "Malik Nabers Ready for Sunday",
-    "Malik Nabers not on Week 9 injury report",
-    "Malik Nabers (knee) back practicing on Friday"
+    "Malik Nabers (undisclosed) works with trainers",
+    "Giants' Cam Skattebo doubtful vs. Eagles; Malik Nabers 'full go'",
+    "RB Cam Skattebo doubtful, but WR Malik Nabers has no injury designation"
    ],
-   "cut": false,
+   "cut": true,
    "inj": true,
-   "worst": "Malik Nabers not on Week 9 injury report"
-  },
-  "darnell mooney": {
-   "h": [
-    "Adam Thielen or Darnell Mooney or Khalil Shakir or Malik Nabers: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Adam Thielen or Darnell Mooney or Khalil Shakir or Malik Nabers: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Giants' Cam Skattebo doubtful vs. Eagles; Malik Nabers 'full go'"
   },
   "isaiah likely": {
    "h": [
@@ -2582,12 +2596,12 @@
   "malachi fields": {
    "h": [
     "Target Massive Value in Giants vs. Eagles With Longshot Touchdown Picks on Malachi Fields and Joe Milton",
-    "Carson Wentz or Malachi Fields: Who Should I Pick Up? Fantasy Football (2026)",
-    "Who Should I Start for Fantasy Football Week 9? Jonah Coleman, Jadarian Price, Chase Brown, Omar Cooper Jr., Rachaad White, Jordan Addison, Woody Marks, Bucky Irving, Malachi Fields"
+    "Malachi Fields or Travis etienne Jr.: Who Should I Start in Week 9? Fantasy Football",
+    "Carson Wentz or Malachi Fields: Who Should I Pick Up? Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Carson Wentz or Malachi Fields: Who Should I Pick Up? Fantasy Football (2026)"
+   "worst": "Malachi Fields or Travis etienne Jr.: Who Should I Start in Week 9? Fantasy Football"
   },
   "mason taylor": {
    "h": [
@@ -2596,8 +2610,8 @@
     "Mason Taylor ready to play in Week 9"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Deebo Samuel Sr. or Mason Taylor: Who Should I Start in Week 9? Fantasy Football"
+   "inj": false,
+   "worst": "Mason Taylor (back) without injury designation for Sunday"
   },
   "kenyon sadiq": {
    "h": [
@@ -2611,9 +2625,9 @@
   },
   "adonai mitchell": {
    "h": [
+    "AFC Notes: Adonai Mitchell, Drake Maye, Trade Market, Jets, Patriots",
     "Adonai Mitchell Another huge opportunity?",
-    "Week 9 Adonai Mitchell Fantasy Start or Sit 2026",
-    "Who Should I Start for Fantasy Football Week 9? Adonai Mitchell, Blake Corum, Jalen Coker, Aaron Jones Sr., Alvin Kamara, George Pickens, Deebo Samuel, Malik Washington, Garrett Wilson"
+    "Week 9 Adonai Mitchell Fantasy Start or Sit 2026"
    ],
    "cut": false,
    "inj": true,
@@ -2642,18 +2656,18 @@
   "travis kelce": {
    "h": [
     "Travis Kelce In Disbelief By 1 Unexpected NFL Development",
-    "'I don't look at him\u201d: Travis Kelce's mother Donna Kelce opens up watching him take risks on the football",
-    "Chiefs TE Travis Kelce Announces Personal News on Friday"
+    "Travis Kelce Week 9 Outlook for Fantasy Football (2026)",
+    "'I don't look at him\u201d: Travis Kelce's mother Donna Kelce opens up watching him take risks on the football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "'I don't look at him\u201d: Travis Kelce's mother Donna Kelce opens up watching him take risks on the football"
+   "worst": "Travis Kelce Week 9 Outlook for Fantasy Football (2026)"
   },
   "xavier worthy": {
    "h": [
     "Xavier Worthy Week 9 Outlook for Fantasy Football (2026)",
-    "Xavier Worthy Week 9 Outlook - Jets at Chiefs",
-    "Week 9 Xavier Worthy Fantasy Start or Sit 2026"
+    "Josh Cuevas or Xavier Worthy: Who Should I Start in Week 9? Fantasy Football",
+    "Kevin Coleman Jr. or Xavier Worthy: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -2670,8 +2684,8 @@
   "cyrus allen": {
    "h": [
     "Cyrus Allen Week 9 Outlook for Fantasy Football (2026)",
-    "Cyrus Allen or Saquon Barkley: Who Should I Start in Week 9? Fantasy Football",
-    "Cyrus Allen or Jake Ferguson: Who Should I Start in Week 9? Fantasy Football"
+    "Cyrus Allen or Jake Ferguson: Who Should I Start in Week 9? Fantasy Football",
+    "Cyrus Allen or Mark Andrews: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -2690,8 +2704,7 @@
   "kayshon boutte": {
    "h": [
     "Kayshon Boutte reacts to Drake Maye winning Offensive Player of Month",
-    "Falcons Eye Cheap Help With Kayshon Boutte Trade Talk",
-    "Not Even Three Months After Houston Trade, Will Kayshon Boutte Move to NFC South?"
+    "Falcons Eye Cheap Help With Kayshon Boutte Trade Talk"
    ],
    "cut": false,
    "inj": false,
@@ -2701,7 +2714,7 @@
    "h": [
     "Charlie Kolar or Devonta Smith: Who Should I Start in Week 9? Fantasy Football",
     "Charlie Kolar would give Browns exactly what they're missing at NFL trade deadline",
-    "Charlie Kolar or Ja'Kobi Lane: Who Should I Start in Week 9? Fantasy Football"
+    "Charlie Kolar or Christian Watson: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -2710,8 +2723,8 @@
   "tre harris": {
    "h": [
     "Brandin Cooks or Tre' Harris: Who Should I Pick Up? Fantasy Football (2026)",
-    "Brenen Thompson or Tre' Harris: Who Should I Start in Week 9? Fantasy Football",
-    "Andrew Armstrong or Tre' Harris: Who Should I Start in Week 9? Fantasy Football"
+    "Travis etienne Jr. or Tre' Harris: Who Should I Start in Week 9? Fantasy Football",
+    "Jordan Watkins or Tre' Harris: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -2749,33 +2762,58 @@
   },
   "nico collins": {
    "h": [
-    "Nico Collins Is Worth Trusting for a Week 9 Fantasy Rebound",
-    "Nico Collins, Sam LaPorta and the DFS Sleepers of Week 9",
-    "NO MORE Excuses: It's (Past) Time To Get Nico Collins The Football... A LOT!"
+    "Jonah Coleman or Nico Collins: Who Should I Start in Week 9? Fantasy Football",
+    "Nico Collins or Caleb Douglas",
+    "Nico Collins Is Worth Trusting for a Week 9 Fantasy Rebound"
    ],
    "cut": false,
    "inj": true,
-   "worst": "NO MORE Excuses: It's (Past) Time To Get Nico Collins The Football... A LOT!"
+   "worst": "Jonah Coleman or Nico Collins: Who Should I Start in Week 9? Fantasy Football"
   },
   "marvin harrison": {
    "h": [
     "Arizona Cardinals GM explains Jacoby Brissett, Marvin Harrison Jr. trades",
     "DJ Giddens or Marvin Harrison Jr.: Who Should I Start in Week 9? Fantasy Football",
-    "Evan Hull or Marvin Harrison Jr.: Who Should I Start in Week 9? Fantasy Football"
+    "Marvin Harrison Jr. or Zavion Thomas: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
    "worst": "DJ Giddens or Marvin Harrison Jr.: Who Should I Start in Week 9? Fantasy Football"
   },
+  "michael wilson": {
+   "h": [
+    "Michael Wilson No designation for Week 9",
+    "Caleb Douglas or Michael Wilson: Who Should I Start in Week 9? Fantasy Football",
+    "Joe Fagnano or Michael Wilson: Who Should I Start in Week 9? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Caleb Douglas or Michael Wilson: Who Should I Start in Week 9? Fantasy Football"
+  },
+  "cooper kupp": {
+   "h": [
+    "Week 9 Cooper Kupp Fantasy Start or Sit 2026"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Week 9 Cooper Kupp Fantasy Start or Sit 2026"
+  },
+  "tory horton": {
+   "h": [
+    "Sione Vaki or Tory Horton: Who Should I Start in Week 9? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Sione Vaki or Tory Horton: Who Should I Start in Week 9? Fantasy Football"
+  },
   "reggie virgil": {
    "h": [
     "Reggie Virgil (back) practices in full Wednesday",
-    "Reggie Virgil or Trevor Lawrence: Who Should I Start in Week 9? Fantasy Football",
     "Demarcus Robinson or Reggie Virgil: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Reggie Virgil or Trevor Lawrence: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Demarcus Robinson or Reggie Virgil: Who Should I Start in Week 9? Fantasy Football"
   },
   "jaxon smith njigba": {
    "h": [
@@ -2789,18 +2827,17 @@
   },
   "aj barner": {
    "h": [
-    "AJ Barner Week 9 Outlook - Cardinals at Seahawks",
-    "AJ Barner or Malik Washington: Who Should I Start in Week 9? Fantasy Football"
+    "AJ Barner Week 9 Outlook - Cardinals at Seahawks"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "AJ Barner or Malik Washington: Who Should I Start in Week 9? Fantasy Football"
+   "inj": false,
+   "worst": "AJ Barner Week 9 Outlook - Cardinals at Seahawks"
   },
   "trey mcbride": {
    "h": [
     "Can Gardner Minshew keep the Trey McBride & Michael Wilson fantasy trains going?",
     "Trey McBride or Kyler Murray",
-    "Trey McBride or Bhayshul Tuten"
+    "Trey McBride or Jonah Coleman"
    ],
    "cut": false,
    "inj": false,
@@ -2808,11 +2845,12 @@
   },
   "elijah higgins": {
    "h": [
+    "Elijah Higgins or John Metchie III: Who Should I Start in Week 9? Fantasy Football",
     "Elijah Higgins or Saquon Barkley: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Elijah Higgins or Saquon Barkley: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Elijah Higgins or John Metchie III: Who Should I Start in Week 9? Fantasy Football"
   },
   "christian watson": {
    "h": [
@@ -2826,8 +2864,7 @@
   },
   "kyle williams": {
    "h": [
-    "David Montgomery or Kyle Williams: Who Should I Start in Week 9? Fantasy Football",
-    "Andrew Armstrong or Kyle Williams: Who Should I Start in Week 9? Fantasy Football"
+    "David Montgomery or Kyle Williams: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -2845,13 +2882,13 @@
   },
   "efton chism": {
    "h": [
-    "Efton Chism III or Rachaad White: Who Should I Start in Week 9? Fantasy Football",
     "Efton Chism III or Tyler Warren: Who Should I Start in Week 9? Fantasy Football",
-    "Efton Chism III or Garrett Wilson: Who Should I Start in Week 9? Fantasy Football"
+    "Efton Chism III or Garrett Wilson: Who Should I Start in Week 9? Fantasy Football",
+    "Efton Chism III or Omar Cooper Jr.: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Efton Chism III or Rachaad White: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Efton Chism III or Tyler Warren: Who Should I Start in Week 9? Fantasy Football"
   },
   "savion williams": {
    "h": [
@@ -2882,14 +2919,24 @@
    "inj": true,
    "worst": "Matthew Golden Week 9 Outlook for Fantasy Football (2026)"
   },
-  "jalen nailor": {
+  "brandin cooks": {
    "h": [
-    "Jack Endries or Jalen Nailor: Who Should I Start in Week 9? Fantasy Football",
-    "Jalen Nailor or Jaylen Waddle: Who Should I Start in Week 9? Fantasy Football"
+    "49ers mailbag: Can Brock Purdy win NFL MVP? Will SF bring in more receivers? Jordan Watkins or Brandin Cooks?",
+    "Brandin Cooks or Drew Lock: Who Should I Pick Up? Fantasy Football (2026)",
+    "Brandin Cooks or Sione Vaki: Who Should I Pick Up? Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jack Endries or Jalen Nailor: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Brandin Cooks or Drew Lock: Who Should I Pick Up? Fantasy Football (2026)"
+  },
+  "jalen nailor": {
+   "h": [
+    "Jalen Nailor or Jaylen Waddle: Who Should I Start in Week 9? Fantasy Football",
+    "Devonta Smith or Jalen Nailor: Who Should I Start in Week 9? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jalen Nailor or Jaylen Waddle: Who Should I Start in Week 9? Fantasy Football"
   },
   "michael mayer": {
    "h": [
@@ -2914,8 +2961,8 @@
   "george kittle": {
    "h": [
     "A tale of the 2 best tight ends in the NFL: George Kittle vs. Brock Bowers",
-    "George Kittle hints Brandon Aiyuk won't be allowed in 49ers' facility",
-    "\u201cI\u2019m a conspiracy guy\u201d: George Kittle pleads the fifth over Brandon Aiyuk return question ahead of 49ers\u2019 Week 9 game"
+    "49ers All-Pro George Kittle: Mike Evans was \u2018cooking everybody\u2019 during OTAs",
+    "George Kittle hints Brandon Aiyuk won't be allowed in 49ers' facility"
    ],
    "cut": false,
    "inj": false,
@@ -2933,13 +2980,13 @@
   },
   "tre tucker": {
    "h": [
-    "Derrick Henry or Tre Tucker",
-    "Tre Tucker Week 9 Outlook - Raiders at 49ers",
-    "Makai Lemon or Tre Tucker | Who Should I Start Week 9"
+    "Can Tre Tucker have sneaky fantasy appeal in Week 9?",
+    "Makai Lemon or Tre Tucker | Who Should I Start Week 9",
+    "Derrick Henry or Tre Tucker"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Derrick Henry or Tre Tucker"
+   "worst": "Can Tre Tucker have sneaky fantasy appeal in Week 9?"
   },
   "brock bowers": {
    "h": [
@@ -2953,9 +3000,9 @@
   },
   "emeka egbuka": {
    "h": [
+    "Emeka Egbuka Looks ready for Sunday",
     "Emeka Egbuka Officially questionable for Week 9",
-    "Emeka Egbuka Could be game-time call",
-    "Tristan Wirfs to play Sunday, Emeka Egbuka questionable"
+    "Emeka Egbuka Could be game-time call"
    ],
    "cut": false,
    "inj": true,
@@ -2983,12 +3030,22 @@
   },
   "colston loveland": {
    "h": [
-    "Bucky Irving or Colston Loveland | Who Should I Start Week 9",
-    "Brandon Smith or Colston Loveland: Who Should I Start in Week 9? Fantasy Football"
+    "Lifeway Kefir TV Debut With Loveland & Swift",
+    "Bucky Irving or Colston Loveland | Who Should I Start Week 9"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Lifeway Kefir TV Debut With Loveland & Swift"
+  },
+  "ty johnson": {
+   "h": [
+    "Ty Johnson Good to go",
+    "Ty Johnson News: Good to go",
+    "Bills' Ty Johnson: Good to go"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Brandon Smith or Colston Loveland: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Ty Johnson Injury: Sick Thursday"
   },
   "ben yurosek": {
    "h": [
@@ -3007,29 +3064,21 @@
    "inj": true,
    "worst": "Jameis Winston or Skyler Bell: Who Should I Start in Week 9? Fantasy Football"
   },
-  "dawson knox": {
+  "tj hockenson": {
    "h": [
-    "Dawson Knox or Germie Bernard: Who Should I Start in Week 9? Fantasy Football"
+    "T.J. Hockenson on Playing With Confidence, Carson Wentz Starting Against Bills, His Belief in Team",
+    "MarShawn Lloyd or T.J. Hockenson | Who Should I Start Week 9",
+    "T.J. Hockenson Week 9 Outlook - Bills at Vikings"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Dawson Knox or Germie Bernard: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "tj hockenson": {
-   "h": [
-    "T.J. Hockenson or Ja'Kobi Lane: Who Should I Start in Week 9?",
-    "T.J. Hockenson Week 9 Outlook - Bills at Vikings",
-    "Ja'Kobi Lane or T.J. Hockenson"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "T.J. Hockenson or Ja'Kobi Lane: Who Should I Start in Week 9?"
+   "worst": "T.J. Hockenson on Playing With Confidence, Carson Wentz Starting Against Bills, His Belief in Team"
   },
   "justin jefferson": {
    "h": [
+    "NFL Week 9 props, predictions, picks: Vikings receiver Justin Jefferson among PropStarz's best bets",
     "Week 9 Fantasy Football & NFL Bets FIRE & ICE Players: START Justin Jefferson, SIT Caleb Williams",
-    "Carson Wentz Is Confident Justin Jefferson Fantasy Owners Will Be Happy This Week",
-    "\u2018Justin Jefferson Is Not Happy,\u2019 \u2018It\u2019s Carson Wentz\u2019s Job\u2019 \u2014 Ex-NFL MVP Loses Faith in Kyler Murray"
+    "Carson Wentz Is Confident Justin Jefferson Fantasy Owners Will Be Happy This Week"
    ],
    "cut": false,
    "inj": true,
@@ -3047,9 +3096,9 @@
   },
   "khalil shakir": {
    "h": [
+    "Khalil Shakir not on practice field Friday",
     "Khalil Shakir (undisclosed) not seen practicing",
-    "Adam Thielen or Darnell Mooney or Khalil Shakir or Malik Nabers: Who Should I Start in Week 9? Fantasy Football",
-    "Khalil Shakir Week 9 Outlook - Bills at Vikings"
+    "Adam Thielen or Darnell Mooney or Khalil Shakir or Malik Nabers: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -3057,23 +3106,23 @@
   },
   "keon coleman": {
    "h": [
+    "Keon Coleman (shoulder) limited again on Friday",
     "Keon Coleman Limited at practice again",
-    "Bills' Keon Coleman: Limited at practice again",
-    "Keon Coleman (shoulder) limited to begin Week 9"
+    "Bills' Keon Coleman: Limited at practice again"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Keon Coleman Limited at practice again"
+   "worst": "Keon Coleman (shoulder) limited again on Friday"
   },
   "dalton kincaid": {
    "h": [
-    "Dalton Kincaid Practices fully Friday",
-    "Bills' Dalton Kincaid: Practices fully Friday",
-    "Dalton Kincaid Ditches non-contact jersey"
+    "Dalton Kincaid (chest) upgrades to full on Friday",
+    "Dalton Kincaid upgraded to full practice Friday",
+    "Dalton Kincaid Practices fully Friday"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Dalton Kincaid Injury: Ditches non-contact jersey"
+   "inj": false,
+   "worst": "Dalton Kincaid (chest) upgrades to full on Friday"
   },
   "joe fagnano": {
    "h": [
@@ -3094,23 +3143,12 @@
    "cut": false,
    "inj": false,
    "worst": "Is Drew Mestemaker really QB1? A troubling trend and lessons from Caleb Williams, Trevor Lawrence"
-  },
-  "drew lock": {
-   "h": [
-    "Drew Lock reveals why Week 9 start against Arizona means so much more",
-    "Backups Drew Lock, Gardner Minshew II do battle as Seahawks host Cardinals",
-    "Why Drew Lock is the right QB for the Seahawks right NOW #seahawks #nfl #shorts"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Drew Lock The Emergency QB Play For Fantasy Football"
   }
  },
  "qbhurt": [
   "CAR",
+  "CLE",
   "DAL",
-  "MIA",
-  "NE",
   "PHI",
   "WAS"
  ]
