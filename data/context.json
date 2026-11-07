@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T02:01:09+00:00",
+ "generated": "2026-11-07T02:31:07+00:00",
  "games": {
   "CINATL": {
    "home": "ATL",
@@ -45,11 +45,11 @@
     "temp": 63
    },
    "wx": {
-    "wind": 8,
-    "gust": 11,
+    "wind": 6,
+    "gust": 13,
     "pop": 0,
     "rain": 0.0,
-    "temp": 63
+    "temp": 61
    }
   },
   "DETMIA": {
@@ -68,11 +68,11 @@
     "temp": 84
    },
    "wx": {
-    "wind": 11,
-    "gust": 9,
+    "wind": 6,
+    "gust": 7,
     "pop": 10,
     "rain": 0.0,
-    "temp": 84
+    "temp": 82
    }
   },
   "CLENO": {
@@ -107,11 +107,11 @@
     "temp": 61
    },
    "wx": {
-    "wind": 12,
-    "gust": 19,
+    "wind": 11,
+    "gust": 20,
     "pop": 0,
     "rain": 0.0,
-    "temp": 61
+    "temp": 56
    }
   },
   "LARWAS": {
@@ -131,10 +131,10 @@
    },
    "wx": {
     "wind": 10,
-    "gust": 17,
+    "gust": 22,
     "pop": 0,
     "rain": 0.0,
-    "temp": 63
+    "temp": 60
    }
   },
   "DENCAR": {
@@ -153,11 +153,11 @@
     "temp": 65
    },
    "wx": {
-    "wind": 7,
-    "gust": 10,
+    "wind": 8,
+    "gust": 11,
     "pop": 0,
     "rain": 0.0,
-    "temp": 65
+    "temp": 66
    }
   },
   "HOULAC": {
@@ -192,11 +192,11 @@
     "temp": 57
    },
    "wx": {
-    "wind": 9,
-    "gust": 25,
+    "wind": 7,
+    "gust": 24,
     "pop": 0,
     "rain": 0.0,
-    "temp": 49
+    "temp": 48
    }
   },
   "LVSF": {
@@ -216,10 +216,10 @@
    },
    "wx": {
     "wind": 6,
-    "gust": 6,
+    "gust": 8,
     "pop": 0,
     "rain": 0.0,
-    "temp": 72
+    "temp": 68
    }
   },
   "ARISEA": {
@@ -238,10 +238,10 @@
     "temp": 56
    },
    "wx": {
-    "wind": 12,
-    "gust": 23,
+    "wind": 10,
+    "gust": 21,
     "pop": 28,
-    "rain": 0.1,
+    "rain": 0.0,
     "temp": 54
    }
   },
@@ -426,9 +426,9 @@
   ],
   "CAR": [
    {
-    "name": "Torricelli Simpkins III",
-    "pos": "G",
-    "status": "Questionable"
+    "name": "Jaelan Phillips",
+    "pos": "LB",
+    "status": "Out"
    },
    {
     "name": "Bobby Okereke",
@@ -436,9 +436,9 @@
     "status": "Out"
    },
    {
-    "name": "Jaelan Phillips",
-    "pos": "LB",
-    "status": "Out"
+    "name": "Torricelli Simpkins III",
+    "pos": "G",
+    "status": "Questionable"
    },
    {
     "name": "Corey Bullock",
@@ -563,18 +563,13 @@
   ],
   "DET": [
    {
-    "name": "DJ Wonnum",
-    "pos": "LB",
-    "status": "Out"
-   },
-   {
     "name": "D.J. Reed",
     "pos": "CB",
     "status": "Out"
    },
    {
-    "name": "Cade Mays",
-    "pos": "C",
+    "name": "Kerby Joseph",
+    "pos": "S",
     "status": "Out"
    },
    {
@@ -583,23 +578,28 @@
     "status": "Out"
    },
    {
+    "name": "Jacob Saylors",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
     "name": "Sione Vaki",
     "pos": "RB",
     "status": "Questionable"
    },
    {
-    "name": "Amon-Ra St. Brown",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Kerby Joseph",
-    "pos": "S",
+    "name": "DJ Wonnum",
+    "pos": "LB",
     "status": "Out"
    },
    {
-    "name": "Jacob Saylors",
-    "pos": "RB",
+    "name": "Cade Mays",
+    "pos": "C",
+    "status": "Out"
+   },
+   {
+    "name": "Amon-Ra St. Brown",
+    "pos": "WR",
     "status": "Questionable"
    }
   ],
@@ -754,6 +754,11 @@
   ],
   "LAR": [
    {
+    "name": "Jordan Whittington",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Colby Parkinson",
     "pos": "TE",
     "status": "Questionable"
@@ -771,11 +776,6 @@
    {
     "name": "Trent McDuffie",
     "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jordan Whittington",
-    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -1014,13 +1014,18 @@
   ],
   "SEA": [
    {
-    "name": "Quenton Nelson",
-    "pos": "G",
+    "name": "Uchenna Nwosu",
+    "pos": "LB",
     "status": "Out"
    },
    {
-    "name": "Uchenna Nwosu",
-    "pos": "LB",
+    "name": "Leonard Williams",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Quenton Nelson",
+    "pos": "G",
     "status": "Out"
    },
    {
@@ -1036,11 +1041,6 @@
    {
     "name": "Charles Cross",
     "pos": "OT",
-    "status": "Out"
-   },
-   {
-    "name": "Leonard Williams",
-    "pos": "DT",
     "status": "Out"
    },
    {
@@ -1170,151 +1170,151 @@
  "trend": {
   "devin singletary": {
    "rank": 1,
-   "adds": 1086543
+   "adds": 1102284
   },
   "chris rodriguez": {
    "rank": 2,
-   "adds": 673425
+   "adds": 673569
   },
   "adonai mitchell": {
    "rank": 3,
-   "adds": 583848
+   "adds": 588264
   },
   "carson wentz": {
    "rank": 4,
-   "adds": 581832
+   "adds": 583734
   },
   "demarcus robinson": {
    "rank": 6,
-   "adds": 451356
+   "adds": 454884
   },
   "malik willis": {
    "rank": 9,
-   "adds": 376243
+   "adds": 377594
   },
   "emmett johnson": {
    "rank": 10,
-   "adds": 259524
+   "adds": 261009
   },
   "elijah mitchell": {
    "rank": 11,
-   "adds": 220455
+   "adds": 221733
   },
   "joe milton": {
    "rank": 12,
-   "adds": 219548
+   "adds": 219940
   },
   "mike gesicki": {
    "rank": 13,
-   "adds": 216928
+   "adds": 218064
   },
   "omar cooper": {
    "rank": 14,
-   "adds": 204888
+   "adds": 207840
   },
   "malik washington": {
    "rank": 15,
-   "adds": 203504
+   "adds": 204640
   },
   "ryan flournoy": {
    "rank": 16,
-   "adds": 194448
+   "adds": 195504
   },
   "jadarian price": {
    "rank": 17,
-   "adds": 176976
+   "adds": 177822
   },
   "dylan sampson": {
    "rank": 20,
-   "adds": 150755
+   "adds": 151625
   },
   "shedeur sanders": {
    "rank": 21,
-   "adds": 142672
+   "adds": 143336
   },
   "keenan allen": {
    "rank": 22,
-   "adds": 140700
-  },
-  "kaelon black": {
-   "rank": 24,
-   "adds": 128198
+   "adds": 141364
   },
   "corey kiner": {
+   "rank": 24,
+   "adds": 130614
+  },
+  "kaelon black": {
    "rank": 25,
-   "adds": 127866
+   "adds": 128975
   },
   "darius cooper": {
    "rank": 26,
-   "adds": 116760
+   "adds": 118510
   },
   "kirk cousins": {
    "rank": 28,
-   "adds": 106608
+   "adds": 107056
   },
   "caleb douglas": {
    "rank": 29,
-   "adds": 101752
+   "adds": 102432
   },
   "alvin kamara": {
    "rank": 30,
-   "adds": 96608
+   "adds": 97432
   },
   "sione vaki": {
    "rank": 31,
-   "adds": 94297
+   "adds": 94528
   },
   "cj stroud": {
    "rank": 33,
-   "adds": 89453
+   "adds": 89705
   },
   "michael mayer": {
    "rank": 34,
-   "adds": 86301
+   "adds": 86841
   },
   "khalil shakir": {
    "rank": 35,
-   "adds": 84330
+   "adds": 84654
   },
   "kendre miller": {
    "rank": 36,
-   "adds": 83644
+   "adds": 83778
   },
   "austin ekeler": {
-   "rank": 39,
-   "adds": 77188
+   "rank": 38,
+   "adds": 77872
   },
   "justice hill": {
    "rank": 40,
-   "adds": 73935
+   "adds": 74565
   },
   "drew lock": {
    "rank": 41,
-   "adds": 72823
+   "adds": 73126
   },
   "kenny gainwell": {
    "rank": 43,
-   "adds": 70392
+   "adds": 70824
   },
   "jordan addison": {
    "rank": 44,
-   "adds": 66672
+   "adds": 67257
   },
   "tyler allgeier": {
    "rank": 45,
-   "adds": 66585
-  },
-  "xavier worthy": {
-   "rank": 46,
-   "adds": 65412
+   "adds": 66770
   },
   "jahan dotson": {
-   "rank": 48,
-   "adds": 65010
+   "rank": 46,
+   "adds": 65919
+  },
+  "xavier worthy": {
+   "rank": 47,
+   "adds": 65835
   },
   "jordan watkins": {
    "rank": 49,
-   "adds": 63708
+   "adds": 64792
   }
  },
  "buzz": {},
