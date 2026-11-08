@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T13:01:07+00:00",
+ "generated": "2026-11-08T13:31:04+00:00",
  "games": {
   "CINATL": {
    "home": "ATL",
@@ -20,8 +20,8 @@
    "indoor": true,
    "neutral": false,
    "spread": {
-    "DAL": -4.5,
-    "IND": 4.5
+    "DAL": -5.5,
+    "IND": 5.5
    },
    "total": 51.5,
    "espn_wx": {
@@ -62,7 +62,7 @@
     "DET": -6.5,
     "MIA": 6.5
    },
-   "total": 50.5,
+   "total": 49.5,
    "espn_wx": {
     "desc": "Partly sunny",
     "temp": 86
@@ -167,8 +167,8 @@
    "indoor": true,
    "neutral": false,
    "spread": {
-    "HOU": -6.0,
-    "LAC": 6.0
+    "HOU": -5.5,
+    "LAC": 5.5
    },
    "total": 40.5,
    "espn_wx": {
@@ -194,7 +194,7 @@
    "wx": {
     "wind": 8,
     "gust": 24,
-    "pop": 1,
+    "pop": 0,
     "rain": 0.0,
     "temp": 47
    }
@@ -240,7 +240,7 @@
    "wx": {
     "wind": 10,
     "gust": 24,
-    "pop": 4,
+    "pop": 3,
     "rain": 0.0,
     "temp": 54
    }
@@ -320,28 +320,33 @@
   ],
   "ATL": [
    {
-    "name": "Yasir Abdullah",
-    "pos": "LB",
-    "status": "Questionable"
+    "name": "Jack Strand",
+    "pos": "QB",
+    "status": "Out"
    },
    {
-    "name": "Beaux Collins",
-    "pos": "WR",
-    "status": "Questionable"
+    "name": "Drake Jackson",
+    "pos": "DE",
+    "status": "Out"
    },
    {
-    "name": "James Pearce Jr.",
-    "pos": "LB",
-    "status": "Questionable"
+    "name": "Robert Longerbeam",
+    "pos": "CB",
+    "status": "Out"
    },
    {
-    "name": "Divine Deablo",
-    "pos": "LB",
-    "status": "Questionable"
+    "name": "Billy Bowman Jr.",
+    "pos": "CB",
+    "status": "Out"
    },
    {
     "name": "Zachariah Branch",
     "pos": "WR",
+    "status": "Out"
+   },
+   {
+    "name": "Andy Dalton",
+    "pos": "QB",
     "status": "Out"
    },
    {
@@ -470,9 +475,19 @@
   ],
   "CIN": [
    {
-    "name": "Cedric Johnson",
-    "pos": "DE",
-    "status": "Questionable"
+    "name": "Landon Robinson",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Myles Hinton",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Connor Lew",
+    "pos": "C",
+    "status": "Out"
    },
    {
     "name": "Kyle Dugger",
@@ -1107,6 +1122,10 @@
   ]
  },
  "news": {
+  "drew lock": {
+   "h": "Sources: Seahawks' Sam Darnold in jeopardy of missing Week 10 game vs. Raiders",
+   "t": "2026-11-08T13:09:21Z"
+  },
   "geno smith": {
    "h": "Geno Smith has been upgrade from Justin Fields for Jets -- except in win column",
    "t": "2026-11-08T11:00:00Z"
@@ -1158,189 +1177,181 @@
   "zach charbonnet": {
    "h": "Clay cites Price and Charbonnet as 'palatable flex options' vs. Cardinals",
    "t": "2026-11-06T17:13:23Z"
-  },
-  "justin jefferson": {
-   "h": "Yates implores Wentz, Vikings to get Jefferson back on track in Week 9",
-   "t": "2026-11-06T16:51:57Z"
-  },
-  "kirk cousins": {
-   "h": "Why Kirk Cousins is a top-10 QB option this week in fantasy",
-   "t": "2026-11-06T16:45:34Z"
   }
  },
  "trend": {
   "devin singletary": {
    "rank": 1,
-   "adds": 1231245
+   "adds": 1242405
   },
   "demarcus robinson": {
    "rank": 2,
-   "adds": 597588
+   "adds": 606282
   },
   "adonai mitchell": {
    "rank": 3,
-   "adds": 379192
+   "adds": 381808
   },
   "omar cooper": {
    "rank": 4,
-   "adds": 252184
+   "adds": 253624
   },
   "corey kiner": {
    "rank": 5,
-   "adds": 232380
+   "adds": 233784
   },
   "carson wentz": {
    "rank": 6,
-   "adds": 192762
+   "adds": 194490
   },
   "gregory desrosiers": {
    "rank": 7,
-   "adds": 192072
+   "adds": 193984
   },
   "audric estime": {
    "rank": 8,
-   "adds": 185547
+   "adds": 192600
   },
   "darius cooper": {
    "rank": 10,
-   "adds": 163681
+   "adds": 165515
   },
   "alvin kamara": {
    "rank": 11,
-   "adds": 161352
+   "adds": 164296
   },
   "malik willis": {
    "rank": 13,
-   "adds": 133616
+   "adds": 135555
   },
   "emmett johnson": {
    "rank": 14,
-   "adds": 121140
+   "adds": 121815
   },
   "elijah mitchell": {
    "rank": 15,
-   "adds": 110025
+   "adds": 111105
   },
   "malik washington": {
    "rank": 16,
-   "adds": 103432
+   "adds": 104528
   },
   "mike gesicki": {
    "rank": 18,
-   "adds": 97516
+   "adds": 98752
   },
   "dylan sampson": {
    "rank": 20,
-   "adds": 92815
+   "adds": 94055
   },
   "ryan flournoy": {
    "rank": 21,
-   "adds": 92264
+   "adds": 93008
   },
   "jordan watkins": {
    "rank": 22,
-   "adds": 83100
+   "adds": 83760
   },
   "jahan dotson": {
    "rank": 23,
-   "adds": 79503
+   "adds": 80394
   },
   "khalil herbert": {
    "rank": 24,
-   "adds": 77157
+   "adds": 79128
   },
   "jadarian price": {
    "rank": 25,
-   "adds": 72522
+   "adds": 73323
   },
   "shedeur sanders": {
    "rank": 26,
-   "adds": 72384
+   "adds": 73288
   },
   "kaelon black": {
    "rank": 27,
-   "adds": 71561
+   "adds": 72296
   },
   "keenan allen": {
    "rank": 28,
-   "adds": 68716
+   "adds": 69456
   },
   "austin ekeler": {
    "rank": 29,
-   "adds": 65368
+   "adds": 66212
   },
   "jordan addison": {
    "rank": 31,
-   "adds": 61659
+   "adds": 62316
   },
   "jordyn tyson": {
    "rank": 32,
-   "adds": 58320
+   "adds": 59128
   },
   "justice hill": {
    "rank": 33,
-   "adds": 56079
-  },
-  "caleb douglas": {
-   "rank": 34,
-   "adds": 55384
+   "adds": 56484
   },
   "kenny gainwell": {
+   "rank": 34,
+   "adds": 55976
+  },
+  "caleb douglas": {
    "rank": 35,
-   "adds": 55152
+   "adds": 55736
   },
   "michael mayer": {
    "rank": 36,
-   "adds": 47862
+   "adds": 48357
   },
   "mack hollins": {
    "rank": 37,
-   "adds": 45303
-  },
-  "joe milton": {
-   "rank": 40,
-   "adds": 41400
+   "adds": 45927
   },
   "khalil shakir": {
+   "rank": 40,
+   "adds": 41796
+  },
+  "joe milton": {
    "rank": 41,
-   "adds": 41391
+   "adds": 41788
   },
   "xavier worthy": {
    "rank": 42,
-   "adds": 40833
+   "adds": 41337
   },
   "sione vaki": {
    "rank": 43,
-   "adds": 38066
+   "adds": 38444
   },
   "pat bryant": {
    "rank": 44,
-   "adds": 37784
+   "adds": 38192
   },
   "seth mcgowan": {
    "rank": 45,
-   "adds": 37304
+   "adds": 37656
   },
   "kirk cousins": {
    "rank": 46,
-   "adds": 36304
+   "adds": 36720
   },
   "chris rodriguez": {
    "rank": 48,
-   "adds": 33273
+   "adds": 33435
   },
   "devaughn vele": {
    "rank": 49,
-   "adds": 33068
+   "adds": 33201
   }
  },
  "buzz": {},
  "sources": {
   "lines": "14 games",
   "weather": "9 outdoor games",
-  "injuries": "151 players listed",
-  "news": "15 players in headlines",
-  "google_news": "5 role-cut, 176 injury headlines; QB hurt: CLE, NE",
+  "injuries": "154 players listed",
+  "news": "14 players in headlines",
+  "google_news": "5 role-cut, 177 injury headlines; QB hurt: CLE, NE",
   "sleeper_trending": "41 board players trending",
   "reddit": "unavailable"
  },
@@ -1643,7 +1654,7 @@
    ],
    "cut": false,
    "inj": true,
-   "worst": "Cody Schrader or Khalil Herbert: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Khalil Herbert or Woody Marks: Who Should I Start in Week 9? Fantasy Football"
   },
   "samaje perine": {
    "h": [
@@ -1831,13 +1842,13 @@
   },
   "austin ekeler": {
    "h": [
+    "Austin Ekeler Fantasy Football Start or Sit Advice for Week 9",
     "Austin Ekeler or Kevin Coleman Jr.: Who Should I Start in Week 9? Fantasy Football",
-    "Underdog NFL Picks Today: Ekeler Higher, Love Higher",
-    "Austin Ekeler Week 9 Outlook for Fantasy Football (2026)"
+    "Underdog NFL Picks Today: Ekeler Higher, Love Higher"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Austin Ekeler or Kevin Coleman Jr.: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Austin Ekeler Fantasy Football Start or Sit Advice for Week 9"
   },
   "rachaad white": {
    "h": [
@@ -1877,7 +1888,7 @@
    ],
    "cut": false,
    "inj": true,
-   "worst": "Elijah Mitchell or Isaiah Williams: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Who Should I Start for Fantasy Football Week 9? Makai Lemon, Antonio Williams, Quinshon Judkins, Rhamondre Stevenson, Elijah Mitchell, Saquon Barkley, Tetairoa McMillan"
   },
   "devin singletary": {
    "h": [
@@ -2234,9 +2245,9 @@
   },
   "jordyn tyson": {
    "h": [
+    "Is Jordyn Tyson playing today? Injury update, start-sit advice for Week 9",
     "Is Jordyn Tyson Playing Today? (Injury Update, Betting Impact for Browns vs. Saints in NFL Week 9)",
-    "NFL Week 9 Injury Report: Jordyn Tyson to debut, Garrett Wilson ruled out, Kyler hamstring injury",
-    "Saints | Jordyn Tyson plans to make NFL debut Sunday, \u2018should be good to go\u2019"
+    "NFL Week 9 Injury Report: Jordyn Tyson to debut, Garrett Wilson ruled out, Kyler hamstring injury"
    ],
    "cut": true,
    "inj": true,
@@ -2256,7 +2267,7 @@
    "h": [
     "Devaughn Vele Player Props Week 9: Anytime TD Props and Odds vs. the Browns",
     "Cooper Kupp or Devaughn Vele: Who Should I Start in Week 9? Fantasy Football",
-    "Dameon Pierce or Devaughn Vele: Who Should I Start in Week 9? Fantasy Football"
+    "Saints emerge as a landing spot in Devaughn Vele trade rumors"
    ],
    "cut": false,
    "inj": true,
@@ -2549,6 +2560,15 @@
    "cut": false,
    "inj": false,
    "worst": "Best NFL Week 9 Anytime TD Scorer Picks (Target Jameson Williams, This Rams Tight End on Sunday)"
+  },
+  "konata mumpfield": {
+   "h": [
+    "Konata Mumpfield Week 9 Preview vs. the Commanders",
+    "Konata Mumpfield Week 9 Outlook for Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Konata Mumpfield Week 9 Outlook for Fantasy Football (2026)"
   },
   "van jefferson": {
    "h": [
@@ -3162,7 +3182,6 @@
   "tez johnson": {
    "h": [
     "Tez Johnson and Ted Hurst III: Fighting For Each Other | Bucs Players' Table",
-    "Tez Johnson Week 9 Preview vs. the Bears",
     "Tez Johnson Week 9 Preview vs. the Bears"
    ],
    "cut": false,
@@ -3182,7 +3201,7 @@
   "chris godwin": {
    "h": [
     "Chris Godwin Fantasy Football Start or Sit Advice for Week 9",
-    "Chris Godwin Jr. or Kenneth Walker: Who Should I Start in Week 9? Fantasy Football",
+    "Who Should I Start for Fantasy Football Week 9? Emeka Egbuka, Luther Burden III, D'Andre Swift, Bucky Irving, Rome Odunze, Chris Godwin Jr., Kenny Gainwell, Colston Loveland, Kyle Monangai",
     "Chris Godwin Jr. or Oronde Gadsden: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
