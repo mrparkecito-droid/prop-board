@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T21:01:06+00:00",
+ "generated": "2026-11-08T21:31:00+00:00",
  "games": {
   "DALIND": {
    "home": "IND",
@@ -11,27 +11,7 @@
    "total": null,
    "espn_wx": {
     "desc": "1",
-    "temp": 61
-   }
-  },
-  "NYJKC": {
-   "home": "KC",
-   "away": "NYJ",
-   "kick": "2026-11-08T18:00Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 65
-   },
-   "wx": {
-    "wind": 3,
-    "gust": 6,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 61
+    "temp": 60
    }
   },
   "CLENO": {
@@ -43,8 +23,97 @@
    "spread": {},
    "total": null,
    "espn_wx": {
+    "desc": "6",
+    "temp": 67
+   }
+  },
+  "HOULAC": {
+   "home": "LAC",
+   "away": "HOU",
+   "kick": "2026-11-08T21:05Z",
+   "indoor": true,
+   "neutral": false,
+   "spread": {},
+   "total": null,
+   "espn_wx": {
+    "desc": "1",
+    "temp": 89
+   }
+  },
+  "GBNE": {
+   "home": "NE",
+   "away": "GB",
+   "kick": "2026-11-08T21:25Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {},
+   "total": null,
+   "espn_wx": {
+    "desc": "1",
+    "temp": 53
+   },
+   "wx": {
+    "wind": 7,
+    "gust": 20,
+    "pop": 0,
+    "rain": 0.0,
+    "temp": 49
+   }
+  },
+  "LVSF": {
+   "home": "SF",
+   "away": "LV",
+   "kick": "2026-11-08T21:25Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {},
+   "total": null,
+   "espn_wx": {
     "desc": "3",
-    "temp": 66
+    "temp": 67
+   },
+   "wx": {
+    "wind": 6,
+    "gust": 8,
+    "pop": 0,
+    "rain": 0.0,
+    "temp": 65
+   }
+  },
+  "ARISEA": {
+   "home": "SEA",
+   "away": "ARI",
+   "kick": "2026-11-08T21:25Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {},
+   "total": null,
+   "espn_wx": {
+    "desc": "2",
+    "temp": 58
+   },
+   "wx": {
+    "wind": 9,
+    "gust": 21,
+    "pop": 3,
+    "rain": 0.0,
+    "temp": 56
+   }
+  },
+  "NYJKC": {
+   "home": "KC",
+   "away": "NYJ",
+   "kick": "2026-11-08T18:00Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {},
+   "total": null,
+   "wx": {
+    "wind": 3,
+    "gust": 6,
+    "pop": 0,
+    "rain": 0.0,
+    "temp": 61
    }
   },
   "NYGPHI": {
@@ -55,10 +124,6 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 60
-   },
    "wx": {
     "wind": 11,
     "gust": 20,
@@ -75,121 +140,12 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 62
-   },
    "wx": {
     "wind": 9,
     "gust": 21,
     "pop": 0,
     "rain": 0.0,
     "temp": 62
-   }
-  },
-  "DENCAR": {
-   "home": "CAR",
-   "away": "DEN",
-   "kick": "2026-11-08T18:00Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 70
-   },
-   "wx": {
-    "wind": 6,
-    "gust": 10,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 67
-   }
-  },
-  "HOULAC": {
-   "home": "LAC",
-   "away": "HOU",
-   "kick": "2026-11-08T21:05Z",
-   "indoor": true,
-   "neutral": false,
-   "spread": {
-    "HOU": -5.5,
-    "LAC": 5.5
-   },
-   "total": 40.5,
-   "espn_wx": {
-    "desc": "Sunny",
-    "temp": 88
-   }
-  },
-  "GBNE": {
-   "home": "NE",
-   "away": "GB",
-   "kick": "2026-11-08T21:25Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {
-    "NE": -3.0,
-    "GB": 3.0
-   },
-   "total": 44.5,
-   "espn_wx": {
-    "desc": "Partly sunny",
-    "temp": 54
-   },
-   "wx": {
-    "wind": 7,
-    "gust": 20,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 49
-   }
-  },
-  "LVSF": {
-   "home": "SF",
-   "away": "LV",
-   "kick": "2026-11-08T21:25Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {
-    "SF": -8.5,
-    "LV": 8.5
-   },
-   "total": 51.5,
-   "espn_wx": {
-    "desc": "Partly sunny",
-    "temp": 69
-   },
-   "wx": {
-    "wind": 6,
-    "gust": 8,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 65
-   }
-  },
-  "ARISEA": {
-   "home": "SEA",
-   "away": "ARI",
-   "kick": "2026-11-08T21:25Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {
-    "SEA": -8.5,
-    "ARI": 8.5
-   },
-   "total": 39.5,
-   "espn_wx": {
-    "desc": "Mostly cloudy w/ showers",
-    "temp": 58
-   },
-   "wx": {
-    "wind": 9,
-    "gust": 21,
-    "pop": 3,
-    "rain": 0.0,
-    "temp": 56
    }
   },
   "TBCHI": {
@@ -491,11 +447,6 @@
     "status": "Questionable"
    },
    {
-    "name": "Dee Winters",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
     "name": "Donovan Ezeiruaku",
     "pos": "LB",
     "status": "Questionable"
@@ -540,7 +491,7 @@
    {
     "name": "Jaylen Waddle",
     "pos": "WR",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Riley Moss",
@@ -696,6 +647,11 @@
   ],
   "IND": [
    {
+    "name": "Mo Alie-Cox",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
     "name": "Jalen Travis",
     "pos": "OT",
     "status": "Questionable"
@@ -764,6 +720,11 @@
    }
   ],
   "KC": [
+   {
+    "name": "Xavier Worthy",
+    "pos": "WR",
+    "status": "Questionable"
+   },
    {
     "name": "Jaylon Moore",
     "pos": "OT",
@@ -838,6 +799,11 @@
    }
   ],
   "LAC": [
+   {
+    "name": "Ladd McConkey",
+    "pos": "WR",
+    "status": "Questionable"
+   },
    {
     "name": "Kayode Awosika",
     "pos": "G",
@@ -1003,6 +969,11 @@
    }
   ],
   "NO": [
+   {
+    "name": "Erik McCoy",
+    "pos": "C",
+    "status": "Questionable"
+   },
    {
     "name": "Zach Wilson",
     "pos": "QB",
@@ -1329,21 +1300,13 @@
   ]
  },
  "news": {
-  "mack hollins": {
-   "h": "NFL Week 9 arrivals: Efton Chism III welcomes back Mack Hollins with 'Mack and Chiz' tee",
-   "t": "2026-11-08T20:44:52Z"
-  },
   "efton chism": {
    "h": "NFL Week 9 arrivals: Efton Chism III welcomes back Mack Hollins with 'Mack and Chiz' tee",
    "t": "2026-11-08T20:44:52Z"
   },
-  "jaylen waddle": {
-   "h": "Broncos WR Jaylen Waddle, CB Riley Moss suffer concussions against Panthers",
-   "t": "2026-11-08T20:29:15Z"
-  },
-  "jj mccarthy": {
-   "h": "J.J. McCarthy wowing Giants after initial concerns over QB's 'maturity,' VP says",
-   "t": "2026-11-08T14:23:10Z"
+  "mack hollins": {
+   "h": "NFL Week 9 arrivals: Efton Chism III welcomes back Mack Hollins with 'Mack and Chiz' tee",
+   "t": "2026-11-08T20:44:52Z"
   },
   "drew lock": {
    "h": "Sources: Seahawks' Sam Darnold in jeopardy of missing Week 10 game vs. Raiders",
@@ -1369,184 +1332,184 @@
  "trend": {
   "devin singletary": {
    "rank": 1,
-   "adds": 1345113
+   "adds": 1346661
   },
   "demarcus robinson": {
    "rank": 2,
-   "adds": 834186
-  },
-  "adonai mitchell": {
-   "rank": 3,
-   "adds": 357392
+   "adds": 843300
   },
   "audric estime": {
+   "rank": 3,
+   "adds": 370815
+  },
+  "adonai mitchell": {
    "rank": 4,
-   "adds": 354015
+   "adds": 357920
   },
   "ryan flournoy": {
    "rank": 5,
-   "adds": 302608
+   "adds": 305560
   },
   "alvin kamara": {
    "rank": 7,
-   "adds": 252024
+   "adds": 253032
   },
   "corey kiner": {
    "rank": 8,
-   "adds": 236124
+   "adds": 241422
   },
   "gregory desrosiers": {
    "rank": 9,
-   "adds": 230400
+   "adds": 230768
   },
   "omar cooper": {
    "rank": 10,
-   "adds": 224440
+   "adds": 225752
   },
   "darius cooper": {
    "rank": 11,
-   "adds": 207340
+   "adds": 207522
   },
   "carson wentz": {
    "rank": 12,
-   "adds": 199158
+   "adds": 201852
   },
   "malik willis": {
    "rank": 13,
-   "adds": 159670
+   "adds": 159943
   },
   "dylan sampson": {
    "rank": 17,
-   "adds": 121325
+   "adds": 121690
   },
   "emmett johnson": {
    "rank": 18,
-   "adds": 116370
+   "adds": 117522
   },
   "malik washington": {
    "rank": 19,
-   "adds": 111792
+   "adds": 111968
   },
   "elijah mitchell": {
    "rank": 20,
-   "adds": 110268
+   "adds": 110385
   },
   "jordan watkins": {
    "rank": 21,
-   "adds": 98728
+   "adds": 99664
   },
   "jadarian price": {
    "rank": 22,
-   "adds": 96057
+   "adds": 98514
   },
   "khalil herbert": {
    "rank": 23,
-   "adds": 93267
+   "adds": 93420
   },
   "jordan addison": {
    "rank": 24,
-   "adds": 88002
-  },
-  "mike gesicki": {
-   "rank": 25,
-   "adds": 85148
+   "adds": 90198
   },
   "jordyn tyson": {
+   "rank": 25,
+   "adds": 85888
+  },
+  "mike gesicki": {
    "rank": 26,
-   "adds": 85032
+   "adds": 85480
   },
   "kenny gainwell": {
    "rank": 27,
-   "adds": 82032
+   "adds": 84952
   },
   "shedeur sanders": {
    "rank": 28,
-   "adds": 82032
+   "adds": 83424
   },
   "austin ekeler": {
    "rank": 29,
-   "adds": 80288
+   "adds": 80428
   },
   "kaelon black": {
    "rank": 30,
-   "adds": 77147
+   "adds": 79569
   },
   "keenan allen": {
    "rank": 31,
-   "adds": 76504
+   "adds": 76668
   },
   "jahan dotson": {
    "rank": 32,
-   "adds": 71748
+   "adds": 71871
   },
   "caleb douglas": {
    "rank": 33,
-   "adds": 67328
+   "adds": 68848
   },
   "michael mayer": {
    "rank": 34,
-   "adds": 64179
+   "adds": 66519
   },
   "mack hollins": {
-   "rank": 36,
-   "adds": 60765
+   "rank": 35,
+   "adds": 61830
   },
   "pat bryant": {
    "rank": 38,
-   "adds": 54152
-  },
-  "kimani vidal": {
-   "rank": 39,
-   "adds": 52830
-  },
-  "xavier worthy": {
-   "rank": 40,
-   "adds": 52785
+   "adds": 57328
   },
   "justice hill": {
+   "rank": 39,
+   "adds": 53775
+  },
+  "kimani vidal": {
+   "rank": 40,
+   "adds": 53715
+  },
+  "xavier worthy": {
    "rank": 41,
-   "adds": 52416
+   "adds": 52974
   },
   "khalil shakir": {
    "rank": 42,
-   "adds": 50913
-  },
-  "kirk cousins": {
-   "rank": 43,
-   "adds": 46784
-  },
-  "tyler higbee": {
-   "rank": 45,
-   "adds": 44703
-  },
-  "joe milton": {
-   "rank": 46,
-   "adds": 43908
+   "adds": 52389
   },
   "seth mcgowan": {
+   "rank": 43,
+   "adds": 51424
+  },
+  "kirk cousins": {
+   "rank": 44,
+   "adds": 48376
+  },
+  "tyler higbee": {
+   "rank": 46,
+   "adds": 44784
+  },
+  "joe milton": {
    "rank": 47,
-   "adds": 43040
+   "adds": 44156
   },
   "quentin johnston": {
    "rank": 48,
-   "adds": 38920
-  },
-  "sione vaki": {
-   "rank": 49,
-   "adds": 37625
+   "adds": 39340
   },
   "chris godwin": {
+   "rank": 49,
+   "adds": 38190
+  },
+  "sione vaki": {
    "rank": 50,
-   "adds": 37320
+   "adds": 37667
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "6 games",
-  "weather": "8 outdoor games",
-  "injuries": "206 players listed",
-  "news": "9 players in headlines",
-  "google_news": "8 role-cut, 151 injury headlines; QB hurt: CAR, DET, KC, NO, TB",
+  "lines": "2 games",
+  "weather": "7 outdoor games",
+  "injuries": "209 players listed",
+  "news": "7 players in headlines",
+  "google_news": "6 role-cut, 129 injury headlines; QB hurt: CAR, DET, KC, NO, TB",
   "sleeper_trending": "43 board players trending",
   "reddit": "unavailable"
  },
@@ -1590,96 +1553,6 @@
    "cut": false,
    "inj": false,
    "worst": "Dak Prescott Connects With CeeDee Lamb For 44-Yard TD, Extending Cowboys Lead Over Colts | NFL Highlights"
-  },
-  "bryce young": {
-   "h": [
-    "Bryce Young shows perfect field presence on first-down pass to McMillan",
-    "Bryce Young Gets a Shot at a Short-Handed Denver Broncos Secondary",
-    "Is Panthers QB Bryce Young Playing vs. Broncos Today Amid Ankle Injury Concerns?"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Is Panthers QB Bryce Young Playing vs. Broncos Today Amid Ankle Injury Concerns?"
-  },
-  "bo nix": {
-   "h": [
-    "Patrick Jones II's sack of Bo Nix forces Broncos into punt formation",
-    "Even Former NFL QBs Don\u2019t Know What Bo Nix Is Worth",
-    "Video - Even Former NFL QBs Don\u2019t Know What Bo Nix Is Worth"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Bo Nix Finds Nate Adkins for Broncos Touchdown Stream of National Football League"
-  },
-  "matthew stafford": {
-   "h": [
-    "Matthew Stafford finds Puka Nacua for seven-yard TD, giving Rams lead over Commanders | NFL Highlights",
-    "Matthew Stafford launches 21-yard pass to Puka Nacua",
-    "Rams vs. Commanders prediction: Matthew Stafford leads L.A. to road win"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Matthew Stafford finds Puka Nacua for seven-yard TD, giving Rams lead over Commanders | NFL Highlights"
-  },
-  "jayden daniels": {
-   "h": [
-    "Myles Garrett engulfs Jayden Daniels for a key sack in fourth quarter",
-    "Myles Garrett returns to Rams with strip-sack of Jayden Daniels while Commanders double-teamed Aaron Donald",
-    "Can't-Miss Play: Myles Garrett strips the football from Jayden Daniels' grasp for a Rams takeaway"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Can't-Miss Play: Myles Garrett strips the football from Jayden Daniels' grasp for a Rams takeaway"
-  },
-  "jj mccarthy": {
-   "h": [
-    "McCarthy and Nabers just barely miss out on a potential highlight-reel TD vs. Eagles",
-    "New York Giants quarterback J.J. McCarthy scampers for an 11-yard gain on third-and-10",
-    "Shannon Sharpe Warns J.J. McCarthy About Dangerous Playing Style Sunday"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "J.J. McCarthy Injured, Latest Updates on Giants QB After Concerning Video vs. Eagles"
-  },
-  "joe milton": {
-   "h": [
-    "Milton III's 19-yard connection with Goedert gets Eagles into Giants' territory in fourth quarter",
-    "Philadelphia Eagles quarterback Joe Milton III's 21-yard dart finds wide receiver Darius Cooper",
-    "Joe Milton III finds Makai Lemon for 19 yards"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Milton III's 19-yard connection with Goedert gets Eagles into Giants' territory in fourth quarter"
-  },
-  "tanner mckee": {
-   "h": [
-    "McKee (rib) will serve as QB2 vs. NYG",
-    "Eagles inactives: Tanner McKee to serve as backup vs. Giants",
-    "Tanner McKee expected to serve as Eagles\u2019 backup QB behind Joe Milton"
-   ],
-   "cut": true,
-   "inj": false,
-   "worst": "Eagles inactives: Tanner McKee to serve as backup vs. Giants"
-  },
-  "patrick mahomes": {
-   "h": [
-    "Patrick Mahomes injury latest as Chiefs head coach Andy Reid shares update",
-    "Chiefs news: What Andy Reid said about Patrick Mahomes' elbow injury vs. Jets",
-    "Patrick Mahomes injury: Star QB seen limping to sideline, holding arm"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Patrick Mahomes injury latest as Chiefs head coach Andy Reid shares update"
-  },
-  "geno smith": {
-   "h": [
-    "Geno Smith is absolutely over it after another failed Jets drive vs. Chiefs",
-    "Geno Smith Blew-Up A Chiefs Player With One Of The Hardest Hits You'll See All Year [VIDEO]",
-    "Kansas City Chiefs defensive end Chris Jones dumps Geno Smith to record his first solo sack of 2026 season"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Geno Smith is absolutely over it after another failed Jets drive vs. Chiefs"
   },
   "justin herbert": {
    "h": [
@@ -1823,12 +1696,13 @@
   },
   "audric estime": {
    "h": [
+    "Audric Estime touchdown gives the Saints a late lead | Saints vs. Browns Highlights",
     "Why Audric Estime is Saints RB Over Alvin Kamara, Kendre Miller, CJ Donaldson",
     "Saints release Kendre Miller after Estime signing"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Why Audric Estime is Saints RB Over Alvin Kamara, Kendre Miller, CJ Donaldson"
+   "worst": "Audric Estime touchdown gives the Saints a late lead | Saints vs. Browns Highlights"
   },
   "alvin kamara": {
    "h": [
@@ -1880,124 +1754,6 @@
    "inj": false,
    "worst": "NFL Week 9 Best Bets: Rams Spread and Williams Prop"
   },
-  "jonah coleman": {
-   "h": [
-    "Denver Broncos running back Jonah Coleman beats Panthers defender to the goal line for 9-yard TD",
-    "Jonah Coleman Works with starters in warmups",
-    "NFL Week 9 anytime touchdown scorer picks: Matthew Golden, Jonah Coleman among best bets"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Denver Broncos running back Jonah Coleman beats Panthers defender to the goal line for 9-yard TD"
-  },
-  "jk dobbins": {
-   "h": [
-    "J.K. Dobbins or Pierre Strong Jr.: Who Should I Start in Week 9? Fantasy Football",
-    "J.K. Dobbins or Mark Redman: Who Should I Start in Week 9? Fantasy Football",
-    "AFC Notes: Maxx Crosby, J.K. Dobbins, Broncos, Chargers, Raiders"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "J.K. Dobbins or Pierre Strong Jr.: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "trevor etienne": {
-   "h": [
-    "Should I Trade (Half PPR) Josh Cuevas for Trevor Etienne (2026)?",
-    "LeQuint Allen Jr. or Trevor Etienne: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "LeQuint Allen Jr. or Trevor Etienne: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "chuba hubbard": {
-   "h": [
-    "Chuba Hubbard or Tyler Shough",
-    "Fantasy Football Start or Sit: Chuba Hubbard, Tetairoa McMillan, and Panthers D",
-    "Alex Singleton Has 101 Tackles, and Chuba Hubbard Is the Panthers Back He Has to Stop Sunday"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Start or Sit: Chuba Hubbard, Tetairoa McMillan, and Panthers D"
-  },
-  "austin ekeler": {
-   "h": [
-    "Austin Ekeler Fantasy Football Start or Sit Advice for Week 9",
-    "Austin Ekeler or Woody Marks: Who Should I Start in Week 9? Fantasy Football",
-    "Austin Ekeler or Kevin Coleman Jr.: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Austin Ekeler Fantasy Football Start or Sit Advice for Week 9"
-  },
-  "rachaad white": {
-   "h": [
-    "Washington Commanders running back Rachaad White makes 45-yard sprint through Los Angeles Rams defenders",
-    "Rachaad White Football Stats | Washington Commanders",
-    "Gavin Bartholomew or Rachaad White: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Rachaad White Football Stats | Washington Commanders"
-  },
-  "kyren williams": {
-   "h": [
-    "Courtland Sutton or Kyren Williams or Tee Higgins or Terry Mclaurin: Who Should I Start in Week 9? Fantasy Football",
-    "Kyren Williams and the Rams Rank Fourth in Rush Success Rate, and Washington Is 31st Against It",
-    "Player Props for NFL Week 9: Patrick Mahomes, Bryce Young, Kyren Williams, More"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Courtland Sutton or Kyren Williams or Tee Higgins or Terry Mclaurin: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "blake corum": {
-   "h": [
-    "Blake Corum rushes into the end zone for a TD vs. Commanders",
-    "Blake Corum Rushes for 2-Yard TD to Give Rams 13-10 Lead Over Commanders | NFL Highlights",
-    "Rams take 13-10 lead with Blake Corum touchdown"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Blake Corum rushes into the end zone for a TD vs. Commanders"
-  },
-  "elijah mitchell": {
-   "h": [
-    "Elijah Mitchell Bumps up from practice squad",
-    "Eagles Call Up Two For Week 9 Including RB Elijah Mitchell",
-    "Elijah Mitchell or Michael Wilson"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Elijah Mitchell Bumps up from practice squad"
-  },
-  "saquon barkley": {
-   "h": [
-    "DJ Reader comes untouched for a TFL vs. Barkley",
-    "Saquon Barkley rushes for 3-yard TD, giving Eagles lead over Giants | NFL Highlights",
-    "Saquon Barkley Fantasy Outlook & Stats"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Is Saquon Barkley Playing Today? (Injury Update, Betting Impact for Giants vs. Eagles in NFL Week 9)"
-  },
-  "devin singletary": {
-   "h": [
-    "Cam Scattabo Out: Devin Singletary Takes Over Week 9",
-    "Omar Cooper or Devin Singletary",
-    "Denzel Boston or Devin Singletary: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Denzel Boston or Devin Singletary: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "gregory desrosiers": {
-   "h": [
-    "Geno Smith or Gregory Desrosiers: Who Should I Start in Week 9? Fantasy Football",
-    "Gregory Desrosiers or Malik Willis: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Geno Smith or Gregory Desrosiers: Who Should I Start in Week 9? Fantasy Football"
-  },
   "braelon allen": {
    "h": [
     "Nick Bolton Strips the Football from Braelon Allen and Alohi Gilman Recovers",
@@ -2007,6 +1763,26 @@
    "cut": false,
    "inj": true,
    "worst": "Nick Bolton Strips the Football from Braelon Allen and Alohi Gilman Recovers"
+  },
+  "geno smith": {
+   "h": [
+    "Geno Smith is absolutely over it after another failed Jets drive vs. Chiefs",
+    "Geno Smith Blew-Up A Chiefs Player With One Of The Hardest Hits You'll See All Year [VIDEO]",
+    "Kansas City Chiefs defensive end Chris Jones dumps Geno Smith to record his first solo sack of 2026 season"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Geno Smith is absolutely over it after another failed Jets drive vs. Chiefs"
+  },
+  "patrick mahomes": {
+   "h": [
+    "Patrick Mahomes injury latest as Chiefs head coach Andy Reid shares update",
+    "Chiefs news: What Andy Reid said about Patrick Mahomes' elbow injury vs. Jets",
+    "Patrick Mahomes injury: Star QB seen limping to sideline, holding arm"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Patrick Mahomes injury latest as Chiefs head coach Andy Reid shares update"
   },
   "emmett johnson": {
    "h": [
@@ -2299,12 +2075,12 @@
   "devaughn vele": {
    "h": [
     "Is Devaughn Vele Playing Today? Why Saints\u2019 WR Has No Catches",
-    "Devaughn Vele Player Props Week 9: Anytime TD Props and Odds vs. the Browns",
-    "Cooper Kupp or Devaughn Vele: Who Should I Start in Week 9? Fantasy Football"
+    "Devaughn Vele or Jalen Nailor: Who Should I Start in Week 9? Fantasy Football",
+    "Devaughn Vele Player Props Week 9: Anytime TD Props and Odds vs. the Browns"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Cooper Kupp or Devaughn Vele: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Devaughn Vele or Jalen Nailor: Who Should I Start in Week 9? Fantasy Football"
   },
   "juwan johnson": {
    "h": [
@@ -2378,23 +2154,23 @@
   },
   "jonathan mingo": {
    "h": [
+    "Jonathan Mingo Injury: Hurts ankle Sunday, questionable to return",
     "Jonathan Mingo absorbs significant lower-body contact on 23-yard catch vs. Colts",
-    "Jonathan Mingo or Xavier Hutchinson: Who Should I Start in Week 9? Fantasy Football",
-    "Jonathan Mingo or Ted Hurst III: Who Should I Start in Week 9? Fantasy Football"
+    "Jonathan Mingo or Xavier Hutchinson: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jonathan Mingo or Xavier Hutchinson: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Jonathan Mingo Injury: Hurts ankle Sunday, questionable to return"
   },
   "jake ferguson": {
    "h": [
-    "Jake Ferguson Returns Against Colts - NFL News | Fantasy Football",
-    "Jake Ferguson Goes to Medical Tent Against Colts - NFL News | Fantasy Football",
-    "Can't-Miss Play: Dallas Cowboys tight end Jake Ferguson Mosses a Colts defender to snag Prescott's 10-yard TD pass"
+    "Jake Ferguson Questionable to Return Against Colts - NFL News | Fantasy Football",
+    "Jake Ferguson Suffers knee injury in Week 9",
+    "Cowboys' Jake Ferguson, Dee Winters questionable to return after injury exits vs. Colts"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jake Ferguson Returns Against Colts - NFL News | Fantasy Football"
+   "worst": "Jake Ferguson Questionable to Return Against Colts - NFL News | Fantasy Football"
   },
   "laquon treadwell": {
    "h": [
@@ -2436,103 +2212,6 @@
    "inj": true,
    "worst": "Colbie Young or Tyler Warren: Who Should I Start in Week 9? Fantasy Football"
   },
-  "jalen coker": {
-   "h": [
-    "Jalen Coker Stats, News, Video, Bio, Highlights on TSN",
-    "Malik Nabers or Jalen Coker",
-    "Jalen Coker or Brock Bowers | Who Should I Start Week 9"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Jalen Coker Stats, News, Video, Bio, Highlights on TSN"
-  },
-  "pat bryant": {
-   "h": [
-    "Pat Bryant Active for Week 9",
-    "Pat Bryant Fantasy Outlook & Stats",
-    "Former Illinois Star WR Pat Bryant Set to Return From IR"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Broncos get Pat Bryant back from injured reserve \u2013 Denver Sports"
-  },
-  "marvin mims": {
-   "h": [
-    "Efton Chism III or Marvin Mims Jr.: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Efton Chism III or Marvin Mims Jr.: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "john metchie": {
-   "h": [
-    "John Metchie III or Mitch Tinsley: Who Should I Start in Week 9? Fantasy Football",
-    "Dareke Young or John Metchie III: Who Should I Start in Week 9? Fantasy Football",
-    "John Metchie III or Makai Lemon: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "John Metchie III or Mitch Tinsley: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "mitchell evans": {
-   "h": [
-    "Kenny Pickett finds Mitchell Evans for 33-yard gain vs. Tampa Bay",
-    "Mitchell Evans or Will Mallory: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Mitchell Evans or Will Mallory: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "jaylen waddle": {
-   "h": [
-    "Jaylen Waddle exits Week 9 game due to concussion",
-    "Fantasy Football Injury Impact: Jaylen Waddle Injury Boosts Courtland Sutton and Broncos Sleeper",
-    "Jaylen Waddle Injured on Big Hit vs. Panthers, Latest on Broncos WR's Recovery from Concussion"
-   ],
-   "cut": true,
-   "inj": true,
-   "worst": "Jaylen Waddle Ruled out for rest of Sunday's game"
-  },
-  "evan engram": {
-   "h": [
-    "Nix's 19-yard connection with Evan Engram provides Broncos with red-zone access",
-    "Evan Engram or Jordyn Tyson: Who Should I Start in Week 9? Fantasy Football",
-    "Evan Engram Week 9 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Evan Engram or Jordyn Tyson: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "courtland sutton": {
-   "h": [
-    "Fantasy Football Injury Impact: Jaylen Waddle Injury Boosts Courtland Sutton and Broncos Sleeper",
-    "Bo Nix's 10th TD pass of 2026 locates Courtland Sutton, boosting Broncos' lead",
-    "Courtland Sutton or Kyren Williams or Tee Higgins or Terry Mclaurin: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Injury Impact: Jaylen Waddle Injury Boosts Courtland Sutton and Broncos Sleeper"
-  },
-  "tommy tremble": {
-   "h": [
-    "Bryce Young's TD pass to toe-tapping Tremble gets Panthers on the board vs. Broncos",
-    "Bryce Young with a 10-yard touchdown pass to Tommy Tremble vs. Denver Broncos",
-    "Should I Trade (Half PPR) Oscar Delp for Tommy Tremble (2026)?"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Bryce Young's TD pass to toe-tapping Tremble gets Panthers on the board vs. Broncos"
-  },
-  "tetairoa mcmillan": {
-   "h": [
-    "Panthers overcome third-and-17 on Young's connection with McMillan",
-    "Bryce Young shows perfect field presence on first-down pass to McMillan",
-    "Is Tetairoa McMillan Playing Today? Why Panthers\u2019 WR Started Slow vs. Broncos"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Start or Sit: Chuba Hubbard, Tetairoa McMillan, and Panthers D"
-  },
   "puka nacua": {
    "h": [
     "Can't-Miss Play: Stafford's TD pass to Nacua comes with a razor-thin margin for error",
@@ -2565,33 +2244,62 @@
   },
   "van jefferson": {
    "h": [
-    "WATCH: Van Jefferson gives lead back to Commanders with TD vs Rams",
-    "Jayden Daniels connects with Van Jefferson for seven-yard TD, giving Commanders lead over Rams | NFL Highlights",
-    "Van Jefferson burns his former team by catching Jayden Daniels' 7-yard TD pass"
+    "Van Jefferson leads Commanders with 5/58/1 line",
+    "Washington Commanders quarterback Jayden Daniels launches 21-yard pass to wide receiver Van Jefferson",
+    "WATCH: Van Jefferson gives lead back to Commanders with TD vs Rams"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Trey Smack or Van Jefferson: Who Should I Start in Week 9? Fantasy Football"
+   "inj": false,
+   "worst": "Van Jefferson leads Commanders with 5/58/1 line"
   },
   "davis allen": {
    "h": [
-    "Davis Allen or Harold Fannin Jr.: Who Should I Start in Week 9? Fantasy Football",
-    "Davis Allen or Josh Jacobs: Who Should I Start in Week 9? Fantasy Football",
-    "Davis Allen or Stefon Diggs: Who Should I Start in Week 9? Fantasy Football"
+    "Davis Allen or Derrick Henry: Who Should I Start in Week 9? Fantasy Football",
+    "Davis Allen or Harold Fannin Jr.: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Davis Allen or Harold Fannin Jr.: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Davis Allen or Derrick Henry: Who Should I Start in Week 9? Fantasy Football"
   },
   "tyler higbee": {
    "h": [
-    "Tyler Higbee or Braelon Allen | Who Should I Start Week 9",
-    "J.J. McCarthy or Tyler Higbee: Who Should I Pick Up? Fantasy Football (2026)",
-    "Jaleel McLaughlin or Tyler Higbee: Who Should I Pick Up? Fantasy Football (2026)"
+    "Jordan Mason or Tyler Higbee",
+    "Tyler Higbee or Tyjae Spears | Who Should I Start Week 9",
+    "J.J. McCarthy or Tyler Higbee: Who Should I Pick Up? Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
    "worst": "J.J. McCarthy or Tyler Higbee: Who Should I Pick Up? Fantasy Football (2026)"
+  },
+  "austin ekeler": {
+   "h": [
+    "Austin Ekeler Fantasy Football Start or Sit Advice for Week 9",
+    "Austin Ekeler or Woody Marks: Who Should I Start in Week 9? Fantasy Football",
+    "Austin Ekeler or Keandre Lambert-Smith: Who Should I Start in Week 9? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Austin Ekeler Fantasy Football Start or Sit Advice for Week 9"
+  },
+  "blake corum": {
+   "h": [
+    "Blake Corum rushes into the end zone for a TD vs. Commanders",
+    "Blake Corum Rushes for 2-Yard TD to Give Rams 13-10 Lead Over Commanders | NFL Highlights",
+    "Rams take 13-10 lead with Blake Corum touchdown"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Blake Corum rushes into the end zone for a TD vs. Commanders"
+  },
+  "kyren williams": {
+   "h": [
+    "Courtland Sutton or Kyren Williams or Tee Higgins or Terry Mclaurin: Who Should I Start in Week 9? Fantasy Football",
+    "Kyren Williams and the Rams Rank Fourth in Rush Success Rate, and Washington Is 31st Against It",
+    "Player Props for NFL Week 9: Patrick Mahomes, Bryce Young, Kyren Williams, More"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Courtland Sutton or Kyren Williams or Tee Higgins or Terry Mclaurin: Who Should I Start in Week 9? Fantasy Football"
   },
   "antonio williams": {
    "h": [
@@ -2602,6 +2310,16 @@
    "cut": false,
    "inj": true,
    "worst": "Antonio Williams Fantasy Football News, Rankings, Projections |"
+  },
+  "rachaad white": {
+   "h": [
+    "Washington Commanders running back Rachaad White makes 45-yard sprint through Los Angeles Rams defenders",
+    "Rachaad White Football Stats | Washington Commanders",
+    "Gavin Bartholomew or Rachaad White: Who Should I Start in Week 9? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Rachaad White Football Stats | Washington Commanders"
   },
   "chig okonkwo": {
    "h": [
@@ -2622,6 +2340,16 @@
    "cut": false,
    "inj": true,
    "worst": "Reggie Virgil or Stefon Diggs: Who Should I Start in Week 9? Fantasy Football"
+  },
+  "devin singletary": {
+   "h": [
+    "Cam Scattabo Out: Devin Singletary Takes Over Week 9",
+    "Omar Cooper or Devin Singletary",
+    "Denzel Boston or Devin Singletary: Who Should I Start in Week 9? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Denzel Boston or Devin Singletary: Who Should I Start in Week 9? Fantasy Football"
   },
   "malik nabers": {
    "h": [
@@ -2652,6 +2380,16 @@
    "cut": false,
    "inj": true,
    "worst": "Eli Stowers or Marvin Harrison Jr.: Who Should I Start in Week 9? Fantasy Football"
+  },
+  "saquon barkley": {
+   "h": [
+    "DJ Reader comes untouched for a TFL vs. Barkley",
+    "Saquon Barkley rushes for 3-yard TD, giving Eagles lead over Giants | NFL Highlights",
+    "Saquon Barkley Fantasy Outlook & Stats"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Is Saquon Barkley Playing Today? (Injury Update, Betting Impact for Giants vs. Eagles in NFL Week 9)"
   },
   "theo johnson": {
    "h": [
@@ -2719,105 +2457,33 @@
    "inj": false,
    "worst": "Jameis Winston connects with Isaiah Likely for TD, extending Giants' lead over Eagles | NFL Highlights"
   },
-  "adonai mitchell": {
+  "tank dell": {
    "h": [
-    "Nohl Williams breaks up Geno Smith's deep launch to Adonai Mitchell at the very last moment",
-    "Geno Smith, Adonai Mitchell barely miss out on 30-yard TD connection",
-    "Adonai Mitchell or Emmett Johnson"
+    "Kyle Juszczyk or Tank Dell: Who Should I Start in Week 9? Fantasy Football",
+    "What to Expect From Tank Dell in Second Game Back With Texans",
+    "Kimani Vidal or Tank Dell"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Adonai Mitchell or Dohnte Meyers: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Kyle Juszczyk or Tank Dell: Who Should I Start in Week 9? Fantasy Football"
   },
-  "cyrus allen": {
+  "ladd mcconkey": {
    "h": [
-    "Should I Trade (Half PPR) Cyrus Allen for Devin Singletary (2026)?",
-    "Cyrus Allen or Luther Burden III: Who Should I Start in Week 9? Fantasy Football",
-    "Cyrus Allen Fantasy Outlook & Stats"
+    "Kevin Coleman Jr. or Ladd McConkey: Who Should I Start in Week 9? Fantasy Football",
+    "Chargers reveal trade deadline plans for Mack, Herbert, McConkey",
+    "NFL Trade Rumors Reveal Stance on Justin Herbert, Ladd McConkey Offers"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Cyrus Allen or Luther Burden III: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Kevin Coleman Jr. or Ladd McConkey: Who Should I Start in Week 9? Fantasy Football"
   },
-  "noah gray": {
+  "dalton schultz": {
    "h": [
-    "Noah Gray expresses confidence in the offense heading into Week 9",
-    "Noah Gray or Quinshon Judkins: Who Should I Start in Week 9? Fantasy Football",
-    "Efton Chism III or Noah Gray: Who Should I Start in Week 9? Fantasy Football"
+    "Dalton Schultz Week 9 Outlook for Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Noah Gray or Quinshon Judkins: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "isaiah williams": {
-   "h": [
-    "Isaiah Likely or Antonio Williams",
-    "Isaiah Williams or Sione Vaki: Who Should I Start in Week 9? Fantasy Football",
-    "Elijah Mitchell or Isaiah Williams: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Isaiah Williams or Sione Vaki: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "mason taylor": {
-   "h": [
-    "Mark Redman or Mason Taylor: Who Should I Start in Week 9? Fantasy Football",
-    "Foster Moreau or Mason Taylor: Who Should I Start in Week 9? Fantasy Football",
-    "Mason Taylor Week 9 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Mark Redman or Mason Taylor: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "kenyon sadiq": {
-   "h": [
-    "New York Jets tight end Kenyon Sadiq climbs the ladder to grab quarterback Geno Smith's 17-yard pass",
-    "Kenyon Sadiq names two things he admires about Travis Kelce\u2019s game ahead of Chiefs clash",
-    "Kenyon Sadiq Gets Called out Before Jets Chiefs Game"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Josh Cuevas or Kenyon Sadiq: Who Should I Draft? Fantasy Football (2026)"
-  },
-  "omar cooper": {
-   "h": [
-    "James Cook III or Omar Cooper Jr.: Who Should I Start in Week 9? Fantasy Football",
-    "Omar Cooper Jr. Fantasy Football Start or Sit Advice for Week 9",
-    "Omar Cooper Jr. or Tyler Goodson: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "James Cook III or Omar Cooper Jr.: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "rashee rice": {
-   "h": [
-    "Kansas City Chiefs wide receiver Rashee Rice follows several blockers on 21-yard screen play",
-    "Rashee Rice files for Chapter 7 bankruptcy with $3.45M in debts, lists his $160K Super Bowl ring as collateral",
-    "Chiefs WR Rashee Rice files for bankruptcy over debts from crash, alleged assault"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Kansas City Chiefs wide receiver Rashee Rice follows several blockers on 21-yard screen play"
-  },
-  "travis kelce": {
-   "h": [
-    "Congrats Pour In For Travis Kelce After NFL Announcement",
-    "Mahomes' 38-yard completion to Kelce breaks record for most all-time pass yards for a QB-TE duo",
-    "Taylor Swift goes absolutely wild at Arrowhead as Travis Kelce scores touchdown"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Congrats Pour In For Travis Kelce After NFL Announcement"
-  },
-  "xavier worthy": {
-   "h": [
-    "Quarterback Patrick Mahomes' 11-yard strike to wide receiver Xavier Worthy gets Kansas City Chiefs into Jets' territory",
-    "Seth McGowan or Xavier Worthy",
-    "Should I Trade (Half PPR) Josh Jacobs for Xavier Worthy (2026)?"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Josh Cuevas or Xavier Worthy: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Dalton Schultz Week 9 Outlook for Fantasy Football (2026)"
   },
   "oronde gadsden": {
    "h": [
@@ -2849,16 +2515,6 @@
    "inj": true,
    "worst": "Cam Skattebo or Xavier Hutchinson: Who Should I Start in Week 9? Fantasy Football"
   },
-  "tank dell": {
-   "h": [
-    "Kyle Juszczyk or Tank Dell: Who Should I Start in Week 9? Fantasy Football",
-    "What to Expect From Tank Dell in Second Game Back With Texans",
-    "Kimani Vidal or Tank Dell"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Kyle Juszczyk or Tank Dell: Who Should I Start in Week 9? Fantasy Football"
-  },
   "kayshon boutte": {
    "h": [
     "Jahan Dotson or Kayshon Boutte: Who Should I Start in Week 9? Fantasy Football",
@@ -2887,24 +2543,6 @@
    "cut": false,
    "inj": true,
    "worst": "Oscar Delp or Tre' Harris: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "dalton schultz": {
-   "h": [
-    "Dalton Schultz Week 9 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Dalton Schultz Week 9 Outlook for Fantasy Football (2026)"
-  },
-  "ladd mcconkey": {
-   "h": [
-    "Kevin Coleman Jr. or Ladd McConkey: Who Should I Start in Week 9? Fantasy Football",
-    "Chargers reveal trade deadline plans for Mack, Herbert, McConkey",
-    "NFL Trade Rumors Reveal Stance on Justin Herbert, Ladd McConkey Offers"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Kevin Coleman Jr. or Ladd McConkey: Who Should I Start in Week 9? Fantasy Football"
   },
   "quentin johnston": {
    "h": [
@@ -3027,9 +2665,9 @@
   },
   "hunter henry": {
    "h": [
-    "Patriots vs. Packers inactives: Hunter Henry is good to go",
-    "Hunter Henry (foot) active for Week 9 vs. Packers",
-    "Inactives Analysis: TE Hunter Henry, WR Mack Hollins active; CB Charles Woods inactive for Patriots vs. Packers in Week 9"
+    "Hunter Henry Active for Sunday's game",
+    "Hunter Henry, Keisean Nixon are active for Patriots-Packers clash",
+    "Patriots vs. Packers inactives: Hunter Henry is good to go"
    ],
    "cut": true,
    "inj": true,
@@ -3379,13 +3017,13 @@
   },
   "eli raridon": {
    "h": [
-    "Eli Raridon or Kenneth Walker: Who Should I Start in Week 9? Fantasy Football",
+    "Should I Trade Eli Raridon for Ray Davis (2026)?",
     "Courtland Sutton or Eli Raridon: Who Should I Pick Up? Fantasy Football (2026)",
     "Eli Raridon or Tony Pollard: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Eli Raridon or Kenneth Walker: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Courtland Sutton or Eli Raridon: Who Should I Pick Up? Fantasy Football (2026)"
   },
   "joe fagnano": {
    "h": [
@@ -3406,6 +3044,56 @@
    "cut": false,
    "inj": true,
    "worst": "Trevor Lawrence Hitting Another Level for Jaguars Stream of National Football League"
+  },
+  "jayden daniels": {
+   "h": [
+    "Myles Garrett engulfs Jayden Daniels for a key sack in fourth quarter",
+    "Myles Garrett returns to Rams with strip-sack of Jayden Daniels while Commanders double-teamed Aaron Donald",
+    "Can't-Miss Play: Myles Garrett strips the football from Jayden Daniels' grasp for a Rams takeaway"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Can't-Miss Play: Myles Garrett strips the football from Jayden Daniels' grasp for a Rams takeaway"
+  },
+  "bryce young": {
+   "h": [
+    "Bryce Young shows perfect field presence on first-down pass to McMillan",
+    "Bryce Young Gets a Shot at a Short-Handed Denver Broncos Secondary",
+    "Is Panthers QB Bryce Young Playing vs. Broncos Today Amid Ankle Injury Concerns?"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Is Panthers QB Bryce Young Playing vs. Broncos Today Amid Ankle Injury Concerns?"
+  },
+  "bo nix": {
+   "h": [
+    "Patrick Jones II's sack of Bo Nix forces Broncos into punt formation",
+    "Even Former NFL QBs Don\u2019t Know What Bo Nix Is Worth",
+    "Video - Even Former NFL QBs Don\u2019t Know What Bo Nix Is Worth"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Bo Nix Finds Nate Adkins for Broncos Touchdown Stream of National Football League"
+  },
+  "jj mccarthy": {
+   "h": [
+    "McCarthy and Nabers just barely miss out on a potential highlight-reel TD vs. Eagles",
+    "New York Giants quarterback J.J. McCarthy scampers for an 11-yard gain on third-and-10",
+    "Shannon Sharpe Warns J.J. McCarthy About Dangerous Playing Style Sunday"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "J.J. McCarthy Injured, Latest Updates on Giants QB After Concerning Video vs. Eagles"
+  },
+  "joe milton": {
+   "h": [
+    "Milton III's 19-yard connection with Goedert gets Eagles into Giants' territory in fourth quarter",
+    "Philadelphia Eagles quarterback Joe Milton III's 21-yard dart finds wide receiver Darius Cooper",
+    "Joe Milton III finds Makai Lemon for 19 yards"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Milton III's 19-yard connection with Goedert gets Eagles into Giants' territory in fourth quarter"
   },
   "joe burrow": {
    "h": [
@@ -3436,6 +3124,16 @@
    "cut": false,
    "inj": true,
    "worst": "Lions QB Jared Goff Shares Update on Injured Player Jack Campbell"
+  },
+  "matthew stafford": {
+   "h": [
+    "Matthew Stafford finds Puka Nacua for seven-yard TD, giving Rams lead over Commanders | NFL Highlights",
+    "Matthew Stafford launches 21-yard pass to Puka Nacua",
+    "Rams vs. Commanders prediction: Matthew Stafford leads L.A. to road win"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Matthew Stafford finds Puka Nacua for seven-yard TD, giving Rams lead over Commanders | NFL Highlights"
   },
   "malik willis": {
    "h": [
