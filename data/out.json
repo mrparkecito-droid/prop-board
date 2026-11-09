@@ -77,7 +77,7 @@
    "rks": 29,
    "vs": 44,
    "agree": 3,
-   "score": 63.9,
+   "score": 56.3,
    "flags": [],
    "pc": 0.7703,
    "praw": 0.8986,
@@ -146,7 +146,7 @@
    "qfs": 50,
    "qnote": "",
    "qinfo": null,
-   "risk": 0,
+   "risk": 1,
    "tpts": 20.2,
    "rank": 1,
    "why": "Cleared 15+ in 7 of 7 games, by +50 on average (11 of 12 last season), Sleeper projects 48.8, BUF let 7 of 7 lead RBs reach it. Snaps dropped to 40% last game. Demond Claiborne out, more carries for him. Watch: BUF gives up 25% fewer rushing yds to lead RBs than average.; MIN projected for only 20 pts (O/U 43.5).",
@@ -573,7 +573,7 @@
    "prop": "Receiving Yards",
    "line": 40,
    "ask": 86,
-   "bid": 85,
+   "bid": 84,
    "vals": [
     92.0,
     55.0,
@@ -637,13 +637,13 @@
    "rks": 94,
    "vs": 38,
    "agree": 1,
-   "score": 44.9,
+   "score": 44.8,
    "flags": [],
-   "pc": 0.76,
+   "pc": 0.757,
    "praw": 0.7539,
    "rg": "WR1",
    "est": false,
-   "mid": 85.5,
+   "mid": 85.0,
    "tk": "KXNFLRECYDS-26NOV09BUFMIN-MINJJEFFERSON18-40",
    "ev": "KXNFLRECYDS-26NOV09BUFMIN",
    "ctx": 0.2,
@@ -1047,7 +1047,7 @@
    "prop": "Receptions",
    "line": 2,
    "ask": 86,
-   "bid": 84,
+   "bid": 85,
    "vals": [
     0.0,
     2.0,
@@ -1113,11 +1113,11 @@
    "agree": 1,
    "score": 39.4,
    "flags": [],
-   "pc": 0.7492,
+   "pc": 0.7522,
    "praw": 0.6863,
    "rg": "WR2",
    "est": false,
-   "mid": 85.0,
+   "mid": 85.5,
    "tk": "KXNFLREC-26NOV09BUFMIN-MINJADDISON3-2",
    "ev": "KXNFLREC-26NOV09BUFMIN",
    "ctx": 0.28,
@@ -1222,8 +1222,8 @@
    "ln": 40,
    "ask": 37,
    "q": 36.0,
-   "p": 0.3505,
-   "sc": 44.2,
+   "p": 0.3442,
+   "sc": 38.7,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV09BUFMIN-MINAJONES33-40",
    "ev": "KXNFLRSHYDS-26NOV09BUFMIN",
@@ -1234,7 +1234,7 @@
    "dy": "Mon",
    "df": 0.3,
    "xb": 0,
-   "rk": 0,
+   "rk": 1,
    "pt": 20.2
   },
   {
@@ -1416,6 +1416,76 @@
  "td": {
   "players": [
    {
+    "key": "josh allen",
+    "pl": "Josh Allen",
+    "tm": "BUF",
+    "opp": "MIN",
+    "pos": "QB",
+    "role": "QB",
+    "g": "BUFMIN",
+    "gl": "BUF @ MIN (Mon)",
+    "dy": "Mon",
+    "id": "4984",
+    "lam": 0.56,
+    "pm": 0.427,
+    "p": 0.606,
+    "q": 78.5,
+    "ask": 79,
+    "tk": "KXNFLPASSTDS-26NOV09BUFMIN-BUFJALLEN17-1",
+    "ev": "KXNFLPASSTDS-26NOV09BUFMIN",
+    "tds": 9.0,
+    "n": 7,
+    "games_td": 6,
+    "ptd": 14.0,
+    "pn": 16,
+    "rz": 22,
+    "tdsh": 27,
+    "ts": null,
+    "tdr": 16.1,
+    "tpg": 8.0,
+    "pts": 23.2,
+    "sp": -3.0,
+    "tot": 43.5,
+    "d": {
+     "td": 0,
+     "n": 7,
+     "rank": 28,
+     "nteams": 32,
+     "ltd": 1.0,
+     "lrank": 32,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.7,
+    "debt": -6.3,
+    "hist": true,
+    "inj": "News",
+    "news": "Turner sizes up Josh Allen as 6-1 Vikings host 6-1 Bills on Monday Night Football",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.837,
+     "ask": 90,
+     "sc": 48.8
+    },
+    "tags": [
+     "Favored"
+    ],
+    "low": false,
+    "score": 85.5,
+    "why": [
+     "MIN has allowed 0 QB TDs in 7 games (28th most); 1.0 all last season.",
+     "22% red-zone role, 16.1% TD rate, 8 touches a game.",
+     "9.0 TDs in 7 games, scored in 6 (14.0 in 16 last season).",
+     "BUF projected for 23 pts (O/U 43.5, favored by 3).",
+     "Injury news: Turner sizes up Josh Allen as 6-1 Vikings host 6-1 Bills on Monday Night Football",
+     "Kalshi 78\u00a2 vs model 43%."
+    ]
+   },
+   {
     "key": "aaron jones",
     "pl": "Aaron Jones Sr.",
     "tm": "MIN",
@@ -1462,14 +1532,14 @@
     "dfac": 1.26,
     "debt": 2.0,
     "hist": true,
-    "inj": null,
-    "news": null,
+    "inj": "News",
+    "news": "Aaron Jones Sr. or Mo Alie-Cox: Who Should I Start in Week 9? Fantasy Football",
     "prop": {
      "pr": "Rushing Yards",
      "ln": 15,
      "p": 0.77,
      "ask": 82,
-     "sc": 63.9
+     "sc": 56.3
     },
     "tags": [
      "Elite red zone role",
@@ -1487,7 +1557,8 @@
      "34% red-zone role, 12% target share, 1.5% TD rate, 18.7 touches a game.",
      "2.0 TDs in 7 games, scored in 2 (3.0 in 12 last season).",
      "Low total: MIN projected for 20 pts (O/U 43.5, 3-pt underdog).",
-     "Due: 2 TD debt (his role says he should have scored more)."
+     "Due: 2 TD debt (his role says he should have scored more).",
+     "Injury news: Aaron Jones Sr. or Mo Alie-Cox: Who Should I Start in Week 9? Fantasy Football"
     ]
    },
    {
@@ -1538,7 +1609,7 @@
     "debt": -1.2,
     "hist": true,
     "inj": "News",
-    "news": "Bills vs. Vikings MNF Props: James Cook, Justin Jefferson, T.J. Hockenson Best Bets for Monday Night Football",
+    "news": "James Cook III Fantasy Football Half PPR Draft Rankings | Buffalo Bills",
     "prop": {
      "pr": "Rushing Yards",
      "ln": 50,
@@ -1561,76 +1632,7 @@
      "39% red-zone role, 9% target share, 4.5% TD rate, 22.1 touches a game.",
      "7.0 TDs in 7 games, scored in 6 (14.0 in 17 last season).",
      "BUF projected for 23 pts (O/U 43.5, favored by 3).",
-     "Injury news: Bills vs. Vikings MNF Props: James Cook, Justin Jefferson, T.J. Hockenson Best Bets for Monday Night Football"
-    ]
-   },
-   {
-    "key": "josh allen",
-    "pl": "Josh Allen",
-    "tm": "BUF",
-    "opp": "MIN",
-    "pos": "QB",
-    "role": "QB",
-    "g": "BUFMIN",
-    "gl": "BUF @ MIN (Mon)",
-    "dy": "Mon",
-    "id": "4984",
-    "lam": 0.56,
-    "pm": 0.427,
-    "p": 0.427,
-    "q": null,
-    "ask": null,
-    "tk": null,
-    "ev": null,
-    "tds": 9.0,
-    "n": 7,
-    "games_td": 6,
-    "ptd": 14.0,
-    "pn": 16,
-    "rz": 22,
-    "tdsh": 27,
-    "ts": null,
-    "tdr": 16.1,
-    "tpg": 8.0,
-    "pts": 23.2,
-    "sp": -3.0,
-    "tot": 43.5,
-    "d": {
-     "td": 0,
-     "n": 7,
-     "rank": 28,
-     "nteams": 32,
-     "ltd": 1.0,
-     "lrank": 32,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.7,
-    "debt": -6.3,
-    "hist": true,
-    "inj": "News",
-    "news": "Turner sizes up Josh Allen as 6-1 Vikings host 6-1 Bills on Monday Night Football",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.837,
-     "ask": 90,
-     "sc": 48.8
-    },
-    "tags": [
-     "Favored"
-    ],
-    "low": false,
-    "score": 85.5,
-    "why": [
-     "MIN has allowed 0 QB TDs in 7 games (28th most); 1.0 all last season.",
-     "22% red-zone role, 16.1% TD rate, 8 touches a game.",
-     "9.0 TDs in 7 games, scored in 6 (14.0 in 16 last season).",
-     "BUF projected for 23 pts (O/U 43.5, favored by 3).",
-     "Injury news: Turner sizes up Josh Allen as 6-1 Vikings host 6-1 Bills on Monday Night Football"
+     "Injury news: James Cook III Fantasy Football Half PPR Draft Rankings | Buffalo Bills"
     ]
    },
    {
@@ -1681,7 +1683,7 @@
     "debt": 0.3,
     "hist": true,
     "inj": "News",
-    "news": "Jordan Mason or New England Patriots: Who Should I Start in Week 9? Fantasy Football",
+    "news": "Jordan Mason or Nate Boerkircher: Who Should I Start in Week 9? Fantasy Football",
     "tags": [
      "RZ share top-10",
      "Soft TD defense",
@@ -1695,7 +1697,7 @@
      "14% red-zone role, 1% target share, 2.5% TD rate, 13.3 touches a game.",
      "1.0 TD in 3 games, scored in 1 (6.0 in 16 last season).",
      "Low total: MIN projected for 20 pts (O/U 43.5, 3-pt underdog).",
-     "Injury news: Jordan Mason or New England Patriots: Who Should I Start in Week 9? Fantasy Football"
+     "Injury news: Jordan Mason or Nate Boerkircher: Who Should I Start in Week 9? Fantasy Football"
     ]
    },
    {
@@ -1885,7 +1887,7 @@
     "debt": 1.0,
     "hist": true,
     "inj": "News",
-    "news": "Khalil Shakir Week 9 Outlook for Fantasy Football (2026)",
+    "news": "Jacory Croskeymerritt or Khalil Shakir: Who Should I Pick Up? Fantasy Football (2026)",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 15,
@@ -1906,7 +1908,7 @@
      "1.0 TD in 7 games, scored in 1 (4.0 in 16 last season).",
      "BUF projected for 23 pts (O/U 43.5, favored by 3).",
      "Due: 1 TD debt (his role says he should have scored more).",
-     "Injury news: Khalil Shakir Week 9 Outlook for Fantasy Football (2026)"
+     "Injury news: Jacory Croskeymerritt or Khalil Shakir: Who Should I Pick Up? Fantasy Football (2026)"
     ]
    },
    {
@@ -3568,7 +3570,7 @@
    7,
    8
   ],
-  "generated": "2026-11-09T00:30:33-08:00",
+  "generated": "2026-11-09T01:00:40-08:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 9 \u00b7 Mon Nov 9",
@@ -3580,7 +3582,7 @@
    "weather": "0 outdoor games",
    "injuries": "236 players listed",
    "news": "0 players in headlines",
-   "google_news": "1 role-cut, 28 injury headlines; QB hurt: KC, LAC, LAR, MIA, NO, NYG",
+   "google_news": "0 role-cut, 30 injury headlines; QB hurt: KC, LAC, LAR, MIA, NO, NYG",
    "sleeper_trending": "43 board players trending",
    "reddit": "unavailable"
   },
