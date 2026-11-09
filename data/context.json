@@ -1,19 +1,6 @@
 {
- "generated": "2026-11-09T00:01:00+00:00",
+ "generated": "2026-11-09T00:30:55+00:00",
  "games": {
-  "HOULAC": {
-   "home": "LAC",
-   "away": "HOU",
-   "kick": "2026-11-08T21:05Z",
-   "indoor": true,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 82
-   }
-  },
   "GBNE": {
    "home": "NE",
    "away": "GB",
@@ -23,8 +10,8 @@
    "spread": {},
    "total": null,
    "espn_wx": {
-    "desc": "35",
-    "temp": 47
+    "desc": "34",
+    "temp": 46
    },
    "wx": {
     "wind": 7,
@@ -34,45 +21,14 @@
     "temp": 51
    }
   },
-  "LVSF": {
-   "home": "SF",
-   "away": "LV",
-   "kick": "2026-11-08T21:25Z",
-   "indoor": false,
+  "HOULAC": {
+   "home": "LAC",
+   "away": "HOU",
+   "kick": "2026-11-08T21:05Z",
+   "indoor": true,
    "neutral": false,
    "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "3",
-    "temp": 66
-   },
-   "wx": {
-    "wind": 6,
-    "gust": 8,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 67
-   }
-  },
-  "ARISEA": {
-   "home": "SEA",
-   "away": "ARI",
-   "kick": "2026-11-08T21:25Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "2",
-    "temp": 56
-   },
-   "wx": {
-    "wind": 10,
-    "gust": 20,
-    "pop": 3,
-    "rain": 0.0,
-    "temp": 57
-   }
+   "total": null
   },
   "TBCHI": {
    "home": "CHI",
@@ -91,7 +47,7 @@
    },
    "wx": {
     "wind": 7,
-    "gust": 17,
+    "gust": 16,
     "pop": 0,
     "rain": 0.0,
     "temp": 46
@@ -297,18 +253,28 @@
   ],
   "CHI": [
    {
-    "name": "Tyrique Stevenson Sr.",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
     "name": "Malik Muhammad II",
     "pos": "CB",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Case Keenum",
+    "pos": "QB",
+    "status": "Out"
    },
    {
     "name": "Kyle Monangai",
     "pos": "RB",
+    "status": "Out"
+   },
+   {
+    "name": "Keyshaun Elliott",
+    "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "Jayden Loving",
+    "pos": "DT",
     "status": "Out"
    }
   ],
@@ -367,6 +333,11 @@
    }
   ],
   "DAL": [
+   {
+    "name": "P.J. Locke",
+    "pos": "S",
+    "status": "Questionable"
+   },
    {
     "name": "Jonathan Mingo",
     "pos": "WR",
@@ -909,6 +880,11 @@
   ],
   "NE": [
    {
+    "name": "Rhamondre Stevenson",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
     "name": "Brenden Schooler",
     "pos": "S",
     "status": "Questionable"
@@ -1121,6 +1097,11 @@
   ],
   "SF": [
    {
+    "name": "Gracen Halton",
+    "pos": "DT",
+    "status": "Questionable"
+   },
+   {
     "name": "Kurtis Rourke",
     "pos": "QB",
     "status": "Out"
@@ -1195,9 +1176,24 @@
   ],
   "TB": [
    {
-    "name": "Emeka Egbuka",
-    "pos": "WR",
-    "status": "Questionable"
+    "name": "Billy Schrauth",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Ayden Garnes",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Trevor Keegan",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "DeMonte Capehart",
+    "pos": "DT",
+    "status": "Out"
    },
    {
     "name": "Yaya Diaby",
@@ -1293,184 +1289,184 @@
  "trend": {
   "devin singletary": {
    "rank": 1,
-   "adds": 1081422
+   "adds": 1083420
   },
   "demarcus robinson": {
    "rank": 2,
-   "adds": 780384
+   "adds": 781242
   },
   "audric estime": {
    "rank": 3,
-   "adds": 403701
+   "adds": 411603
   },
   "adonai mitchell": {
    "rank": 4,
-   "adds": 303112
+   "adds": 303400
   },
   "ryan flournoy": {
    "rank": 5,
-   "adds": 298688
+   "adds": 300440
   },
   "alvin kamara": {
    "rank": 6,
-   "adds": 246896
+   "adds": 247840
   },
   "gregory desrosiers": {
    "rank": 8,
-   "adds": 213768
+   "adds": 214016
   },
   "corey kiner": {
    "rank": 9,
-   "adds": 198666
+   "adds": 208452
   },
   "carson wentz": {
    "rank": 10,
-   "adds": 189678
+   "adds": 192300
   },
   "omar cooper": {
    "rank": 11,
-   "adds": 185880
+   "adds": 187040
   },
   "darius cooper": {
    "rank": 12,
-   "adds": 182042
-  },
-  "malik willis": {
-   "rank": 13,
-   "adds": 146608
+   "adds": 182182
   },
   "tank dell": {
-   "rank": 17,
-   "adds": 119840
+   "rank": 13,
+   "adds": 153392
+  },
+  "malik willis": {
+   "rank": 14,
+   "adds": 147014
   },
   "dylan sampson": {
    "rank": 18,
-   "adds": 112060
-  },
-  "emmett johnson": {
-   "rank": 19,
-   "adds": 100908
+   "adds": 112590
   },
   "jadarian price": {
+   "rank": 19,
+   "adds": 101961
+  },
+  "emmett johnson": {
    "rank": 20,
-   "adds": 99729
-  },
-  "jordan watkins": {
-   "rank": 21,
-   "adds": 97444
-  },
-  "malik washington": {
-   "rank": 22,
-   "adds": 97256
-  },
-  "elijah mitchell": {
-   "rank": 23,
-   "adds": 95553
+   "adds": 101781
   },
   "kenny gainwell": {
+   "rank": 21,
+   "adds": 100944
+  },
+  "jordan watkins": {
+   "rank": 22,
+   "adds": 100316
+  },
+  "malik washington": {
+   "rank": 23,
+   "adds": 97424
+  },
+  "elijah mitchell": {
    "rank": 24,
-   "adds": 94248
+   "adds": 95679
   },
   "khalil herbert": {
    "rank": 25,
-   "adds": 93042
+   "adds": 93249
   },
   "jordan addison": {
    "rank": 26,
-   "adds": 88704
+   "adds": 91134
   },
   "shedeur sanders": {
    "rank": 27,
-   "adds": 86744
+   "adds": 89336
   },
   "jordyn tyson": {
    "rank": 28,
-   "adds": 85952
+   "adds": 86360
   },
   "austin ekeler": {
    "rank": 29,
-   "adds": 75064
+   "adds": 75264
   },
   "mike gesicki": {
    "rank": 30,
-   "adds": 73924
+   "adds": 74272
   },
   "kaelon black": {
    "rank": 31,
-   "adds": 71764
-  },
-  "keenan allen": {
-   "rank": 32,
-   "adds": 67144
+   "adds": 72317
   },
   "caleb douglas": {
+   "rank": 32,
+   "adds": 68040
+  },
+  "keenan allen": {
    "rank": 33,
-   "adds": 66888
+   "adds": 67260
   },
   "pat bryant": {
    "rank": 34,
-   "adds": 64008
+   "adds": 66080
   },
   "michael mayer": {
    "rank": 35,
-   "adds": 62640
-  },
-  "jahan dotson": {
-   "rank": 36,
-   "adds": 59283
+   "adds": 62973
   },
   "mack hollins": {
+   "rank": 36,
+   "adds": 60378
+  },
+  "jahan dotson": {
    "rank": 37,
-   "adds": 59031
+   "adds": 59373
   },
   "justice hill": {
-   "rank": 40,
-   "adds": 55368
+   "rank": 39,
+   "adds": 57609
   },
   "seth mcgowan": {
    "rank": 41,
-   "adds": 52888
+   "adds": 54712
   },
   "khalil shakir": {
    "rank": 42,
-   "adds": 52317
+   "adds": 54045
   },
   "kimani vidal": {
    "rank": 43,
-   "adds": 51745
-  },
-  "kirk cousins": {
-   "rank": 45,
-   "adds": 47936
-  },
-  "xavier worthy": {
-   "rank": 46,
-   "adds": 47664
+   "adds": 51835
   },
   "cj stroud": {
+   "rank": 44,
+   "adds": 50876
+  },
+  "kirk cousins": {
+   "rank": 46,
+   "adds": 48624
+  },
+  "xavier worthy": {
    "rank": 47,
-   "adds": 43911
+   "adds": 47844
   },
   "tyler higbee": {
    "rank": 48,
-   "adds": 43848
-  },
-  "joe milton": {
-   "rank": 49,
-   "adds": 39768
+   "adds": 44145
   },
   "kc concepcion": {
+   "rank": 49,
+   "adds": 40554
+  },
+  "joe milton": {
    "rank": 50,
-   "adds": 39303
+   "adds": 39828
   }
  },
  "buzz": {},
  "sources": {
   "lines": "2 games",
-  "weather": "4 outdoor games",
-  "injuries": "220 players listed",
+  "weather": "2 outdoor games",
+  "injuries": "228 players listed",
   "news": "2 players in headlines",
-  "google_news": "1 role-cut, 86 injury headlines; QB hurt: KC, MIA, NO, NYG, SEA, TB",
+  "google_news": "1 role-cut, 66 injury headlines; QB hurt: KC, MIA, NO, NYG, SEA, TB",
   "sleeper_trending": "43 board players trending",
   "reddit": "unavailable"
  },
@@ -1495,36 +1491,6 @@
    "inj": false,
    "worst": "Justin Herbert dials launch codes to Derek Stingley Jr. for deep-ball INT"
   },
-  "gardner minshew": {
-   "h": [
-    "The week of the backup QB in the NFL kicks off as Sanders, Milton, Minshew, Lock, and Wentz start",
-    "Brissett Credited With Win Minshew Led",
-    "Cardinals Name Gardner Minshew II Starting QB Stream of National Football League"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Cardinals Name Gardner Minshew II Starting QB Stream of National Football League"
-  },
-  "drew lock": {
-   "h": [
-    "What happened to Drew Lock? Live injury updates for Seahawks vs. Cardinals on Sunday 11/8/26",
-    "Drew Lock Returns Against Cardinals - NFL News | Fantasy Football",
-    "Drew Lock finds AJ Barner for seven-yard TD, extending Seahawks lead over Cardinals | NFL Highlights"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "What happened to Drew Lock? Live injury updates for Seahawks vs. Cardinals on Sunday 11/8/26"
-  },
-  "jordan love": {
-   "h": [
-    "Tom Brady likes what he's seeing from Jordan Love",
-    "Jordan Love finds Matthew Golden for five-yard TD, extending Packers' lead over Patriots | NFL Highlights",
-    "Jordan Love scrambles for 13-yard TD run, giving Packers lead over Patriots | NFL Highlights"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Tom Brady likes what he's seeing from Jordan Love"
-  },
   "drake maye": {
    "h": [
     "Packers pick off Drake Maye, jump out to 7-0 lead",
@@ -1535,25 +1501,15 @@
    "inj": false,
    "worst": "Packers pick off Drake Maye, jump out to 7-0 lead"
   },
-  "kirk cousins": {
+  "jordan love": {
    "h": [
-    "Dugger Intercepts Kirk Cousins' Pass vs. Las Vegas Raiders",
-    "Trade Deadline Buzz: Khalil Mack, Josh Downs, Kirk Cousins, Broncos, Chargers, Chiefs, Raiders",
-    "Kirk Cousins hits his new signature celebration after scoring TD run vs. 49ers"
+    "Tom Brady likes what he's seeing from Jordan Love",
+    "Jordan Love finds Matthew Golden for five-yard TD, extending Packers' lead over Patriots | NFL Highlights",
+    "Jordan Love scrambles for 13-yard TD run, giving Packers lead over Patriots | NFL Highlights"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Dugger Intercepts Kirk Cousins' Pass vs. Las Vegas Raiders"
-  },
-  "brock purdy": {
-   "h": [
-    "Can't-Miss Play: Brock Purdy dials launch codes to Jordan Watkins for WR's first NFL TD",
-    "49ers\u2019 Brock Purdy Reaches Career Milestone Vs. Raiders",
-    "Brock Purdy Connects With Christian McCaffrey For 12-Yard TD, Extending 49ers' Lead Over Raiders | NFL Highlights"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Can't-Miss Play: Brock Purdy dials launch codes to Jordan Watkins for WR's first NFL TD"
+   "worst": "Tom Brady likes what he's seeing from Jordan Love"
   },
   "baker mayfield": {
    "h": [
@@ -1635,34 +1591,6 @@
    "inj": true,
    "worst": "Cody Schrader or Kimani Vidal: Who Should I Start in Week 9? Fantasy Football"
   },
-  "tyler allgeier": {
-   "h": [
-    "Tyler Allgeier Football Stats | Arizona Cardinals",
-    "Tyler Allgeier Takes Over as Cardinals' RB1 Stream of National Football League",
-    "Fantasy football start-sit Week 9: Ashton Jeanty, Omarion Hampton, Tyler Allgeier"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Tyler Allgeier Football Stats | Arizona Cardinals"
-  },
-  "zach charbonnet": {
-   "h": [
-    "Pierre Strong Jr. or Zach Charbonnet: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Pierre Strong Jr. or Zach Charbonnet: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "jadarian price": {
-   "h": [
-    "Seattle Seahawks running back Jadarian Price makes 16-yard dash through Arizona Cardinals defenders",
-    "Seahawks Give Jadarian Price a New Role Against Cardinals",
-    "NFL Touchdown Parlay Week 9: Drake Maye, Jadarian Price, Trey McBride"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jadarian Price or Woody Marks: Who Should I Start in Week 9? Fantasy Football"
-  },
   "josh jacobs": {
    "h": [
     "Packers\u2019 Likelihood of $43.5 Million RB Trade Spikes With Josh Jacobs\u2019 Injury",
@@ -1692,46 +1620,6 @@
    "cut": false,
    "inj": true,
    "worst": "Corey Kiner Fantasy Football Start or Sit Advice for Week 9"
-  },
-  "mike washington": {
-   "h": [
-    "Mike Washington Jr. Football Stats | Las Vegas Raiders",
-    "Should I Trade (Half PPR) Dontayvion Wicks for Mike Washington Jr. (2026)?",
-    "RJ Harvey or Mike Washington"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Mike Washington Jr. Football Stats | Las Vegas Raiders"
-  },
-  "christian mccaffrey": {
-   "h": [
-    "San Francisco 49ers Make Christian McCaffrey Announcement Amid Raiders Game",
-    "Brock Purdy Connects With Christian McCaffrey For 12-Yard TD, Extending 49ers' Lead Over Raiders | NFL Highlights",
-    "Niners' Christian McCaffrey catches 36th career touchdown, setting new running back record"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "San Francisco 49ers Make Christian McCaffrey Announcement Amid Raiders Game"
-  },
-  "kaelon black": {
-   "h": [
-    "49ers rookie Kaelon Black confident in dual-threat potential after minicamp debut",
-    "Kaelon Black or Ashton Jeanty",
-    "Jack Endries or Kaelon Black: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jack Endries or Kaelon Black: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "ashton jeanty": {
-   "h": [
-    "Ashton Jeanty Football Stats | Las Vegas Raiders",
-    "Ashton Jeanty or Jonah Coleman",
-    "Ashton Jeanty or Caleb Douglas"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ashton Jeanty Football Stats | Las Vegas Raiders"
   },
   "luther burden": {
    "h": [
@@ -1861,16 +1749,6 @@
    "inj": true,
    "worst": "Laquon Treadwell or Tre' Harris: Who Should I Start in Week 9? Fantasy Football"
   },
-  "ladd mcconkey": {
-   "h": [
-    "Ladd McConkey suffers yet another injury as Chargers try to get first win of season",
-    "Ladd McConkey Exits Sunday's game",
-    "Chargers' Ladd McConkey suffers injury vs. Texans"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ladd McConkey suffers yet another injury as Chargers try to get first win of season"
-  },
   "dalton schultz": {
    "h": [
     "Stroud's 14-yard pass to toe-tapping Dalton Schultz moves chains against Bolts",
@@ -1941,85 +1819,6 @@
    "inj": true,
    "worst": "Eli Stowers or Marvin Harrison Jr.: Who Should I Start in Week 9? Fantasy Football"
   },
-  "trey mcbride": {
-   "h": [
-    "Which NFL team tried to make a swing for Cardinals TE Trey McBride?",
-    "Broncos Trey McBride Trade Call Raises 1 Big Question for Cardinals",
-    "How Cardinals responded to Broncos\u2019 Trey McBride trade inquiry"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Which NFL team tried to make a swing for Cardinals TE Trey McBride?"
-  },
-  "tory horton": {
-   "h": [
-    "Should I Trade (Half PPR) Darius Cooper for Tory Horton (2026)?",
-    "Tory Horton or Tyler Higbee: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Tory Horton or Tyler Higbee: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "cooper kupp": {
-   "h": [
-    "Cooper Kupp Football Stats | Seattle Seahawks",
-    "Cooper Kupp or Darnell Mooney or Josh Downs: Who Should I Start in Week 9? Fantasy Football",
-    "Cam Skattebo or Cooper Kupp: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Cooper Kupp Football Stats | Seattle Seahawks"
-  },
-  "jaxon smith njigba": {
-   "h": [
-    "Jaxon Smith-Njigba reaches 1,000 receiving yards in Seahawks' 8th game of season",
-    "Jaxon Smith-Njigba reaches 1,000 receiving yards in Seahawks' 8th game of season",
-    "Jaxon Smith-Njigba reaches 1,000 receiving yards in Seahawks' 8th game of season"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Jaxon Smith-Njigba reaches 1,000 receiving yards in Seahawks' 8th game of season"
-  },
-  "reggie virgil": {
-   "h": [
-    "What a grab by Reggie Virgil!",
-    "CeeDee Lamb or Reggie Virgil: Who Should I Start in Week 9? Fantasy Football",
-    "Chuba Hubbard or Reggie Virgil: Who Should I Draft? Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "CeeDee Lamb or Reggie Virgil: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "michael wilson": {
-   "h": [
-    "Arizona Cardinals wide receiver Michael Wilson sprints for 23-yard gain vs. Seattle Seahawks",
-    "Is Michael Wilson playing? The latest on the Arizona Cardinals WR",
-    "Seahawks marquee matchup for Week 9 vs. Cardinals: Witherspoon-Wilson"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ben Skowronek or Michael Wilson: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "aj barner": {
-   "h": [
-    "Drew Lock finds AJ Barner for seven-yard TD, extending Seahawks lead over Cardinals | NFL Highlights",
-    "Lock's TD pass to Barner boosts Seahawks' lead to 13-3 against Cardinals",
-    "AJ Barner scores a rushing TD out of the 'Barnyard' jumbo formation"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "AJ Barner or Brandin Cooks: Who Should I Draft? Fantasy Football (2026)"
-  },
-  "elijah higgins": {
-   "h": [
-    "Elijah Higgins or Kc concepcion Jr.: Who Should I Start in Week 9? Fantasy Football",
-    "Elijah Higgins or Kyle Pitts Sr.: Who Should I Start in Week 9? Fantasy Football",
-    "Elijah Higgins or Omar Cooper Jr.: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Elijah Higgins or Kc concepcion Jr.: Who Should I Start in Week 9? Fantasy Football"
-  },
   "tucker kraft": {
    "h": [
     "Seth McGowan or Tucker Kraft: Who Should I Start in Week 9? Fantasy Football",
@@ -2080,19 +1879,19 @@
   },
   "mack hollins": {
    "h": [
+    "NFL Week 9 arrivals: Efton Chism III welcomes back Mack Hollins with 'Mack and Chiz' tee",
     "Mack Hollins dancing around pregame \ud83d\ude02\ud83d\udd7a #nfl #patriots #packers",
-    "Mack Hollins Returns to lineup Sunday",
-    "Mack Hollins or Braelon Allen"
+    "Mack Hollins Returns to lineup Sunday"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Mack Hollins dancing around pregame \ud83d\ude02\ud83d\udd7a #nfl #patriots #packers"
+   "worst": "NFL Week 9 arrivals: Efton Chism III welcomes back Mack Hollins with 'Mack and Chiz' tee"
   },
   "hunter henry": {
    "h": [
     "Hunter Henry Active for Sunday's game",
     "Hunter Henry, Keisean Nixon are active for Patriots-Packers clash",
-    "Patriots vs. Packers inactives: Hunter Henry is good to go"
+    "Hunter Henry (foot) active for Week 9"
    ],
    "cut": true,
    "inj": true,
@@ -2108,103 +1907,15 @@
    "inj": true,
    "worst": "Efton Chism III or Jake Ferguson: Who Should I Start in Week 9? Fantasy Football"
   },
-  "jordan watkins": {
+  "sam roush": {
    "h": [
-    "Can't-Miss Play: Purdy Dials Up a 37-Yard Touchdown Strike to Watkins for His First Career TD",
-    "San Francisco 49ers wide receiver Jordan Watkins jumps into frame on 19-yard reception",
-    "Can't-Miss Play: Brock Purdy dials launch codes to Jordan Watkins for WR's first NFL TD"
+    "Carson Wentz or Sam Roush: Who Should I Start in Week 9? Fantasy Football",
+    "Kalif Raymond or Sam Roush: Who Should I Start in Week 9? Fantasy Football",
+    "Mason Taylor or Sam Roush: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jordan Watkins or Kenneth Walker: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "michael mayer": {
-   "h": [
-    "Michael Mayer rumbles to the doorstep of the goal line, only to fumble the football to Fred Warner before TD access",
-    "Malik Washington or Michael Mayer: Who Should I Start in Week 9? Fantasy Football",
-    "Jordan Addison or Michael Mayer"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Michael Mayer rumbles to the doorstep of the goal line, only to fumble the football to Fred Warner before TD access"
-  },
-  "kyle juszczyk": {
-   "h": [
-    "Kevin Coleman Jr. or Kyle Juszczyk: Who Should I Start in Week 9? Fantasy Football",
-    "All Juice, No Beer: Kyle Juszczyk Wins Appeal Against \u2018Hypocritical\u2019 NFL Fine",
-    "Kyle Juszczyk or Woody Marks: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Kevin Coleman Jr. or Kyle Juszczyk: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "jalen nailor": {
-   "h": [
-    "Andrew Armstrong or Jalen Nailor: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Andrew Armstrong or Jalen Nailor: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "demarcus robinson": {
-   "h": [
-    "Demarcus Robinson activated, to play in Week 9",
-    "Woody Marks or Demarcus Robinson",
-    "Demarcus Robinson - Fantasy Football Waiver Wire Pickups for Week 9 (2026) - NFL News"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Demarcus Robinson - Fantasy Football Waiver Wire Pickups for Week 9 (2026) - NFL News"
-  },
-  "jack bech": {
-   "h": [
-    "Jack Bech Fantasy Football News, Rankings, Projections | Las Vegas Raiders",
-    "Jack Bech 1957 Situational Stats",
-    "Jack Bech or Sione Vaki: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jack Bech Fantasy Football News, Rankings, Projections | Las Vegas Raiders"
-  },
-  "brandin cooks": {
-   "h": [
-    "Brandin Cooks or Brian Thomas Jr.: Who Should I Pick Up? Fantasy Football (2026)",
-    "Brandin Cooks or Kevin Coleman Jr.: Who Should I Start in Week 9? Fantasy Football",
-    "AJ Barner or Brandin Cooks: Who Should I Draft? Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Brandin Cooks or Brian Thomas Jr.: Who Should I Pick Up? Fantasy Football (2026)"
-  },
-  "george kittle": {
-   "h": [
-    "Purdy pinpoints Kittle across the middle for 37-yard gain against Raiders",
-    "49ers TE George Kittle to make acting debut in Dinosaurs of the Wild West series",
-    "49ers\u2019 George Kittle Gets Strong Statement From Raiders\u2019 Quay Walker"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Purdy pinpoints Kittle across the middle for 37-yard gain against Raiders"
-  },
-  "tre tucker": {
-   "h": [
-    "Jordyn Tyson or Tre Tucker",
-    "Jonah Coleman or Tre Tucker: Who Should I Start in Week 9? Fantasy Football",
-    "Ryan Miller or Tre Tucker: Who Should I Start in Week 9? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jonah Coleman or Tre Tucker: Who Should I Start in Week 9? Fantasy Football"
-  },
-  "brock bowers": {
-   "h": [
-    "Bowers breaks NFL record for most receptions by a TE in their first three seasons on 17-yard reception",
-    "Brock Bowers sets record for most receptions by a TE in first three seasons",
-    "Fred Warner's 'Peanut Punch' on Bowers results in a fumble recovery for SF"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Bowers breaks NFL record for most receptions by a TE in their first three seasons on 17-yard reception"
+   "worst": "Carson Wentz or Sam Roush: Who Should I Start in Week 9? Fantasy Football"
   },
   "cade otton": {
    "h": [
@@ -2237,12 +1948,13 @@
   },
   "chris godwin": {
    "h": [
+    "Andrew Armstrong or Chris Godwin Jr.: Who Should I Start in Week 9? Fantasy Football",
     "Chris Godwin Fantasy Football Start or Sit Advice for Week 9",
     "Chris Godwin Jr. or Roschon Johnson: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Chris Godwin Fantasy Football Start or Sit Advice for Week 9"
+   "worst": "Andrew Armstrong or Chris Godwin Jr.: Who Should I Start in Week 9? Fantasy Football"
   },
   "emeka egbuka": {
    "h": [
@@ -2377,12 +2089,12 @@
   "eli raridon": {
    "h": [
     "Should I Trade Eli Raridon for Ray Davis (2026)?",
-    "Eli Raridon or Ladd McConkey: Who Should I Start in Week 9? Fantasy Football",
-    "Eli Raridon or Mack Hollins: Who Should I Start in Week 9? Fantasy Football"
+    "Eli Raridon or Mack Hollins: Who Should I Start in Week 9? Fantasy Football",
+    "Eli Raridon or Kenneth Walker: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Eli Raridon or Ladd McConkey: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Eli Raridon or Mack Hollins: Who Should I Start in Week 9? Fantasy Football"
   },
   "joe fagnano": {
    "h": [
@@ -2444,6 +2156,26 @@
    "inj": false,
    "worst": "More proof that any team trading for Daniel Jones at the NFL trade deadline is chasing fool's gold"
   },
+  "gardner minshew": {
+   "h": [
+    "The week of the backup QB in the NFL kicks off as Sanders, Milton, Minshew, Lock, and Wentz start",
+    "Brissett Credited With Win Minshew Led",
+    "Cardinals Name Gardner Minshew II Starting QB Stream of National Football League"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Cardinals Name Gardner Minshew II Starting QB Stream of National Football League"
+  },
+  "brock purdy": {
+   "h": [
+    "Can't-Miss Play: Brock Purdy dials launch codes to Jordan Watkins for WR's first NFL TD",
+    "49ers\u2019 Brock Purdy Reaches Career Milestone Vs. Raiders",
+    "Brock Purdy Connects With Christian McCaffrey For 12-Yard TD, Extending 49ers' Lead Over Raiders | NFL Highlights"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Can't-Miss Play: Brock Purdy dials launch codes to Jordan Watkins for WR's first NFL TD"
+  },
   "tyler shough": {
    "h": [
     "Tyler Shough Still has glove on non-throwing hand",
@@ -2483,6 +2215,16 @@
    "cut": false,
    "inj": true,
    "worst": "Fantasy Football Injury Ramifications: J.J. McCarthy Injury Opens Door For Jameis Winston Return"
+  },
+  "kirk cousins": {
+   "h": [
+    "Dugger Intercepts Kirk Cousins' Pass vs. Las Vegas Raiders",
+    "Trade Deadline Buzz: Khalil Mack, Josh Downs, Kirk Cousins, Broncos, Chargers, Chiefs, Raiders",
+    "Kirk Cousins hits his new signature celebration after scoring TD run vs. 49ers"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Dugger Intercepts Kirk Cousins' Pass vs. Las Vegas Raiders"
   },
   "shedeur sanders": {
    "h": [
@@ -2553,6 +2295,16 @@
    "cut": false,
    "inj": false,
    "worst": "Matthew Stafford Just one TD in Week 9 win"
+  },
+  "drew lock": {
+   "h": [
+    "What happened to Drew Lock? Live injury updates for Seahawks vs. Cardinals on Sunday 11/8/26",
+    "Drew Lock Returns Against Cardinals - NFL News | Fantasy Football",
+    "Drew Lock finds AJ Barner for seven-yard TD, extending Seahawks lead over Cardinals | NFL Highlights"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "What happened to Drew Lock? Live injury updates for Seahawks vs. Cardinals on Sunday 11/8/26"
   },
   "malik willis": {
    "h": [
