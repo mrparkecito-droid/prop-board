@@ -12,7 +12,7 @@
    "stat": "rush",
    "prop": "Rushing Yards",
    "line": 15,
-   "ask": 82,
+   "ask": 83,
    "bid": 81,
    "vals": [
     40.0,
@@ -70,20 +70,20 @@
    "per": 97.4,
    "dstat": "rush yds",
    "p": 77,
-   "roi": -6,
+   "roi": -7,
    "pp": 91,
    "hs": 91,
    "dhs": 89,
    "rks": 29,
-   "vs": 44,
+   "vs": 43,
    "agree": 3,
-   "score": 56.3,
+   "score": 56.2,
    "flags": [],
-   "pc": 0.7703,
+   "pc": 0.7748,
    "praw": 0.8986,
    "rg": "RB1",
    "est": false,
-   "mid": 81.5,
+   "mid": 82.0,
    "tk": "KXNFLRSHYDS-26NOV09BUFMIN-MINAJONES33-15",
    "ev": "KXNFLRSHYDS-26NOV09BUFMIN",
    "ctx": 0.3,
@@ -1461,76 +1461,6 @@
  "td": {
   "players": [
    {
-    "key": "josh allen",
-    "pl": "Josh Allen",
-    "tm": "BUF",
-    "opp": "MIN",
-    "pos": "QB",
-    "role": "QB",
-    "g": "BUFMIN",
-    "gl": "BUF @ MIN (Mon)",
-    "dy": "Mon",
-    "id": "4984",
-    "lam": 0.56,
-    "pm": 0.427,
-    "p": 0.596,
-    "q": 76.5,
-    "ask": 78,
-    "tk": "KXNFLPASSTDS-26NOV09BUFMIN-BUFJALLEN17-1",
-    "ev": "KXNFLPASSTDS-26NOV09BUFMIN",
-    "tds": 9.0,
-    "n": 7,
-    "games_td": 6,
-    "ptd": 14.0,
-    "pn": 16,
-    "rz": 22,
-    "tdsh": 27,
-    "ts": null,
-    "tdr": 16.1,
-    "tpg": 8.0,
-    "pts": 23.2,
-    "sp": -3.0,
-    "tot": 43.5,
-    "d": {
-     "td": 0,
-     "n": 7,
-     "rank": 28,
-     "nteams": 32,
-     "ltd": 1.0,
-     "lrank": 32,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.7,
-    "debt": -6.3,
-    "hist": true,
-    "inj": "News",
-    "news": "Believing Josh Allen-led Bills Will Easily Dismantle Vikings on Monday Night Football",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.83,
-     "ask": 89,
-     "sc": 48.8
-    },
-    "tags": [
-     "Favored"
-    ],
-    "low": false,
-    "score": 85.5,
-    "why": [
-     "MIN has allowed 0 QB TDs in 7 games (28th most); 1.0 all last season.",
-     "22% red-zone role, 16.1% TD rate, 8 touches a game.",
-     "9.0 TDs in 7 games, scored in 6 (14.0 in 16 last season).",
-     "BUF projected for 23 pts (O/U 43.5, favored by 3).",
-     "Injury news: Believing Josh Allen-led Bills Will Easily Dismantle Vikings on Monday Night Football",
-     "Kalshi 76\u00a2 vs model 43%."
-    ]
-   },
-   {
     "key": "aaron jones",
     "pl": "Aaron Jones Sr.",
     "tm": "MIN",
@@ -1582,9 +1512,9 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 15,
-     "p": 0.77,
-     "ask": 82,
-     "sc": 56.3
+     "p": 0.775,
+     "ask": 83,
+     "sc": 56.2
     },
     "tags": [
      "Elite red zone role",
@@ -1678,6 +1608,75 @@
      "7.0 TDs in 7 games, scored in 6 (14.0 in 17 last season).",
      "BUF projected for 23 pts (O/U 43.5, favored by 3).",
      "Injury news: Bills vs. Vikings MNF Props: James Cook, Justin Jefferson, T.J. Hockenson Best Bets for Monday Night Football"
+    ]
+   },
+   {
+    "key": "josh allen",
+    "pl": "Josh Allen",
+    "tm": "BUF",
+    "opp": "MIN",
+    "pos": "QB",
+    "role": "QB",
+    "g": "BUFMIN",
+    "gl": "BUF @ MIN (Mon)",
+    "dy": "Mon",
+    "id": "4984",
+    "lam": 0.56,
+    "pm": 0.427,
+    "p": 0.427,
+    "q": null,
+    "ask": null,
+    "tk": null,
+    "ev": null,
+    "tds": 9.0,
+    "n": 7,
+    "games_td": 6,
+    "ptd": 14.0,
+    "pn": 16,
+    "rz": 22,
+    "tdsh": 27,
+    "ts": null,
+    "tdr": 16.1,
+    "tpg": 8.0,
+    "pts": 23.2,
+    "sp": -3.0,
+    "tot": 43.5,
+    "d": {
+     "td": 0,
+     "n": 7,
+     "rank": 28,
+     "nteams": 32,
+     "ltd": 1.0,
+     "lrank": 32,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.7,
+    "debt": -6.3,
+    "hist": true,
+    "inj": "News",
+    "news": "Believing Josh Allen-led Bills Will Easily Dismantle Vikings on Monday Night Football",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.83,
+     "ask": 89,
+     "sc": 48.8
+    },
+    "tags": [
+     "Favored"
+    ],
+    "low": false,
+    "score": 85.5,
+    "why": [
+     "MIN has allowed 0 QB TDs in 7 games (28th most); 1.0 all last season.",
+     "22% red-zone role, 16.1% TD rate, 8 touches a game.",
+     "9.0 TDs in 7 games, scored in 6 (14.0 in 16 last season).",
+     "BUF projected for 23 pts (O/U 43.5, favored by 3).",
+     "Injury news: Believing Josh Allen-led Bills Will Easily Dismantle Vikings on Monday Night Football"
     ]
    },
    {
@@ -3615,7 +3614,7 @@
    7,
    8
   ],
-  "generated": "2026-11-08T19:00:29-08:00",
+  "generated": "2026-11-08T19:30:35-08:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 9 \u00b7 Sun Nov 8 \u2013 Mon Nov 9",
@@ -3626,9 +3625,9 @@
   "ctx_sources": {
    "lines": "1 games",
    "weather": "1 outdoor games",
-   "injuries": "235 players listed",
+   "injuries": "236 players listed",
    "news": "1 players in headlines",
-   "google_news": "2 role-cut, 42 injury headlines; QB hurt: KC, LAC, MIA, NO, NYG, SEA",
+   "google_news": "2 role-cut, 43 injury headlines; QB hurt: KC, LAC, MIA, NO, NYG, SEA",
    "sleeper_trending": "43 board players trending",
    "reddit": "unavailable"
   },
