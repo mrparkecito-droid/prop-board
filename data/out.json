@@ -12,7 +12,7 @@
    "stat": "rush",
    "prop": "Rushing Yards",
    "line": 15,
-   "ask": 83,
+   "ask": 82,
    "bid": 81,
    "vals": [
     40.0,
@@ -70,20 +70,20 @@
    "per": 97.4,
    "dstat": "rush yds",
    "p": 77,
-   "roi": -7,
+   "roi": -6,
    "pp": 91,
    "hs": 91,
    "dhs": 89,
    "rks": 29,
-   "vs": 43,
+   "vs": 44,
    "agree": 3,
-   "score": 56.2,
+   "score": 56.3,
    "flags": [],
-   "pc": 0.7748,
+   "pc": 0.7703,
    "praw": 0.8986,
    "rg": "RB1",
    "est": false,
-   "mid": 82.0,
+   "mid": 81.5,
    "tk": "KXNFLRSHYDS-26NOV09BUFMIN-MINAJONES33-15",
    "ev": "KXNFLRSHYDS-26NOV09BUFMIN",
    "ctx": 0.3,
@@ -313,114 +313,6 @@
    "opp": "MIN",
    "pos": "QB",
    "role": "QB",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 10,
-   "ask": 88,
-   "bid": 87,
-   "vals": [
-    23.0,
-    69.0,
-    22.0,
-    4.0,
-    121.0,
-    1.0,
-    null,
-    30.0
-   ],
-   "over": 5,
-   "n": 7,
-   "proj": 39.4,
-   "al": [],
-   "dhit": null,
-   "dn": null,
-   "most": 16,
-   "per": 116.7,
-   "dstat": "rush yds",
-   "p": 83,
-   "roi": -5,
-   "pp": 90,
-   "hs": 73,
-   "dhs": 50,
-   "rks": 52,
-   "vs": 45,
-   "agree": 1,
-   "score": 48.5,
-   "flags": [],
-   "pc": 0.8323,
-   "praw": 0.8388,
-   "rg": "QB",
-   "est": false,
-   "mid": 87.5,
-   "tk": "KXNFLRSHYDS-26NOV09BUFMIN-BUFJALLEN17-10",
-   "ev": "KXNFLRSHYDS-26NOV09BUFMIN",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     0.6,
-     "BUF has a top rushing offense (3rd, 148 yds a game)."
-    ]
-   ],
-   "status": null,
-   "ppj": 90,
-   "pu": 90,
-   "uinfo": {
-    "share": [
-     6.0,
-     14.0,
-     8.0,
-     5.0,
-     10.0,
-     5.0,
-     7.0
-    ],
-    "kind": "carries",
-    "snap": 99,
-    "snaps": [
-     100,
-     100,
-     100,
-     95
-    ],
-    "snap_last": 95,
-    "mu": 38.5,
-    "opp": 7.7,
-    "note": ""
-   },
-   "po": 15,
-   "pn": 16,
-   "pid": "4984",
-   "sx": 0.0,
-   "sxs": 50,
-   "mx": 0.03,
-   "mxs": 52,
-   "env": 0.02,
-   "dfac": 0.0,
-   "dfs": 50,
-   "off": 0.6,
-   "ofs": 80,
-   "cu": 73,
-   "avgm": 28.6,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
-   "risk": 1,
-   "tpts": 23.2,
-   "rank": 3,
-   "why": "Cleared 10+ in 5 of 7 games, by +29 on average (15 of 16 last season), Sleeper projects 39.4. BUF has a top rushing offense (3rd, 148 yds a game)..",
-   "news": ""
-  },
-  {
-   "game": "BUFMIN",
-   "glabel": "BUF @ MIN (Mon)",
-   "day": "Mon",
-   "player": "Josh Allen",
-   "team": "BUF",
-   "opp": "MIN",
-   "pos": "QB",
-   "role": "QB",
    "stat": "pass",
    "prop": "Passing Yards",
    "line": 175,
@@ -556,8 +448,116 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 23.2,
-   "rank": 4,
+   "rank": 3,
    "why": "Cleared 175+ in 7 of 7 games, by +81 on average (12 of 16 last season), Sleeper projects 246.1, MIN let 3 of 7 QBs reach it. BUF has a top passing offense (9th, 256 yds a game).. Watch: MIN gives up 25% fewer passing yds to QBs than average..",
+   "news": ""
+  },
+  {
+   "game": "BUFMIN",
+   "glabel": "BUF @ MIN (Mon)",
+   "day": "Mon",
+   "player": "Josh Allen",
+   "team": "BUF",
+   "opp": "MIN",
+   "pos": "QB",
+   "role": "QB",
+   "stat": "rush",
+   "prop": "Rushing Yards",
+   "line": 15,
+   "ask": 81,
+   "bid": 80,
+   "vals": [
+    23.0,
+    69.0,
+    22.0,
+    4.0,
+    121.0,
+    1.0,
+    null,
+    30.0
+   ],
+   "over": 5,
+   "n": 7,
+   "proj": 39.4,
+   "al": [],
+   "dhit": null,
+   "dn": null,
+   "most": 16,
+   "per": 116.7,
+   "dstat": "rush yds",
+   "p": 77,
+   "roi": -5,
+   "pp": 85,
+   "hs": 70,
+   "dhs": 50,
+   "rks": 52,
+   "vs": 45,
+   "agree": 1,
+   "score": 46.9,
+   "flags": [],
+   "pc": 0.7689,
+   "praw": 0.7972,
+   "rg": "QB",
+   "est": false,
+   "mid": 80.5,
+   "tk": "KXNFLRSHYDS-26NOV09BUFMIN-BUFJALLEN17-15",
+   "ev": "KXNFLRSHYDS-26NOV09BUFMIN",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.6,
+     "BUF has a top rushing offense (3rd, 148 yds a game)."
+    ]
+   ],
+   "status": null,
+   "ppj": 85,
+   "pu": 85,
+   "uinfo": {
+    "share": [
+     6.0,
+     14.0,
+     8.0,
+     5.0,
+     10.0,
+     5.0,
+     7.0
+    ],
+    "kind": "carries",
+    "snap": 99,
+    "snaps": [
+     100,
+     100,
+     100,
+     95
+    ],
+    "snap_last": 95,
+    "mu": 38.5,
+    "opp": 7.7,
+    "note": ""
+   },
+   "po": 15,
+   "pn": 16,
+   "pid": "4984",
+   "sx": 0.0,
+   "sxs": 50,
+   "mx": 0.03,
+   "mxs": 52,
+   "env": 0.02,
+   "dfac": 0.0,
+   "dfs": 50,
+   "off": 0.6,
+   "ofs": 80,
+   "cu": 66,
+   "avgm": 23.6,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": null,
+   "risk": 1,
+   "tpts": 23.2,
+   "rank": 4,
+   "why": "Cleared 15+ in 5 of 7 games, by +24 on average (15 of 16 last season), Sleeper projects 39.4. BUF has a top rushing offense (3rd, 148 yds a game)..",
    "news": ""
   },
   {
@@ -572,7 +572,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 40,
-   "ask": 85,
+   "ask": 86,
    "bid": 84,
    "vals": [
     92.0,
@@ -629,21 +629,21 @@
    "most": 3,
    "per": 269.0,
    "dstat": "pass yds",
-   "p": 75,
-   "roi": -11,
+   "p": 76,
+   "roi": -12,
    "pp": 78,
    "hs": 58,
    "dhs": 78,
    "rks": 94,
-   "vs": 39,
+   "vs": 38,
    "agree": 1,
-   "score": 44.9,
+   "score": 44.8,
    "flags": [],
-   "pc": 0.7528,
+   "pc": 0.7571,
    "praw": 0.754,
    "rg": "WR1",
    "est": false,
-   "mid": 84.5,
+   "mid": 85.0,
    "tk": "KXNFLRECYDS-26NOV09BUFMIN-MINJJEFFERSON18-40",
    "ev": "KXNFLRECYDS-26NOV09BUFMIN",
    "ctx": 0.2,
@@ -800,7 +800,7 @@
    "rks": 94,
    "vs": 40,
    "agree": 1,
-   "score": 44.2,
+   "score": 44.3,
    "flags": [],
    "pc": 0.743,
    "praw": 0.7669,
@@ -809,12 +809,16 @@
    "mid": 82.0,
    "tk": "KXNFLRECYDS-26NOV09BUFMIN-MINJADDISON3-15",
    "ev": "KXNFLRECYDS-26NOV09BUFMIN",
-   "ctx": 0.2,
-   "cxs": 60,
+   "ctx": 0.28,
+   "cxs": 64,
    "reasons": [
     [
      0.2,
      "Jauan Jennings out, more targets to go around"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#25 most added)"
     ],
     [
      -0.16,
@@ -883,174 +887,7 @@
    "risk": 1,
    "tpts": 20.2,
    "rank": 6,
-   "why": "Cleared 15+ in 5 of 7 games, by +21 on average (11 of 14 last season), Sleeper projects 42.3, BUF let 5 of 7 WR2s reach it, BUF allows the 3rd most pass yds. QB change: Carson Wentz starts (Kyler Murray is out). With him: cleared 15+ in 5 of 6 (114, 41, 128, 26). With Wentz: only 18% of targets, down from 24% with Murray. Jauan Jennings out, more targets to go around. Watch: MIN's offense ranks 29th in passing (185 yds a game).; MIN projected for only 20 pts (O/U 43.5).",
-   "news": ""
-  },
-  {
-   "game": "BUFMIN",
-   "glabel": "BUF @ MIN (Mon)",
-   "day": "Mon",
-   "player": "Justin Jefferson",
-   "team": "MIN",
-   "opp": "BUF",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 4,
-   "ask": 88,
-   "bid": 85,
-   "vals": [
-    8.0,
-    3.0,
-    2.0,
-    -1,
-    6.0,
-    null,
-    4.0,
-    5.0
-   ],
-   "over": 4,
-   "n": 7,
-   "proj": 5.7,
-   "al": [
-    [
-     1,
-     "HOU",
-     7.0
-    ],
-    [
-     2,
-     "DET",
-     9.0
-    ],
-    [
-     3,
-     "LAC",
-     6.0
-    ],
-    [
-     4,
-     "NE",
-     6.0
-    ],
-    [
-     5,
-     "LAR",
-     17.0
-    ],
-    [
-     6,
-     "LV",
-     5.0
-    ],
-    [
-     8,
-     "BAL",
-     1.0
-    ]
-   ],
-   "dhit": 6,
-   "dn": 7,
-   "most": 3,
-   "per": 269.0,
-   "dstat": "pass yds",
-   "p": 77,
-   "roi": -12,
-   "pp": 74,
-   "hs": 56,
-   "dhs": 78,
-   "rks": 94,
-   "vs": 38,
-   "agree": 1,
-   "score": 44.1,
-   "flags": [],
-   "pc": 0.771,
-   "praw": 0.7337,
-   "rg": "WR1",
-   "est": false,
-   "mid": 86.5,
-   "tk": "KXNFLREC-26NOV09BUFMIN-MINJJEFFERSON18-4",
-   "ev": "KXNFLREC-26NOV09BUFMIN",
-   "ctx": 0.2,
-   "cxs": 60,
-   "reasons": [
-    [
-     0.2,
-     "Jauan Jennings out, more targets to go around"
-    ],
-    [
-     -0.16,
-     "MIN projected for only 20 pts (O/U 43.5)"
-    ],
-    [
-     0.29,
-     "BUF gives up 25% more catches to WR1s than average."
-    ],
-    [
-     -0.59,
-     "MIN's offense ranks 29th in passing (185 yds a game)."
-    ]
-   ],
-   "status": null,
-   "ppj": 79,
-   "pu": 68,
-   "uinfo": {
-    "qbsplit": {
-     "qb": "Carson Wentz",
-     "usual": "Kyler Murray",
-     "new": 35,
-     "old": 23,
-     "n": 2
-    },
-    "share": [
-     39,
-     32,
-     8,
-     24,
-     29,
-     32
-    ],
-    "kind": "targets",
-    "snap": 81,
-    "snaps": [
-     12,
-     89,
-     93,
-     96
-    ],
-    "snap_last": 96,
-    "mu": 4.9,
-    "opp": 7.7,
-    "note": "With Wentz: 35% of targets, up from 23% with Murray."
-   },
-   "po": 13,
-   "pn": 17,
-   "pid": "6794",
-   "sx": -0.16,
-   "sxs": 42,
-   "mx": 0.58,
-   "mxs": 79,
-   "env": 0.25,
-   "dfac": 0.3,
-   "dfs": 65,
-   "off": -0.59,
-   "ofs": 20,
-   "cu": 50,
-   "avgm": 0.0,
-   "qf": 0.9,
-   "qfs": 95,
-   "qnote": "QB change: Carson Wentz starts (Kyler Murray is out). With him: cleared 4+ in 6 of 7 (10, 7, 5, 7).",
-   "qinfo": {
-    "qb": "Carson Wentz",
-    "same": false,
-    "with": 7,
-    "usual": "Kyler Murray"
-   },
-   "risk": 1,
-   "tpts": 20.2,
-   "rank": 7,
-   "why": "Cleared 4+ in 4 of 7 games, by +0.0 on average (13 of 17 last season), Sleeper projects 5.7, BUF let 6 of 7 WR1s reach it, BUF allows the 3rd most pass yds. QB change: Carson Wentz starts (Kyler Murray is out). With him: cleared 4+ in 6 of 7 (10, 7, 5, 7). With Wentz: 35% of targets, up from 23% with Murray. BUF gives up 25% more catches to WR1s than average.. Jauan Jennings out, more targets to go around. Watch: MIN's offense ranks 29th in passing (185 yds a game).; MIN projected for only 20 pts (O/U 43.5).",
+   "why": "Cleared 15+ in 5 of 7 games, by +21 on average (11 of 14 last season), Sleeper projects 42.3, BUF let 5 of 7 WR2s reach it, BUF allows the 3rd most pass yds. QB change: Carson Wentz starts (Kyler Murray is out). With him: cleared 15+ in 5 of 6 (114, 41, 128, 26). With Wentz: only 18% of targets, down from 24% with Murray. Jauan Jennings out, more targets to go around. Trending on Sleeper (#25 most added). Watch: MIN's offense ranks 29th in passing (185 yds a game).; MIN projected for only 20 pts (O/U 43.5).",
    "news": ""
   },
   {
@@ -1193,8 +1030,172 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 23.2,
-   "rank": 8,
+   "rank": 7,
    "why": "Cleared 50+ in 7 of 7 games, by +51 on average (13 of 17 last season), Sleeper projects 83.7, MIN let 3 of 7 lead RBs reach it. His share of carries fell from 62% to 51%. BUF has a top rushing offense (3rd, 148 yds a game)..",
+   "news": ""
+  },
+  {
+   "game": "BUFMIN",
+   "glabel": "BUF @ MIN (Mon)",
+   "day": "Mon",
+   "player": "T.J. Hockenson",
+   "team": "MIN",
+   "opp": "BUF",
+   "pos": "TE",
+   "role": "TE1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 3,
+   "ask": 83,
+   "bid": 79,
+   "vals": [
+    4.0,
+    3.0,
+    2.0,
+    13.0,
+    1.0,
+    null,
+    4.0,
+    4.0
+   ],
+   "over": 5,
+   "n": 7,
+   "proj": 4.4,
+   "al": [
+    [
+     1,
+     "HOU",
+     4.0
+    ],
+    [
+     2,
+     "DET",
+     6.0
+    ],
+    [
+     3,
+     "LAC",
+     0.0
+    ],
+    [
+     4,
+     "NE",
+     5.0
+    ],
+    [
+     5,
+     "LAR",
+     5.0
+    ],
+    [
+     6,
+     "LV",
+     7.0
+    ],
+    [
+     8,
+     "BAL",
+     3.0
+    ]
+   ],
+   "dhit": 6,
+   "dn": 7,
+   "most": 3,
+   "per": 269.0,
+   "dstat": "pass yds",
+   "p": 73,
+   "roi": -12,
+   "pp": 76,
+   "hs": 62,
+   "dhs": 78,
+   "rks": 94,
+   "vs": 38,
+   "agree": 1,
+   "score": 38.9,
+   "flags": [],
+   "pc": 0.7341,
+   "praw": 0.7204,
+   "rg": "TE",
+   "est": false,
+   "mid": 81.0,
+   "tk": "KXNFLREC-26NOV09BUFMIN-MINTHOCKENSON87-3",
+   "ev": "KXNFLREC-26NOV09BUFMIN",
+   "ctx": 0.2,
+   "cxs": 60,
+   "reasons": [
+    [
+     0.2,
+     "Jauan Jennings out, more targets to go around"
+    ],
+    [
+     -0.16,
+     "MIN projected for only 20 pts (O/U 43.5)"
+    ],
+    [
+     -0.59,
+     "MIN's offense ranks 29th in passing (185 yds a game)."
+    ]
+   ],
+   "status": null,
+   "ppj": 78,
+   "pu": 74,
+   "uinfo": {
+    "qbsplit": {
+     "qb": "Carson Wentz",
+     "usual": "Kyler Murray",
+     "new": 21,
+     "old": 20,
+     "n": 2
+    },
+    "share": [
+     22,
+     21,
+     16,
+     39,
+     3,
+     21,
+     18
+    ],
+    "kind": "targets",
+    "snap": 66,
+    "snaps": [
+     83,
+     3,
+     76,
+     83
+    ],
+    "snap_last": 83,
+    "mu": 4.1,
+    "opp": 5.2,
+    "note": "With Wentz: 21% of targets, about the same as with Murray (20%)."
+   },
+   "po": 9,
+   "pn": 15,
+   "pid": "5844",
+   "sx": -0.16,
+   "sxs": 42,
+   "mx": 0.4,
+   "mxs": 70,
+   "env": 0.14,
+   "dfac": 0.23,
+   "dfs": 62,
+   "off": -0.59,
+   "ofs": 20,
+   "cu": 59,
+   "avgm": 1.4,
+   "qf": -0.02,
+   "qfs": 49,
+   "qnote": "QB change: Carson Wentz starts (Kyler Murray is out). With him: cleared 3+ in 6 of 7 (4, 6, 6, 2).",
+   "qinfo": {
+    "qb": "Carson Wentz",
+    "same": false,
+    "with": 7,
+    "usual": "Kyler Murray"
+   },
+   "risk": 1,
+   "tpts": 20.2,
+   "rank": 8,
+   "why": "Cleared 3+ in 5 of 7 games, by +1 on average (9 of 15 last season), Sleeper projects 4.4, BUF let 6 of 7 TE1s reach it, BUF allows the 3rd most pass yds. QB change: Carson Wentz starts (Kyler Murray is out). With him: cleared 3+ in 6 of 7 (4, 6, 6, 2). With Wentz: 21% of targets, about the same as with Murray (20%). Jauan Jennings out, more targets to go around. Watch: MIN's offense ranks 29th in passing (185 yds a game).; MIN projected for only 20 pts (O/U 43.5).",
    "news": ""
   }
  ],
@@ -1314,14 +1315,14 @@
    "st": "rush",
    "pr": "Rushing Yards",
    "ln": 40,
-   "ask": 37,
-   "q": 35.5,
-   "p": 0.3374,
-   "sc": 22.5,
+   "ask": 36,
+   "q": 35.0,
+   "p": 0.3326,
+   "sc": 22.6,
    "est": 0,
    "tk": "KXNFLRSHYDS-26NOV09BUFMIN-BUFJALLEN17-40",
    "ev": "KXNFLRSHYDS-26NOV09BUFMIN",
-   "wy": "Cleared 40+ in 2 of 7 games, by -1 on average (7 of 16 last season). BUF has a top rushing offense (3rd, 148 yds a game).. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 36\u00a2..",
+   "wy": "Cleared 40+ in 2 of 7 games, by -1 on average (7 of 16 last season). BUF has a top rushing offense (3rd, 148 yds a game).. Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 35\u00a2..",
    "id": "4984",
    "cx": 0,
    "nw": "",
@@ -1472,9 +1473,9 @@
     "id": "4984",
     "lam": 0.56,
     "pm": 0.427,
-    "p": 0.594,
-    "q": 76.0,
-    "ask": 77,
+    "p": 0.596,
+    "q": 76.5,
+    "ask": 78,
     "tk": "KXNFLPASSTDS-26NOV09BUFMIN-BUFJALLEN17-1",
     "ev": "KXNFLPASSTDS-26NOV09BUFMIN",
     "tds": 9.0,
@@ -1577,13 +1578,13 @@
     "debt": 2.0,
     "hist": true,
     "inj": "News",
-    "news": "Aaron Jones Sr. or Bo Melton: Who Should I Start in Week 9? Fantasy Football",
+    "news": "Aaron Jones Sr. or Mo Alie-Cox: Who Should I Start in Week 9? Fantasy Football",
     "prop": {
      "pr": "Rushing Yards",
      "ln": 15,
-     "p": 0.775,
-     "ask": 83,
-     "sc": 56.2
+     "p": 0.77,
+     "ask": 82,
+     "sc": 56.3
     },
     "tags": [
      "Elite red zone role",
@@ -1602,7 +1603,7 @@
      "2.0 TDs in 7 games, scored in 2 (3.0 in 12 last season).",
      "Low total: MIN projected for 20 pts (O/U 43.5, 3-pt underdog).",
      "Due: 2 TD debt (his role says he should have scored more).",
-     "Injury news: Aaron Jones Sr. or Bo Melton: Who Should I Start in Week 9? Fantasy Football"
+     "Injury news: Aaron Jones Sr. or Mo Alie-Cox: Who Should I Start in Week 9? Fantasy Football"
     ]
    },
    {
@@ -1727,7 +1728,7 @@
     "debt": 0.3,
     "hist": true,
     "inj": "News",
-    "news": "Jordan Mason or New England Patriots: Who Should I Start in Week 9? Fantasy Football",
+    "news": "Jordan Mason or Nate Boerkircher: Who Should I Start in Week 9? Fantasy Football",
     "tags": [
      "RZ share top-10",
      "Soft TD defense",
@@ -1741,7 +1742,7 @@
      "14% red-zone role, 1% target share, 2.5% TD rate, 13.3 touches a game.",
      "1.0 TD in 3 games, scored in 1 (6.0 in 16 last season).",
      "Low total: MIN projected for 20 pts (O/U 43.5, 3-pt underdog).",
-     "Injury news: Jordan Mason or New England Patriots: Who Should I Start in Week 9? Fantasy Football"
+     "Injury news: Jordan Mason or Nate Boerkircher: Who Should I Start in Week 9? Fantasy Football"
     ]
    },
    {
@@ -2079,7 +2080,7 @@
      "ln": 15,
      "p": 0.743,
      "ask": 83,
-     "sc": 44.2
+     "sc": 44.3
     },
     "tags": [
      "RZ share top-10",
@@ -3614,7 +3615,7 @@
    7,
    8
   ],
-  "generated": "2026-11-08T18:30:29-08:00",
+  "generated": "2026-11-08T19:00:29-08:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 9 \u00b7 Sun Nov 8 \u2013 Mon Nov 9",
@@ -3625,9 +3626,9 @@
   "ctx_sources": {
    "lines": "1 games",
    "weather": "1 outdoor games",
-   "injuries": "234 players listed",
+   "injuries": "235 players listed",
    "news": "1 players in headlines",
-   "google_news": "3 role-cut, 43 injury headlines; QB hurt: CHI, KC, LAC, MIA, NO, NYG, SEA, TB",
+   "google_news": "2 role-cut, 42 injury headlines; QB hurt: KC, LAC, MIA, NO, NYG, SEA",
    "sleeper_trending": "43 board players trending",
    "reddit": "unavailable"
   },
