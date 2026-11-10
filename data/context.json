@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T22:00:57+00:00",
+ "generated": "2026-11-10T22:30:55+00:00",
  "games": {
   "WASNYG": {
    "home": "NYG",
@@ -36,6 +36,29 @@
    },
    "total": 51.5
   },
+  "MINGB": {
+   "home": "GB",
+   "away": "MIN",
+   "kick": "2026-11-15T18:00Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {
+    "GB": -3.5,
+    "MIN": 3.5
+   },
+   "total": 41.5,
+   "espn_wx": {
+    "desc": "Mostly cloudy",
+    "temp": 45
+   },
+   "wx": {
+    "wind": 9,
+    "gust": 9,
+    "pop": 1,
+    "rain": 0.0,
+    "temp": 43
+   }
+  },
   "SEALV": {
    "home": "LV",
    "away": "SEA",
@@ -43,13 +66,29 @@
    "indoor": true,
    "neutral": false,
    "spread": {
-    "SEA": -6.0,
-    "LV": 6.0
+    "SEA": -6.5,
+    "LV": 6.5
    },
    "total": 40.5,
    "espn_wx": {
     "desc": "Partly sunny",
     "temp": 64
+   }
+  },
+  "SFDAL": {
+   "home": "DAL",
+   "away": "SF",
+   "kick": "2026-11-15T21:25Z",
+   "indoor": true,
+   "neutral": false,
+   "spread": {
+    "SF": -3.5,
+    "DAL": 3.5
+   },
+   "total": 55.5,
+   "espn_wx": {
+    "desc": "Rain",
+    "temp": 55
    }
   }
  },
@@ -74,16 +113,6 @@
     "name": "Hjalte Froholdt",
     "pos": "C",
     "status": "Questionable"
-   },
-   {
-    "name": "Gardner Minshew II",
-    "pos": "QB",
-    "status": "Doubtful"
-   },
-   {
-    "name": "Michael Wilson",
-    "pos": "WR",
-    "status": "Out"
    },
    {
     "name": "Roy Lopez",
@@ -542,11 +571,6 @@
     "name": "Will Kacmarek",
     "pos": "TE",
     "status": "Questionable"
-   },
-   {
-    "name": "Darrell Baker Jr.",
-    "pos": "CB",
-    "status": "Out"
    }
   ],
   "MIN": [
@@ -885,9 +909,13 @@
   ]
  },
  "news": {
+  "justin jefferson": {
+   "h": "2026 NFL trade deadline winners, losers: From Kirk Cousins to the Bengals",
+   "t": "2026-11-10T21:39:57Z"
+  },
   "fernando mendoza": {
    "h": "Vikings reunite with QB Kirk Cousins, send 3rd-round pick to Raiders",
-   "t": "2026-11-10T20:54:12Z"
+   "t": "2026-11-10T21:30:37Z"
   },
   "corey kiner": {
    "h": "Why Dopp doesn\u2019t like the Lions matchup for Corey Kiner",
@@ -897,179 +925,179 @@
  "trend": {
   "tank dell": {
    "rank": 1,
-   "adds": 2766272
+   "adds": 2832640
   },
   "corey kiner": {
    "rank": 2,
-   "adds": 2436414
+   "adds": 2549604
   },
   "konata mumpfield": {
    "rank": 3,
-   "adds": 1734696
+   "adds": 1808712
   },
   "audric estime": {
    "rank": 4,
-   "adds": 693624
+   "adds": 713634
   },
   "darren waller": {
    "rank": 5,
-   "adds": 679212
+   "adds": 701883
   },
   "fernando mendoza": {
    "rank": 6,
-   "adds": 474552
+   "adds": 521608
   },
   "tutu atwell": {
    "rank": 7,
-   "adds": 410949
+   "adds": 435603
   },
   "jordan watkins": {
    "rank": 8,
-   "adds": 354196
+   "adds": 361856
   },
   "justice hill": {
    "rank": 10,
-   "adds": 300582
+   "adds": 308151
   },
   "cj stroud": {
    "rank": 11,
-   "adds": 299978
+   "adds": 306320
   },
   "pierre strong": {
    "rank": 12,
-   "adds": 283032
+   "adds": 296208
   },
   "caleb douglas": {
    "rank": 14,
-   "adds": 232000
+   "adds": 237128
   },
   "tyler higbee": {
    "rank": 15,
-   "adds": 210006
+   "adds": 219906
   },
   "seth mcgowan": {
    "rank": 17,
-   "adds": 200256
+   "adds": 201552
   },
   "demarcus robinson": {
    "rank": 20,
-   "adds": 177942
-  },
-  "aaron rodgers": {
-   "rank": 21,
-   "adds": 174600
-  },
-  "tyler shough": {
-   "rank": 22,
-   "adds": 172632
-  },
-  "bryce young": {
-   "rank": 23,
-   "adds": 163428
-  },
-  "jordyn tyson": {
-   "rank": 24,
-   "adds": 151904
+   "adds": 186090
   },
   "kyle mccord": {
-   "rank": 26,
-   "adds": 144812
+   "rank": 21,
+   "adds": 185140
+  },
+  "aaron rodgers": {
+   "rank": 22,
+   "adds": 182244
+  },
+  "tyler shough": {
+   "rank": 23,
+   "adds": 177240
+  },
+  "bryce young": {
+   "rank": 24,
+   "adds": 168240
+  },
+  "jordyn tyson": {
+   "rank": 25,
+   "adds": 155088
   },
   "khalil shakir": {
    "rank": 27,
-   "adds": 140211
+   "adds": 146646
   },
   "josh downs": {
-   "rank": 30,
-   "adds": 130550
+   "rank": 29,
+   "adds": 142840
   },
   "ryan flournoy": {
    "rank": 31,
-   "adds": 125616
+   "adds": 128256
   },
   "jadarian price": {
    "rank": 32,
-   "adds": 123795
+   "adds": 125874
   },
   "keenan allen": {
    "rank": 33,
-   "adds": 119408
+   "adds": 124132
   },
   "blake corum": {
    "rank": 34,
-   "adds": 115608
-  },
-  "devin singletary": {
-   "rank": 35,
-   "adds": 114651
+   "adds": 119832
   },
   "jakobi meyers": {
+   "rank": 35,
+   "adds": 118236
+  },
+  "devin singletary": {
    "rank": 36,
-   "adds": 114426
+   "adds": 116910
   },
   "kc concepcion": {
    "rank": 37,
-   "adds": 111348
+   "adds": 114786
   },
   "chris rodriguez": {
    "rank": 39,
-   "adds": 107793
+   "adds": 110709
   },
   "jordan addison": {
    "rank": 40,
-   "adds": 101853
-  },
-  "omar cooper": {
-   "rank": 42,
-   "adds": 89736
+   "adds": 109881
   },
   "kirk cousins": {
+   "rank": 42,
+   "adds": 92072
+  },
+  "omar cooper": {
    "rank": 43,
-   "adds": 87208
+   "adds": 91328
   },
   "emmett johnson": {
    "rank": 44,
-   "adds": 81855
-  },
-  "brenton strange": {
-   "rank": 45,
-   "adds": 78597
+   "adds": 84411
   },
   "rico dowdle": {
+   "rank": 45,
+   "adds": 81070
+  },
+  "brenton strange": {
    "rank": 46,
-   "adds": 78040
+   "adds": 80721
   },
   "keon coleman": {
-   "rank": 48,
-   "adds": 74673
+   "rank": 47,
+   "adds": 77031
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "3 games",
-  "weather": "1 outdoor games",
-  "injuries": "153 players listed",
-  "news": "2 players in headlines",
-  "google_news": "3 role-cut, 34 injury headlines; QB hurt: LAR, MIA, PIT",
+  "lines": "5 games",
+  "weather": "2 outdoor games",
+  "injuries": "150 players listed",
+  "news": "3 players in headlines",
+  "google_news": "4 role-cut, 39 injury headlines; QB hurt: LAR, PIT, SEA",
   "sleeper_trending": "37 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
   "jayden daniels": {
    "h": [
-    "Commanders\u2019 Jayden Daniels Makes Interesting Statement About David Blough",
-    "Jayden Daniels\u2019 David Blough evaluation doesn\u2019t sound optimistic halfway through 1st Commanders season",
-    "\u201cWorst Awareness of Any QB in the League\u201d: NFL Fans React to Jayden Daniels Making Costly Error in Commanders\u2019 Final Drive vs. Rams"
+    "Jayden Daniels, CJ Stroud, and 2 More Must-Start Quarterbacks in Week 10 Fantasy Football",
+    "Jayden Daniels' growing pains comment about David Blough raises major questions for Commanders' future",
+    "Commanders\u2019 Jayden Daniels Makes Interesting Statement About David Blough"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Commanders\u2019 Jayden Daniels Makes Interesting Statement About David Blough"
+   "inj": true,
+   "worst": "Jayden Daniels, CJ Stroud, and 2 More Must-Start Quarterbacks in Week 10 Fantasy Football"
   },
   "drake maye": {
    "h": [
     "\u2018I Think Drake Maye Has Lost Confidence\u2019 -- Packers\u2019 Micah Parsons Believes Patriots QB Has Gone From \u2018Potential MVP To The Struggle Bus\u2019",
     "Can't Miss Play: Drake Maye pinpoints Kyle Williams DEEP for a 43-yard TD",
-    "Despite Loss, Drake Maye Passes Mac Jones in Patriots Record Books"
+    "'Lost confidence' - Micah Parsons calls out Drake Maye for 'not trusting' his Patriots teammates"
    ],
    "cut": false,
    "inj": true,
@@ -1087,13 +1115,33 @@
   },
   "fernando mendoza": {
    "h": [
-    "Raiders throwing Fernando Mendoza to the fire at the worst time following Kirk Cousins trade",
-    "Up next for Seahawks: Raiders, top pick Fernando Mendoza",
-    "Fantasy Football Waiver Alert: Fernando Mendoza Named Raiders Starting QB. How Does It Affect Brock Bowers' Value?"
+    "Fernando Mendoza era with Raiders starts after Kirk Cousins trade",
+    "Big NFL Moves for Two Ex-Cal Players: Young Fernando Mendoza, Aging Keenan Allen",
+    "Kirk Cousins Sends Message to Raiders & Fernando Mendoza After Trade"
    ],
-   "cut": true,
+   "cut": false,
+   "inj": false,
+   "worst": "Fernando Mendoza era with Raiders starts after Kirk Cousins trade"
+  },
+  "brock purdy": {
+   "h": [
+    "Purdy Reaches 100 Passing TDs, McCaffrey Breaks NFL Record; Stats and Facts from #LVvsSF",
+    "Brock Purdy passes his predecessor on 49ers' career passing yards list",
+    "Brock Purdy reflects on Week 9 game vs. Raiders"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Purdy Reaches 100 Passing TDs, McCaffrey Breaks NFL Record; Stats and Facts from #LVvsSF"
+  },
+  "dak prescott": {
+   "h": [
+    "The Vikings Are Actively Pursuing Quarterback Trade. Is Dak Prescott Available?",
+    "Cowboys Dak Prescott Trade Scenario Gets $87 Million Warning",
+    "Cowboys Owner Jerry Jones Confirms Stance on Trading Dak Prescott Ahead of Deadline"
+   ],
+   "cut": false,
    "inj": true,
-   "worst": "Analysts suggest Fernando Mendoza might not start immediately after Raiders' Kirk Cousins trade"
+   "worst": "Jerry Jones Says Teams Haven't Called About Trading for Dak Prescott - NFL News | Fantasy Football"
   },
   "devin singletary": {
    "h": [
@@ -1127,18 +1175,17 @@
   },
   "corey kiner": {
    "h": [
-    "Johnson, Kiner, Rodgers among fantasy football add/drops for Week 10",
-    "Week 10 Corey Kiner Fantasy Start or Sit 2026",
-    "Week 10 Fantasy Football Rankings Early Look: Corey Kiner Upgrades To Streamer Status"
+    "Fantasy football market share report: It\u2019s Corey Kiner \u2018or bust\u2019 ahead of Week 10",
+    "Week 10 Waiver Wire Pickups - Corey Kiner, Audric Estime, Kaleb Johnson Fantasy Football Outlooks",
+    "Johnson, Kiner, Rodgers among fantasy football add/drops for Week 10"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Johnson, Kiner, Rodgers among fantasy football add/drops for Week 10"
+   "worst": "Fantasy football market share report: It\u2019s Corey Kiner \u2018or bust\u2019 ahead of Week 10"
   },
   "sione vaki": {
    "h": [
-    "Dylan Sampson or Sione Vaki: Who Should I Start in Week 9? Fantasy Football",
-    "Sione Vaki or Tyler Goodson: Who Should I Pick Up? Fantasy Football (2026)"
+    "Dylan Sampson or Sione Vaki: Who Should I Start in Week 9? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -1146,13 +1193,43 @@
   },
   "jahmyr gibbs": {
    "h": [
+    "Dave Richard's Week 10 Trade Chart and rest of season rankings: Jahmyr Gibbs tops RB market as Puka tumbles",
     "Jahmyr Gibbs Top Week 10 Knockout League Pickup",
-    "Jahmyr Gibbs Off to Historic Start, Favorite to Win OPOY Stream of National Football League",
-    "Jahmyr Gibbs Football Stats | Detroit Lions"
+    "Jahmyr Gibbs Scores 4th Down Touchdown vs. Dolphins Stream of National Football League"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jahmyr Gibbs Off to Historic Start, Favorite to Win OPOY Stream of National Football League"
+   "worst": "Jahmyr Gibbs Scores 4th Down Touchdown vs. Dolphins Stream of National Football League"
+  },
+  "jordan mason": {
+   "h": [
+    "Vikings snap counts and PFF grades vs. Bills: Jordan Mason needs more usage",
+    "Just six carries for Jordan Mason in defeat",
+    "Jeremiyah Love or Jordan Mason"
+   ],
+   "cut": true,
+   "inj": false,
+   "worst": "Vikings snap counts and PFF grades vs. Bills: Jordan Mason needs more usage"
+  },
+  "mike washington": {
+   "h": [
+    "Mike Washington sees role reduced",
+    "Who Should I Start for Fantasy Football Week 10? Jadarian Price, Mike Washington Jr., Kenyon Sadiq, Malachi Fields, Eli Raridon, Kaelon Black, Seth McGowan, Reggie Virgil, Ja'Kobi Lane",
+    "Mike Washington Jr. Fantasy Football PPR Ros Rankings | Las Vegas Raiders"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 10? Jadarian Price, Mike Washington Jr., Kenyon Sadiq, Malachi Fields, Eli Raridon, Kaelon Black, Seth McGowan, Reggie Virgil, Ja'Kobi Lane"
+  },
+  "ashton jeanty": {
+   "h": [
+    "Fernando Mendoza, Ashton Jeanty, More Raiders Fantasy Outlook After Kirk Cousins Traded to Vikings",
+    "Ashton Jeanty Seeing Decline in Production Stream of National Football League",
+    "Ashton Jeanty, Kaleb Johnson, And More Must-Sit Fantasy Football Running Backs For Week 10"
+   ],
+   "cut": true,
+   "inj": true,
+   "worst": "Raiders Snap Count Observations: Ashton Jeanty Leads Backfield"
   },
   "theo johnson": {
    "h": [
@@ -1184,13 +1261,13 @@
   },
   "chig okonkwo": {
    "h": [
-    "Week 10 Chig Okonkwo Fantasy Start or Sit 2026",
-    "Week 10 Fantasy Football Waiver Wire Targets For Every Position: Aaron Rodgers, Chig Okonkwo, And More",
-    "Chig Okonkwo Waiver Wire: Is the Commanders TE a Must-Add for Week 10 Fantasy Football?"
+    "Week 10 Fantasy Football Tight End Rankings: Chig Okonkwo, Brevyn Spann-Ford, And More",
+    "Chig Okonkwo Is the Priority Tight End Waiver Add on Thursday Night Football",
+    "Week 10 Chig Okonkwo Fantasy Start or Sit 2026"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Week 10 Fantasy Football Waiver Wire Targets For Every Position: Aaron Rodgers, Chig Okonkwo, And More"
+   "worst": "Week 10 Fantasy Football Tight End Rankings: Chig Okonkwo, Brevyn Spann-Ford, And More"
   },
   "stefon diggs": {
    "h": [
@@ -1204,9 +1281,9 @@
   },
   "malik nabers": {
    "h": [
+    "Malik Nabers was a full-go on Tuesday",
     "Malik Nabers Addresses Greg Olsen's Criticism in Trending Video from Giants vs. Eagles",
-    "Jack Bech or Malik Nabers: Who Should I Draft? Fantasy Football (2026)",
-    "\u2018Stretched It a Little Too Far,\u2019 \u2018Don\u2019t Know What (Greg) Olsen\u2019s Been Watching\u2019 -- Hall of Famer Fires Back at FOX Analyst\u2019s Remarks About Malik Nabers"
+    "Tiki Barber takes aim at Greg Olsen, FOX broadcast over Malik Nabers fiasco"
    ],
    "cut": false,
    "inj": true,
@@ -1214,9 +1291,9 @@
   },
   "malachi fields": {
    "h": [
-    "CJ Daniels or Malachi Fields: Who Should I Start in Week 10? Fantasy Football",
-    "Who Should I Start for Fantasy Football Week 10? Jadarian Price, Mike Washington Jr., Kenyon Sadiq, Malachi Fields, Eli Raridon, Kaelon Black, Seth McGowan, Reggie Virgil, Ja'Kobi Lane",
-    "Malachi Fields Three catches in Week 9 win"
+    "Who Should I Start? Jalen Coker or Malachi Fields",
+    "Who Should I Start? Trey McBride or Malachi Fields",
+    "CJ Daniels or Malachi Fields: Who Should I Start in Week 10? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -1272,25 +1349,110 @@
    "inj": true,
    "worst": "Amon-Ra St. Brown or Austin Ekeler: Who Should I Start in Week 9? Fantasy Football"
   },
+  "tj hockenson": {
+   "h": [
+    "T.J. Hockenson & Kyle Pitts Headline Week 10 Fantasy Football Must-Sit Tight Ends",
+    "Week 10 fantasy football TE start-sit: Henry, Hockenson, Kraft, Waller decisions",
+    "Hockenson at the mercy of poor QB play in loss"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "T.J. Hockenson & Kyle Pitts Headline Week 10 Fantasy Football Must-Sit Tight Ends"
+  },
+  "justin jefferson": {
+   "h": [
+    "Kirk Cousins trade: Justin Jefferson fantasy managers dancing after Vikings\u2019 blockbuster with Raiders",
+    "Is Justin Jefferson back to elite fantasy status after Cousins trade?",
+    "Kirk Cousins trade gives Justin Jefferson, Vikings\u2019 offense a fantasy lifeline"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "\u201cOrganizational malpractice\u201d \u201cJustin Jefferson fell to his knees\u201d: NFL fans react as Vikings \u201cfleeced\u201d Raiders over Kirk Cousins trade"
+  },
+  "jordan addison": {
+   "h": [
+    "Jordan Addison flops with atrocious QB play",
+    "Jeremiyah Love or Jordan Addison",
+    "Jordan Addison finishes with 28 yards Monday night"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Jordan Addison flops with atrocious QB play"
+  },
+  "tucker kraft": {
+   "h": [
+    "Week 10 fantasy football TE start-sit: Henry, Hockenson, Kraft, Waller decisions",
+    "Should I Trade (Half PPR) Adonai Mitchell for Tucker Kraft (2026)?",
+    "Tucker Kraft Fantasy Football Half PPR Ros Rankings | Green Bay Packers"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Week 10 fantasy football TE start-sit: Henry, Hockenson, Kraft, Waller decisions"
+  },
+  "matthew golden": {
+   "h": [
+    "Christian Watson and Matthew Golden Give Jordan Love a Duo the NFC North Has to Worry About",
+    "Packers\u2019 Christian Watson, Matthew Golden Pull Off Receiving Feat Not Seen Since World War II",
+    "Three Words Perfectly Summarize Packers\u2019 WRs Christian Watson, Matthew Golden"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Christian Watson and Matthew Golden Give Jordan Love a Duo the NFC North Has to Worry About"
+  },
+  "christian watson": {
+   "h": [
+    "Christian Watson and Matthew Golden Give Jordan Love a Duo the NFC North Has to Worry About",
+    "Packers\u2019 Christian Watson, Matthew Golden Pull Off Receiving Feat Not Seen Since World War II",
+    "'A F--king 2-Headed Monster,' Christian Watson & Matthew Golden Hyped by Packers HC After Win"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Christian Watson and Matthew Golden Give Jordan Love a Duo the NFC North Has to Worry About"
+  },
+  "tre tucker": {
+   "h": [
+    "Tre Tucker solid in Week 9"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Tre Tucker solid in Week 9"
+  },
+  "michael mayer": {
+   "h": [
+    "AFC Notes: Mike McDaniel, Michael Mayer, Chargers, Chiefs, Raiders"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "AFC Notes: Mike McDaniel, Michael Mayer, Chargers, Chiefs, Raiders"
+  },
+  "jalen nailor": {
+   "h": [
+    "Jalen Nailor Fantasy Football Half PPR Rankings | Las Vegas Raiders",
+    "Jalen Nailor Two catches in loss"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jalen Nailor Fantasy Football Half PPR Rankings | Las Vegas Raiders"
+  },
+  "brock bowers": {
+   "h": [
+    "Fantasy Football Waiver Alert: Fernando Mendoza Named Raiders Starting QB. How Does It Affect Brock Bowers' Value?",
+    "Brock Bowers or Seth McGowan: Who Should I Draft? Fantasy Football (2026)",
+    "Brock Bowers Fantasy Outlook & Stats"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Fantasy Football Waiver Alert: Fernando Mendoza Named Raiders Starting QB. How Does It Affect Brock Bowers' Value?"
+  },
   "jj mccarthy": {
    "h": [
     "Giants QB J.J. McCarthy Reacts to Vikings' Trade for Kirk Cousins",
-    "Vikings pay huge Kirk Cousins price to fix QB debacle after dealing J.J. McCarthy away",
-    "J.J. McCarthy Participating in Practice on Tuesday - NFL News | Fantasy Football"
+    "Giants Get Crucial Timeline Update on J.J. McCarthy After Hip Pointer During Eagles Win",
+    "Vikings pay huge Kirk Cousins price to fix QB debacle after dealing J.J. McCarthy away"
    ],
    "cut": false,
    "inj": true,
    "worst": "J.J. McCarthy Participating in Practice on Tuesday - NFL News | Fantasy Football"
-  },
-  "dak prescott": {
-   "h": [
-    "The Vikings Are Actively Pursuing Quarterback Trade. Is Dak Prescott Available?",
-    "Cowboys Dak Prescott Trade Scenario Gets $87 Million Warning",
-    "Cowboys Owner Jerry Jones Confirms Stance on Trading Dak Prescott Ahead of Deadline"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jerry Jones Says Teams Haven't Called About Trading for Dak Prescott - NFL News | Fantasy Football"
   },
   "deshaun watson": {
    "h": [
@@ -1304,9 +1466,9 @@
   },
   "drew lock": {
    "h": [
-    "Drew Lock Is the Ultimate Week 10 Fantasy QB Streamer Against Vegas",
-    "Drew Lock: Must-Add Waiver Wire Pickup for Week 10 Fantasy Football? - NFL News",
-    "Seahawks will need to rely on Drew Lock again in Week 10"
+    "Drew Lock May Be Seahawks' Best Quarterback Right Now",
+    "Seahawks Receive Encouraging Drew Lock Injury Update With Sam Darnold Sidelined vs. Raiders",
+    "Drew Lock Is the Ultimate Week 10 Fantasy QB Streamer Against Vegas"
    ],
    "cut": true,
    "inj": true,
@@ -1314,13 +1476,13 @@
   },
   "jordan love": {
    "h": [
+    "NFL MVP Odds: Joe Burrow, Jordan Love Biggest Risers in MVP Race as Josh Allen Regresses",
     "NFL Week 10 MVP Ladder: Jordan Love Nearly Claims the Top Spot",
-    "NFL Week 10 MVP Ladder: Jordan Love Nearly Claims the Top Spot",
-    "Packers Film Room: Jordan Love lights up the Patriots"
+    "NFL Week 10 MVP Ladder: Jordan Love Nearly Claims the Top Spot"
    ],
    "cut": false,
    "inj": false,
-   "worst": "NFL Week 10 MVP Ladder: Jordan Love Nearly Claims the Top Spot"
+   "worst": "NFL MVP Odds: Joe Burrow, Jordan Love Biggest Risers in MVP Race as Josh Allen Regresses"
   },
   "trevor lawrence": {
    "h": [
@@ -1334,19 +1496,19 @@
   },
   "kyle mccord": {
    "h": [
-    "Dolphins add QB Malik Willis to IR due to lingering groin injury; Kyle McCord expected to start vs. Colts",
-    "Dolphins place QB Malik Willis (groin) on injured reserve; Kyle McCord in line for first start",
-    "Kyle McCord Takes Over For Dolphins as Malik Willis Heads to Injured Reserve"
+    "BREAKING: Kyle McCord is an NFL STARTING QB",
+    "Who is Kyle McCord? The Dolphins' new starting QB after Malik Willis went on IR",
+    "Kyle McCord New starting QB in Miami"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Dolphins add QB Malik Willis to IR due to lingering groin injury; Kyle McCord expected to start vs. Colts"
+   "inj": false,
+   "worst": "BREAKING: Kyle McCord is an NFL STARTING QB"
   },
   "geno smith": {
    "h": [
     "New York Jets Make Major Trade Deadline Decision on Geno Smith",
     "Jets Were Approached by Vikings For Geno Smith Trade",
-    "Jets Stand Firm On Geno Smith Despite Trade Calls"
+    "Geno Smith Jumps Multiple Spots in QB Rankings Despite Jets Loss"
    ],
    "cut": false,
    "inj": false,
@@ -1364,23 +1526,13 @@
   },
   "daniel jones": {
    "h": [
-    "How Colts keeping Jonathan Taylor and Daniel Jones makes them NFL trade deadline\u2019s biggest loser",
-    "Josh Downs Traded to Chiefs: Fantasy Football Fallout For Kansas City, Tyler Warren, Daniel Jones",
-    "NFL rumors: Colts prepared to go down with Daniel Jones ship after rejecting Vikings trade"
+    "Colts Face Trade Calls for Jonathan Taylor, Daniel Jones Before Deadline",
+    "Daniel Jones Vikings Trade Rumors Take Twist",
+    "How Colts keeping Jonathan Taylor and Daniel Jones makes them NFL trade deadline\u2019s biggest loser"
    ],
    "cut": false,
    "inj": true,
    "worst": "Josh Downs Traded to Chiefs: Fantasy Football Fallout For Kansas City, Tyler Warren, Daniel Jones"
-  },
-  "brock purdy": {
-   "h": [
-    "Purdy Reaches 100 Passing TDs, McCaffrey Breaks NFL Record; Stats and Facts from #LVvsSF",
-    "Brock Purdy passes his predecessor on 49ers' career passing yards list",
-    "Brock Purdy reflects on Week 9 game vs. Raiders"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Purdy Reaches 100 Passing TDs, McCaffrey Breaks NFL Record; Stats and Facts from #LVvsSF"
   },
   "cam ward": {
    "h": [
@@ -1393,29 +1545,29 @@
   },
   "joe burrow": {
    "h": [
+    "Kalshi NFL MVP Market: Joe Burrow vs Josh Allen",
     "Week 9 NFL MVP tracker: Bengals' Joe Burrow leads race at midpoint of 2026 season",
-    "NFL MVP Odds update: Can anyone challenge Josh Allen and Joe Burrow?",
-    "NFL MVP Odds After Week 9 \u2013 Burrow, Allen Neck-and-Neck; Who\u2019s Favored?"
+    "NFL MVP Odds: Joe Burrow, Jordan Love Biggest Risers in MVP Race as Josh Allen Regresses"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Week 9 NFL MVP tracker: Bengals' Joe Burrow leads race at midpoint of 2026 season"
+   "worst": "Kalshi NFL MVP Market: Joe Burrow vs Josh Allen"
   },
   "patrick mahomes": {
    "h": [
-    "Josh Downs: Patrick Mahomes gets new weapon as Kansas City Chiefs trade for wide receiver",
-    "Josh Downs Trade Grades: Chiefs Get Patrick Mahomes a Playmaker",
-    "Patrick Mahomes Reacts to Josh Downs' Vince Carter GIF With Emoji After Chiefs Trade for Colts WR"
+    "Patrick Mahomes makes his feelings known on Chiefs' Josh Downs trade move",
+    "Patrick Mahomes II Reacts as Chiefs Acquire Colts WR Josh Downs",
+    "This NFL-low Patrick Mahomes stat perfectly explains Josh Downs trade for Chiefs"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Andy Reid Reveals What Chiefs Fans Wanted to Hear About Patrick Mahomes\u2019 Injury"
+   "inj": false,
+   "worst": "Patrick Mahomes makes his feelings known on Chiefs' Josh Downs trade move"
   },
   "josh allen": {
    "h": [
-    "Josh Allen Grabs Attention For His Behavior During Interview With Laura Rutledge",
-    "Week 10 Fantasy Football Quarterback Rankings: Josh Allen Is Back On Top",
-    "NFL MVP Odds update: Can anyone challenge Josh Allen and Joe Burrow?"
+    "Kalshi NFL MVP Market: Joe Burrow vs Josh Allen",
+    "NFL MVP Odds: Joe Burrow, Jordan Love Biggest Risers in MVP Race as Josh Allen Regresses",
+    "Josh Allen Grabs Attention For His Behavior During Interview With Laura Rutledge"
    ],
    "cut": false,
    "inj": true,
@@ -1433,13 +1585,13 @@
   },
   "kirk cousins": {
    "h": [
-    "Vikings get QB Kirk Cousins from Raiders ahead of Packers matchup, AP source says",
-    "Kirk Cousins Traded to Vikings From Raiders, Full Details Revealed in Latest NFL Rumors",
-    "NFL world reacts to Raiders trading QB Kirk Cousins to the Vikings"
+    "Fernando Mendoza\u2019s OROY odds shrink after Raiders trade Kirk Cousins - Las Vegas Review-Journal",
+    "Vikings bring back QB Kirk Cousins in a trade with the Raiders to lift a struggling offense",
+    "Fernando Mendoza era with Raiders starts after Kirk Cousins trade"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Vikings get QB Kirk Cousins from Raiders ahead of Packers matchup, AP source says"
+   "worst": "Fernando Mendoza\u2019s OROY odds shrink after Raiders trade Kirk Cousins - Las Vegas Review-Journal"
   },
   "bryce young": {
    "h": [
@@ -1463,9 +1615,9 @@
   },
   "tyler shough": {
    "h": [
+    "Tyler Shough and Juwan Johnson connect to put Saints up in OT",
     "Tyler Shough Week 5 Outlook - Vikings at Saints",
-    "Fantasy Football Usage Report: Tyler Shough Rises, Omarion Hampton a Drop",
-    "Tyler Shough opens up about his process for performing in crucial scenarios"
+    "Fantasy Football Usage Report: Tyler Shough Rises, Omarion Hampton a Drop"
    ],
    "cut": false,
    "inj": true,
@@ -1483,38 +1635,38 @@
   },
   "cj stroud": {
    "h": [
-    "Fantasy Football Film Room: C.J. Stroud joins the elite, plus a Packers backfield waiver opportunity",
-    "C.J. Stroud Deserves To Be In The MVP Conversation Despite Texans' Record",
-    "DeMeco Ryans seeing increased confidence, leadership from Texans QB CJ Stroud"
+    "Jayden Daniels, CJ Stroud, and 2 More Must-Start Quarterbacks in Week 10 Fantasy Football",
+    "Why C.J. Stroud-led Texans will still make the playoffs",
+    "Fantasy Football Film Room: C.J. Stroud joins the elite, plus a Packers backfield waiver opportunity"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Fantasy Football Film Room: C.J. Stroud joins the elite, plus a Packers backfield waiver opportunity"
+   "worst": "Jayden Daniels, CJ Stroud, and 2 More Must-Start Quarterbacks in Week 10 Fantasy Football"
   },
   "justin herbert": {
    "h": [
-    "Ex-ESPN Personality Ryan Clark Rips Chargers\u2019 Jim Harbaugh About Justin Herbert",
-    "NFL rumors: Vikings asked Chargers about Justin Herbert trade before Kirk Cousins reunion",
-    "Vikings inquired about Justin Herbert before Kirk Cousins trade"
+    "Vikings Inquired About Justin Herbert, Three Other NFL Quarterbacks: Reports",
+    "\u2018Immediately Shut Down All Inquiries\u2019 -- NFL Insider Reveals Chargers\u2019 Firm Stance on Justin Herbert After Super Bowl Contender\u2019s Trade Interest",
+    "New Justin Herbert Trade Rumors on Vikings Links Surface After Kirk Cousins Deal at NFL Deadline"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Ex-ESPN Personality Ryan Clark Rips Chargers\u2019 Jim Harbaugh About Justin Herbert"
+   "worst": "Vikings Inquired About Justin Herbert, Three Other NFL Quarterbacks: Reports"
   },
   "jacoby brissett": {
    "h": [
-    "Ravens expect Jacoby Brissett to deliver leadership along with QB play",
-    "\"Ravens Fleeced Just to Miss the Playoffs\": NFL Fans React as Jacoby Brissett Trade Details Revealed",
-    "AFC North QB stock watch: Can Jacoby Brissett pilot a Ravens surge?"
+    "Breaking News: Ravens Finalizing Trade for Jacoby Brissett Stream of National Football League",
+    "Ravens\u2019 Jesse Minter Makes Quarterback Decision Days After Jacoby Brissett Trade",
+    "Ravens expect Jacoby Brissett to deliver leadership along with QB play"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Ravens Finalizing Trade For Jacoby Brissett | HQ NFL Stream of National Football League"
+   "worst": "Breaking News: Ravens Finalizing Trade for Jacoby Brissett Stream of National Football League"
   }
  },
  "qbhurt": [
   "LAR",
-  "MIA",
-  "PIT"
+  "PIT",
+  "SEA"
  ]
 }
