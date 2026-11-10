@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T15:00:57+00:00",
+ "generated": "2026-11-10T15:30:48+00:00",
  "games": {
   "WASNYG": {
    "home": "NYG",
@@ -23,6 +23,18 @@
     "rain": 0.1,
     "temp": 51
    }
+  },
+  "NEDET": {
+   "home": "DET",
+   "away": "NE",
+   "kick": "2026-11-15T14:30Z",
+   "indoor": true,
+   "neutral": true,
+   "spread": {
+    "DET": -2.5,
+    "NE": 2.5
+   },
+   "total": 51.5
   }
  },
  "inj": {
@@ -204,6 +216,11 @@
   ],
   "DAL": [
    {
+    "name": "Tyler Goodson",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
     "name": "Jake Ferguson",
     "pos": "TE",
     "status": "Out"
@@ -226,11 +243,6 @@
    {
     "name": "George Pickens",
     "pos": "WR",
-    "status": "Out"
-   },
-   {
-    "name": "Tyler Goodson",
-    "pos": "RB",
     "status": "Out"
    },
    {
@@ -494,14 +506,14 @@
   ],
   "LAR": [
    {
-    "name": "Steve Avila",
-    "pos": "G",
+    "name": "Puka Nacua",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
-    "name": "Puka Nacua",
-    "pos": "WR",
-    "status": "Doubtful"
+    "name": "Steve Avila",
+    "pos": "G",
+    "status": "Questionable"
    },
    {
     "name": "Trent McDuffie",
@@ -900,153 +912,149 @@
  "trend": {
   "tank dell": {
    "rank": 1,
-   "adds": 1916576
+   "adds": 1972440
   },
   "corey kiner": {
    "rank": 2,
-   "adds": 1265772
+   "adds": 1345272
   },
   "konata mumpfield": {
    "rank": 3,
-   "adds": 976329
+   "adds": 1024497
   },
   "audric estime": {
    "rank": 4,
-   "adds": 624606
+   "adds": 638439
   },
   "darren waller": {
    "rank": 5,
-   "adds": 415242
+   "adds": 433845
   },
   "demarcus robinson": {
    "rank": 6,
-   "adds": 370776
+   "adds": 377250
   },
   "devin singletary": {
    "rank": 7,
-   "adds": 343899
+   "adds": 346077
   },
   "ryan flournoy": {
    "rank": 8,
-   "adds": 334856
+   "adds": 337024
   },
   "jordan watkins": {
    "rank": 9,
-   "adds": 270544
+   "adds": 279084
   },
   "cj stroud": {
    "rank": 10,
-   "adds": 223090
+   "adds": 228438
   },
   "tutu atwell": {
    "rank": 11,
-   "adds": 201544
+   "adds": 211771
   },
   "justice hill": {
-   "rank": 13,
-   "adds": 196875
+   "rank": 12,
+   "adds": 204570
   },
   "caleb douglas": {
    "rank": 14,
-   "adds": 183936
+   "adds": 189288
   },
   "seth mcgowan": {
    "rank": 15,
-   "adds": 176504
+   "adds": 180360
   },
   "pierre strong": {
    "rank": 17,
-   "adds": 157293
+   "adds": 165492
   },
   "jordyn tyson": {
    "rank": 18,
-   "adds": 144960
+   "adds": 147208
   },
   "jadarian price": {
    "rank": 20,
-   "adds": 132462
+   "adds": 135000
   },
   "carson wentz": {
    "rank": 21,
-   "adds": 131682
-  },
-  "alvin kamara": {
-   "rank": 22,
-   "adds": 128080
-  },
-  "omar cooper": {
-   "rank": 23,
-   "adds": 124224
+   "adds": 132060
   },
   "tyler higbee": {
-   "rank": 24,
-   "adds": 122976
+   "rank": 22,
+   "adds": 129735
+  },
+  "alvin kamara": {
+   "rank": 23,
+   "adds": 128672
+  },
+  "omar cooper": {
+   "rank": 25,
+   "adds": 125288
   },
   "tyler shough": {
    "rank": 26,
-   "adds": 114832
+   "adds": 119224
   },
   "adonai mitchell": {
-   "rank": 27,
-   "adds": 108136
+   "rank": 28,
+   "adds": 108712
   },
   "khalil shakir": {
-   "rank": 28,
-   "adds": 104580
+   "rank": 29,
+   "adds": 108117
   },
   "bryce young": {
-   "rank": 32,
-   "adds": 100160
+   "rank": 31,
+   "adds": 104488
   },
   "kc concepcion": {
    "rank": 35,
-   "adds": 90684
+   "adds": 93339
   },
   "jordan addison": {
-   "rank": 36,
-   "adds": 88443
+   "rank": 38,
+   "adds": 88722
   },
   "aaron rodgers": {
    "rank": 40,
-   "adds": 77488
+   "adds": 83236
   },
   "jakobi meyers": {
-   "rank": 42,
-   "adds": 77172
+   "rank": 41,
+   "adds": 80022
   },
   "emmett johnson": {
-   "rank": 43,
-   "adds": 77130
+   "rank": 42,
+   "adds": 79029
   },
   "chris rodriguez": {
    "rank": 44,
-   "adds": 72945
-  },
-  "dylan sampson": {
-   "rank": 45,
-   "adds": 70810
+   "adds": 75582
   },
   "blake corum": {
-   "rank": 47,
-   "adds": 69600
+   "rank": 45,
+   "adds": 72952
+  },
+  "dylan sampson": {
+   "rank": 46,
+   "adds": 71710
   },
   "malik willis": {
    "rank": 49,
-   "adds": 64022
-  },
-  "keon coleman": {
-   "rank": 50,
-   "adds": 57366
+   "adds": 64659
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "1 games",
+  "lines": "2 games",
   "weather": "1 outdoor games",
   "injuries": "160 players listed",
   "news": "1 players in headlines",
-  "google_news": "2 role-cut, 24 injury headlines; QB hurt: KC, LAC, LAR, MIA, SEA",
-  "sleeper_trending": "35 board players trending",
+  "google_news": "2 role-cut, 30 injury headlines; QB hurt: KC, LAC, LAR, MIA, PIT, SEA",
+  "sleeper_trending": "34 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
@@ -1059,6 +1067,26 @@
    "cut": false,
    "inj": false,
    "worst": "\u201cWorst Awareness of Any QB in the League\u201d: NFL Fans React to Jayden Daniels Making Costly Error in Commanders\u2019 Final Drive vs. Rams"
+  },
+  "drake maye": {
+   "h": [
+    "Start these 10 fantasy football players in NFL Week 10 including Drake Maye",
+    "Patriots film review: The real problems for Drake Maye and Mike Vrabel\u2019s defense",
+    "'Throwing deli meat' - Fans are split on Tom Brady's harsh words on Patriots successor Drake Maye"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Start these 10 fantasy football players in NFL Week 10 including Drake Maye"
+  },
+  "jared goff": {
+   "h": [
+    "Dolphins' Chris Johnson Intercepts Jared Goff Stream of National Football League",
+    "Week 10 Fantasy Football Trade Targets: Buy Jared Goff and Jordyn Tyson, Sell Derrick Henry?",
+    "Lions Week 9 Stock Report: Derrick Moore Among 5 Rising, Jared Goff Leads 2 Falling"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Dolphins' Chris Johnson Intercepts Jared Goff Stream of National Football League"
   },
   "devin singletary": {
    "h": [
@@ -1089,6 +1117,35 @@
    "cut": false,
    "inj": false,
    "worst": "Rachaad White rushes for 28 yards, adds 41 through the air in loss"
+  },
+  "corey kiner": {
+   "h": [
+    "Fantasy Football FAAB Report: Corey Kiner, Tank Dell, and 6 More Week 10 Waiver Wire Adds",
+    "Corey Kiner and the Best Week 10 Fantasy Football Waiver-Wire Pickups",
+    "Fantasy Football Waiver Alert: Corey Kiner a Top Week 10 Waiver Wire Target as Rhamondre Stevenson Set to Miss Time"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Fantasy Football FAAB Report: Corey Kiner, Tank Dell, and 6 More Week 10 Waiver Wire Adds"
+  },
+  "sione vaki": {
+   "h": [
+    "Dylan Sampson or Sione Vaki: Who Should I Start in Week 9? Fantasy Football",
+    "Sione Vaki or Tyler Goodson: Who Should I Pick Up? Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Dylan Sampson or Sione Vaki: Who Should I Start in Week 9? Fantasy Football"
+  },
+  "jahmyr gibbs": {
+   "h": [
+    "Jahmyr Gibbs Football Stats | Detroit Lions",
+    "Jahmyr Gibbs Looks Human Against Miami",
+    "NFL Week 9: Nix keeps Denver rolling and Gibbs powers the Lions to a win"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jahmyr Gibbs Football Stats | Detroit Lions"
   },
   "theo johnson": {
    "h": [
@@ -1179,6 +1236,35 @@
    "inj": true,
    "worst": "Darnell Mooney Considered limited Monday"
   },
+  "sam laporta": {
+   "h": [
+    "Lions make their Sam LaPorta intentions known at the NFL trade deadline",
+    "ESPN insider says Detroit Lions have received calls on TE Sam LaPorta",
+    "Sam LaPorta Trade Interest Should Propel Lions to an Extension, Not a Deadline Deal"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Lions Prefer to Keep Sam LaPorta at the Trade Deadline - NFL News | Fantasy Football"
+  },
+  "jameson williams": {
+   "h": [
+    "Camden Brown or Jameson Williams: Who Should I Start in Week 9? Fantasy Football",
+    "Fantasy Football Managers Need to Sell Jameson Williams Amid Inconsistent Role",
+    "NFL makes major Jameson Williams punishment decision after incident during Minnesota Vikings matchup"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Camden Brown or Jameson Williams: Who Should I Start in Week 9? Fantasy Football"
+  },
+  "amon ra st brown": {
+   "h": [
+    "Amon-Ra St. Brown or Austin Ekeler: Who Should I Start in Week 9? Fantasy Football",
+    "Amon-Ra St. Brown Eight catches in Week 9 win"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Amon-Ra St. Brown or Austin Ekeler: Who Should I Start in Week 9? Fantasy Football"
+  },
   "jj mccarthy": {
    "h": [
     "\u201cVikings are realizing that they shouldn\u2019t have traded JJ McCarthy for a bag of chips\u201d: Fans question the",
@@ -1202,8 +1288,8 @@
   "deshaun watson": {
    "h": [
     "Deshaun Watson Eyes Cleveland Browns Return Against Houston Texans As Shedeur Sanders Puts His Starting Job In Question",
-    "\u201cDeshaun Watson Is The Starter\u201d: Former NFL WR Shuts Down Shedeur Sanders QB Debate After Browns Loss",
-    "Browns news: The Deshaun Watson vs. Shedeur Sanders Week 10 decision is already made"
+    "Cleveland Browns make Deshaun Watson starting QB decision after Shedeur Sanders' overtime loss to Saints",
+    "\u201cDeshaun Watson Is The Starter\u201d: Former NFL WR Shuts Down Shedeur Sanders QB Debate After Browns Loss"
    ],
    "cut": false,
    "inj": false,
@@ -1259,16 +1345,6 @@
    "inj": false,
    "worst": "Carson Wentz can\u2019t help Minnesota Vikings\u2019 struggling offense \u2014 or settle the QB conundrum"
   },
-  "jared goff": {
-   "h": [
-    "Dolphins' Chris Johnson Intercepts Jared Goff Stream of National Football League",
-    "Week 10 Fantasy Football Trade Targets: Buy Jared Goff and Jordyn Tyson, Sell Derrick Henry?",
-    "Lions Week 9 Stock Report: Derrick Moore Among 5 Rising, Jared Goff Leads 2 Falling"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Dolphins' Chris Johnson Intercepts Jared Goff Stream of National Football League"
-  },
   "matthew stafford": {
    "h": [
     "A Vikings-Matthew Stafford trade transforms them into a Super Bowl contender",
@@ -1298,16 +1374,6 @@
    "cut": false,
    "inj": false,
    "worst": "Purdy Reaches 100 Passing TDs, McCaffrey Breaks NFL Record; Stats and Facts from #LVvsSF"
-  },
-  "drake maye": {
-   "h": [
-    "Start these 10 fantasy football players in NFL Week 10 including Drake Maye",
-    "Patriots film review: The real problems for Drake Maye and Mike Vrabel\u2019s defense",
-    "'Throwing deli meat' - Fans are split on Tom Brady's harsh words on Patriots successor Drake Maye"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Start these 10 fantasy football players in NFL Week 10 including Drake Maye"
   },
   "cam ward": {
    "h": [
@@ -1389,13 +1455,13 @@
   },
   "aaron rodgers": {
    "h": [
+    "Steelers RB Jaylen Warren shares insight on playing with Aaron Rodgers",
     "Fantasy Football QB Streaming Week 10: Rested Aaron Rodgers Primed To Thrive",
-    "Aaron Rodgers appears to misrepresent Mina Kimes interaction, friendships in media circles",
-    "\u2018He Gives You the Best of (Brett) Favre and Aaron Rodgers\u2019 \u2014 NFL Analyst Snubs Lamar Jackson To Put Jordan Love Among Top-5 QBs"
+    "Aaron Rodgers appears to misrepresent Mina Kimes interaction, friendships in media circles"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Fantasy Football QB Streaming Week 10: Rested Aaron Rodgers Primed To Thrive"
+   "worst": "Steelers RB Jaylen Warren shares insight on playing with Aaron Rodgers"
   },
   "tyler shough": {
    "h": [
@@ -1438,13 +1504,13 @@
   },
   "jacoby brissett": {
    "h": [
-    "Ravens Finalizing Trade For Jacoby Brissett | HQ NFL Stream of National Football League",
+    "\"Ravens Fleeced Just to Miss the Playoffs\": NFL Fans React as Jacoby Brissett Trade Details Revealed",
     "Jacoby Brissett to Start for Ravens and Provide Huge Fantasy Football Value Boost to Zay Flowers and Derrick Henry",
     "Jacoby Brissett In line to start next Monday"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Ravens Finalizing Trade For Jacoby Brissett | HQ NFL Stream of National Football League"
+   "worst": "Jacoby Brissett to Start for Ravens and Provide Huge Fantasy Football Value Boost to Zay Flowers and Derrick Henry"
   }
  },
  "qbhurt": [
@@ -1452,6 +1518,7 @@
   "LAC",
   "LAR",
   "MIA",
+  "PIT",
   "SEA"
  ]
 }
