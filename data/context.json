@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T21:01:00+00:00",
+ "generated": "2026-11-10T21:30:58+00:00",
  "games": {
   "WASNYG": {
    "home": "NYG",
@@ -18,8 +18,8 @@
    },
    "wx": {
     "wind": 8,
-    "gust": 20,
-    "pop": 55,
+    "gust": 12,
+    "pop": 63,
     "rain": 0.0,
     "temp": 52
    }
@@ -35,6 +35,22 @@
     "NE": 2.5
    },
    "total": 51.5
+  },
+  "SEALV": {
+   "home": "LV",
+   "away": "SEA",
+   "kick": "2026-11-15T21:05Z",
+   "indoor": true,
+   "neutral": false,
+   "spread": {
+    "SEA": -6.0,
+    "LV": 6.0
+   },
+   "total": 40.5,
+   "espn_wx": {
+    "desc": "Partly sunny",
+    "temp": 69
+   }
   }
  },
  "inj": {
@@ -525,7 +541,7 @@
    {
     "name": "Malik Willis",
     "pos": "QB",
-    "status": "Doubtful"
+    "status": "Questionable"
    },
    {
     "name": "Zach Sieler",
@@ -884,6 +900,10 @@
   ]
  },
  "news": {
+  "fernando mendoza": {
+   "h": "Vikings reunite with QB Kirk Cousins, send 3rd-round pick to Raiders",
+   "t": "2026-11-10T20:54:12Z"
+  },
   "corey kiner": {
    "h": "Why Dopp doesn\u2019t like the Lions matchup for Corey Kiner",
    "t": "2026-11-10T16:36:54Z"
@@ -892,153 +912,157 @@
  "trend": {
   "tank dell": {
    "rank": 1,
-   "adds": 2647568
+   "adds": 2711024
   },
   "corey kiner": {
    "rank": 2,
-   "adds": 2230716
+   "adds": 2346210
   },
   "konata mumpfield": {
    "rank": 3,
-   "adds": 1599678
+   "adds": 1670931
   },
   "audric estime": {
    "rank": 4,
-   "adds": 673776
+   "adds": 694062
   },
   "darren waller": {
    "rank": 5,
-   "adds": 641727
-  },
-  "tutu atwell": {
-   "rank": 6,
-   "adds": 369040
+   "adds": 664866
   },
   "fernando mendoza": {
+   "rank": 6,
+   "adds": 427008
+  },
+  "tutu atwell": {
    "rank": 7,
-   "adds": 351896
+   "adds": 391097
   },
   "jordan watkins": {
    "rank": 8,
-   "adds": 343388
+   "adds": 350180
   },
   "cj stroud": {
    "rank": 10,
-   "adds": 287910
+   "adds": 296191
   },
   "justice hill": {
    "rank": 11,
-   "adds": 287460
+   "adds": 296010
   },
   "pierre strong": {
    "rank": 12,
-   "adds": 260478
+   "adds": 272934
   },
   "caleb douglas": {
    "rank": 14,
-   "adds": 225328
+   "adds": 231192
   },
   "seth mcgowan": {
    "rank": 15,
-   "adds": 205720
+   "adds": 207448
   },
   "tyler higbee": {
-   "rank": 17,
-   "adds": 192051
+   "rank": 16,
+   "adds": 201681
   },
   "demarcus robinson": {
    "rank": 18,
-   "adds": 185166
+   "adds": 191856
   },
   "tyler shough": {
    "rank": 21,
-   "adds": 162224
-  },
-  "bryce young": {
-   "rank": 22,
-   "adds": 153240
+   "adds": 169576
   },
   "aaron rodgers": {
+   "rank": 22,
+   "adds": 167084
+  },
+  "bryce young": {
    "rank": 23,
-   "adds": 152552
+   "adds": 160636
   },
   "jordyn tyson": {
    "rank": 24,
-   "adds": 148224
+   "adds": 151320
   },
   "khalil shakir": {
    "rank": 26,
-   "adds": 134415
+   "adds": 138825
   },
   "ryan flournoy": {
    "rank": 29,
-   "adds": 125096
+   "adds": 127736
   },
   "jadarian price": {
    "rank": 30,
-   "adds": 124551
-  },
-  "devin singletary": {
-   "rank": 31,
-   "adds": 113832
+   "adds": 126711
   },
   "kc concepcion": {
-   "rank": 32,
-   "adds": 113526
+   "rank": 31,
+   "adds": 116586
   },
-  "blake corum": {
+  "devin singletary": {
    "rank": 33,
-   "adds": 109744
-  },
-  "jakobi meyers": {
-   "rank": 34,
-   "adds": 109362
+   "adds": 116064
   },
   "keenan allen": {
+   "rank": 34,
+   "adds": 114624
+  },
+  "blake corum": {
+   "rank": 35,
+   "adds": 113592
+  },
+  "jakobi meyers": {
    "rank": 36,
-   "adds": 107816
+   "adds": 112482
+  },
+  "kyle mccord": {
+   "rank": 38,
+   "adds": 108332
   },
   "chris rodriguez": {
-   "rank": 37,
-   "adds": 101349
-  },
-  "omar cooper": {
-   "rank": 40,
-   "adds": 89640
+   "rank": 39,
+   "adds": 105156
   },
   "jordan addison": {
-   "rank": 41,
-   "adds": 89208
+   "rank": 40,
+   "adds": 98343
   },
-  "emmett johnson": {
-   "rank": 43,
-   "adds": 80685
+  "omar cooper": {
+   "rank": 42,
+   "adds": 91080
   },
   "kirk cousins": {
+   "rank": 43,
+   "adds": 84904
+  },
+  "emmett johnson": {
    "rank": 44,
-   "adds": 76976
+   "adds": 83574
   },
   "brenton strange": {
-   "rank": 45,
-   "adds": 74727
+   "rank": 46,
+   "adds": 77148
   },
   "rico dowdle": {
-   "rank": 46,
-   "adds": 72420
+   "rank": 47,
+   "adds": 75765
   },
   "keon coleman": {
    "rank": 48,
-   "adds": 71415
+   "adds": 73620
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "2 games",
+  "lines": "3 games",
   "weather": "1 outdoor games",
   "injuries": "156 players listed",
-  "news": "1 players in headlines",
-  "google_news": "2 role-cut, 31 injury headlines; QB hurt: KC, LAR, NYG, PIT, SEA",
-  "sleeper_trending": "35 board players trending",
+  "news": "2 players in headlines",
+  "google_news": "3 role-cut, 33 injury headlines; QB hurt: LAR, PIT",
+  "sleeper_trending": "36 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
@@ -1072,11 +1096,21 @@
    "inj": true,
    "worst": "Dolphins' Chris Johnson Intercepts Jared Goff Stream of National Football League"
   },
+  "fernando mendoza": {
+   "h": [
+    "Raiders throwing Fernando Mendoza to the fire at the worst time following Kirk Cousins trade",
+    "Up next for Seahawks: Raiders, top pick Fernando Mendoza",
+    "Fantasy Football Waiver Alert: Fernando Mendoza Named Raiders Starting QB. How Does It Affect Brock Bowers' Value?"
+   ],
+   "cut": true,
+   "inj": true,
+   "worst": "Analysts suggest Fernando Mendoza might not start immediately after Raiders' Kirk Cousins trade"
+  },
   "devin singletary": {
    "h": [
     "Carson Beck or Devin Singletary: Who Should I Pick Up? Fantasy Football (2026)",
-    "Devin Singletary or Jameis Winston | Who Should I Start? - Week 10",
-    "Who Should I Drop for Fantasy Football Week 10? Devin Singletary, Adonai Mitchell, Malik Willis, Devaughn Vele, Kendre Miller, Antonio Williams, Emanuel Wilson, Mike Washington, Kyler Murray"
+    "Week 10 Devin Singletary Fantasy Start or Sit 2026",
+    "Devin Singletary or Jameis Winston | Who Should I Start? - Week 10"
    ],
    "cut": false,
    "inj": true,
@@ -1086,7 +1120,7 @@
    "h": [
     "Amon-Ra St. Brown or Austin Ekeler: Who Should I Start in Week 9? Fantasy Football",
     "Austin Ekeler Tallies 10 touches in Week 9",
-    "Austin Ekeler struggles in loss"
+    "DeMario Douglas or Austin Ekeler: Who Should I Start in Week 9?"
    ],
    "cut": false,
    "inj": true,
@@ -1131,6 +1165,14 @@
    "inj": true,
    "worst": "Jahmyr Gibbs Off to Historic Start, Favorite to Win OPOY Stream of National Football League"
   },
+  "theo johnson": {
+   "h": [
+    "Theo Johnson Fantasy Football Half PPR Ros Rankings | New York Giants"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Theo Johnson Fantasy Football Half PPR Ros Rankings | New York Giants"
+  },
   "van jefferson": {
    "h": [
     "Week 10 Van Jefferson Fantasy Start or Sit 2026",
@@ -1155,7 +1197,7 @@
    "h": [
     "Week 10 Chig Okonkwo Fantasy Start or Sit 2026",
     "Week 10 Fantasy Football Waiver Wire Targets For Every Position: Aaron Rodgers, Chig Okonkwo, And More",
-    "2026 Fantasy Football Waiver Wire Week 10: Caleb Douglas, Chig Okonkwo Top Picks"
+    "Chig Okonkwo Waiver Wire: Is the Commanders TE a Must-Add for Week 10 Fantasy Football?"
    ],
    "cut": false,
    "inj": true,
@@ -1173,9 +1215,9 @@
   },
   "malik nabers": {
    "h": [
+    "Malik Nabers Addresses Greg Olsen's Criticism in Trending Video from Giants vs. Eagles",
     "Jack Bech or Malik Nabers: Who Should I Draft? Fantasy Football (2026)",
-    "\u2018Stretched It a Little Too Far,\u2019 \u2018Don\u2019t Know What (Greg) Olsen\u2019s Been Watching\u2019 -- Hall of Famer Fires Back at FOX Analyst\u2019s Remarks About Malik Nabers",
-    "Week 10 Malik Nabers Fantasy Start or Sit 2026"
+    "\u2018Stretched It a Little Too Far,\u2019 \u2018Don\u2019t Know What (Greg) Olsen\u2019s Been Watching\u2019 -- Hall of Famer Fires Back at FOX Analyst\u2019s Remarks About Malik Nabers"
    ],
    "cut": false,
    "inj": true,
@@ -1203,9 +1245,9 @@
   },
   "darnell mooney": {
    "h": [
+    "Darnell Mooney (chest) upgrades to full session",
     "Darnell Mooney Considered limited Monday",
-    "Darnell Mooney (chest) listed as limited Monday",
-    "Giants' Darnell Mooney: Considered limited Monday"
+    "Darnell Mooney (chest) listed as limited Monday"
    ],
    "cut": false,
    "inj": true,
@@ -1243,9 +1285,9 @@
   },
   "jj mccarthy": {
    "h": [
-    "J.J. McCarthy Participating in Practice on Tuesday - NFL News | Fantasy Football",
-    "Giants' J.J. McCarthy, Cam Skattebo injury updates a great sign for TNF matchup vs. Commanders",
-    "\u2018Couldn\u2019t Fix J.J. McCarthy,\u2019 \u2018What Does He Do Well?\u2019 \u2014 NFL World Questions \u2018QB Whisperer\u2019 Kevin O\u2019Connell After Failed Carson Wentz Experiment"
+    "Giants QB J.J. McCarthy Reacts to Vikings' Trade for Kirk Cousins",
+    "Vikings pay huge Kirk Cousins price to fix QB debacle after dealing J.J. McCarthy away",
+    "J.J. McCarthy Participating in Practice on Tuesday - NFL News | Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -1253,9 +1295,9 @@
   },
   "dak prescott": {
    "h": [
+    "The Vikings Are Actively Pursuing Quarterback Trade. Is Dak Prescott Available?",
     "Cowboys Dak Prescott Trade Scenario Gets $87 Million Warning",
-    "Cowboys Owner Jerry Jones Confirms Stance on Trading Dak Prescott Ahead of Deadline",
-    "The Vikings Are Actively Pursuing Quarterback Trade. Is Dak Prescott Available?"
+    "Cowboys Owner Jerry Jones Confirms Stance on Trading Dak Prescott Ahead of Deadline"
    ],
    "cut": false,
    "inj": true,
@@ -1263,19 +1305,19 @@
   },
   "deshaun watson": {
    "h": [
+    "Browns Reveal Where Shedeur Sanders Stands in QB Picture With Deshaun Watson Ahead of Week 10",
     "Cleveland Browns make Deshaun Watson starting QB decision after Shedeur Sanders' overtime loss to Saints",
-    "\u201cDeshaun Watson Is The Starter\u201d: Former NFL WR Shuts Down Shedeur Sanders QB Debate After Browns Loss",
-    "Deshaun Watson Eyes Cleveland Browns Return Against Houston Texans As Shedeur Sanders Puts His Starting Job In Question"
+    "\u201cDeshaun Watson Is The Starter\u201d: Former NFL WR Shuts Down Shedeur Sanders QB Debate After Browns Loss"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Cleveland Browns make Deshaun Watson starting QB decision after Shedeur Sanders' overtime loss to Saints"
+   "worst": "Browns Reveal Where Shedeur Sanders Stands in QB Picture With Deshaun Watson Ahead of Week 10"
   },
   "drew lock": {
    "h": [
+    "Drew Lock Is the Ultimate Week 10 Fantasy QB Streamer Against Vegas",
     "Drew Lock: Must-Add Waiver Wire Pickup for Week 10 Fantasy Football? - NFL News",
-    "Seahawks will need to rely on Drew Lock again in Week 10",
-    "NFL Injury Update: Sam Darnold Ruled Out of Seahawks vs Las Vegas Raiders Week 10 Clash; Drew Lock to Start Again"
+    "Seahawks will need to rely on Drew Lock again in Week 10"
    ],
    "cut": true,
    "inj": true,
@@ -1283,13 +1325,13 @@
   },
   "jordan love": {
    "h": [
-    "Packers Film Room: Jordan Love lights up the Patriots",
-    "Watch Colin Cowherd: Jordan Love belongs in the elite tier of NFL quarterbacks - The Herd with Colin Cowherd",
-    "Is Jordan Love the midseason NFL MVP?"
+    "NFL Week 10 MVP Ladder: Jordan Love Nearly Claims the Top Spot",
+    "NFL Week 10 MVP Ladder: Jordan Love Nearly Claims the Top Spot",
+    "Packers Film Room: Jordan Love lights up the Patriots"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Packers Film Room: Jordan Love lights up the Patriots"
+   "worst": "NFL Week 10 MVP Ladder: Jordan Love Nearly Claims the Top Spot"
   },
   "trevor lawrence": {
    "h": [
@@ -1310,25 +1352,15 @@
    "inj": false,
    "worst": "Kyle McCord to make debut against Colts"
   },
-  "fernando mendoza": {
-   "h": [
-    "With Kirk Cousins Traded, Fernando Mendoza Becomes Raiders Starting QB",
-    "Raiders Officially Ship Out QB Kirk Cousins To Vikings, Begin Fernando Mendoza Era",
-    "Top NFL Draft pick Fernando Mendoza officially becomes Raiders starting QB - www.the-sun.com"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Former Indiana football quarterback Fernando Mendoza in line for first NFL start Sunday"
-  },
   "geno smith": {
    "h": [
-    "Jets Make Major Geno Smith Decision Amid Contender\u2019s Trade Deadline Interest",
+    "New York Jets Make Major Trade Deadline Decision on Geno Smith",
     "Jets Were Approached by Vikings For Geno Smith Trade",
     "Jets Stand Firm On Geno Smith Despite Trade Calls"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Jets Make Major Geno Smith Decision Amid Contender\u2019s Trade Deadline Interest"
+   "worst": "New York Jets Make Major Trade Deadline Decision on Geno Smith"
   },
   "matthew stafford": {
    "h": [
@@ -1342,13 +1374,13 @@
   },
   "daniel jones": {
    "h": [
-    "NFL rumors: Colts prepared to go down with Daniel Jones ship after rejecting Vikings trade",
-    "Vikings trade for Kirk Cousins, not Colts' QB Daniel Jones",
-    "Colts, Vikings Make Final Daniel Jones Trade Decision"
+    "How Colts keeping Jonathan Taylor and Daniel Jones makes them NFL trade deadline\u2019s biggest loser",
+    "Josh Downs Traded to Chiefs: Fantasy Football Fallout For Kansas City, Tyler Warren, Daniel Jones",
+    "NFL rumors: Colts prepared to go down with Daniel Jones ship after rejecting Vikings trade"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "NFL rumors: Colts prepared to go down with Daniel Jones ship after rejecting Vikings trade"
+   "inj": true,
+   "worst": "Josh Downs Traded to Chiefs: Fantasy Football Fallout For Kansas City, Tyler Warren, Daniel Jones"
   },
   "brock purdy": {
    "h": [
@@ -1371,29 +1403,29 @@
   },
   "joe burrow": {
    "h": [
-    "Steelers' Patrick Queen Sees A Remarkable Change In Joe Burrow Before First-Place Clash",
-    "Joe Burrow and the Bengals lead best celebrations in NFL Week 9",
-    "NFL MVP Race on Prediction Markets: Joe Burrow vs. Josh Allen"
+    "Week 9 NFL MVP tracker: Bengals' Joe Burrow leads race at midpoint of 2026 season",
+    "NFL MVP Odds update: Can anyone challenge Josh Allen and Joe Burrow?",
+    "NFL MVP Odds After Week 9 \u2013 Burrow, Allen Neck-and-Neck; Who\u2019s Favored?"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Steelers' Patrick Queen Sees A Remarkable Change In Joe Burrow Before First-Place Clash"
+   "worst": "Week 9 NFL MVP tracker: Bengals' Joe Burrow leads race at midpoint of 2026 season"
   },
   "patrick mahomes": {
    "h": [
-    "Patrick Mahomes\u2019 Trainer Exposes the Work Behind Chiefs QB\u2019s Narrow Escape From Serious Injury",
-    "Patrick Mahomes\u2019 trainer shares video of workouts that may have mitigated injury",
-    "How did Patrick Mahomes manage to keep playing with the Chiefs? Bobby Stroupe revealed the secret of his physical resilience"
+    "Josh Downs: Patrick Mahomes gets new weapon as Kansas City Chiefs trade for wide receiver",
+    "Josh Downs Trade Grades: Chiefs Get Patrick Mahomes a Playmaker",
+    "Patrick Mahomes Reacts to Josh Downs' Vince Carter GIF With Emoji After Chiefs Trade for Colts WR"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Patrick Mahomes\u2019 Trainer Exposes the Work Behind Chiefs QB\u2019s Narrow Escape From Serious Injury"
+   "worst": "Andy Reid Reveals What Chiefs Fans Wanted to Hear About Patrick Mahomes\u2019 Injury"
   },
   "josh allen": {
    "h": [
+    "Josh Allen Grabs Attention For His Behavior During Interview With Laura Rutledge",
     "Week 10 Fantasy Football Quarterback Rankings: Josh Allen Is Back On Top",
-    "Josh Allen was super fired up about gift from Canelo Alvarez after Bills-Vikings game",
-    "NFL Week 10 confidence pool rankings: Josh Allen steamrolls Jets in another lopsided mismatch"
+    "NFL MVP Odds update: Can anyone challenge Josh Allen and Joe Burrow?"
    ],
    "cut": false,
    "inj": true,
@@ -1401,29 +1433,29 @@
   },
   "michael penix": {
    "h": [
+    "Falcons Named Ideal Fit for Seahawks QB Amid Michael Penix Jr. Questions",
     "Falcons QB Michael Penix Jr. Flashes Rarely Seen Skill Amid Performance Drop-Off",
-    "\u2018Put a Little Weight on,\u2019 \u2018Looks Skinny and Frail\u2019 \u2014 Ex-NFL QB Gives Blunt Advice to Michael Penix Jr. Amid Falcons\u2019 Struggles",
-    "Penix Jr. Hits Rock Bottom As Worst QB vs Pressure In NFL History"
+    "\u2018Put a Little Weight on,\u2019 \u2018Looks Skinny and Frail\u2019 \u2014 Ex-NFL QB Gives Blunt Advice to Michael Penix Jr. Amid Falcons\u2019 Struggles"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Falcons QB Michael Penix Jr. Flashes Rarely Seen Skill Amid Performance Drop-Off"
+   "worst": "Falcons Named Ideal Fit for Seahawks QB Amid Michael Penix Jr. Questions"
   },
   "kirk cousins": {
    "h": [
-    "With Kirk Cousins Traded, Fernando Mendoza Becomes Raiders Starting QB",
-    "Breaking down the fantasy impact of NFL trades: Kirk Cousins to the rescue; Keenan Allen to 49ers",
-    "Raiders Trade Kirk Cousins to Vikings: Here Are the Details"
+    "Vikings get QB Kirk Cousins from Raiders ahead of Packers matchup, AP source says",
+    "Kirk Cousins Traded to Vikings From Raiders, Full Details Revealed in Latest NFL Rumors",
+    "NFL world reacts to Raiders trading QB Kirk Cousins to the Vikings"
    ],
    "cut": false,
    "inj": false,
-   "worst": "With Kirk Cousins Traded, Fernando Mendoza Becomes Raiders Starting QB"
+   "worst": "Vikings get QB Kirk Cousins from Raiders ahead of Packers matchup, AP source says"
   },
   "bryce young": {
    "h": [
+    "Bryce Young Is a Locked-In Top-10 Fantasy Quarterback for Week 10",
     "Where Did Panthers' Bryce Young Land in New NFL QB Rankings",
-    "Where Panthers QB Bryce Young ranks statistically after Week 9",
-    "Bryce Young Belongs on the Week 10 Fantasy Football Streaming Radar"
+    "Where Panthers QB Bryce Young ranks statistically after Week 9"
    ],
    "cut": false,
    "inj": true,
@@ -1441,9 +1473,9 @@
   },
   "tyler shough": {
    "h": [
+    "Tyler Shough Week 5 Outlook - Vikings at Saints",
     "Fantasy Football Usage Report: Tyler Shough Rises, Omarion Hampton a Drop",
-    "Tyler Shough opens up about his process for performing in crucial scenarios",
-    "Tyler Shough Says He Feels Like the Best Quarterback in the NFL After Saints' OT Win"
+    "Tyler Shough opens up about his process for performing in crucial scenarios"
    ],
    "cut": false,
    "inj": true,
@@ -1463,7 +1495,7 @@
    "h": [
     "Fantasy Football Film Room: C.J. Stroud joins the elite, plus a Packers backfield waiver opportunity",
     "C.J. Stroud Deserves To Be In The MVP Conversation Despite Texans' Record",
-    "Houston Texans' biggest offseason gamble has turned out to be a massive disaster for CJ Stroud and the offense"
+    "DeMeco Ryans seeing increased confidence, leadership from Texans QB CJ Stroud"
    ],
    "cut": false,
    "inj": true,
@@ -1471,13 +1503,13 @@
   },
   "justin herbert": {
    "h": [
-    "Vikings inquired about Justin Herbert before Kirk Cousins trade",
+    "Ex-ESPN Personality Ryan Clark Rips Chargers\u2019 Jim Harbaugh About Justin Herbert",
     "NFL rumors: Vikings asked Chargers about Justin Herbert trade before Kirk Cousins reunion",
-    "New Justin Herbert Trade Rumors on Vikings Links Surface After Kirk Cousins Deal at NFL Deadline"
+    "Vikings inquired about Justin Herbert before Kirk Cousins trade"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Vikings inquired about Justin Herbert before Kirk Cousins trade"
+   "worst": "Ex-ESPN Personality Ryan Clark Rips Chargers\u2019 Jim Harbaugh About Justin Herbert"
   },
   "jacoby brissett": {
    "h": [
@@ -1491,10 +1523,7 @@
   }
  },
  "qbhurt": [
-  "KC",
   "LAR",
-  "NYG",
-  "PIT",
-  "SEA"
+  "PIT"
  ]
 }
