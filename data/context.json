@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T00:30:48+00:00",
+ "generated": "2026-11-10T01:00:55+00:00",
  "games": {
   "BUFMIN": {
    "home": "MIN",
@@ -8,12 +8,12 @@
    "indoor": true,
    "neutral": false,
    "spread": {
-    "BUF": -3.5,
-    "MIN": 3.5
+    "BUF": -3.0,
+    "MIN": 3.0
    },
    "total": 45.5,
    "espn_wx": {
-    "desc": "Mostly clear",
+    "desc": "Clear",
     "temp": 52
    }
   }
@@ -92,6 +92,21 @@
   ],
   "BUF": [
    {
+    "name": "Greg Gaines",
+    "pos": "DT",
+    "status": "Questionable"
+   },
+   {
+    "name": "Alec Anderson",
+    "pos": "OT",
+    "status": "Questionable"
+   },
+   {
+    "name": "Dion Dawkins",
+    "pos": "OT",
+    "status": "Questionable"
+   },
+   {
     "name": "Tyrell Shavers",
     "pos": "WR",
     "status": "Out"
@@ -104,21 +119,6 @@
    {
     "name": "Mike Danna",
     "pos": "DE",
-    "status": "Out"
-   },
-   {
-    "name": "Dion Dawkins",
-    "pos": "OT",
-    "status": "Out"
-   },
-   {
-    "name": "Greg Gaines",
-    "pos": "DT",
-    "status": "Out"
-   },
-   {
-    "name": "Alec Anderson",
-    "pos": "OT",
     "status": "Out"
    },
    {
@@ -303,11 +303,6 @@
   ],
   "GB": [
    {
-    "name": "Josh Jacobs",
-    "pos": "RB",
-    "status": "Out"
-   },
-   {
     "name": "Josh Whyle",
     "pos": "TE",
     "status": "Out"
@@ -331,6 +326,11 @@
     "name": "Travis Glover",
     "pos": "OT",
     "status": "Out"
+   },
+   {
+    "name": "Josh Jacobs",
+    "pos": "RB",
+    "status": "Questionable"
    },
    {
     "name": "Bo Melton",
@@ -617,17 +617,17 @@
   ],
   "NYG": [
    {
+    "name": "Darnell Mooney",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Cam Skattebo",
     "pos": "RB",
     "status": "Out"
    },
    {
     "name": "Charlie Jones",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Darnell Mooney",
     "pos": "WR",
     "status": "Questionable"
    },
@@ -848,6 +848,11 @@
   ],
   "WAS": [
    {
+    "name": "Chig Okonkwo",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
     "name": "Treylon Burks",
     "pos": "WR",
     "status": "Out"
@@ -859,11 +864,6 @@
    },
    {
     "name": "Colson Yankoff",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Chig Okonkwo",
     "pos": "TE",
     "status": "Questionable"
    },
@@ -887,175 +887,175 @@
  "trend": {
   "tank dell": {
    "rank": 1,
-   "adds": 974272
+   "adds": 1002464
   },
   "devin singletary": {
    "rank": 2,
-   "adds": 615213
+   "adds": 594423
   },
   "audric estime": {
    "rank": 3,
-   "adds": 563751
+   "adds": 558474
   },
   "demarcus robinson": {
    "rank": 4,
-   "adds": 545892
+   "adds": 528822
   },
   "corey kiner": {
    "rank": 5,
-   "adds": 400230
+   "adds": 410820
   },
   "ryan flournoy": {
    "rank": 6,
-   "adds": 309864
+   "adds": 309976
   },
   "konata mumpfield": {
    "rank": 7,
-   "adds": 252207
+   "adds": 277263
   },
   "alvin kamara": {
    "rank": 8,
-   "adds": 195792
+   "adds": 188896
   },
   "adonai mitchell": {
    "rank": 10,
-   "adds": 174240
+   "adds": 169424
   },
   "carson wentz": {
    "rank": 11,
-   "adds": 168132
+   "adds": 167256
   },
   "darren waller": {
    "rank": 12,
-   "adds": 158193
+   "adds": 161487
   },
   "jordan watkins": {
    "rank": 13,
-   "adds": 153580
+   "adds": 155996
   },
   "cj stroud": {
    "rank": 14,
-   "adds": 132853
+   "adds": 134911
   },
   "omar cooper": {
    "rank": 15,
-   "adds": 129376
+   "adds": 128040
   },
   "pat bryant": {
    "rank": 16,
-   "adds": 122376
+   "adds": 124600
   },
   "darius cooper": {
    "rank": 18,
-   "adds": 114814
-  },
-  "gregory desrosiers": {
-   "rank": 19,
-   "adds": 111984
+   "adds": 111524
   },
   "shedeur sanders": {
+   "rank": 19,
+   "adds": 109920
+  },
+  "caleb douglas": {
    "rank": 21,
-   "adds": 109672
+   "adds": 107480
   },
   "kenny gainwell": {
    "rank": 22,
-   "adds": 106680
-  },
-  "caleb douglas": {
-   "rank": 23,
-   "adds": 105736
-  },
-  "jadarian price": {
-   "rank": 24,
-   "adds": 105282
+   "adds": 105872
   },
   "seth mcgowan": {
-   "rank": 25,
-   "adds": 103552
+   "rank": 23,
+   "adds": 105728
   },
-  "malik willis": {
-   "rank": 26,
-   "adds": 102228
+  "gregory desrosiers": {
+   "rank": 24,
+   "adds": 105720
+  },
+  "jadarian price": {
+   "rank": 25,
+   "adds": 105120
   },
   "jordan addison": {
-   "rank": 27,
-   "adds": 100737
+   "rank": 26,
+   "adds": 100494
   },
-  "dylan sampson": {
-   "rank": 29,
-   "adds": 87535
+  "malik willis": {
+   "rank": 27,
+   "adds": 99617
   },
   "justice hill": {
+   "rank": 29,
+   "adds": 88029
+  },
+  "dylan sampson": {
    "rank": 30,
-   "adds": 87165
+   "adds": 85795
   },
   "jordyn tyson": {
    "rank": 31,
-   "adds": 77832
-  },
-  "emmett johnson": {
-   "rank": 33,
-   "adds": 70353
+   "adds": 76624
   },
   "khalil shakir": {
+   "rank": 33,
+   "adds": 70695
+  },
+  "emmett johnson": {
    "rank": 34,
-   "adds": 70101
+   "adds": 68994
   },
   "malik washington": {
    "rank": 35,
-   "adds": 67952
+   "adds": 66440
   },
   "khalil herbert": {
    "rank": 36,
-   "adds": 67383
+   "adds": 64134
   },
   "kc concepcion": {
    "rank": 37,
-   "adds": 60498
+   "adds": 60975
+  },
+  "tutu atwell": {
+   "rank": 38,
+   "adds": 58968
   },
   "ty johnson": {
    "rank": 39,
-   "adds": 55926
-  },
-  "tutu atwell": {
-   "rank": 40,
-   "adds": 54054
+   "adds": 56664
   },
   "kaelon black": {
    "rank": 41,
-   "adds": 53011
+   "adds": 52157
   },
   "elijah mitchell": {
    "rank": 42,
-   "adds": 52812
+   "adds": 51138
   },
   "michael mayer": {
    "rank": 43,
-   "adds": 51858
+   "adds": 50985
   },
   "courtland sutton": {
    "rank": 44,
-   "adds": 49860
+   "adds": 50490
   },
   "mack hollins": {
    "rank": 46,
-   "adds": 48909
+   "adds": 48075
   },
   "tyler higbee": {
    "rank": 47,
-   "adds": 47124
+   "adds": 47682
   },
   "austin ekeler": {
    "rank": 48,
-   "adds": 47076
+   "adds": 45744
   },
   "keenan allen": {
    "rank": 49,
-   "adds": 46320
+   "adds": 45260
   },
   "bryce young": {
    "rank": 50,
-   "adds": 43980
+   "adds": 44392
   }
  },
  "buzz": {},
@@ -1064,30 +1064,30 @@
   "weather": "0 outdoor games",
   "injuries": "158 players listed",
   "news": "2 players in headlines",
-  "google_news": "6 role-cut, 28 injury headlines; QB hurt: KC, LAR, MIA, NYG",
+  "google_news": "5 role-cut, 25 injury headlines; QB hurt: ARI, KC, LAC, LAR, MIA, SEA",
   "sleeper_trending": "43 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
   "carson wentz": {
    "h": [
-    "Underdog NFL Picks Today: Cook Higher, Wentz Higher",
-    "Best Carson Wentz Prop Bet for Vikings vs. Bills on Monday 11/9/26",
-    "'Get him the rock' | Vikings QB Carson Wentz looks to get offense on track by getting Justin Jefferson more involved"
+    "Why Carson Wentz is Playing QB Tonight, Not Kyler Murray",
+    "Who is Carson Wentz? This is the Vikings starting quarterback agains the Bills",
+    "Underdog NFL Picks Today: Cook Higher, Wentz Higher"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Anthony Richardsonsr or Carson Wentz: Who Should I Pick Up? Fantasy Football (2026)"
+   "inj": false,
+   "worst": "Why Carson Wentz is Playing QB Tonight, Not Kyler Murray"
   },
   "josh allen": {
    "h": [
-    "Josh Allen Player Props | Best NFL Prop Bets Today | Bills vs Vikings Prediction: Best NFL Player Props, Anytime TD Scorer (MNF Best Bets)",
-    "Josh Allen Looks To Keep It Rolling in Bills-Vikings Showdown",
-    "NFL MVP Race 2026: Jordan Love, Joe Burrow Catching Up to Josh Allen Entering Week 10"
+    "Dalton Kincaid Promises 'It's Coming' as Josh Allen Demands More from Bills' Offense",
+    "In 2018, Josh Allen had no college offers and few believed in him, but years later, his hard work turned",
+    "Brian Flores' Vikings Defense Faces Josh Allen, Bills"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Make the Case for MVP: Josh Allen Stream of National Football League"
+   "inj": false,
+   "worst": "Dalton Kincaid Promises 'It's Coming' as Josh Allen Demands More from Bills' Offense"
   },
   "ray davis": {
    "h": [
@@ -1131,13 +1131,13 @@
   },
   "odell beckham": {
    "h": [
-    "Vikings sign Odell Beckham Jr. to active roster",
-    "Odell Beckham Jr. signs with Vikings' active roster",
-    "Odell Beckham Jr. Gets Major Vikings Roster Update After Weeks of Uncertainty"
+    "Vikings Announce Move on Odell Beckham Jr. Hours Before Bills Game",
+    "Odell Beckham Jr handed fresh NFL lifeline... weeks after being brutally cut by the New York Giants",
+    "Odell Beckham Jr. Active for MNF"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Vikings sign Odell Beckham Jr. to active roster"
+   "worst": "Vikings Announce Move on Odell Beckham Jr. Hours Before Bills Game"
   },
   "tai felton": {
    "h": [
@@ -1149,13 +1149,13 @@
   },
   "dj moore": {
    "h": [
-    "Is DJ Moore Playing Tonight? ESPN 'Miscommunication' Causes Confusion for Week 9",
+    "Is DJ Moore Playing Tonight? Latest Injury Update After ESPN 'Miscommunication'",
     "Injury Update: Is DJ Moore Active for Bills\u2019 MNF Showdown With Vikings?",
     "D.J. Moore Receiving Yards Pick for Bills vs. Vikings"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 9? Jordan Addison, Justin Jefferson, Khalil Shakir, DJ Moore, Dalton Kincaid, Jordan Mason, Aaron Jones Sr., T.J. Hockenson, Keon Coleman"
+   "worst": "Is DJ Moore Playing Tonight? Latest Injury Update After ESPN 'Miscommunication'"
   },
   "ty johnson": {
    "h": [
@@ -1178,18 +1178,18 @@
   "tj hockenson": {
    "h": [
     "T.J. Hockenson Prop Bets: Receiving Over/Under Lines vs. Bills",
-    "Should I Trade (Half PPR) Brian Thomas Jr. for T.J. Hockenson (2026)?",
-    "T.J. Hockenson or Jonah Coleman"
+    "Who Should I Start for Fantasy Football Week 9? Jordan Addison, Justin Jefferson, Khalil Shakir, DJ Moore, Dalton Kincaid, Jordan Mason, Aaron Jones Sr., T.J. Hockenson, Keon Coleman",
+    "Should I Trade (Half PPR) Brian Thomas Jr. for T.J. Hockenson (2026)?"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Oronde Gadsden or T.J. Hockenson: Who Should I Start in Week 9? Fantasy Football"
+   "worst": "Who Should I Start for Fantasy Football Week 9? Jordan Addison, Justin Jefferson, Khalil Shakir, DJ Moore, Dalton Kincaid, Jordan Mason, Aaron Jones Sr., T.J. Hockenson, Keon Coleman"
   },
   "justin jefferson": {
    "h": [
+    "Justin Jefferson Fantasy Outlook & Stats",
     "Best Justin Jefferson prop bet for Vikings vs. Bills on Monday 11/09/26",
-    "Bills vs. Vikings Best Anytime Touchdown Scorer Picks for Monday Night Football in NFL Week 9 (Bet on Jefferson)",
-    "Vikings Week 9 injury report vs. Bills: How Kyler Murray injury affects Justin Jefferson"
+    "Bills vs. Vikings Best Anytime Touchdown Scorer Picks for Monday Night Football in NFL Week 9 (Bet on Jefferson)"
    ],
    "cut": false,
    "inj": true,
@@ -1217,19 +1217,19 @@
   },
   "keon coleman": {
    "h": [
+    "Who Should I Start for Fantasy Football Week 9? Jordan Addison, Justin Jefferson, Khalil Shakir, DJ Moore, Dalton Kincaid, Jordan Mason, Aaron Jones Sr., T.J. Hockenson, Keon Coleman",
     "Keon Coleman Prop Bets: Receiving Over/Under Lines vs. Vikings",
-    "Keon Coleman: Must-Add Waiver Wire Pickup for Week 10 Fantasy Football? - NFL News",
-    "Monday Night Football Injury Status for Bills' DJ Moore, Dalton Kincaid, Keon Coleman"
+    "Keon Coleman: Must-Add Waiver Wire Pickup for Week 10 Fantasy Football? - NFL News"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Keon Coleman: Must-Add Waiver Wire Pickup for Week 10 Fantasy Football? - NFL News"
+   "worst": "Who Should I Start for Fantasy Football Week 9? Jordan Addison, Justin Jefferson, Khalil Shakir, DJ Moore, Dalton Kincaid, Jordan Mason, Aaron Jones Sr., T.J. Hockenson, Keon Coleman"
   },
   "dalton kincaid": {
    "h": [
+    "Dalton Kincaid Promises 'It's Coming' as Josh Allen Demands More from Bills' Offense",
     "Best Dalton Kincaid prop bet for Bills vs. Vikings on Monday 11/9/26",
-    "Dalton Kincaid or Kaelon Black",
-    "Who Should I Start for Fantasy Football Week 9? Jordan Addison, Justin Jefferson, Khalil Shakir, DJ Moore, Dalton Kincaid, Jordan Mason, Aaron Jones Sr., T.J. Hockenson, Keon Coleman"
+    "Dalton Kincaid or Kaelon Black"
    ],
    "cut": false,
    "inj": true,
@@ -1246,9 +1246,9 @@
   },
   "trevor lawrence": {
    "h": [
+    "Former Clemson Star Trevor Lawrence Continues to Dominate in NFL",
     "Jacksonville Jaguars tight end Brenton Strange (85) is congratulated by quarterback Trevor Lawrence (16) during the second quarter of an NFL football matchup at EverBank Stadium, Sunday, Jan. 4, 2026, in Jacksonville, Fla. [Corey Perrine/Florida Times-Uni",
-    "Trevor Lawrence Hitting Another Level for Jaguars Stream of National Football League",
-    "Trevor Lawrence Fantasy Outlook & Stats"
+    "Trevor Lawrence Hitting Another Level for Jaguars Stream of National Football League"
    ],
    "cut": false,
    "inj": true,
@@ -1266,13 +1266,13 @@
   },
   "caleb williams": {
    "h": [
-    "Watch Nick Wright urges NFL to 'put the anointing oil away' for Caleb Williams - First Things First",
+    "\u2018Help Me Understand\u2019 \u2014 Shannon Sharpe Questions Caleb Williams\u2019 4-INT Performance During Bears\u2019 SNF Showdown",
     "Watch Why the Chicago Bears saved the NFL despite Caleb Williams' four interceptions - The Herd with Colin Cowherd",
     "Quarterback Caleb Williams on Chicago Bears last second win in Week 9"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Watch Nick Wright urges NFL to 'put the anointing oil away' for Caleb Williams - First Things First"
+   "worst": "\u2018Help Me Understand\u2019 \u2014 Shannon Sharpe Questions Caleb Williams\u2019 4-INT Performance During Bears\u2019 SNF Showdown"
   },
   "jayden daniels": {
    "h": [
@@ -1286,9 +1286,9 @@
   },
   "geno smith": {
    "h": [
+    "Jets Reject Trade Inquiries on Geno Smith Ahead of NFL Deadline",
     "Breece Hall Supports Geno Smith Despite Jets Losing Streak",
-    "Week 10 QB fantasy football start-sit: Cousins, Lock, Love, G. Smith",
-    "New York Jets Make Decision After Receiving Trade Inquiries for Geno Smith: Report"
+    "Week 10 QB fantasy football start-sit: Cousins, Lock, Love, G. Smith"
    ],
    "cut": false,
    "inj": true,
@@ -1306,9 +1306,9 @@
   },
   "gardner minshew": {
    "h": [
-    "Cardinals QB Gardner Minshew undergoes tests on elbow of throwing arm",
+    "'The NFL Report' provides injury updates on Michael Wilson and Gardner Minshew",
     "Gardner Minshew II Could face season-ending elbow surgery",
-    "Report: Cardinals' Minshew likely needs season-ending surgery for torn UCL"
+    "Gardner Minshew II Set to undergo testing on arm/elbow"
    ],
    "cut": true,
    "inj": true,
@@ -1326,29 +1326,29 @@
   },
   "tyler shough": {
    "h": [
-    "New Orleans Saints quarterback Tyler Shough opens up about his process for performing in crucial scenarios",
+    "Tyler Shough opens up about his process for performing in crucial scenarios",
     "Saints\u2019 Tyler Shough Makes Bold Claim About Where He Ranks Among NFL Quarterbacks",
     "Tyler Shough Does just enough in OT win"
    ],
    "cut": false,
    "inj": false,
-   "worst": "New Orleans Saints quarterback Tyler Shough opens up about his process for performing in crucial scenarios"
+   "worst": "Tyler Shough opens up about his process for performing in crucial scenarios"
   },
   "jordan love": {
    "h": [
+    "Jordan Love Just Sent a MASSIVE Message to the NFL! | Lemps Talkin\u2019 Pack #269 |",
     "Today in the NFL! Love is in the Air Yards",
-    "Watch Jordan Love belongs in the top five NFL quarterbacks list - The Herd with Colin Cowherd",
-    "NFL MVP Race 2026: Jordan Love, Joe Burrow Catching Up to Josh Allen Entering Week 10"
+    "Watch Jordan Love belongs in the top five NFL quarterbacks list - The Herd with Colin Cowherd"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Today in the NFL! Love is in the Air Yards"
+   "worst": "Jordan Love Just Sent a MASSIVE Message to the NFL! | Lemps Talkin\u2019 Pack #269 |"
   },
   "bryce young": {
    "h": [
+    "Bryce Young Gets Decent QB Grade Despite Loss to Broncos",
     "Week 10 Fantasy football projection risers and fallers: Bryce Young surges as Matthew Stafford loses ground",
-    "Week 10 Fantasy football projection risers and fallers: Bryce Young surges as Matthew Stafford loses ground",
-    "Panthers\u2019 Bryce Young left baffled by controversial replay review decision in loss to Broncos"
+    "Week 10 Fantasy football projection risers and fallers: Bryce Young surges as Matthew Stafford loses ground"
    ],
    "cut": false,
    "inj": true,
@@ -1356,19 +1356,19 @@
   },
   "bo nix": {
    "h": [
+    "Bo Nix and Sean Payton both accept blame for fumbled pitch to Jonah Coleman",
     "Sean Payton and Bo Nix had another heated sideline exchange on Sunday",
-    "Broncos\u2019 Bo Nix raves about \u2018great movie\u2019 Space Jam after surviving Panthers",
-    "Bo Nix has an NFL-high 6 game-winning drives this season, and a record 16 through 3 seasons"
+    "Broncos\u2019 Bo Nix raves about \u2018great movie\u2019 Space Jam after surviving Panthers"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Mike Tomlin breaks down the Week 9 performances of Bo Nix, Caleb Williams | Sunday Night Football"
+   "inj": false,
+   "worst": "Bo Nix and Sean Payton both accept blame for fumbled pitch to Jonah Coleman"
   },
   "jj mccarthy": {
    "h": [
-    "Giants list J.J. McCarthy as limited on Monday\u2019s practice report",
     "Giants' John Harbaugh feels fairly good about J.J. McCarthy being ready to play against Washington",
-    "J.J. McCarthy injury update: Giants get major news on star QB's hip issue ahead of TNF Commanders game"
+    "New York Giants quarterback J.J. McCarthy expected to play vs. Commanders | 'The NFL Report'",
+    "Vikings Insider Raises Concerns Over J.J. McCarthy"
    ],
    "cut": false,
    "inj": true,
@@ -1376,9 +1376,9 @@
   },
   "kirk cousins": {
    "h": [
+    "Will the Vikings trade for Kirk Cousins?",
     "Kirk Cousins' rough performance reopens Fernando Mendoza debate for Raiders",
-    "Raiders have no choice but to turn to Fernando Mendoza after Kirk Cousins\u2019 collapse",
-    "Raiders' Cousins Joins Tom Brady, Drew Brees in Rare NFL Company"
+    "Raiders have no choice but to turn to Fernando Mendoza after Kirk Cousins\u2019 collapse"
    ],
    "cut": true,
    "inj": false,
@@ -1386,23 +1386,23 @@
   },
   "shedeur sanders": {
    "h": [
-    "Shedeur Sanders has become the Angel Reese of the NFL, thanks to his insufferable supporters",
-    "Todd Monken discusses Shedeur Sanders' start during Week 9",
+    "AFC Notes: Shedeur Sanders, Ja\u2019Marr Chase, Tee Higgins, Bengals, Browns",
+    "Browns\u2019 Todd Monken Puts Immediate Brakes on Shedeur Sanders Discussion After Week 9 Loss",
     "Stephen A. Smith pushes back on Shedeur Sanders\u2019 hype after starting for Browns"
    ],
-   "cut": true,
+   "cut": false,
    "inj": true,
-   "worst": "Shedeur Sanders headed back to bench as Watson regains Browns\u2019 QB1 job"
+   "worst": "Browns Get Shedeur Sanders Trade Window After New QB Injury"
   },
   "joe milton": {
    "h": [
-    "McMullen: Joe Milton Isn\u2019t to Blame After Eagles Set Him Up to Fail in Week 9",
-    "Joe Milton grades: Mobility cannot offset mistakes in first Eagles start",
-    "Joe Milton Gets Honest With Personal Assessment After Eagles\u2019 Loss vs Giants"
+    "Eagles QB Joe Milton Puts Himself On The Spot After Losing First NFL Start",
+    "Joe Milton takes responsibility for Eagles\u2019 breakdowns in protection",
+    "What Grade Did QB Joe Milton Get in First Start For Eagles vs Giants?"
    ],
    "cut": false,
    "inj": false,
-   "worst": "McMullen: Joe Milton Isn\u2019t to Blame After Eagles Set Him Up to Fail in Week 9"
+   "worst": "Eagles QB Joe Milton Puts Himself On The Spot After Losing First NFL Start"
   },
   "drake maye": {
    "h": [
@@ -1416,9 +1416,9 @@
   },
   "baker mayfield": {
    "h": [
+    "Baker Mayfield Calls Out Bears for Mimicking His Cadence, and Refs May Be Watching Next",
     "\u2018Refs Literally Kept the Bucs in the Game,\u2019 \u2018Stop This\u2019 \u2014 NFL Fans Call Out Baker Mayfield for Complaining About Officiating vs. Bears",
-    "\u201cBears Were Barking\u2026\u201d: Buccaneers QB Baker Mayfield Calls Out Chicago\u2019s Defense Over Controversial Tactic",
-    "\u201cYou Can\u2019t Do That\u201d \u2013 Baker Mayfield Calls Bears Out For Breaking NFL Rule On Sunday"
+    "\u201cBears Were Barking\u2026\u201d: Buccaneers QB Baker Mayfield Calls Out Chicago\u2019s Defense Over Controversial Tactic"
    ],
    "cut": true,
    "inj": false,
@@ -1426,23 +1426,23 @@
   },
   "joe burrow": {
    "h": [
-    "NFL MVP Race 2026: Jordan Love, Joe Burrow Catching Up to Josh Allen Entering Week 10",
-    "Bombs Away! Jordan Love & Joe Burrow put NFL on notice",
-    "Joe Burrow surges past Josh Allen in MVP odds after Madrid masterpiece"
+    "2026 NFL MVP Odds: Joe Burrow Chases a Historic 5,000-50 Season",
+    "Watch Is Joe Burrow the NFL MVP front-runner after masterclass against Falcons? - First Things First: OT",
+    "NFL MVP Race 2026: Jordan Love, Joe Burrow Catching Up to Josh Allen Entering Week 10"
    ],
    "cut": false,
    "inj": false,
-   "worst": "NFL MVP Race 2026: Jordan Love, Joe Burrow Catching Up to Josh Allen Entering Week 10"
+   "worst": "2026 NFL MVP Odds: Joe Burrow Chases a Historic 5,000-50 Season"
   },
   "cj stroud": {
    "h": [
+    "A 'confident' C.J. Stroud soaks in five-TD day against Chargers",
     "C.J. Stroud on Texans dominance in Week 9 vs. Chargers",
-    "DeMeco Ryans Calls C.J. Stroud a Top Quarterback in the NFL After Five-TD Win",
-    "Texans vs. Chargers Odds, Picks and C.J. Stroud Bet"
+    "DeMeco Ryans Calls C.J. Stroud a Top Quarterback in the NFL After Five-TD Win"
    ],
    "cut": false,
    "inj": false,
-   "worst": "C.J. Stroud on Texans dominance in Week 9 vs. Chargers"
+   "worst": "A 'confident' C.J. Stroud soaks in five-TD day against Chargers"
   },
   "michael penix": {
    "h": [
@@ -1466,13 +1466,13 @@
   },
   "patrick mahomes": {
    "h": [
-    "Patrick Mahomes brother Jackson Mahomes shows unexpected family side as he helps Brittany before Chiefs game",
-    "Andy Reid Gives Patrick Mahomes Injury Update After Chiefs Quarterback Took Concerning Hit During Game",
-    "Reid: Mahomes (elbow) considered \u2018day-to-day\u2019"
+    "Chiefs HC Andy Reid provides injury update on Patrick Mahomes",
+    "Andy Reid says Patrick Mahomes (elbow) is day-to-day 'The NFL Report'",
+    "Patrick Mahomes Deemed day-to-day by Reid"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Andy Reid Gives Patrick Mahomes Injury Update After Chiefs Quarterback Took Concerning Hit During Game"
+   "worst": "Chiefs HC Andy Reid provides injury update on Patrick Mahomes"
   },
   "matthew stafford": {
    "h": [
@@ -1486,9 +1486,9 @@
   },
   "drew lock": {
    "h": [
-    "Lock again lifts the Seahawks to a win in starter Darnold's absence",
-    "Seahawks stick with Drew Lock, Sam Darnold needs more time",
-    "Seahawks to start QB Drew Lock vs. Raiders, giving Sam Darnold more time to heal"
+    "Lock again lifts Seahawks to a win in Darnold\u2019s absence",
+    "Mike Macdonald\u2019s Week 10 Seahawks injury update seals fate of Sam Darnold, Drew Lock",
+    "Seahawks stick with Drew Lock, Sam Darnold needs more time"
    ],
    "cut": true,
    "inj": true,
@@ -1496,13 +1496,13 @@
   },
   "justin herbert": {
    "h": [
-    "Former Oregon QB Justin Herbert to Undergo Testing on Left Middle Finger",
+    "Justin Herbert Avoids fractured finger, per coach",
     "Should the Browns Make a Blockbuster Trade for Justin Herbert?",
     "Justin Herbert Trade Rumors"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Nacua, Jacobs, Herbert, Mahomes among players injured in NFL's Week 9"
+   "worst": "Justin Herbert Avoids fractured finger, per coach"
   },
   "malik willis": {
    "h": [
@@ -1516,9 +1516,11 @@
   }
  },
  "qbhurt": [
+  "ARI",
   "KC",
+  "LAC",
   "LAR",
   "MIA",
-  "NYG"
+  "SEA"
  ]
 }
