@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T23:01:10+00:00",
+ "generated": "2026-11-11T23:31:01+00:00",
  "games": {
   "WASNYG": {
    "home": "NYG",
@@ -19,7 +19,7 @@
    "wx": {
     "wind": 12,
     "gust": 33,
-    "pop": 63,
+    "pop": 60,
     "rain": 1.4,
     "temp": 49
    }
@@ -43,8 +43,8 @@
    "indoor": true,
    "neutral": false,
    "spread": {
-    "KC": -3.5,
-    "ATL": 3.5
+    "KC": -3.0,
+    "ATL": 3.0
    },
    "total": 46.5,
    "espn_wx": {
@@ -91,11 +91,11 @@
     "temp": 45
    },
    "wx": {
-    "wind": 6,
+    "wind": 5,
     "gust": 7,
     "pop": 0,
     "rain": 0.0,
-    "temp": 42
+    "temp": 43
    }
   },
   "JAXTEN": {
@@ -208,11 +208,11 @@
     "temp": 40
    },
    "wx": {
-    "wind": 3,
+    "wind": 4,
     "gust": 5,
     "pop": 0,
     "rain": 0.0,
-    "temp": 40
+    "temp": 39
    }
   }
  },
@@ -245,6 +245,11 @@
    }
   ],
   "ATL": [
+   {
+    "name": "Gervon Dexter Sr.",
+    "pos": "DT",
+    "status": "Questionable"
+   },
    {
     "name": "Zachariah Branch",
     "pos": "WR",
@@ -317,17 +322,17 @@
   ],
   "CAR": [
    {
+    "name": "Bobby Okereke",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
     "name": "Will Lee III",
     "pos": "CB",
     "status": "Out"
    },
    {
     "name": "Jaelan Phillips",
-    "pos": "LB",
-    "status": "Out"
-   },
-   {
-    "name": "Bobby Okereke",
     "pos": "LB",
     "status": "Out"
    }
@@ -511,6 +516,26 @@
   ],
   "GB": [
    {
+    "name": "Kevin Zeitler",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
+    "name": "Aaron Banks",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
+    "name": "Lukas Van Ness",
+    "pos": "DE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Javon Bullard",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
     "name": "Trey Smack",
     "pos": "PK",
     "status": "Questionable"
@@ -568,6 +593,11 @@
   ],
   "HOU": [
    {
+    "name": "Marvin Harrison Jr.",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Azeez Al-Shaair",
     "pos": "LB",
     "status": "Questionable"
@@ -589,11 +619,6 @@
    },
    {
     "name": "Tank Dell",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Marvin Harrison Jr.",
     "pos": "WR",
     "status": "Questionable"
    },
@@ -652,6 +677,11 @@
   ],
   "JAX": [
    {
+    "name": "Travon Walker",
+    "pos": "DE",
+    "status": "Questionable"
+   },
+   {
     "name": "Antonio Johnson",
     "pos": "S",
     "status": "Questionable"
@@ -664,11 +694,6 @@
    {
     "name": "Robert Hainsey",
     "pos": "C",
-    "status": "Questionable"
-   },
-   {
-    "name": "Travon Walker",
-    "pos": "DE",
     "status": "Questionable"
    },
    {
@@ -839,6 +864,16 @@
   ],
   "MIN": [
    {
+    "name": "Kyle Van Noy",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Jay Ward",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
     "name": "Jauan Jennings",
     "pos": "WR",
     "status": "Questionable"
@@ -876,9 +911,39 @@
   ],
   "NE": [
    {
-    "name": "Rhamondre Stevenson",
+    "name": "Morgan Moses",
+    "pos": "OT",
+    "status": "Questionable"
+   },
+   {
+    "name": "Kevin Byard",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
+    "name": "Walter Rouse",
+    "pos": "OL",
+    "status": "Questionable"
+   },
+   {
+    "name": "Cameron Latu",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "TreVeyon Henderson",
     "pos": "RB",
-    "status": "Doubtful"
+    "status": "Out"
+   },
+   {
+    "name": "Carlton Davis III",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Ben Brown",
+    "pos": "C",
+    "status": "Out"
    },
    {
     "name": "A.J. Brown",
@@ -886,9 +951,14 @@
     "status": "Questionable"
    },
    {
-    "name": "TreVeyon Henderson",
-    "pos": "RB",
+    "name": "Hunter Henry",
+    "pos": "TE",
     "status": "Questionable"
+   },
+   {
+    "name": "Rhamondre Stevenson",
+    "pos": "RB",
+    "status": "Doubtful"
    },
    {
     "name": "Charles Woods",
@@ -896,27 +966,37 @@
     "status": "Questionable"
    },
    {
-    "name": "Ben Brown",
-    "pos": "C",
-    "status": "Doubtful"
-   },
-   {
     "name": "Brenden Schooler",
     "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Will Campbell",
-    "pos": "OT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Carlton Davis III",
-    "pos": "CB",
     "status": "Questionable"
    }
   ],
   "NO": [
+   {
+    "name": "Christen Miller",
+    "pos": "DT",
+    "status": "Questionable"
+   },
+   {
+    "name": "Noah Fant",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "David Edwards",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
+    "name": "Martin Emerson Jr.",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Kelvin Banks Jr.",
+    "pos": "OT",
+    "status": "Questionable"
+   },
    {
     "name": "CJ Donaldson",
     "pos": "RB",
@@ -1124,8 +1204,8 @@
   ],
   "TEN": [
    {
-    "name": "Tyjae Spears",
-    "pos": "RB",
+    "name": "Cody Barton",
+    "pos": "LB",
     "status": "Questionable"
    },
    {
@@ -1134,8 +1214,13 @@
     "status": "Questionable"
    },
    {
-    "name": "Cody Barton",
-    "pos": "LB",
+    "name": "Marcus Harris",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Tyjae Spears",
+    "pos": "RB",
     "status": "Questionable"
    },
    {
@@ -1235,173 +1320,177 @@
   "patrick mahomes": {
    "h": "Patrick and Brittany Mahomes announce baby No. 4 on NFL trade deadline day",
    "t": "2026-11-11T02:17:21Z"
+  },
+  "josh downs": {
+   "h": "From 2-7 to 6-2: Josh Downs reacts to Chiefs trade with Vince Carter GIF",
+   "t": "2026-11-10T23:17:29Z"
   }
  },
  "trend": {
   "corey kiner": {
    "rank": 1,
-   "adds": 4897926
+   "adds": 4923906
   },
   "konata mumpfield": {
    "rank": 2,
-   "adds": 3558348
+   "adds": 3574098
   },
   "tank dell": {
    "rank": 3,
-   "adds": 3448144
+   "adds": 3454816
   },
   "tutu atwell": {
    "rank": 4,
-   "adds": 1424409
+   "adds": 1437492
   },
   "darren waller": {
    "rank": 5,
-   "adds": 1370511
+   "adds": 1381977
   },
   "fernando mendoza": {
    "rank": 6,
-   "adds": 1351072
+   "adds": 1358128
   },
   "audric estime": {
    "rank": 7,
-   "adds": 1305123
+   "adds": 1311717
   },
   "kyle mccord": {
    "rank": 8,
-   "adds": 827000
+   "adds": 830260
   },
   "pierre strong": {
    "rank": 10,
-   "adds": 694773
+   "adds": 697185
   },
   "ashton dulin": {
    "rank": 11,
-   "adds": 591012
+   "adds": 597573
   },
   "tyler higbee": {
    "rank": 12,
-   "adds": 573579
+   "adds": 578970
   },
   "justice hill": {
    "rank": 13,
-   "adds": 559332
+   "adds": 565560
   },
   "jordan watkins": {
    "rank": 15,
-   "adds": 465268
+   "adds": 466468
   },
   "demarcus robinson": {
    "rank": 16,
-   "adds": 441102
+   "adds": 446304
   },
   "aaron rodgers": {
-   "rank": 17,
-   "adds": 422740
+   "rank": 18,
+   "adds": 426680
   },
   "cj stroud": {
    "rank": 20,
-   "adds": 383187
+   "adds": 385609
   },
   "caleb douglas": {
    "rank": 23,
-   "adds": 329520
-  },
-  "jordan addison": {
-   "rank": 24,
-   "adds": 316971
+   "adds": 330960
   },
   "khalil shakir": {
+   "rank": 24,
+   "adds": 321228
+  },
+  "jordan addison": {
    "rank": 25,
-   "adds": 316953
+   "adds": 320922
   },
   "tyler shough": {
    "rank": 26,
-   "adds": 311256
+   "adds": 313480
   },
   "josh downs": {
    "rank": 27,
-   "adds": 299470
+   "adds": 300865
   },
   "bryce young": {
    "rank": 29,
-   "adds": 285460
+   "adds": 287232
   },
   "blake corum": {
    "rank": 30,
-   "adds": 246912
+   "adds": 248808
   },
   "chris rodriguez": {
    "rank": 32,
-   "adds": 240633
+   "adds": 243639
   },
   "jakobi meyers": {
    "rank": 34,
-   "adds": 225102
+   "adds": 226068
   },
   "jordyn tyson": {
    "rank": 35,
-   "adds": 221296
+   "adds": 222976
   },
   "kc concepcion": {
    "rank": 36,
-   "adds": 216279
+   "adds": 218709
   },
   "rico dowdle": {
    "rank": 37,
-   "adds": 204970
+   "adds": 207065
   },
   "kirk cousins": {
    "rank": 38,
-   "adds": 200008
+   "adds": 201624
   },
   "keenan allen": {
    "rank": 39,
-   "adds": 198376
+   "adds": 199056
   },
   "laquon treadwell": {
    "rank": 40,
-   "adds": 194225
+   "adds": 195980
   },
   "emmett johnson": {
    "rank": 41,
-   "adds": 181170
+   "adds": 183105
   },
-  "seth mcgowan": {
+  "brenton strange": {
    "rank": 43,
-   "adds": 174112
+   "adds": 175275
   },
   "ryan flournoy": {
    "rank": 44,
-   "adds": 173256
+   "adds": 174896
   },
-  "brenton strange": {
+  "seth mcgowan": {
    "rank": 45,
-   "adds": 172359
+   "adds": 174688
   },
   "deshaun watson": {
    "rank": 47,
-   "adds": 160464
-  },
-  "david montgomery": {
-   "rank": 48,
-   "adds": 159474
+   "adds": 162928
   },
   "deion burks": {
+   "rank": 48,
+   "adds": 160992
+  },
+  "david montgomery": {
    "rank": 49,
-   "adds": 158970
+   "adds": 160404
   },
   "keon coleman": {
    "rank": 50,
-   "adds": 156618
+   "adds": 158931
   }
  },
  "buzz": {},
  "sources": {
   "lines": "11 games",
   "weather": "6 outdoor games",
-  "injuries": "177 players listed",
-  "news": "17 players in headlines",
-  "google_news": "7 role-cut, 110 injury headlines; QB hurt: BAL, DET, KC, LAR, MIA, PIT",
+  "injuries": "194 players listed",
+  "news": "18 players in headlines",
+  "google_news": "7 role-cut, 114 injury headlines; QB hurt: BAL, DET, KC, LAR, MIA, PIT",
   "sleeper_trending": "39 board players trending",
   "reddit": "unavailable"
  },
@@ -1505,6 +1594,26 @@
    "cut": false,
    "inj": true,
    "worst": "Watson starting for Browns at QB against Texans after sitting out with concussion, watching Sanders - Eagle-Tribune"
+  },
+  "cam ward": {
+   "h": [
+    "Tennessee Titans quarterback Cam Ward breaks down how he can continue to improve",
+    "Cam Ward breaks down how he can continue to improve",
+    "Tennessee Titans GM Mike Borgonzi talks about his belief in QB Cam Ward"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Tennessee Titans quarterback Cam Ward breaks down how he can continue to improve"
+  },
+  "trevor lawrence": {
+   "h": [
+    "Jacksonville Jaguars quarterback Trevor Lawrence talks Week 9 win vs. the Baltimore Ravens",
+    "Trevor Lawrence talks Week 9 win vs. the Ravens",
+    "Week 10 Trevor Lawrence Fantasy Start or Sit 2026"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Trevor Lawrence Hitting Another Level for Jaguars Stream of National Football League"
   },
   "patrick mahomes": {
    "h": [
@@ -1655,6 +1764,16 @@
    "inj": true,
    "worst": "Jahmyr Gibbs Scores 4th Down Touchdown vs. Dolphins Stream of National Football League"
   },
+  "james cook": {
+   "h": [
+    "James Cook Denies Gross Theory About His Pants On \u2018Monday Night Football\u2019",
+    "Bills' James Cook responds to 'wild' pooping accusations from 'MNF' win",
+    "James Cook III Thrives again in workhorse role"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "James Cook Denies Gross Theory About His Pants On \u2018Monday Night Football\u2019"
+  },
   "braelon allen": {
    "h": [
     "Braelon Allen or Kaleb Johnson: Who Should I Start in Week 9?",
@@ -1687,13 +1806,13 @@
   },
   "woody marks": {
    "h": [
-    "Week 10 Woody Marks Fantasy Start or Sit 2026",
-    "Woody Marks or Michael Penix",
-    "Tank Dell or Woody Marks"
+    "Woody Marks Limited at Texans Practice on Wednesday - NFL News | Fantasy Football",
+    "Woody Marks Limited at practice Wednesday",
+    "Woody Marks (knee) limited on Wednesday"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Week 10 Woody Marks Fantasy Start or Sit 2026"
+   "inj": true,
+   "worst": "Woody Marks Limited at Texans Practice on Wednesday - NFL News | Fantasy Football"
   },
   "quinshon judkins": {
    "h": [
@@ -1725,16 +1844,6 @@
    "inj": true,
    "worst": "Jaguars\u2019 Bhayshul Tuten Injury Update Arrives After Long Break"
   },
-  "trevor lawrence": {
-   "h": [
-    "Jacksonville Jaguars quarterback Trevor Lawrence talks Week 9 win vs. the Baltimore Ravens",
-    "Trevor Lawrence talks Week 9 win vs. the Ravens",
-    "Week 10 Trevor Lawrence Fantasy Start or Sit 2026"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Trevor Lawrence Hitting Another Level for Jaguars Stream of National Football League"
-  },
   "tony pollard": {
    "h": [
     "Robert Saleh talks about the importance of having Tony Pollard on the team",
@@ -1744,16 +1853,6 @@
    "cut": false,
    "inj": true,
    "worst": "Fantasy football Start 'Em, Sit 'Em RB in Week 10: Tony Pollard looks to stay hot despite another tough test"
-  },
-  "cam ward": {
-   "h": [
-    "Tennessee Titans quarterback Cam Ward breaks down how he can continue to improve",
-    "Cam Ward breaks down how he can continue to improve",
-    "Tennessee Titans GM Mike Borgonzi talks about his belief in QB Cam Ward"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Tennessee Titans quarterback Cam Ward breaks down how he can continue to improve"
   },
   "emmett johnson": {
    "h": [
@@ -1794,6 +1893,16 @@
    "cut": false,
    "inj": true,
    "worst": "Fantasy Football Midseason Awards: Kenneth Walker III earns MVP \u2014 see who else won some hardware"
+  },
+  "marshawn lloyd": {
+   "h": [
+    "MarShawn Lloyd Good to go for Week 10",
+    "Travis Etienne or MarShawn Lloyd",
+    "Deion Burks or MarShawn Lloyd: Who Should I Pick Up? Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Deion Burks or MarShawn Lloyd: Who Should I Pick Up? Fantasy Football (2026)"
   },
   "pierre strong": {
    "h": [
@@ -1945,13 +2054,13 @@
   },
   "treylon burks": {
    "h": [
-    "Treylon Burks Cleared for TNF",
+    "Commanders-Giants Final Injury Report: Lucas Patrick Out, Treylon Burks Expected Back Despite Missed Practice",
     "Treylon Burks questioned his NFL future. The Commanders are glad he stuck with it.",
-    "Commanders injury report: Treylon Burks will play, Lucas Patrick will not"
+    "Treylon Burks Cleared for TNF"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Treylon Burks Cleared for TNF"
+   "inj": true,
+   "worst": "Commanders-Giants Final Injury Report: Lucas Patrick Out, Treylon Burks Expected Back Despite Missed Practice"
   },
   "theo johnson": {
    "h": [
@@ -2122,16 +2231,6 @@
    "inj": true,
    "worst": "Dalton Kincaid listed as limited Wednesday"
   },
-  "james cook": {
-   "h": [
-    "James Cook Denies Gross Theory About His Pants On \u2018Monday Night Football\u2019",
-    "Bills' James Cook responds to 'wild' pooping accusations from 'MNF' win",
-    "James Cook III Thrives again in workhorse role"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "James Cook Denies Gross Theory About His Pants On \u2018Monday Night Football\u2019"
-  },
   "darren waller": {
    "h": [
     "Nico Collins, Darren Waller headline Week 10\u2019s Regression Files",
@@ -2204,13 +2303,13 @@
   },
   "marvin harrison": {
    "h": [
+    "Marvin Harrison Jr. Dealing with hamstring injury",
     "Re-Examining the Cardinals' Marvin Harrison Jr. Trade Now That the Deadline Has Passed",
-    "Cardinals legend Frank Sanders defends Marvin Harrison Jr. amid \"slow\" Texans start",
-    "Jack Endries or Marvin Harrison Jr.: Who Should I Start in Week 10? Fantasy Football"
+    "Cardinals legend Frank Sanders defends Marvin Harrison Jr. amid \"slow\" Texans start"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jack Endries or Marvin Harrison Jr.: Who Should I Start in Week 10? Fantasy Football"
+   "worst": "Marvin Harrison Jr. Dealing with hamstring injury"
   },
   "kc concepcion": {
    "h": [
@@ -2348,6 +2447,16 @@
    "cut": false,
    "inj": false,
    "worst": "Titans\u2019 Calvin Ridley: Airport incident was about miscommunication with valet"
+  },
+  "josh downs": {
+   "h": [
+    "Chiefs Land Josh Downs to Help Mahomes, Cousins Returns to Minnesota",
+    "Why the 49ers Traded for Keenan Allen Instead of Josh Downs",
+    "Travis Kelce Reacts Live to Chiefs Signing Wide Receiver Josh Downs"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Fantasy Football Week 10 Wide Receiver Projections & Rankings: Start Nico Collins, Sit Josh Downs"
   },
   "olamide zaccheaus": {
    "h": [
