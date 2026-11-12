@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T02:01:04+00:00",
+ "generated": "2026-11-12T02:31:08+00:00",
  "games": {
   "WASNYG": {
    "home": "NYG",
@@ -18,9 +18,9 @@
    },
    "wx": {
     "wind": 12,
-    "gust": 33,
+    "gust": 32,
     "pop": 68,
-    "rain": 1.4,
+    "rain": 0.8,
     "temp": 49
    }
   },
@@ -69,7 +69,7 @@
    },
    "wx": {
     "wind": 10,
-    "gust": 11,
+    "gust": 12,
     "pop": 20,
     "rain": 0.3,
     "temp": 45
@@ -92,7 +92,7 @@
    },
    "wx": {
     "wind": 5,
-    "gust": 7,
+    "gust": 5,
     "pop": 0,
     "rain": 0.0,
     "temp": 43
@@ -241,10 +241,33 @@
    },
    "wx": {
     "wind": 4,
-    "gust": 5,
+    "gust": 6,
     "pop": 0,
     "rain": 0.0,
     "temp": 39
+   }
+  },
+  "LACBAL": {
+   "home": "BAL",
+   "away": "LAC",
+   "kick": "2026-11-17T01:15Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {
+    "BAL": -4.5,
+    "LAC": 4.5
+   },
+   "total": 38.5,
+   "espn_wx": {
+    "desc": "Partly cloudy",
+    "temp": 43
+   },
+   "wx": {
+    "wind": 4,
+    "gust": 13,
+    "pop": 0,
+    "rain": 0.0,
+    "temp": 46
    }
   }
  },
@@ -430,7 +453,7 @@
    {
     "name": "Kyle Dugger",
     "pos": "S",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "DJ Turner II",
@@ -762,14 +785,14 @@
   ],
   "IND": [
    {
-    "name": "Akeem Davis-Gaither",
-    "pos": "LB",
+    "name": "A.J. Haulcy",
+    "pos": "S",
     "status": "Questionable"
    },
    {
-    "name": "A.J. Haulcy",
-    "pos": "S",
-    "status": "Out"
+    "name": "Akeem Davis-Gaither",
+    "pos": "LB",
+    "status": "Questionable"
    },
    {
     "name": "Mo Alie-Cox",
@@ -878,6 +901,11 @@
   ],
   "LV": [
    {
+    "name": "Trey Zuhn III",
+    "pos": "C",
+    "status": "Questionable"
+   },
+   {
     "name": "Folorunso Fatukasi",
     "pos": "DT",
     "status": "Questionable"
@@ -890,11 +918,6 @@
    {
     "name": "Thomas Booker IV",
     "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Trey Zuhn III",
-    "pos": "C",
     "status": "Questionable"
    }
   ],
@@ -942,6 +965,11 @@
   ],
   "LAR": [
    {
+    "name": "Puka Nacua",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
     "name": "Trent McDuffie",
     "pos": "CB",
     "status": "Questionable"
@@ -964,11 +992,6 @@
    {
     "name": "Colby Parkinson",
     "pos": "TE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Puka Nacua",
-    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -1070,11 +1093,16 @@
    {
     "name": "Charles Woods",
     "pos": "CB",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Ben Brown",
     "pos": "C",
+    "status": "Out"
+   },
+   {
+    "name": "Will Campbell",
+    "pos": "OT",
     "status": "Questionable"
    },
    {
@@ -1196,26 +1224,26 @@
    {
     "name": "Nahshon Wright",
     "pos": "CB",
-    "status": "Out"
-   },
-   {
-    "name": "Joseph Ossai",
-    "pos": "DE",
-    "status": "Out"
-   },
-   {
-    "name": "Garrett Wilson",
-    "pos": "WR",
     "status": "Questionable"
    },
    {
     "name": "Trevin Wallace",
     "pos": "LB",
-    "status": "Out"
+    "status": "Questionable"
+   },
+   {
+    "name": "Joseph Ossai",
+    "pos": "DE",
+    "status": "Questionable"
    },
    {
     "name": "Harrison Phillips",
     "pos": "DT",
+    "status": "Questionable"
+   },
+   {
+    "name": "Garrett Wilson",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -1262,6 +1290,16 @@
    }
   ],
   "PIT": [
+   {
+    "name": "Brandin Echols",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Doneiko Slaughter",
+    "pos": "CB",
+    "status": "Out"
+   },
    {
     "name": "DeShon Elliott",
     "pos": "S",
@@ -1435,7 +1473,7 @@
    {
     "name": "Lucas Patrick",
     "pos": "G",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
     "name": "Treylon Burks",
@@ -1450,6 +1488,22 @@
   ]
  },
  "news": {
+  "ollie gordon": {
+   "h": "Fantasy football matchup ranks: Upgrade Ollie Gordon II, downgrade Jordan Love",
+   "t": "2026-11-11T15:27:24Z"
+  },
+  "jordan love": {
+   "h": "Fantasy football matchup ranks: Upgrade Ollie Gordon II, downgrade Jordan Love",
+   "t": "2026-11-11T15:27:24Z"
+  },
+  "kyle mccord": {
+   "h": "Dolphins hopeful QB Malik Willis will be back this season",
+   "t": "2026-11-12T01:12:02Z"
+  },
+  "fernando mendoza": {
+   "h": "Fernando Mendoza relishes 'once-in-a-lifetime' opportunity as Raiders' QB1",
+   "t": "2026-11-12T01:31:39Z"
+  },
   "carson beck": {
    "h": "Cardinals coach: Carson Beck's been a pro since he's been here",
    "t": "2026-11-11T21:52:44Z"
@@ -1466,19 +1520,19 @@
    "h": "Browns' Monken: Watson over Sanders QB decision based on 'full body of work'",
    "t": "2026-11-11T18:13:33Z"
   },
-  "cam skattebo": {
-   "h": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
-   "t": "2026-11-11T16:33:25Z"
-  },
   "bijan robinson": {
    "h": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
    "t": "2026-11-11T16:33:25Z"
   },
-  "dalton kincaid": {
+  "cam skattebo": {
+   "h": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
+   "t": "2026-11-11T16:33:25Z"
+  },
+  "kyle pitts": {
    "h": "Kincaid vs. Pitts: Dopp and Clay differ on their preferred Week 10 TE",
    "t": "2026-11-11T16:12:56Z"
   },
-  "kyle pitts": {
+  "dalton kincaid": {
    "h": "Kincaid vs. Pitts: Dopp and Clay differ on their preferred Week 10 TE",
    "t": "2026-11-11T16:12:56Z"
   },
@@ -1490,21 +1544,17 @@
    "h": "Should Justin Jefferson be ranked higher than Chris Olave in Week 10?",
    "t": "2026-11-11T16:27:51Z"
   },
-  "jordan love": {
-   "h": "Should managers start Geno Smith over Jordan Love? Dopp and Clay debate",
-   "t": "2026-11-11T16:05:48Z"
-  },
   "geno smith": {
    "h": "Should managers start Geno Smith over Jordan Love? Dopp and Clay debate",
    "t": "2026-11-11T16:05:48Z"
   },
+  "mark andrews": {
+   "h": "Mark Andrews' Week 10 fantasy outlook",
+   "t": "2026-11-11T15:44:06Z"
+  },
   "quinshon judkins": {
    "h": "Quinshon Judkins' Week 10 fantasy outlook",
    "t": "2026-11-11T15:04:34Z"
-  },
-  "fernando mendoza": {
-   "h": "Was it the right move for the Raiders to name Mendoza QB1 after Cousins trade?",
-   "t": "2026-11-11T14:30:07Z"
   },
   "christian watson": {
    "h": "Christian Watson's Week 10 fantasy outlook",
@@ -1521,185 +1571,173 @@
   "patrick mahomes": {
    "h": "Patrick and Brittany Mahomes announce baby No. 4 on NFL trade deadline day",
    "t": "2026-11-11T02:17:21Z"
-  },
-  "josh downs": {
-   "h": "From 2-7 to 6-2: Josh Downs reacts to Chiefs trade with Vince Carter GIF",
-   "t": "2026-11-10T23:17:29Z"
-  },
-  "jonathan taylor": {
-   "h": "RB Jonathan Taylor, QB Daniel Jones remain with Colts as trade deadline passes",
-   "t": "2026-11-10T23:27:48Z"
-  },
-  "daniel jones": {
-   "h": "RB Jonathan Taylor, QB Daniel Jones remain with Colts as trade deadline passes",
-   "t": "2026-11-10T23:27:48Z"
   }
  },
  "trend": {
   "corey kiner": {
    "rank": 1,
-   "adds": 4922556
+   "adds": 4938702
   },
   "konata mumpfield": {
    "rank": 2,
-   "adds": 3436740
+   "adds": 3448449
   },
   "tank dell": {
    "rank": 3,
-   "adds": 3283128
+   "adds": 3288184
   },
   "tutu atwell": {
    "rank": 4,
-   "adds": 1451702
+   "adds": 1462062
   },
   "darren waller": {
    "rank": 5,
-   "adds": 1402695
+   "adds": 1411722
   },
   "fernando mendoza": {
    "rank": 6,
-   "adds": 1387136
+   "adds": 1392432
   },
   "audric estime": {
    "rank": 7,
-   "adds": 1295190
+   "adds": 1300149
   },
   "kyle mccord": {
    "rank": 8,
-   "adds": 844464
+   "adds": 847384
   },
   "pierre strong": {
    "rank": 10,
-   "adds": 693468
+   "adds": 695277
   },
   "ashton dulin": {
    "rank": 11,
-   "adds": 627012
+   "adds": 633177
   },
   "tyler higbee": {
    "rank": 12,
-   "adds": 588978
+   "adds": 592722
   },
   "justice hill": {
    "rank": 13,
-   "adds": 576981
+   "adds": 581472
   },
   "demarcus robinson": {
    "rank": 15,
-   "adds": 464010
+   "adds": 468042
   },
   "jordan watkins": {
    "rank": 17,
-   "adds": 446252
+   "adds": 447360
   },
   "aaron rodgers": {
    "rank": 18,
-   "adds": 439744
+   "adds": 442544
   },
   "cj stroud": {
    "rank": 20,
-   "adds": 380380
+   "adds": 382361
   },
   "khalil shakir": {
    "rank": 23,
-   "adds": 332226
+   "adds": 336159
   },
   "jordan addison": {
    "rank": 24,
-   "adds": 329553
+   "adds": 332478
   },
   "caleb douglas": {
    "rank": 25,
-   "adds": 320480
+   "adds": 321560
   },
   "tyler shough": {
    "rank": 26,
-   "adds": 318032
+   "adds": 319832
   },
   "josh downs": {
    "rank": 27,
-   "adds": 304225
+   "adds": 305200
   },
   "bryce young": {
    "rank": 29,
-   "adds": 289928
+   "adds": 291288
   },
   "blake corum": {
    "rank": 31,
-   "adds": 252808
+   "adds": 254488
   },
   "chris rodriguez": {
    "rank": 32,
-   "adds": 249948
+   "adds": 252000
   },
   "jakobi meyers": {
    "rank": 34,
-   "adds": 225798
-  },
-  "jordyn tyson": {
-   "rank": 35,
-   "adds": 222944
+   "adds": 226584
   },
   "kc concepcion": {
+   "rank": 35,
+   "adds": 225144
+  },
+  "jordyn tyson": {
    "rank": 36,
-   "adds": 222939
+   "adds": 224088
   },
   "rico dowdle": {
    "rank": 37,
-   "adds": 214565
+   "adds": 216315
   },
   "kirk cousins": {
    "rank": 38,
-   "adds": 208088
+   "adds": 209448
   },
   "laquon treadwell": {
    "rank": 39,
-   "adds": 202335
+   "adds": 203640
   },
   "keenan allen": {
    "rank": 40,
-   "adds": 201264
+   "adds": 201872
   },
   "emmett johnson": {
    "rank": 41,
-   "adds": 187353
+   "adds": 189162
   },
   "brenton strange": {
    "rank": 42,
-   "adds": 183348
+   "adds": 185580
   },
   "deshaun watson": {
    "rank": 45,
-   "adds": 171848
+   "adds": 173880
   },
   "ryan flournoy": {
    "rank": 46,
-   "adds": 169744
+   "adds": 170984
   },
   "deion burks": {
    "rank": 47,
-   "adds": 169146
-  },
-  "david montgomery": {
-   "rank": 48,
-   "adds": 163038
+   "adds": 170739
   },
   "keon coleman": {
+   "rank": 48,
+   "adds": 164196
+  },
+  "david montgomery": {
    "rank": 49,
-   "adds": 162288
+   "adds": 163656
   },
   "seth mcgowan": {
    "rank": 50,
-   "adds": 160504
+   "adds": 161016
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "13 games",
-  "weather": "6 outdoor games",
-  "injuries": "227 players listed",
+  "lines": "14 games",
+  "weather": "7 outdoor games",
+  "injuries": "230 players listed",
   "news": "21 players in headlines",
-  "google_news": "4 role-cut, 122 injury headlines; QB hurt: BAL, CLE, DET, KC, LAR, NYG, PIT, SEA",
+  "google_news": "4 role-cut, 131 injury headlines; QB hurt: BAL, CLE, DET, KC, LAR, NYG, PIT, SEA",
   "sleeper_trending": "39 board players trending",
   "reddit": "unavailable"
  },
@@ -1924,6 +1962,16 @@
    "inj": false,
    "worst": "Sunday night vs Steelers will somehow be a Burrow first"
   },
+  "jacoby brissett": {
+   "h": [
+    "Cam Jurgens emphasizes extra reps with Ravens QB Jacoby Brissett",
+    "Ravens prepare Jacoby Brissett to become fourth starting quarterback in 4 games",
+    "Cardinals to start rookie QB Carson Beck vs. Rams following Gardner Minshew injury, Jacoby Brissett trade"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Cardinals to start rookie QB Carson Beck vs. Rams following Gardner Minshew injury, Jacoby Brissett trade"
+  },
   "cam skattebo": {
    "h": [
     "Giants Seek Redemption Against Commanders, With Cam Skattebo Eager to Make Amends",
@@ -2126,8 +2174,8 @@
   "ollie gordon": {
    "h": [
     "NFL Week 10 Start 'Em, Sit 'Em RBs: Ollie Gordon II Is Miami's Last Man Standing",
-    "Moves to Make Before Week 10 Fantasy Football: Buy Ollie Gordon, sell Drake London",
-    "Fantasy football matchup ranks: Upgrade Ollie Gordon II, downgrade Jordan Love"
+    "Week 10 Ollie Gordon II Fantasy Start or Sit 2026",
+    "Moves to Make Before Week 10 Fantasy Football: Buy Ollie Gordon, sell Drake London"
    ],
    "cut": false,
    "inj": true,
@@ -2155,13 +2203,13 @@
   },
   "marshawn lloyd": {
    "h": [
-    "MarShawn Lloyd (knee) absent from injury report",
     "MarShawn Lloyd Good to go for Week 10",
+    "Packers' MarShawn Lloyd: Good to go for Week 10",
     "MarShawn Lloyd or Terry McLaurin"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "MarShawn Lloyd (knee) absent from injury report"
+   "inj": false,
+   "worst": "MarShawn Lloyd Good to go for Week 10"
   },
   "pierre strong": {
    "h": [
@@ -2348,6 +2396,46 @@
    "cut": false,
    "inj": true,
    "worst": "RB Rankings Downgrades For Week 10 Fantasy Football: Chase Brown & More"
+  },
+  "omarion hampton": {
+   "h": [
+    "Who Should I Start for Fantasy Football Week 10? Rashee Rice, Jordan Watkins, Omarion Hampton, Ladd McConkey, DeVaughn Vele, Derrick Henry, Malik Washington, Keon Coleman, Chuba Hubbard",
+    "Omarion Hampton Fantasy Football Half PPR Ros Rankings | Los Angeles Chargers",
+    "Israel Abanikanda or Omarion Hampton: Who Should I Start in Week 10? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 10? Rashee Rice, Jordan Watkins, Omarion Hampton, Ladd McConkey, DeVaughn Vele, Derrick Henry, Malik Washington, Keon Coleman, Chuba Hubbard"
+  },
+  "kimani vidal": {
+   "h": [
+    "Kimani Vidal Totals 36 yards against Houston",
+    "Chargers' Kimani Vidal: Totals 36 yards against Houston",
+    "Kimani Vidal News: Totals 36 yards against Houston"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Kimani Vidal Totals 36 yards against Houston"
+  },
+  "keaton mitchell": {
+   "h": [
+    "Matthew Golden or Keaton Mitchell",
+    "Who Should I Start? George Kittle or Keaton Mitchell",
+    "Keaton Mitchell or Jonah Coleman | Who Should I Start? - Week 10 - PPR"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "CJ Daniels or Keaton Mitchell: Who Should I Start in Week 10? Fantasy Football"
+  },
+  "derrick henry": {
+   "h": [
+    "Potential Landing Spots for Derrick Henry Stream of National Football League",
+    "Emmett Johnson or Derrick Henry",
+    "MarShawn Lloyd or Derrick Henry | Who Should I Start Week 10"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Potential Landing Spots for Derrick Henry Stream of National Football League"
   },
   "treylon burks": {
    "h": [
@@ -2600,13 +2688,13 @@
   },
   "marvin harrison": {
    "h": [
-    "Marvin Harrison Jr. Dealing with hamstring injury",
-    "Re-Examining the Cardinals' Marvin Harrison Jr. Trade Now That the Deadline Has Passed",
-    "Cardinals legend Frank Sanders defends Marvin Harrison Jr. amid \"slow\" Texans start"
+    "Marvin Harrison Jr. listed as limited",
+    "Marvin Harrison Jr. Limited in Texans Practice on Wednesday - NFL News | Fantasy Football",
+    "Marvin Harrison Jr. Dealing with hamstring injury"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Marvin Harrison Jr. Dealing with hamstring injury"
+   "worst": "Marvin Harrison Jr. listed as limited"
   },
   "kc concepcion": {
    "h": [
@@ -2747,15 +2835,25 @@
    "inj": false,
    "worst": "Titans' Calvin Ridley details airport valet dispute"
   },
+  "xavier worthy": {
+   "h": [
+    "Chiefs | Xavier Worthy a full participant in Wednesday practice",
+    "Xavier Worthy On track to practice Wednesday",
+    "Xavier Worthy Logs full practice Wednesday"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Chiefs-Falcons Week 10 Wednesday injury report: Xavier Worthy practices"
+  },
   "josh downs": {
    "h": [
-    "AFC Notes: Josh Downs, Fernando Mendoza, Harrison Butker, Chiefs, Raiders",
     "Josh Downs hits ground running in Kansas City, one day after Chiefs acquire WR from the Colts",
-    "Patrick Mahomes discusses new Chiefs WR Josh Downs"
+    "Daniel Jones 'Not Happy' Colts Traded Keenan Allen, Josh Downs and More In NFL Deadline Fire Sale",
+    "AFC Notes: Josh Downs, Fernando Mendoza, Harrison Butker, Chiefs, Raiders"
    ],
    "cut": false,
    "inj": false,
-   "worst": "AFC Notes: Josh Downs, Fernando Mendoza, Harrison Butker, Chiefs, Raiders"
+   "worst": "Josh Downs hits ground running in Kansas City, one day after Chiefs acquire WR from the Colts"
   },
   "olamide zaccheaus": {
    "h": [
@@ -2968,11 +3066,11 @@
    "h": [
     "Elijah Higgins Two grabs versus Seattle",
     "Cardinals' Elijah Higgins: Two grabs versus Seattle",
-    "Elijah Higgins or Laquon Treadwell: Who Should I Start in Week 10? Fantasy Football"
+    "Elijah Higgins News: Two grabs versus Seattle"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Elijah Higgins or Laquon Treadwell: Who Should I Start in Week 10? Fantasy Football"
+   "worst": "Elijah Higgins or Nate Boerkircher: Who Should I Start in Week 10? Fantasy Football"
   },
   "jaxon smith njigba": {
    "h": [
@@ -3130,6 +3228,63 @@
    "inj": false,
    "worst": "Dohnte Meyers continues excelling in the 3rd receiver role"
   },
+  "zay flowers": {
+   "h": [
+    "Zay Flowers or C.J. Stroud",
+    "Fantasy Football Trade Tips: Keep the candle burning for Zay Flowers \u2014 help is on the way",
+    "Week 10 Fantasy Football Wide Receiver Rankings: Zay Flowers, Drake London, And More"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Fantasy Football Trade Tips: Keep the candle burning for Zay Flowers \u2014 help is on the way"
+  },
+  "rashod bateman": {
+   "h": [
+    "Should I Trade (Half PPR) Rashod Bateman for Ray Davis (2026)?",
+    "Rams Trade Rumors: Rashod Bateman Emerges as Last-Minute Wide Receiver Target",
+    "David Montgomery or Rashod Bateman: Who Should I Draft? Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "David Montgomery or Rashod Bateman: Who Should I Draft? Fantasy Football (2026)"
+  },
+  "mark andrews": {
+   "h": [
+    "Should I Drop Mark Andrews for Fantasy Football Week 10? (2026) - NFL News",
+    "Who Should I Start for Fantasy Football Week 10? Dalton Kincaid, Brenton Strange, Hunter Henry, Darren Waller, Juwan Johnson, Sam LaPorta, Mark Andrews, AJ Barner, Michael Mayer",
+    "Jeremiyah Love or Mark Andrews"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Should I Drop Mark Andrews for Fantasy Football Week 10? (2026) - NFL News"
+  },
+  "jakobi lane": {
+   "h": [
+    "Ashton Dulin or Ja'Kobi Lane: Who Should I Pick Up? Fantasy Football (2026)",
+    "Who Should I Start for Fantasy Football Week 10? Jadarian Price, Mike Washington Jr., Kenyon Sadiq, Malachi Fields, Eli Raridon, Kaelon Black, Seth McGowan, Reggie Virgil, Ja'Kobi Lane"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Ashton Dulin or Ja'Kobi Lane: Who Should I Pick Up? Fantasy Football (2026)"
+  },
+  "justice hill": {
+   "h": [
+    "Giants 'called' Titans about Tony Pollard, 'looked into' Ravens' Justice Hill ahead of trade deadline",
+    "Bam Knight or Justice Hill: Who Should I Pick Up? Fantasy Football (2026)",
+    "NFL Update: Justice Hill Breaks Loose for Big Score, Chuba Hubbard Keeps Trucking"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Bam Knight or Justice Hill: Who Should I Pick Up? Fantasy Football (2026)"
+  },
+  "josh cuevas": {
+   "h": [
+    "Who Should I Start for Fantasy Football Week 10? Fernando Mendoza, Carson Beck, Jordyn Tyson, Deion Burks, Nate Boerkircher, Josh Cameron, Chris Bell, Josh Cuevas, Kevin Coleman Jr."
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 10? Fernando Mendoza, Carson Beck, Jordyn Tyson, Deion Burks, Nate Boerkircher, Josh Cameron, Chris Bell, Josh Cuevas, Kevin Coleman Jr."
+  },
   "drew lock": {
    "h": [
     "Drew Lock Limited Wednesday",
@@ -3169,16 +3324,6 @@
    "cut": false,
    "inj": true,
    "worst": "Chargers Reportedly Never Discussed Trading Justin Herbert - NFL News | Fantasy Football"
-  },
-  "jacoby brissett": {
-   "h": [
-    "Cam Jurgens emphasizes extra reps with Ravens QB Jacoby Brissett",
-    "Ravens prepare Jacoby Brissett to become fourth starting quarterback in 4 games",
-    "Cardinals to start rookie QB Carson Beck vs. Rams following Gardner Minshew injury, Jacoby Brissett trade"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Cardinals to start rookie QB Carson Beck vs. Rams following Gardner Minshew injury, Jacoby Brissett trade"
   }
  },
  "qbhurt": [
