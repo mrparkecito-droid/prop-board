@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T00:01:04+00:00",
+ "generated": "2026-11-12T00:31:03+00:00",
  "games": {
   "WASNYG": {
    "home": "NYG",
@@ -91,11 +91,11 @@
     "temp": 45
    },
    "wx": {
-    "wind": 6,
+    "wind": 5,
     "gust": 7,
     "pop": 0,
     "rain": 0.0,
-    "temp": 42
+    "temp": 43
    }
   },
   "JAXTEN": {
@@ -119,6 +119,22 @@
     "pop": 1,
     "rain": 0.0,
     "temp": 53
+   }
+  },
+  "MIAIND": {
+   "home": "IND",
+   "away": "MIA",
+   "kick": "2026-11-15T18:00Z",
+   "indoor": true,
+   "neutral": false,
+   "spread": {
+    "IND": -3.5,
+    "MIA": 3.5
+   },
+   "total": 38.5,
+   "espn_wx": {
+    "desc": "Partly sunny",
+    "temp": 48
    }
   },
   "CARNO": {
@@ -153,11 +169,11 @@
     "temp": 50
    },
    "wx": {
-    "wind": 13,
+    "wind": 14,
     "gust": 16,
     "pop": 0,
     "rain": 0.0,
-    "temp": 49
+    "temp": 47
    }
   },
   "SEALV": {
@@ -218,6 +234,21 @@
  },
  "inj": {
   "ARI": [
+   {
+    "name": "Andrew Wingard",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
+    "name": "Dante Stills",
+    "pos": "DT",
+    "status": "Questionable"
+   },
+   {
+    "name": "Max Melton",
+    "pos": "CB",
+    "status": "Questionable"
+   },
    {
     "name": "Bam Knight",
     "pos": "RB",
@@ -455,13 +486,8 @@
   ],
   "DAL": [
    {
-    "name": "KaVontae Turpin",
-    "pos": "WR",
-    "status": "Out"
-   },
-   {
-    "name": "George Pickens",
-    "pos": "WR",
+    "name": "Joey Porter Jr.",
+    "pos": "CB",
     "status": "Questionable"
    },
    {
@@ -470,8 +496,18 @@
     "status": "Questionable"
    },
    {
-    "name": "Joey Porter Jr.",
-    "pos": "CB",
+    "name": "KaVontae Turpin",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Luke Schoonmaker",
+    "pos": "TE",
+    "status": "Out"
+   },
+   {
+    "name": "George Pickens",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -529,8 +565,23 @@
   ],
   "DET": [
    {
+    "name": "Kerby Joseph",
+    "pos": "S",
+    "status": "Out"
+   },
+   {
     "name": "Brian Branch",
     "pos": "S",
+    "status": "Questionable"
+   },
+   {
+    "name": "Jacob Saylors",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
+    "name": "Sione Vaki",
+    "pos": "RB",
     "status": "Questionable"
    },
    {
@@ -542,16 +593,6 @@
     "name": "Amon-Ra St. Brown",
     "pos": "WR",
     "status": "Questionable"
-   },
-   {
-    "name": "Sione Vaki",
-    "pos": "RB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Kerby Joseph",
-    "pos": "S",
-    "status": "Out"
    },
    {
     "name": "DJ Wonnum",
@@ -571,14 +612,19 @@
   ],
   "GB": [
    {
-    "name": "Kevin Zeitler",
-    "pos": "G",
+    "name": "Ty'Ron Hopper",
+    "pos": "LB",
     "status": "Questionable"
    },
    {
-    "name": "Aaron Banks",
-    "pos": "G",
+    "name": "Javon Bullard",
+    "pos": "S",
     "status": "Questionable"
+   },
+   {
+    "name": "Zaire Franklin",
+    "pos": "LB",
+    "status": "Doubtful"
    },
    {
     "name": "Lukas Van Ness",
@@ -586,8 +632,18 @@
     "status": "Questionable"
    },
    {
-    "name": "Javon Bullard",
-    "pos": "S",
+    "name": "Bo Melton",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Kevin Zeitler",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
+    "name": "Aaron Banks",
+    "pos": "G",
     "status": "Questionable"
    },
    {
@@ -626,35 +682,30 @@
     "status": "Questionable"
    },
    {
-    "name": "Zaire Franklin",
-    "pos": "LB",
-    "status": "Doubtful"
-   },
-   {
     "name": "Travis Glover",
     "pos": "OT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Bo Melton",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Ty'Ron Hopper",
-    "pos": "LB",
     "status": "Questionable"
    }
   ],
   "HOU": [
    {
-    "name": "Marvin Harrison Jr.",
-    "pos": "WR",
+    "name": "David Montgomery",
+    "pos": "RB",
     "status": "Questionable"
    },
    {
     "name": "Azeez Al-Shaair",
     "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Brevin Jordan",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Marvin Harrison Jr.",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -668,22 +719,12 @@
     "status": "Questionable"
    },
    {
-    "name": "Brevin Jordan",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
     "name": "Tank Dell",
     "pos": "WR",
     "status": "Questionable"
    },
    {
     "name": "Woody Marks",
-    "pos": "RB",
-    "status": "Questionable"
-   },
-   {
-    "name": "David Montgomery",
     "pos": "RB",
     "status": "Questionable"
    },
@@ -786,7 +827,7 @@
    {
     "name": "Mansoor Delane",
     "pos": "CB",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
     "name": "Patrick Mahomes",
@@ -815,6 +856,11 @@
    }
   ],
   "LV": [
+   {
+    "name": "Folorunso Fatukasi",
+    "pos": "DT",
+    "status": "Questionable"
+   },
    {
     "name": "Aidan O'Connell",
     "pos": "QB",
@@ -874,6 +920,11 @@
    }
   ],
   "LAR": [
+   {
+    "name": "Colby Parkinson",
+    "pos": "TE",
+    "status": "Questionable"
+   },
    {
     "name": "Puka Nacua",
     "pos": "WR",
@@ -976,13 +1027,18 @@
   ],
   "NE": [
    {
-    "name": "Morgan Moses",
-    "pos": "OT",
-    "status": "Questionable"
+    "name": "Carlton Davis III",
+    "pos": "CB",
+    "status": "Out"
    },
    {
     "name": "Kevin Byard",
     "pos": "S",
+    "status": "Questionable"
+   },
+   {
+    "name": "Morgan Moses",
+    "pos": "OT",
     "status": "Questionable"
    },
    {
@@ -998,11 +1054,6 @@
    {
     "name": "TreVeyon Henderson",
     "pos": "RB",
-    "status": "Out"
-   },
-   {
-    "name": "Carlton Davis III",
-    "pos": "CB",
     "status": "Out"
    },
    {
@@ -1102,6 +1153,11 @@
   ],
   "NYJ": [
    {
+    "name": "Garrett Wilson",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Trevin Wallace",
     "pos": "LB",
     "status": "Questionable"
@@ -1113,11 +1169,6 @@
    },
    {
     "name": "Omar Cooper Jr.",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Garrett Wilson",
     "pos": "WR",
     "status": "Questionable"
    },
@@ -1205,6 +1256,31 @@
   ],
   "SEA": [
    {
+    "name": "Patrick O'Connell",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Derick Hall",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Anthony Bradford",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
+    "name": "Drew Lock",
+    "pos": "QB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Rashid Shaheed",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
     "name": "Leonard Williams",
     "pos": "DT",
     "status": "Questionable"
@@ -1212,11 +1288,6 @@
    {
     "name": "Brandon Pili",
     "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Rashid Shaheed",
-    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -1238,11 +1309,6 @@
     "name": "Sam Darnold",
     "pos": "QB",
     "status": "Out"
-   },
-   {
-    "name": "Drew Lock",
-    "pos": "QB",
-    "status": "Questionable"
    }
   ],
   "TB": [
@@ -1308,6 +1374,10 @@
   ]
  },
  "news": {
+  "fernando mendoza": {
+   "h": "Fernando Mendoza relishes 'once-in-a-lifetime' opportunity as Raiders' QB1",
+   "t": "2026-11-12T00:08:02Z"
+  },
   "calvin ridley": {
    "h": "Titans' Calvin Ridley addresses incident with valet at Nashville airport",
    "t": "2026-11-11T20:22:54Z"
@@ -1320,19 +1390,19 @@
    "h": "Browns' Monken: Watson over Sanders QB decision based on 'full body of work'",
    "t": "2026-11-11T18:13:33Z"
   },
-  "bijan robinson": {
-   "h": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
-   "t": "2026-11-11T16:33:25Z"
-  },
   "cam skattebo": {
    "h": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
    "t": "2026-11-11T16:33:25Z"
   },
-  "kyle pitts": {
+  "bijan robinson": {
+   "h": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
+   "t": "2026-11-11T16:33:25Z"
+  },
+  "dalton kincaid": {
    "h": "Kincaid vs. Pitts: Dopp and Clay differ on their preferred Week 10 TE",
    "t": "2026-11-11T16:12:56Z"
   },
-  "dalton kincaid": {
+  "kyle pitts": {
    "h": "Kincaid vs. Pitts: Dopp and Clay differ on their preferred Week 10 TE",
    "t": "2026-11-11T16:12:56Z"
   },
@@ -1356,10 +1426,6 @@
    "h": "Quinshon Judkins' Week 10 fantasy outlook",
    "t": "2026-11-11T15:04:34Z"
   },
-  "fernando mendoza": {
-   "h": "Was it the right move for the Raiders to name Mendoza QB1 after Cousins trade?",
-   "t": "2026-11-11T14:30:07Z"
-  },
   "christian watson": {
    "h": "Christian Watson's Week 10 fantasy outlook",
    "t": "2026-11-11T14:19:39Z"
@@ -1379,173 +1445,181 @@
   "josh downs": {
    "h": "From 2-7 to 6-2: Josh Downs reacts to Chiefs trade with Vince Carter GIF",
    "t": "2026-11-10T23:17:29Z"
+  },
+  "daniel jones": {
+   "h": "RB Jonathan Taylor, QB Daniel Jones remain with Colts as trade deadline passes",
+   "t": "2026-11-10T23:27:48Z"
+  },
+  "jonathan taylor": {
+   "h": "RB Jonathan Taylor, QB Daniel Jones remain with Colts as trade deadline passes",
+   "t": "2026-11-10T23:27:48Z"
   }
  },
  "trend": {
   "corey kiner": {
    "rank": 1,
-   "adds": 4909938
+   "adds": 4929378
   },
   "konata mumpfield": {
    "rank": 2,
-   "adds": 3494061
+   "adds": 3506427
   },
   "tank dell": {
    "rank": 3,
-   "adds": 3379056
+   "adds": 3384416
   },
   "tutu atwell": {
    "rank": 4,
-   "adds": 1430968
+   "adds": 1441720
   },
   "darren waller": {
    "rank": 5,
-   "adds": 1381032
+   "adds": 1390122
   },
   "fernando mendoza": {
    "rank": 6,
-   "adds": 1363912
+   "adds": 1370328
   },
   "audric estime": {
    "rank": 7,
-   "adds": 1300764
+   "adds": 1305981
   },
   "kyle mccord": {
    "rank": 8,
-   "adds": 833148
+   "adds": 836080
   },
   "pierre strong": {
    "rank": 10,
-   "adds": 693927
+   "adds": 695853
   },
   "ashton dulin": {
    "rank": 11,
-   "adds": 603261
+   "adds": 609417
   },
   "tyler higbee": {
    "rank": 12,
-   "adds": 577800
+   "adds": 582327
   },
   "justice hill": {
    "rank": 13,
-   "adds": 565722
+   "adds": 570465
   },
   "jordan watkins": {
    "rank": 15,
-   "adds": 457064
+   "adds": 458160
   },
   "demarcus robinson": {
    "rank": 16,
-   "adds": 449418
+   "adds": 453516
   },
   "aaron rodgers": {
    "rank": 18,
-   "adds": 429044
+   "adds": 432116
   },
   "cj stroud": {
    "rank": 20,
-   "adds": 382025
+   "adds": 384041
   },
   "caleb douglas": {
    "rank": 23,
-   "adds": 325200
+   "adds": 326128
   },
   "khalil shakir": {
    "rank": 24,
-   "adds": 321768
+   "adds": 325242
   },
   "jordan addison": {
    "rank": 25,
-   "adds": 321039
+   "adds": 324234
   },
   "tyler shough": {
    "rank": 26,
-   "adds": 313640
+   "adds": 315536
   },
   "josh downs": {
    "rank": 27,
-   "adds": 301165
+   "adds": 302165
   },
   "bryce young": {
    "rank": 29,
-   "adds": 286664
+   "adds": 288200
   },
   "blake corum": {
    "rank": 30,
-   "adds": 248864
+   "adds": 250336
   },
   "chris rodriguez": {
    "rank": 32,
-   "adds": 244134
+   "adds": 246258
   },
   "jakobi meyers": {
    "rank": 34,
-   "adds": 225036
+   "adds": 225954
   },
   "jordyn tyson": {
    "rank": 35,
-   "adds": 221896
+   "adds": 223040
   },
   "kc concepcion": {
    "rank": 36,
-   "adds": 217431
+   "adds": 219645
   },
   "rico dowdle": {
    "rank": 37,
-   "adds": 208435
+   "adds": 210110
   },
   "kirk cousins": {
    "rank": 38,
-   "adds": 202784
+   "adds": 204376
   },
   "keenan allen": {
    "rank": 39,
-   "adds": 199228
+   "adds": 199896
   },
   "laquon treadwell": {
    "rank": 40,
-   "adds": 197320
+   "adds": 198630
   },
   "emmett johnson": {
    "rank": 41,
-   "adds": 183393
+   "adds": 184752
   },
   "brenton strange": {
    "rank": 43,
-   "adds": 176589
+   "adds": 178623
   },
   "ryan flournoy": {
    "rank": 45,
-   "adds": 171480
+   "adds": 172720
   },
   "seth mcgowan": {
    "rank": 46,
-   "adds": 169088
+   "adds": 169584
   },
   "deshaun watson": {
    "rank": 47,
-   "adds": 164552
+   "adds": 166592
   },
   "deion burks": {
    "rank": 48,
-   "adds": 162708
+   "adds": 164355
   },
   "david montgomery": {
    "rank": 49,
-   "adds": 160854
+   "adds": 161604
   },
   "keon coleman": {
    "rank": 50,
-   "adds": 158445
+   "adds": 160425
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "11 games",
+  "lines": "12 games",
   "weather": "6 outdoor games",
-  "injuries": "205 players listed",
-  "news": "18 players in headlines",
-  "google_news": "7 role-cut, 114 injury headlines; QB hurt: BAL, DET, KC, LAR, NYG, PIT",
+  "injuries": "215 players listed",
+  "news": "20 players in headlines",
+  "google_news": "7 role-cut, 118 injury headlines; QB hurt: BAL, DET, KC, LAR, NYG, PIT",
   "sleeper_trending": "39 board players trending",
   "reddit": "unavailable"
  },
@@ -1689,6 +1763,26 @@
    "cut": false,
    "inj": true,
    "worst": "Kyle McCord or Michael Penix Jr.: Who Should I Start in Week 10? Fantasy Football"
+  },
+  "kyle mccord": {
+   "h": [
+    "Kyle McCord Ready to Make Dolphins Debut as Starting QB Against Colts",
+    "Transcript: QB Kyle McCord Press Conference - November 11",
+    "Dolphins\u2019 Kyle McCord confident ahead of first NFL start"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Dolphins turn to Kyle McCord against Colts after injuries sideline Malik Willis, Zach Sieler"
+  },
+  "daniel jones": {
+   "h": [
+    "Colts\u2019 Daniel Jones: \u2018You\u2019re not happy to see a lot of those decisions\u2019",
+    "Colts Face $35.2 Million Daniel Jones Decision After Trade Deadline",
+    "Colts\u2019 Daniel Jones makes \u2018not happy\u2019 confession following trade deadline"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Colts\u2019 Daniel Jones: \u2018You\u2019re not happy to see a lot of those decisions\u2019"
   },
   "jordan love": {
    "h": [
@@ -1861,9 +1955,9 @@
   },
   "woody marks": {
    "h": [
+    "Why Woody Marks' volume makes him a Week 10 fantasy starter",
     "Woody Marks Limited at Texans Practice on Wednesday - NFL News | Fantasy Football",
-    "Woody Marks Limited at practice Wednesday",
-    "Woody Marks (knee) limited on Wednesday"
+    "Woody Marks Limited at practice Wednesday"
    ],
    "cut": false,
    "inj": true,
@@ -1949,15 +2043,45 @@
    "inj": true,
    "worst": "Should you sell high on Kenneth Walker III in fantasy football?"
   },
-  "marshawn lloyd": {
+  "ollie gordon": {
    "h": [
-    "MarShawn Lloyd Good to go for Week 10",
-    "Travis Etienne or MarShawn Lloyd",
-    "Deion Burks or MarShawn Lloyd: Who Should I Pick Up? Fantasy Football (2026)"
+    "NFL Week 10 Start 'Em, Sit 'Em RBs: Ollie Gordon II Is Miami's Last Man Standing",
+    "Moves to Make Before Week 10 Fantasy Football: Buy Ollie Gordon, sell Drake London",
+    "Fantasy football matchup ranks: Upgrade Ollie Gordon II, downgrade Jordan Love"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Deion Burks or MarShawn Lloyd: Who Should I Pick Up? Fantasy Football (2026)"
+   "worst": "Moves to Make Before Week 10 Fantasy Football: Buy Ollie Gordon, sell Drake London"
+  },
+  "seth mcgowan": {
+   "h": [
+    "Deion Burks or Seth McGowan: Who Should I Pick Up? Fantasy Football (2026)",
+    "Week 10 Waiver Wire Pickups - Emmett Johnson, Kaelon Black, Seth McGowan Fantasy Football Outlooks",
+    "Seth McGowan Fantasy Football Half PPR Rankings | Indianapolis Colts"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Deion Burks or Seth McGowan: Who Should I Pick Up? Fantasy Football (2026)"
+  },
+  "jonathan taylor": {
+   "h": [
+    "Colts hold onto RB Jonathan Taylor | 'The NFL Report'",
+    "Broncos made a run at Jonathan Taylor, but RB's trade price was too high",
+    "Insider Shares Unexpected News on Broncos\u2019 Jonathan Taylor Trade Pursuit"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Colts hold onto RB Jonathan Taylor | 'The NFL Report'"
+  },
+  "marshawn lloyd": {
+   "h": [
+    "MarShawn Lloyd (knee) absent from injury report",
+    "MarShawn Lloyd Good to go for Week 10",
+    "MarShawn Lloyd or Terry McLaurin"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "MarShawn Lloyd (knee) absent from injury report"
   },
   "pierre strong": {
    "h": [
@@ -2109,13 +2233,13 @@
   },
   "treylon burks": {
    "h": [
-    "Commanders-Giants Final Injury Report: Lucas Patrick Out, Treylon Burks Expected Back Despite Missed Practice",
+    "Treylon Burks Week 10 Outlook for Fantasy Football (2026)",
     "Treylon Burks questioned his NFL future. The Commanders are glad he stuck with it.",
-    "Treylon Burks Cleared for TNF"
+    "Commanders-Giants Final Injury Report: Lucas Patrick Out, Treylon Burks Expected Back Despite Missed Practice"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Commanders-Giants Final Injury Report: Lucas Patrick Out, Treylon Burks Expected Back Despite Missed Practice"
+   "worst": "Treylon Burks Week 10 Outlook for Fantasy Football (2026)"
   },
   "theo johnson": {
    "h": [
@@ -2358,13 +2482,13 @@
   },
   "marvin harrison": {
    "h": [
+    "Marvin Harrison Jr. Limited in Texans Practice on Wednesday - NFL News | Fantasy Football",
     "Marvin Harrison Jr. Dealing with hamstring injury",
-    "Re-Examining the Cardinals' Marvin Harrison Jr. Trade Now That the Deadline Has Passed",
-    "Cardinals legend Frank Sanders defends Marvin Harrison Jr. amid \"slow\" Texans start"
+    "Re-Examining the Cardinals' Marvin Harrison Jr. Trade Now That the Deadline Has Passed"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Marvin Harrison Jr. Dealing with hamstring injury"
+   "worst": "Marvin Harrison Jr. Limited in Texans Practice on Wednesday - NFL News | Fantasy Football"
   },
   "kc concepcion": {
    "h": [
@@ -2505,13 +2629,13 @@
   },
   "josh downs": {
    "h": [
-    "Chiefs Land Josh Downs to Help Mahomes, Cousins Returns to Minnesota",
-    "Why the 49ers Traded for Keenan Allen Instead of Josh Downs",
-    "Travis Kelce Reacts Live to Chiefs Signing Wide Receiver Josh Downs"
+    "Josh Downs hits ground running in Kansas City, one day after Chiefs acquire WR from the Colts",
+    "Patrick Mahomes discusses new Chiefs WR Josh Downs",
+    "Chiefs Land Josh Downs to Help Mahomes, Cousins Returns to Minnesota"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Week 10 Wide Receiver Projections & Rankings: Start Nico Collins, Sit Josh Downs"
+   "inj": false,
+   "worst": "Josh Downs hits ground running in Kansas City, one day after Chiefs acquire WR from the Colts"
   },
   "olamide zaccheaus": {
    "h": [
@@ -2581,6 +2705,44 @@
    "cut": false,
    "inj": false,
    "worst": "Kelce-Swift divorce comment met with boos at town meeting"
+  },
+  "malik washington": {
+   "h": [
+    "Week 10 Malik Washington Fantasy Start or Sit 2026",
+    "Who Should I Start for Fantasy Football Week 10? Rashee Rice, Jordan Watkins, Omarion Hampton, Ladd McConkey, DeVaughn Vele, Derrick Henry, Malik Washington, Keon Coleman, Chuba Hubbard",
+    "Germie Bernard or Malik Washington: Who Should I Start in Week 9?"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 10? Rashee Rice, Jordan Watkins, Omarion Hampton, Ladd McConkey, DeVaughn Vele, Derrick Henry, Malik Washington, Keon Coleman, Chuba Hubbard"
+  },
+  "greg dulcich": {
+   "h": [
+    "Greg Dulcich NFL Stats, Game Log & Bio"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Greg Dulcich NFL Stats, Game Log & Bio"
+  },
+  "caleb douglas": {
+   "h": [
+    "Week 10 Caleb Douglas Fantasy Start or Sit 2026",
+    "Caleb Douglas or Laquon Treadwell: Who Should I Pick Up? Fantasy Football (2026)",
+    "Week 10 Fantasy Waiver Wire: Corey Kiner, Audric Estim\u00e9, Caleb Douglas, Tank Dell, Konata Mumpfield/Tutu Atwell and MORE"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Caleb Douglas or Laquon Treadwell: Who Should I Pick Up? Fantasy Football (2026)"
+  },
+  "tyler warren": {
+   "h": [
+    "Tyler Warren Week 10 Outlook - Dolphins at Colts",
+    "Tyler Warren More targets on tap?",
+    "Colts' Tyler Warren: More targets on tap?"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Week 10 Fantasy Football TE Rankings: Where Does Tyler Warren Rank?"
   },
   "savion williams": {
    "h": [
@@ -2819,16 +2981,6 @@
    "inj": true,
    "worst": "Should the Seahawks Bench Sam Darnold for Drew Lock? Stream of National Football League"
   },
-  "kyle mccord": {
-   "h": [
-    "Kyle McCord Ready to Make Dolphins Debut as Starting QB Against Colts",
-    "Transcript: QB Kyle McCord Press Conference - November 11",
-    "Dolphins\u2019 Kyle McCord confident ahead of first NFL start"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Dolphins turn to Kyle McCord against Colts after injuries sideline Malik Willis, Zach Sieler"
-  },
   "matthew stafford": {
    "h": [
     "Carson Beck Named Cardinals' QB1 vs. Matthew Stafford, Rams After Gardner Minshew Injury",
@@ -2838,16 +2990,6 @@
    "cut": false,
    "inj": true,
    "worst": "Carson Beck Named Cardinals' QB1 vs. Matthew Stafford, Rams After Gardner Minshew Injury"
-  },
-  "daniel jones": {
-   "h": [
-    "Colts\u2019 Daniel Jones: \u2018You\u2019re not happy to see a lot of those decisions\u2019",
-    "Colts Face $35.2 Million Daniel Jones Decision After Trade Deadline",
-    "Colts\u2019 Daniel Jones makes \u2018not happy\u2019 confession following trade deadline"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Colts\u2019 Daniel Jones: \u2018You\u2019re not happy to see a lot of those decisions\u2019"
   },
   "kirk cousins": {
    "h": [
