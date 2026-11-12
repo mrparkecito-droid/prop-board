@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T17:31:04+00:00",
+ "generated": "2026-11-12T18:01:07+00:00",
  "games": {
   "WASNYG": {
    "home": "NYG",
@@ -18,10 +18,10 @@
    },
    "wx": {
     "wind": 10,
-    "gust": 28,
+    "gust": 24,
     "pop": 66,
-    "rain": 15.2,
-    "temp": 51
+    "rain": 7.9,
+    "temp": 50
    }
   },
   "NEDET": {
@@ -69,7 +69,7 @@
    },
    "wx": {
     "wind": 11,
-    "gust": 14,
+    "gust": 12,
     "pop": 24,
     "rain": 0.3,
     "temp": 47
@@ -92,7 +92,7 @@
    },
    "wx": {
     "wind": 3,
-    "gust": 4,
+    "gust": 3,
     "pop": 0,
     "rain": 0.0,
     "temp": 45
@@ -170,7 +170,7 @@
    },
    "wx": {
     "wind": 13,
-    "gust": 23,
+    "gust": 21,
     "pop": 0,
     "rain": 0.0,
     "temp": 47
@@ -244,7 +244,7 @@
     "gust": 8,
     "pop": 0,
     "rain": 0.0,
-    "temp": 46
+    "temp": 47
    }
   },
   "LACBAL": {
@@ -264,7 +264,7 @@
    },
    "wx": {
     "wind": 4,
-    "gust": 11,
+    "gust": 12,
     "pop": 0,
     "rain": 0.0,
     "temp": 47
@@ -733,9 +733,14 @@
   ],
   "HOU": [
    {
-    "name": "David Montgomery",
+    "name": "Woody Marks",
     "pos": "RB",
     "status": "Questionable"
+   },
+   {
+    "name": "David Montgomery",
+    "pos": "RB",
+    "status": "Out"
    },
    {
     "name": "Azeez Al-Shaair",
@@ -765,11 +770,6 @@
    {
     "name": "Tank Dell",
     "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Woody Marks",
-    "pos": "RB",
     "status": "Questionable"
    },
    {
@@ -817,6 +817,11 @@
   ],
   "JAX": [
    {
+    "name": "Bhayshul Tuten",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
     "name": "Travon Walker",
     "pos": "DE",
     "status": "Questionable"
@@ -849,11 +854,6 @@
    {
     "name": "Jakobi Meyers",
     "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Bhayshul Tuten",
-    "pos": "RB",
     "status": "Questionable"
    },
    {
@@ -1478,11 +1478,39 @@
   ]
  },
  "news": {
-  "christian watson": {
+  "zay flowers": {
+   "h": "Is Zay Flowers in position to bounce back in Week 10?",
+   "t": "2026-11-12T16:49:29Z"
+  },
+  "jordan love": {
+   "h": "Why there's fantasy risk with Jordan Love vs. Vikings",
+   "t": "2026-11-12T16:22:23Z"
+  },
+  "braelon allen": {
+   "h": "What does Breece Hall's return mean for Jets' backfield in fantasy?",
+   "t": "2026-11-12T16:17:51Z"
+  },
+  "breece hall": {
+   "h": "What does Breece Hall's return mean for Jets' backfield in fantasy?",
+   "t": "2026-11-12T16:17:51Z"
+  },
+  "jordyn tyson": {
+   "h": "Why Daniel Dopp, Field Yates need to see more out of Jordyn Tyson in fantasy",
+   "t": "2026-11-12T16:28:36Z"
+  },
+  "devaughn vele": {
+   "h": "Why Daniel Dopp, Field Yates need to see more out of Jordyn Tyson in fantasy",
+   "t": "2026-11-12T16:28:36Z"
+  },
+  "cj stroud": {
+   "h": "Is C.J. Stroud a fantasy starter vs. the Browns in Week 10?",
+   "t": "2026-11-12T16:34:01Z"
+  },
+  "matthew golden": {
    "h": "Does Packers' Christian Watson + Matthew Golden = 3,000 yards?",
    "t": "2026-11-12T14:48:44Z"
   },
-  "matthew golden": {
+  "christian watson": {
    "h": "Does Packers' Christian Watson + Matthew Golden = 3,000 yards?",
    "t": "2026-11-12T14:48:44Z"
   },
@@ -1494,13 +1522,9 @@
    "h": "NFL trade deadline grades: Deals for Kirk Cousins, Josh Downs, Ryan Neuzil",
    "t": "2026-11-12T12:20:15Z"
   },
-  "jordan love": {
-   "h": "Fantasy football matchup ranks: Upgrade Ollie Gordon II, downgrade Jordan Love",
-   "t": "2026-11-11T15:27:24Z"
-  },
   "ollie gordon": {
    "h": "Fantasy football matchup ranks: Upgrade Ollie Gordon II, downgrade Jordan Love",
-   "t": "2026-11-11T15:27:24Z"
+   "t": "2026-11-12T17:39:17Z"
   },
   "kyle mccord": {
    "h": "Dolphins hopeful QB Malik Willis will be back this season",
@@ -1513,216 +1537,160 @@
   "carson beck": {
    "h": "Cardinals coach: Carson Beck's been a pro since he's been here",
    "t": "2026-11-11T21:52:44Z"
-  },
-  "calvin ridley": {
-   "h": "Titans' Calvin Ridley addresses incident with valet at Nashville airport",
-   "t": "2026-11-11T20:22:54Z"
-  },
-  "jj mccarthy": {
-   "h": "J.J. McCarthy makes his first Giants home start against the desperate Commanders",
-   "t": "2026-11-11T18:44:35Z"
-  },
-  "deshaun watson": {
-   "h": "Browns' Monken: Watson over Sanders QB decision based on 'full body of work'",
-   "t": "2026-11-11T18:13:33Z"
-  },
-  "bijan robinson": {
-   "h": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
-   "t": "2026-11-11T16:33:25Z"
-  },
-  "cam skattebo": {
-   "h": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
-   "t": "2026-11-11T16:33:25Z"
-  },
-  "kyle pitts": {
-   "h": "Kincaid vs. Pitts: Dopp and Clay differ on their preferred Week 10 TE",
-   "t": "2026-11-11T16:12:56Z"
-  },
-  "dalton kincaid": {
-   "h": "Kincaid vs. Pitts: Dopp and Clay differ on their preferred Week 10 TE",
-   "t": "2026-11-11T16:12:56Z"
-  },
-  "chris olave": {
-   "h": "Should Justin Jefferson be ranked higher than Chris Olave in Week 10?",
-   "t": "2026-11-11T16:27:51Z"
-  },
-  "justin jefferson": {
-   "h": "Should Justin Jefferson be ranked higher than Chris Olave in Week 10?",
-   "t": "2026-11-11T16:27:51Z"
-  },
-  "geno smith": {
-   "h": "Should managers start Geno Smith over Jordan Love? Dopp and Clay debate",
-   "t": "2026-11-11T16:05:48Z"
-  },
-  "mark andrews": {
-   "h": "Mark Andrews' Week 10 fantasy outlook",
-   "t": "2026-11-11T15:44:06Z"
-  },
-  "quinshon judkins": {
-   "h": "Quinshon Judkins' Week 10 fantasy outlook",
-   "t": "2026-11-11T15:04:34Z"
-  },
-  "matthew stafford": {
-   "h": "Matthew Stafford's Week 10 fantasy outlook",
-   "t": "2026-11-11T14:37:37Z"
-  },
-  "chuba hubbard": {
-   "h": "Chuba Hubbard's Week 10 fantasy outlook",
-   "t": "2026-11-11T14:02:10Z"
   }
  },
  "trend": {
   "corey kiner": {
    "rank": 1,
-   "adds": 4031034
+   "adds": 3824412
   },
   "konata mumpfield": {
    "rank": 2,
-   "adds": 2832120
+   "adds": 2711790
   },
   "tank dell": {
    "rank": 3,
-   "adds": 2281288
+   "adds": 2118720
   },
   "fernando mendoza": {
    "rank": 4,
-   "adds": 1471832
+   "adds": 1476672
   },
   "tutu atwell": {
    "rank": 5,
-   "adds": 1468390
+   "adds": 1445353
   },
   "darren waller": {
    "rank": 6,
-   "adds": 1265220
+   "adds": 1224036
   },
   "audric estime": {
    "rank": 7,
-   "adds": 1109103
+   "adds": 1078476
   },
   "kyle mccord": {
    "rank": 8,
-   "adds": 888160
+   "adds": 889860
   },
   "ashton dulin": {
    "rank": 9,
-   "adds": 737712
+   "adds": 744579
   },
   "pierre strong": {
    "rank": 11,
-   "adds": 592497
+   "adds": 572769
   },
   "tyler higbee": {
    "rank": 12,
-   "adds": 549279
+   "adds": 536337
   },
   "justice hill": {
    "rank": 14,
-   "adds": 522135
+   "adds": 506088
   },
   "demarcus robinson": {
    "rank": 16,
-   "adds": 437250
+   "adds": 419256
   },
   "aaron rodgers": {
    "rank": 17,
-   "adds": 406212
+   "adds": 392480
   },
   "jordan addison": {
    "rank": 18,
-   "adds": 381708
+   "adds": 385299
   },
   "khalil shakir": {
    "rank": 20,
-   "adds": 339363
+   "adds": 330939
   },
   "josh downs": {
-   "rank": 22,
-   "adds": 311825
-  },
-  "jordan watkins": {
-   "rank": 23,
-   "adds": 307200
+   "rank": 21,
+   "adds": 311255
   },
   "cj stroud": {
+   "rank": 23,
+   "adds": 289870
+  },
+  "jordan watkins": {
    "rank": 24,
-   "adds": 304836
+   "adds": 285136
   },
   "tyler shough": {
    "rank": 26,
-   "adds": 260264
+   "adds": 249600
   },
   "chris rodriguez": {
-   "rank": 28,
-   "adds": 247491
+   "rank": 27,
+   "adds": 245034
   },
   "bryce young": {
    "rank": 29,
-   "adds": 241756
-  },
-  "caleb douglas": {
-   "rank": 30,
-   "adds": 238936
+   "adds": 229964
   },
   "laquon treadwell": {
-   "rank": 31,
-   "adds": 227015
+   "rank": 30,
+   "adds": 228055
   },
-  "blake corum": {
-   "rank": 32,
-   "adds": 226896
+  "caleb douglas": {
+   "rank": 31,
+   "adds": 226448
   },
   "kirk cousins": {
+   "rank": 32,
+   "adds": 222560
+  },
+  "blake corum": {
    "rank": 33,
-   "adds": 222504
+   "adds": 217072
   },
   "kc concepcion": {
-   "rank": 35,
-   "adds": 219024
-  },
-  "rico dowdle": {
-   "rank": 36,
-   "adds": 204490
+   "rank": 34,
+   "adds": 214452
   },
   "keenan allen": {
-   "rank": 37,
-   "adds": 202508
+   "rank": 36,
+   "adds": 200588
   },
   "deion burks": {
-   "rank": 38,
-   "adds": 198399
+   "rank": 37,
+   "adds": 199932
   },
-  "brenton strange": {
-   "rank": 39,
-   "adds": 185499
+  "rico dowdle": {
+   "rank": 38,
+   "adds": 198415
   },
   "deshaun watson": {
+   "rank": 39,
+   "adds": 181408
+  },
+  "brenton strange": {
    "rank": 41,
-   "adds": 183328
+   "adds": 178479
   },
   "emmett johnson": {
    "rank": 42,
-   "adds": 181575
-  },
-  "jakobi meyers": {
-   "rank": 43,
-   "adds": 180504
+   "adds": 178236
   },
   "cj daniels": {
-   "rank": 44,
-   "adds": 177988
+   "rank": 43,
+   "adds": 178176
   },
   "keon coleman": {
    "rank": 45,
-   "adds": 177129
+   "adds": 174834
+  },
+  "jakobi meyers": {
+   "rank": 46,
+   "adds": 173730
   },
   "zach charbonnet": {
    "rank": 49,
-   "adds": 159102
+   "adds": 153561
   },
   "austin ekeler": {
    "rank": 50,
-   "adds": 149848
+   "adds": 148788
   }
  },
  "buzz": {},
@@ -1730,7 +1698,7 @@
   "lines": "14 games",
   "weather": "7 outdoor games",
   "injuries": "228 players listed",
-  "news": "23 players in headlines",
+  "news": "15 players in headlines",
   "google_news": "5 role-cut, 124 injury headlines; QB hurt: BAL, DET, KC, LAR, NYG, WAS",
   "sleeper_trending": "38 board players trending",
   "reddit": "unavailable"
