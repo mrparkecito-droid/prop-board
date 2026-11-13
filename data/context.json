@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T23:31:06+00:00",
+ "generated": "2026-11-13T00:01:09+00:00",
  "games": {
   "WASNYG": {
    "home": "NYG",
@@ -13,14 +13,14 @@
    },
    "total": 40.5,
    "espn_wx": {
-    "desc": "Showers",
+    "desc": "Rain",
     "temp": 52
    },
    "wx": {
     "wind": 9,
-    "gust": 22,
+    "gust": 25,
     "pop": 61,
-    "rain": 3.3,
+    "rain": 0.0,
     "temp": 49
    }
   },
@@ -68,11 +68,11 @@
     "temp": 46
    },
    "wx": {
-    "wind": 12,
+    "wind": 11,
     "gust": 12,
     "pop": 27,
     "rain": 0.3,
-    "temp": 46
+    "temp": 47
    }
   },
   "MINGB": {
@@ -85,7 +85,7 @@
     "GB": -3.0,
     "MIN": 3.0
    },
-   "total": 42.5,
+   "total": 41.5,
    "espn_wx": {
     "desc": "Mostly cloudy",
     "temp": 44
@@ -95,7 +95,7 @@
     "gust": 3,
     "pop": 0,
     "rain": 0.0,
-    "temp": 43
+    "temp": 45
    }
   },
   "JAXTEN": {
@@ -118,7 +118,7 @@
     "gust": 6,
     "pop": 0,
     "rain": 0.0,
-    "temp": 54
+    "temp": 53
    }
   },
   "MIAIND": {
@@ -169,11 +169,11 @@
     "temp": 50
    },
    "wx": {
-    "wind": 15,
+    "wind": 13,
     "gust": 21,
     "pop": 0,
     "rain": 0.0,
-    "temp": 46
+    "temp": 47
    }
   },
   "SEALV": {
@@ -240,7 +240,7 @@
     "temp": 43
    },
    "wx": {
-    "wind": 3,
+    "wind": 4,
     "gust": 7,
     "pop": 0,
     "rain": 0.0,
@@ -348,28 +348,23 @@
   ],
   "BAL": [
    {
+    "name": "Olaivavega Ioane",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
+    "name": "Rashod Bateman",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Gerad Lichtenhan",
     "pos": "OT",
     "status": "Out"
    },
    {
-    "name": "Kyle Hamilton",
-    "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Nate Wiggins",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
     "name": "Jaylinn Hawkins",
     "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Adisa Isaac",
-    "pos": "LB",
     "status": "Questionable"
    }
   ],
@@ -408,6 +403,11 @@
     "name": "Alec Anderson",
     "pos": "OT",
     "status": "Questionable"
+   },
+   {
+    "name": "Tyrell Shavers",
+    "pos": "WR",
+    "status": "Out"
    }
   ],
   "CAR": [
@@ -415,29 +415,9 @@
     "name": "Bobby Okereke",
     "pos": "LB",
     "status": "Questionable"
-   },
-   {
-    "name": "Will Lee III",
-    "pos": "CB",
-    "status": "Out"
-   },
-   {
-    "name": "Jaelan Phillips",
-    "pos": "LB",
-    "status": "Out"
    }
   ],
   "CHI": [
-   {
-    "name": "Kyle Monangai",
-    "pos": "RB",
-    "status": "Out"
-   },
-   {
-    "name": "Malik Muhammad II",
-    "pos": "CB",
-    "status": "Out"
-   },
    {
     "name": "Luther Burden III",
     "pos": "WR",
@@ -449,8 +429,13 @@
     "status": "Questionable"
    },
    {
-    "name": "Case Keenum",
-    "pos": "QB",
+    "name": "Malik Muhammad II",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Kyle Monangai",
+    "pos": "RB",
     "status": "Out"
    }
   ],
@@ -518,17 +503,17 @@
     "status": "Questionable"
    },
    {
-    "name": "Deshaun Watson",
-    "pos": "QB",
-    "status": "Out"
-   },
-   {
     "name": "Maliek Collins",
     "pos": "DT",
     "status": "Questionable"
    }
   ],
   "DAL": [
+   {
+    "name": "KaVontae Turpin",
+    "pos": "WR",
+    "status": "Questionable"
+   },
    {
     "name": "Juanyeh Thomas",
     "pos": "S",
@@ -550,18 +535,8 @@
     "status": "Questionable"
    },
    {
-    "name": "KaVontae Turpin",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
     "name": "Tyler Goodson",
     "pos": "RB",
-    "status": "Out"
-   },
-   {
-    "name": "Jake Ferguson",
-    "pos": "TE",
     "status": "Out"
    },
    {
@@ -572,6 +547,11 @@
    {
     "name": "P.J. Locke",
     "pos": "S",
+    "status": "Out"
+   },
+   {
+    "name": "Jake Ferguson",
+    "pos": "TE",
     "status": "Out"
    },
    {
@@ -691,11 +671,6 @@
     "status": "Questionable"
    },
    {
-    "name": "MarShawn Lloyd",
-    "pos": "RB",
-    "status": "Out"
-   },
-   {
     "name": "Sean Rhyan",
     "pos": "G",
     "status": "Questionable"
@@ -708,6 +683,16 @@
   ],
   "HOU": [
    {
+    "name": "Reed Blankenship",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
+    "name": "Danielle Hunter",
+    "pos": "DE",
+    "status": "Questionable"
+   },
+   {
     "name": "Will Anderson Jr.",
     "pos": "DE",
     "status": "Questionable"
@@ -715,11 +700,6 @@
    {
     "name": "Marvin Harrison Jr.",
     "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Danielle Hunter",
-    "pos": "DE",
     "status": "Questionable"
    },
    {
@@ -745,16 +725,6 @@
    {
     "name": "Keylan Rutledge",
     "pos": "G",
-    "status": "Questionable"
-   },
-   {
-    "name": "Cade Stover",
-    "pos": "TE",
-    "status": "Out"
-   },
-   {
-    "name": "Reed Blankenship",
-    "pos": "S",
     "status": "Questionable"
    }
   ],
@@ -839,16 +809,6 @@
     "status": "Questionable"
    },
    {
-    "name": "Patrick Mahomes",
-    "pos": "QB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Xavier Worthy",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
     "name": "Peter Woods",
     "pos": "DT",
     "status": "Questionable"
@@ -871,11 +831,6 @@
     "status": "Questionable"
    },
    {
-    "name": "Aidan O'Connell",
-    "pos": "QB",
-    "status": "Out"
-   },
-   {
     "name": "Thomas Booker IV",
     "pos": "DT",
     "status": "Questionable"
@@ -883,8 +838,33 @@
   ],
   "LAC": [
    {
-    "name": "Justin Herbert",
-    "pos": "QB",
+    "name": "Rodney Shelley",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Cam Hart",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Branson Taylor",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
+    "name": "Alex Harkey",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
+    "name": "Tre' Harris",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Ladd McConkey",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -908,8 +888,8 @@
     "status": "Questionable"
    },
    {
-    "name": "Ladd McConkey",
-    "pos": "WR",
+    "name": "Keaton Mitchell",
+    "pos": "RB",
     "status": "Questionable"
    },
    {
@@ -930,11 +910,6 @@
     "status": "Questionable"
    },
    {
-    "name": "Puka Nacua",
-    "pos": "WR",
-    "status": "Out"
-   },
-   {
     "name": "Trent McDuffie",
     "pos": "CB",
     "status": "Questionable"
@@ -953,6 +928,11 @@
     "name": "Colby Parkinson",
     "pos": "TE",
     "status": "Questionable"
+   },
+   {
+    "name": "Puka Nacua",
+    "pos": "WR",
+    "status": "Out"
    },
    {
     "name": "Joe Cardona",
@@ -1004,18 +984,13 @@
   ],
   "MIN": [
    {
+    "name": "Carson Wentz",
+    "pos": "QB",
+    "status": "Questionable"
+   },
+   {
     "name": "T.J. Hockenson",
     "pos": "TE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jauan Jennings",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Kyle Van Noy",
-    "pos": "LB",
     "status": "Questionable"
    },
    {
@@ -1029,8 +1004,8 @@
     "status": "Questionable"
    },
    {
-    "name": "Carson Wentz",
-    "pos": "QB",
+    "name": "Jauan Jennings",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -1044,8 +1019,8 @@
     "status": "Questionable"
    },
    {
-    "name": "Theo Jackson",
-    "pos": "S",
+    "name": "Kyle Van Noy",
+    "pos": "LB",
     "status": "Questionable"
    }
   ],
@@ -1150,14 +1125,39 @@
   ],
   "NYG": [
    {
-    "name": "Colton Hood",
+    "name": "Nikko Reed",
     "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Josh Sills",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "CJ Okoye",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "J.C. Davis",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Thomas Fidone II",
+    "pos": "TE",
     "status": "Out"
    },
    {
     "name": "Malik Harrison",
     "pos": "LB",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Paulson Adebo",
+    "pos": "CB",
+    "status": "Out"
    }
   ],
   "NYJ": [
@@ -1231,8 +1231,23 @@
   ],
   "SF": [
    {
+    "name": "Trent Williams",
+    "pos": "OT",
+    "status": "Questionable"
+   },
+   {
+    "name": "Deebo Samuel Sr.",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Mike Evans",
     "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Dre Greenlaw",
+    "pos": "LB",
     "status": "Questionable"
    },
    {
@@ -1253,11 +1268,6 @@
    {
     "name": "Siran Neal",
     "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Deebo Samuel Sr.",
-    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -1303,11 +1313,6 @@
     "status": "Questionable"
    },
    {
-    "name": "Quenton Nelson",
-    "pos": "G",
-    "status": "Doubtful"
-   },
-   {
     "name": "Uchenna Nwosu",
     "pos": "LB",
     "status": "Questionable"
@@ -1315,6 +1320,11 @@
    {
     "name": "Charles Cross",
     "pos": "OT",
+    "status": "Doubtful"
+   },
+   {
+    "name": "Quenton Nelson",
+    "pos": "G",
     "status": "Doubtful"
    },
    {
@@ -1374,6 +1384,26 @@
   ],
   "WAS": [
    {
+    "name": "Isaac Yiadom",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Tanoa Togiai",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Athan Kaliakmanis",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Ricky Barber",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
     "name": "Lucas Patrick",
     "pos": "G",
     "status": "Out"
@@ -1386,15 +1416,11 @@
   ]
  },
  "news": {
-  "kyle mccord": {
-   "h": "QB Kyle McCord eager to make his 1st NFL start as Dolphins and Colts meet in battle of reeling teams",
-   "t": "2026-11-12T23:10:35Z"
-  },
-  "kenneth walker": {
+  "bijan robinson": {
    "h": "NFL rushing leaders in spotlight as Kenneth Walker III and Chiefs face Bijan Robinson and Falcons",
    "t": "2026-11-12T22:44:35Z"
   },
-  "bijan robinson": {
+  "kenneth walker": {
    "h": "NFL rushing leaders in spotlight as Kenneth Walker III and Chiefs face Bijan Robinson and Falcons",
    "t": "2026-11-12T22:44:35Z"
   },
@@ -1442,11 +1468,11 @@
    "h": "What does Breece Hall's return mean for Jets' backfield in fantasy?",
    "t": "2026-11-12T16:17:51Z"
   },
-  "jordyn tyson": {
+  "devaughn vele": {
    "h": "Why Daniel Dopp, Field Yates need to see more out of Jordyn Tyson in fantasy",
    "t": "2026-11-12T16:28:36Z"
   },
-  "devaughn vele": {
+  "jordyn tyson": {
    "h": "Why Daniel Dopp, Field Yates need to see more out of Jordyn Tyson in fantasy",
    "t": "2026-11-12T16:28:36Z"
   },
@@ -1461,167 +1487,171 @@
   "christian watson": {
    "h": "Does Packers' Christian Watson + Matthew Golden = 3,000 yards?",
    "t": "2026-11-12T14:48:44Z"
+  },
+  "josh downs": {
+   "h": "NFL trade deadline grades: Deals for Kirk Cousins, Josh Downs, Ryan Neuzil",
+   "t": "2026-11-12T12:20:15Z"
   }
  },
  "trend": {
   "corey kiner": {
    "rank": 1,
-   "adds": 2863518
+   "adds": 2879760
   },
   "konata mumpfield": {
    "rank": 2,
-   "adds": 2146374
+   "adds": 2161323
   },
   "tank dell": {
    "rank": 3,
-   "adds": 1461072
+   "adds": 1465960
   },
   "tutu atwell": {
    "rank": 4,
-   "adds": 1329524
+   "adds": 1343657
   },
   "darren waller": {
    "rank": 5,
-   "adds": 1109997
+   "adds": 1130922
   },
   "audric estime": {
    "rank": 6,
-   "adds": 922656
+   "adds": 927807
   },
   "fernando mendoza": {
    "rank": 7,
-   "adds": 918824
+   "adds": 926408
   },
   "ashton dulin": {
    "rank": 8,
-   "adds": 759294
+   "adds": 767538
   },
   "kyle mccord": {
    "rank": 9,
-   "adds": 662920
+   "adds": 665800
   },
   "justice hill": {
    "rank": 12,
-   "adds": 494442
+   "adds": 507816
   },
   "tyler higbee": {
    "rank": 13,
-   "adds": 480249
+   "adds": 486909
   },
   "pierre strong": {
-   "rank": 14,
-   "adds": 470430
+   "rank": 15,
+   "adds": 472257
   },
   "demarcus robinson": {
    "rank": 16,
-   "adds": 358398
+   "adds": 360246
   },
   "jordan addison": {
    "rank": 17,
-   "adds": 353511
+   "adds": 359847
   },
   "aaron rodgers": {
    "rank": 19,
-   "adds": 336296
+   "adds": 341164
   },
   "khalil shakir": {
    "rank": 20,
-   "adds": 318321
+   "adds": 326061
   },
   "chris rodriguez": {
    "rank": 21,
-   "adds": 272547
+   "adds": 282483
   },
   "cj stroud": {
    "rank": 24,
-   "adds": 236103
+   "adds": 238483
   },
   "tyler shough": {
    "rank": 25,
-   "adds": 218320
+   "adds": 221848
   },
   "jordan watkins": {
    "rank": 26,
-   "adds": 217024
+   "adds": 218516
   },
   "laquon treadwell": {
-   "rank": 28,
-   "adds": 209430
+   "rank": 29,
+   "adds": 210920
   },
   "kc concepcion": {
-   "rank": 29,
-   "adds": 206379
-  },
-  "deion burks": {
-   "rank": 31,
-   "adds": 190773
+   "rank": 30,
+   "adds": 210123
   },
   "blake corum": {
-   "rank": 32,
-   "adds": 189160
-  },
-  "bryce young": {
-   "rank": 33,
-   "adds": 187412
+   "rank": 31,
+   "adds": 191856
   },
   "caleb douglas": {
+   "rank": 32,
+   "adds": 191608
+  },
+  "deion burks": {
+   "rank": 33,
+   "adds": 191337
+  },
+  "bryce young": {
    "rank": 34,
-   "adds": 187016
+   "adds": 189308
   },
   "rico dowdle": {
    "rank": 35,
-   "adds": 185175
+   "adds": 188295
   },
   "deshaun watson": {
    "rank": 37,
-   "adds": 176000
+   "adds": 180112
   },
   "brenton strange": {
    "rank": 38,
-   "adds": 173223
+   "adds": 176346
   },
   "cj daniels": {
    "rank": 39,
-   "adds": 170788
+   "adds": 172700
   },
   "josh downs": {
    "rank": 40,
-   "adds": 170550
+   "adds": 171230
   },
   "emmett johnson": {
    "rank": 41,
-   "adds": 167787
+   "adds": 170019
   },
   "keon coleman": {
    "rank": 42,
-   "adds": 167778
+   "adds": 169263
   },
   "austin ekeler": {
-   "rank": 44,
-   "adds": 161760
+   "rank": 43,
+   "adds": 167612
   },
   "kirk cousins": {
    "rank": 45,
-   "adds": 160072
+   "adds": 161840
   },
   "jakobi meyers": {
    "rank": 47,
-   "adds": 147912
+   "adds": 149820
   },
   "ryan flournoy": {
-   "rank": 48,
-   "adds": 139312
+   "rank": 49,
+   "adds": 142624
   },
   "mack hollins": {
    "rank": 50,
-   "adds": 135789
+   "adds": 140820
   }
  },
  "buzz": {},
  "sources": {
   "lines": "14 games",
   "weather": "7 outdoor games",
-  "injuries": "210 players listed",
+  "injuries": "216 players listed",
   "news": "19 players in headlines",
   "google_news": "6 role-cut, 133 injury headlines; QB hurt: DET, IND, LAR, NE, SEA, WAS",
   "sleeper_trending": "38 board players trending",
