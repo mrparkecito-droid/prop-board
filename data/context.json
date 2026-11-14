@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T19:01:17+00:00",
+ "generated": "2026-11-14T19:31:08+00:00",
  "games": {
   "NEDET": {
    "home": "DET",
@@ -47,7 +47,7 @@
    "wx": {
     "wind": 11,
     "gust": 15,
-    "pop": 5,
+    "pop": 6,
     "rain": 0.4,
     "temp": 45
    }
@@ -343,6 +343,11 @@
    }
   ],
   "CAR": [
+   {
+    "name": "Xavier Legette",
+    "pos": "WR",
+    "status": "Questionable"
+   },
    {
     "name": "Will Lee III",
     "pos": "CB",
@@ -642,11 +647,6 @@
     "name": "Jessie Bates III",
     "pos": "S",
     "status": "Out"
-   },
-   {
-    "name": "Robert Hainsey",
-    "pos": "C",
-    "status": "Questionable"
    }
   ],
   "KC": [
@@ -1206,163 +1206,163 @@
  "trend": {
   "emmett johnson": {
    "rank": 1,
-   "adds": 1600200
+   "adds": 1640754
   },
   "darren waller": {
    "rank": 2,
-   "adds": 745326
+   "adds": 749376
   },
   "konata mumpfield": {
    "rank": 3,
-   "adds": 499482
+   "adds": 500697
   },
   "tutu atwell": {
    "rank": 4,
-   "adds": 449820
+   "adds": 451766
   },
   "justice hill": {
    "rank": 5,
-   "adds": 416421
+   "adds": 421263
   },
   "chimere dike": {
    "rank": 6,
-   "adds": 402552
+   "adds": 413460
   },
   "corey kiner": {
    "rank": 7,
-   "adds": 376632
+   "adds": 378366
   },
   "chris rodriguez": {
    "rank": 8,
-   "adds": 330840
+   "adds": 334521
   },
   "ashton dulin": {
    "rank": 10,
-   "adds": 239859
+   "adds": 241029
   },
   "khalil shakir": {
    "rank": 11,
-   "adds": 212499
+   "adds": 213489
   },
   "tyler higbee": {
    "rank": 12,
-   "adds": 202950
+   "adds": 205578
   },
   "jordan addison": {
    "rank": 13,
-   "adds": 190899
+   "adds": 191934
   },
   "fernando mendoza": {
    "rank": 14,
-   "adds": 188216
+   "adds": 189160
   },
   "tank dell": {
    "rank": 17,
-   "adds": 150840
+   "adds": 152320
   },
   "caleb douglas": {
    "rank": 18,
-   "adds": 150784
+   "adds": 151792
   },
   "brenton strange": {
    "rank": 19,
-   "adds": 133677
+   "adds": 134775
   },
   "mack hollins": {
    "rank": 21,
-   "adds": 130719
+   "adds": 131280
   },
   "mike gesicki": {
    "rank": 22,
-   "adds": 128540
+   "adds": 129556
   },
   "audric estime": {
    "rank": 23,
-   "adds": 128160
+   "adds": 128952
   },
   "aaron rodgers": {
    "rank": 24,
-   "adds": 109604
+   "adds": 110052
   },
   "kc concepcion": {
    "rank": 25,
-   "adds": 108207
+   "adds": 108792
   },
   "jordyn tyson": {
    "rank": 27,
-   "adds": 99944
+   "adds": 100504
   },
   "tyler shough": {
    "rank": 28,
-   "adds": 94880
+   "adds": 95560
   },
   "rico dowdle": {
    "rank": 29,
-   "adds": 94850
+   "adds": 95455
   },
   "cj daniels": {
    "rank": 30,
-   "adds": 93812
+   "adds": 94660
   },
   "deshaun watson": {
    "rank": 32,
-   "adds": 92704
+   "adds": 93136
   },
   "jordan mason": {
    "rank": 33,
-   "adds": 89555
+   "adds": 90445
   },
   "ryan flournoy": {
    "rank": 34,
-   "adds": 88600
+   "adds": 88944
   },
   "zonovan knight": {
    "rank": 36,
-   "adds": 85704
+   "adds": 86922
   },
   "hunter henry": {
    "rank": 37,
-   "adds": 82956
+   "adds": 83991
   },
   "austin ekeler": {
    "rank": 39,
-   "adds": 81132
+   "adds": 81340
   },
   "anthony gould": {
    "rank": 40,
-   "adds": 79737
+   "adds": 80290
   },
   "jadarian price": {
    "rank": 41,
-   "adds": 76635
+   "adds": 77481
   },
   "blake corum": {
    "rank": 42,
-   "adds": 73856
+   "adds": 74096
   },
   "darnell washington": {
    "rank": 43,
-   "adds": 69045
+   "adds": 70125
   },
   "jakobi meyers": {
    "rank": 44,
-   "adds": 66042
+   "adds": 66690
   },
   "cj stroud": {
    "rank": 46,
-   "adds": 62860
+   "adds": 63161
   },
   "malik washington": {
    "rank": 47,
-   "adds": 61896
+   "adds": 62320
   },
   "kyle mccord": {
    "rank": 48,
-   "adds": 61724
+   "adds": 61980
   },
   "elic ayomanor": {
    "rank": 50,
-   "adds": 59676
+   "adds": 60676
   }
  },
  "buzz": {},
@@ -1371,7 +1371,7 @@
   "weather": "6 outdoor games",
   "injuries": "171 players listed",
   "news": "8 players in headlines",
-  "google_news": "6 role-cut, 171 injury headlines; QB hurt: CLE, KC, MIA, MIN, NO",
+  "google_news": "6 role-cut, 173 injury headlines; QB hurt: CLE, KC, MIA, MIN, NO",
   "sleeper_trending": "40 board players trending",
   "reddit": "unavailable"
  },
@@ -1693,6 +1693,26 @@
    "cut": false,
    "inj": true,
    "worst": "Breece Hall Week 10 Outlook for Fantasy Football (2026)"
+  },
+  "alvin kamara": {
+   "h": [
+    "New Orleans Saints Star Alvin Kamara Sends Out 7-Word Post Before Panthers Game",
+    "Alvin Kamara Week 10 Outlook for Fantasy Football (2026)",
+    "Alvin Kamara (back) removed from injury report"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Alvin Kamara Week 10 Outlook for Fantasy Football (2026)"
+  },
+  "audric estime": {
+   "h": [
+    "Tyler Shough or Audric Estime",
+    "Cam Skattebo or Audric Estime",
+    "Fantasy football: Audric Estime leads crop of unlikely running back saviors"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Fantasy football: Audric Estime leads crop of unlikely running back saviors"
   },
   "chuba hubbard": {
    "h": [
