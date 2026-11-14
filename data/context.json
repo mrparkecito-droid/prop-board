@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T01:31:07+00:00",
+ "generated": "2026-11-14T02:01:10+00:00",
  "games": {
   "NEDET": {
    "home": "DET",
@@ -43,13 +43,6 @@
    "espn_wx": {
     "desc": "Cloudy",
     "temp": 46
-   },
-   "wx": {
-    "wind": 13,
-    "gust": 16,
-    "pop": 42,
-    "rain": 0.55,
-    "temp": 46
    }
   },
   "MINGB": {
@@ -66,13 +59,6 @@
    "espn_wx": {
     "desc": "Mostly cloudy",
     "temp": 44
-   },
-   "wx": {
-    "wind": 3,
-    "gust": 3,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 43
    }
   },
   "JAXTEN": {
@@ -89,13 +75,6 @@
    "espn_wx": {
     "desc": "Partly sunny",
     "temp": 53
-   },
-   "wx": {
-    "wind": 5,
-    "gust": 7,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 54
    }
   },
   "MIAIND": {
@@ -144,13 +123,6 @@
    "espn_wx": {
     "desc": "Intermittent clouds",
     "temp": 50
-   },
-   "wx": {
-    "wind": 13,
-    "gust": 18,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 49
    }
   },
   "SEALV": {
@@ -215,13 +187,6 @@
    "espn_wx": {
     "desc": "Mostly cloudy",
     "temp": 43
-   },
-   "wx": {
-    "wind": 2,
-    "gust": 4,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 40
    }
   },
   "LACBAL": {
@@ -251,11 +216,6 @@
  "inj": {
   "ARI": [
    {
-    "name": "Andrew Wingard",
-    "pos": "S",
-    "status": "Questionable"
-   },
-   {
     "name": "Jon Gaines II",
     "pos": "G",
     "status": "Out"
@@ -264,6 +224,11 @@
     "name": "Hjalte Froholdt",
     "pos": "C",
     "status": "Out"
+   },
+   {
+    "name": "Andrew Wingard",
+    "pos": "S",
+    "status": "Questionable"
    },
    {
     "name": "Jayden Williams",
@@ -607,6 +572,26 @@
   ],
   "IND": [
    {
+    "name": "Jalen Travis",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Jaylon Carlies",
+    "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "Jerry Tillery",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Luke Rhodes",
+    "pos": "LS",
+    "status": "Out"
+   },
+   {
     "name": "Will Mallory",
     "pos": "TE",
     "status": "Questionable"
@@ -619,26 +604,6 @@
    {
     "name": "Mo Alie-Cox",
     "pos": "TE",
-    "status": "Out"
-   },
-   {
-    "name": "Jalen Travis",
-    "pos": "OT",
-    "status": "Out"
-   },
-   {
-    "name": "Luke Rhodes",
-    "pos": "LS",
-    "status": "Out"
-   },
-   {
-    "name": "Jerry Tillery",
-    "pos": "DT",
-    "status": "Out"
-   },
-   {
-    "name": "Jaylon Carlies",
-    "pos": "LB",
     "status": "Out"
    }
   ],
@@ -733,11 +698,6 @@
     "name": "Kayode Awosika",
     "pos": "G",
     "status": "Questionable"
-   },
-   {
-    "name": "Isas Waxter",
-    "pos": "CB",
-    "status": "Questionable"
    }
   ],
   "LAR": [
@@ -774,6 +734,11 @@
   ],
   "MIA": [
    {
+    "name": "Aaron Brewer",
+    "pos": "C",
+    "status": "Out"
+   },
+   {
     "name": "Jared Wayne",
     "pos": "WR",
     "status": "Out"
@@ -782,11 +747,6 @@
     "name": "Chris Bell",
     "pos": "WR",
     "status": "Doubtful"
-   },
-   {
-    "name": "Aaron Brewer",
-    "pos": "C",
-    "status": "Out"
    },
    {
     "name": "Darrell Baker Jr.",
@@ -890,13 +850,8 @@
   ],
   "NO": [
    {
-    "name": "Martin Emerson Jr.",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "CJ Donaldson",
-    "pos": "RB",
+    "name": "Erik McCoy",
+    "pos": "C",
     "status": "Out"
    },
    {
@@ -905,13 +860,18 @@
     "status": "Out"
    },
    {
-    "name": "Erik McCoy",
-    "pos": "C",
+    "name": "Taliese Fuaga",
+    "pos": "OT",
     "status": "Out"
    },
    {
-    "name": "Taliese Fuaga",
-    "pos": "OT",
+    "name": "Martin Emerson Jr.",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
+    "name": "CJ Donaldson",
+    "pos": "RB",
     "status": "Out"
    }
   ],
@@ -1109,6 +1069,16 @@
   ],
   "TEN": [
    {
+    "name": "Tommy Townsend",
+    "pos": "P",
+    "status": "Out"
+   },
+   {
+    "name": "Peter Skoronski",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
     "name": "Cody Barton",
     "pos": "LB",
     "status": "Out"
@@ -1122,16 +1092,6 @@
     "name": "Tyjae Spears",
     "pos": "RB",
     "status": "Questionable"
-   },
-   {
-    "name": "Tommy Townsend",
-    "pos": "P",
-    "status": "Out"
-   },
-   {
-    "name": "Peter Skoronski",
-    "pos": "G",
-    "status": "Out"
    },
    {
     "name": "Carnell Tate",
@@ -1205,166 +1165,166 @@
  "trend": {
   "darren waller": {
    "rank": 1,
-   "adds": 839979
+   "adds": 826785
   },
   "konata mumpfield": {
    "rank": 2,
-   "adds": 741591
+   "adds": 719451
   },
   "emmett johnson": {
    "rank": 3,
-   "adds": 688761
+   "adds": 703953
   },
   "corey kiner": {
    "rank": 4,
-   "adds": 632508
+   "adds": 600546
   },
   "tutu atwell": {
    "rank": 5,
-   "adds": 618016
+   "adds": 599970
   },
   "justice hill": {
    "rank": 6,
-   "adds": 435528
+   "adds": 428229
   },
   "ashton dulin": {
    "rank": 8,
-   "adds": 345537
+   "adds": 335178
   },
   "chris rodriguez": {
    "rank": 9,
-   "adds": 315756
+   "adds": 313047
   },
   "fernando mendoza": {
    "rank": 10,
-   "adds": 279088
+   "adds": 268584
   },
   "khalil shakir": {
-   "rank": 12,
-   "adds": 260793
+   "rank": 11,
+   "adds": 254025
   },
   "jordan addison": {
    "rank": 13,
-   "adds": 242226
+   "adds": 236169
   },
   "tyler higbee": {
    "rank": 14,
-   "adds": 224955
+   "adds": 218727
   },
   "audric estime": {
    "rank": 16,
-   "adds": 206277
+   "adds": 196971
   },
   "tank dell": {
    "rank": 17,
-   "adds": 199976
+   "adds": 190800
   },
   "mack hollins": {
    "rank": 20,
-   "adds": 165471
+   "adds": 161622
   },
   "aaron rodgers": {
    "rank": 21,
-   "adds": 158652
+   "adds": 153332
   },
   "brenton strange": {
    "rank": 22,
-   "adds": 151785
+   "adds": 149175
   },
   "caleb douglas": {
    "rank": 23,
-   "adds": 149864
-  },
-  "kc concepcion": {
-   "rank": 25,
-   "adds": 144270
+   "adds": 148000
   },
   "chimere dike": {
+   "rank": 24,
+   "adds": 145647
+  },
+  "kc concepcion": {
    "rank": 26,
-   "adds": 141093
+   "adds": 139878
   },
   "mike gesicki": {
    "rank": 27,
-   "adds": 130472
+   "adds": 129132
   },
   "deshaun watson": {
    "rank": 28,
-   "adds": 125384
+   "adds": 121864
   },
   "cj daniels": {
    "rank": 29,
-   "adds": 122244
+   "adds": 118256
   },
   "austin ekeler": {
    "rank": 30,
-   "adds": 121660
+   "adds": 117964
   },
   "tyler shough": {
    "rank": 31,
-   "adds": 117976
-  },
-  "demarcus robinson": {
-   "rank": 33,
-   "adds": 113568
+   "adds": 114944
   },
   "rico dowdle": {
+   "rank": 33,
+   "adds": 110065
+  },
+  "ryan flournoy": {
    "rank": 35,
-   "adds": 112975
+   "adds": 107800
   },
   "kyle mccord": {
    "rank": 36,
-   "adds": 111748
+   "adds": 106444
   },
-  "ryan flournoy": {
+  "demarcus robinson": {
    "rank": 37,
-   "adds": 109808
+   "adds": 105696
   },
   "jordyn tyson": {
    "rank": 38,
-   "adds": 104744
+   "adds": 102616
   },
   "anthony gould": {
    "rank": 39,
-   "adds": 102865
+   "adds": 100555
   },
   "cj stroud": {
    "rank": 40,
-   "adds": 98693
+   "adds": 95053
   },
   "jordan mason": {
    "rank": 41,
-   "adds": 94490
+   "adds": 93145
   },
   "blake corum": {
    "rank": 43,
-   "adds": 93640
+   "adds": 90552
   },
   "keon coleman": {
    "rank": 44,
-   "adds": 89199
+   "adds": 85059
   },
   "pierre strong": {
    "rank": 46,
-   "adds": 85122
+   "adds": 81855
   },
   "kirk cousins": {
-   "rank": 47,
-   "adds": 79320
+   "rank": 48,
+   "adds": 76664
   },
   "zonovan knight": {
    "rank": 49,
-   "adds": 75328
+   "adds": 74298
   },
-  "bryce young": {
+  "jadarian price": {
    "rank": 50,
-   "adds": 71884
+   "adds": 69237
   }
  },
  "buzz": {},
  "sources": {
   "lines": "13 games",
-  "weather": "6 outdoor games",
-  "injuries": "172 players listed",
+  "weather": "1 outdoor games",
+  "injuries": "171 players listed",
   "news": "7 players in headlines",
   "google_news": "4 role-cut, 139 injury headlines; QB hurt: CLE, DET, LAR",
   "sleeper_trending": "39 board players trending",
