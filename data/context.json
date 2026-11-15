@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T23:30:54+00:00",
+ "generated": "2026-11-15T23:56:14+00:00",
  "games": {
   "SEALV": {
    "home": "LV",
@@ -21,11 +21,7 @@
    "indoor": true,
    "neutral": false,
    "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "2",
-    "temp": 75
-   }
+   "total": null
   },
   "SFDAL": {
    "home": "DAL",
@@ -57,7 +53,7 @@
    },
    "wx": {
     "wind": 3,
-    "gust": 5,
+    "gust": 6,
     "pop": 0,
     "rain": 0.0,
     "temp": 38
@@ -287,14 +283,19 @@
   ],
   "CIN": [
    {
-    "name": "Dalton Risner",
-    "pos": "G",
-    "status": "Questionable"
+    "name": "Landon Robinson",
+    "pos": "DT",
+    "status": "Out"
    },
    {
     "name": "Myles Hinton",
     "pos": "OT",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Connor Lew",
+    "pos": "C",
+    "status": "Out"
    },
    {
     "name": "Kyle Dugger",
@@ -666,6 +667,11 @@
    }
   ],
   "LV": [
+   {
+    "name": "Kwity Paye",
+    "pos": "DE",
+    "status": "Questionable"
+   },
    {
     "name": "Brock Bowers",
     "pos": "TE",
@@ -1102,6 +1108,11 @@
   ],
   "PIT": [
    {
+    "name": "DeShon Elliott",
+    "pos": "S",
+    "status": "Out"
+   },
+   {
     "name": "Derrick Harmon",
     "pos": "DT",
     "status": "Questionable"
@@ -1294,6 +1305,10 @@
   ]
  },
  "news": {
+  "brock bowers": {
+   "h": "Raiders lose TE Brock Bowers to ankle injury vs. Seahawks",
+   "t": "2026-11-15T23:09:20Z"
+  },
   "fernando mendoza": {
    "h": "Fernando Mendoza steps into starting role in style, leads NFL Week 10 arrivals",
    "t": "2026-11-15T20:17:50Z"
@@ -1302,204 +1317,184 @@
  "trend": {
   "emmett johnson": {
    "rank": 1,
-   "adds": 2000142
+   "adds": 1939113
   },
   "chimere dike": {
    "rank": 2,
-   "adds": 1026927
+   "adds": 1015002
   },
   "justice hill": {
    "rank": 3,
-   "adds": 555813
+   "adds": 556389
   },
   "darren waller": {
    "rank": 4,
-   "adds": 477549
+   "adds": 458874
   },
   "tyler higbee": {
    "rank": 5,
-   "adds": 315909
+   "adds": 309240
   },
   "tutu atwell": {
    "rank": 6,
-   "adds": 314615
+   "adds": 307601
   },
   "chris rodriguez": {
    "rank": 7,
-   "adds": 304317
+   "adds": 300069
   },
   "fernando mendoza": {
    "rank": 8,
-   "adds": 198768
+   "adds": 196920
   },
   "tank dell": {
    "rank": 9,
-   "adds": 180408
+   "adds": 177752
   },
   "caleb douglas": {
    "rank": 10,
-   "adds": 173232
+   "adds": 171400
   },
   "quentin johnston": {
    "rank": 11,
-   "adds": 162267
+   "adds": 170261
   },
   "mike gesicki": {
    "rank": 12,
-   "adds": 152220
-  },
-  "konata mumpfield": {
-   "rank": 14,
-   "adds": 146178
+   "adds": 150672
   },
   "gavin bartholomew": {
+   "rank": 14,
+   "adds": 142488
+  },
+  "konata mumpfield": {
    "rank": 15,
-   "adds": 143181
-  },
-  "brenton strange": {
-   "rank": 16,
-   "adds": 139131
-  },
-  "elic ayomanor": {
-   "rank": 17,
-   "adds": 138092
+   "adds": 140562
   },
   "darnell washington": {
+   "rank": 16,
+   "adds": 138190
+  },
+  "brenton strange": {
+   "rank": 17,
+   "adds": 136116
+  },
+  "elic ayomanor": {
    "rank": 18,
-   "adds": 137265
+   "adds": 136056
   },
   "seth mcgowan": {
    "rank": 19,
-   "adds": 131184
+   "adds": 133888
   },
   "corey kiner": {
    "rank": 20,
-   "adds": 126804
-  },
-  "ashton dulin": {
-   "rank": 21,
-   "adds": 120951
+   "adds": 123216
   },
   "khalil shakir": {
+   "rank": 21,
+   "adds": 116964
+  },
+  "ashton dulin": {
    "rank": 22,
-   "adds": 119745
+   "adds": 116811
   },
   "zonovan knight": {
    "rank": 23,
-   "adds": 118268
+   "adds": 116736
   },
   "jordyn tyson": {
    "rank": 24,
-   "adds": 110944
+   "adds": 112856
   },
   "jadarian price": {
-   "rank": 26,
-   "adds": 99387
+   "rank": 25,
+   "adds": 99360
   },
   "ryan flournoy": {
    "rank": 27,
-   "adds": 95600
+   "adds": 95064
   },
   "colby parkinson": {
    "rank": 28,
-   "adds": 92472
+   "adds": 90522
   },
   "xavier hutchinson": {
-   "rank": 30,
-   "adds": 83986
+   "rank": 29,
+   "adds": 86275
   },
   "deshaun watson": {
-   "rank": 32,
-   "adds": 83168
+   "rank": 30,
+   "adds": 83680
   },
   "jakobi meyers": {
    "rank": 33,
-   "adds": 83154
-  },
-  "hunter henry": {
-   "rank": 34,
-   "adds": 82290
+   "adds": 81726
   },
   "cj daniels": {
    "rank": 35,
-   "adds": 81692
+   "adds": 79828
+  },
+  "hunter henry": {
+   "rank": 36,
+   "adds": 78777
   },
   "demarcus robinson": {
    "rank": 37,
-   "adds": 76482
+   "adds": 75900
   },
   "rico dowdle": {
    "rank": 38,
-   "adds": 76435
-  },
-  "jordan mason": {
-   "rank": 39,
-   "adds": 75740
+   "adds": 75660
   },
   "aaron rodgers": {
+   "rank": 39,
+   "adds": 74328
+  },
+  "jordan mason": {
    "rank": 40,
-   "adds": 74724
-  },
-  "tyler shough": {
-   "rank": 43,
-   "adds": 70560
-  },
-  "dylan sampson": {
-   "rank": 44,
-   "adds": 68965
-  },
-  "kyle pitts": {
-   "rank": 45,
-   "adds": 66829
+   "adds": 74170
   },
   "kaelon black": {
+   "rank": 43,
+   "adds": 70595
+  },
+  "tyler shough": {
+   "rank": 44,
+   "adds": 69344
+  },
+  "dylan sampson": {
+   "rank": 45,
+   "adds": 68155
+  },
+  "kyle pitts": {
    "rank": 46,
-   "adds": 64988
+   "adds": 65667
   },
   "kc concepcion": {
    "rank": 47,
-   "adds": 64314
+   "adds": 63180
   },
   "malik washington": {
    "rank": 48,
-   "adds": 63168
+   "adds": 62536
   },
   "cj stroud": {
    "rank": 50,
-   "adds": 59668
+   "adds": 59745
   }
  },
  "buzz": {},
  "sources": {
   "lines": "2 games",
   "weather": "2 outdoor games",
-  "injuries": "228 players listed",
-  "news": "1 players in headlines",
+  "injuries": "231 players listed",
+  "news": "2 players in headlines",
   "google_news": "6 role-cut, 65 injury headlines; QB hurt: LV, NE, NYJ",
   "sleeper_trending": "42 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
-  "matthew stafford": {
-   "h": [
-    "Stafford dials launch codes to Mumpfield for 44-yard gain vs. Cards",
-    "Zaven Collins' sack of Stafford results in 10-yard loss for Rams' offense",
-    "In 2021, Matthew Stafford sold his Michigan mansion for $6 million; that same year, he bought a $19.6 mil"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Stafford dials launch codes to Mumpfield for 44-yard gain vs. Cards"
-  },
-  "carson beck": {
-   "h": [
-    "Can't-Miss Play: Aaron Donald's first sack since New Year's Eve 2023 comes against Carson Beck",
-    "Arizona Cardinals quarterback Carson Beck dimes up wide receiver Devin Duvernay for dynamic 31-yard gain",
-    "Carson Beck completes 1st NFL pass, leads scoring drive in opening series"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Can't-Miss Play: Aaron Donald's first sack since New Year's Eve 2023 comes against Carson Beck"
-  },
   "fernando mendoza": {
    "h": [
     "Raiders' Brock Bowers ruled out with ankle injury as Fernando Mendoza makes first career start",
@@ -1580,35 +1575,6 @@
    "inj": true,
    "worst": "Jacoby Brissett Week 10 Outlook for Fantasy Football (2026)"
   },
-  "tyler allgeier": {
-   "h": [
-    "Tyler Allgeier Fantasy Football Start or Sit Advice for Week 10",
-    "Tyler Allgeier or Emmett Johnson",
-    "Nate Carter or Tyler Allgeier: Who Should I Start in Week 10? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Tyler Allgeier Fantasy Football Start or Sit Advice for Week 10"
-  },
-  "kyren williams": {
-   "h": [
-    "3 Best Rams Player Prop Bets for Week 10 at Cardinals: Kyren Williams Carries the Load",
-    "Kyren Williams or Nate Carter: Who Should I Start in Week 10? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Kyren Williams or Nate Carter: Who Should I Start in Week 10? Fantasy Football"
-  },
-  "blake corum": {
-   "h": [
-    "Blake Corum scores for sixth consecutive game, Rams lead 24-6",
-    "Mack Wilson Sr. lowers the BOOM on Blake Corum for powerful TFL in red zone",
-    "Blake Corum or Nate Carter: Who Should I Start in Week 10? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Blake Corum or Nate Carter: Who Should I Start in Week 10? Fantasy Football"
-  },
   "bam knight": {
    "h": [
     "Is Bam Knight playing today? The latest on the Cardinals RB",
@@ -1618,6 +1584,16 @@
    "cut": false,
    "inj": true,
    "worst": "Bam Knight Week 10 Outlook for Fantasy Football (2026)"
+  },
+  "matthew stafford": {
+   "h": [
+    "Stafford dials launch codes to Mumpfield for 44-yard gain vs. Cards",
+    "Zaven Collins' sack of Stafford results in 10-yard loss for Rams' offense",
+    "In 2021, Matthew Stafford sold his Michigan mansion for $6 million; that same year, he bought a $19.6 mil"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Stafford dials launch codes to Mumpfield for 44-yard gain vs. Cards"
   },
   "zach charbonnet": {
    "h": [
@@ -1669,16 +1645,6 @@
    "inj": false,
    "worst": "Christian McCaffrey Makes Career History With 74-Yard 49ers Touchdown vs. Cowboys"
   },
-  "kaelon black": {
-   "h": [
-    "Can't-Miss Play: Kaelon Black bulldozes through two Cowboys on 25-yard TD run",
-    "49ers rookie Kaelon Black \u2018catching\u2019 on during OTAs",
-    "49ers rookie Kaelon Black reflects on NFL debut, sees room for growth"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Can't-Miss Play: Kaelon Black bulldozes through two Cowboys on 25-yard TD run"
-  },
   "deebo samuel": {
    "h": [
     "Brock Purdy finds Deebo Samuel for 11-yard TD, giving 49ers lead over Cowboys | NFL Highlights",
@@ -1688,6 +1654,16 @@
    "cut": false,
    "inj": true,
    "worst": "Will Deebo Samuel play today? Injury update, fantasy advice for 49ers WR in Week 10"
+  },
+  "kaelon black": {
+   "h": [
+    "Can't-Miss Play: Kaelon Black bulldozes through two Cowboys on 25-yard TD run",
+    "49ers rookie Kaelon Black \u2018catching\u2019 on during OTAs",
+    "49ers rookie Kaelon Black reflects on NFL debut, sees room for growth"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Can't-Miss Play: Kaelon Black bulldozes through two Cowboys on 25-yard TD run"
   },
   "javonte williams": {
    "h": [
@@ -1795,6 +1771,15 @@
    "inj": true,
    "worst": "Derrick Henry Week 10 Outlook for Fantasy Football (2026)"
   },
+  "kyren williams": {
+   "h": [
+    "3 Best Rams Player Prop Bets for Week 10 at Cardinals: Kyren Williams Carries the Load",
+    "Kyren Williams or Nate Carter: Who Should I Start in Week 10? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Kyren Williams or Nate Carter: Who Should I Start in Week 10? Fantasy Football"
+  },
   "konata mumpfield": {
    "h": [
     "Mike Gesicki or Konata Mumpfield",
@@ -1853,6 +1838,26 @@
    "cut": false,
    "inj": true,
    "worst": "CJ Daniels or David Njoku: Who Should I Start in Week 10? Fantasy Football"
+  },
+  "tyler allgeier": {
+   "h": [
+    "Tyler Allgeier Fantasy Football Start or Sit Advice for Week 10",
+    "Tyler Allgeier or Emmett Johnson",
+    "Nate Carter or Tyler Allgeier: Who Should I Start in Week 10? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Tyler Allgeier Fantasy Football Start or Sit Advice for Week 10"
+  },
+  "blake corum": {
+   "h": [
+    "Blake Corum scores for sixth consecutive game, Rams lead 24-6",
+    "Mack Wilson Sr. lowers the BOOM on Blake Corum for powerful TFL in red zone",
+    "Blake Corum or Nate Carter: Who Should I Start in Week 10? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Blake Corum or Nate Carter: Who Should I Start in Week 10? Fantasy Football"
   },
   "elijah higgins": {
    "h": [
@@ -1913,6 +1918,14 @@
    "inj": false,
    "worst": "WATCH: Jaxon Smith-Njigba scores 71-yard TD for Seahawks"
   },
+  "michael mayer": {
+   "h": [
+    "Fernando Mendoza completes first NFL pass attempt to Michael Mayer"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Fernando Mendoza completes first NFL pass attempt to Michael Mayer"
+  },
   "aj barner": {
    "h": [
     "Garrett Wilson or AJ Barner",
@@ -1968,14 +1981,6 @@
    "inj": true,
    "worst": "Cooper Kupp or Gavin Bartholomew: Who Should I Start in Week 10? Fantasy Football"
   },
-  "michael mayer": {
-   "h": [
-    "Fernando Mendoza completes first NFL pass attempt to Michael Mayer"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Fernando Mendoza completes first NFL pass attempt to Michael Mayer"
-  },
   "brock bowers": {
    "h": [
     "Raiders news: Brock Bowers exits Seahawks clash early with ankle injury",
@@ -1986,16 +1991,6 @@
    "inj": true,
    "worst": "Bowers (ankle) ruled out vs. Seahawks"
   },
-  "george pickens": {
-   "h": [
-    "Can't-Miss Play: CeeDee Lamb's HUGE block springs Pickens free for 39-yard TD",
-    "Dak Prescott finds George Pickens for Cowboys' 35-yard TD, retaking lead vs 49ers | NFL Highlights",
-    "Dak Prescott launches 35-yard pass to find George Pickens for TD"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Is George Pickens playing today? Latest injury update for Cowboys WR in Week 10"
-  },
   "ceedee lamb": {
    "h": [
     "CeeDee Lamb is 96 yards from becoming first Cowboys' player with six straight 1,000-yard seasons",
@@ -2005,6 +2000,16 @@
    "cut": false,
    "inj": true,
    "worst": "CeeDee Lamb or Gavin Bartholomew: Who Should I Draft? Fantasy Football (2026)"
+  },
+  "george pickens": {
+   "h": [
+    "Can't-Miss Play: CeeDee Lamb's HUGE block springs Pickens free for 39-yard TD",
+    "Dak Prescott finds George Pickens for Cowboys' 35-yard TD, retaking lead vs 49ers | NFL Highlights",
+    "Dak Prescott launches 35-yard pass to find George Pickens for TD"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Is George Pickens playing today? Latest injury update for Cowboys WR in Week 10"
   },
   "brevyn spann ford": {
    "h": [
@@ -2384,6 +2389,16 @@
    "cut": false,
    "inj": true,
    "worst": "Week 10 Fantasy Football & NFL Bets FIRE & ICE Players: START Tyler Shough, SIT Jordan Love"
+  },
+  "carson beck": {
+   "h": [
+    "Can't-Miss Play: Aaron Donald's first sack since New Year's Eve 2023 comes against Carson Beck",
+    "Arizona Cardinals quarterback Carson Beck dimes up wide receiver Devin Duvernay for dynamic 31-yard gain",
+    "Carson Beck completes 1st NFL pass, leads scoring drive in opening series"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Can't-Miss Play: Aaron Donald's first sack since New Year's Eve 2023 comes against Carson Beck"
   },
   "cj stroud": {
    "h": [
