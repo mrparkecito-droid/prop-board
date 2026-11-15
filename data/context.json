@@ -1,15 +1,6 @@
 {
- "generated": "2026-11-15T17:31:05+00:00",
+ "generated": "2026-11-15T18:01:04+00:00",
  "games": {
-  "NEDET": {
-   "home": "DET",
-   "away": "NE",
-   "kick": "2026-11-15T14:30Z",
-   "indoor": true,
-   "neutral": true,
-   "spread": {},
-   "total": null
-  },
   "KCATL": {
    "home": "ATL",
    "away": "KC",
@@ -22,7 +13,7 @@
    },
    "total": 47.5,
    "espn_wx": {
-    "desc": "Mostly sunny",
+    "desc": "1",
     "temp": 53
    }
   },
@@ -38,13 +29,13 @@
    },
    "total": 40.5,
    "espn_wx": {
-    "desc": "Cloudy",
-    "temp": 47
+    "desc": "7",
+    "temp": 46
    },
    "wx": {
-    "wind": 13,
+    "wind": 14,
     "gust": 18,
-    "pop": 3,
+    "pop": 2,
     "rain": 0.0,
     "temp": 46
    }
@@ -61,12 +52,12 @@
    },
    "total": 42.5,
    "espn_wx": {
-    "desc": "Mostly cloudy",
-    "temp": 43
+    "desc": "1",
+    "temp": 45
    },
    "wx": {
     "wind": 1,
-    "gust": 5,
+    "gust": 4,
     "pop": 0,
     "rain": 0.0,
     "temp": 44
@@ -84,15 +75,15 @@
    },
    "total": 45.5,
    "espn_wx": {
-    "desc": "Partly sunny",
-    "temp": 52
+    "desc": "1",
+    "temp": 54
    },
    "wx": {
-    "wind": 4,
-    "gust": 8,
+    "wind": 6,
+    "gust": 10,
     "pop": 0,
     "rain": 0.0,
-    "temp": 54
+    "temp": 55
    }
   },
   "MIAIND": {
@@ -107,8 +98,8 @@
    },
    "total": 37.5,
    "espn_wx": {
-    "desc": "Intermittent clouds",
-    "temp": 47
+    "desc": "7",
+    "temp": 48
    }
   },
   "CARNO": {
@@ -118,13 +109,13 @@
    "indoor": true,
    "neutral": false,
    "spread": {
-    "NO": -1.5,
-    "CAR": 1.5
+    "CAR": -1.5,
+    "NO": 1.5
    },
    "total": 48.5,
    "espn_wx": {
-    "desc": "Showers",
-    "temp": 60
+    "desc": "7",
+    "temp": 56
    }
   },
   "BUFNYJ": {
@@ -139,15 +130,15 @@
    },
    "total": 50.5,
    "espn_wx": {
-    "desc": "Intermittent clouds",
-    "temp": 50
+    "desc": "6",
+    "temp": 49
    },
    "wx": {
     "wind": 11,
-    "gust": 18,
+    "gust": 19,
     "pop": 0,
     "rain": 0.0,
-    "temp": 48
+    "temp": 49
    }
   },
   "SEALV": {
@@ -179,7 +170,7 @@
    "total": 38.5,
    "espn_wx": {
     "desc": "Mostly sunny",
-    "temp": 75
+    "temp": 74
    }
   },
   "SFDAL": {
@@ -214,11 +205,11 @@
     "temp": 41
    },
    "wx": {
-    "wind": 3,
-    "gust": 9,
+    "wind": 4,
+    "gust": 11,
     "pop": 0,
     "rain": 0.0,
-    "temp": 42
+    "temp": 39
    }
   },
   "LACBAL": {
@@ -366,6 +357,16 @@
   ],
   "CAR": [
    {
+    "name": "Haynes King",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Will Lee III",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
     "name": "Ja'Tavion Sanders",
     "pos": "TE",
     "status": "Out"
@@ -378,16 +379,6 @@
    {
     "name": "Sam Hecht",
     "pos": "C",
-    "status": "Out"
-   },
-   {
-    "name": "Haynes King",
-    "pos": "QB",
-    "status": "Out"
-   },
-   {
-    "name": "Will Lee III",
-    "pos": "CB",
     "status": "Out"
    },
    {
@@ -590,6 +581,11 @@
   ],
   "GB": [
    {
+    "name": "Kevin Zeitler",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
     "name": "Zaire Franklin",
     "pos": "LB",
     "status": "Out"
@@ -597,11 +593,6 @@
    {
     "name": "Pierre Strong Jr.",
     "pos": "RB",
-    "status": "Out"
-   },
-   {
-    "name": "Kevin Zeitler",
-    "pos": "G",
     "status": "Out"
    },
    {
@@ -627,12 +618,12 @@
   ],
   "HOU": [
    {
-    "name": "Keylan Rutledge",
+    "name": "Wyatt Teller",
     "pos": "G",
     "status": "Out"
    },
    {
-    "name": "Wyatt Teller",
+    "name": "Keylan Rutledge",
     "pos": "G",
     "status": "Out"
    },
@@ -910,19 +901,24 @@
   ],
   "NE": [
    {
-    "name": "Robert Spillane",
-    "pos": "LB",
+    "name": "Dre'Mont Jones",
+    "pos": "DE",
     "status": "Questionable"
    },
    {
     "name": "A.J. Brown",
     "pos": "WR",
-    "status": "Out"
+    "status": "Questionable"
+   },
+   {
+    "name": "Robert Spillane",
+    "pos": "LB",
+    "status": "Questionable"
    },
    {
     "name": "Drake Maye",
     "pos": "QB",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Brenden Schooler",
@@ -1252,10 +1248,6 @@
   ]
  },
  "news": {
-  "drake maye": {
-   "h": "What Hutchinson, Maye injuries mean for Lions, Patriots",
-   "t": "2026-11-15T15:57:18Z"
-  },
   "patrick mahomes": {
    "h": "How travel issues are impacting the officials in the NFL today",
    "t": "2026-11-15T15:45:21Z"
@@ -1268,17 +1260,17 @@
    "h": "Sources: Vikings want to keep Kirk Cousins, talked to QB about staying in 2027",
    "t": "2026-11-15T13:37:49Z"
   },
-  "jaylen warren": {
+  "joe burrow": {
    "h": "Steelers-Bengals odds, analysis, betting tips and recommended props",
    "t": "2026-11-15T11:42:07Z"
   },
-  "joe burrow": {
+  "jaylen warren": {
    "h": "Steelers-Bengals odds, analysis, betting tips and recommended props",
    "t": "2026-11-15T11:42:07Z"
   },
   "travis etienne": {
    "h": "Saints RB Travis Etienne Jr. activated off IR for game vs. Panthers",
-   "t": "2026-11-15T16:32:15Z"
+   "t": "2026-11-14T22:13:44Z"
   },
   "xavier legette": {
    "h": "Panthers WR Xavier Legette, out since Week 2 with knee injury, activated from IR",
@@ -1296,204 +1288,184 @@
  "trend": {
   "emmett johnson": {
    "rank": 1,
-   "adds": 2363391
+   "adds": 2384505
   },
   "chimere dike": {
    "rank": 2,
-   "adds": 1041489
+   "adds": 1068462
   },
   "darren waller": {
    "rank": 3,
-   "adds": 597987
+   "adds": 601542
   },
   "justice hill": {
    "rank": 4,
-   "adds": 457938
+   "adds": 473877
   },
   "chris rodriguez": {
    "rank": 5,
-   "adds": 313920
+   "adds": 321867
   },
   "tyler higbee": {
    "rank": 6,
-   "adds": 281394
+   "adds": 292320
   },
   "tutu atwell": {
    "rank": 7,
-   "adds": 267470
+   "adds": 263872
   },
   "tank dell": {
    "rank": 8,
-   "adds": 178600
-  },
-  "konata mumpfield": {
-   "rank": 9,
-   "adds": 172935
+   "adds": 184184
   },
   "caleb douglas": {
-   "rank": 10,
-   "adds": 170392
+   "rank": 9,
+   "adds": 174920
   },
-  "corey kiner": {
-   "rank": 11,
-   "adds": 157206
+  "konata mumpfield": {
+   "rank": 10,
+   "adds": 162531
   },
   "brenton strange": {
-   "rank": 13,
-   "adds": 149013
+   "rank": 12,
+   "adds": 154206
   },
-  "ashton dulin": {
-   "rank": 14,
-   "adds": 146997
+  "corey kiner": {
+   "rank": 13,
+   "adds": 150456
   },
   "elic ayomanor": {
+   "rank": 14,
+   "adds": 144020
+  },
+  "ashton dulin": {
    "rank": 15,
-   "adds": 142804
+   "adds": 143622
   },
   "mike gesicki": {
    "rank": 16,
-   "adds": 135564
+   "adds": 139296
   },
   "khalil shakir": {
    "rank": 17,
-   "adds": 133677
+   "adds": 133002
   },
   "gavin bartholomew": {
    "rank": 18,
-   "adds": 123228
+   "adds": 128106
   },
   "fernando mendoza": {
    "rank": 19,
-   "adds": 115848
+   "adds": 118792
   },
   "zonovan knight": {
    "rank": 20,
-   "adds": 114754
+   "adds": 117414
   },
   "darnell washington": {
-   "rank": 22,
-   "adds": 105665
+   "rank": 21,
+   "adds": 110040
   },
   "hunter henry": {
-   "rank": 23,
-   "adds": 105225
-  },
-  "jadarian price": {
-   "rank": 25,
-   "adds": 86796
+   "rank": 22,
+   "adds": 104322
   },
   "colby parkinson": {
+   "rank": 25,
+   "adds": 88842
+  },
+  "jadarian price": {
    "rank": 26,
-   "adds": 85230
+   "adds": 88641
   },
   "jakobi meyers": {
    "rank": 27,
-   "adds": 85194
+   "adds": 88224
   },
   "cj daniels": {
-   "rank": 28,
-   "adds": 84924
+   "rank": 29,
+   "adds": 83916
   },
   "jordan mason": {
    "rank": 30,
-   "adds": 80865
-  },
-  "jordyn tyson": {
-   "rank": 32,
-   "adds": 73040
+   "adds": 81680
   },
   "tyler shough": {
    "rank": 33,
-   "adds": 72600
+   "adds": 74432
   },
-  "rico dowdle": {
+  "jordyn tyson": {
    "rank": 34,
-   "adds": 71855
-  },
-  "audric estime": {
-   "rank": 35,
-   "adds": 69546
+   "adds": 72240
   },
   "dylan sampson": {
+   "rank": 35,
+   "adds": 72125
+  },
+  "rico dowdle": {
    "rank": 36,
-   "adds": 69370
+   "adds": 72005
   },
   "kyle pitts": {
-   "rank": 38,
-   "adds": 68047
-  },
-  "kc concepcion": {
-   "rank": 39,
-   "adds": 67986
+   "rank": 37,
+   "adds": 71533
   },
   "deshaun watson": {
-   "rank": 40,
-   "adds": 67864
+   "rank": 38,
+   "adds": 70936
   },
   "seth mcgowan": {
-   "rank": 41,
-   "adds": 66184
+   "rank": 39,
+   "adds": 68720
   },
-  "mack hollins": {
-   "rank": 42,
-   "adds": 65157
+  "audric estime": {
+   "rank": 40,
+   "adds": 67752
+  },
+  "kc concepcion": {
+   "rank": 41,
+   "adds": 67320
   },
   "aaron rodgers": {
+   "rank": 42,
+   "adds": 66512
+  },
+  "mack hollins": {
    "rank": 43,
-   "adds": 64916
+   "adds": 61122
   },
   "malik washington": {
    "rank": 44,
-   "adds": 59416
+   "adds": 60280
   },
   "anthony gould": {
-   "rank": 45,
-   "adds": 59045
+   "rank": 46,
+   "adds": 57631
   },
   "ryan flournoy": {
    "rank": 48,
-   "adds": 55432
+   "adds": 55256
   },
   "travis etienne": {
    "rank": 49,
-   "adds": 51084
+   "adds": 52662
   },
   "kaelon black": {
    "rank": 50,
-   "adds": 48496
+   "adds": 50218
   }
  },
  "buzz": {},
  "sources": {
   "lines": "12 games",
   "weather": "6 outdoor games",
-  "injuries": "188 players listed",
-  "news": "10 players in headlines",
-  "google_news": "8 role-cut, 165 injury headlines; QB hurt: CIN, CLE, JAX, KC, NE, NO",
+  "injuries": "189 players listed",
+  "news": "9 players in headlines",
+  "google_news": "8 role-cut, 156 injury headlines; QB hurt: CIN, CLE, JAX, KC, NE, NO",
   "sleeper_trending": "42 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
-  "drake maye": {
-   "h": [
-    "Drake Maye Ruled Out of Munich Game With Ankle Injury",
-    "Drake Maye Ankle Injury: Patriots QB Out vs Lions in Munich",
-    "Pro Football Doc thinks Drake Maye will miss time with ankle injury, but there\u2019s a silver lining"
-   ],
-   "cut": true,
-   "inj": true,
-   "worst": "Drake Maye Ruled Out of Munich Game With Ankle Injury"
-  },
-  "jared goff": {
-   "h": [
-    "Goff locates Gibbs for 50-yard catch and run against Patriots in Munich",
-    "Jared Goff Connects With Amon-Ra St. Brown for 56-Yard TD to Give Lions Early Lead Over Patriots | NFL Highlights",
-    "Lions' Jared Goff tumbles in CBS Sports Week 10 QB rankings"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Is Jared Goff Playing Sunday? (Injury Update, Betting Impact for Patriots vs. Lions in NFL Week 10)"
-  },
   "geno smith": {
    "h": [
     "Bills' Last Game vs. Jets' Geno Smith Combo Brings Back Motown Memories",
@@ -1733,36 +1705,6 @@
    "cut": false,
    "inj": true,
    "worst": "Jacoby Brissett Week 10 Outlook for Fantasy Football (2026)"
-  },
-  "sione vaki": {
-   "h": [
-    "Detroit Lions running back Sione Vaki unleashes a stiff arm to spring a 17-yard gain",
-    "Sione Vaki Suiting up in Week 10",
-    "Sione Vaki (ankle) active for Week 10"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "CJ Daniels or Sione Vaki: Who Should I Pick Up? Fantasy Football (2026)"
-  },
-  "corey kiner": {
-   "h": [
-    "Corey Kiner Start or Sit Advice for Week 10",
-    "Anthony Gould or Corey Kiner: Who Should I Pick Up? Fantasy Football (2026)",
-    "Deebo Samuel Sr. or Corey Kiner"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Anthony Gould or Corey Kiner: Who Should I Pick Up? Fantasy Football (2026)"
-  },
-  "jahmyr gibbs": {
-   "h": [
-    "Jahmyr Gibbs' 28-yard TD run is aided by Penei Sewell's pull block around right edge",
-    "Lions running back Jahmyr Gibbs ties NFL record during Germany game vs. Patriots",
-    "Jahmyr Gibbs Makes Detroit Lions History With Incredible First Half vs. Patriots"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Jahmyr Gibbs' 28-yard TD run is aided by Penei Sewell's pull block around right edge"
   },
   "james cook": {
    "h": [
@@ -2242,95 +2184,6 @@
    "cut": false,
    "inj": true,
    "worst": "Derrick Henry Week 10 Outlook for Fantasy Football (2026)"
-  },
-  "demario douglas": {
-   "h": [
-    "DeMario Douglas Fantasy Football Start or Sit Advice for Week 10",
-    "Brevyn Spann-Ford or DeMario Douglas: Who Should I Start in Week 10? Fantasy Football",
-    "DeMario Douglas Week 10 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "DeMario Douglas Fantasy Football Start or Sit Advice for Week 10"
-  },
-  "sam laporta": {
-   "h": [
-    "Brevyn Spann-Ford or Sam LaPorta: Who Should I Start in Week 10? Fantasy Football",
-    "Sam LaPorta Week 10 Outlook for Fantasy Football (2026)",
-    "Who Should I Start for Fantasy Football Week 10? Sam LaPorta, Harold Fannin, Tucker Kraft, Brenton Strange, Kyle Pitts, Dalton Kincaid, Darren Waller, Hunter Henry, Juwan Johnson"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Brevyn Spann-Ford or Sam LaPorta: Who Should I Start in Week 10? Fantasy Football"
-  },
-  "eli raridon": {
-   "h": [
-    "Who Should I Start for Fantasy Football Week 10? Dalton Schultz, George Kittle, David Njoku, Eli Raridon, Mark Andrews, Gunnar Helm, Michael Mayer, Colby Parkinson, Brevyn Spann-Ford",
-    "Eli Raridon NFL Stats, Game Log & Bio"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 10? Dalton Schultz, George Kittle, David Njoku, Eli Raridon, Mark Andrews, Gunnar Helm, Michael Mayer, Colby Parkinson, Brevyn Spann-Ford"
-  },
-  "jameson williams": {
-   "h": [
-    "Toe-tap catch alert! Jameson Williams drags his feet to complete 19-yard snag against Patriots",
-    "Backlash Mounts Against Jameson Williams for Demanding 2,000 Euros for Returning Person's Lost ID in Germany",
-    "Jameson Williams Has Hilarious Message After Finding Lost ID in Germany"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Toe-tap catch alert! Jameson Williams drags his feet to complete 19-yard snag against Patriots"
-  },
-  "efton chism": {
-   "h": [
-    "Efton Chism III or Parker Washington: Who Should I Start in Week 10? Fantasy Football",
-    "Who Should I Start for Fantasy Football Week 10? Efton Chism III, Jerry Jeudy, Elic Ayomanor, Israel Abanikanda, Seth McGowan, Lan Larison, Chimere Dike, Zach Charbonnet, Kyle Williams",
-    "David Njoku or Efton Chism III: Who Should I Start in Week 10? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Efton Chism III or Parker Washington: Who Should I Start in Week 10? Fantasy Football"
-  },
-  "isaac teslaa": {
-   "h": [
-    "Isaac TeSlaa extends Detroit Lions lead over Patriots with impressive adjustment catch",
-    "Isaac TeSlaa makes AMAZING TD Catch",
-    "Isaac TeSlaa Makes SPECTACULAR TD Catch to Extend Lions' Lead Over Patriots"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Isaac TeSlaa extends Detroit Lions lead over Patriots with impressive adjustment catch"
-  },
-  "mack hollins": {
-   "h": [
-    "Drake Maye avoids pressure to lob it to Mack Hollins for a 26-yard Gain",
-    "Mack Hollins Calls on Patriots to Lock In After Loss to Packers",
-    "Ben Yurosek or Mack Hollins: Who Should I Start in Week 10? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ben Yurosek or Mack Hollins: Who Should I Start in Week 10? Fantasy Football"
-  },
-  "hunter henry": {
-   "h": [
-    "Hunter Henry Week 10 Outlook for Fantasy Football (2026)",
-    "Hunter Henry or Emmett Johnson",
-    "Who Should I Start for Fantasy Football Week 10? Sam LaPorta, Harold Fannin, Tucker Kraft, Brenton Strange, Kyle Pitts, Dalton Kincaid, Darren Waller, Hunter Henry, Juwan Johnson"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Hunter Henry Week 10 Outlook for Fantasy Football (2026)"
-  },
-  "amon ra st brown": {
-   "h": [
-    "\"Lions always have zesty celebrations\" \"Crazy work\": NFL fans react to Amon Ra St. Brown forming human centipede with team after 2nd TD vs. Patriots",
-    "Can't-Miss Play: Lions collectively carry St. Brown past the goal line on 28-yard TD vs. Pats",
-    "Amon-Ra St. Brown Scores His Second TD as Lions Extend Lead Over Patriots in Germany"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "\"Lions always have zesty celebrations\" \"Crazy work\": NFL fans react to Amon Ra St. Brown forming human centipede with team after 2nd TD vs. Patriots"
   },
   "garrett wilson": {
    "h": [
@@ -3376,6 +3229,26 @@
    "cut": false,
    "inj": false,
    "worst": "The Giants Can Unlock J.J. McCarthy By Getting Him On the Move"
+  },
+  "jared goff": {
+   "h": [
+    "Goff locates Gibbs for 50-yard catch and run against Patriots in Munich",
+    "Jared Goff Connects With Amon-Ra St. Brown for 56-Yard TD to Give Lions Early Lead Over Patriots | NFL Highlights",
+    "Lions' Jared Goff tumbles in CBS Sports Week 10 QB rankings"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Is Jared Goff Playing Sunday? (Injury Update, Betting Impact for Patriots vs. Lions in NFL Week 10)"
+  },
+  "drake maye": {
+   "h": [
+    "Drake Maye Ruled Out of Munich Game With Ankle Injury",
+    "Drake Maye Ankle Injury: Patriots QB Out vs Lions in Munich",
+    "Pro Football Doc thinks Drake Maye will miss time with ankle injury, but there\u2019s a silver lining"
+   ],
+   "cut": true,
+   "inj": true,
+   "worst": "Drake Maye Ruled Out of Munich Game With Ankle Injury"
   }
  },
  "qbhurt": [
