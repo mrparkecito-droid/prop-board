@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T22:00:56+00:00",
+ "generated": "2026-11-17T22:31:03+00:00",
  "games": {
   "INDHOU": {
    "home": "HOU",
@@ -27,14 +27,7 @@
     "BUF": -16.5,
     "MIA": 16.5
    },
-   "total": 45.5,
-   "wx": {
-    "wind": 5,
-    "gust": 15,
-    "pop": 35,
-    "rain": 0.0,
-    "temp": 61
-   }
+   "total": 45.5
   },
   "NOCHI": {
    "home": "CHI",
@@ -50,13 +43,38 @@
    "espn_wx": {
     "desc": "Cloudy",
     "temp": 50
+   }
+  },
+  "TENDAL": {
+   "home": "DAL",
+   "away": "TEN",
+   "kick": "2026-11-22T18:00Z",
+   "indoor": true,
+   "neutral": false,
+   "spread": {
+    "DAL": -8.5,
+    "TEN": 8.5
    },
-   "wx": {
-    "wind": 8,
-    "gust": 20,
-    "pop": 43,
-    "rain": 0.5,
-    "temp": 58
+   "total": 54.5,
+   "espn_wx": {
+    "desc": "Hazy sunshine",
+    "temp": 63
+   }
+  },
+  "JAXNYG": {
+   "home": "NYG",
+   "away": "JAX",
+   "kick": "2026-11-22T21:25Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {
+    "JAX": -6.0,
+    "NYG": 6.0
+   },
+   "total": 46.5,
+   "espn_wx": {
+    "desc": "Cloudy",
+    "temp": 59
    }
   }
  },
@@ -76,16 +94,6 @@
     "name": "Jon Gaines II",
     "pos": "G",
     "status": "Questionable"
-   },
-   {
-    "name": "Jordan Burch",
-    "pos": "LB",
-    "status": "Out"
-   },
-   {
-    "name": "Andrew Wingard",
-    "pos": "S",
-    "status": "Out"
    }
   ],
   "ATL": [
@@ -197,6 +205,11 @@
   ],
   "CLE": [
    {
+    "name": "Elijah Chatman",
+    "pos": "DT",
+    "status": "Questionable"
+   },
+   {
     "name": "Ronnie Hickman",
     "pos": "S",
     "status": "Out"
@@ -268,6 +281,11 @@
   ],
   "DET": [
    {
+    "name": "Kerby Joseph",
+    "pos": "S",
+    "status": "Out"
+   },
+   {
     "name": "Cade Mays",
     "pos": "C",
     "status": "Doubtful"
@@ -280,11 +298,6 @@
    {
     "name": "Aidan Hutchinson",
     "pos": "DE",
-    "status": "Out"
-   },
-   {
-    "name": "Kerby Joseph",
-    "pos": "S",
     "status": "Out"
    }
   ],
@@ -332,6 +345,16 @@
   ],
   "HOU": [
    {
+    "name": "Marvin Harrison Jr.",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "Woody Marks",
+    "pos": "RB",
+    "status": "Doubtful"
+   },
+   {
     "name": "Kamari Lassiter",
     "pos": "CB",
     "status": "Questionable"
@@ -349,16 +372,6 @@
    {
     "name": "Jake Hummel",
     "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Woody Marks",
-    "pos": "RB",
-    "status": "Doubtful"
-   },
-   {
-    "name": "Marvin Harrison Jr.",
-    "pos": "WR",
     "status": "Questionable"
    }
   ],
@@ -850,177 +863,185 @@
   "kyle mccord": {
    "h": "Miami Dolphins backup QB Kyle McCord showed poise in debut vs. Indianapolis Colts",
    "t": "2026-11-17T16:48:42Z"
+  },
+  "jordyn tyson": {
+   "h": "Why Jordyn Tyson is Field Yates' No. 1 waiver wire pickup",
+   "t": "2026-11-17T16:28:17Z"
+  },
+  "cam ward": {
+   "h": "Why Cam Ward has real streaming potential in Week 11",
+   "t": "2026-11-17T17:01:53Z"
   }
  },
  "trend": {
   "michael mayer": {
    "rank": 1,
-   "adds": 1443699
+   "adds": 1481652
   },
   "xavier hutchinson": {
    "rank": 2,
-   "adds": 1240855
+   "adds": 1272817
   },
   "seth mcgowan": {
    "rank": 3,
-   "adds": 830920
+   "adds": 847416
   },
   "ryan flournoy": {
    "rank": 4,
-   "adds": 783864
+   "adds": 803552
   },
   "jordyn tyson": {
    "rank": 5,
-   "adds": 762888
+   "adds": 776752
   },
   "pat bryant": {
    "rank": 6,
-   "adds": 682992
+   "adds": 705704
   },
   "mark andrews": {
    "rank": 7,
-   "adds": 637776
+   "adds": 657837
   },
   "justice hill": {
    "rank": 9,
-   "adds": 390366
-  },
-  "quentin johnston": {
-   "rank": 10,
-   "adds": 340963
+   "adds": 395307
   },
   "elic ayomanor": {
+   "rank": 10,
+   "adds": 353940
+  },
+  "quentin johnston": {
    "rank": 11,
-   "adds": 336340
+   "adds": 341418
   },
   "bo nix": {
    "rank": 12,
-   "adds": 316794
+   "adds": 324384
   },
   "kaelon black": {
    "rank": 14,
-   "adds": 293244
+   "adds": 299733
   },
   "jacory croskey merritt": {
    "rank": 15,
-   "adds": 267084
+   "adds": 278127
   },
   "emmett johnson": {
    "rank": 16,
-   "adds": 262512
+   "adds": 265707
   },
   "caleb douglas": {
    "rank": 17,
-   "adds": 253048
+   "adds": 259616
   },
   "gavin bartholomew": {
    "rank": 19,
-   "adds": 209709
+   "adds": 214668
   },
   "david montgomery": {
    "rank": 21,
-   "adds": 195762
+   "adds": 201540
   },
   "cj stroud": {
    "rank": 22,
-   "adds": 193753
+   "adds": 197057
   },
   "kirk cousins": {
    "rank": 23,
-   "adds": 188912
+   "adds": 192512
   },
   "darren waller": {
    "rank": 24,
-   "adds": 172179
+   "adds": 175815
   },
   "adonai mitchell": {
-   "rank": 26,
-   "adds": 166120
+   "rank": 25,
+   "adds": 171280
   },
   "mike gesicki": {
    "rank": 27,
-   "adds": 162064
+   "adds": 163628
   },
   "brenton strange": {
    "rank": 28,
-   "adds": 154755
+   "adds": 157977
   },
   "courtland sutton": {
    "rank": 29,
-   "adds": 143748
-  },
-  "fernando mendoza": {
-   "rank": 30,
-   "adds": 138208
-  },
-  "alvin kamara": {
-   "rank": 31,
-   "adds": 137248
+   "adds": 149319
   },
   "kyle monangai": {
+   "rank": 30,
+   "adds": 140352
+  },
+  "fernando mendoza": {
+   "rank": 31,
+   "adds": 139968
+  },
+  "alvin kamara": {
    "rank": 32,
-   "adds": 136596
+   "adds": 138992
   },
   "kenny gainwell": {
    "rank": 34,
-   "adds": 128608
+   "adds": 132264
   },
   "malik washington": {
    "rank": 36,
-   "adds": 113800
+   "adds": 116600
   },
   "josh downs": {
    "rank": 39,
-   "adds": 107375
+   "adds": 109440
   },
   "tre harris": {
    "rank": 40,
-   "adds": 104732
+   "adds": 106620
   },
   "omarion hampton": {
    "rank": 41,
-   "adds": 95943
+   "adds": 98178
   },
   "samaje perine": {
    "rank": 42,
-   "adds": 91428
+   "adds": 93716
   },
   "dohnte meyers": {
    "rank": 43,
-   "adds": 88227
+   "adds": 89100
   },
   "keon coleman": {
    "rank": 44,
-   "adds": 79632
+   "adds": 82215
   },
   "khalil shakir": {
    "rank": 45,
-   "adds": 72720
-  },
-  "aaron rodgers": {
-   "rank": 46,
-   "adds": 72688
+   "adds": 74718
   },
   "jayden daniels": {
+   "rank": 46,
+   "adds": 73640
+  },
+  "aaron rodgers": {
    "rank": 47,
-   "adds": 72352
+   "adds": 73640
   },
   "jj mccarthy": {
    "rank": 49,
-   "adds": 69906
+   "adds": 70833
   },
   "chris godwin": {
    "rank": 50,
-   "adds": 69570
+   "adds": 70680
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "3 games",
-  "weather": "2 outdoor games",
-  "injuries": "144 players listed",
-  "news": "1 players in headlines",
-  "google_news": "5 role-cut, 27 injury headlines; QB hurt: BAL, LV, NYJ, TB",
+  "lines": "5 games",
+  "weather": "0 outdoor games",
+  "injuries": "143 players listed",
+  "news": "3 players in headlines",
+  "google_news": "7 role-cut, 46 injury headlines; QB hurt: BAL, DET, NYJ, TB",
   "sleeper_trending": "40 board players trending",
   "reddit": "unavailable"
  },
@@ -1037,12 +1058,13 @@
   },
   "cj stroud": {
    "h": [
+    "Buckeyes in the NFL: C.J. Stroud puts up big numbers, rookie have career performances",
     "C.J. Stroud Fantasy Outlook & Stats",
     "4 Key Quotes From C.J. Stroud After Texans' Week 10 Loss to Browns"
    ],
    "cut": false,
    "inj": false,
-   "worst": "C.J. Stroud Fantasy Outlook & Stats"
+   "worst": "Buckeyes in the NFL: C.J. Stroud puts up big numbers, rookie have career performances"
   },
   "kyle mccord": {
    "h": [
@@ -1056,9 +1078,9 @@
   },
   "josh allen": {
    "h": [
+    "Josh Allen Has Interesting Outlook on Bills 8-1 Start to Season",
     "Cincinnati Bengals Joe Burrow DOMINATES NFL MVP RACE as Josh Allen & Brock Purdy FIGHT to STAY ALIVE",
-    "Week 11 Fantasy Football Quarterback Rankings: Brock Purdy Falls In A Tough Matchup, While Josh Allen Thrives",
-    "Bills' Josh Allen, Joe Brady on how Bills are winning games"
+    "Week 11 Fantasy Football Quarterback Rankings: Brock Purdy Falls In A Tough Matchup, While Josh Allen Thrives"
    ],
    "cut": false,
    "inj": true,
@@ -1076,13 +1098,53 @@
   },
   "caleb williams": {
    "h": [
+    "Bears Get Encouraging News as Caleb Williams Opens Up About Two Playmakers",
     "Caleb Williams - Fantasy Football Risers, Breakouts for Week 11 (2026) - NFL News",
-    "TST Today: Chargers Finally Win, Time to Trade Lamar? + Caleb Williams for MVP",
-    "Bears have set perfect stage for Caleb Williams to bounce back"
+    "TST Today: Chargers Finally Win, Time to Trade Lamar? + Caleb Williams for MVP"
    ],
    "cut": false,
    "inj": true,
    "worst": "Caleb Williams - Fantasy Football Risers, Breakouts for Week 11 (2026) - NFL News"
+  },
+  "cam ward": {
+   "h": [
+    "Fantasy football Week 11 QB preview: Cam Ward emerges as top streamer with six teams on bye against Cowboys",
+    "Why Titans QB Cam Ward is a top fantasy football streamer in Week 11",
+    "Cam Ward: Must-Add Waiver Wire Pickup for Week 11 Fantasy Football? - NFL News"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Fantasy football Week 11 QB preview: Cam Ward emerges as top streamer with six teams on bye against Cowboys"
+  },
+  "dak prescott": {
+   "h": [
+    "Pat Mahomes, Dak Prescott, and 2 Other Must-Start Quarterbacks in Week 11 Fantasy Football",
+    "Michael Irvin Eviscerates Dak Prescott for Shaming Cowboys Fans",
+    "\u2018I Hate That Answer\u2019 -- Former Jets HC Blasts Dak Prescott Over \u2018Terrible\u2019 Reaction to 49ers Fans Taking Over Cowboys\u2019 Stadium"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Pat Mahomes, Dak Prescott, and 2 Other Must-Start Quarterbacks in Week 11 Fantasy Football"
+  },
+  "jj mccarthy": {
+   "h": [
+    "Giants QB J.J. McCarthy Predicted as Starter for AFC Team in 2027",
+    "Giants Legend Sends Strong J.J. McCarthy Message Before Jaguars Game",
+    "J.J. McCarthy or Malik Nabers"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Giants QB J.J. McCarthy Predicted as Starter for AFC Team in 2027"
+  },
+  "trevor lawrence": {
+   "h": [
+    "Liam Coen says Trevor Lawrence isn't getting enough credit",
+    "Giants\u2019 tough stretch begins with MVP candidate Trevor Lawrence and the surging Jaguars",
+    "Jaguars\u2019 Trevor Lawrence is about to give Giants their biggest test"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Trevor Lawrence in the MVP Mix as Jaguars are in Command of the AFC South Stream of National Football League"
   },
   "seth mcgowan": {
    "h": [
@@ -1123,6 +1185,53 @@
    "inj": false,
    "worst": "Early NFL Player Props for Week 11: James Cook, Christian McCaffrey & More"
   },
+  "javonte williams": {
+   "h": [
+    "Jaylen Warren, Javonte Williams and other Week 11 fantasy football bad beats not to stress over",
+    "Javonte Williams' late TD run helps Cowboys avoid another 4th-quarter collapse and beat Colts 27-23",
+    "Dynasty Fantasy Football Buy/Sells for Week 11: Clock Ticking on Javonte Williams?"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jaylen Warren, Javonte Williams and other Week 11 fantasy football bad beats not to stress over"
+  },
+  "devin singletary": {
+   "h": [
+    "Devin Singletary or Kaelon Black: Who Should I Start in Week 11? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Devin Singletary or Kaelon Black: Who Should I Start in Week 11? Fantasy Football"
+  },
+  "cam skattebo": {
+   "h": [
+    "Why Fantasy Managers Should Sell High on Cam Skattebo",
+    "Cam Skattebo - Fantasy Football Risers, Breakouts for Week 11 (2026) - NFL News",
+    "Giants | Cam Skattebo would have been limited on Monday\u2019s estimated report"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Cam Skattebo - Fantasy Football Risers, Breakouts for Week 11 (2026) - NFL News"
+  },
+  "chris rodriguez": {
+   "h": [
+    "Chris Rodriguez Jr. or Myles Price: Who Should I Start in Week 11? Fantasy Football",
+    "Chris Rodriguez Jr.: Must-Add Waiver Wire Pickup for Week 11 Fantasy Football? - NFL News"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Chris Rodriguez Jr. or Myles Price: Who Should I Start in Week 11? Fantasy Football"
+  },
+  "bhayshul tuten": {
+   "h": [
+    "Micah McFadden has the Giants\u2019 first answer for Tuten",
+    "Bhayshul Tuten or Jordyn Tyson: Who Should I Start in Week 11? Fantasy Football",
+    "Bhayshul Tuten explains how Jaguars keep defenses guessing - The Florida Times-Union"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Bhayshul Tuten or Jordyn Tyson: Who Should I Start in Week 11? Fantasy Football"
+  },
   "tank dell": {
    "h": [
     "Week 11 Tank Dell Fantasy Start or Sit 2026",
@@ -1154,12 +1263,12 @@
   "nico collins": {
    "h": [
     "Emmett Johnson or Nico Collins",
-    "Jamey Eisenberg's Week 10 Fantasy stock watch: Nico Collins surges as Chris Olave and Sam LaPorta stumble",
-    "Jordyn Tyson or Nico Collins: Who Should I Start in Week 11? Fantasy Football"
+    "Emmett Johnson or Nico Collins: Who Should I Start in Week 10? Fantasy Football",
+    "Jamey Eisenberg's Week 10 Fantasy stock watch: Nico Collins surges as Chris Olave and Sam LaPorta stumble"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jordyn Tyson or Nico Collins: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Emmett Johnson or Nico Collins: Who Should I Start in Week 10? Fantasy Football"
   },
   "tyler warren": {
    "h": [
@@ -1170,6 +1279,16 @@
    "cut": true,
    "inj": true,
    "worst": "Week 11 Fantasy Football Tight Ends to Bench Including Tyler Warren & Darren Waller"
+  },
+  "laquon treadwell": {
+   "h": [
+    "Laquon Treadwell or Myles Price: Who Should I Pick Up? Fantasy Football (2026)",
+    "Emari Demercado or Laquon Treadwell: Who Should I Pick Up? Fantasy Football (2026)",
+    "Laquon Treadwell Hauls in first touchdown of 2026"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Laquon Treadwell or Myles Price: Who Should I Pick Up? Fantasy Football (2026)"
   },
   "deion burks": {
    "h": [
@@ -1221,12 +1340,13 @@
   },
   "dj moore": {
    "h": [
+    "Why DJ Moore Is a Fantasy Football Sell-High Candidate",
     "Former Bears check-in: D.J. Moore does D.J. Moore things, Kevin Byard humiliated",
     "DJ Moore or Kc concepcion Jr.: Who Should I Start in Week 10? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "DJ Moore or Kc concepcion Jr.: Who Should I Start in Week 10? Fantasy Football"
+   "worst": "Why DJ Moore Is a Fantasy Football Sell-High Candidate"
   },
   "dalton kincaid": {
    "h": [
@@ -1235,6 +1355,158 @@
    "cut": false,
    "inj": false,
    "worst": "Kenyon Sadiq or Dalton Kincaid"
+  },
+  "travis etienne": {
+   "h": [
+    "Week 11 Travis Etienne Jr. Fantasy Start or Sit 2026",
+    "Travis Etienne Fantasy Outlook & Stats",
+    "Saints\u2019 Travis Etienne Numbers Don\u2019t Match Contract"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Ben Sinnott or Travis Etienne Jr.: Who Should I Start in Week 11? Fantasy Football"
+  },
+  "noah fant": {
+   "h": [
+    "Keleki Latu or Noah Fant: Who Should I Start in Week 11? Fantasy Football",
+    "Noah Fant No catches against Carolina"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Keleki Latu or Noah Fant: Who Should I Start in Week 11? Fantasy Football"
+  },
+  "jordyn tyson": {
+   "h": [
+    "Week 11 Waiver Wire Pickups - Jordyn Tyson, Antonio Williams, Caleb Douglas Fantasy Football Outlooks",
+    "Week 11 Fantasy Football Rankings Early Look: Jordyn Tyson & Caleb Douglas Enter Top 24 WRs",
+    "Start \u2018Em, Sit \u2018Em, NFL Week 11: Trust Josh Downs Over Jordyn Tyson?"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Week 11 Waiver Wire Pickups - Jordyn Tyson, Antonio Williams, Caleb Douglas Fantasy Football Outlooks"
+  },
+  "juwan johnson": {
+   "h": [
+    "Juwan Johnson on lessons from Panthers loss, Bears defense 11/16/2026"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Juwan Johnson on lessons from Panthers loss, Bears defense 11/16/2026"
+  },
+  "devaughn vele": {
+   "h": [
+    "Devaughn Vele Quiet in Week 10 loss"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Devaughn Vele Quiet in Week 10 loss"
+  },
+  "chris olave": {
+   "h": [
+    "Why Chris Olave Is a Fantasy Football Sell-High Now",
+    "Is Chris Olave a fantasy football panic candidate after Jordyn Tyson\u2019s breakout?",
+    "Emmett Johnson or Chris Olave"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Why Chris Olave Is a Fantasy Football Sell-High Now"
+  },
+  "alvin kamara": {
+   "h": [
+    "Vols in the NFL: Alvin Kamara scores twice on limited touches in Saints loss",
+    "Vols in the NFL: Alvin Kamara scores two TDs, Joey Aguilar changes teams in Week 10",
+    "Week 11 Alvin Kamara Fantasy Start or Sit 2026"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Vols in the NFL: Alvin Kamara scores twice on limited touches in Saints loss"
+  },
+  "theo johnson": {
+   "h": [
+    "Keandre Lambert-Smith or Theo Johnson: Who Should I Start in Week 11? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Keandre Lambert-Smith or Theo Johnson: Who Should I Start in Week 11? Fantasy Football"
+  },
+  "malik nabers": {
+   "h": [
+    "Jacoby Brissett or Malik Nabers",
+    "Justice Hill or Malik Nabers",
+    "J.J. McCarthy or Malik Nabers"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Why Malik Nabers Is a Fantasy Football Buy-Low Star"
+  },
+  "malachi fields": {
+   "h": [
+    "Who Should I Start for Fantasy Football Week 11? Jordyn Tyson, Emmett Johnson, Jonah Coleman, Carnell Tate, Makai Lemon, Caleb Douglas, Omar Cooper Jr., Fernando Mendoza, Malachi Fields",
+    "Laquon Treadwell or Malachi Fields: Who Should I Start in Week 11? Fantasy Football",
+    "Fantasy Football Week 11 Waiver Wire Debate: Mack Hollins vs. Malachi Fields"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 11? Jordyn Tyson, Emmett Johnson, Jonah Coleman, Carnell Tate, Makai Lemon, Caleb Douglas, Omar Cooper Jr., Fernando Mendoza, Malachi Fields"
+  },
+  "isaiah likely": {
+   "h": [
+    "Tolbert, Likely Touchdowns & Disruptive Defensive Efforts Lead Sun Belt Football Alumni in Week 10 of 2026 NFL Season",
+    "Giants TE Isaiah Likely Has Strong Start, but Wants the Wins",
+    "Chris Olave or Isaiah Likely: Who Should I Start in Week 11? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Tolbert, Likely Touchdowns & Disruptive Defensive Efforts Lead Sun Belt Football Alumni in Week 10 of 2026 NFL Season"
+  },
+  "travis hunter": {
+   "h": [
+    "Travis Hunter Turns Jaguars' Mistake Into His Moment",
+    "Travis Hunter or Bucky Irving",
+    "Travis Hunter: Must-Add Waiver Wire Pickup for Week 11 Fantasy Football? - NFL News"
+   ],
+   "cut": true,
+   "inj": true,
+   "worst": "Jaguars Week 10 Snap Counts Show Travis Hunter Has Become a Cornerback Who Dabbles on Offense"
+  },
+  "parker washington": {
+   "h": [
+    "Jaguars\u2019 Parker Washington Pushing for $40 Million Decision",
+    "Jahmyr Gibbs or Parker Washington",
+    "Jaguars Overreactions: Parker Washington Has Become a Bonafide WR1"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Jaguars\u2019 Parker Washington Pushing for $40 Million Decision"
+  },
+  "josh cameron": {
+   "h": [
+    "Jalon Daniels or Josh Cameron: Who Should I Pick Up? Fantasy Football (2026)",
+    "Josh Cameron or Xavier Restrepo: Who Should I Start in Week 11? Fantasy Football",
+    "Josh Cameron or Mike Evans: Who Should I Start in Week 11? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jalon Daniels or Josh Cameron: Who Should I Pick Up? Fantasy Football (2026)"
+  },
+  "brian thomas": {
+   "h": [
+    "Brian Thomas Jr. may not escape the Jaguars' trade block in 2027 offseason",
+    "Jaguars Slightly Tweak Brian Thomas Jr. Role After Rejecting Chiefs Trade Interest"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jaguars Slightly Tweak Brian Thomas Jr. Role After Rejecting Chiefs Trade Interest"
+  },
+  "brenton strange": {
+   "h": [
+    "George Pickens or Brenton Strange",
+    "Brenton Strange wide open for his first TD of the season as Trevor Lawrence finds him for an easy score. Jaguars on fire \ud83c\udfc8\ud83d\udd25 #BrentonStrange #TrevorLawrence #Jaguars #NFL #Touchdown",
+    "Konata Mumpfield or Brenton Strange"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "George Pickens or Brenton Strange"
   },
   "bo nix": {
    "h": [
@@ -1258,23 +1530,13 @@
   },
   "patrick mahomes": {
    "h": [
-    "Patrick Mahomes made a throw to Josh Downs that he hadn't attempted all year",
-    "Making Chiefs QB Patrick Mahomes\u2019 Case as the 2026 NFL MVP",
-    "NFL Week 11 MVP Ladder: Patrick Mahomes Re-Enters the Mix"
+    "Patrick Mahomes' mom gives glimpse of personal life with Caitlin Clark cameo - www.the-sun.com",
+    "Russell Wilson declares Patrick Mahomes and the Kansas City Chiefs are officially back",
+    "Chiefs make drastic decision and terminate two WR contracts after Patrick Mahomes\u2019 performance"
    ],
-   "cut": false,
-   "inj": false,
-   "worst": "Patrick Mahomes made a throw to Josh Downs that he hadn't attempted all year"
-  },
-  "cam ward": {
-   "h": [
-    "Why Titans QB Cam Ward is a top fantasy football streamer in Week 11",
-    "Cam Ward: Must-Add Waiver Wire Pickup for Week 11 Fantasy Football? - NFL News",
-    "Ward, Brissett, Black among fantasy football add/drops for Week 11"
-   ],
-   "cut": false,
+   "cut": true,
    "inj": true,
-   "worst": "Why Titans QB Cam Ward is a top fantasy football streamer in Week 11"
+   "worst": "Ian Rapoport\u2019s Patrick Mahomes injury revelation for Chiefs is bad news for rest of NFL"
   },
   "jacoby brissett": {
    "h": [
@@ -1297,9 +1559,9 @@
   },
   "fernando mendoza": {
    "h": [
-    "NFL Rookie of the Year odds on Kalshi: Can Raiders QB Fernando Mendoza make up for lost time?",
-    "NFL flexes injury-riddled Patriots out of SNF in Week 12, swaps in Raiders and Fernando Mendoza",
-    "Why Fernando Mendoza is big winner after NFL flexes Patriots-Chargers out of \u2018Sunday Night Football\u2019"
+    "Mendoza To Make Prime Time Debut Against Browns In Week 12",
+    "Raiders Get Fernando Mendoza Concern Before Broncos Game in Week 11",
+    "Raiders' Klint Kubiak says Fernando Mendoza will be 'growing in all phases' after first start"
    ],
    "cut": false,
    "inj": true,
@@ -1307,9 +1569,9 @@
   },
   "brock purdy": {
    "h": [
+    "Cris Collinsworth Makes Strong Statement About 49ers QB Brock Purdy",
     "Cincinnati Bengals Joe Burrow DOMINATES NFL MVP RACE as Josh Allen & Brock Purdy FIGHT to STAY ALIVE",
-    "Fred Warner states \u2018I promise' 49ers QB Brock Purdy has been NFL's MVP so far",
-    "Was 49ers\u2019 Brock Purdy disrespected in Week 1 NFL QB rankings?"
+    "Fred Warner states \u2018I promise' 49ers QB Brock Purdy has been NFL's MVP so far"
    ],
    "cut": false,
    "inj": true,
@@ -1317,13 +1579,13 @@
   },
   "aaron rodgers": {
    "h": [
-    "Exclusive | What sparked Aaron Rodgers and brother Jordan\u2019s shocking reunion after bitter family feud",
-    "Aaron Rodgers Snaps Back At \"Dramatic\" Female Reporter Following Steelers' Latest Defeat [VIDEO]",
-    "Aaron Rodgers Calls Reporter\u2019s Press Conference Question \u2018Very Dramatic\u2019 \u2014 and She Responds"
+    "Details Emerge From Aaron Rodgers\u2019 Surprising Reunion With His Brother, Jordan",
+    "Aaron Rodgers\u2019 Record in Primetime as Steeler Under Scrutiny",
+    "Exclusive | What sparked Aaron Rodgers and brother Jordan\u2019s shocking reunion after bitter family feud"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Aaron Rodgers: Must-Add Waiver Wire Pickup for Week 11 Fantasy Football? - NFL News"
+   "inj": false,
+   "worst": "Details Emerge From Aaron Rodgers\u2019 Surprising Reunion With His Brother, Jordan"
   },
   "kirk cousins": {
    "h": [
@@ -1335,16 +1597,6 @@
    "inj": true,
    "worst": "NFL playoff picture entering Week 11: Lions pacing NFC North, even after Aidan Hutchinson injury, Kirk Cousins trade"
   },
-  "dak prescott": {
-   "h": [
-    "Michael Irvin Eviscerates Dak Prescott for Shaming Cowboys Fans",
-    "\u2018I Hate That Answer\u2019 -- Former Jets HC Blasts Dak Prescott Over \u2018Terrible\u2019 Reaction to 49ers Fans Taking Over Cowboys\u2019 Stadium",
-    "49ers minutia minute: Dak Prescott, Cowboys targeted Deommodore Lenoir 17 times"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Michael Irvin Eviscerates Dak Prescott for Shaming Cowboys Fans"
-  },
   "bryce young": {
    "h": [
     "Regression Has Come for Bryce Young, But Here's What That Really Means",
@@ -1354,16 +1606,6 @@
    "cut": false,
    "inj": false,
    "worst": "Regression Has Come for Bryce Young, But Here's What That Really Means"
-  },
-  "jj mccarthy": {
-   "h": [
-    "Giants QB J.J. McCarthy Predicted as Starter for AFC Team in 2027",
-    "Giants Legend Sends Strong J.J. McCarthy Message Before Jaguars Game",
-    "J.J. McCarthy or Malik Nabers"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Giants QB J.J. McCarthy Predicted as Starter for AFC Team in 2027"
   },
   "geno smith": {
    "h": [
@@ -1377,13 +1619,13 @@
   },
   "jared goff": {
    "h": [
-    "Christian Gonzalez\u2019s first interception of 2026 season comes in Week 10 against Jared Goff",
-    "Jared Goff shares his appreciation for playing International NFL games",
-    "Week 11 fantasy football QB start-sit: Goff, Nix, Purdy, Ward"
+    "Jared Goff on Isaac TeSlaa: \"The role that he\u2019s found in our offense is so important\"",
+    "Jared Goff Has \u201cSick\u201d Reaction To Aidan Huchinton, Jack Campbell Injuries",
+    "Christian Gonzalez\u2019s first interception of 2026 season comes in Week 10 against Jared Goff"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Week 11 fantasy football QB start-sit: Goff, Nix, Purdy, Ward"
+   "worst": "Jared Goff Has \u201cSick\u201d Reaction To Aidan Huchinton, Jack Campbell Injuries"
   },
   "baker mayfield": {
    "h": [
@@ -1405,16 +1647,6 @@
    "inj": false,
    "worst": "Justin Herbert-Jim Harbaugh high-five looked uncomfortable after Chargers\u2019 Week 10 victory"
   },
-  "trevor lawrence": {
-   "h": [
-    "Giants\u2019 tough stretch begins with MVP candidate Trevor Lawrence and the surging Jaguars",
-    "Jaguars\u2019 Trevor Lawrence is about to give Giants their biggest test",
-    "Trevor Lawrence Sounds Like a QB Who\u2019s Figured Something Out After Jaguars\u2019 Week 10 Win"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Trevor Lawrence in the MVP Mix as Jaguars are in Command of the AFC South Stream of National Football League"
-  },
   "jayden daniels": {
    "h": [
     "Jayden Daniels - Fantasy Football Risers, Breakouts for Week 11 (2026) - NFL News",
@@ -1427,18 +1659,18 @@
   },
   "joe burrow": {
    "h": [
+    "NFL MVP Rankings, Week 11: Joe Burrow takes command in latest rankings",
     "Week 11 NFL MVP tracker: Joe Burrow on historic hot streak; Jahmyr Gibbs crashes into top 5",
-    "Joe Burrow Finally Has a Great O-Line \u2014 And That Should SCARE the Entire NFL",
-    "Cincinnati Bengals Joe Burrow DOMINATES NFL MVP RACE as Josh Allen & Brock Purdy FIGHT to STAY ALIVE"
+    "Joe Burrow Finally Has a Great O-Line \u2014 And That Should SCARE the Entire NFL"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Week 11 NFL MVP tracker: Joe Burrow on historic hot streak; Jahmyr Gibbs crashes into top 5"
+   "worst": "NFL MVP Rankings, Week 11: Joe Burrow takes command in latest rankings"
   }
  },
  "qbhurt": [
   "BAL",
-  "LV",
+  "DET",
   "NYJ",
   "TB"
  ]
