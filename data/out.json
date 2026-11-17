@@ -12,7 +12,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 10,
-   "ask": 84,
+   "ask": 83,
    "bid": 80,
    "vals": [
     0.0,
@@ -82,29 +82,25 @@
    "per": 263.1,
    "dstat": "pass yds",
    "p": 79,
-   "roi": -6,
+   "roi": -5,
    "pp": 89,
    "hs": 70,
    "dhs": 91,
    "rks": 97,
-   "vs": 44,
+   "vs": 45,
    "agree": 2,
-   "score": 58.5,
+   "score": 58.1,
    "flags": [],
-   "pc": 0.7935,
+   "pc": 0.7891,
    "praw": 0.8304,
    "rg": "WR1",
    "est": false,
-   "mid": 82.0,
+   "mid": 81.5,
    "tk": "KXNFLRECYDS-26NOV19INDHOU-INDLTREADWELL13-10",
    "ev": "KXNFLRECYDS-26NOV19INDHOU",
-   "ctx": 0.2,
-   "cxs": 60,
+   "ctx": 0,
+   "cxs": 50,
    "reasons": [
-    [
-     0.2,
-     "Will Mallory out, more targets to go around"
-    ],
     [
      0.8,
      "IND a 12.5-pt underdog, trailing teams throw more"
@@ -176,7 +172,7 @@
    "risk": 1,
    "tpts": 16.0,
    "rank": 1,
-   "why": "Cleared 10+ in 8 of 10 games, by +14 on average (0 of 6 last season), Sleeper projects 33.3, HOU let 9 of 9 WR1s reach it, HOU allows the 2nd most pass yds. His share of targets is up from 3% to 14%. IND a 12.5-pt underdog, trailing teams throw more. Will Mallory out, more targets to go around. Watch: IND's offense ranks 28th in passing (184 yds a game).; IND projected for only 16 pts (O/U 44.5).",
+   "why": "Cleared 10+ in 8 of 10 games, by +14 on average (0 of 6 last season), Sleeper projects 33.3, HOU let 9 of 9 WR1s reach it, HOU allows the 2nd most pass yds. His share of targets is up from 3% to 14%. IND a 12.5-pt underdog, trailing teams throw more. Watch: IND's offense ranks 28th in passing (184 yds a game).; IND projected for only 16 pts (O/U 44.5).",
    "news": ""
   },
   {
@@ -191,7 +187,7 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 2,
-   "ask": 83,
+   "ask": 82,
    "bid": 79,
    "vals": [
     3.0,
@@ -260,7 +256,7 @@
    "most": 2,
    "per": 263.1,
    "dstat": "pass yds",
-   "p": 78,
+   "p": 77,
    "roi": -6,
    "pp": 70,
    "hs": 76,
@@ -268,13 +264,13 @@
    "rks": 97,
    "vs": 44,
    "agree": 2,
-   "score": 56.9,
+   "score": 57.0,
    "flags": [],
-   "pc": 0.7777,
+   "pc": 0.7733,
    "praw": 0.7821,
    "rg": "RB1",
    "est": false,
-   "mid": 81.0,
+   "mid": 80.5,
    "tk": "KXNFLREC-26NOV19INDHOU-INDJTAYLOR28-2",
    "ev": "KXNFLREC-26NOV19INDHOU",
    "ctx": 0,
@@ -529,6 +525,356 @@
    "game": "INDHOU",
    "glabel": "IND @ HOU (Thu)",
    "day": "Thu",
+   "player": "Dalton Schultz",
+   "team": "HOU",
+   "opp": "IND",
+   "pos": "TE",
+   "role": "TE1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 87,
+   "bid": 82,
+   "vals": [
+    4.0,
+    12.0,
+    3.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    null,
+    2.0,
+    1.0
+   ],
+   "over": 8,
+   "n": 9,
+   "proj": 3.4,
+   "al": [
+    [
+     1,
+     "BAL",
+     4.0
+    ],
+    [
+     2,
+     "KC",
+     9.0
+    ],
+    [
+     3,
+     "HOU",
+     3.0
+    ],
+    [
+     4,
+     "WAS",
+     2.0
+    ],
+    [
+     5,
+     "PIT",
+     5.0
+    ],
+    [
+     6,
+     "TEN",
+     0.0
+    ],
+    [
+     7,
+     "MIN",
+     4.0
+    ],
+    [
+     8,
+     "JAX",
+     2.0
+    ],
+    [
+     9,
+     "DAL",
+     2.0
+    ],
+    [
+     10,
+     "MIA",
+     1.0
+    ]
+   ],
+   "dhit": 8,
+   "dn": 10,
+   "most": 15,
+   "per": 238.8,
+   "dstat": "pass yds",
+   "p": 78,
+   "roi": -11,
+   "pp": 84,
+   "hs": 78,
+   "dhs": 75,
+   "rks": 55,
+   "vs": 39,
+   "agree": 1,
+   "score": 49.3,
+   "flags": [],
+   "pc": 0.7777,
+   "praw": 0.797,
+   "rg": "TE",
+   "est": false,
+   "mid": 84.5,
+   "tk": "KXNFLREC-26NOV19INDHOU-HOUDSCHULTZ86-2",
+   "ev": "KXNFLREC-26NOV19INDHOU",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     -0.6,
+     "HOU favored by 12.5, may not need to throw late"
+    ],
+    [
+     0.43,
+     "HOU projected for 28 pts (O/U 44.5)"
+    ],
+    [
+     -0.07,
+     "IND gives up 19% fewer catches to TE1s than average."
+    ]
+   ],
+   "status": null,
+   "ppj": 82,
+   "pu": 85,
+   "uinfo": {
+    "share": [
+     22,
+     28,
+     12,
+     8,
+     12,
+     19,
+     21,
+     11,
+     6
+    ],
+    "kind": "targets",
+    "snap": 56,
+    "snaps": [
+     40,
+     57,
+     44,
+     66
+    ],
+    "snap_last": 66,
+    "mu": 3.7,
+    "opp": 4.9,
+    "note": "His share of targets fell from 22% to 6%."
+   },
+   "po": 16,
+   "pn": 17,
+   "pid": "5001",
+   "sx": -0.17,
+   "sxs": 42,
+   "mx": -0.13,
+   "mxs": 44,
+   "env": -0.19,
+   "dfac": 0.13,
+   "dfs": 56,
+   "off": 0.19,
+   "ofs": 60,
+   "cu": 72,
+   "avgm": 2.0,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "C.J. Stroud",
+    "same": true,
+    "n": 9
+   },
+   "risk": 0,
+   "tpts": 28.5,
+   "rank": 4,
+   "why": "Cleared 2+ in 8 of 9 games, by +2 on average (16 of 17 last season), Sleeper projects 3.4, IND let 8 of 10 TE1s reach it. His share of targets fell from 22% to 6%. HOU projected for 28 pts (O/U 44.5). Watch: HOU favored by 12.5, may not need to throw late; IND gives up 19% fewer catches to TE1s than average..",
+   "news": ""
+  },
+  {
+   "game": "INDHOU",
+   "glabel": "IND @ HOU (Thu)",
+   "day": "Thu",
+   "player": "Dalton Schultz",
+   "team": "HOU",
+   "opp": "IND",
+   "pos": "TE",
+   "role": "TE1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 10,
+   "ask": 87,
+   "bid": 84,
+   "vals": [
+    35.0,
+    140.0,
+    30.0,
+    9.0,
+    30.0,
+    33.0,
+    45.0,
+    null,
+    42.0,
+    11.0
+   ],
+   "over": 8,
+   "n": 9,
+   "proj": 40.0,
+   "al": [
+    [
+     1,
+     "BAL",
+     49.0
+    ],
+    [
+     2,
+     "KC",
+     101.0
+    ],
+    [
+     3,
+     "HOU",
+     30.0
+    ],
+    [
+     4,
+     "WAS",
+     5.0
+    ],
+    [
+     5,
+     "PIT",
+     44.0
+    ],
+    [
+     6,
+     "TEN",
+     0.0
+    ],
+    [
+     7,
+     "MIN",
+     35.0
+    ],
+    [
+     8,
+     "JAX",
+     55.0
+    ],
+    [
+     9,
+     "DAL",
+     21.0
+    ],
+    [
+     10,
+     "MIA",
+     5.0
+    ]
+   ],
+   "dhit": 7,
+   "dn": 10,
+   "most": 15,
+   "per": 238.8,
+   "dstat": "pass yds",
+   "p": 79,
+   "roi": -10,
+   "pp": 91,
+   "hs": 86,
+   "dhs": 67,
+   "rks": 55,
+   "vs": 40,
+   "agree": 1,
+   "score": 48.4,
+   "flags": [],
+   "pc": 0.785,
+   "praw": 0.8241,
+   "rg": "TE",
+   "est": false,
+   "mid": 85.5,
+   "tk": "KXNFLRECYDS-26NOV19INDHOU-HOUDSCHULTZ86-10",
+   "ev": "KXNFLRECYDS-26NOV19INDHOU",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     -0.6,
+     "HOU favored by 12.5, may not need to throw late"
+    ],
+    [
+     0.43,
+     "HOU projected for 28 pts (O/U 44.5)"
+    ],
+    [
+     -0.06,
+     "IND gives up 17% fewer receiving yds to TE1s than average."
+    ]
+   ],
+   "status": null,
+   "ppj": 92,
+   "pu": 91,
+   "uinfo": {
+    "share": [
+     22,
+     28,
+     12,
+     8,
+     12,
+     19,
+     21,
+     11,
+     6
+    ],
+    "kind": "targets",
+    "snap": 56,
+    "snaps": [
+     40,
+     57,
+     44,
+     66
+    ],
+    "snap_last": 66,
+    "mu": 36.5,
+    "opp": 4.9,
+    "note": "His share of targets fell from 22% to 6%."
+   },
+   "po": 16,
+   "pn": 17,
+   "pid": "5001",
+   "sx": -0.17,
+   "sxs": 42,
+   "mx": -0.11,
+   "mxs": 44,
+   "env": -0.18,
+   "dfac": 0.13,
+   "dfs": 56,
+   "off": 0.19,
+   "ofs": 60,
+   "cu": 87,
+   "avgm": 31.7,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "C.J. Stroud",
+    "same": true,
+    "n": 9
+   },
+   "risk": 0,
+   "tpts": 28.5,
+   "rank": 5,
+   "why": "Cleared 10+ in 8 of 9 games, by +32 on average (16 of 17 last season), Sleeper projects 40, IND let 7 of 10 TE1s reach it. His share of targets fell from 22% to 6%. HOU projected for 28 pts (O/U 44.5). Watch: HOU favored by 12.5, may not need to throw late; IND gives up 17% fewer receiving yds to TE1s than average..",
+   "news": ""
+  },
+  {
+   "game": "INDHOU",
+   "glabel": "IND @ HOU (Thu)",
+   "day": "Thu",
    "player": "Jonathan Taylor",
    "team": "IND",
    "opp": "HOU",
@@ -696,7 +1042,7 @@
    },
    "risk": 1,
    "tpts": 16.0,
-   "rank": 4,
+   "rank": 6,
    "why": "Cleared 10+ in 8 of 10 games, by +14 on average (15 of 17 last season), Sleeper projects 15.5, HOU let 8 of 9 lead RBs reach it, HOU allows the 2nd most pass yds. IND a 12.5-pt underdog, backs catch more when trailing. Watch: IND's offense ranks 28th in passing (184 yds a game).; IND projected for only 16 pts (O/U 44.5).",
    "news": ""
   },
@@ -794,7 +1140,7 @@
    "rks": 55,
    "vs": 40,
    "agree": 1,
-   "score": 46.5,
+   "score": 46.1,
    "flags": [],
    "pc": 0.7746,
    "praw": 0.8107,
@@ -803,13 +1149,9 @@
    "mid": 85.0,
    "tk": "KXNFLRECYDS-26NOV19INDHOU-HOUNCOLLINS12-30",
    "ev": "KXNFLRECYDS-26NOV19INDHOU",
-   "ctx": 0.2,
-   "cxs": 60,
+   "ctx": 0,
+   "cxs": 50,
    "reasons": [
-    [
-     0.2,
-     "Marvin Harrison Jr. out, more targets to go around"
-    ],
     [
      -0.6,
      "HOU favored by 12.5, may not need to throw late"
@@ -869,8 +1211,8 @@
    },
    "risk": 1,
    "tpts": 28.5,
-   "rank": 5,
-   "why": "Cleared 30+ in 6 of 9 games, by +23 on average (13 of 15 last season), Sleeper projects 75.7, IND let 9 of 10 WR1s reach it. His share of targets is up from 27% to 44%. HOU projected for 28 pts (O/U 44.5). Marvin Harrison Jr. out, more targets to go around. Watch: HOU favored by 12.5, may not need to throw late.",
+   "rank": 7,
+   "why": "Cleared 30+ in 6 of 9 games, by +23 on average (13 of 15 last season), Sleeper projects 75.7, IND let 9 of 10 WR1s reach it. His share of targets is up from 27% to 44%. HOU projected for 28 pts (O/U 44.5). Watch: HOU favored by 12.5, may not need to throw late.",
    "news": ""
   },
   {
@@ -885,7 +1227,7 @@
    "stat": "pass",
    "prop": "Passing Yards",
    "line": 200,
-   "ask": 84,
+   "ask": 85,
    "bid": 81,
    "vals": [
     274.0,
@@ -959,7 +1301,7 @@
    "most": 15,
    "per": 238.8,
    "dstat": "pass yds",
-   "p": 75,
+   "p": 76,
    "roi": -11,
    "pp": 87,
    "hs": 74,
@@ -967,13 +1309,13 @@
    "rks": 55,
    "vs": 39,
    "agree": 1,
-   "score": 46.1,
+   "score": 46.0,
    "flags": [],
-   "pc": 0.7516,
+   "pc": 0.7561,
    "praw": 0.772,
    "rg": "QB",
    "est": false,
-   "mid": 82.5,
+   "mid": 83.0,
    "tk": "KXNFLPASSYDS-26NOV19INDHOU-HOUCSTROUD7-200",
    "ev": "KXNFLPASSYDS-26NOV19INDHOU",
    "ctx": 0,
@@ -1036,360 +1378,8 @@
    "qinfo": null,
    "risk": 0,
    "tpts": 28.5,
-   "rank": 6,
-   "why": "Cleared 200+ in 7 of 9 games, by +74 on average (10 of 14 last season), Sleeper projects 268.9, IND let 7 of 10 QBs reach it. HOU projected for 28 pts (O/U 44.5). Watch: HOU favored by 12.5, may not need to throw late.",
-   "news": ""
-  },
-  {
-   "game": "INDHOU",
-   "glabel": "IND @ HOU (Thu)",
-   "day": "Thu",
-   "player": "Nico Collins",
-   "team": "HOU",
-   "opp": "IND",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 3,
-   "ask": 87,
-   "bid": 82,
-   "vals": [
-    7.0,
-    -1,
-    -1,
-    7.0,
-    5.0,
-    3.0,
-    2.0,
-    null,
-    4.0,
-    9.0
-   ],
-   "over": 6,
-   "n": 9,
-   "proj": 4.6,
-   "al": [
-    [
-     1,
-     "BAL",
-     5.0
-    ],
-    [
-     2,
-     "KC",
-     7.0
-    ],
-    [
-     3,
-     "HOU",
-     3.0
-    ],
-    [
-     4,
-     "WAS",
-     5.0
-    ],
-    [
-     5,
-     "PIT",
-     6.0
-    ],
-    [
-     6,
-     "TEN",
-     6.0
-    ],
-    [
-     7,
-     "MIN",
-     4.0
-    ],
-    [
-     8,
-     "JAX",
-     2.0
-    ],
-    [
-     9,
-     "DAL",
-     10.0
-    ],
-    [
-     10,
-     "MIA",
-     3.0
-    ]
-   ],
-   "dhit": 9,
-   "dn": 10,
-   "most": 15,
-   "per": 238.8,
-   "dstat": "pass yds",
-   "p": 77,
-   "roi": -11,
-   "pp": 83,
-   "hs": 67,
-   "dhs": 83,
-   "rks": 55,
-   "vs": 39,
-   "agree": 1,
-   "score": 44.8,
-   "flags": [],
-   "pc": 0.774,
-   "praw": 0.7905,
-   "rg": "WR1",
-   "est": false,
-   "mid": 84.5,
-   "tk": "KXNFLREC-26NOV19INDHOU-HOUNCOLLINS12-3",
-   "ev": "KXNFLREC-26NOV19INDHOU",
-   "ctx": 0.2,
-   "cxs": 60,
-   "reasons": [
-    [
-     0.2,
-     "Marvin Harrison Jr. out, more targets to go around"
-    ],
-    [
-     -0.6,
-     "HOU favored by 12.5, may not need to throw late"
-    ],
-    [
-     0.43,
-     "HOU projected for 28 pts (O/U 44.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 81,
-   "pu": 86,
-   "uinfo": {
-    "share": [
-     27,
-     31,
-     21,
-     16,
-     18,
-     11,
-     44
-    ],
-    "kind": "targets",
-    "snap": 74,
-    "snaps": [
-     73,
-     67,
-     73,
-     85
-    ],
-    "snap_last": 85,
-    "mu": 5.1,
-    "opp": 8.1,
-    "note": "His share of targets is up from 27% to 44%."
-   },
-   "po": 15,
-   "pn": 15,
-   "pid": "7569",
-   "sx": -0.17,
-   "sxs": 42,
-   "mx": -0.06,
-   "mxs": 47,
-   "env": -0.14,
-   "dfac": 0.3,
-   "dfs": 65,
-   "off": 0.19,
-   "ofs": 60,
-   "cu": 62,
-   "avgm": 1.1,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "C.J. Stroud",
-    "same": true,
-    "n": 9
-   },
-   "risk": 1,
-   "tpts": 28.5,
-   "rank": 7,
-   "why": "Cleared 3+ in 6 of 9 games, by +1 on average (15 of 15 last season), Sleeper projects 4.6, IND let 9 of 10 WR1s reach it. His share of targets is up from 27% to 44%. HOU projected for 28 pts (O/U 44.5). Marvin Harrison Jr. out, more targets to go around. Watch: HOU favored by 12.5, may not need to throw late.",
-   "news": ""
-  },
-  {
-   "game": "INDHOU",
-   "glabel": "IND @ HOU (Thu)",
-   "day": "Thu",
-   "player": "Dalton Schultz",
-   "team": "HOU",
-   "opp": "IND",
-   "pos": "TE",
-   "role": "TE1",
-   "stat": "rec",
-   "prop": "Receptions",
-   "line": 2,
-   "ask": 87,
-   "bid": 81,
-   "vals": [
-    4.0,
-    12.0,
-    3.0,
-    2.0,
-    3.0,
-    4.0,
-    5.0,
-    null,
-    2.0,
-    1.0
-   ],
-   "over": 8,
-   "n": 9,
-   "proj": 3.4,
-   "al": [
-    [
-     1,
-     "BAL",
-     4.0
-    ],
-    [
-     2,
-     "KC",
-     9.0
-    ],
-    [
-     3,
-     "HOU",
-     3.0
-    ],
-    [
-     4,
-     "WAS",
-     2.0
-    ],
-    [
-     5,
-     "PIT",
-     5.0
-    ],
-    [
-     6,
-     "TEN",
-     0.0
-    ],
-    [
-     7,
-     "MIN",
-     4.0
-    ],
-    [
-     8,
-     "JAX",
-     2.0
-    ],
-    [
-     9,
-     "DAL",
-     2.0
-    ],
-    [
-     10,
-     "MIA",
-     1.0
-    ]
-   ],
-   "dhit": 8,
-   "dn": 10,
-   "most": 15,
-   "per": 238.8,
-   "dstat": "pass yds",
-   "p": 77,
-   "roi": -11,
-   "pp": 84,
-   "hs": 78,
-   "dhs": 75,
-   "rks": 55,
-   "vs": 39,
-   "agree": 1,
-   "score": 43.7,
-   "flags": [],
-   "pc": 0.7747,
-   "praw": 0.797,
-   "rg": "TE",
-   "est": false,
-   "mid": 84.0,
-   "tk": "KXNFLREC-26NOV19INDHOU-HOUDSCHULTZ86-2",
-   "ev": "KXNFLREC-26NOV19INDHOU",
-   "ctx": 0.2,
-   "cxs": 60,
-   "reasons": [
-    [
-     0.2,
-     "Marvin Harrison Jr. out, more targets to go around"
-    ],
-    [
-     -0.6,
-     "HOU favored by 12.5, may not need to throw late"
-    ],
-    [
-     0.43,
-     "HOU projected for 28 pts (O/U 44.5)"
-    ],
-    [
-     -0.07,
-     "IND gives up 19% fewer catches to TE1s than average."
-    ]
-   ],
-   "status": null,
-   "ppj": 82,
-   "pu": 85,
-   "uinfo": {
-    "share": [
-     22,
-     28,
-     12,
-     8,
-     12,
-     19,
-     21,
-     11,
-     6
-    ],
-    "kind": "targets",
-    "snap": 56,
-    "snaps": [
-     40,
-     57,
-     44,
-     66
-    ],
-    "snap_last": 66,
-    "mu": 3.7,
-    "opp": 4.9,
-    "note": "His share of targets fell from 22% to 6%."
-   },
-   "po": 16,
-   "pn": 17,
-   "pid": "5001",
-   "sx": -0.17,
-   "sxs": 42,
-   "mx": -0.13,
-   "mxs": 44,
-   "env": -0.19,
-   "dfac": 0.13,
-   "dfs": 56,
-   "off": 0.19,
-   "ofs": 60,
-   "cu": 72,
-   "avgm": 2.0,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "C.J. Stroud",
-    "same": true,
-    "n": 9
-   },
-   "risk": 1,
-   "tpts": 28.5,
    "rank": 8,
-   "why": "Cleared 2+ in 8 of 9 games, by +2 on average (16 of 17 last season), Sleeper projects 3.4, IND let 8 of 10 TE1s reach it. His share of targets fell from 22% to 6%. HOU projected for 28 pts (O/U 44.5). Marvin Harrison Jr. out, more targets to go around. Watch: HOU favored by 12.5, may not need to throw late; IND gives up 19% fewer catches to TE1s than average..",
+   "why": "Cleared 200+ in 7 of 9 games, by +74 on average (10 of 14 last season), Sleeper projects 268.9, IND let 7 of 10 QBs reach it. HOU projected for 28 pts (O/U 44.5). Watch: HOU favored by 12.5, may not need to throw late.",
    "news": ""
   }
  ],
@@ -1488,13 +1478,13 @@
    "ask": 38,
    "q": 36.0,
    "p": 0.3426,
-   "sc": 11.0,
+   "sc": 10.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV19INDHOU-INDLTREADWELL13-40",
    "ev": "KXNFLRECYDS-26NOV19INDHOU",
-   "wy": "Cleared 40+ in 2 of 10 games, by -16 on average (0 of 6 last season), HOU let 8 of 9 WR1s reach it, HOU allows the 2nd most pass yds. His share of targets is up from 3% to 14%. IND a 12.5-pt underdog, trailing teams throw more. Will Mallory out, more targets to go around. Watch: IND's offense ranks 28th in passing (184 yds a game).; IND projected for only 16 pts (O/U 44.5).",
+   "wy": "Cleared 40+ in 2 of 10 games, by -16 on average (0 of 6 last season), HOU let 8 of 9 WR1s reach it, HOU allows the 2nd most pass yds. His share of targets is up from 3% to 14%. IND a 12.5-pt underdog, trailing teams throw more. Watch: IND's offense ranks 28th in passing (184 yds a game).; IND projected for only 16 pts (O/U 44.5).",
    "id": "3155",
-   "cx": 0.2,
+   "cx": 0,
    "nw": "",
    "dy": "Thu",
    "df": -0.43,
@@ -1513,13 +1503,13 @@
    "ask": 67,
    "q": 65.0,
    "p": 0.6319,
-   "sc": 41.4,
+   "sc": 41.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV19INDHOU-INDLTREADWELL13-20",
    "ev": "KXNFLRECYDS-26NOV19INDHOU",
-   "wy": "Cleared 20+ in 6 of 10 games, by +4 on average (0 of 6 last season), Sleeper projects 33.3, HOU let 9 of 9 WR1s reach it, HOU allows the 2nd most pass yds. His share of targets is up from 3% to 14%. IND a 12.5-pt underdog, trailing teams throw more. Will Mallory out, more targets to go around. Watch: IND's offense ranks 28th in passing (184 yds a game).; IND projected for only 16 pts (O/U 44.5).",
+   "wy": "Cleared 20+ in 6 of 10 games, by +4 on average (0 of 6 last season), Sleeper projects 33.3, HOU let 9 of 9 WR1s reach it, HOU allows the 2nd most pass yds. His share of targets is up from 3% to 14%. IND a 12.5-pt underdog, trailing teams throw more. Watch: IND's offense ranks 28th in passing (184 yds a game).; IND projected for only 16 pts (O/U 44.5).",
    "id": "3155",
-   "cx": 0.2,
+   "cx": 0,
    "nw": "",
    "dy": "Thu",
    "df": -0.43,
@@ -1538,13 +1528,13 @@
    "ask": 76,
    "q": 73.5,
    "p": 0.7167,
-   "sc": 55.6,
+   "sc": 55.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV19INDHOU-INDLTREADWELL13-15",
    "ev": "KXNFLRECYDS-26NOV19INDHOU",
-   "wy": "Cleared 15+ in 8 of 10 games, by +9 on average (0 of 6 last season), Sleeper projects 33.3, HOU let 9 of 9 WR1s reach it, HOU allows the 2nd most pass yds. His share of targets is up from 3% to 14%. IND a 12.5-pt underdog, trailing teams throw more. Will Mallory out, more targets to go around. Watch: IND's offense ranks 28th in passing (184 yds a game).; IND projected for only 16 pts (O/U 44.5).",
+   "wy": "Cleared 15+ in 8 of 10 games, by +9 on average (0 of 6 last season), Sleeper projects 33.3, HOU let 9 of 9 WR1s reach it, HOU allows the 2nd most pass yds. His share of targets is up from 3% to 14%. IND a 12.5-pt underdog, trailing teams throw more. Watch: IND's offense ranks 28th in passing (184 yds a game).; IND projected for only 16 pts (O/U 44.5).",
    "id": "3155",
-   "cx": 0.2,
+   "cx": 0,
    "nw": "",
    "dy": "Thu",
    "df": -0.43,
@@ -1593,11 +1583,11 @@
     "id": "6813",
     "lam": 0.85,
     "pm": 0.571,
-    "p": 0.513,
-    "q": 45.5,
+    "p": 0.498,
+    "q": 42.5,
     "ask": 46,
-    "tk": "KXNFLTD-26NOV19INDHOU-INDJTAYLOR28-1",
-    "ev": "KXNFLTD-26NOV19INDHOU",
+    "tk": "KXNFLTDPROT-26NOV19INDHOU-INDJTAYLOR28-1",
+    "ev": "KXNFLTDPROT-26NOV19INDHOU",
     "tds": 8.0,
     "n": 10,
     "games_td": 5,
@@ -1632,9 +1622,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.778,
-     "ask": 83,
-     "sc": 56.9
+     "p": 0.773,
+     "ask": 82,
+     "sc": 57.0
     },
     "tags": [
      "Elite red zone role",
@@ -1649,7 +1639,7 @@
      "8.0 TDs in 10 games, scored in 5 (20.0 in 17 last season).",
      "Low total: IND projected for 16 pts (O/U 44.5, 12.5-pt underdog).",
      "Injury news: Fantasy football Week 11 Panic Meter: Sell Jonathan Taylor, buy Malik Nabers?",
-     "Kalshi 46\u00a2 vs model 57%."
+     "Kalshi 42\u00a2 vs model 57%."
     ]
    },
    {
@@ -1665,11 +1655,11 @@
     "id": "7569",
     "lam": 0.48,
     "pm": 0.383,
-    "p": 0.414,
-    "q": 44.5,
-    "ask": 45,
-    "tk": "KXNFLTD-26NOV19INDHOU-HOUNCOLLINS12-1",
-    "ev": "KXNFLTD-26NOV19INDHOU",
+    "p": 0.417,
+    "q": 45.0,
+    "ask": 47,
+    "tk": "KXNFLTDPROT-26NOV19INDHOU-HOUNCOLLINS12-1",
+    "ev": "KXNFLTDPROT-26NOV19INDHOU",
     "tds": 5.0,
     "n": 7,
     "games_td": 4,
@@ -1706,7 +1696,7 @@
      "ln": 30,
      "p": 0.775,
      "ask": 86,
-     "sc": 46.5
+     "sc": 46.1
     },
     "tags": [
      "RZ share top-10",
@@ -1724,7 +1714,7 @@
      "5.0 TDs in 7 games, scored in 4 (7.0 in 15 last season).",
      "HOU projected for 28 pts (O/U 44.5, favored by 12.5).",
      "Injury news: Texans OC: \"I Can Do a Better Job\" with Nico Collins Usage - NFL News | Fantasy Football",
-     "Kalshi 44\u00a2 vs model 38%."
+     "Kalshi 45\u00a2 vs model 38%."
     ]
    },
    {
@@ -1806,11 +1796,11 @@
     "id": "5001",
     "lam": 0.29,
     "pm": 0.252,
-    "p": 0.284,
-    "q": 31.5,
-    "ask": 32,
-    "tk": "KXNFLTD-26NOV19INDHOU-HOUDSCHULTZ86-1",
-    "ev": "KXNFLTD-26NOV19INDHOU",
+    "p": 0.289,
+    "q": 32.5,
+    "ask": 34,
+    "tk": "KXNFLTDPROT-26NOV19INDHOU-HOUDSCHULTZ86-1",
+    "ev": "KXNFLTDPROT-26NOV19INDHOU",
     "tds": 1.0,
     "n": 9,
     "games_td": 1,
@@ -1840,14 +1830,14 @@
     "dfac": 1.11,
     "debt": 0.7,
     "hist": true,
-    "inj": "News",
-    "news": "Locals in the NFL: Dalton Schultz, Kaden Elliss highlight injury-riddled week for locals",
+    "inj": null,
+    "news": null,
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.775,
+     "p": 0.778,
      "ask": 87,
-     "sc": 43.7
+     "sc": 49.3
     },
     "tags": [
      "RZ share top-10",
@@ -1862,8 +1852,71 @@
      "7% red-zone role, 16% target share, 2% TD rate, 5.4 touches a game.",
      "1.0 TD in 9 games, scored in 1 (3.0 in 17 last season).",
      "HOU projected for 28 pts (O/U 44.5, favored by 12.5).",
-     "Injury news: Locals in the NFL: Dalton Schultz, Kaden Elliss highlight injury-riddled week for locals",
      "Kalshi 32\u00a2 vs model 25%."
+    ]
+   },
+   {
+    "key": "emari demercado",
+    "pl": "Emari Demercado",
+    "tm": "HOU",
+    "opp": "IND",
+    "pos": "RB",
+    "role": "RB2",
+    "g": "INDHOU",
+    "gl": "IND @ HOU (Thu)",
+    "dy": "Thu",
+    "id": "11199",
+    "lam": 0.07,
+    "pm": 0.065,
+    "p": 0.263,
+    "q": 46.0,
+    "ask": 49,
+    "tk": "KXNFLTDPROT-26NOV19INDHOU-HOUEDEMERCADO31-1",
+    "ev": "KXNFLTDPROT-26NOV19INDHOU",
+    "tds": 0,
+    "n": 2,
+    "games_td": 0,
+    "ptd": 1.0,
+    "pn": 13,
+    "rz": 1,
+    "tdsh": 2,
+    "ts": 1,
+    "tdr": 0.0,
+    "tpg": 8.5,
+    "pts": 28.5,
+    "sp": -12.5,
+    "tot": 44.5,
+    "d": {
+     "td": 10.0,
+     "n": 10,
+     "rank": 13,
+     "nteams": 32,
+     "ltd": 15.0,
+     "lrank": 16,
+     "leak": false,
+     "recent": [
+      1.0,
+      0
+     ]
+    },
+    "dfac": 1.03,
+    "debt": 0.4,
+    "hist": true,
+    "inj": null,
+    "news": null,
+    "tags": [
+     "RZ share top-10",
+     "Shootout script",
+     "Favored"
+    ],
+    "low": false,
+    "score": 53.5,
+    "why": [
+     "IND has allowed 10.0 RB TDs in 10 games (13th most); 15.0 all last season.",
+     "1% red-zone role, 1% target share, 8.5 touches a game.",
+     "No TDs yet in 2 games (1.0 in 13 last season).",
+     "HOU projected for 28 pts (O/U 44.5, favored by 12.5).",
+     "Kalshi 46\u00a2 vs model 6%."
     ]
    },
    {
@@ -1879,11 +1932,11 @@
     "id": "9504",
     "lam": 0.25,
     "pm": 0.218,
-    "p": 0.209,
-    "q": 20.0,
-    "ask": 21,
-    "tk": "KXNFLTD-26NOV19INDHOU-HOUKBOUTTE14-1",
-    "ev": "KXNFLTD-26NOV19INDHOU",
+    "p": 0.217,
+    "q": 21.5,
+    "ask": 24,
+    "tk": "KXNFLTDPROT-26NOV19INDHOU-HOUKBOUTTE14-1",
+    "ev": "KXNFLTDPROT-26NOV19INDHOU",
     "tds": 2.0,
     "n": 9,
     "games_td": 1,
@@ -1929,71 +1982,7 @@
      "6% red-zone role, 10% target share, 6.9% TD rate, 3.2 touches a game.",
      "2.0 TDs in 9 games, scored in 1 (6.0 in 14 last season).",
      "HOU projected for 28 pts (O/U 44.5, favored by 12.5).",
-     "Kalshi 20\u00a2 vs model 22%."
-    ]
-   },
-   {
-    "key": "emari demercado",
-    "pl": "Emari Demercado",
-    "tm": "HOU",
-    "opp": "IND",
-    "pos": "RB",
-    "role": "RB2",
-    "g": "INDHOU",
-    "gl": "IND @ HOU (Thu)",
-    "dy": "Thu",
-    "id": "11199",
-    "lam": 0.07,
-    "pm": 0.065,
-    "p": 0.205,
-    "q": 34.5,
-    "ask": 36,
-    "tk": "KXNFLTD-26NOV19INDHOU-HOUEDEMERCADO31-1",
-    "ev": "KXNFLTD-26NOV19INDHOU",
-    "tds": 0,
-    "n": 2,
-    "games_td": 0,
-    "ptd": 1.0,
-    "pn": 13,
-    "rz": 1,
-    "tdsh": 2,
-    "ts": 1,
-    "tdr": 0.0,
-    "tpg": 8.5,
-    "pts": 28.5,
-    "sp": -12.5,
-    "tot": 44.5,
-    "d": {
-     "td": 10.0,
-     "n": 10,
-     "rank": 13,
-     "nteams": 32,
-     "ltd": 15.0,
-     "lrank": 16,
-     "leak": false,
-     "recent": [
-      1.0,
-      0
-     ]
-    },
-    "dfac": 1.03,
-    "debt": 0.4,
-    "hist": true,
-    "inj": null,
-    "news": null,
-    "tags": [
-     "RZ share top-10",
-     "Shootout script",
-     "Favored"
-    ],
-    "low": false,
-    "score": 53.5,
-    "why": [
-     "IND has allowed 10.0 RB TDs in 10 games (13th most); 15.0 all last season.",
-     "1% red-zone role, 1% target share, 8.5 touches a game.",
-     "No TDs yet in 2 games (1.0 in 13 last season).",
-     "HOU projected for 28 pts (O/U 44.5, favored by 12.5).",
-     "Kalshi 34\u00a2 vs model 6%."
+     "Kalshi 22\u00a2 vs model 22%."
     ]
    },
    {
@@ -2009,11 +1998,11 @@
     "id": "13424",
     "lam": 0.21,
     "pm": 0.192,
-    "p": 0.203,
-    "q": 21.5,
-    "ask": 22,
-    "tk": "KXNFLTD-26NOV19INDHOU-INDSMCGOWAN20-1",
-    "ev": "KXNFLTD-26NOV19INDHOU",
+    "p": 0.188,
+    "q": 18.5,
+    "ask": 21,
+    "tk": "KXNFLTDPROT-26NOV19INDHOU-INDSMCGOWAN20-1",
+    "ev": "KXNFLTDPROT-26NOV19INDHOU",
     "tds": 2.0,
     "n": 10,
     "games_td": 2,
@@ -2056,7 +2045,7 @@
      "2.0 TDs in 10 games, scored in 2.",
      "Low total: IND projected for 16 pts (O/U 44.5, 12.5-pt underdog).",
      "Injury news: Is Seth McGowan a priority waiver wire pickup for fantasy football Week 11?",
-     "Kalshi 22\u00a2 vs model 19%."
+     "Kalshi 18\u00a2 vs model 19%."
     ]
    },
    {
@@ -2072,11 +2061,11 @@
     "id": "12518",
     "lam": 0.15,
     "pm": 0.142,
-    "p": 0.178,
-    "q": 21.5,
-    "ask": 22,
-    "tk": "KXNFLTD-26NOV19INDHOU-INDTWARREN84-1",
-    "ev": "KXNFLTD-26NOV19INDHOU",
+    "p": 0.176,
+    "q": 21.0,
+    "ask": 23,
+    "tk": "KXNFLTDPROT-26NOV19INDHOU-INDTWARREN84-1",
+    "ev": "KXNFLTDPROT-26NOV19INDHOU",
     "tds": 3.0,
     "n": 8,
     "games_td": 3,
@@ -2111,9 +2100,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 3,
-     "p": 0.834,
-     "ask": 92,
-     "sc": 34.5
+     "p": 0.828,
+     "ask": 91,
+     "sc": 34.2
     },
     "tags": [
      "RZ share top-10",
@@ -2127,7 +2116,7 @@
      "3.0 TDs in 8 games, scored in 3 (5.0 in 17 last season).",
      "Low total: IND projected for 16 pts (O/U 44.5, 12.5-pt underdog).",
      "Injury news: Tyler Warren Flops with Season-Low Output - NFL News | Fantasy Football",
-     "Kalshi 22\u00a2 vs model 14%."
+     "Kalshi 21\u00a2 vs model 14%."
     ]
    },
    {
@@ -2143,11 +2132,11 @@
     "id": "5985",
     "lam": 0.23,
     "pm": 0.204,
-    "p": 0.169,
-    "q": 13.5,
-    "ask": 14,
-    "tk": "KXNFLTD-26NOV19INDHOU-HOUFMOREAU87-1",
-    "ev": "KXNFLTD-26NOV19INDHOU",
+    "p": 0.174,
+    "q": 14.5,
+    "ask": 18,
+    "tk": "KXNFLTDPROT-26NOV19INDHOU-HOUFMOREAU87-1",
+    "ev": "KXNFLTDPROT-26NOV19INDHOU",
     "tds": 3.0,
     "n": 9,
     "games_td": 2,
@@ -2196,72 +2185,6 @@
     ]
    },
    {
-    "key": "tank dell",
-    "pl": "Tank Dell",
-    "tm": "HOU",
-    "opp": "IND",
-    "pos": "WR",
-    "role": "WR3",
-    "g": "INDHOU",
-    "gl": "IND @ HOU (Thu)",
-    "dy": "Thu",
-    "id": "9502",
-    "lam": 0.09,
-    "pm": 0.09,
-    "p": 0.158,
-    "q": 22.5,
-    "ask": 23,
-    "tk": "KXNFLTD-26NOV19INDHOU-HOUTDELL1-1",
-    "ev": "KXNFLTD-26NOV19INDHOU",
-    "tds": 1.0,
-    "n": 3,
-    "games_td": 1,
-    "ptd": null,
-    "pn": null,
-    "rz": 1,
-    "tdsh": 4,
-    "ts": 5,
-    "tdr": 6.2,
-    "tpg": 5.3,
-    "pts": 28.5,
-    "sp": -12.5,
-    "tot": 44.5,
-    "d": {
-     "td": 8.0,
-     "n": 10,
-     "rank": 20,
-     "nteams": 32,
-     "ltd": 16.0,
-     "lrank": 17,
-     "leak": true,
-     "recent": [
-      1.0,
-      1.0
-     ]
-    },
-    "dfac": 0.98,
-    "debt": -0.6,
-    "hist": true,
-    "inj": null,
-    "news": null,
-    "tags": [
-     "RZ share top-10",
-     "Active leak",
-     "Shootout script",
-     "Favored"
-    ],
-    "low": false,
-    "score": 49.3,
-    "why": [
-     "IND has allowed 8.0 WR TDs in 10 games (20th most); 16.0 all last season.",
-     "Active leak: gave up a WR TD in each of its last 2 games.",
-     "1% red-zone role, 5% target share, 6.2% TD rate, 5.3 touches a game.",
-     "1.0 TD in 3 games, scored in 1.",
-     "HOU projected for 28 pts (O/U 44.5, favored by 12.5).",
-     "Kalshi 22\u00a2 vs model 9%."
-    ]
-   },
-   {
     "key": "cj stroud",
     "pl": "C.J. Stroud",
     "tm": "HOU",
@@ -2274,11 +2197,11 @@
     "id": "9758",
     "lam": 0.14,
     "pm": 0.129,
-    "p": 0.157,
-    "q": 18.5,
-    "ask": 19,
-    "tk": "KXNFLTD-26NOV19INDHOU-HOUCSTROUD7-1",
-    "ev": "KXNFLTD-26NOV19INDHOU",
+    "p": 0.15,
+    "q": 17.0,
+    "ask": 20,
+    "tk": "KXNFLTDPROT-26NOV19INDHOU-HOUCSTROUD7-1",
+    "ev": "KXNFLTDPROT-26NOV19INDHOU",
     "tds": 1.0,
     "n": 9,
     "games_td": 1,
@@ -2328,7 +2251,73 @@
      "1% red-zone role, 4.3% TD rate, 2.6 touches a game.",
      "1.0 TD in 9 games, scored in 1 (1.0 in 14 last season).",
      "HOU projected for 28 pts (O/U 44.5, favored by 12.5).",
-     "Kalshi 18\u00a2 vs model 13%."
+     "Kalshi 17\u00a2 vs model 13%."
+    ]
+   },
+   {
+    "key": "tank dell",
+    "pl": "Tank Dell",
+    "tm": "HOU",
+    "opp": "IND",
+    "pos": "WR",
+    "role": "WR3",
+    "g": "INDHOU",
+    "gl": "IND @ HOU (Thu)",
+    "dy": "Thu",
+    "id": "9502",
+    "lam": 0.09,
+    "pm": 0.09,
+    "p": 0.15,
+    "q": 21.0,
+    "ask": 23,
+    "tk": "KXNFLTDPROT-26NOV19INDHOU-HOUTDELL1-1",
+    "ev": "KXNFLTDPROT-26NOV19INDHOU",
+    "tds": 1.0,
+    "n": 3,
+    "games_td": 1,
+    "ptd": null,
+    "pn": null,
+    "rz": 1,
+    "tdsh": 4,
+    "ts": 5,
+    "tdr": 6.2,
+    "tpg": 5.3,
+    "pts": 28.5,
+    "sp": -12.5,
+    "tot": 44.5,
+    "d": {
+     "td": 8.0,
+     "n": 10,
+     "rank": 20,
+     "nteams": 32,
+     "ltd": 16.0,
+     "lrank": 17,
+     "leak": true,
+     "recent": [
+      1.0,
+      1.0
+     ]
+    },
+    "dfac": 0.98,
+    "debt": -0.6,
+    "hist": true,
+    "inj": null,
+    "news": null,
+    "tags": [
+     "RZ share top-10",
+     "Active leak",
+     "Shootout script",
+     "Favored"
+    ],
+    "low": false,
+    "score": 49.3,
+    "why": [
+     "IND has allowed 8.0 WR TDs in 10 games (20th most); 16.0 all last season.",
+     "Active leak: gave up a WR TD in each of its last 2 games.",
+     "1% red-zone role, 5% target share, 6.2% TD rate, 5.3 touches a game.",
+     "1.0 TD in 3 games, scored in 1.",
+     "HOU projected for 28 pts (O/U 44.5, favored by 12.5).",
+     "Kalshi 21\u00a2 vs model 9%."
     ]
    },
    {
@@ -2344,11 +2333,11 @@
     "id": "3155",
     "lam": 0.09,
     "pm": 0.083,
-    "p": 0.109,
-    "q": 13.5,
-    "ask": 15,
-    "tk": "KXNFLTD-26NOV19INDHOU-INDLTREADWELL13-1",
-    "ev": "KXNFLTD-26NOV19INDHOU",
+    "p": 0.116,
+    "q": 15.0,
+    "ask": 17,
+    "tk": "KXNFLTDPROT-26NOV19INDHOU-INDLTREADWELL13-1",
+    "ev": "KXNFLTDPROT-26NOV19INDHOU",
     "tds": 1.0,
     "n": 10,
     "games_td": 1,
@@ -2383,9 +2372,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.793,
-     "ask": 84,
-     "sc": 58.5
+     "p": 0.789,
+     "ask": 83,
+     "sc": 58.1
     },
     "tags": [
      "RZ share top-10",
@@ -2400,7 +2389,7 @@
      "1.0 TD in 10 games, scored in 1 (0 in 10 last season).",
      "Low total: IND projected for 16 pts (O/U 44.5, 12.5-pt underdog).",
      "Injury news: Emari Demercado or Laquon Treadwell: Who Should I Pick Up? Fantasy Football (2026)",
-     "Kalshi 14\u00a2 vs model 8%."
+     "Kalshi 15\u00a2 vs model 8%."
     ]
    }
   ],
@@ -4109,7 +4098,7 @@
    9,
    10
   ],
-  "generated": "2026-11-17T04:30:30-08:00",
+  "generated": "2026-11-17T05:00:41-08:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 11 \u00b7 Thu Nov 19",
@@ -4121,7 +4110,7 @@
    "weather": "0 outdoor games",
    "injuries": "148 players listed",
    "news": "0 players in headlines",
-   "google_news": "2 role-cut, 17 injury headlines; QB hurt: NYJ, TB",
+   "google_news": "2 role-cut, 16 injury headlines; QB hurt: NYJ, TB",
    "sleeper_trending": "37 board players trending",
    "reddit": "unavailable"
   },
