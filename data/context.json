@@ -1,38 +1,10 @@
 {
- "generated": "2026-11-17T20:30:55+00:00",
+ "generated": "2026-11-17T21:00:54+00:00",
  "games": {
-  "MIABUF": {
-   "home": "BUF",
-   "away": "MIA",
-   "kick": "1993-01-31T23:30Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {
-    "BUF": -16.5,
-    "MIA": 16.5
-   },
-   "total": 45.5
-  },
-  "NOCHI": {
-   "home": "CHI",
-   "away": "NO",
-   "kick": "1993-01-31T23:30Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {
-    "CHI": -11.5,
-    "NO": 11.5
-   },
-   "total": 48.5,
-   "espn_wx": {
-    "desc": "1",
-    "temp": 56
-   }
-  },
   "INDHOU": {
    "home": "HOU",
    "away": "IND",
-   "kick": "1993-01-31T23:30Z",
+   "kick": "2026-11-20T01:15Z",
    "indoor": true,
    "neutral": false,
    "spread": {
@@ -41,8 +13,50 @@
    },
    "total": 44.5,
    "espn_wx": {
-    "desc": "1",
-    "temp": 66
+    "desc": "Mostly clear",
+    "temp": 69
+   }
+  },
+  "MIABUF": {
+   "home": "BUF",
+   "away": "MIA",
+   "kick": "2026-11-22T18:00Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {
+    "BUF": -16.5,
+    "MIA": 16.5
+   },
+   "total": 45.5,
+   "wx": {
+    "wind": 5,
+    "gust": 15,
+    "pop": 35,
+    "rain": 0.0,
+    "temp": 61
+   }
+  },
+  "NOCHI": {
+   "home": "CHI",
+   "away": "NO",
+   "kick": "2026-11-22T18:00Z",
+   "indoor": false,
+   "neutral": false,
+   "spread": {
+    "CHI": -11.5,
+    "NO": 11.5
+   },
+   "total": 48.5,
+   "espn_wx": {
+    "desc": "Cloudy",
+    "temp": 50
+   },
+   "wx": {
+    "wind": 8,
+    "gust": 20,
+    "pop": 43,
+    "rain": 0.5,
+    "temp": 58
    }
   }
  },
@@ -502,6 +516,11 @@
   ],
   "MIA": [
    {
+    "name": "Jordan Phillips",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
     "name": "Jared Wayne",
     "pos": "WR",
     "status": "Questionable"
@@ -520,11 +539,6 @@
     "name": "Zeek Biggers",
     "pos": "DT",
     "status": "Out"
-   },
-   {
-    "name": "Jordan Phillips",
-    "pos": "DT",
-    "status": "Questionable"
    },
    {
     "name": "Andrew Meyer",
@@ -851,169 +865,173 @@
  "trend": {
   "michael mayer": {
    "rank": 1,
-   "adds": 1329516
+   "adds": 1362663
   },
   "xavier hutchinson": {
    "rank": 2,
-   "adds": 1153131
+   "adds": 1167418
   },
   "seth mcgowan": {
    "rank": 3,
-   "adds": 804416
-  },
-  "ryan flournoy": {
-   "rank": 4,
-   "adds": 754128
+   "adds": 806208
   },
   "jordyn tyson": {
+   "rank": 4,
+   "adds": 752000
+  },
+  "ryan flournoy": {
    "rank": 5,
-   "adds": 743344
+   "adds": 746552
   },
   "pat bryant": {
    "rank": 6,
-   "adds": 618632
+   "adds": 631880
   },
   "mark andrews": {
    "rank": 7,
-   "adds": 579969
+   "adds": 594828
   },
   "justice hill": {
    "rank": 9,
-   "adds": 430425
+   "adds": 405081
   },
   "quentin johnston": {
    "rank": 10,
-   "adds": 400267
+   "adds": 366023
   },
   "bo nix": {
    "rank": 11,
-   "adds": 294690
+   "adds": 300774
   },
   "kaelon black": {
    "rank": 13,
-   "adds": 280308
+   "adds": 283325
   },
   "elic ayomanor": {
    "rank": 14,
-   "adds": 278596
+   "adds": 281960
   },
   "emmett johnson": {
    "rank": 15,
-   "adds": 278442
+   "adds": 272394
   },
   "caleb douglas": {
    "rank": 16,
-   "adds": 238520
+   "adds": 242400
   },
   "jacory croskey merritt": {
    "rank": 17,
-   "adds": 233523
+   "adds": 242370
   },
   "gavin bartholomew": {
    "rank": 19,
-   "adds": 206595
+   "adds": 210159
   },
   "cj stroud": {
    "rank": 21,
-   "adds": 189301
+   "adds": 189756
   },
   "kirk cousins": {
    "rank": 22,
-   "adds": 183208
+   "adds": 185136
   },
   "david montgomery": {
    "rank": 23,
-   "adds": 179502
+   "adds": 183258
   },
   "fernando mendoza": {
    "rank": 24,
-   "adds": 175600
-  },
-  "mike gesicki": {
-   "rank": 25,
-   "adds": 169884
+   "adds": 168968
   },
   "darren waller": {
+   "rank": 26,
+   "adds": 166725
+  },
+  "mike gesicki": {
    "rank": 27,
-   "adds": 165600
+   "adds": 165804
   },
   "adonai mitchell": {
    "rank": 28,
-   "adds": 150040
+   "adds": 154232
   },
   "brenton strange": {
    "rank": 29,
-   "adds": 148374
+   "adds": 149598
   },
   "alvin kamara": {
    "rank": 30,
-   "adds": 138936
+   "adds": 139992
   },
   "courtland sutton": {
    "rank": 31,
-   "adds": 128430
+   "adds": 131463
   },
   "kyle monangai": {
    "rank": 32,
-   "adds": 126552
+   "adds": 129198
   },
   "kenny gainwell": {
    "rank": 35,
-   "adds": 118640
-  },
-  "josh downs": {
-   "rank": 36,
-   "adds": 112605
+   "adds": 120864
   },
   "malik washington": {
-   "rank": 37,
-   "adds": 109816
+   "rank": 36,
+   "adds": 108552
+  },
+  "josh downs": {
+   "rank": 38,
+   "adds": 106560
   },
   "tre harris": {
-   "rank": 39,
-   "adds": 102148
-  },
-  "dohnte meyers": {
-   "rank": 41,
-   "adds": 92853
+   "rank": 40,
+   "adds": 101572
   },
   "omarion hampton": {
+   "rank": 41,
+   "adds": 91659
+  },
+  "dohnte meyers": {
    "rank": 42,
-   "adds": 90231
+   "adds": 90027
   },
   "samaje perine": {
    "rank": 43,
-   "adds": 86712
+   "adds": 87656
   },
   "aaron rodgers": {
-   "rank": 45,
-   "adds": 75472
+   "rank": 44,
+   "adds": 73452
   },
   "jayden daniels": {
-   "rank": 47,
-   "adds": 70904
-  },
-  "jj mccarthy": {
-   "rank": 48,
-   "adds": 69675
+   "rank": 45,
+   "adds": 71040
   },
   "keon coleman": {
-   "rank": 49,
-   "adds": 69408
+   "rank": 46,
+   "adds": 70803
+  },
+  "jj mccarthy": {
+   "rank": 47,
+   "adds": 69342
   },
   "khalil shakir": {
+   "rank": 48,
+   "adds": 68850
+  },
+  "chris godwin": {
    "rank": 50,
-   "adds": 68499
+   "adds": 66618
   }
  },
  "buzz": {},
  "sources": {
   "lines": "3 games",
-  "weather": "0 outdoor games",
+  "weather": "2 outdoor games",
   "injuries": "146 players listed",
   "news": "1 players in headlines",
   "google_news": "5 role-cut, 26 injury headlines; QB hurt: LV, NYJ, TB",
-  "sleeper_trending": "39 board players trending",
+  "sleeper_trending": "40 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
