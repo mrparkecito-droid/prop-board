@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T23:01:06+00:00",
+ "generated": "2026-11-18T23:10:01+00:00",
  "games": {
   "INDHOU": {
    "home": "HOU",
@@ -31,6 +31,13 @@
    "espn_wx": {
     "desc": "Partly sunny",
     "temp": 65
+   },
+   "wx": {
+    "wind": 4,
+    "gust": 9,
+    "pop": 11,
+    "rain": 0.0,
+    "temp": 61
    }
   },
   "NOCHI": {
@@ -380,6 +387,11 @@
   ],
   "DAL": [
    {
+    "name": "Jake Ferguson",
+    "pos": "TE",
+    "status": "Out"
+   },
+   {
     "name": "Juanyeh Thomas",
     "pos": "S",
     "status": "Questionable"
@@ -407,11 +419,6 @@
    {
     "name": "Tyler Booker",
     "pos": "G",
-    "status": "Out"
-   },
-   {
-    "name": "Jake Ferguson",
-    "pos": "TE",
     "status": "Out"
    }
   ],
@@ -1145,7 +1152,7 @@
  "news": {
   "cam skattebo": {
    "h": "Giants RB Cam Skattebo to nix backflips in wake of Aidan Hutchinson's injury",
-   "t": "2026-11-18T22:24:35Z"
+   "t": "2026-11-18T22:56:16Z"
   },
   "zay flowers": {
    "h": "Ravens' Flowers 'super frustrated' by latest late-game fumble",
@@ -1163,11 +1170,11 @@
    "h": "Fantasy buzz: Kirk Cousins, Stefon Diggs bring reliability to fantasy lineups",
    "t": "2026-11-18T16:28:52Z"
   },
-  "courtland sutton": {
+  "ryan flournoy": {
    "h": "Yates and Clay debate Ryan Flournoy vs. Courtland Sutton in Week 11",
    "t": "2026-11-18T16:03:08Z"
   },
-  "ryan flournoy": {
+  "courtland sutton": {
    "h": "Yates and Clay debate Ryan Flournoy vs. Courtland Sutton in Week 11",
    "t": "2026-11-18T16:03:08Z"
   },
@@ -1195,27 +1202,27 @@
    "h": "C.J. Stroud's Week 11 fantasy outlook",
    "t": "2026-11-18T13:40:56Z"
   },
-  "brock purdy": {
-   "h": "Fantasy football matchup ranks: Upgrade Jonah Coleman, downgrade Brock Purdy",
-   "t": "2026-11-18T15:09:38Z"
-  },
   "jonah coleman": {
    "h": "Fantasy football matchup ranks: Upgrade Jonah Coleman, downgrade Brock Purdy",
    "t": "2026-11-18T15:09:38Z"
   },
-  "travis kelce": {
-   "h": "Kansas City Chiefs tight end Travis Kelce's top moments at Arrowhead Stadium",
-   "t": "2026-11-18T11:00:10Z"
+  "brock purdy": {
+   "h": "Fantasy football matchup ranks: Upgrade Jonah Coleman, downgrade Brock Purdy",
+   "t": "2026-11-18T15:09:38Z"
   },
   "patrick mahomes": {
    "h": "Kansas City Chiefs tight end Travis Kelce's top moments at Arrowhead Stadium",
    "t": "2026-11-18T11:00:10Z"
   },
-  "juwan johnson": {
+  "travis kelce": {
+   "h": "Kansas City Chiefs tight end Travis Kelce's top moments at Arrowhead Stadium",
+   "t": "2026-11-18T11:00:10Z"
+  },
+  "jordyn tyson": {
    "h": "Three-win Saints, Kellen Moore face defining stretch of games",
    "t": "2026-11-18T13:39:56Z"
   },
-  "jordyn tyson": {
+  "juwan johnson": {
    "h": "Three-win Saints, Kellen Moore face defining stretch of games",
    "t": "2026-11-18T13:39:56Z"
   },
@@ -1385,7 +1392,7 @@
  "buzz": {},
  "sources": {
   "lines": "11 games",
-  "weather": "6 outdoor games",
+  "weather": "7 outdoor games",
   "injuries": "172 players listed",
   "news": "21 players in headlines",
   "google_news": "4 role-cut, 113 injury headlines; QB hurt: CAR, DET, HOU, NYJ",
