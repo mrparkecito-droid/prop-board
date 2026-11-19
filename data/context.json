@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T01:00:57+00:00",
+ "generated": "2026-11-19T01:30:58+00:00",
  "games": {
   "INDHOU": {
    "home": "HOU",
@@ -34,7 +34,7 @@
    },
    "wx": {
     "wind": 6,
-    "gust": 9,
+    "gust": 14,
     "pop": 11,
     "rain": 0.0,
     "temp": 60
@@ -57,7 +57,7 @@
    },
    "wx": {
     "wind": 9,
-    "gust": 29,
+    "gust": 17,
     "pop": 54,
     "rain": 1.6,
     "temp": 58
@@ -112,7 +112,7 @@
    },
    "wx": {
     "wind": 16,
-    "gust": 18,
+    "gust": 21,
     "pop": 10,
     "rain": 0.0,
     "temp": 52
@@ -135,7 +135,7 @@
    },
    "wx": {
     "wind": 11,
-    "gust": 28,
+    "gust": 31,
     "pop": 37,
     "rain": 0.8,
     "temp": 59
@@ -158,10 +158,26 @@
    },
    "wx": {
     "wind": 6,
-    "gust": 20,
+    "gust": 22,
     "pop": 28,
     "rain": 0.0,
     "temp": 60
+   }
+  },
+  "NYJLAC": {
+   "home": "LAC",
+   "away": "NYJ",
+   "kick": "2026-11-22T21:05Z",
+   "indoor": true,
+   "neutral": false,
+   "spread": {
+    "LAC": -3.0,
+    "NYJ": 3.0
+   },
+   "total": 41.5,
+   "espn_wx": {
+    "desc": "Intermittent clouds",
+    "temp": 69
    }
   },
   "LVDEN": {
@@ -181,7 +197,7 @@
    },
    "wx": {
     "wind": 2,
-    "gust": 3,
+    "gust": 2,
     "pop": 0,
     "rain": 0.0,
     "temp": 46
@@ -204,7 +220,7 @@
    },
    "wx": {
     "wind": 13,
-    "gust": 36,
+    "gust": 30,
     "pop": 31,
     "rain": 0.0,
     "temp": 58
@@ -220,7 +236,7 @@
     "SF": -3.0,
     "MIN": 3.0
    },
-   "total": 45.5
+   "total": 46.5
   }
  },
  "inj": {
@@ -287,18 +303,13 @@
   ],
   "BUF": [
    {
-    "name": "Damar Hamlin",
-    "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Ray Davis",
-    "pos": "RB",
-    "status": "Questionable"
-   },
-   {
     "name": "Jackson Hawes",
     "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Cole Bishop",
+    "pos": "S",
     "status": "Questionable"
    },
    {
@@ -307,8 +318,13 @@
     "status": "Questionable"
    },
    {
-    "name": "Cole Bishop",
+    "name": "Damar Hamlin",
     "pos": "S",
+    "status": "Questionable"
+   },
+   {
+    "name": "Ray Davis",
+    "pos": "RB",
     "status": "Questionable"
    },
    {
@@ -676,6 +692,11 @@
   ],
   "KC": [
    {
+    "name": "Nick Bolton",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
     "name": "Omarr Norman-Lott",
     "pos": "DT",
     "status": "Questionable"
@@ -683,11 +704,6 @@
    {
     "name": "Kenneth Walker III",
     "pos": "RB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Nick Bolton",
-    "pos": "LB",
     "status": "Questionable"
    },
    {
@@ -789,6 +805,16 @@
   ],
   "MIA": [
    {
+    "name": "Jared Wayne",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
+    "name": "JuJu Brents",
+    "pos": "CB",
+    "status": "Questionable"
+   },
+   {
     "name": "Dante Trader Jr.",
     "pos": "S",
     "status": "Questionable"
@@ -814,18 +840,8 @@
     "status": "Questionable"
    },
    {
-    "name": "JuJu Brents",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
     "name": "Tucker Addington",
     "pos": "LS",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jared Wayne",
-    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -835,6 +851,16 @@
    }
   ],
   "MIN": [
+   {
+    "name": "Andrew Van Ginkel",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Blake Cashman",
+    "pos": "LB",
+    "status": "Questionable"
+   },
    {
     "name": "Jeshaun Jones",
     "pos": "WR",
@@ -864,16 +890,6 @@
     "name": "Jordan Addison",
     "pos": "WR",
     "status": "Out"
-   },
-   {
-    "name": "Blake Cashman",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Andrew Van Ginkel",
-    "pos": "LB",
-    "status": "Questionable"
    }
   ],
   "NE": [
@@ -920,12 +936,17 @@
   ],
   "NO": [
    {
-    "name": "Decamerion Richardson",
+    "name": "Martin Emerson Jr.",
     "pos": "CB",
     "status": "Questionable"
    },
    {
-    "name": "Martin Emerson Jr.",
+    "name": "Pete Werner",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Decamerion Richardson",
     "pos": "CB",
     "status": "Questionable"
    },
@@ -948,11 +969,6 @@
     "name": "Asim Richards",
     "pos": "OT",
     "status": "Out"
-   },
-   {
-    "name": "Pete Werner",
-    "pos": "LB",
-    "status": "Questionable"
    }
   ],
   "NYG": [
@@ -1235,11 +1251,11 @@
    "h": "Fantasy buzz: Kirk Cousins, Stefon Diggs bring reliability to fantasy lineups",
    "t": "2026-11-18T16:28:52Z"
   },
-  "courtland sutton": {
+  "ryan flournoy": {
    "h": "Yates and Clay debate Ryan Flournoy vs. Courtland Sutton in Week 11",
    "t": "2026-11-18T16:03:08Z"
   },
-  "ryan flournoy": {
+  "courtland sutton": {
    "h": "Yates and Clay debate Ryan Flournoy vs. Courtland Sutton in Week 11",
    "t": "2026-11-18T16:03:08Z"
   },
@@ -1267,11 +1283,11 @@
    "h": "C.J. Stroud's Week 11 fantasy outlook",
    "t": "2026-11-18T13:40:56Z"
   },
-  "brock purdy": {
+  "jonah coleman": {
    "h": "Fantasy football matchup ranks: Upgrade Jonah Coleman, downgrade Brock Purdy",
    "t": "2026-11-18T15:09:38Z"
   },
-  "jonah coleman": {
+  "brock purdy": {
    "h": "Fantasy football matchup ranks: Upgrade Jonah Coleman, downgrade Brock Purdy",
    "t": "2026-11-18T15:09:38Z"
   },
@@ -1283,11 +1299,11 @@
    "h": "Kansas City Chiefs tight end Travis Kelce's top moments at Arrowhead Stadium",
    "t": "2026-11-18T11:00:10Z"
   },
-  "juwan johnson": {
+  "jordyn tyson": {
    "h": "Three-win Saints, Kellen Moore face defining stretch of games",
    "t": "2026-11-18T13:39:56Z"
   },
-  "jordyn tyson": {
+  "juwan johnson": {
    "h": "Three-win Saints, Kellen Moore face defining stretch of games",
    "t": "2026-11-18T13:39:56Z"
   },
@@ -1303,164 +1319,164 @@
  "trend": {
   "xavier hutchinson": {
    "rank": 1,
-   "adds": 2713025
+   "adds": 2729888
   },
   "michael mayer": {
    "rank": 2,
-   "adds": 2687895
+   "adds": 2697462
   },
   "pat bryant": {
    "rank": 4,
-   "adds": 1594904
+   "adds": 1602648
   },
   "mark andrews": {
    "rank": 5,
-   "adds": 1491903
+   "adds": 1498761
   },
   "ryan flournoy": {
    "rank": 6,
-   "adds": 1355016
+   "adds": 1361240
   },
   "seth mcgowan": {
    "rank": 7,
-   "adds": 1325912
+   "adds": 1333296
   },
   "elic ayomanor": {
    "rank": 8,
-   "adds": 1115896
+   "adds": 1123672
   },
   "jordyn tyson": {
    "rank": 9,
-   "adds": 967456
+   "adds": 969352
   },
   "jacory croskey merritt": {
    "rank": 11,
-   "adds": 750105
+   "adds": 753138
   },
   "bo nix": {
    "rank": 12,
-   "adds": 675108
+   "adds": 679428
   },
   "chimere dike": {
    "rank": 13,
-   "adds": 559557
+   "adds": 569322
   },
   "kaelon black": {
    "rank": 15,
-   "adds": 478828
+   "adds": 480893
   },
   "david montgomery": {
    "rank": 16,
-   "adds": 464268
+   "adds": 467304
   },
   "justice hill": {
    "rank": 17,
-   "adds": 456255
+   "adds": 460080
   },
   "caleb douglas": {
    "rank": 18,
-   "adds": 427296
+   "adds": 428648
   },
   "courtland sutton": {
    "rank": 19,
-   "adds": 388593
+   "adds": 391518
   },
   "adonai mitchell": {
    "rank": 21,
-   "adds": 377408
+   "adds": 379536
   },
   "gavin bartholomew": {
    "rank": 22,
-   "adds": 368046
+   "adds": 370701
   },
   "kyle monangai": {
    "rank": 23,
-   "adds": 326292
+   "adds": 329238
   },
   "darren waller": {
    "rank": 24,
-   "adds": 320391
+   "adds": 322056
   },
   "kenny gainwell": {
    "rank": 25,
-   "adds": 307832
+   "adds": 309992
   },
   "kirk cousins": {
    "rank": 26,
-   "adds": 303496
+   "adds": 305368
   },
   "cj stroud": {
    "rank": 28,
-   "adds": 295505
+   "adds": 297290
   },
   "brenton strange": {
    "rank": 29,
-   "adds": 294273
+   "adds": 296577
   },
   "emmett johnson": {
    "rank": 30,
-   "adds": 271044
+   "adds": 272718
   },
   "samaje perine": {
    "rank": 31,
-   "adds": 255304
+   "adds": 258472
   },
   "mike gesicki": {
    "rank": 35,
-   "adds": 220428
+   "adds": 222208
   },
   "alvin kamara": {
    "rank": 36,
-   "adds": 195472
+   "adds": 197224
   },
   "keon coleman": {
    "rank": 37,
-   "adds": 186291
+   "adds": 188001
   },
   "malik washington": {
    "rank": 38,
-   "adds": 186088
+   "adds": 187456
   },
   "omarion hampton": {
    "rank": 40,
-   "adds": 174354
+   "adds": 175053
   },
   "fernando mendoza": {
    "rank": 41,
-   "adds": 169568
+   "adds": 171248
   },
   "josh downs": {
    "rank": 44,
-   "adds": 150495
+   "adds": 151410
   },
   "khalil shakir": {
    "rank": 45,
-   "adds": 150156
+   "adds": 151110
   },
   "aaron rodgers": {
    "rank": 46,
-   "adds": 144972
+   "adds": 146568
   },
   "tre harris": {
    "rank": 47,
-   "adds": 141996
+   "adds": 142748
   },
   "joe milton": {
    "rank": 48,
-   "adds": 136916
+   "adds": 137924
   },
   "jalon daniels": {
    "rank": 49,
-   "adds": 134066
+   "adds": 135374
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "11 games",
+  "lines": "12 games",
   "weather": "7 outdoor games",
   "injuries": "185 players listed",
   "news": "21 players in headlines",
-  "google_news": "4 role-cut, 109 injury headlines; QB hurt: DET, MIN, NYJ",
+  "google_news": "4 role-cut, 112 injury headlines; QB hurt: DET, MIN, NYJ",
   "sleeper_trending": "38 board players trending",
   "reddit": "unavailable"
  },
@@ -1667,13 +1683,13 @@
   },
   "david montgomery": {
    "h": [
-    "Colts-Texans Touchdown Picks: Seth McGowan & David Montgomery Anytime TD Bets, NFL Week 11",
+    "David Montgomery Week 11 Outlook for Fantasy Football (2026)",
     "David Montgomery (groin) cleared to play vs. Colts",
-    "Texans Make Final Call on David Montgomery Amid Rare News"
+    "Texans RBs David Montgomery, Woody Marks get mixed bag of injury updates for Colts game"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Brock Bowers, Kenneth Walker, David Montgomery, And More In The Week 11 Fantasy Football Injury Report"
+   "worst": "David Montgomery Week 11 Outlook for Fantasy Football (2026)"
   },
   "emari demercado": {
    "h": [
@@ -1766,9 +1782,9 @@
   },
   "kyle monangai": {
    "h": [
-    "Kyle Monangai Listed as full Wednesday",
-    "Kyle Monangai listed as full participant Wednesday",
-    "Bears get great news on Luther Burden III, Kyle Monangai ahead of Week 11"
+    "Is Kyle Monangai a FLEX start against the Saints?",
+    "Kyle Monangai (toe) practices in full on Wednesday",
+    "Kyle Monangai Listed as full Wednesday"
    ],
    "cut": false,
    "inj": true,
@@ -1891,6 +1907,45 @@
    "inj": true,
    "worst": "Chris Olave, Kyren Williams and other Week 11 fantasy football bad beats to worry about"
   },
+  "omarion hampton": {
+   "h": [
+    "Who Should I Start for Fantasy Football Week 11? Rachaad White, Pat Bryant, Omarion Hampton, Bhayshul Tuten, James Cook III, Kyle Monangai, Rome Odunze, Devin Singletary, Rashee Rice",
+    "Week 11 fantasy football RB start-sit: Allgeier, Hampton, Jones Sr., Montgomery",
+    "Week 11 Omarion Hampton Fantasy Start or Sit 2026"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 11? Rachaad White, Pat Bryant, Omarion Hampton, Bhayshul Tuten, James Cook III, Kyle Monangai, Rome Odunze, Devin Singletary, Rashee Rice"
+  },
+  "kimani vidal": {
+   "h": [
+    "Kimani Vidal - Fantasy Football Fallers, Bust Candidates for Week 11 (2026)? - NFL News",
+    "Kimani Vidal Tallies two catches against Baltimore"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Kimani Vidal - Fantasy Football Fallers, Bust Candidates for Week 11 (2026)? - NFL News"
+  },
+  "keaton mitchell": {
+   "h": [
+    "Keaton Mitchell Minimal impact in Week 10 win",
+    "Chargers' Keaton Mitchell: Minimal impact in Week 10 win",
+    "Keaton Mitchell News: Minimal impact in Week 10 win"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Keaton Mitchell or Myles Price: Who Should I Start in Week 11? Fantasy Football"
+  },
+  "justin herbert": {
+   "h": [
+    "AFC Notes: Justin Herbert, Fernando Mendoza, Bo Nix, Broncos, Chargers, Raiders",
+    "NFL Week 10 Hobby Watch: Kirk Cousins Ignites Vikings Buzz, Justin Herbert Stabilization, and NFC South Value Plays",
+    "Justin Herbert Stats vs. Jets: Career Stats & Game Logs"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Hometown football star Justin Herbert donates to Sheldon High football program - Lookout Eugene-Springfield"
+  },
   "cam skattebo": {
    "h": [
     "Giants\u2019 Cam Skattebo vows to stop backflip celebration after Aidan Hutchinson\u2019s ACL tear",
@@ -2004,11 +2059,11 @@
    "h": [
     "Xavier Hutchinson or DeVonta Smith",
     "Xavier Hutchinson, Ja\u2019Kobi Lane highlight Week 11\u2019s Regression Files",
-    "Week 11 Fantasy Waiver Wire: Jordyn Tyson, Kaelon Black, Seth McGowan, Pat Bryant, Xavier Hutchinson, Cam Ward and MORE"
+    "Braxton Berrios or Xavier Hutchinson: Who Should I Start in Week 11? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Xavier Hutchinson, Elic Ayomanor, and 2 Other Fantasy Football Week 11 Waiver Wire Wide Receivers"
+   "worst": "Braxton Berrios or Xavier Hutchinson: Who Should I Start in Week 11? Fantasy Football"
   },
   "tank dell": {
    "h": [
@@ -2092,8 +2147,8 @@
   "reggie virgil": {
    "h": [
     "KaVontae Turpin or Reggie Virgil: Who Should I Start in Week 11? Fantasy Football",
-    "Reggie Virgil Zero targets in Week 10 loss",
-    "Anthony Gould or Reggie Virgil: Who Should I Start in Week 11? Fantasy Football"
+    "Houston Texans or Reggie Virgil: Who Should I Start in Week 11? Fantasy Football",
+    "Reggie Virgil Zero targets in Week 10 loss"
    ],
    "cut": false,
    "inj": true,
@@ -2107,17 +2162,17 @@
    ],
    "cut": false,
    "inj": true,
-   "worst": "Devin Duvernay or Jalon Daniels: Who Should I Pick Up? Fantasy Football (2026)"
+   "worst": "Devin Duvernay: Must-Add Waiver Wire Pickup for Week 11 Fantasy Football? - NFL News"
   },
   "cyrus allen": {
    "h": [
+    "Cyrus Allen or Reggie Virgil: Who Should I Start in Week 11? Fantasy Football",
     "Cyrus Allen or Jaleel Mclaughlin: Who Should I Start in Week 11? Fantasy Football",
-    "Chiefs Rookie and Sophomore Power Rankings: Emmett Johnson, Cyrus Allen Take the Cake",
-    "Cyrus Allen Fantasy Outlook & Stats"
+    "Chiefs Rookie and Sophomore Power Rankings: Emmett Johnson, Cyrus Allen Take the Cake"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Cyrus Allen or Jaleel Mclaughlin: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Cyrus Allen or Reggie Virgil: Who Should I Start in Week 11? Fantasy Football"
   },
   "travis kelce": {
    "h": [
@@ -2656,16 +2711,6 @@
    "cut": false,
    "inj": true,
    "worst": "Geno Smith Limited, but plans to play Sunday"
-  },
-  "justin herbert": {
-   "h": [
-    "AFC Notes: Justin Herbert, Fernando Mendoza, Bo Nix, Broncos, Chargers, Raiders",
-    "NFL Week 10 Hobby Watch: Kirk Cousins Ignites Vikings Buzz, Justin Herbert Stabilization, and NFC South Value Plays",
-    "Justin Herbert Stats vs. Jets: Career Stats & Game Logs"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Hometown football star Justin Herbert donates to Sheldon High football program - Lookout Eugene-Springfield"
   },
   "jayden daniels": {
    "h": [
