@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T21:01:15+00:00",
+ "generated": "2026-11-19T21:31:04+00:00",
  "games": {
   "INDHOU": {
    "home": "HOU",
@@ -31,6 +31,13 @@
    "espn_wx": {
     "desc": "Partly sunny",
     "temp": 65
+   },
+   "wx": {
+    "wind": 9,
+    "gust": 20,
+    "pop": 3,
+    "rain": 0.0,
+    "temp": 60
    }
   },
   "NOCHI": {
@@ -47,6 +54,13 @@
    "espn_wx": {
     "desc": "Cloudy",
     "temp": 56
+   },
+   "wx": {
+    "wind": 10,
+    "gust": 21,
+    "pop": 71,
+    "rain": 3.1,
+    "temp": 56
    }
   },
   "TENDAL": {
@@ -62,7 +76,7 @@
    "total": 55.5,
    "espn_wx": {
     "desc": "Mostly cloudy",
-    "temp": 62
+    "temp": 63
    }
   },
   "TBDET": {
@@ -78,7 +92,7 @@
    "total": 45.5,
    "espn_wx": {
     "desc": "Cloudy",
-    "temp": 56
+    "temp": 58
    }
   },
   "ARIKC": {
@@ -95,6 +109,13 @@
    "espn_wx": {
     "desc": "Mostly cloudy",
     "temp": 48
+   },
+   "wx": {
+    "wind": 15,
+    "gust": 20,
+    "pop": 18,
+    "rain": 0.0,
+    "temp": 52
    }
   },
   "PITPHI": {
@@ -110,7 +131,14 @@
    "total": 37.5,
    "espn_wx": {
     "desc": "Cloudy",
-    "temp": 59
+    "temp": 60
+   },
+   "wx": {
+    "wind": 12,
+    "gust": 33,
+    "pop": 71,
+    "rain": 10.4,
+    "temp": 58
    }
   },
   "BALCAR": {
@@ -126,7 +154,14 @@
    "total": 43.5,
    "espn_wx": {
     "desc": "Cloudy",
-    "temp": 64
+    "temp": 61
+   },
+   "wx": {
+    "wind": 7,
+    "gust": 16,
+    "pop": 39,
+    "rain": 0.0,
+    "temp": 69
    }
   },
   "NYJLAC": {
@@ -158,7 +193,14 @@
    "total": 40.5,
    "espn_wx": {
     "desc": "Intermittent clouds",
-    "temp": 46
+    "temp": 45
+   },
+   "wx": {
+    "wind": 4,
+    "gust": 4,
+    "pop": 0,
+    "rain": 0.0,
+    "temp": 48
    }
   },
   "JAXNYG": {
@@ -174,7 +216,14 @@
    "total": 46.5,
    "espn_wx": {
     "desc": "Cloudy",
-    "temp": 58
+    "temp": 59
+   },
+   "wx": {
+    "wind": 13,
+    "gust": 37,
+    "pop": 62,
+    "rain": 13.4,
+    "temp": 57
    }
   },
   "MINSF": {
@@ -199,10 +248,17 @@
     "CIN": -6.0,
     "WAS": 6.0
    },
-   "total": 54.5,
+   "total": 53.5,
    "espn_wx": {
     "desc": "Partly cloudy",
     "temp": 52
+   },
+   "wx": {
+    "wind": 11,
+    "gust": 25,
+    "pop": 0,
+    "rain": 0.0,
+    "temp": 47
    }
   }
  },
@@ -261,11 +317,6 @@
     "name": "Marlon Humphrey",
     "pos": "CB",
     "status": "Out"
-   },
-   {
-    "name": "Olaivavega Ioane",
-    "pos": "G",
-    "status": "Questionable"
    },
    {
     "name": "Jaylinn Hawkins",
@@ -607,6 +658,11 @@
   ],
   "JAX": [
    {
+    "name": "Jakobi Meyers",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Bhayshul Tuten",
     "pos": "RB",
     "status": "Questionable"
@@ -652,17 +708,17 @@
     "status": "Questionable"
    },
    {
-    "name": "Jakobi Meyers",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
     "name": "Robert Hainsey",
     "pos": "C",
     "status": "Out"
    }
   ],
   "KC": [
+   {
+    "name": "Kenneth Walker III",
+    "pos": "RB",
+    "status": "Questionable"
+   },
    {
     "name": "Omarr Norman-Lott",
     "pos": "DT",
@@ -676,16 +732,6 @@
    {
     "name": "Jaylon Moore",
     "pos": "OT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Nick Bolton",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Kenneth Walker III",
-    "pos": "RB",
     "status": "Questionable"
    }
   ],
@@ -918,6 +964,11 @@
   ],
   "NO": [
    {
+    "name": "Jordyn Tyson",
+    "pos": "WR",
+    "status": "Questionable"
+   },
+   {
     "name": "Martin Emerson Jr.",
     "pos": "CB",
     "status": "Questionable"
@@ -930,11 +981,6 @@
    {
     "name": "Decamerion Richardson",
     "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jordyn Tyson",
-    "pos": "WR",
     "status": "Questionable"
    },
    {
@@ -1048,11 +1094,6 @@
    {
     "name": "Patrick Queen",
     "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "DeShon Elliott",
-    "pos": "S",
     "status": "Questionable"
    }
   ],
@@ -1169,6 +1210,11 @@
     "status": "Questionable"
    },
    {
+    "name": "Kevin Winston Jr.",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
     "name": "Cody Barton",
     "pos": "LB",
     "status": "Questionable"
@@ -1176,11 +1222,6 @@
    {
     "name": "Anthony Hill Jr.",
     "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "John Franklin-Myers",
-    "pos": "DE",
     "status": "Questionable"
    },
    {
@@ -1196,8 +1237,8 @@
   ],
   "WAS": [
    {
-    "name": "Colson Yankoff",
-    "pos": "TE",
+    "name": "Quan Martin",
+    "pos": "S",
     "status": "Questionable"
    }
   ]
@@ -1227,11 +1268,11 @@
    "h": "Why Field Yates recommends benching Emeka Egbuka in Week 11",
    "t": "2026-11-19T16:34:09Z"
   },
-  "jordyn tyson": {
+  "chris olave": {
    "h": "Does Jordyn Tyson's emergence hurt Chris Olave's fantasy value?",
    "t": "2026-11-19T16:18:02Z"
   },
-  "chris olave": {
+  "jordyn tyson": {
    "h": "Does Jordyn Tyson's emergence hurt Chris Olave's fantasy value?",
    "t": "2026-11-19T16:18:02Z"
   },
@@ -1251,164 +1292,164 @@
  "trend": {
   "xavier hutchinson": {
    "rank": 1,
-   "adds": 2146690
+   "adds": 2153893
   },
   "michael mayer": {
    "rank": 2,
-   "adds": 1761705
+   "adds": 1765575
   },
   "pat bryant": {
    "rank": 4,
-   "adds": 1250832
+   "adds": 1254304
   },
   "mark andrews": {
    "rank": 5,
-   "adds": 1082331
+   "adds": 1085445
   },
   "elic ayomanor": {
    "rank": 6,
-   "adds": 1060572
+   "adds": 1063824
   },
   "seth mcgowan": {
    "rank": 7,
-   "adds": 934880
+   "adds": 938568
   },
   "ryan flournoy": {
    "rank": 8,
-   "adds": 904784
+   "adds": 907384
   },
   "chimere dike": {
    "rank": 9,
-   "adds": 816903
+   "adds": 824067
   },
   "jacory croskey merritt": {
    "rank": 11,
-   "adds": 624249
+   "adds": 626391
   },
   "jordyn tyson": {
    "rank": 12,
-   "adds": 514704
+   "adds": 515400
   },
   "bo nix": {
    "rank": 13,
-   "adds": 510204
+   "adds": 512130
   },
   "justice hill": {
    "rank": 14,
-   "adds": 407142
+   "adds": 409833
   },
   "david montgomery": {
    "rank": 16,
-   "adds": 364188
+   "adds": 365394
   },
   "courtland sutton": {
    "rank": 17,
-   "adds": 346554
+   "adds": 348219
   },
   "kaelon black": {
    "rank": 18,
-   "adds": 336945
+   "adds": 337708
   },
   "adonai mitchell": {
    "rank": 20,
-   "adds": 306736
+   "adds": 308104
   },
   "gavin bartholomew": {
    "rank": 21,
-   "adds": 306045
+   "adds": 307611
   },
   "caleb douglas": {
    "rank": 22,
-   "adds": 298536
+   "adds": 299080
   },
   "kyle monangai": {
    "rank": 23,
-   "adds": 278490
+   "adds": 279852
   },
   "samaje perine": {
    "rank": 24,
-   "adds": 267120
+   "adds": 269012
   },
   "kenny gainwell": {
    "rank": 25,
-   "adds": 259648
+   "adds": 261096
   },
   "brenton strange": {
    "rank": 26,
-   "adds": 248499
+   "adds": 249759
   },
   "darren waller": {
    "rank": 28,
-   "adds": 246429
+   "adds": 247590
   },
   "kirk cousins": {
    "rank": 29,
-   "adds": 226848
+   "adds": 228200
   },
   "cj stroud": {
    "rank": 31,
-   "adds": 213206
+   "adds": 214151
   },
   "emmett johnson": {
    "rank": 33,
-   "adds": 183294
+   "adds": 184257
   },
   "fernando mendoza": {
    "rank": 35,
-   "adds": 167008
+   "adds": 168232
   },
   "keon coleman": {
    "rank": 37,
-   "adds": 161820
+   "adds": 162738
   },
   "alvin kamara": {
    "rank": 40,
-   "adds": 150816
+   "adds": 151592
   },
   "mike gesicki": {
    "rank": 41,
-   "adds": 148976
+   "adds": 150064
   },
   "malik washington": {
    "rank": 42,
-   "adds": 148464
+   "adds": 149296
   },
   "aaron rodgers": {
    "rank": 43,
-   "adds": 138844
+   "adds": 139676
   },
   "khalil shakir": {
    "rank": 44,
-   "adds": 121950
+   "adds": 122517
   },
   "joe milton": {
    "rank": 45,
-   "adds": 111292
+   "adds": 111856
   },
   "omarion hampton": {
    "rank": 46,
-   "adds": 104268
+   "adds": 104508
   },
   "josh downs": {
    "rank": 47,
-   "adds": 102945
+   "adds": 103265
   },
   "omar cooper": {
    "rank": 49,
-   "adds": 99904
+   "adds": 100624
   },
   "ladd mcconkey": {
    "rank": 50,
-   "adds": 98305
+   "adds": 98860
   }
  },
  "buzz": {},
  "sources": {
   "lines": "13 games",
-  "weather": "0 outdoor games",
-  "injuries": "186 players listed",
+  "weather": "8 outdoor games",
+  "injuries": "183 players listed",
   "news": "11 players in headlines",
-  "google_news": "1 role-cut, 127 injury headlines; QB hurt: ARI, NYJ, TB",
+  "google_news": "1 role-cut, 129 injury headlines; QB hurt: ARI, NYJ, TB",
   "sleeper_trending": "38 board players trending",
   "reddit": "unavailable"
  },
@@ -1572,6 +1613,16 @@
    "cut": false,
    "inj": true,
    "worst": "Burrow, Prescott top Week 11 fantasy football quarterback rankings"
+  },
+  "justin herbert": {
+   "h": [
+    "LAPD \u2018Swarmed\u2019 Home Of Justin Herbert, Madison Beer",
+    "Is Justin Herbert Still a Franchise QB?! | NFL Six-Pack \u2014 Karsch & Anderson",
+    "LAPD called to home of NFL star Justin Herbert after reported break-in"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "LAPD \u2018Swarmed\u2019 Home Of Justin Herbert, Madison Beer"
   },
   "jj mccarthy": {
    "h": [
@@ -1901,6 +1952,26 @@
    "inj": true,
    "worst": "Chris Olave, Kyren Williams and other Week 11 fantasy football bad beats to worry about"
   },
+  "breece hall": {
+   "h": [
+    "Breece Hall Week 11 Outlook - Jets at Chargers",
+    "Hall Joins Top Five in Jets Receiving Yards Among RBs After Fifth Straight Loss",
+    "Week 11 Fantasy Football Running Back Start \u2018Em, Sit \u2018Em: Jonathan Taylor vs. Breece Hall"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Week 11 Fantasy Football Running Back Start \u2018Em, Sit \u2018Em: Jonathan Taylor vs. Breece Hall"
+  },
+  "braelon allen": {
+   "h": [
+    "Braelon Allen Week 11 Outlook - Jets at Chargers",
+    "Braelon Allen or Elic Ayomanor",
+    "Michael Mayer or Braelon Allen"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 11? Chris Olave, Courtland Sutton, Elic Ayomanor, Chuba Hubbard, DeVonta Smith, DK Metcalf, Braelon Allen, Jakobi Meyers, Keenan Allen"
+  },
   "omarion hampton": {
    "h": [
     "Harbaugh: Hampton reestablished himself as lead RB",
@@ -1927,16 +1998,6 @@
    "cut": false,
    "inj": true,
    "worst": "Keaton Mitchell or Myles Price: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "justin herbert": {
-   "h": [
-    "LAPD \u2018Swarmed\u2019 Home Of Justin Herbert, Madison Beer",
-    "Is Justin Herbert Still a Franchise QB?! | NFL Six-Pack \u2014 Karsch & Anderson",
-    "LAPD called to home of NFL star Justin Herbert after reported break-in"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "LAPD \u2018Swarmed\u2019 Home Of Justin Herbert, Madison Beer"
   },
   "devin singletary": {
    "h": [
@@ -2084,6 +2145,14 @@
    "inj": true,
    "worst": "Drew Ogletree or Nate Carter: Who Should I Start in Week 11? Fantasy Football"
   },
+  "foster moreau": {
+   "h": [
+    "Foster Moreau Week 11 Preview vs. the Colts"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Foster Moreau Week 11 Preview vs. the Colts"
+  },
   "xavier hutchinson": {
    "h": [
     "Xavier Hutchinson or Emari Demercado",
@@ -2186,6 +2255,7 @@
   },
   "noah gray": {
    "h": [
+    "Noah Gray (TE, Chiefs) Contract & Cap Hit 2026",
     "Myles Price or Noah Gray: Who Should I Start in Week 11? Fantasy Football"
    ],
    "cut": false,
@@ -2420,12 +2490,13 @@
   },
   "sam roush": {
    "h": [
-    "Nate Boerkircher or Sam Roush: Who Should I Start in Week 11? Fantasy Football",
-    "Myles Price or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
+    "Bears rookie tight end Sam Roush has pushed past early struggles: 'I'm excited to keep building'",
+    "Dalton Schultz or Sam Roush: Who Should I Start in Week 11? Fantasy Football",
+    "DeVonta Smith or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Nate Boerkircher or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Dalton Schultz or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
   },
   "luther burden": {
    "h": [
@@ -2508,7 +2579,6 @@
   "darnell washington": {
    "h": [
     "Darnell Washington Week 11 Outlook - Steelers at Eagles",
-    "Darnell Washington (TE, Steelers) Contract & Cap Hit 2026",
     "Darnell Washington or Myles Price: Who Should I Start in Week 11? Fantasy Football"
    ],
    "cut": false,
@@ -2517,23 +2587,23 @@
   },
   "pat freiermuth": {
    "h": [
+    "Pat Freiermuth Confirms Locker Room Feelings on DK Metcalf Amid Steelers WR\u2019s Struggles",
     "Steelers Are Making A Costly Mistake With Pat Freiermuth In 2026",
-    "Pat Freiermuth or Bhayshul Tuten | Who Should I Start Week 11",
-    "Who Should I Start for Fantasy Football Week 11? Chig Okonkwo, Mark Andrews, Darren Waller, Brenton Strange, Dalton Kincaid, Mike Gesicki, Dallas Goedert, Colston Loveland, Pat Freiermuth"
+    "Pat Freiermuth or Bhayshul Tuten | Who Should I Start Week 11"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 11? Chig Okonkwo, Mark Andrews, Darren Waller, Brenton Strange, Dalton Kincaid, Mike Gesicki, Dallas Goedert, Colston Loveland, Pat Freiermuth"
+   "worst": "Pat Freiermuth Confirms Locker Room Feelings on DK Metcalf Amid Steelers WR\u2019s Struggles"
   },
   "germie bernard": {
    "h": [
     "Who Should I Start for Week 11? Caleb Douglas, Germie Bernard, Antonio Williams, Kaelon Black, Omar Cooper Jr., Carnell Tate, Jonah Coleman, Deion Burks, Reggie Virgil",
     "Steelers' Germie Bernard Has Concerning Comments As He Hits Inevitable Rookie Wall",
-    "Germie Bernard or Ladd McConkey: Who Should I Start in Week 11? Fantasy Football"
+    "Germie Bernard or Travis Etienne Jr.: Who Should I Start in Week 11? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Germie Bernard or Ladd McConkey: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Germie Bernard or Travis Etienne Jr.: Who Should I Start in Week 11? Fantasy Football"
   },
   "dk metcalf": {
    "h": [
@@ -2898,13 +2968,13 @@
   },
   "baker mayfield": {
    "h": [
-    "Bucs QB Baker Mayfield hopes to play Sunday despite foot injury: 'I feel ready'",
-    "Fantasy Football Managers Face Tough Decisions Amid Baker Mayfield Injury in Week 11",
-    "Baker Mayfield Gives Injury Update, Latest Rumors on Bucs QB's Status vs. Lions"
+    "Baker Mayfield Gives Injury Update, Latest Rumors on Bucs QB's Status vs. Lions",
+    "Mayfield (foot) returns to practice on Thursday",
+    "Bucs Get Encouraging Baker Mayfield Injury News at Thursday\u2019s Practice"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Bucs QB Baker Mayfield hopes to play Sunday despite foot injury: 'I feel ready'"
+   "worst": "Baker Mayfield Gives Injury Update, Latest Rumors on Bucs QB's Status vs. Lions"
   }
  },
  "qbhurt": [
