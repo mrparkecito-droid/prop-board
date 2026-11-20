@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T22:01:08+00:00",
+ "generated": "2026-11-20T22:31:08+00:00",
  "games": {
   "MIABUF": {
    "home": "BUF",
@@ -15,13 +15,6 @@
    "espn_wx": {
     "desc": "Partly sunny",
     "temp": 65
-   },
-   "wx": {
-    "wind": 11,
-    "gust": 23,
-    "pop": 2,
-    "rain": 0.0,
-    "temp": 64
    }
   },
   "NOCHI": {
@@ -38,13 +31,6 @@
    "espn_wx": {
     "desc": "Cloudy",
     "temp": 55
-   },
-   "wx": {
-    "wind": 11,
-    "gust": 23,
-    "pop": 89,
-    "rain": 0.88,
-    "temp": 54
    }
   },
   "TENDAL": {
@@ -93,13 +79,6 @@
    "espn_wx": {
     "desc": "Mostly cloudy",
     "temp": 49
-   },
-   "wx": {
-    "wind": 15,
-    "gust": 20,
-    "pop": 36,
-    "rain": 0.0,
-    "temp": 52
    }
   },
   "PITPHI": {
@@ -116,13 +95,6 @@
    "espn_wx": {
     "desc": "Rain",
     "temp": 61
-   },
-   "wx": {
-    "wind": 7,
-    "gust": 20,
-    "pop": 67,
-    "rain": 0.35,
-    "temp": 59
    }
   },
   "BALCAR": {
@@ -139,13 +111,6 @@
    "espn_wx": {
     "desc": "Cloudy",
     "temp": 59
-   },
-   "wx": {
-    "wind": 7,
-    "gust": 14,
-    "pop": 44,
-    "rain": 0.43,
-    "temp": 57
    }
   },
   "NYJLAC": {
@@ -171,20 +136,13 @@
    "indoor": false,
    "neutral": false,
    "spread": {
-    "DEN": -10.0,
-    "LV": 10.0
+    "DEN": -10.5,
+    "LV": 10.5
    },
    "total": 40.5,
    "espn_wx": {
     "desc": "Partly sunny",
     "temp": 43
-   },
-   "wx": {
-    "wind": 4,
-    "gust": 6,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 45
    }
   },
   "JAXNYG": {
@@ -201,13 +159,6 @@
    "espn_wx": {
     "desc": "Rain",
     "temp": 60
-   },
-   "wx": {
-    "wind": 7,
-    "gust": 20,
-    "pop": 69,
-    "rain": 1.7,
-    "temp": 57
    }
   },
   "MINSF": {
@@ -236,36 +187,19 @@
    "espn_wx": {
     "desc": "Intermittent clouds",
     "temp": 54
-   },
-   "wx": {
-    "wind": 8,
-    "gust": 20,
-    "pop": 5,
-    "rain": 0.0,
-    "temp": 54
    }
   }
  },
  "inj": {
   "ARI": [
    {
-    "name": "Carson Beck",
-    "pos": "QB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Hjalte Froholdt",
-    "pos": "C",
-    "status": "Questionable"
-   },
-   {
-    "name": "Roy Lopez",
-    "pos": "DT",
-    "status": "Questionable"
-   },
-   {
     "name": "Jon Gaines II",
     "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Carson Beck",
+    "pos": "QB",
     "status": "Questionable"
    }
   ],
@@ -300,6 +234,16 @@
   ],
   "BUF": [
    {
+    "name": "Damar Hamlin",
+    "pos": "S",
+    "status": "Questionable"
+   },
+   {
+    "name": "Jackson Hawes",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
     "name": "Dorian Williams",
     "pos": "LB",
     "status": "Out"
@@ -322,16 +266,6 @@
    {
     "name": "T.J. Sanders",
     "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jackson Hawes",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Damar Hamlin",
-    "pos": "S",
     "status": "Questionable"
    }
   ],
@@ -671,28 +605,18 @@
   ],
   "LV": [
    {
-    "name": "Brock Bowers",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
     "name": "Matt Gay",
     "pos": "PK",
     "status": "Questionable"
    },
    {
-    "name": "Trey Zuhn III",
-    "pos": "C",
-    "status": "Questionable"
-   },
-   {
-    "name": "Ian Thomas",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
     "name": "Tonka Hemingway",
     "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Brock Bowers",
+    "pos": "TE",
     "status": "Questionable"
    },
    {
@@ -702,6 +626,11 @@
    }
   ],
   "LAC": [
+   {
+    "name": "Tarheeb Still",
+    "pos": "CB",
+    "status": "Questionable"
+   },
    {
     "name": "Kendall Williamson",
     "pos": "S",
@@ -733,18 +662,8 @@
     "status": "Doubtful"
    },
    {
-    "name": "Donte Jackson",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
     "name": "Isas Waxter",
     "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Justin Eboigbe",
-    "pos": "DT",
     "status": "Questionable"
    }
   ],
@@ -868,6 +787,11 @@
     "status": "Out"
    },
    {
+    "name": "Pete Werner",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
     "name": "Erik McCoy",
     "pos": "C",
     "status": "Out"
@@ -878,11 +802,6 @@
     "status": "Out"
    },
    {
-    "name": "Pete Werner",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
     "name": "Decamerion Richardson",
     "pos": "CB",
     "status": "Questionable"
@@ -891,13 +810,6 @@
     "name": "Asim Richards",
     "pos": "OT",
     "status": "Out"
-   }
-  ],
-  "NYG": [
-   {
-    "name": "Nic Jones",
-    "pos": "CB",
-    "status": "Questionable"
    }
   ],
   "NYJ": [
@@ -1108,9 +1020,13 @@
   ]
  },
  "news": {
+  "geno smith": {
+   "h": "Jets QB Geno Smith (ankle) cleared to start vs. Chargers",
+   "t": "2026-11-20T21:44:12Z"
+  },
   "dalton kincaid": {
    "h": "Bills TE Dalton Kincaid doubtful to play vs. Dolphins",
-   "t": "2026-11-20T20:55:57Z"
+   "t": "2026-11-20T21:49:40Z"
   },
   "carson beck": {
    "h": "Mike LaFleur: Cardinals proceeding as if Josh Johnson will start",
@@ -1144,160 +1060,160 @@
  "trend": {
   "chimere dike": {
    "rank": 2,
-   "adds": 792738
+   "adds": 778671
   },
   "xavier hutchinson": {
    "rank": 3,
-   "adds": 692678
+   "adds": 653800
   },
   "michael mayer": {
    "rank": 5,
-   "adds": 503361
+   "adds": 484848
   },
   "pat bryant": {
    "rank": 6,
-   "adds": 437016
+   "adds": 420656
   },
   "elic ayomanor": {
    "rank": 7,
-   "adds": 396852
+   "adds": 380584
   },
   "mark andrews": {
    "rank": 8,
-   "adds": 383364
+   "adds": 370287
   },
   "justice hill": {
    "rank": 9,
-   "adds": 354015
+   "adds": 350433
   },
   "seth mcgowan": {
    "rank": 10,
-   "adds": 331768
+   "adds": 315784
   },
   "ryan flournoy": {
    "rank": 11,
-   "adds": 307656
+   "adds": 296400
   },
   "chris rodriguez": {
    "rank": 12,
-   "adds": 264303
+   "adds": 264186
   },
   "bo nix": {
    "rank": 14,
-   "adds": 236772
+   "adds": 228264
   },
   "adonai mitchell": {
    "rank": 15,
-   "adds": 219376
+   "adds": 219712
   },
   "jacory croskey merritt": {
    "rank": 16,
-   "adds": 207783
+   "adds": 201690
   },
   "samaje perine": {
    "rank": 18,
-   "adds": 200016
+   "adds": 195060
   },
   "courtland sutton": {
    "rank": 19,
-   "adds": 188109
+   "adds": 182916
   },
   "gavin bartholomew": {
    "rank": 20,
-   "adds": 182493
+   "adds": 178218
   },
   "brenton strange": {
    "rank": 21,
-   "adds": 170073
+   "adds": 166077
   },
   "kyle monangai": {
    "rank": 24,
-   "adds": 157578
+   "adds": 151812
   },
   "kenny gainwell": {
    "rank": 25,
-   "adds": 154208
+   "adds": 151360
   },
   "fernando mendoza": {
    "rank": 26,
-   "adds": 144944
+   "adds": 142448
   },
   "darren waller": {
    "rank": 28,
-   "adds": 134136
-  },
-  "david montgomery": {
-   "rank": 29,
-   "adds": 132936
+   "adds": 132291
   },
   "kirk cousins": {
+   "rank": 29,
+   "adds": 126504
+  },
+  "david montgomery": {
    "rank": 30,
-   "adds": 130672
+   "adds": 125760
   },
   "mike gesicki": {
    "rank": 31,
-   "adds": 120516
+   "adds": 117744
   },
   "emmett johnson": {
    "rank": 33,
-   "adds": 118467
-  },
-  "kaelon black": {
-   "rank": 34,
-   "adds": 111335
+   "adds": 116208
   },
   "aaron rodgers": {
    "rank": 35,
-   "adds": 111216
+   "adds": 108156
+  },
+  "kaelon black": {
+   "rank": 36,
+   "adds": 107212
   },
   "keon coleman": {
    "rank": 37,
-   "adds": 106488
-  },
-  "jordyn tyson": {
-   "rank": 39,
-   "adds": 97024
-  },
-  "caleb douglas": {
-   "rank": 40,
-   "adds": 95648
+   "adds": 103599
   },
   "gunnar helm": {
+   "rank": 39,
+   "adds": 95228
+  },
+  "jordyn tyson": {
+   "rank": 40,
+   "adds": 93168
+  },
+  "caleb douglas": {
    "rank": 41,
-   "adds": 95144
+   "adds": 92512
   },
   "cj stroud": {
    "rank": 42,
-   "adds": 94871
+   "adds": 91224
   },
   "alvin kamara": {
    "rank": 43,
-   "adds": 93792
+   "adds": 91168
   },
   "malik washington": {
    "rank": 44,
-   "adds": 88976
+   "adds": 86760
   },
   "jordan mason": {
    "rank": 48,
-   "adds": 73935
+   "adds": 72430
   },
   "joe milton": {
    "rank": 49,
-   "adds": 73284
+   "adds": 71808
   },
   "tank dell": {
    "rank": 50,
-   "adds": 59888
+   "adds": 58432
   }
  },
  "buzz": {},
  "sources": {
   "lines": "12 games",
-  "weather": "8 outdoor games",
-  "injuries": "159 players listed",
-  "news": "8 players in headlines",
-  "google_news": "4 role-cut, 127 injury headlines; QB hurt: ARI, CAR, MIA, NYJ, PHI, TB",
+  "weather": "0 outdoor games",
+  "injuries": "153 players listed",
+  "news": "9 players in headlines",
+  "google_news": "4 role-cut, 129 injury headlines; QB hurt: ARI, CAR, MIA, NYJ, PHI, TB",
   "sleeper_trending": "37 board players trending",
   "reddit": "unavailable"
  },
@@ -2120,9 +2036,9 @@
   },
   "chris bell": {
    "h": [
+    "Chris Bell News: Good to go for Week 11",
     "Chris Bell (knee) clears injury report Friday",
-    "Dolphins Offer Injury Updates on Caleb Douglas, Chris Bell",
-    "Chris Bell Says Miami Hasn\u2019t Seen The Real Rookie Yet"
+    "Chris Bell (knee) without injury designation for Sunday"
    ],
    "cut": false,
    "inj": true,
@@ -2298,6 +2214,16 @@
    "cut": false,
    "inj": true,
    "worst": "Fantasy Football Top 5 Underrated NFL DFS GPP Plays for Week 11: Don\u2019t Overlook Chris Olave After Quiet Outing"
+  },
+  "makai lemon": {
+   "h": [
+    "Who Should I Start? George Kittle or Makai Lemon",
+    "Makai Lemon was nearly a Steeler. As an Eagle, he\u2019s shown glimpses of becoming the weapon he was drafted to be.",
+    "Roob's bye week stats: It's awful but we do have Makai Lemon and Dallas Goedert"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 11? Tony Pollard, Luther Burden III, Audric Estime, Nate Carter, Chris Godwin Jr., Kevin Coleman Jr., DeVaughn Vele, Makai Lemon, Austin Ekeler"
   },
   "devonta smith": {
    "h": [
@@ -2650,6 +2576,16 @@
    "inj": true,
    "worst": "Who Should I Start for Fantasy Football Week 11? Chig Okonkwo, Michael Mayer, Brenton Strange, Dallas Goedert, George Kittle, Dalton Kincaid, Pat Freiermuth, Mike Gesicki, T.J. Hockenson"
   },
+  "jaylen waddle": {
+   "h": [
+    "Jaylen Waddle Good to go for Sunday's game",
+    "Jaylen Waddle will play in Week 11",
+    "Jaylen Waddle Off the Injury Report, Will Play in Week 11 - NFL News | Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Fantasy Football: Jaylen Waddle finally shows up, Bears' backfield goes off and more bold predictions for Week 11"
+  },
   "marvin mims": {
    "h": [
     "Jonathon Brooks or Marvin Mims Jr.: Who Should I Start in Week 11? Fantasy Football",
@@ -2689,9 +2625,9 @@
   },
   "myles price": {
    "h": [
+    "Myles Price Fantasy Outlook & Stats",
     "Xavier Hutchinson, Laquon Treadwell, Myles Price, And More Fantasy Football Wide Receiver Streamers For Week 11",
-    "Ashton Dulin or Myles Price: Who Should I Start in Week 11? Fantasy Football",
-    "Myles Price Fantasy Outlook & Stats"
+    "Ashton Dulin or Myles Price: Who Should I Start in Week 11? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
