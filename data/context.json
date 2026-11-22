@@ -1,26 +1,6 @@
 {
- "generated": "2026-11-22T21:01:07+00:00",
+ "generated": "2026-11-22T21:20:20+00:00",
  "games": {
-  "MIABUF": {
-   "home": "BUF",
-   "away": "MIA",
-   "kick": "2026-11-22T18:00Z",
-   "indoor": false,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "2",
-    "temp": 63
-   },
-   "wx": {
-    "wind": 11,
-    "gust": 20,
-    "pop": 0,
-    "rain": 0.0,
-    "temp": 66
-   }
-  },
   "NOCHI": {
    "home": "CHI",
    "away": "NO",
@@ -29,29 +9,12 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "6",
-    "temp": 50
-   },
    "wx": {
     "wind": 11,
     "gust": 21,
     "pop": 59,
     "rain": 1.4,
     "temp": 52
-   }
-  },
-  "TENDAL": {
-   "home": "DAL",
-   "away": "TEN",
-   "kick": "2026-11-22T18:00Z",
-   "indoor": true,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "7",
-    "temp": 56
    }
   },
   "TBDET": {
@@ -61,11 +24,7 @@
    "indoor": true,
    "neutral": false,
    "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "6",
-    "temp": 62
-   }
+   "total": null
   },
   "PITPHI": {
    "home": "PHI",
@@ -75,10 +34,6 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "7",
-    "temp": 62
-   },
    "wx": {
     "wind": 8,
     "gust": 17,
@@ -95,10 +50,6 @@
    "neutral": false,
    "spread": {},
    "total": null,
-   "espn_wx": {
-    "desc": "7",
-    "temp": 60
-   },
    "wx": {
     "wind": 8,
     "gust": 14,
@@ -107,20 +58,20 @@
     "temp": 60
    }
   },
-  "ARIKC": {
-   "home": "KC",
-   "away": "ARI",
+  "MIABUF": {
+   "home": "BUF",
+   "away": "MIA",
    "kick": "2026-11-22T18:00Z",
    "indoor": false,
    "neutral": false,
    "spread": {},
    "total": null,
    "wx": {
-    "wind": 15,
-    "gust": 26,
+    "wind": 11,
+    "gust": 20,
     "pop": 0,
     "rain": 0.0,
-    "temp": 49
+    "temp": 66
    }
   },
   "NYJLAC": {
@@ -129,13 +80,10 @@
    "kick": "2026-11-22T21:05Z",
    "indoor": true,
    "neutral": false,
-   "spread": {
-    "LAC": -3.0,
-    "NYJ": 3.0
-   },
-   "total": 43.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
-    "desc": "Partly sunny",
+    "desc": "2",
     "temp": 66
    }
   },
@@ -210,7 +158,7 @@
    "total": 54.5,
    "espn_wx": {
     "desc": "Partly cloudy",
-    "temp": 53
+    "temp": 54
    },
    "wx": {
     "wind": 14,
@@ -267,6 +215,11 @@
    }
   ],
   "BAL": [
+   {
+    "name": "Derrick Henry",
+    "pos": "RB",
+    "status": "Questionable"
+   },
    {
     "name": "Elijah Sarratt",
     "pos": "WR",
@@ -381,7 +334,7 @@
    {
     "name": "Roschon Johnson",
     "pos": "RB",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Case Keenum",
@@ -1335,219 +1288,207 @@
  "news": {
   "dk metcalf": {
    "h": "Steelers WR DK Metcalf ejected from game against Eagles",
-   "t": "2026-11-22T20:40:08Z"
-  },
-  "ceedee lamb": {
-   "h": "NFL Week 11 arrivals: CeeDee Lamb leads the way ahead of Titans-Cowboys",
-   "t": "2026-11-22T17:13:29Z"
+   "t": "2026-11-22T21:13:01Z"
   },
   "kirk cousins": {
    "h": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
    "t": "2026-11-22T16:12:17Z"
   },
-  "baker mayfield": {
-   "h": "Sources: Bucs' Baker Mayfield has plantar fasciitis, determined to keep playing",
-   "t": "2026-11-22T16:35:18Z"
-  },
   "brock purdy": {
    "h": "Best bets for Vikings-49ers: Tips, analysis and our top prop plays",
    "t": "2026-11-22T11:32:20Z"
   },
-  "trevor lawrence": {
+  "parker washington": {
    "h": "'Receiving Trust': Behind Lawrence and Washington's elite partnership",
    "t": "2026-11-22T16:46:00Z"
   },
-  "parker washington": {
+  "trevor lawrence": {
    "h": "'Receiving Trust': Behind Lawrence and Washington's elite partnership",
    "t": "2026-11-22T16:46:00Z"
   },
   "roman wilson": {
    "h": "Steelers activate WR Roman Wilson off IR for Eagles game",
    "t": "2026-11-21T20:54:35Z"
-  },
-  "joe burrow": {
-   "h": "Back at practice again, Bengals QB Burrow optimistic he'll be at full strength",
-   "t": "2026-11-21T12:51:42Z"
   }
  },
  "trend": {
   "michael mayer": {
    "rank": 1,
-   "adds": 857196
+   "adds": 884628
   },
   "chimere dike": {
    "rank": 2,
-   "adds": 583101
+   "adds": 586764
   },
   "dawson knox": {
    "rank": 3,
-   "adds": 484890
+   "adds": 485550
   },
   "adonai mitchell": {
    "rank": 4,
-   "adds": 436592
+   "adds": 441160
   },
   "justice hill": {
    "rank": 5,
-   "adds": 406377
+   "adds": 423819
   },
   "kenny gainwell": {
    "rank": 6,
-   "adds": 239888
+   "adds": 240672
   },
   "mason taylor": {
    "rank": 8,
-   "adds": 226445
-  },
-  "roman wilson": {
-   "rank": 9,
-   "adds": 226161
+   "adds": 233300
   },
   "pat bryant": {
+   "rank": 9,
+   "adds": 228520
+  },
+  "roman wilson": {
    "rank": 10,
-   "adds": 223968
+   "adds": 227394
   },
   "mark andrews": {
    "rank": 11,
-   "adds": 221139
+   "adds": 221220
   },
   "darren waller": {
    "rank": 14,
-   "adds": 184266
+   "adds": 184941
   },
   "samaje perine": {
    "rank": 16,
-   "adds": 171932
+   "adds": 174896
   },
   "brenton strange": {
    "rank": 17,
-   "adds": 154215
+   "adds": 157707
   },
   "mike gesicki": {
    "rank": 18,
-   "adds": 150568
+   "adds": 154164
   },
   "elic ayomanor": {
    "rank": 19,
-   "adds": 135184
+   "adds": 135260
   },
   "jacory croskey merritt": {
    "rank": 20,
-   "adds": 129420
+   "adds": 130617
   },
   "gunnar helm": {
    "rank": 21,
-   "adds": 127589
+   "adds": 127631
   },
   "emmett johnson": {
    "rank": 22,
-   "adds": 122445
+   "adds": 122994
   },
   "courtland sutton": {
    "rank": 23,
-   "adds": 116658
+   "adds": 119547
   },
   "fernando mendoza": {
    "rank": 24,
-   "adds": 111736
+   "adds": 113824
   },
   "ryan flournoy": {
    "rank": 27,
-   "adds": 103136
+   "adds": 103240
   },
   "chris rodriguez": {
    "rank": 28,
-   "adds": 96003
+   "adds": 98091
   },
-  "caleb douglas": {
+  "evan engram": {
    "rank": 30,
-   "adds": 89368
+   "adds": 91544
   },
   "bo nix": {
    "rank": 31,
-   "adds": 88800
+   "adds": 89952
+  },
+  "caleb douglas": {
+   "rank": 32,
+   "adds": 89488
   },
   "treylon burks": {
-   "rank": 32,
-   "adds": 85729
-  },
-  "evan engram": {
-   "rank": 34,
-   "adds": 82944
+   "rank": 33,
+   "adds": 88354
   },
   "kenyon sadiq": {
    "rank": 35,
-   "adds": 82269
+   "adds": 84663
   },
   "keon coleman": {
    "rank": 36,
-   "adds": 80037
+   "adds": 80217
   },
   "kaelon black": {
    "rank": 38,
-   "adds": 67186
+   "adds": 68208
   },
   "kyle monangai": {
    "rank": 39,
-   "adds": 64452
+   "adds": 64518
   },
   "jauan jennings": {
    "rank": 41,
-   "adds": 60795
+   "adds": 61901
   },
   "alvin kamara": {
    "rank": 42,
-   "adds": 58408
+   "adds": 58696
   },
   "kirk cousins": {
    "rank": 43,
-   "adds": 55232
+   "adds": 56032
   },
   "rico dowdle": {
    "rank": 44,
-   "adds": 55045
+   "adds": 55140
   },
   "jordyn tyson": {
    "rank": 45,
-   "adds": 54368
+   "adds": 54488
   },
   "josh johnson": {
    "rank": 46,
-   "adds": 50358
+   "adds": 50409
   },
   "quentin johnston": {
    "rank": 47,
-   "adds": 49441
+   "adds": 50295
   },
   "chris godwin": {
    "rank": 48,
-   "adds": 47820
+   "adds": 47898
   },
-  "cade otton": {
+  "tre tucker": {
    "rank": 49,
-   "adds": 46260
+   "adds": 47370
   },
-  "jordan mason": {
+  "khalil shakir": {
    "rank": 50,
-   "adds": 45905
+   "adds": 46692
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "5 games",
-  "weather": "8 outdoor games",
-  "injuries": "209 players listed",
-  "news": "9 players in headlines",
-  "google_news": "3 role-cut, 146 injury headlines; QB hurt: NYJ, TB",
+  "lines": "4 games",
+  "weather": "7 outdoor games",
+  "injuries": "210 players listed",
+  "news": "6 players in headlines",
+  "google_news": "3 role-cut, 108 injury headlines; QB hurt: BUF, NYJ",
   "sleeper_trending": "40 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
   "bryce young": {
    "h": [
+    "T.J. Tampa burns Carolina with end-zone interception against Bryce Young",
     "Bryce Young sacked for safety, Jacoby Brissett throws TD as Ravens lead Panthers 9-0",
-    "Fantasy Football Start or Sit Week 11: Bryce Young, Jalen Coker, Chuba Hubbard",
-    "One Elite Stat Could Answer the $50 Million Question Around Bryce Young"
+    "Fantasy Football Start or Sit Week 11: Bryce Young, Jalen Coker, Chuba Hubbard"
    ],
    "cut": false,
    "inj": true,
@@ -1555,123 +1496,13 @@
   },
   "jacoby brissett": {
    "h": [
+    "Princely Umanmielen and Devin Lloyd have a team meeting at the QB in huge sack of Brissett",
     "Jacoby Brissett throws for 222 yards in first half against Carolina",
-    "Baltimore Ravens wide receiver Devontez Walker snags a 34-yard strike from quarterback Jacoby Brissett",
-    "Ravens Tried to Trade for Daniel Jones Before Landing Jacoby Brissett"
+    "Baltimore Ravens wide receiver Devontez Walker snags a 34-yard strike from quarterback Jacoby Brissett"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Jacoby Brissett throws for 222 yards in first half against Carolina"
-  },
-  "kyle mccord": {
-   "h": [
-    "Miami Dolphins quarterback Kyle McCord locates wide receiver Malik Washington for 21-yard connection",
-    "Buffalo Bills defensive end Greg Rousseau takes down Kyle McCord for his ninth sack of 2026",
-    "Kyle McCord Prepares for Second NFL Start as Caleb Douglas Emerges as a Trusted Target"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy football Week 11 PPR cheat sheet: Caleb Douglas primed to build on budding rapport with Kyle McCord"
-  },
-  "josh allen": {
-   "h": [
-    "Josh Allen Makes NFL History and Produces Buffalo Documentary",
-    "Josh Allen forgets to zip up his pants before stadium arrival, and his reaction is priceless",
-    "Bills QB Josh Allen Called Out Over \u2018Mind Numbing\u2019 Mistakes vs. Dolphins"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Josh Allen Makes NFL History and Produces Buffalo Documentary"
-  },
-  "caleb williams": {
-   "h": [
-    "Chicago Bears quarterback Caleb Williams taken down by New Orleans Saints safety Jonas Sanker for 11-yard loss",
-    "Can't-Miss Play: Caleb Williams dials launch codes to Zavion Thomas for 40-yard gain",
-    "Jared Goff finds Jameson Williams for 57-yard TD, extending Lions' lead over Buccaneers | NFL Highlights"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Chicago Bears quarterback Caleb Williams taken down by New Orleans Saints safety Jonas Sanker for 11-yard loss"
-  },
-  "tyler shough": {
-   "h": [
-    "Bears SAF Dillon Thieneman snags Tyler Shough pass for INT vs. Saints",
-    "Shough Leads Saints in Rushing Yards",
-    "Tyler Shough Leads Saints Rushing Attack With 187 Yards"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Shough Leads Saints Rushing Despite Limited Production"
-  },
-  "aaron rodgers": {
-   "h": [
-    "Pittsburgh Steelers quarterback Aaron Rodgers' lofted pass finds wide receiver Roman Wilson for 33 yards",
-    "Pittsburgh Steelers quarterback Aaron Rodgers off to the races for 12-yard pickup on the ground in Philly",
-    "Caleb Williams could soon break an NFL record held by Aaron Rodgers"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Pittsburgh Steelers quarterback Aaron Rodgers' lofted pass finds wide receiver Roman Wilson for 33 yards"
-  },
-  "joe milton": {
-   "h": [
-    "Eagles QB Joe Milton III just stands and watches his fumble in shades of infamous Cam Newton Super Bowl play",
-    "\u201cCam Newton 2.0\u201d \u201cAbsolutely ridiculous\u201d: NFL fans react to Joe Milton going \u201cin shock\u201d after fumbling snap vs. Steelers",
-    "Milton III and DeVonta Smith BARELY miss out on potential 68-yard TD strike"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Eagles QB Joe Milton III just stands and watches his fumble in shades of infamous Cam Newton Super Bowl play"
-  },
-  "jalon daniels": {
-   "h": [
-    "Jalon Daniels Remaining backup QB for Week 11",
-    "Buccaneers' Jalon Daniels: Remaining backup QB for Week 11",
-    "Jalon Daniels or Kayshon Boutte: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jalon Daniels or Kayshon Boutte: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "baker mayfield": {
-   "h": [
-    "Baker Mayfield connects with Ted Hurst for 23-Yard TD to cut Buccaneers' deficit vs. Lions | NFL Highlights",
-    "Chuck Clark's well-timed blitz yields a 9-yard sack on Mayfield",
-    "Expect Baker Mayfield Foot Injury To \"Linger\" All Season"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Expect Baker Mayfield Foot Injury To \"Linger\" All Season"
-  },
-  "jared goff": {
-   "h": [
-    "Lions vs Buccaneers - Jameson Williams flips into end zone after 57-yard touchdown pass from Jared Goff",
-    "Jared Goff finds Jameson Williams for 57-yard TD, extending Lions' lead over Buccaneers | NFL Highlights",
-    "Lions quarterback Jared Goff hits Detroit Lions tight end Brock Wright in stride up the seam for a 27-yard gain"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Lions QB Jared Goff Honors Injured Aidan Hutchinson Before Buccaneers Game"
-  },
-  "dak prescott": {
-   "h": [
-    "Touchdown Dallas Cowboys! Dak Prescott 2 yd 23-40 Q3 4:17",
-    "Dak Prescott throws his second TD pass of the day vs. Titans to Pickens",
-    "\"Embarrassing\" \"Jerry Jones' scapegoat\": NFL fans react to Dak Prescott arriving for Cowboys vs. Titans Week 11 clash"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Start or Sit Week 11: George Pickens, Dak Prescott, Javonte Williams"
-  },
-  "cam ward": {
-   "h": [
-    "Cam Ward escapes a would-be sack before slinging 15-yard dart to Calvin Ridley",
-    "Cam Ward Finds Carnell Tate For 59-Yard TD, Trimming Titans' Deficit vs Cowboys | NFL Highlights",
-    "Cam Ward finds Carnell Tate for 59-Yard TD, trimming Titans' deficit vs Cowboys | NFL Highlights"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Cam Ward escapes a would-be sack before slinging 15-yard dart to Calvin Ridley"
+   "worst": "Princely Umanmielen and Devin Lloyd have a team meeting at the QB in huge sack of Brissett"
   },
   "geno smith": {
    "h": [
@@ -1687,21 +1518,21 @@
    "h": [
     "Is Justin Herbert Doing Enough to Support His Former High School?",
     "NFL DFS Tournament (GPP) Plays For Week 11: Justin Herbert, Emeka Egbuka & More",
-    "Anthony Richardson Sr. or Justin Herbert: Who Should I Start in Week 11? Fantasy Football"
+    "\u201cHow Did They Win\u201d: Kurt Warner Shares Scathing Assessment of Justin Herbert & Chargers\u2019 1st Win of 2026 vs Ravens"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Anthony Richardson Sr. or Justin Herbert: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Justin Herbert Week 11 Outlook for Fantasy Football (2026)"
   },
   "jj mccarthy": {
    "h": [
+    "Jaguars vs Giants live updates: Trevor Lawrence hits New York, JJ McCarthy",
     "Giants vs. Jaguars prediction: J.J. McCarthy stifled by elite defense in Week 11",
-    "J.J. McCarthy showing improved touch on passes since joining Giants",
-    "J.J. McCarthy Fantasy Outlook & Stats"
+    "J.J. McCarthy showing improved touch on passes since joining Giants"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Giants vs. Jaguars prediction: J.J. McCarthy stifled by elite defense in Week 11"
+   "worst": "Jaguars vs Giants live updates: Trevor Lawrence hits New York, JJ McCarthy"
   },
   "trevor lawrence": {
    "h": [
@@ -1735,29 +1566,29 @@
   },
   "brock purdy": {
    "h": [
+    "What does Mr. Irrelevant mean? The NFL draft's last pick, from John Tuggle to Brock Purdy",
     "Hall of Famer Kurt Warner Issues Crucial Advice to Brock Purdy, 49ers for Brian Flores-Led Vikings\u2019 Defense",
-    "49ers QB Brock Purdy is an unstoppable force to Vikings defense's immovable object, but Brian Flores still has the advantage",
-    "Why 49ers QB Brock Purdy might be able to thrive vs. Vikings' elite defense"
+    "49ers QB Brock Purdy is an unstoppable force to Vikings defense's immovable object, but Brian Flores still has the advantage"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Hall of Famer Kurt Warner Issues Crucial Advice to Brock Purdy, 49ers for Brian Flores-Led Vikings\u2019 Defense"
+   "worst": "What does Mr. Irrelevant mean? The NFL draft's last pick, from John Tuggle to Brock Purdy"
   },
   "kirk cousins": {
    "h": [
+    "Kirk Cousins could make NFL history for quarterbacks",
     "Kirk Cousins\u2019 Wife Julie Shares Personal Update Before Vikings-49ers SNF Game",
-    "Turns out Raiders Kirk Cousins trade saved Vikings from themselves",
-    "Kirk Cousins on pace to make unique NFL history"
+    "Turns out Raiders Kirk Cousins trade saved Vikings from themselves"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Kirk Cousins\u2019 Wife Julie Shares Personal Update Before Vikings-49ers SNF Game"
+   "worst": "Kirk Cousins could make NFL history for quarterbacks"
   },
   "jayden daniels": {
    "h": [
     "Carhartt Skilled Trades NFL Week 11: Caleb Williams or Jayden Daniels? Stream of Fantasy Football",
-    "Latest on Brandon Aiyuk-Jayden Daniels Relationship Revealed in New NFL Rumors amid Commanders Buzz",
-    "Garrett Wilson or Jayden Daniels"
+    "Carhartt Skilled Trades NFL Week 11: Caleb Williams or Jayden Daniels?",
+    "Latest on Brandon Aiyuk-Jayden Daniels Relationship Revealed in New NFL Rumors amid Commanders Buzz"
    ],
    "cut": false,
    "inj": true,
@@ -1765,13 +1596,13 @@
   },
   "joe burrow": {
    "h": [
+    "'I\u2019m Sure the Steelers Fans Are Thrilled\u2019 -- Tom Brady Takes Subtle Dig at Terry Bradshaw\u2019s Joe Burrow Admission",
     "Tom Brady Trolls Terry Bradshaw for Hyping Joe Burrow Amid Bengals-Steelers NFL",
-    "2026 NFL awards odds: Burrow, Mahomes and Mendoza lead at midseason",
-    "Joe Burrow Nears 3 Historic NFL Records In Week 11"
+    "2026 NFL awards odds: Burrow, Mahomes and Mendoza lead at midseason"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Tom Brady Trolls Terry Bradshaw for Hyping Joe Burrow Amid Bengals-Steelers NFL"
+   "worst": "'I\u2019m Sure the Steelers Fans Are Thrilled\u2019 -- Tom Brady Takes Subtle Dig at Terry Bradshaw\u2019s Joe Burrow Admission"
   },
   "justice hill": {
    "h": [
@@ -1795,195 +1626,38 @@
   },
   "derrick henry": {
    "h": [
-    "Can't-Miss Play: Brissett dials launch codes to Bateman for 52-yard TD after King Henry takes the snap",
-    "Yes, that was Derrick Henry who took the snap",
-    "NFL picks: Derrick Henry prop among SportsLine expert PropBetGuy's best bets for Week 11 of 2026 season"
+    "Derrick Henry Being checked for concussion",
+    "Ravens RB Derrick Henry exits vs. Panthers to be evaluated for concussion",
+    "Derrick Henry injury: Ravens RB evaluated for concussion after scary hit, fencing position"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Brian robinson Jr. or Calvin Ridley or Derrick Henry or DeVonta Smith: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Derrick Henry Being checked for concussion"
   },
   "chuba hubbard": {
    "h": [
+    "Chuba Hubbard gets his second TD to give Panthers 28-26 lead",
     "Touchdown Carolina Panthers! Chuba Hubbard 1 yd 26-29 Q3 11:01",
-    "Is Chuba Hubbard One of the NFL's Most Underrated Backs? | The Avenue",
-    "Chuba Hubbard Fantasy Outlook & Stats"
+    "Is Chuba Hubbard One of the NFL's Most Underrated Backs? | The Avenue"
    ],
    "cut": false,
    "inj": true,
    "worst": "Fantasy Football Start or Sit Week 11: Bryce Young, Jalen Coker, Chuba Hubbard"
   },
-  "ray davis": {
+  "keaton mitchell": {
    "h": [
-    "Ray Davis or T.J. Hockenson: Who Should I Start in Week 11? Fantasy Football"
+    "Keaton Mitchell Week 11 Outlook for Fantasy Football (2026)",
+    "Mike Gesicki or Keaton Mitchell"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Ray Davis or T.J. Hockenson: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "ollie gordon": {
-   "h": [
-    "Miami Dolphins running back Ollie Gordon II smashes the gas on 24-yard run",
-    "Underdog NFL Picks Sunday: Monangai, Ollie Gordon Higher",
-    "Who Should I Start for Fantasy Football Week 11? Carnell Tate, Ollie Gordon II, Jacob Cowing, Stefon Diggs, Malachi Fields, Cyrus Allen, Chris Rodriguez Jr., Quentin Johnston, Darnell Mooney"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Who Should I Start for Fantasy Football Week 11? Carnell Tate, Ollie Gordon II, Jacob Cowing, Stefon Diggs, Malachi Fields, Cyrus Allen, Chris Rodriguez Jr., Quentin Johnston, Darnell Mooney"
-  },
-  "james cook": {
-   "h": [
-    "Josh Allen, James Cook Make NFL History with Rare Rushing Stat Amid Bills QB's MVP Push",
-    "James Cook Could Punish the Miami Dolphins\u2019 Depleted Run Defense in Week 11",
-    "Dolphins' ailing defense could be in for a long day against Bills RB James Cook"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "James Cook III or Nate Carter: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "kyle monangai": {
-   "h": [
-    "Is Kyle Monangai Playing Today For the Bears? What He\u2019s Doing During Saints Game",
-    "Fantasy football Week 11 inactives and injuries: Kenneth Walker out again, Kyle Monangai returns",
-    "Kyle Monangai or Pat Bryant"
-   ],
-   "cut": true,
-   "inj": true,
-   "worst": "Fantasy football Week 11 inactives and injuries: Kenneth Walker out again, Kyle Monangai returns"
-  },
-  "travis etienne": {
-   "h": [
-    "Travis Etienne Breaks 46 Yard Run Against Chicago Bears",
-    "Travis Etienne Breaks Off 46 Yard Run Against Bears",
-    "Can't-Miss Play: Travis Etienne Jr. off to the races for 46-yard sideline sprint in Chicago"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Travis Etienne Breaks 46 Yard Run Against Chicago Bears"
-  },
-  "alvin kamara": {
-   "h": [
-    "WATCH: Alvin Kamara gets Saints on the board, scores 93rd career TD",
-    "Saints Limit Alvin Kamara as Backfield Roles Shift Against Bears",
-    "Saints Limit Alvin Kamara as Running Back Role Shrinks"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Saints Keep Alvin Kamara in Limited Role Against Bears"
-  },
-  "dandre swift": {
-   "h": [
-    "Caleb Williams finds D'Andrew Swift in the end zone for TD vs. Saints",
-    "Caleb Williams finds D'Andre Swift for three-yard TD, extending Bears' lead over Saints | NFL Highlights",
-    "Caleb Williams finds D'Andre Swift for three-yard TD, extending Bears' lead over Saints | NFL Highlights"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ben Sinnott or D'Andre Swift: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "jaylen warren": {
-   "h": [
-    "Jeremiah Trotter Jr. stops Jaylen Warren for a fourth-down stop",
-    "Fantasy Analysts Back Prescott and Warren for NFL Week 11",
-    "Best Week 11 NFL anytime touchdown scorer bets for Sunday's slate include Jaylen Warren, Bhayshul Tuten"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Jeremiah Trotter Jr. stops Jaylen Warren for a fourth-down stop"
-  },
-  "rico dowdle": {
-   "h": [
-    "Ben Sinnott or Rico Dowdle: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ben Sinnott or Rico Dowdle: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "will shipley": {
-   "h": [
-    "Will Shipley Active Against Steelers - NFL News | Fantasy Football",
-    "Will Shipley partners with Charlotte-based organization for \"My Cause, My Cleats\"",
-    "Eagles' Will Shipley: Cleared to return for Week 11"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Eagles activate Will Shipley from injured reserve before Steelers game"
-  },
-  "saquon barkley": {
-   "h": [
-    "Pittsburgh Steelers linebacker T.J. Watt brings down Philadelphia Eagles running back Saquon Barkley for a 4-yard loss",
-    "Saquon Barkley Scores Long Touchdown vs. Steelers Stream of National Football League",
-    "Can't-Miss Play: Saquon, say GONE! Barkley outraces every Steeler on 38-yard TD dash"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Saquon Barkley Scores Long Touchdown vs. Steelers Stream of National Football League"
-  },
-  "bucky irving": {
-   "h": [
-    "Bucky Irving Faces Tough Test Against Lions Run Defense",
-    "Bucky Irving vs. Lions Week 11: Three Expectations for Buccaneers RB",
-    "Bucky Irving or Nate Carter: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Bucky Irving or Nate Carter: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "jahmyr gibbs": {
-   "h": [
-    "Jahmyr Gibbs Chases NFL Scrimmage Yardage Record With Lions",
-    "Jahmyr Gibbs Rushing Yards Pick for Lions vs. Buccaneers",
-    "Lions\u2019 Jahmyr Gibbs just put the Buccaneers on notice with bold Week 11 prediction"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jahmyr Gibbs or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "sione vaki": {
-   "h": [
-    "Setting Lions Fans Expectations for Sione Vaki Against Buccaneers",
-    "Sione Vaki (ankle) active for Week 11",
-    "Lions' Sione Vaki: Active in Week 11"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Myles Price or Sione Vaki: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "kenny gainwell": {
-   "h": [
-    "Kenny Gainwell or Sam Roush: Who Should I Start in Week 11? Fantasy Football",
-    "Kenny Gainwell or Aaron Jones Sr.",
-    "Kenny Gainwell - Fantasy Football Waiver Wire Pickups for Week 11 (2026) - NFL News"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Kenny Gainwell or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "tony pollard": {
-   "h": [
-    "Dallas Cowboys defensive tackle Quinnen Williams stops Pollard in his tracks for a loss",
-    "Tony Pollard Targets Cowboys as Titans Visit Dallas",
-    "NFL week 11 anytime TD best bets: There's value on Mark Andrews and a Tony Pollard revenge game"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "NFL Week 11 Player to Watch: Tony Pollard Stream of National Football League"
-  },
-  "javonte williams": {
-   "h": [
-    "Dallas Cowboys running back Javonte Williams logs his second TD against Titans",
-    "Caleb Williams finds D'Andre Swift for three-yard TD, extending Bears' lead over Saints | NFL Highlights",
-    "Javonte Williams' 10th rushing TD of 2026 opens scoring in Titans-Cowboys game"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Dallas Cowboys running back Javonte Williams logs his second TD against Titans"
+   "worst": "Keaton Mitchell Week 11 Outlook for Fantasy Football (2026)"
   },
   "breece hall": {
    "h": [
+    "Breece Hall Fantasy Outlook & Stats",
     "Breece Hall Sit Start Fantasy Football Advice Week 11 (2026) - NFL News",
-    "Breece Hall or Cyrus Allen: Who Should I Start in Week 11? Fantasy Football",
-    "Fantasy Football Week 11 Start \u2018Em, Sit \u2018Em: Saquon Barkley vs. Breece Hall"
+    "Breece Hall or Cyrus Allen: Who Should I Start in Week 11? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -1993,7 +1667,7 @@
    "h": [
     "Puka Nacua or Braelon Allen",
     "Adam Randall or Braelon Allen: Who Should I Start in Week 11? Fantasy Football",
-    "Braelon Allen or Saquon Barkley"
+    "Braelon Allen or Matthew Golden"
    ],
    "cut": false,
    "inj": true,
@@ -2019,21 +1693,11 @@
    "inj": true,
    "worst": "Drew Sample or Kimani Vidal: Who Should I Start in Week 11? Fantasy Football"
   },
-  "keaton mitchell": {
-   "h": [
-    "Keaton Mitchell Week 11 Outlook for Fantasy Football (2026)",
-    "Mike Gesicki or Keaton Mitchell",
-    "Who Should I Start for Fantasy Football Week 11? Adonai Mitchell, Breece Hall, Jakobi Meyers, Braelon Allen, Jaylen Waddle, Ashton Jeanty, Pat Bryant, Jonah Coleman, Ladd McConkey"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Keaton Mitchell Week 11 Outlook for Fantasy Football (2026)"
-  },
   "devin singletary": {
    "h": [
+    "Should I Trade (Half PPR) Devin Singletary for Troy Franklin (2026)?",
     "Devin Singletary Week 11 Outlook for Fantasy Football (2026)",
-    "Should I Trade Chris Bell for Devin Singletary (2026)?",
-    "Who Should I Start for Fantasy Football Week 11? Emmett Johnson, Germie Bernard, Keon Coleman, Antonio Williams, Kenny Gainwell, Devaughn Vele, Devin Singletary, Chimere Dike, Luther Burden"
+    "Should I Trade Chris Bell for Devin Singletary (2026)?"
    ],
    "cut": false,
    "inj": true,
@@ -2041,9 +1705,9 @@
   },
   "cam skattebo": {
    "h": [
+    "Cam Skattebo signs autographs for kids before Giants vs Jaguars at MetLife",
     "Giants Get Cam Skattebo Prediction After Adding Running Back",
-    "Is Cam Skattebo Playing Today? (Injury Update, Betting Impact for Jaguars vs. Giants in NFL Week 11)",
-    "Cam Skattebo to Continue Handling a Heavy Workload - NFL News | Fantasy Football"
+    "Is Cam Skattebo Playing Today? (Injury Update, Betting Impact for Jaguars vs. Giants in NFL Week 11)"
    ],
    "cut": false,
    "inj": true,
@@ -2071,11 +1735,13 @@
   },
   "mike washington": {
    "h": [
-    "Mike Washington or Dalton Kincaid | Who Should I Start Week 11"
+    "Who Should I Start? DeVonta Smith or Mike Washington Jr.",
+    "Mike Washington or Dalton Kincaid | Who Should I Start Week 11",
+    "Aaron Jones Sr. or Mike Washington"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Mike Washington or Dalton Kincaid | Who Should I Start Week 11"
+   "worst": "Who Should I Start? DeVonta Smith or Mike Washington Jr."
   },
   "ashton jeanty": {
    "h": [
@@ -2090,22 +1756,11 @@
   "jk dobbins": {
    "h": [
     "J.K. Dobbins Week 11 Outlook for Fantasy Football (2026)",
-    "J.K. Dobbins Fantasy Football Start or Sit Advice for Week 11",
-    "J.K. Dobbins or Chris Rodriguez"
+    "J.K. Dobbins Fantasy Football Start or Sit Advice for Week 11"
    ],
    "cut": false,
    "inj": true,
    "worst": "J.K. Dobbins Week 11 Outlook for Fantasy Football (2026)"
-  },
-  "jonah coleman": {
-   "h": [
-    "Raiders vs. Broncos Week 11 prediction, best bets: Jonah Coleman goes wild in AFC West clash",
-    "Will Jonah Coleman have a monster fantasy day in Week 11?",
-    "Broncos RB Jonah Coleman Climbing on Kalshi Offensive Rookie of the Year Market"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jonah Coleman Week 11 Outlook for Fantasy Football (2026)"
   },
   "deebo samuel": {
    "h": [
@@ -2119,9 +1774,9 @@
   },
   "kaelon black": {
    "h": [
+    "49ers game changers: Trent Williams on Kaelon Black, Nick Bosa, Fred Warner",
     "49ers Notebook: Kaelon Black shines; Brock Purdy pays up; No setbacks for George Kittle; Avoiding a trap game vs. Dolphins",
-    "49ers Teammates Compare Kaelon Black to Marshawn Lynch",
-    "49ers Rookie Kaelon Black Earns Marshawn Lynch Comparison"
+    "49ers Teammates Compare Kaelon Black to Marshawn Lynch"
    ],
    "cut": false,
    "inj": true,
@@ -2129,9 +1784,9 @@
   },
   "christian mccaffrey": {
    "h": [
-    "49ers\u2019 Christian McCaffrey praises Kaelon Black\u2019s impact on offense",
-    "Christian McCaffrey has Marshall Faulk's NFL records in sight",
-    "Vikings vs. 49ers Best NFL Prop Bets for Sunday Night Football in Week 11 (Fade Christian McCaffrey?)"
+    "49ers\u2019 Christian McCaffrey sends a clear message after reaching 100 career TDs",
+    "49ers to \u2018be smart\u2019 with George Kittle, Nick Bosa vs. Rams; Christian McCaffrey \u2018ready to go\u2019",
+    "49ers\u2019 Christian McCaffrey praises Kaelon Black\u2019s impact on offense"
    ],
    "cut": false,
    "inj": true,
@@ -2141,11 +1796,11 @@
    "h": [
     "Vikings-49ers Touchdown Picks: Jordan Mason & Mike Evans Anytime TD Bets, NFL Week 11",
     "Omar Cooper or Jordan Mason | Who Should I Start Week 11",
-    "Jordan Mason or Roman Wilson"
+    "Emmett Johnson or Jordan Mason"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Vikings-49ers Touchdown Picks: Jordan Mason & Mike Evans Anytime TD Bets, NFL Week 11"
+   "inj": true,
+   "worst": "Who Should I Start for Fantasy Football Week 11? Deebo Samuel Sr., Jordan Mason, Aaron Jones Sr., Keenan Allen, Kaelon Black, Myles Price, Mike Evans, Jauan Jennings, Justin Jefferson"
   },
   "aaron jones": {
    "h": [
@@ -2177,53 +1832,6 @@
    "inj": true,
    "worst": "Chase Brown Week 11 Outlook for Fantasy Football (2026)"
   },
-  "reggie virgil": {
-   "h": [
-    "Reggie Virgil Fantasy Football News, Rankings, Projections | Arizona Cardinals",
-    "Reggie Virgil or Trevor Etienne: Who Should I Start in Week 11? Fantasy Football",
-    "Quentin Johnston or Reggie Virgil: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Reggie Virgil Fantasy Football News, Rankings, Projections | Arizona Cardinals"
-  },
-  "bam knight": {
-   "h": [
-    "Ashton Dulin or Bam Knight: Who Should I Start in Week 11? Fantasy Football",
-    "Bam Knight Week 11 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ashton Dulin or Bam Knight: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "devin duvernay": {
-   "h": [
-    "Devin Duvernay or Keandre Lambert-Smith: Who Should I Start in Week 11? Fantasy Football",
-    "Devin Duvernay Week 11 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Devin Duvernay or Keandre Lambert-Smith: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "emmett johnson": {
-   "h": [
-    "\u2018Better\u2019 \u2013 Kansas City Chiefs fans have a lot to say about Kenneth Walker after Emmett Johnson delivers vs Cardinals",
-    "Kansas City Chiefs running back Emmett Johnson scores fifth TD of season on 3-yard run",
-    "Chiefs vs. Cardinals: Emmett Johnson scores impressive TD in Week 11"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Week 11 Fantasy Football Rankings Update: Emmett Johnson Rises, Brock Bowers Remains Uncertain"
-  },
-  "cyrus allen": {
-   "h": [
-    "Mahomes' 15-yard sideline strike to Cyrus Allen gets Chiefs into field goal range before halftime",
-    "Cyrus Allen or Michael Mayer: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Cyrus Allen or Michael Mayer: Who Should I Start in Week 11? Fantasy Football"
-  },
   "jakobi lane": {
    "h": [
     "Early Fantasy Football Week 12 Waiver Wire Stashes: Target Cam Ward, Ja'Kobi Lane, Chimere Dike",
@@ -2242,7 +1850,7 @@
    ],
    "cut": false,
    "inj": true,
-   "worst": "Rashod Bateman Week 11 Outlook for Fantasy Football (2026)"
+   "worst": "Gregory Desrosiers or Rashod Bateman: Who Should I Start in Week 11? Fantasy Football"
   },
   "josh cuevas": {
    "h": [
@@ -2294,8 +1902,8 @@
   },
   "tetairoa mcmillan": {
    "h": [
-    "McMillan snags a Bryce Young strike for a TD",
     "Panthers Expect Tetairoa McMillan to Rebound Against Ravens",
+    "Panthers Expect McMillan to Rebound Against Ravens",
     "Must-Sell Fantasy Football Trades Before Your Deadline Including Tet McMillan"
    ],
    "cut": false,
@@ -2304,31 +1912,23 @@
   },
   "jalen coker": {
    "h": [
-    "Bryce Young dials launch codes to Jalen Coker for 35-yard gain down the sideline",
+    "Jalen Coker Injury Update: Panthers WR Leaves Game After Big Hit",
     "Jalen Coker Sit Start Fantasy Football Advice Week 11 (2026) - NFL News",
     "Fantasy Football Start or Sit Week 11: Bryce Young, Jalen Coker, Chuba Hubbard"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jalen Coker Sit Start Fantasy Football Advice Week 11 (2026) - NFL News"
+   "worst": "Jalen Coker Injury Update: Panthers WR Leaves Game After Big Hit"
   },
   "darren waller": {
    "h": [
+    "Darren Waller hauls in a dot from Bryce young on 27-yard pass",
     "Is Darren Waller Playing Today? Panthers Injury News Impacts TE Depth Chart",
-    "Is Darren Waller playing today? Week 11 updates for the Panthers TE",
-    "Is Darren Waller Playing Today? Panthers Injury News Impacts TE Depth Chart"
+    "Is Darren Waller playing today? Week 11 updates for the Panthers TE"
    ],
    "cut": false,
    "inj": true,
    "worst": "Is Darren Waller Playing Today? Panthers Injury News Impacts TE Depth Chart"
-  },
-  "khalil shakir": {
-   "h": [
-    "Khalil Shakir Week 11 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Khalil Shakir Week 11 Outlook for Fantasy Football (2026)"
   },
   "kevin coleman": {
    "h": [
@@ -2377,41 +1977,11 @@
    "inj": true,
    "worst": "Fantasy Football Week 11 Deep-Sleepers: Malachi Fields, Dawson Knox, and 4 Others"
   },
-  "malik washington": {
-   "h": [
-    "Miami Dolphins quarterback Kyle McCord locates wide receiver Malik Washington for 21-yard connection",
-    "Why Dolphins\u2019 Malik Washington Has 0 Catches in Diverse Role",
-    "Derrick Henry or Malik Washington"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Malik Washington or Reggie Virgil: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "caleb douglas": {
-   "h": [
-    "Kyle McCord Prepares for Second NFL Start as Caleb Douglas Emerges as a Trusted Target",
-    "Texas Tech's Caleb Douglas named as surprising rookie standout",
-    "Caleb Douglas Sit Start Fantasy Football Advice Week 11 (2026) - NFL News"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Caleb Douglas Sit Start Fantasy Football Advice Week 11 (2026) - NFL News"
-  },
-  "dj moore": {
-   "h": [
-    "DJ Moore Questionable to return Sunday",
-    "DJ Moore injury update brings good news for Bills fans",
-    "DJ Moore Suffers Knee Injury Against Dolphins"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "DJ Moore Questionable to return Sunday"
-  },
   "jordyn tyson": {
    "h": [
-    "\"We have our own Mack Hollins\" \"It\u2019s all for show. Very Odell of him\": NFL fans troll Jordyn Tyson for barefoot pregame practice",
-    "Is Jordyn Tyson playing today? Latest update on Saints WR vs. Bears",
-    "Jordyn Tyson Edges Carnell Tate in Week 11 Fantasy Rankings"
+    "Saints Expand Jordyn Tyson Role After Strong Two Game Start",
+    "Saints Deploy Jordyn Tyson in Dynamic Rookie Role",
+    "\"We have our own Mack Hollins\" \"It\u2019s all for show. Very Odell of him\": NFL fans troll Jordyn Tyson for barefoot pregame practice"
    ],
    "cut": false,
    "inj": true,
@@ -2419,19 +1989,19 @@
   },
   "juwan johnson": {
    "h": [
+    "Emmett Johnson Extends His Run as a Fill-In RB1 - NFL News | Fantasy Football",
     "Juwan Johnson Sustains hamstring injury",
-    "Juwan Johnson Injury Update: Saints TE Leaves Game vs. Bears",
-    "Saints' Juwan Johnson: Sustains hamstring injury"
+    "Juwan Johnson (hamstring) questionable to return"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Juwan Johnson Sustains hamstring injury"
+   "worst": "Emmett Johnson Extends His Run as a Fill-In RB1 - NFL News | Fantasy Football"
   },
   "luther burden": {
    "h": [
     "Fantasy Football Start or Sit Week 11: Kyle Monangai, Luther Burden, Caleb Williams",
     "Is Luther Burden III Playing Today? (Injury Update, Betting Impact for Saints vs. Bears in NFL Week 11)",
-    "NFL Week 11 player props, picks, predictions: Tony Pollard, Luther Burden, J.J. McCarthy"
+    "Chicago Bears star WR Luther Burden, GM Ryan Poles appear at Illinois semifinal"
    ],
    "cut": false,
    "inj": true,
@@ -2439,13 +2009,33 @@
   },
   "sam roush": {
    "h": [
-    "HIGHLIGHT: Caleb Williams scrambles out of potential sack to loft 19-yard pass to Sam Roush",
-    "Caleb Williams scrambles out of potential sack to loft 19-yard pass to Sam Roush",
-    "Carnell Tate or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
+    "Chicago Bears quarterback Caleb Williams scrambles out of potential sack to loft 19-yard pass to tight end Sam Roush",
+    "Caleb Douglas or Sam Roush: Who Should I Start in Week 11? Fantasy Football",
+    "CeeDee Lamb or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Carnell Tate or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Caleb Douglas or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
+  },
+  "kyle monangai": {
+   "h": [
+    "Is Kyle Monangai Playing Today For the Bears? What He\u2019s Doing During Saints Game",
+    "Fantasy football Week 11 inactives and injuries: Kenneth Walker out again, Kyle Monangai returns",
+    "Kyle Monangai or Pat Bryant"
+   ],
+   "cut": true,
+   "inj": true,
+   "worst": "Fantasy football Week 11 inactives and injuries: Kenneth Walker out again, Kyle Monangai returns"
+  },
+  "dandre swift": {
+   "h": [
+    "Carl Granderson strips D'Andre Swift to force pivotal fumble | Saints vs. Bears Highlights",
+    "HIGHLIGHT: Shovel pass for 6! Caleb Williams finds D'Andre Swift for 3-yard score",
+    "Caleb Williams finds D'Andre Swift for three-yard TD, extending Bears' lead over Saints | NFL Highlights"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Ben Sinnott or D'Andre Swift: Who Should I Start in Week 11? Fantasy Football"
   },
   "kalif raymond": {
    "h": [
@@ -2475,23 +2065,34 @@
    "inj": false,
    "worst": "Bears\u2019 Colston Loveland gets Tom Brady making loud noises again with insane hurdle TD"
   },
+  "travis etienne": {
+   "h": [
+    "Travis Etienne Breaks Off 46 Yard Run Against Bears",
+    "Can't-Miss Play: Travis Etienne Jr. off to the races for 46-yard sideline sprint in Chicago",
+    "Travis Etienne breaks loose for 46-yard run into Chicago territory | Saints vs. Bears Highlights"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Sam Roush or Travis Etienne Jr.: Who Should I Start in Week 11? Fantasy Football"
+  },
   "devaughn vele": {
    "h": [
+    "Shough connects with Devaughn Vele for 16 yards | Saints vs. Bears Highlights",
     "Who Should I Start for Fantasy Football Week 11? Emmett Johnson, Germie Bernard, Keon Coleman, Antonio Williams, Kenny Gainwell, Devaughn Vele, Devin Singletary, Chimere Dike, Luther Burden"
    ],
    "cut": false,
    "inj": true,
    "worst": "Who Should I Start for Fantasy Football Week 11? Emmett Johnson, Germie Bernard, Keon Coleman, Antonio Williams, Kenny Gainwell, Devaughn Vele, Devin Singletary, Chimere Dike, Luther Burden"
   },
-  "chris olave": {
+  "alvin kamara": {
    "h": [
-    "Shough's 14-yard connection with Chris Olave gets Saints into Bears' territory in first quarter",
-    "Chris Olave Week 11 Expectations: What to Expect From Saints WR at Bears",
-    "Video - Bears' Jaylon Johnson Faces Big Test vs. Chris Olave Without Kyler Gordon"
+    "WATCH: Alvin Kamara gets Saints on the board, scores 93rd career TD",
+    "Saints Limit Alvin Kamara as Backfield Roles Shift Against Bears",
+    "Saints Limit Alvin Kamara as Running Back Role Shrinks"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Chris Olave or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Saints Keep Alvin Kamara in Limited Role Against Bears"
   },
   "makai lemon": {
    "h": [
@@ -2503,11 +2104,21 @@
    "inj": false,
    "worst": "Steelers Face Eagles in Lemon Bernard Draft Rematch"
   },
+  "jaylen warren": {
+   "h": [
+    "Steelers Face Eagles With Jaylen Warren Set for Bigger Role",
+    "Jeremiah Trotter Jr. stops Jaylen Warren for a fourth-down stop",
+    "Fantasy Analysts Back Prescott and Warren for NFL Week 11"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Steelers Face Eagles With Jaylen Warren Set for Bigger Role"
+  },
   "darnell washington": {
    "h": [
-    "Darnell Washington or Myles Price: Who Should I Start in Week 11? Fantasy Football",
-    "Darnell Washington Week 11 Outlook for Fantasy Football (2026)",
-    "Baltimore Ravens or Darnell Washington: Who Should I Pick Up? Fantasy Football (2026)"
+    "Steelers May Reduce Darnell Washington Role in Week 11",
+    "Steelers May Reduce Darnell Washington Role in Week 11",
+    "Aaron Rodgers' no-look pass to Darnell Washington yields a negligible result"
    ],
    "cut": false,
    "inj": true,
@@ -2515,19 +2126,37 @@
   },
   "dk metcalf": {
    "h": [
-    "DK Metcalf ejected: Steelers receiver tossed after poking Cooper DeJean in the eye",
-    "DK Metcalf Ejected Against Eagles for Unsportsmanlike Conduct - NFL News | Fantasy Football",
-    "Steelers' DK Metcalf ejected for unsportsmanlike conduct vs. the Eagles"
+    "DK Metcalf ejected after appearing to poke Cooper DeJean in eye during Steelers vs Eagles",
+    "Pittsburgh Steelers Urged To Cut D.K. Metcalf \u2018Immediately\u2019",
+    "Steelers' DK Metcalf ejected for controversial altercation with Eagles' Cooper DeJean | See link below \u2b07\ufe0f \ud83d\udcf8 Barry Reeger, IMAGN IMAGES via Reuters Connect"
    ],
    "cut": false,
    "inj": true,
-   "worst": "DK Metcalf ejected: Steelers receiver tossed after poking Cooper DeJean in the eye"
+   "worst": "DK Metcalf ejected after appearing to poke Cooper DeJean in eye during Steelers vs Eagles"
+  },
+  "rico dowdle": {
+   "h": [
+    "Ben Sinnott or Rico Dowdle: Who Should I Start in Week 11? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Ben Sinnott or Rico Dowdle: Who Should I Start in Week 11? Fantasy Football"
+  },
+  "saquon barkley": {
+   "h": [
+    "Pittsburgh Steelers linebacker T.J. Watt brings down Philadelphia Eagles running back Saquon Barkley for a 4-yard loss",
+    "Saquon Barkley Scores Long Touchdown vs. Steelers Stream of National Football League",
+    "Can't-Miss Play: Saquon, say GONE! Barkley outraces every Steeler on 38-yard TD dash"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Saquon Barkley Scores Long Touchdown vs. Steelers Stream of National Football League"
   },
   "roman wilson": {
    "h": [
+    "Fantasy Impact of Roman Wilson Return? | THE PITTSBURGH FOOTBALL SHOW with Jorden Hill",
     "Pittsburgh Steelers quarterback Aaron Rodgers' lofted pass finds wide receiver Roman Wilson for 33 yards",
-    "Steelers Activate Roman Wilson Ahead of Eagles Game",
-    "Roman Wilson Expected to Play Against Eagles - NFL News | Fantasy Football"
+    "Steelers Activate Roman Wilson Ahead of Eagles Game"
    ],
    "cut": false,
    "inj": true,
@@ -2535,13 +2164,13 @@
   },
   "darius cooper": {
    "h": [
+    "Philadelphia Eagles quarterback Joe Milton III zips a 14-yard pass to wide receiver Darius Cooper on third-and-10",
     "Joe Milton III's 29-yard sideline strike to Darius Cooper gets Eagles into Steelers' territory",
-    "Should I Trade (Half PPR) Darius Cooper for Kaytron Allen (2026)?",
-    "Darius Cooper vs. Steelers - NFL - Player Props, Lines and Trends"
+    "Should I Trade (Half PPR) Darius Cooper for Kaytron Allen (2026)?"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Joe Milton III's 29-yard sideline strike to Darius Cooper gets Eagles into Steelers' territory"
+   "worst": "Philadelphia Eagles quarterback Joe Milton III zips a 14-yard pass to wide receiver Darius Cooper on third-and-10"
   },
   "devonta smith": {
    "h": [
@@ -2556,8 +2185,7 @@
   "pat freiermuth": {
    "h": [
     "Who Should I Start for Fantasy Football Week 11? Michael Mayer, Brenton Strange, Mark Andrews, Dallas Goedert, George Kittle, Pat Freiermuth, T.J. Hockenson, Sam LaPorta, Isaiah Likely",
-    "Josh Johnson or Pat Freiermuth: Who Should I Pick Up? Fantasy Football (2026)",
-    "Germie Bernard or Pat Freiermuth: Who Should I Start in Week 11? Fantasy Football"
+    "Josh Johnson or Pat Freiermuth: Who Should I Pick Up? Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
@@ -2567,7 +2195,7 @@
    "h": [
     "Steelers vs Eagles: Makai Lemon vs Germie Bernard the matchup to watch",
     "Steelers' Germie Bernard Announces Personal News Amid Eventful Rookie Season",
-    "Congratulations Pour in From Steelers & More as Germie Bernard Announces Family Update"
+    "Germie Bernard Fantasy Outlook & Stats"
    ],
    "cut": false,
    "inj": false,
@@ -2581,194 +2209,7 @@
    ],
    "cut": false,
    "inj": true,
-   "worst": "Isaiah Likely or Dallas Goedert or George Kittle or Kyle Pitts: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "cade otton": {
-   "h": [
-    "Buccaneers Can Target Cade Otton, Other TEs off Play-Action vs. Lions",
-    "Predicted Stat Line: Buccaneers TE Cade Otton vs Detroit",
-    "Amon-Ra St. Brown or Cade Otton: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Amon-Ra St. Brown or Cade Otton: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "isaac teslaa": {
-   "h": [
-    "Isaac TeSlaa Week 11 Outlook for Fantasy Football (2026)",
-    "Who Should I Start for Fantasy Football Week 11? Jordyn Tyson, Caleb Douglas, Garrett Wilson, Malik Washington, Austin Ekeler, Ja'Kobi Lane, Makai Lemon, Brian Thomas Jr., Isaac TeSlaa"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Isaac TeSlaa Week 11 Outlook for Fantasy Football (2026)"
-  },
-  "emeka egbuka": {
-   "h": [
-    "Drew Sample or Emeka Egbuka: Who Should I Start in Week 11? Fantasy Football",
-    "NFL DFS Tournament (GPP) Plays For Week 11: Justin Herbert, Emeka Egbuka & More",
-    "Emeka Egbuka Fantasy Football News, Rankings, Projections | Tampa Bay Buccaneers"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Drew Sample or Emeka Egbuka: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "amon ra st brown": {
-   "h": [
-    "Jared Goff connects with Amon-Ra St. Brown for 14-yard TD, giving Lions lead over Buccaneers | NFL Highlights",
-    "Lions strike first with touchdown pass from Jared Goff to Amon-Ra St. Brown",
-    "Meet John Brown and Miriam Steyer Brown: Amon-Ra St. Brown\u2019s Parents"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Amon-Ra St. Brown or Austin Ekeler: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "sam laporta": {
-   "h": [
-    "Goff's 47-yard completion to LaPorta gets Lions into Bucs' territory on first drive",
-    "Omar cooper Jr. or Sam LaPorta: Who Should I Start in Week 11? Fantasy Football",
-    "Brevyn Spann-Ford or Sam LaPorta: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Omar cooper Jr. or Sam LaPorta: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "ted hurst": {
-   "h": [
-    "Mayfield Tosses TD to Hurst III Before Halftime | Bucs vs. Lions Highlights",
-    "Ashton Dulin or Ted Hurst III: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ashton Dulin or Ted Hurst III: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "tez johnson": {
-   "h": [
-    "Tez Johnson showcases his stiff-arm strength on 5-yard reception against Lions",
-    "Malik McClain or Tez Johnson: Who Should I Start in Week 11? Fantasy Football",
-    "NFL DFS Value Plays For Week 11: Emmett Johnson, Tre Harris & More"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Malik McClain or Tez Johnson: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "chris godwin": {
-   "h": [
-    "Chris Godwin Jr. or Laquon Treadwell: Who Should I Pick Up? Fantasy Football (2026)",
-    "Chris Godwin Jr. or Keandre Lambert-Smith: Who Should I Start in Week 11? Fantasy Football",
-    "Bo Melton or Chris Godwin Jr.: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Chris Godwin Jr. or Laquon Treadwell: Who Should I Pick Up? Fantasy Football (2026)"
-  },
-  "jameson williams": {
-   "h": [
-    "Lions vs Buccaneers - Jameson Williams flips into end zone after 57-yard touchdown pass from Jared Goff",
-    "Can't-Miss Play: 57-yard TD! Jameson Williams front-flips across goal line to cap Goff's launch",
-    "Lions stretch lead to 10 with 57-yard touchdown from Jameson Williams"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Lions vs Buccaneers - Jameson Williams flips into end zone after 57-yard touchdown pass from Jared Goff"
-  },
-  "ryan flournoy": {
-   "h": [
-    "Can Ryan Flournoy deliver sneaky fantasy value in Week 11?",
-    "Fantasy Football Flex Rankings Week 11: Kyle Monangai, Rome Odunze, Ryan Flournoy Among Top Plays",
-    "Cowboys Stock Watch: Ryan Flournoy vs. Titans\u2019 32nd-Ranked Pass Defense"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Flex Rankings Week 11: Kyle Monangai, Rome Odunze, Ryan Flournoy Among Top Plays"
-  },
-  "brevyn spann ford": {
-   "h": [
-    "Brevyn Spann-Ford or Chimere Dike: Who Should I Start in Week 11? Fantasy Football",
-    "Brevyn Spann-Ford Week 11 Outlook for Fantasy Football (2026)",
-    "Brevyn Spann-Ford or Dalton Kincaid: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Brevyn Spann-Ford or Chimere Dike: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "ceedee lamb": {
-   "h": [
-    "CeeDee Lamb Makes Cowboys History with Rare Stats as Star WR Breaks Franchise Record on Video",
-    "CeeDee Lamb breaks Michael Irvin's Cowboys record with another 1,000-yard season",
-    "Prescott's 8-yard TD connection with Lamb nearly ends with a collision along sideline"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "CeeDee Lamb Makes Cowboys History with Rare Stats as Star WR Breaks Franchise Record on Video"
-  },
-  "george pickens": {
-   "h": [
-    "Dak Prescott's 31-yard connection with George Pickens gets Cowboys into Titans' territory",
-    "Dak Prescott throws his second TD pass of the day vs. Titans to Pickens",
-    "NFL Punishes CeeDee Lamb & George Pickens for Double Violation vs 49ers"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Start or Sit Week 11: George Pickens, Dak Prescott, Javonte Williams"
-  },
-  "calvin ridley": {
-   "h": [
-    "Cam Ward Completes a 15-Yard Pass to Wide Receiver Calvin Ridley | Game Highlights",
-    "Cam Ward escapes a would-be sack before slinging 15-yard dart to Calvin Ridley",
-    "Calvin Ridley Fantasy Outlook & Stats"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Brian robinson Jr. or Calvin Ridley or Derrick Henry or DeVonta Smith: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "kavontae turpin": {
-   "h": [
-    "Cowboys Should Limit KaVontae Turpin to Return Duties",
-    "KaVontae Turpin takes jet sweep 22 yards for TD to extend Cowboys' lead over Titans | NFL Highlights",
-    "Cowboys Should Limit KaVontae Turpin to Return Duties"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Cowboys Should Limit KaVontae Turpin to Return Duties"
-  },
-  "carnell tate": {
-   "h": [
-    "Can't-Miss Play: 59-yard TD! Carnell Tate gets up from ground before being touched for long score",
-    "Cam Ward Finds Carnell Tate For 59-Yard TD, Trimming Titans' Deficit vs Cowboys | NFL Highlights",
-    "Cam Ward finds Carnell Tate for 59-Yard TD, trimming Titans' deficit vs Cowboys | NFL Highlights"
-   ],
-   "cut": true,
-   "inj": true,
-   "worst": "Titans vs Dallas Cowboys inactive players, see who isn\u2019t playing, Carnell Tate injury status"
-  },
-  "gunnar helm": {
-   "h": [
-    "Gunnar Helm Week 11 Outlook for Fantasy Football (2026)",
-    "Gunnar Helm or Keleki Latu: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Gunnar Helm Week 11 Outlook for Fantasy Football (2026)"
-  },
-  "chimere dike": {
-   "h": [
-    "Titans | Carnell Tate, Chimere Dike are Titans\u2019 WRs to start Sunday at Dallas",
-    "Chimere Dike Hauls in Ward's Pass Off the Ricochet for a First Down | Game Highlights",
-    "Titans' Flea-Flicker Trick Play Yields Ward's 22-Yard Completion to Chimere Dike | Game Highlights"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Brevyn Spann-Ford or Chimere Dike: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "elic ayomanor": {
-   "h": [
-    "Elic Ayomanor Sit Start Fantasy Football Advice Week 11 (2026) - NFL News",
-    "Corey Kiner or Elic Ayomanor: Who Should I Start in Week 11? Fantasy Football",
-    "Elic Ayomanor Week 11 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Elic Ayomanor Sit Start Fantasy Football Advice Week 11 (2026) - NFL News"
+   "worst": "Dallas Goedert or Dare Ogunbowale: Who Should I Start in Week 11? Fantasy Football"
   },
   "david njoku": {
    "h": [
@@ -2780,7 +2221,7 @@
   },
   "ladd mcconkey": {
    "h": [
-    "Ladd McConkey Active Against Jets in Week 11 - NFL News | Fantasy Football",
+    "Fantasy Football Injury Impact: Ladd McConkey Active For Week 11 Boosts Chargers Outlook",
     "Ladd McConkey will play against the Jets",
     "Ladd McConkey active for Week 11 vs. Jets"
    ],
@@ -2810,8 +2251,8 @@
   "quentin johnston": {
    "h": [
     "Myles Price or Quentin Johnston: Who Should I Start in Week 11? Fantasy Football",
-    "Quentin Johnston Week 11 Outlook for Fantasy Football (2026)",
-    "Who Should I Start for Fantasy Football Week 11? Carnell Tate, Ollie Gordon II, Jacob Cowing, Stefon Diggs, Malachi Fields, Cyrus Allen, Chris Rodriguez Jr., Quentin Johnston, Darnell Mooney"
+    "Cade Klubnik or Quentin Johnston: Who Should I Start in Week 11? Fantasy Football",
+    "Quentin Johnston Week 11 Outlook for Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
@@ -2831,7 +2272,7 @@
    "h": [
     "Garrett Wilson or Jayden Daniels",
     "Insider Shares Garrett Wilson Warning Hours Before Jets Chargers Game",
-    "Colbie Young or Garrett Wilson: Who Should I Start in Week 11? Fantasy Football"
+    "Drake London or Garrett Wilson or Jameson Williams or Jauan Jennings: Who Should I Start for Week 11?"
    ],
    "cut": false,
    "inj": true,
@@ -2850,7 +2291,7 @@
    "h": [
     "Adonai Mitchell Fantasy Football Start or Sit Advice for Week 11",
     "Adonai Mitchell Sit Start Fantasy Football Advice Week 11 (2026) - NFL News",
-    "Antonio Williams or Adonai Mitchell | Who Should I Start Week 11"
+    "CeeDee Lamb or Adonai Mitchell"
    ],
    "cut": false,
    "inj": true,
@@ -2887,12 +2328,12 @@
   "isaiah likely": {
    "h": [
     "Isaiah Likely vs. Jaguars - NFL - Player Props, Lines and Trends",
-    "Isaiah Likely or Dallas Goedert or George Kittle or Kyle Pitts: Who Should I Start in Week 11? Fantasy Football",
-    "Giants' Isaiah Likely close to cashing in on several contract bonuses"
+    "Giants' Isaiah Likely close to cashing in on several contract bonuses",
+    "Isaiah Likely Week 11 Outlook for Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Isaiah Likely or Dallas Goedert or George Kittle or Kyle Pitts: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Isaiah Likely Week 11 Outlook for Fantasy Football (2026)"
   },
   "darnell mooney": {
    "h": [
@@ -2934,8 +2375,8 @@
   "jakobi meyers": {
    "h": [
     "Jakobi Meyers or Sam Roush: Who Should I Start in Week 11? Fantasy Football",
-    "Jakobi Meyers Week 11 Outlook for Fantasy Football (2026)",
-    "Jordyn Tyson or Jakobi Meyers"
+    "Jakobi Meyers or Antonio Williams | Who Should I Start Week 11",
+    "Jakobi Meyers Week 11 Outlook for Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
@@ -2952,6 +2393,8 @@
   },
   "brian thomas": {
    "h": [
+    "Brian Thomas or Emmett Johnson",
+    "Omar Cooper or Brian Thomas",
     "Who Should I Start for Fantasy Football Week 11? Jordyn Tyson, Caleb Douglas, Garrett Wilson, Malik Washington, Austin Ekeler, Ja'Kobi Lane, Makai Lemon, Brian Thomas Jr., Isaac TeSlaa"
    ],
    "cut": false,
@@ -2960,9 +2403,9 @@
   },
   "brenton strange": {
    "h": [
-    "Saquon Barkley or Brenton Strange",
     "Ashton Dulin or Brenton Strange: Who Should I Start in Week 11? Fantasy Football",
-    "Who Should I Start for Fantasy Football Week 11? Michael Mayer, Brenton Strange, Mark Andrews, Dallas Goedert, George Kittle, Pat Freiermuth, T.J. Hockenson, Sam LaPorta, Isaiah Likely"
+    "Who Should I Start for Fantasy Football Week 11? Michael Mayer, Brenton Strange, Mark Andrews, Dallas Goedert, George Kittle, Pat Freiermuth, T.J. Hockenson, Sam LaPorta, Isaiah Likely",
+    "Brenton Strange Week 11 Outlook for Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
@@ -3022,7 +2465,7 @@
    ],
    "cut": false,
    "inj": true,
-   "worst": "Pat Bryant Week 11 Outlook for Fantasy Football (2026)"
+   "worst": "Jonathan Taylor or Pat Bryant: Who Should I Start in Week 11? Fantasy Football"
   },
   "evan engram": {
    "h": [
@@ -3050,7 +2493,7 @@
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jordan Watkins or Parker Washington: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Jordan Watkins or Jordyn Tyson: Who Should I Start in Week 11? Fantasy Football"
   },
   "keenan allen": {
    "h": [
@@ -3064,13 +2507,13 @@
   },
   "myles price": {
    "h": [
+    "Brevyn Spann-Ford or Myles Price: Who Should I Start in Week 11? Fantasy Football",
     "Myles Price Fantasy Outlook & Stats",
-    "Juwan Johnson or Myles Price: Who Should I Start in Week 11? Fantasy Football",
-    "Myles Price or Tyler Allgeier: Who Should I Start in Week 11? Fantasy Football"
+    "Myles Price shares what Kirk Cousins has been doing in team meetings since returning to the Vikings"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Juwan Johnson or Myles Price: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Brevyn Spann-Ford or Myles Price: Who Should I Start in Week 11? Fantasy Football"
   },
   "tj hockenson": {
    "h": [
@@ -3093,8 +2536,8 @@
   "jauan jennings": {
    "h": [
     "Baltimore Ravens or Jauan Jennings: Who Should I Pick Up? Fantasy Football (2026)",
-    "Who Should I Start for Fantasy Football Week 11? Deebo Samuel Sr., Jordan Mason, Aaron Jones Sr., Keenan Allen, Kaelon Black, Myles Price, Mike Evans, Jauan Jennings, Justin Jefferson",
-    "Who Should I Pickup for Fantasy Football Week 11? Adonai Mitchell, Kaelon Black, Pat Bryant, Chimere Dike, Elic Ayomanor, Konata Mumpfield, Ja'Kobi Lane, Jauan Jennings, Michael Mayer"
+    "Drake London or Garrett Wilson or Jameson Williams or Jauan Jennings: Who Should I Start for Week 11?",
+    "Who Should I Start for Fantasy Football Week 11? Deebo Samuel Sr., Jordan Mason, Aaron Jones Sr., Keenan Allen, Kaelon Black, Myles Price, Mike Evans, Jauan Jennings, Justin Jefferson"
    ],
    "cut": false,
    "inj": true,
@@ -3102,13 +2545,13 @@
   },
   "george kittle": {
    "h": [
+    "George Kittle Receiving Yards Pick for 49ers vs. Vikings",
     "49ers to \u2018be smart\u2019 with George Kittle, Nick Bosa vs. Rams; Christian McCaffrey \u2018ready to go\u2019",
-    "49ers\u2019 George Kittle shares candid thoughts on bizarre Brandon Aiyuk situation",
-    "49ers\u2019 George Kittle shares heartfelt message after returning to Bay Area"
+    "49ers\u2019 George Kittle shares candid thoughts on bizarre Brandon Aiyuk situation"
    ],
    "cut": false,
    "inj": false,
-   "worst": "49ers to \u2018be smart\u2019 with George Kittle, Nick Bosa vs. Rams; Christian McCaffrey \u2018ready to go\u2019"
+   "worst": "George Kittle Receiving Yards Pick for 49ers vs. Vikings"
   },
   "justin jefferson": {
    "h": [
@@ -3132,11 +2575,11 @@
   },
   "ben sinnott": {
    "h": [
-    "Ben Sinnott or Justin Jefferson: Who Should I Start in Week 11? Fantasy Football"
+    "Ben Sinnott or Christian McCaffrey: Who Should I Start in Week 11? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Ben Sinnott or Justin Jefferson: Who Should I Start in Week 11? Fantasy Football"
+   "worst": "Ben Sinnott or Christian McCaffrey: Who Should I Start in Week 11? Fantasy Football"
   },
   "drew sample": {
    "h": [
@@ -3148,13 +2591,13 @@
   },
   "treylon burks": {
    "h": [
+    "Treylon Burks (foot) off injury report Monday",
     "Treylon Burks off injury report, to play on MNF",
-    "Treylon Burks (WR, Commanders) Contract & Cap Hit 2026",
     "Treylon Burks Good to go against Cincinnati"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Treylon Burks or Zay Flowers: Who Should I Start in Week 11? Fantasy Football"
+   "inj": false,
+   "worst": "Treylon Burks (foot) off injury report Monday"
   },
   "stefon diggs": {
    "h": [
@@ -3179,18 +2622,18 @@
   "antonio williams": {
    "h": [
     "Commanders draft WR Antonio Williams with 71st overall pick",
-    "Antonio Williams or Samaje Perine",
-    "Antonio Williams or Jordan Addison"
+    "Aaron Jones Sr. or Antonio Williams",
+    "Antonio Williams or Adonai Mitchell | Who Should I Start Week 11"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Antonio Williams or Rico Dowdle: Who Should I Start in Week 11? Fantasy Football"
+   "inj": false,
+   "worst": "Commanders draft WR Antonio Williams with 71st overall pick"
   },
   "tee higgins": {
    "h": [
+    "'Could Definitely Want The Ball More' - Key Trait Driving Tee Higgins, Ja'Marr Chase's Great 2026 Season",
     "Bengals vs Commanders MNF Props: Brown, Higgins, Diggs",
-    "Bengals WR Ja\u2019Marr Chase\u2019s Message to Tee Higgins is a Blunt Warning to The Rest of The NFL",
-    "Tee Higgins Week 11 Outlook for Fantasy Football (2026)"
+    "Bengals WR Ja\u2019Marr Chase\u2019s Message to Tee Higgins is a Blunt Warning to The Rest of The NFL"
    ],
    "cut": false,
    "inj": true,
@@ -3200,7 +2643,7 @@
    "h": [
     "Mike Gesicki or Denzel Boston",
     "Mike Gesicki Week 11 Outlook for Fantasy Football (2026)",
-    "RJ Harvey or Mike Gesicki"
+    "Mike Gesicki or Kyren Williams"
    ],
    "cut": false,
    "inj": true,
@@ -3226,29 +2669,129 @@
    "inj": false,
    "worst": "CJ Stroud Puts Texans Fans in The Spotlight With Emotional Admission After Colts Tilt"
   },
-  "patrick mahomes": {
+  "tyler shough": {
    "h": [
-    "Patrick Mahomes pump fake gets Rashee Rice open in middle of field for 20 yards",
-    "Mahomes' 15-yard sideline strike to Cyrus Allen gets Chiefs into field goal range before halftime",
-    "NFL Power Rankings: Where Do Patrick Mahomes, Chiefs Rank After Week 10?"
+    "Shough connects with Vele for 16-yard gain vs. Bears",
+    "Bears increase their lead after Montez Sweat gets the safety on Tyler Shough sack",
+    "Saints QB Tyler Shough Leads Team With 187 Rushing Yards"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Patrick Mahomes pump fake gets Rashee Rice open in middle of field for 20 yards"
+   "worst": "Shough connects with Vele for 16-yard gain vs. Bears"
+  },
+  "patrick mahomes": {
+   "h": [
+    "Charissa Thompson, Taylor Rooks & More Rally Around Patrick Mahomes\u2019 Wife Brittany After Historic Milestone",
+    "Patrick Mahomes Surgical in Week 11 Blowout Over the Arizona Cardinals",
+    "Chiefs Make Rare Patrick Mahomes Decision Days Before Bills Game"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Patrick Mahomes' Pump Fake Sets Up Xavier Worthy Catch Stream of National Football League"
+  },
+  "cam ward": {
+   "h": [
+    "Can't-Miss Play: Otherworldly TD! Cam Ward roams the globe before cross-body LAUNCH to Ridley",
+    "Cam Ward Completes a 15-Yard Pass to Wide Receiver Calvin Ridley | Game Highlights",
+    "Cam Ward escapes a would-be sack before slinging 15-yard dart to Calvin Ridley"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Can't-Miss Play: Otherworldly TD! Cam Ward roams the globe before cross-body LAUNCH to Ridley"
+  },
+  "joe milton": {
+   "h": [
+    "Eagles QB Joe Milton III delivers after early flub in win over Steelers to snap 7-game losing streak",
+    "Philadelphia Eagles quarterback Joe Milton III zips a 14-yard pass to wide receiver Darius Cooper on third-and-10",
+    "'Cam Newton Impersonation,\u2019 \u2018It Was Weird\u2019 -- NFL Fans Mock Joe Milton III As Eagles QB\u2019s \u2018Controller Died\u2019 After Fumble vs. Steelers"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Eagles QB Joe Milton III delivers after early flub in win over Steelers to snap 7-game losing streak"
+  },
+  "aaron rodgers": {
+   "h": [
+    "Aaron Rodgers' no-look pass to Darnell Washington yields a negligible result",
+    "Pittsburgh Steelers quarterback Aaron Rodgers off to the races for 12-yard pickup on the ground in Philly",
+    "Caleb Williams could soon break an NFL record held by Aaron Rodgers"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Aaron Rodgers' no-look pass to Darnell Washington yields a negligible result"
+  },
+  "caleb williams": {
+   "h": [
+    "Caleb Williams awkwardly laughs as Erin Andrews calls him a 'violent thrower'",
+    "Chicago Bears quarterback Caleb Williams taken down by New Orleans Saints safety Jonas Sanker for 11-yard loss",
+    "Can't-Miss Play: Caleb Williams dials launch codes to Zavion Thomas for 40-yard gain"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Caleb Williams awkwardly laughs as Erin Andrews calls him a 'violent thrower'"
+  },
+  "kyle mccord": {
+   "h": [
+    "Nothing works for Kyle McCord, Dolphins offense in Buffalo loss",
+    "Miami Dolphins quarterback Kyle McCord locates wide receiver Malik Washington for 21-yard connection",
+    "Buffalo Bills defensive end Greg Rousseau takes down Kyle McCord for his ninth sack of 2026"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Fantasy football Week 11 PPR cheat sheet: Caleb Douglas primed to build on budding rapport with Kyle McCord"
   },
   "josh johnson": {
    "h": [
-    "Back-to-back sacks! George Karlaftis brings down Josh Johnson for second sack in two plays",
+    "Nick Bolton and George Karlaftis are a lethal combination for Josh Johnson on 12-yard sack",
     "40-year-old Josh Johnson delivers his first Cardinals TD pass to Simi Fehoko",
     "Josh Johnson to Make Cardinals and NFL History With First Start vs. Chiefs"
    ],
    "cut": false,
    "inj": true,
    "worst": "Josh Johnson Gets Honest About Carson Beck\u2019s Injury Before Cardinals-Chiefs"
+  },
+  "dak prescott": {
+   "h": [
+    "Dak Prescott accounts for 5 TDs as the Cowboys roll to a 51-30 victory over the Titans",
+    "Dak Prescott Shines in Cowboys' Win vs. Titans, Box Score Stats, Highlights for Lamb, Cam Ward, More",
+    "As Dak Prescott, Cowboys roll Titans, was Mike Pettine-called defense any better?"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Dak Prescott accounts for 5 TDs as the Cowboys roll to a 51-30 victory over the Titans"
+  },
+  "josh allen": {
+   "h": [
+    "\u2018Honestly baffling\u2019 \u2013 Josh Allen blasted for \u2018reckless\u2019 performance in Bills win vs Dolphins",
+    "Josh Allen, James Cook make NFL history in Bills' win over Dolphins",
+    "\"If it were Mahomes he\u2019d be suspended\" \"perfectly legal\": NFL fans split over questionable hit on Josh Allen by Keith Cooper Jr. in Bills vs Dolphins"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "\"If it were Mahomes he\u2019d be suspended\" \"perfectly legal\": NFL fans split over questionable hit on Josh Allen by Keith Cooper Jr. in Bills vs Dolphins"
+  },
+  "jared goff": {
+   "h": [
+    "Jared Goff Enters Top 20 on Historic NFL Milestone List During Lions vs. Bucs",
+    "Lions vs Buccaneers - Jameson Williams flips into end zone after 57-yard touchdown pass from Jared Goff",
+    "Jared Goff finds Jameson Williams for 57-yard TD, extending Lions' lead over Buccaneers | NFL Highlights"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Jared Goff Enters Top 20 on Historic NFL Milestone List During Lions vs. Bucs"
+  },
+  "baker mayfield": {
+   "h": [
+    "Touchdown Tampa Bay Buccaneers! Ted Hurst III 5 yd pass from Baker Mayfield 20-31 Q4 0:08",
+    "Bucs-Lions Inactives | Baker Mayfield Will Start",
+    "Baker Mayfield connects with Ted Hurst for 23-Yard TD to cut Buccaneers' deficit vs. Lions | NFL Highlights"
+   ],
+   "cut": true,
+   "inj": true,
+   "worst": "Bucs-Lions Inactives | Baker Mayfield Will Start"
   }
  },
  "qbhurt": [
-  "NYJ",
-  "TB"
+  "BUF",
+  "NYJ"
  ]
 }
