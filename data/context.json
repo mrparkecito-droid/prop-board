@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T16:30:58+00:00",
+ "generated": "2026-11-22T17:01:07+00:00",
  "games": {
   "MIABUF": {
    "home": "BUF",
@@ -14,11 +14,11 @@
    "total": 45.5,
    "espn_wx": {
     "desc": "1",
-    "temp": 60
+    "temp": 63
    },
    "wx": {
-    "wind": 13,
-    "gust": 22,
+    "wind": 12,
+    "gust": 21,
     "pop": 1,
     "rain": 0.0,
     "temp": 67
@@ -40,11 +40,11 @@
     "temp": 58
    },
    "wx": {
-    "wind": 10,
-    "gust": 23,
+    "wind": 11,
+    "gust": 22,
     "pop": 83,
-    "rain": 1.4,
-    "temp": 52
+    "rain": 0.0,
+    "temp": 53
    }
   },
   "TENDAL": {
@@ -96,7 +96,7 @@
    },
    "wx": {
     "wind": 15,
-    "gust": 26,
+    "gust": 25,
     "pop": 0,
     "rain": 0.0,
     "temp": 46
@@ -119,10 +119,10 @@
    },
    "wx": {
     "wind": 7,
-    "gust": 16,
+    "gust": 17,
     "pop": 3,
     "rain": 0.0,
-    "temp": 65
+    "temp": 63
    }
   },
   "BALCAR": {
@@ -137,15 +137,15 @@
    },
    "total": 44.5,
    "espn_wx": {
-    "desc": "Rain",
+    "desc": "Showers",
     "temp": 58
    },
    "wx": {
-    "wind": 7,
-    "gust": 13,
+    "wind": 8,
+    "gust": 17,
     "pop": 24,
-    "rain": 0.4,
-    "temp": 58
+    "rain": 0.0,
+    "temp": 59
    }
   },
   "NYJLAC": {
@@ -158,7 +158,7 @@
     "LAC": -3.0,
     "NYJ": 3.0
    },
-   "total": 42.5,
+   "total": 43.5,
    "espn_wx": {
     "desc": "Partly sunny",
     "temp": 68
@@ -180,11 +180,11 @@
     "temp": 44
    },
    "wx": {
-    "wind": 7,
+    "wind": 6,
     "gust": 10,
     "pop": 0,
     "rain": 0.0,
-    "temp": 41
+    "temp": 42
    }
   },
   "JAXNYG": {
@@ -207,7 +207,7 @@
     "gust": 15,
     "pop": 16,
     "rain": 0.0,
-    "temp": 60
+    "temp": 58
    }
   },
   "MINSF": {
@@ -249,13 +249,28 @@
  "inj": {
   "ARI": [
    {
-    "name": "Carson Beck",
-    "pos": "QB",
+    "name": "Starling Thomas V",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Kingsley Eguakun",
+    "pos": "C",
     "status": "Out"
    },
    {
     "name": "Jon Gaines II",
     "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Andrew Billings",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Carson Beck",
+    "pos": "QB",
     "status": "Out"
    }
   ],
@@ -273,13 +288,33 @@
   ],
   "BAL": [
    {
-    "name": "Jaylinn Hawkins",
-    "pos": "S",
+    "name": "Elijah Sarratt",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
+    "name": "Adam Randall",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
+    "name": "Kedon Slovis",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Emery Jones Jr.",
+    "pos": "OT",
     "status": "Out"
    },
    {
     "name": "Nnamdi Madubuike",
     "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Jaylinn Hawkins",
+    "pos": "S",
     "status": "Out"
    },
    {
@@ -290,23 +325,23 @@
   ],
   "BUF": [
    {
-    "name": "Ed Oliver",
-    "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Damar Hamlin",
-    "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jackson Hawes",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
     "name": "Dorian Williams",
     "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "T.J. Sanders",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Mike Danna",
+    "pos": "DE",
+    "status": "Out"
+   },
+   {
+    "name": "Skyler Bell",
+    "pos": "WR",
     "status": "Out"
    },
    {
@@ -315,26 +350,31 @@
     "status": "Out"
    },
    {
-    "name": "Dalton Kincaid",
-    "pos": "TE",
-    "status": "Doubtful"
+    "name": "Jude Bowry",
+    "pos": "OT",
+    "status": "Out"
    },
    {
-    "name": "T.J. Sanders",
-    "pos": "DT",
-    "status": "Questionable"
+    "name": "Dalton Kincaid",
+    "pos": "TE",
+    "status": "Out"
    }
   ],
   "CAR": [
    {
-    "name": "Mike Jackson",
+    "name": "Marco Wilson",
     "pos": "CB",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
-    "name": "Tommy Tremble",
+    "name": "Ja'Tavion Sanders",
     "pos": "TE",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Haynes King",
+    "pos": "QB",
+    "status": "Out"
    },
    {
     "name": "Bobby Okereke",
@@ -342,21 +382,46 @@
     "status": "Out"
    },
    {
-    "name": "Darren Waller",
-    "pos": "TE",
-    "status": "Questionable"
+    "name": "AJ Dillon",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
+    "name": "TeRah Edwards",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Sam Hecht",
+    "pos": "C",
+    "status": "Out"
    }
   ],
   "CHI": [
    {
-    "name": "Kyler Gordon",
-    "pos": "CB",
+    "name": "Case Keenum",
+    "pos": "QB",
     "status": "Out"
    },
    {
-    "name": "Zavion Thomas",
-    "pos": "WR",
-    "status": "Questionable"
+    "name": "Jayden Loving",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Jordan McFadden",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Keyshaun Elliott",
+    "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "Kyler Gordon",
+    "pos": "CB",
+    "status": "Out"
    }
   ],
   "CIN": [
@@ -395,19 +460,9 @@
     "status": "Out"
    },
    {
-    "name": "Luke Schoonmaker",
-    "pos": "TE",
-    "status": "Questionable"
-   },
-   {
     "name": "Jonathan Mingo",
     "pos": "WR",
     "status": "Out"
-   },
-   {
-    "name": "Jaishawn Barham",
-    "pos": "LB",
-    "status": "Questionable"
    },
    {
     "name": "Jake Ferguson",
@@ -415,8 +470,18 @@
     "status": "Out"
    },
    {
+    "name": "Jaishawn Barham",
+    "pos": "LB",
+    "status": "Out"
+   },
+   {
     "name": "Tyler Booker",
     "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Jonathan Bullard",
+    "pos": "DT",
     "status": "Out"
    }
   ],
@@ -429,34 +494,34 @@
   ],
   "DET": [
    {
-    "name": "D.J. Reed",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Sione Vaki",
-    "pos": "RB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Tyler Lacy",
+    "name": "Mekhi Wingo",
     "pos": "DT",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Tyrus Wheat",
+    "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "Amen Ogbongbemiga",
+    "pos": "LB",
+    "status": "Out"
    },
    {
     "name": "Ennis Rakestraw Jr.",
     "pos": "CB",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
-    "name": "Khalil Dorsey",
+    "name": "D.J. Reed",
     "pos": "CB",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
-    "name": "Joe Bachie",
-    "pos": "LB",
-    "status": "Questionable"
+    "name": "Keith Abney II",
+    "pos": "CB",
+    "status": "Out"
    }
   ],
   "GB": [
@@ -614,13 +679,18 @@
   ],
   "KC": [
    {
-    "name": "Omarr Norman-Lott",
-    "pos": "DT",
-    "status": "Questionable"
+    "name": "Garrett Nussmeier",
+    "pos": "QB",
+    "status": "Out"
    },
    {
-    "name": "Jaylon Moore",
-    "pos": "OT",
+    "name": "Peter Woods",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Melvin Smith Jr.",
+    "pos": "CB",
     "status": "Out"
    },
    {
@@ -629,13 +699,18 @@
     "status": "Out"
    },
    {
-    "name": "Peter Woods",
-    "pos": "DT",
-    "status": "Questionable"
-   },
-   {
     "name": "Kenneth Walker III",
     "pos": "RB",
+    "status": "Out"
+   },
+   {
+    "name": "Jaylon Moore",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Omarr Norman-Lott",
+    "pos": "DT",
     "status": "Out"
    }
   ],
@@ -727,29 +802,19 @@
   ],
   "MIA": [
    {
-    "name": "Darrell Baker Jr.",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
     "name": "Jaylin Simpson",
     "pos": "S",
-    "status": "Doubtful"
-   },
-   {
-    "name": "Bradley Pinion",
-    "pos": "P",
     "status": "Out"
    },
    {
-    "name": "Aaron Brewer",
-    "pos": "C",
-    "status": "Questionable"
+    "name": "Dante Trader Jr.",
+    "pos": "S",
+    "status": "Out"
    },
    {
-    "name": "Marcellas Dial Jr.",
-    "pos": "CB",
-    "status": "Questionable"
+    "name": "Caedan Wallace",
+    "pos": "OT",
+    "status": "Out"
    },
    {
     "name": "Jared Wayne",
@@ -757,9 +822,19 @@
     "status": "Out"
    },
    {
-    "name": "Dante Trader Jr.",
-    "pos": "S",
-    "status": "Doubtful"
+    "name": "Justin Joly",
+    "pos": "TE",
+    "status": "Out"
+   },
+   {
+    "name": "Bradley Pinion",
+    "pos": "P",
+    "status": "Out"
+   },
+   {
+    "name": "Christian Haynes",
+    "pos": "G",
+    "status": "Out"
    }
   ],
   "MIN": [
@@ -828,8 +903,18 @@
   ],
   "NO": [
    {
-    "name": "Asim Richards",
-    "pos": "OT",
+    "name": "Pete Werner",
+    "pos": "LB",
+    "status": "Out"
+   },
+   {
+    "name": "Audric Estime",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
+    "name": "Zach Wilson",
+    "pos": "QB",
     "status": "Out"
    },
    {
@@ -838,7 +923,7 @@
     "status": "Out"
    },
    {
-    "name": "Taliese Fuaga",
+    "name": "Asim Richards",
     "pos": "OT",
     "status": "Out"
    },
@@ -848,14 +933,9 @@
     "status": "Out"
    },
    {
-    "name": "Pete Werner",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Decamerion Richardson",
-    "pos": "CB",
-    "status": "Questionable"
+    "name": "Taliese Fuaga",
+    "pos": "OT",
+    "status": "Out"
    }
   ],
   "NYJ": [
@@ -892,41 +972,66 @@
   ],
   "PHI": [
    {
-    "name": "Jalen Carter",
-    "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Will Shipley",
-    "pos": "RB",
-    "status": "Questionable"
-   },
-   {
     "name": "Smael Mondon Jr.",
     "pos": "LB",
-    "status": "Doubtful"
+    "status": "Out"
+   },
+   {
+    "name": "Cole Payton",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Jake Majors",
+    "pos": "C",
+    "status": "Out"
+   },
+   {
+    "name": "Mac McWilliams",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Ajani Cornelius",
+    "pos": "OT",
+    "status": "Out"
    }
   ],
   "PIT": [
    {
-    "name": "Roman Wilson",
+    "name": "Will Howard",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Gabriel Rubio",
+    "pos": "DE",
+    "status": "Out"
+   },
+   {
+    "name": "Kaden Wetjen",
     "pos": "WR",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Sean Murphy-Bunting",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Eli Heidenreich",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
+    "name": "Drew Allar",
+    "pos": "QB",
+    "status": "Out"
    },
    {
     "name": "Nick Herbig",
     "pos": "LB",
     "status": "Out"
-   },
-   {
-    "name": "DeShon Elliott",
-    "pos": "S",
-    "status": "Questionable"
-   },
-   {
-    "name": "Patrick Queen",
-    "pos": "LB",
-    "status": "Questionable"
    }
   ],
   "SF": [
@@ -1015,36 +1120,66 @@
   ],
   "TB": [
    {
-    "name": "Baker Mayfield",
-    "pos": "QB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Yaya Diaby",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
     "name": "Antoine Winfield Jr.",
     "pos": "S",
+    "status": "Out"
+   },
+   {
+    "name": "Billy Schrauth",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "Easton Stick",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Trevor Keegan",
+    "pos": "G",
+    "status": "Out"
+   },
+   {
+    "name": "DeMonte Capehart",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Ayden Garnes",
+    "pos": "CB",
     "status": "Out"
    }
   ],
   "TEN": [
    {
-    "name": "Carnell Tate",
-    "pos": "WR",
+    "name": "Tony Adams",
+    "pos": "S",
     "status": "Questionable"
    },
    {
-    "name": "Micah Robinson",
+    "name": "Nicholas Singleton",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
+    "name": "Jaylon Jones",
     "pos": "CB",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
-    "name": "Anthony Hill Jr.",
+    "name": "Jackie Marshall",
+    "pos": "DT",
+    "status": "Out"
+   },
+   {
+    "name": "Brandon Crenshaw-Dickson",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Mohamoud Diabate",
     "pos": "LB",
-    "status": "Questionable"
+    "status": "Out"
    }
   ],
   "WAS": [
@@ -1068,7 +1203,11 @@
  "news": {
   "kirk cousins": {
    "h": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
-   "t": "2026-11-22T15:49:34Z"
+   "t": "2026-11-22T16:12:17Z"
+  },
+  "baker mayfield": {
+   "h": "Sources: Bucs' Baker Mayfield has plantar fasciitis, determined to keep playing",
+   "t": "2026-11-22T16:35:18Z"
   },
   "brock purdy": {
    "h": "Best bets for Vikings-49ers: Tips, analysis and our top prop plays",
@@ -1085,181 +1224,177 @@
   "geno smith": {
    "h": "Jets QB Geno Smith (ankle) cleared to start vs. Chargers",
    "t": "2026-11-20T22:13:34Z"
-  },
-  "dalton kincaid": {
-   "h": "Bills TE Dalton Kincaid doubtful to play vs. Dolphins",
-   "t": "2026-11-20T21:49:40Z"
   }
  },
  "trend": {
   "chimere dike": {
    "rank": 1,
-   "adds": 534942
+   "adds": 561249
   },
   "adonai mitchell": {
    "rank": 2,
-   "adds": 357416
+   "adds": 371792
   },
   "justice hill": {
    "rank": 3,
-   "adds": 322263
-  },
-  "michael mayer": {
-   "rank": 4,
-   "adds": 251262
+   "adds": 342234
   },
   "dawson knox": {
+   "rank": 4,
+   "adds": 314652
+  },
+  "michael mayer": {
    "rank": 5,
-   "adds": 248298
+   "adds": 290763
   },
   "mark andrews": {
    "rank": 6,
-   "adds": 201960
+   "adds": 215694
   },
   "pat bryant": {
-   "rank": 7,
-   "adds": 199648
+   "rank": 8,
+   "adds": 205336
   },
   "kenny gainwell": {
    "rank": 10,
-   "adds": 181352
+   "adds": 195176
   },
   "roman wilson": {
    "rank": 12,
-   "adds": 160074
+   "adds": 174870
   },
   "elic ayomanor": {
    "rank": 14,
-   "adds": 136388
+   "adds": 141420
   },
   "samaje perine": {
    "rank": 15,
-   "adds": 123168
-  },
-  "jacory croskey merritt": {
-   "rank": 16,
-   "adds": 121698
-  },
-  "chris rodriguez": {
-   "rank": 17,
-   "adds": 118764
+   "adds": 131440
   },
   "darren waller": {
+   "rank": 16,
+   "adds": 128484
+  },
+  "jacory croskey merritt": {
+   "rank": 17,
+   "adds": 125244
+  },
+  "chris rodriguez": {
    "rank": 18,
-   "adds": 113148
+   "adds": 121275
   },
   "emmett johnson": {
    "rank": 19,
-   "adds": 110421
+   "adds": 114372
   },
   "ryan flournoy": {
    "rank": 20,
-   "adds": 107048
+   "adds": 110384
   },
   "brenton strange": {
    "rank": 21,
-   "adds": 101754
+   "adds": 110232
   },
   "gunnar helm": {
    "rank": 22,
-   "adds": 95662
+   "adds": 106428
   },
   "courtland sutton": {
    "rank": 23,
-   "adds": 90027
-  },
-  "caleb douglas": {
-   "rank": 24,
-   "adds": 83760
-  },
-  "mason taylor": {
-   "rank": 26,
-   "adds": 80880
+   "adds": 93933
   },
   "mike gesicki": {
+   "rank": 24,
+   "adds": 89992
+  },
+  "mason taylor": {
+   "rank": 25,
+   "adds": 89470
+  },
+  "caleb douglas": {
    "rank": 27,
-   "adds": 80620
+   "adds": 86752
   },
   "fernando mendoza": {
    "rank": 28,
-   "adds": 78360
+   "adds": 82640
   },
   "bo nix": {
    "rank": 32,
-   "adds": 72804
+   "adds": 75894
   },
   "kyle monangai": {
    "rank": 34,
-   "adds": 64692
-  },
-  "kaelon black": {
-   "rank": 35,
-   "adds": 60067
+   "adds": 66798
   },
   "keon coleman": {
+   "rank": 35,
+   "adds": 62775
+  },
+  "kaelon black": {
    "rank": 36,
-   "adds": 57681
+   "adds": 62125
   },
   "josh johnson": {
    "rank": 37,
-   "adds": 55719
-  },
-  "jordyn tyson": {
-   "rank": 38,
-   "adds": 49840
+   "adds": 57524
   },
   "treylon burks": {
-   "rank": 39,
-   "adds": 49378
+   "rank": 38,
+   "adds": 53067
   },
   "alvin kamara": {
    "rank": 40,
-   "adds": 49320
+   "adds": 52152
+  },
+  "jordyn tyson": {
+   "rank": 41,
+   "adds": 51928
   },
   "kirk cousins": {
    "rank": 42,
-   "adds": 47520
+   "adds": 49336
   },
   "jauan jennings": {
    "rank": 43,
-   "adds": 46823
+   "adds": 49203
   },
   "rico dowdle": {
    "rank": 44,
-   "adds": 44775
+   "adds": 47735
   },
   "gavin bartholomew": {
    "rank": 45,
-   "adds": 43938
-  },
-  "malik washington": {
-   "rank": 46,
-   "adds": 42064
+   "adds": 44118
   },
   "chris godwin": {
+   "rank": 46,
+   "adds": 44058
+  },
+  "malik washington": {
    "rank": 47,
-   "adds": 41604
+   "adds": 43896
   },
   "jordan mason": {
    "rank": 48,
-   "adds": 41000
+   "adds": 42325
+  },
+  "cade otton": {
+   "rank": 49,
+   "adds": 37188
   },
   "joe milton": {
-   "rank": 49,
-   "adds": 35812
-  },
-  "kenyon sadiq": {
    "rank": 50,
-   "adds": 34884
+   "adds": 37056
   }
  },
  "buzz": {},
  "sources": {
   "lines": "12 games",
   "weather": "8 outdoor games",
-  "injuries": "151 players listed",
+  "injuries": "178 players listed",
   "news": "6 players in headlines",
-  "google_news": "4 role-cut, 151 injury headlines; QB hurt: ARI, NYJ, SF, TB",
+  "google_news": "3 role-cut, 153 injury headlines; QB hurt: ARI, NYJ, SF, TB",
   "sleeper_trending": "40 board players trending",
   "reddit": "unavailable"
  },
@@ -1361,6 +1496,16 @@
    "cut": false,
    "inj": true,
    "worst": "Joe Milton III or Kayshon Boutte: Who Should I Start in Week 11? Fantasy Football"
+  },
+  "baker mayfield": {
+   "h": [
+    "Is Baker Mayfield playing today? Buccaneers injury update for Week 11",
+    "Report: Bucs QB Baker Mayfield dealing with plantar fasciitis",
+    "Baker Mayfield expected to play in Week 11"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Is Baker Mayfield playing today? Buccaneers injury update for Week 11"
   },
   "jalon daniels": {
    "h": [
@@ -2176,16 +2321,6 @@
    "inj": true,
    "worst": "Deebo Samuel Sr. or DJ Moore or DJ Moore or Nick Westbrook-Ikhine: Who Should I Start in Week 11? Fantasy Football"
   },
-  "dalton kincaid": {
-   "h": [
-    "Is Dalton Kincaid Playing Against Miami? Bills Announced Dire Update on Top TE",
-    "Final Injury Report for Dolphins-Bills: Will Dalton Kincaid Play?",
-    "Is Dalton Kincaid playing today? Latest on Bills tight end for Week 11"
-   ],
-   "cut": true,
-   "inj": true,
-   "worst": "Bills' Dalton Kincaid Doubtful for Dolphins Game"
-  },
   "sam roush": {
    "h": [
     "Colston Loveland or Sam Roush: Who Should I Start in Week 11? Fantasy Football"
@@ -2691,6 +2826,32 @@
    "inj": true,
    "worst": "Ashton Dulin or Brenton Strange: Who Should I Start in Week 11? Fantasy Football"
   },
+  "jalen nailor": {
+   "h": [
+    "Jalen Nailor Week 11 Outlook for Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jalen Nailor Week 11 Outlook for Fantasy Football (2026)"
+  },
+  "michael mayer": {
+   "h": [
+    "Gavin Bartholomew or Michael Mayer: Who Should I Start in Week 11? Fantasy Football",
+    "Josh Cuevas or Michael Mayer: Who Should I Start in Week 11? Fantasy Football",
+    "Who Should I Start for Fantasy Football Week 11? Michael Mayer, Brenton Strange, Mark Andrews, Dallas Goedert, George Kittle, Pat Freiermuth, T.J. Hockenson, Sam LaPorta, Isaiah Likely"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Gavin Bartholomew or Michael Mayer: Who Should I Start in Week 11? Fantasy Football"
+  },
+  "jack bech": {
+   "h": [
+    "Jack Bech or Keandre Lambert-Smith: Who Should I Start in Week 11? Fantasy Football"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jack Bech or Keandre Lambert-Smith: Who Should I Start in Week 11? Fantasy Football"
+  },
   "jaylen waddle": {
    "h": [
     "Is Jaylen Waddle Playing Today? (Injury Update, Betting Impact for Raiders vs. Broncos in NFL Week 11)",
@@ -2917,16 +3078,6 @@
    "cut": false,
    "inj": false,
    "worst": "C.J. Stroud Fantasy Outlook & Stats"
-  },
-  "baker mayfield": {
-   "h": [
-    "Is Baker Mayfield playing today? Buccaneers injury update for Week 11",
-    "Report: Bucs QB Baker Mayfield dealing with plantar fasciitis",
-    "Baker Mayfield expected to play in Week 11"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Is Baker Mayfield playing today? Buccaneers injury update for Week 11"
   }
  },
  "qbhurt": [
