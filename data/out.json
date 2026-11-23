@@ -360,8 +360,8 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 50,
-   "ask": 87,
-   "bid": 86,
+   "ask": 88,
+   "bid": 87,
    "vals": [
     12.0,
     75.0,
@@ -429,7 +429,7 @@
    "most": 5,
    "per": 260.1,
    "dstat": "pass yds",
-   "p": 82,
+   "p": 83,
    "roi": -5,
    "pp": 81,
    "hs": 74,
@@ -437,13 +437,13 @@
    "rks": 87,
    "vs": 45,
    "agree": 1,
-   "score": 70.3,
+   "score": 70.2,
    "flags": [],
-   "pc": 0.8244,
+   "pc": 0.8319,
    "praw": 0.829,
    "rg": "WR1",
    "est": false,
-   "mid": 86.5,
+   "mid": 87.5,
    "tk": "KXNFLRECYDS-26NOV23CINWAS-CINJCHASE1-50",
    "ev": "KXNFLRECYDS-26NOV23CINWAS",
    "ctx": 0,
@@ -711,100 +711,100 @@
    "game": "CINWAS",
    "glabel": "CIN @ WAS (Mon)",
    "day": "Mon",
-   "player": "Jayden Daniels",
+   "player": "Stefon Diggs",
    "team": "WAS",
    "opp": "CIN",
-   "pos": "QB",
-   "role": "QB",
-   "stat": "pass",
-   "prop": "Passing Yards",
-   "line": 150,
-   "ask": 87,
-   "bid": 86,
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 3,
+   "ask": 82,
+   "bid": 81,
    "vals": [
-    164.0,
-    96.0,
+    4.0,
+    5.0,
+    4.0,
+    5.0,
+    -1,
+    6.0,
     null,
-    null,
-    199.0,
-    300.0,
-    null,
-    217.0,
-    274.0,
-    249.0
+    3.0,
+    3.0,
+    6.0
    ],
-   "over": 6,
-   "n": 7,
-   "proj": 234.7,
+   "over": 8,
+   "n": 9,
+   "proj": 4.4,
    "al": [
     [
      1,
      "TB",
-     216.0
+     5.0
     ],
     [
      2,
      "HOU",
-     353.0
+     3.0
     ],
     [
      3,
      "PIT",
-     292.0
+     3.0
     ],
     [
      4,
      "JAX",
-     227.0
+     3.0
     ],
     [
      5,
      "MIA",
-     137.0
+     6.0
     ],
     [
      7,
      "BAL",
-     298.0
+     8.0
     ],
     [
      8,
      "TEN",
-     304.0
+     6.0
     ],
     [
      9,
      "ATL",
-     162.0
+     5.0
     ],
     [
      10,
      "PIT",
-     143.0
+     2.0
     ]
    ],
-   "dhit": 7,
+   "dhit": 8,
    "dn": 9,
    "most": 17,
    "per": 237.1,
    "dstat": "pass yds",
-   "p": 83,
+   "p": 79,
    "roi": -4,
-   "pp": 93,
-   "hs": 80,
-   "dhs": 73,
+   "pp": 81,
+   "hs": 77,
+   "dhs": 82,
    "rks": 48,
    "vs": 46,
    "agree": 1,
-   "score": 63.2,
+   "score": 59.3,
    "flags": [],
-   "pc": 0.8328,
-   "praw": 0.8416,
-   "rg": "QB",
+   "pc": 0.7893,
+   "praw": 0.8139,
+   "rg": "WR1",
    "est": false,
-   "mid": 86.5,
-   "tk": "KXNFLPASSYDS-26NOV23CINWAS-WASJDANIELS5-150",
-   "ev": "KXNFLPASSYDS-26NOV23CINWAS",
+   "mid": 81.5,
+   "tk": "KXNFLREC-26NOV23CINWAS-WASSDIGGS3-3",
+   "ev": "KXNFLREC-26NOV23CINWAS",
    "ctx": 0,
    "cxs": 50,
    "reasons": [
@@ -815,56 +815,65 @@
     [
      0.12,
      "WAS projected for 24 pts (O/U 54.5)"
+    ],
+    [
+     -0.1,
+     "CIN gives up 20% fewer catches to WR1s than average."
     ]
    ],
    "status": null,
-   "ppj": 95,
-   "pu": 92,
+   "ppj": 78,
+   "pu": 85,
    "uinfo": {
     "share": [
-     34.0,
-     17.0,
-     25.0,
-     40.0,
-     29.0,
-     35.0,
-     33.0
+     31,
+     18,
+     23,
+     26,
+     20,
+     22,
+     15,
+     30
     ],
-    "kind": "attempts",
-    "snap": 95,
+    "kind": "targets",
+    "snap": 62,
     "snaps": [
-     100,
-     100,
-     100,
-     100
+     61,
+     65,
+     61,
+     64
     ],
-    "snap_last": 100,
-    "mu": 214.5,
-    "opp": 31.0,
+    "snap_last": 64,
+    "mu": 5.0,
+    "opp": 7.1,
     "note": ""
    },
-   "po": 6,
-   "pn": 7,
-   "pid": "11566",
+   "po": 16,
+   "pn": 17,
+   "pid": "2449",
    "sx": 0.47,
    "sxs": 74,
-   "mx": 0.06,
-   "mxs": 53,
-   "env": 0.33,
-   "dfac": 0.0,
-   "dfs": 50,
+   "mx": -0.2,
+   "mxs": 40,
+   "env": 0.16,
+   "dfac": 0.3,
+   "dfs": 65,
    "off": -0.07,
    "ofs": 46,
-   "cu": 82,
-   "avgm": 64.1,
+   "cu": 70,
+   "avgm": 1.0,
    "qf": 0.0,
    "qfs": 50,
    "qnote": "",
-   "qinfo": null,
-   "risk": 0,
+   "qinfo": {
+    "qb": "Jayden Daniels",
+    "same": true,
+    "n": 7
+   },
+   "risk": 1,
    "tpts": 24.2,
    "rank": 5,
-   "why": "Cleared 150+ in 6 of 7 games, by +64 on average (6 of 7 last season), Sleeper projects 234.7, CIN let 7 of 9 QBs reach it. WAS a 6-pt underdog, trailing teams throw more. WAS projected for 24 pts (O/U 54.5).",
+   "why": "Cleared 3+ in 8 of 9 games, by +1 on average (16 of 17 last season), Sleeper projects 4.4, CIN let 8 of 9 WR1s reach it. WAS a 6-pt underdog, trailing teams throw more. WAS projected for 24 pts (O/U 54.5). Watch: CIN gives up 20% fewer catches to WR1s than average..",
    "news": ""
   },
   {
@@ -1223,7 +1232,7 @@
    "stat": "pass",
    "prop": "Passing Yards",
    "line": 225,
-   "ask": 88,
+   "ask": 87,
    "bid": 86,
    "vals": [
     254.0,
@@ -1292,7 +1301,7 @@
    "most": 5,
    "per": 260.1,
    "dstat": "pass yds",
-   "p": 83,
+   "p": 82,
    "roi": -6,
    "pp": 88,
    "hs": 76,
@@ -1300,13 +1309,13 @@
    "rks": 87,
    "vs": 44,
    "agree": 1,
-   "score": 49.9,
+   "score": 50.0,
    "flags": [],
-   "pc": 0.8262,
+   "pc": 0.8216,
    "praw": 0.8,
    "rg": "QB",
    "est": false,
-   "mid": 87.0,
+   "mid": 86.5,
    "tk": "KXNFLPASSYDS-26NOV23CINWAS-CINJBURROW9-225",
    "ev": "KXNFLPASSYDS-26NOV23CINWAS",
    "ctx": 0,
@@ -1780,11 +1789,11 @@
     "id": "11566",
     "lam": 0.22,
     "pm": 0.196,
-    "p": 0.513,
-    "q": 83.0,
-    "ask": 84,
-    "tk": "KXNFLPASSTDS-26NOV23CINWAS-WASJDANIELS5-1",
-    "ev": "KXNFLPASSTDS-26NOV23CINWAS",
+    "p": 0.525,
+    "q": 85.5,
+    "ask": 88,
+    "tk": "KXNFLPASSTDSPROT-26NOV23CINWAS-WASJDANIELS5-1",
+    "ev": "KXNFLPASSTDSPROT-26NOV23CINWAS",
     "tds": 2.0,
     "n": 7,
     "games_td": 1,
@@ -1814,14 +1823,14 @@
     "dfac": 0.95,
     "debt": -0.7,
     "hist": true,
-    "inj": null,
-    "news": null,
+    "inj": "News",
+    "news": "Carhartt Skilled Trades NFL Week 11: Caleb Williams or Jayden Daniels? Stream of Fantasy Football",
     "prop": {
      "pr": "Passing Yards",
      "ln": 150,
      "p": 0.833,
      "ask": 87,
-     "sc": 63.2
+     "sc": 55.7
     },
     "tags": [
      "Shootout script"
@@ -1833,7 +1842,8 @@
      "11% red-zone role, 4.8% TD rate, 6 touches a game.",
      "2.0 TDs in 7 games, scored in 1 (2.0 in 7 last season).",
      "WAS projected for 24 pts (O/U 54.5, 6-pt underdog).",
-     "Kalshi 83\u00a2 vs model 20%."
+     "Injury news: Carhartt Skilled Trades NFL Week 11: Caleb Williams or Jayden Daniels? Stream of Fantasy Football",
+     "Kalshi 86\u00a2 vs model 20%."
     ]
    },
    {
@@ -1888,9 +1898,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 50,
-     "p": 0.824,
-     "ask": 87,
-     "sc": 70.3
+     "p": 0.832,
+     "ask": 88,
+     "sc": 70.2
     },
     "tags": [
      "RZ share top-10",
@@ -1956,7 +1966,7 @@
     "debt": -0.0,
     "hist": true,
     "inj": "News",
-    "news": "Samaje Perine Fantasy Football Start or Sit Advice for Week 11",
+    "news": "Samaje Perine or Ted Hurstiii: Who Should I Pick Up? Fantasy Football (2026)",
     "prop": {
      "pr": "Rushing Yards",
      "ln": 10,
@@ -1978,7 +1988,7 @@
      "18% red-zone role, 5% target share, 4.5% TD rate, 7.4 touches a game.",
      "3.0 TDs in 9 games, scored in 3 (3.0 in 15 last season).",
      "CIN projected for 30 pts (O/U 54.5, favored by 6).",
-     "Injury news: Samaje Perine Fantasy Football Start or Sit Advice for Week 11"
+     "Injury news: Samaje Perine or Ted Hurstiii: Who Should I Pick Up? Fantasy Football (2026)"
     ]
    },
    {
@@ -2444,8 +2454,8 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.758,
-     "ask": 79,
+     "p": 0.762,
+     "ask": 80,
      "sc": 41.1
     },
     "tags": [
@@ -2919,7 +2929,7 @@
   ],
   "parlays": {
    "safe": [
-    "jayden daniels"
+    "jamarr chase"
    ],
    "code": [
     "jamarr chase"
@@ -4630,7 +4640,7 @@
    9,
    10
   ],
-  "generated": "2026-11-22T22:30:31-08:00",
+  "generated": "2026-11-22T23:00:32-08:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 11 \u00b7 Mon Nov 23",
@@ -4639,7 +4649,7 @@
   ],
   "ctx_sources": {
    "lines": "1 games",
-   "weather": "1 outdoor games",
+   "weather": "0 outdoor games",
    "injuries": "223 players listed",
    "news": "0 players in headlines",
    "google_news": "1 role-cut, 23 injury headlines; QB hurt: JAX, KC, LAC",
