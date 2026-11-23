@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T00:01:01+00:00",
+ "generated": "2026-11-23T00:30:58+00:00",
  "games": {
   "LVDEN": {
    "home": "DEN",
@@ -11,7 +11,7 @@
    "total": null,
    "espn_wx": {
     "desc": "38",
-    "temp": 38
+    "temp": 37
    },
    "wx": {
     "wind": 7,
@@ -40,15 +40,6 @@
     "rain": 0.0,
     "temp": 60
    }
-  },
-  "NYJLAC": {
-   "home": "LAC",
-   "away": "NYJ",
-   "kick": "2026-11-22T21:05Z",
-   "indoor": true,
-   "neutral": false,
-   "spread": {},
-   "total": null
   },
   "MINSF": {
    "home": "SF",
@@ -557,6 +548,11 @@
   ],
   "JAX": [
    {
+    "name": "Walker Little",
+    "pos": "OT",
+    "status": "Questionable"
+   },
+   {
     "name": "Jarrian Jones",
     "pos": "CB",
     "status": "Questionable"
@@ -735,9 +731,14 @@
   ],
   "LAR": [
    {
-    "name": "Steve Avila",
-    "pos": "G",
-    "status": "Out"
+    "name": "Myles Garrett",
+    "pos": "DE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Kam Curl",
+    "pos": "S",
+    "status": "Questionable"
    },
    {
     "name": "Kyren Williams",
@@ -745,8 +746,8 @@
     "status": "Questionable"
    },
    {
-    "name": "Joe Cardona",
-    "pos": "LS",
+    "name": "Steve Avila",
+    "pos": "G",
     "status": "Out"
    },
    {
@@ -799,19 +800,24 @@
   ],
   "MIN": [
    {
+    "name": "Jay Ward",
+    "pos": "S",
+    "status": "Out"
+   },
+   {
     "name": "Isaiah Rodgers",
     "pos": "CB",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Max Brosmer",
+    "pos": "QB",
+    "status": "Out"
    },
    {
     "name": "Kyler Murray",
     "pos": "QB",
     "status": "Out"
-   },
-   {
-    "name": "Jay Ward",
-    "pos": "S",
-    "status": "Questionable"
    },
    {
     "name": "Jordan Addison",
@@ -1063,44 +1069,34 @@
   ],
   "SF": [
    {
-    "name": "Mike Evans",
+    "name": "Demarcus Robinson",
     "pos": "WR",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Kurtis Rourke",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Khalid Kareem",
+    "pos": "DE",
+    "status": "Out"
+   },
+   {
+    "name": "Enrique Cruz Jr.",
+    "pos": "OT",
+    "status": "Out"
    },
    {
     "name": "Dre Greenlaw",
     "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Jordan James",
-    "pos": "RB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Mac Jones",
-    "pos": "QB",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
     "name": "Isaac Guerendo",
     "pos": "RB",
     "status": "Out"
-   },
-   {
-    "name": "Upton Stout",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Khalid Kareem",
-    "pos": "DE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Luke Gifford",
-    "pos": "LB",
-    "status": "Questionable"
    },
    {
     "name": "Brandon Aiyuk",
@@ -1252,186 +1248,173 @@
    }
   ]
  },
- "news": {
-  "kirk cousins": {
-   "h": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
-   "t": "2026-11-22T16:12:17Z"
-  },
-  "brock purdy": {
-   "h": "Best bets for Vikings-49ers: Tips, analysis and our top prop plays",
-   "t": "2026-11-22T11:32:20Z"
-  }
- },
+ "news": {},
  "trend": {
   "michael mayer": {
    "rank": 1,
-   "adds": 876492
+   "adds": 877104
   },
   "chimere dike": {
    "rank": 2,
-   "adds": 556776
+   "adds": 560772
   },
   "dawson knox": {
    "rank": 3,
-   "adds": 481158
+   "adds": 481716
   },
   "justice hill": {
    "rank": 4,
-   "adds": 436482
+   "adds": 444033
   },
   "adonai mitchell": {
    "rank": 5,
-   "adds": 411240
+   "adds": 411544
   },
   "kenny gainwell": {
    "rank": 6,
-   "adds": 232192
+   "adds": 233120
   },
   "roman wilson": {
    "rank": 7,
-   "adds": 230409
+   "adds": 231651
   },
   "mason taylor": {
    "rank": 8,
-   "adds": 226890
+   "adds": 226925
   },
   "pat bryant": {
    "rank": 10,
-   "adds": 212520
+   "adds": 212776
   },
   "mark andrews": {
    "rank": 11,
-   "adds": 200844
+   "adds": 200961
   },
   "darren waller": {
    "rank": 14,
-   "adds": 178587
+   "adds": 179109
   },
   "samaje perine": {
    "rank": 15,
-   "adds": 174576
+   "adds": 176868
   },
   "mike gesicki": {
    "rank": 17,
-   "adds": 153588
+   "adds": 154560
   },
   "brenton strange": {
    "rank": 18,
-   "adds": 150012
+   "adds": 150255
   },
   "jacory croskey merritt": {
    "rank": 19,
-   "adds": 124578
+   "adds": 125883
   },
   "elic ayomanor": {
    "rank": 20,
-   "adds": 121512
+   "adds": 121644
   },
   "gunnar helm": {
    "rank": 21,
-   "adds": 120631
-  },
-  "emmett johnson": {
-   "rank": 22,
-   "adds": 114480
+   "adds": 120680
   },
   "fernando mendoza": {
+   "rank": 22,
+   "adds": 118984
+  },
+  "emmett johnson": {
    "rank": 23,
-   "adds": 113504
+   "adds": 115074
   },
   "courtland sutton": {
    "rank": 24,
-   "adds": 112725
+   "adds": 112887
+  },
+  "treylon burks": {
+   "rank": 26,
+   "adds": 104867
   },
   "evan engram": {
    "rank": 27,
-   "adds": 100160
-  },
-  "treylon burks": {
-   "rank": 28,
-   "adds": 99848
+   "adds": 103648
   },
   "ryan flournoy": {
    "rank": 30,
-   "adds": 93096
+   "adds": 93144
   },
   "chris rodriguez": {
    "rank": 32,
-   "adds": 88857
+   "adds": 89073
   },
   "bo nix": {
    "rank": 33,
-   "adds": 84186
+   "adds": 84366
   },
   "caleb douglas": {
    "rank": 34,
-   "adds": 82568
+   "adds": 82800
   },
   "kenyon sadiq": {
    "rank": 35,
-   "adds": 81486
+   "adds": 81621
   },
   "keon coleman": {
-   "rank": 37,
-   "adds": 75834
+   "rank": 36,
+   "adds": 76284
   },
   "kaelon black": {
    "rank": 38,
-   "adds": 66073
+   "adds": 67333
   },
   "jauan jennings": {
    "rank": 39,
-   "adds": 63525
-  },
-  "kyle monangai": {
-   "rank": 40,
-   "adds": 56418
+   "adds": 65492
   },
   "kirk cousins": {
+   "rank": 40,
+   "adds": 56672
+  },
+  "kyle monangai": {
    "rank": 41,
-   "adds": 55712
+   "adds": 56532
   },
   "alvin kamara": {
    "rank": 42,
-   "adds": 54272
+   "adds": 54648
   },
   "rico dowdle": {
    "rank": 44,
-   "adds": 52325
+   "adds": 52390
   },
   "khalil shakir": {
    "rank": 45,
-   "adds": 50112
+   "adds": 51507
   },
   "jordyn tyson": {
    "rank": 46,
-   "adds": 49920
+   "adds": 50000
   },
   "quentin johnston": {
    "rank": 47,
-   "adds": 48328
+   "adds": 48356
   },
   "josh johnson": {
    "rank": 48,
-   "adds": 48013
+   "adds": 48059
   },
   "tre tucker": {
    "rank": 49,
-   "adds": 46734
-  },
-  "chris godwin": {
-   "rank": 50,
-   "adds": 45006
+   "adds": 47166
   }
  },
  "buzz": {},
  "sources": {
   "lines": "2 games",
   "weather": "3 outdoor games",
-  "injuries": "220 players listed",
-  "news": "2 players in headlines",
-  "google_news": "4 role-cut, 58 injury headlines; QB hurt: JAX",
-  "sleeper_trending": "40 board players trending",
+  "injuries": "221 players listed",
+  "news": "0 players in headlines",
+  "google_news": "5 role-cut, 47 injury headlines; QB hurt: JAX",
+  "sleeper_trending": "39 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
@@ -1653,134 +1636,6 @@
    "inj": true,
    "worst": "Chase Brown Week 11 Outlook for Fantasy Football (2026)"
   },
-  "garrett wilson": {
-   "h": [
-    "Cimini Warns Jets Losses Could Drive Garrett Wilson to Seek Trade",
-    "Cimini Warns Jets Losses Could Drive Garrett Wilson to Seek Trade",
-    "Jets Losing Streak Raises Garrett Wilson Trade Concerns"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Cimini Warns Jets Losses Could Drive Garrett Wilson to Seek Trade"
-  },
-  "breece hall": {
-   "h": [
-    "Geno Smith finds Breece Hall for seven-yard TD, giving Jets lead over Chargers | NFL Highlights",
-    "Breece Hall Fantasy Outlook & Stats",
-    "Breece Hall Sit Start Fantasy Football Advice Week 11 (2026) - NFL News"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Breece Hall Sit Start Fantasy Football Advice Week 11 (2026) - NFL News"
-  },
-  "kimani vidal": {
-   "h": [
-    "Drew Sample or Kimani Vidal: Who Should I Start in Week 11? Fantasy Football",
-    "Kimani Vidal or Sam Roush: Who Should I Start in Week 11? Fantasy Football",
-    "Caleb Douglas or Kimani Vidal: Who Should I Start in Week 11? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Drew Sample or Kimani Vidal: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "braelon allen": {
-   "h": [
-    "Puka Nacua or Braelon Allen",
-    "Adam Randall or Braelon Allen: Who Should I Start in Week 11? Fantasy Football",
-    "Braelon Allen or Saquon Barkley"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Adam Randall or Braelon Allen: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "david njoku": {
-   "h": [
-    "David Njoku Back in action Sunday",
-    "Chargers' David Njoku: Back in action Sunday",
-    "Chargers\u2019 Keaton Mitchell, David Njoku Suffer Injuries vs. Jets"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Chargers\u2019 Keaton Mitchell, David Njoku Suffer Injuries vs. Jets"
-  },
-  "ladd mcconkey": {
-   "h": [
-    "Justin Herbert locates Ladd McConkey for his second TD late in the fourth",
-    "Herbert locates McConkey for WR's first TD since Week 1 of 2026",
-    "Justin Herbert connects with Ladd McConkey for 11-yard TD, trimming Chargers' deficit vs Jets | NFL Highlights"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Justin Herbert locates Ladd McConkey for his second TD late in the fourth"
-  },
-  "charlie kolar": {
-   "h": [
-    "Charlie Kolar Gets past concussion",
-    "Charlie Kolar Active",
-    "Charlie Kolar Week 11 Preview vs. the Jets"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Charlie Kolar Gets past concussion"
-  },
-  "oronde gadsden": {
-   "h": [
-    "Cam Grandy or Oronde Gadsden: Who Should I Start in Week 11? Fantasy Football",
-    "Oronde Gadsden Week 11 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Cam Grandy or Oronde Gadsden: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "keaton mitchell": {
-   "h": [
-    "Keaton Mitchell Questionable to Return With Knee Injury - NFL News | Fantasy Football",
-    "Keaton Mitchell Sidelined with knee injury",
-    "Keaton Mitchell Returns to Week 11 game"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Keaton Mitchell Questionable to Return With Knee Injury - NFL News | Fantasy Football"
-  },
-  "quentin johnston": {
-   "h": [
-    "Myles Price or Quentin Johnston: Who Should I Start in Week 11? Fantasy Football",
-    "Quentin Johnston Week 11 Preview vs. the Jets",
-    "Quentin Johnston Week 11 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Myles Price or Quentin Johnston: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "tre harris": {
-   "h": [
-    "Harrison Wallace III or Tre' Harris: Who Should I Start in Week 11? Fantasy Football",
-    "NFL DFS Value Plays For Week 11: Emmett Johnson, Tre Harris & More",
-    "Despite a Tough Season, Tre Harris Has Shown Plenty of Potential"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Harrison Wallace III or Tre' Harris: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "mason taylor": {
-   "h": [
-    "Mason Taylor or Rachaad White: Who Should I Start in Week 11? Fantasy Football",
-    "Mason Taylor Week 11 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Mason Taylor or Rachaad White: Who Should I Start in Week 11? Fantasy Football"
-  },
-  "adonai mitchell": {
-   "h": [
-    "Adonai Mitchell or Caleb Williams",
-    "Adonai Mitchell Fantasy Football Start or Sit Advice for Week 11",
-    "Adonai Mitchell Sit Start Fantasy Football Advice Week 11 (2026) - NFL News"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Adonai Mitchell Fantasy Football Start or Sit Advice for Week 11"
-  },
   "malachi fields": {
    "h": [
     "Colston Loveland Outranks Malachi Fields in Week 11 Fantasy Rankings",
@@ -1877,6 +1732,34 @@
    "inj": true,
    "worst": "Ashton Dulin or Brenton Strange: Who Should I Start in Week 11? Fantasy Football"
   },
+  "jack bech": {
+   "h": [
+    "Jack Bech Faces Broncos Defense in Raiders Divisional Matchup",
+    "Jack Bech Faces Broncos Defense in Raiders Week 11 Matchup",
+    "Mendoza's tight-window dart to Jack Bech yields first-down access against Broncos"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Jack Bech or Keandre Lambert-Smith: Who Should I Start in Week 11? Fantasy Football"
+  },
+  "michael mayer": {
+   "h": [
+    "Raiders Expand Michael Mayer Role With Brock Bowers Out",
+    "Michael Mayer Gains Raiders Role With Brock Bowers Out",
+    "Michael Mayer Added opportunities with Bowers out"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Raiders Expand Michael Mayer Role With Brock Bowers Out"
+  },
+  "evan engram": {
+   "h": [
+    "Evan Engram Week 11 Outlook for Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Evan Engram Week 11 Outlook for Fantasy Football (2026)"
+  },
   "marvin mims": {
    "h": [
     "Jonathon Brooks or Marvin Mims Jr.: Who Should I Start in Week 11? Fantasy Football"
@@ -1904,26 +1787,6 @@
    "inj": true,
    "worst": "Jalen Nailor Week 11 Outlook for Fantasy Football (2026)"
   },
-  "michael mayer": {
-   "h": [
-    "Raiders Expand Michael Mayer Role With Brock Bowers Out",
-    "Michael Mayer Gains Raiders Role With Brock Bowers Out",
-    "Michael Mayer Added opportunities with Bowers out"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Raiders Expand Michael Mayer Role With Brock Bowers Out"
-  },
-  "jack bech": {
-   "h": [
-    "Jack Bech Faces Broncos Defense in Raiders Divisional Matchup",
-    "Jack Bech Faces Broncos Defense in Raiders Week 11 Matchup",
-    "Mendoza's tight-window dart to Jack Bech yields first-down access against Broncos"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jack Bech or Keandre Lambert-Smith: Who Should I Start in Week 11? Fantasy Football"
-  },
   "jaylen waddle": {
    "h": [
     "Denver Broncos wide receiver Jaylen Waddle corkscrews into Raider territory on 24-yard reception",
@@ -1934,13 +1797,15 @@
    "inj": true,
    "worst": "Final Injury Report for Raiders-Broncos: Will Jaylen Waddle, Brock Bowers Play?"
   },
-  "evan engram": {
+  "mike evans": {
    "h": [
-    "Evan Engram Week 11 Outlook for Fantasy Football (2026)"
+    "Sunday Night Football: Mike Evans active, Dre Greenlaw inactive for 49ers-Vikings",
+    "Mike Evans Back in action in Week 11",
+    "Mike Evans officially active for SNF in Mexico"
    ],
-   "cut": false,
-   "inj": true,
-   "worst": "Evan Engram Week 11 Outlook for Fantasy Football (2026)"
+   "cut": true,
+   "inj": false,
+   "worst": "Sunday Night Football: Mike Evans active, Dre Greenlaw inactive for 49ers-Vikings"
   },
   "jordan watkins": {
    "h": [
