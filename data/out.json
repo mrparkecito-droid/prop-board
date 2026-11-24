@@ -886,7 +886,7 @@
    "prop": "Receiving Yards",
    "line": 50,
    "ask": 85,
-   "bid": 82,
+   "bid": 83,
    "vals": [
     44.0,
     153.0,
@@ -968,13 +968,13 @@
    "rks": 52,
    "vs": 44,
    "agree": 2,
-   "score": 62.8,
+   "score": 62.9,
    "flags": [],
-   "pc": 0.7956,
+   "pc": 0.7986,
    "praw": 0.8563,
    "rg": "WR1",
    "est": false,
-   "mid": 83.5,
+   "mid": 84.0,
    "tk": "KXNFLRECYDS-26NOV26PHIDAL-DALCLAMB88-50",
    "ev": "KXNFLRECYDS-26NOV26PHIDAL",
    "ctx": 0,
@@ -1944,6 +1944,176 @@
    "game": "PHIDAL",
    "glabel": "PHI @ DAL (Thu)",
    "day": "Thu",
+   "player": "Javonte Williams",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "RB",
+   "role": "RB1",
+   "stat": "rush",
+   "prop": "Rushing Yards",
+   "line": 40,
+   "ask": 88,
+   "bid": 86,
+   "vals": [
+    41.0,
+    30.0,
+    98.0,
+    62.0,
+    45.0,
+    41.0,
+    155.0,
+    56.0,
+    101.0,
+    63.0,
+    67.0
+   ],
+   "over": 10,
+   "n": 11,
+   "proj": 74.1,
+   "al": [
+    [
+     1,
+     "WAS",
+     63.0
+    ],
+    [
+     2,
+     "TEN",
+     64.0
+    ],
+    [
+     3,
+     "CHI",
+     84.0
+    ],
+    [
+     4,
+     "LAR",
+     80.0
+    ],
+    [
+     5,
+     "JAX",
+     72.0
+    ],
+    [
+     6,
+     "CAR",
+     120.0
+    ],
+    [
+     7,
+     "DAL",
+     155.0
+    ],
+    [
+     8,
+     "WAS",
+     55.0
+    ],
+    [
+     9,
+     "NYG",
+     31.0
+    ],
+    [
+     11,
+     "PIT",
+     28.0
+    ]
+   ],
+   "dhit": 8,
+   "dn": 10,
+   "most": 12,
+   "per": 120.8,
+   "dstat": "rush yds",
+   "p": 83,
+   "roi": -6,
+   "pp": 80,
+   "hs": 81,
+   "dhs": 75,
+   "rks": 65,
+   "vs": 44,
+   "agree": 1,
+   "score": 55.6,
+   "flags": [],
+   "pc": 0.8263,
+   "praw": 0.8213,
+   "rg": "RB1",
+   "est": false,
+   "mid": 87.0,
+   "tk": "KXNFLRSHYDS-26NOV26PHIDAL-DALJWILLIAMS33-40",
+   "ev": "KXNFLRSHYDS-26NOV26PHIDAL",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.79,
+     "DAL favored by 8.5, should run a lot with a lead"
+    ],
+    [
+     0.39,
+     "DAL projected for 28 pts (O/U 47.5)"
+    ]
+   ],
+   "status": null,
+   "ppj": 80,
+   "pu": 81,
+   "uinfo": {
+    "share": [
+     67,
+     57,
+     63,
+     76,
+     92,
+     73,
+     66,
+     62,
+     59,
+     67,
+     60
+    ],
+    "kind": "carries",
+    "snap": 73,
+    "snaps": [
+     74,
+     72,
+     70,
+     66
+    ],
+    "snap_last": 66,
+    "mu": 75.7,
+    "opp": 17.5,
+    "note": ""
+   },
+   "po": 14,
+   "pn": 16,
+   "pid": "7588",
+   "sx": 1.0,
+   "sxs": 100,
+   "mx": 0.22,
+   "mxs": 61,
+   "env": 0.82,
+   "dfac": 0.3,
+   "dfs": 65,
+   "off": -0.08,
+   "ofs": 46,
+   "cu": 77,
+   "avgm": 29.0,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": null,
+   "risk": 0,
+   "tpts": 28.0,
+   "rank": 12,
+   "why": "Cleared 40+ in 10 of 11 games, by +29 on average (14 of 16 last season), Sleeper projects 74.1, PHI let 8 of 10 lead RBs reach it. DAL favored by 8.5, should run a lot with a lead. DAL projected for 28 pts (O/U 47.5).",
+   "news": ""
+  },
+  {
+   "game": "PHIDAL",
+   "glabel": "PHI @ DAL (Thu)",
+   "day": "Thu",
    "player": "Makai Lemon",
    "team": "PHI",
    "opp": "DAL",
@@ -2130,7 +2300,7 @@
    },
    "risk": 1,
    "tpts": 19.5,
-   "rank": 12,
+   "rank": 13,
    "why": "Cleared 10+ in 8 of 10 games, by +22 on average, Sleeper projects 37.2, DAL let 11 of 11 WR2s reach it, DAL allows the 6th most pass yds. QB change: Joe Milton starts (Jalen Hurts isn't projected to start). With him: cleared 10+ in 1 of 2 (61, 3). With Milton: 21% of targets, about the same as with Hurts (18%). PHI a 8.5-pt underdog, trailing teams throw more. Watch: PHI's offense ranks 26th in passing (188 yds a game).; PHI projected for only 20 pts (O/U 47.5).",
    "news": ""
   },
@@ -2289,7 +2459,7 @@
    },
    "risk": 1,
    "tpts": 22.2,
-   "rank": 13,
+   "rank": 14,
    "why": "Cleared 2+ in 10 of 10 games, by +2 on average (15 of 16 last season), Sleeper projects 2.8, BUF let 8 of 10 WR2s reach it. Watch: Only 24% of snaps last game..",
    "news": ""
   },
@@ -2449,7 +2619,7 @@
    "qinfo": null,
    "risk": 0,
    "tpts": 22.2,
-   "rank": 14,
+   "rank": 15,
    "why": "Cleared 175+ in 9 of 10 games, by +96 on average (13 of 14 last season), Sleeper projects 246.4, BUF let 6 of 10 QBs reach it.",
    "news": ""
   },
@@ -2465,7 +2635,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 20,
-   "ask": 85,
+   "ask": 84,
    "bid": 81,
    "vals": [
     71.0,
@@ -2541,20 +2711,20 @@
    "per": 240.9,
    "dstat": "pass yds",
    "p": 80,
-   "roi": -6,
+   "roi": -5,
    "pp": 87,
    "hs": 87,
    "dhs": 67,
    "rks": 61,
-   "vs": 44,
+   "vs": 45,
    "agree": 1,
    "score": 53.1,
    "flags": [],
-   "pc": 0.8004,
+   "pc": 0.7959,
    "praw": 0.8236,
    "rg": "TE",
    "est": false,
-   "mid": 83.0,
+   "mid": 82.5,
    "tk": "KXNFLRECYDS-26NOV26KCBUF-KCTKELCE87-20",
    "ev": "KXNFLRECYDS-26NOV26KCBUF",
    "ctx": 0,
@@ -2613,7 +2783,7 @@
    },
    "risk": 0,
    "tpts": 22.2,
-   "rank": 15,
+   "rank": 16,
    "why": "Cleared 20+ in 9 of 10 games, by +39 on average (14 of 17 last season), Sleeper projects 56.5, BUF let 7 of 10 TE1s reach it.",
    "news": ""
   },
@@ -2798,7 +2968,7 @@
    },
    "risk": 1,
    "tpts": 20.5,
-   "rank": 16,
+   "rank": 17,
    "why": "Cleared 40+ in 9 of 10 games, by +52 on average (8 of 10 last season), Sleeper projects 78.4, LAR let 8 of 10 WR1s reach it. GB has a top passing offense (4th, 284 yds a game).. Luke Musgrave out, more targets to go around. Watch: LAR gives up 26% fewer receiving yds to WR1s than average.; GB projected for only 20 pts (O/U 43.5).",
    "news": ""
   },
@@ -2814,7 +2984,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 10,
-   "ask": 80,
+   "ask": 81,
    "bid": 78,
    "vals": [
     0.0,
@@ -2890,20 +3060,20 @@
    "per": 251.6,
    "dstat": "pass yds",
    "p": 71,
-   "roi": -11,
+   "roi": -12,
    "pp": 91,
    "hs": 75,
    "dhs": 92,
    "rks": 81,
-   "vs": 39,
+   "vs": 38,
    "agree": 2,
-   "score": 51.4,
+   "score": 51.3,
    "flags": [],
-   "pc": 0.7097,
+   "pc": 0.7138,
    "praw": 0.8662,
    "rg": "WR2",
    "est": false,
-   "mid": 79.0,
+   "mid": 79.5,
    "tk": "KXNFLRECYDS-26NOV27DENPIT-PITGBERNARD17-10",
    "ev": "KXNFLRECYDS-26NOV27DENPIT",
    "ctx": 0,
@@ -2967,7 +3137,7 @@
    },
    "risk": 1,
    "tpts": 17.2,
-   "rank": 17,
+   "rank": 18,
    "why": "Cleared 10+ in 8 of 10 games, by +22 on average, Sleeper projects 34.2, DEN let 10 of 10 WR2s reach it, DEN allows the 7th most pass yds. His share of targets is up from 0% to 23%. Watch: PIT projected for only 17 pts (O/U 37.5).",
    "news": ""
   },
@@ -3144,7 +3314,7 @@
    },
    "risk": 1,
    "tpts": 23.0,
-   "rank": 18,
+   "rank": 19,
    "why": "Cleared 10+ in 9 of 10 games, by +20 on average (8 of 10 last season), Sleeper projects 33.2, GB let 10 of 10 TE1s reach it. His share of targets is up from 7% to 15%. LAR has a top passing offense (8th, 264 yds a game).. Watch: GB gives up 31% fewer receiving yds to TE1s than average.; Snaps falling: 83% \u2192 80% \u2192 67%..",
    "news": ""
   },
@@ -3309,7 +3479,7 @@
    "qinfo": null,
    "risk": 0,
    "tpts": 23.0,
-   "rank": 19,
+   "rank": 20,
    "why": "Cleared 175+ in 8 of 10 games, by +87 on average (16 of 17 last season), Sleeper projects 229.5, GB let 7 of 10 QBs reach it. LAR has a top passing offense (8th, 264 yds a game)..",
    "news": ""
   },
@@ -3486,7 +3656,7 @@
    },
    "risk": 1,
    "tpts": 17.2,
-   "rank": 20,
+   "rank": 21,
    "why": "Cleared 10+ in 8 of 10 games, by +33 on average (14 of 15 last season), Sleeper projects 42.6, DEN let 10 of 10 WR1s reach it, DEN allows the 7th most pass yds. His share of targets fell from 27% to 9%. Watch: PIT projected for only 17 pts (O/U 37.5); Snaps falling: 92% \u2192 82% \u2192 62%..",
    "news": "In the news: \"Steelers' Metcalf denies trying to poke DeJean in eye; WR won't be suspended\""
   },
@@ -3659,7 +3829,7 @@
    },
    "risk": 1,
    "tpts": 26.5,
-   "rank": 21,
+   "rank": 22,
    "why": "Cleared 50+ in 7 of 10 games, by +29 on average (13 of 17 last season), Sleeper projects 96.9, CHI let 9 of 10 WR1s reach it. His share of targets fell from 36% to 21%. DET has a top passing offense (6th, 272 yds a game).. DET projected for 26 pts (O/U 55.5).",
    "news": ""
   },
@@ -3836,178 +4006,8 @@
    },
    "risk": 1,
    "tpts": 25.2,
-   "rank": 22,
-   "why": "Cleared 15+ in 9 of 10 games, by +39 on average (13 of 16 last season), Sleeper projects 45.8, KC let 7 of 10 WR2s reach it. BUF has a top passing offense (10th, 253 yds a game).. BUF projected for 25 pts (O/U 47.5). Watch: KC gives up 32% fewer receiving yds to WR2s than average..",
-   "news": ""
-  },
-  {
-   "game": "PHIDAL",
-   "glabel": "PHI @ DAL (Thu)",
-   "day": "Thu",
-   "player": "Javonte Williams",
-   "team": "DAL",
-   "opp": "PHI",
-   "pos": "RB",
-   "role": "RB1",
-   "stat": "rush",
-   "prop": "Rushing Yards",
-   "line": 40,
-   "ask": 88,
-   "bid": 86,
-   "vals": [
-    41.0,
-    30.0,
-    98.0,
-    62.0,
-    45.0,
-    41.0,
-    155.0,
-    56.0,
-    101.0,
-    63.0,
-    67.0
-   ],
-   "over": 10,
-   "n": 11,
-   "proj": 74.1,
-   "al": [
-    [
-     1,
-     "WAS",
-     63.0
-    ],
-    [
-     2,
-     "TEN",
-     64.0
-    ],
-    [
-     3,
-     "CHI",
-     84.0
-    ],
-    [
-     4,
-     "LAR",
-     80.0
-    ],
-    [
-     5,
-     "JAX",
-     72.0
-    ],
-    [
-     6,
-     "CAR",
-     120.0
-    ],
-    [
-     7,
-     "DAL",
-     155.0
-    ],
-    [
-     8,
-     "WAS",
-     55.0
-    ],
-    [
-     9,
-     "NYG",
-     31.0
-    ],
-    [
-     11,
-     "PIT",
-     28.0
-    ]
-   ],
-   "dhit": 8,
-   "dn": 10,
-   "most": 12,
-   "per": 120.8,
-   "dstat": "rush yds",
-   "p": 83,
-   "roi": -6,
-   "pp": 80,
-   "hs": 81,
-   "dhs": 75,
-   "rks": 65,
-   "vs": 44,
-   "agree": 1,
-   "score": 48.9,
-   "flags": [],
-   "pc": 0.8263,
-   "praw": 0.8213,
-   "rg": "RB1",
-   "est": false,
-   "mid": 87.0,
-   "tk": "KXNFLRSHYDS-26NOV26PHIDAL-DALJWILLIAMS33-40",
-   "ev": "KXNFLRSHYDS-26NOV26PHIDAL",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     0.79,
-     "DAL favored by 8.5, should run a lot with a lead"
-    ],
-    [
-     0.39,
-     "DAL projected for 28 pts (O/U 47.5)"
-    ]
-   ],
-   "status": null,
-   "ppj": 80,
-   "pu": 81,
-   "uinfo": {
-    "share": [
-     67,
-     57,
-     63,
-     76,
-     92,
-     73,
-     66,
-     62,
-     59,
-     67,
-     60
-    ],
-    "kind": "carries",
-    "snap": 73,
-    "snaps": [
-     74,
-     72,
-     70,
-     66
-    ],
-    "snap_last": 66,
-    "mu": 75.7,
-    "opp": 17.5,
-    "note": ""
-   },
-   "po": 14,
-   "pn": 16,
-   "pid": "7588",
-   "sx": 1.0,
-   "sxs": 100,
-   "mx": 0.22,
-   "mxs": 61,
-   "env": 0.82,
-   "dfac": 0.3,
-   "dfs": 65,
-   "off": -0.08,
-   "ofs": 46,
-   "cu": 77,
-   "avgm": 29.0,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
-   "risk": 1,
-   "tpts": 28.0,
    "rank": 23,
-   "why": "Cleared 40+ in 10 of 11 games, by +29 on average (14 of 16 last season), Sleeper projects 74.1, PHI let 8 of 10 lead RBs reach it. DAL favored by 8.5, should run a lot with a lead. DAL projected for 28 pts (O/U 47.5).",
+   "why": "Cleared 15+ in 9 of 10 games, by +39 on average (13 of 16 last season), Sleeper projects 45.8, KC let 7 of 10 WR2s reach it. BUF has a top passing offense (10th, 253 yds a game).. BUF projected for 25 pts (O/U 47.5). Watch: KC gives up 32% fewer receiving yds to WR2s than average..",
    "news": ""
   },
   {
@@ -4730,7 +4730,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 10,
-   "ask": 72,
+   "ask": 71,
    "bid": 66,
    "vals": [
     18.0,
@@ -4805,21 +4805,21 @@
    "most": 7,
    "per": 251.6,
    "dstat": "pass yds",
-   "p": 63,
-   "roi": -13,
+   "p": 62,
+   "roi": -12,
    "pp": 89,
    "hs": 69,
    "dhs": 92,
    "rks": 81,
-   "vs": 37,
+   "vs": 38,
    "agree": 2,
    "score": 44.9,
    "flags": [],
-   "pc": 0.6261,
+   "pc": 0.622,
    "praw": 0.8294,
    "rg": "TE",
    "est": false,
-   "mid": 69.0,
+   "mid": 68.5,
    "tk": "KXNFLRECYDS-26NOV27DENPIT-PITDWASHINGTON80-10",
    "ev": "KXNFLRECYDS-26NOV27DENPIT",
    "ctx": 0,
@@ -5780,7 +5780,7 @@
    "prop": "Receiving Yards",
    "line": 15,
    "ask": 85,
-   "bid": 83,
+   "bid": 84,
    "vals": [
     65.0,
     15.0,
@@ -5854,21 +5854,21 @@
    "most": 31,
    "per": 197.7,
    "dstat": "pass yds",
-   "p": 77,
-   "roi": -9,
+   "p": 78,
+   "roi": -8,
    "pp": 89,
    "hs": 82,
    "dhs": 67,
    "rks": 3,
-   "vs": 41,
+   "vs": 42,
    "agree": 1,
    "score": 42.9,
    "flags": [],
-   "pc": 0.7748,
+   "pc": 0.7778,
    "praw": 0.8106,
    "rg": "TE",
    "est": false,
-   "mid": 84.0,
+   "mid": 84.5,
    "tk": "KXNFLRECYDS-26NOV25GBLAR-GBTKRAFT85-15",
    "ev": "KXNFLRECYDS-26NOV25GBLAR",
    "ctx": 0.2,
@@ -7193,14 +7193,14 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 60,
-   "ask": 49,
-   "q": 47.0,
-   "p": 0.4522,
-   "sc": 10.1,
+   "ask": 47,
+   "q": 46.0,
+   "p": 0.4428,
+   "sc": 10.2,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV26CHIDET-DETJWILLIAMS1-60",
    "ev": "KXNFLRECYDS-26NOV26CHIDET",
-   "wy": "Cleared 60+ in 4 of 10 games, by +1 on average (10 of 17 last season), Sleeper projects 70.3, CHI let 4 of 10 WR2s reach it. His share of targets fell from 23% to 14%. DET has a top passing offense (6th, 272 yds a game).. DET projected for 26 pts (O/U 55.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 47\u00a2..",
+   "wy": "Cleared 60+ in 4 of 10 games, by +1 on average (10 of 17 last season), Sleeper projects 70.3, CHI let 4 of 10 WR2s reach it. His share of targets fell from 23% to 14%. DET has a top passing offense (6th, 272 yds a game).. DET projected for 26 pts (O/U 55.5). Watch: Injury in the news: rust/health risk, so the chance leans toward Kalshi's 46\u00a2..",
    "id": "8148",
    "cx": 0,
    "nw": "",
@@ -7543,10 +7543,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 41,
-   "q": 38.5,
-   "p": 0.3707,
-   "sc": 8.0,
+   "ask": 38,
+   "q": 37.0,
+   "p": 0.3566,
+   "sc": 8.1,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV26PHIDAL-PHIMLEMON9-40",
    "ev": "KXNFLRECYDS-26NOV26PHIDAL",
@@ -7568,9 +7568,9 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 30,
-   "ask": 54,
-   "q": 53.0,
-   "p": 0.516,
+   "ask": 53,
+   "q": 52.5,
+   "p": 0.5113,
    "sc": 18.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV26PHIDAL-PHIMLEMON9-30",
@@ -8508,14 +8508,14 @@
     "dfac": 0.92,
     "debt": -2.6,
     "hist": true,
-    "inj": "News",
-    "news": "Fantasy Football Buy Low, Sell High Week 12: Caleb Williams, Jaylen Warren, Jordan Tyson Among Trade Targets",
+    "inj": null,
+    "news": null,
     "prop": {
      "pr": "Rushing Yards",
      "ln": 40,
      "p": 0.826,
      "ask": 88,
-     "sc": 48.9
+     "sc": 55.6
     },
     "tags": [
      "Elite red zone role",
@@ -8530,8 +8530,7 @@
      "PHI has allowed 6.0 RB TDs in 10 games (28th most); 17.0 all last season (10th most).",
      "38% red-zone role, 8% target share, 5.4% TD rate, 20.1 touches a game.",
      "12.0 TDs in 11 games, scored in 8 (13.0 in 16 last season).",
-     "DAL projected for 28 pts (O/U 47.5, favored by 8.5).",
-     "Injury news: Fantasy Football Buy Low, Sell High Week 12: Caleb Williams, Jaylen Warren, Jordan Tyson Among Trade Targets"
+     "DAL projected for 28 pts (O/U 47.5, favored by 8.5)."
     ]
    },
    {
@@ -9145,9 +9144,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 50,
-     "p": 0.796,
+     "p": 0.799,
      "ask": 85,
-     "sc": 62.8
+     "sc": 62.9
     },
     "tags": [
      "RZ share top-10",
@@ -9564,8 +9563,8 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 15,
-     "p": 0.765,
-     "ask": 87,
+     "p": 0.76,
+     "ask": 86,
      "sc": 15.7
     },
     "tags": [
@@ -9907,9 +9906,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 30,
-     "p": 0.836,
-     "ask": 90,
-     "sc": 72.5
+     "p": 0.832,
+     "ask": 89,
+     "sc": 72.6
     },
     "tags": [
      "High volume"
@@ -11261,8 +11260,8 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 20,
-     "p": 0.8,
-     "ask": 85,
+     "p": 0.796,
+     "ask": 84,
      "sc": 53.1
     },
     "tags": [
@@ -11330,7 +11329,7 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 15,
-     "p": 0.775,
+     "p": 0.778,
      "ask": 85,
      "sc": 42.9
     },
@@ -11536,13 +11535,13 @@
     "debt": 1.5,
     "hist": true,
     "inj": "News",
-    "news": "Breece Hall or Germie Bernard: Who Should I Start in Week 11? Fantasy Football",
+    "news": "Breece Hall or Germie Bernard: Who Should I Start in Week 12? Fantasy Football",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.71,
-     "ask": 80,
-     "sc": 51.4
+     "p": 0.714,
+     "ask": 81,
+     "sc": 51.3
     },
     "tags": [
      "RZ share top-10",
@@ -11558,7 +11557,7 @@
      "1.0 TD in 10 games, scored in 1.",
      "Low total: PIT projected for 17 pts (O/U 37.5, 3-pt underdog).",
      "Due: 1.5 TD debt (his role says he should have scored more).",
-     "Injury news: Breece Hall or Germie Bernard: Who Should I Start in Week 11? Fantasy Football"
+     "Injury news: Breece Hall or Germie Bernard: Who Should I Start in Week 12? Fantasy Football"
     ]
    },
    {
@@ -11609,7 +11608,7 @@
     "debt": -0.1,
     "hist": true,
     "inj": "News",
-    "news": "Pittsburgh Steelers reporter claps back at DK Metcalf after tense exchange over Cooper DeJean incident",
+    "news": "Fantasy football keep, drop, trade: What to do with DK Metcalf, AJ Brown, Cam Skattebo?",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
@@ -11629,7 +11628,7 @@
      "6% red-zone role, 22% target share, 2.7% TD rate, 7.5 touches a game.",
      "2.0 TDs in 10 games, scored in 2 (7.0 in 15 last season).",
      "Low total: PIT projected for 17 pts (O/U 37.5, 3-pt underdog).",
-     "Injury news: Pittsburgh Steelers reporter claps back at DK Metcalf after tense exchange over Cooper DeJean incident"
+     "Injury news: Fantasy football keep, drop, trade: What to do with DK Metcalf, AJ Brown, Cam Skattebo?"
     ]
    },
    {
@@ -12589,7 +12588,7 @@
     "debt": -1.3,
     "hist": true,
     "inj": "News",
-    "news": "Antonio Williams or Pat Bryant: Who Should I Start in Week 11? Fantasy Football",
+    "news": "Jordan Watkins or Pat Bryant: Who Should I Start in Week 12? Fantasy Football",
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
@@ -12607,7 +12606,7 @@
      "3% red-zone role, 7% target share, 9.1% TD rate, 3.7 touches a game.",
      "2.0 TDs in 6 games, scored in 2 (1.0 in 15 last season).",
      "Low total: DEN projected for 20 pts (O/U 37.5, favored by 3).",
-     "Injury news: Antonio Williams or Pat Bryant: Who Should I Start in Week 11? Fantasy Football"
+     "Injury news: Jordan Watkins or Pat Bryant: Who Should I Start in Week 12? Fantasy Football"
     ]
    },
    {
@@ -12677,12 +12676,12 @@
   "parlays": {
    "safe": [
     "jahmyr gibbs",
-    "james cook"
+    "javonte williams"
    ],
    "code": [
     "jahmyr gibbs",
-    "james cook",
-    "blake corum"
+    "javonte williams",
+    "james cook"
    ]
   },
   "facts": {
@@ -14498,7 +14497,7 @@
    10,
    11
   ],
-  "generated": "2026-11-24T05:30:45-08:00",
+  "generated": "2026-11-24T06:00:41-08:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [
    "Some markets weren't open when this was pulled. DEN @ PIT (Fri): no priced receptions markets yet."
@@ -14516,7 +14515,7 @@
    "weather": "0 outdoor games",
    "injuries": "144 players listed",
    "news": "2 players in headlines",
-   "google_news": "1 role-cut, 55 injury headlines; QB hurt: CLE, DAL, GB, LAC, SEA",
+   "google_news": "1 role-cut, 54 injury headlines; QB hurt: CIN, CLE, DAL, GB, LAC, SEA, WAS",
    "sleeper_trending": "38 board players trending",
    "reddit": "unavailable"
   },
