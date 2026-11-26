@@ -1,33 +1,17 @@
 {
- "generated": "2026-11-26T21:31:07+00:00",
+ "generated": "2026-11-26T22:01:07+00:00",
  "games": {
-  "CHIDET": {
-   "home": "DET",
-   "away": "CHI",
-   "kick": "2026-11-26T18:00Z",
-   "indoor": true,
-   "neutral": false,
-   "spread": {},
-   "total": null,
-   "espn_wx": {
-    "desc": "18",
-    "temp": 39
-   }
-  },
   "PHIDAL": {
    "home": "DAL",
    "away": "PHI",
    "kick": "2026-11-26T21:30Z",
    "indoor": true,
    "neutral": false,
-   "spread": {
-    "DAL": -8.5,
-    "PHI": 8.5
-   },
-   "total": 49.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "1",
-    "temp": 54
+    "temp": 53
    }
   },
   "KCBUF": {
@@ -47,9 +31,9 @@
    },
    "wx": {
     "wind": 14,
-    "gust": 36,
+    "gust": 41,
     "pop": 100,
-    "rain": 17.2,
+    "rain": 12.2,
     "temp": 36
    }
   },
@@ -89,7 +73,7 @@
    "total": 49.5,
    "espn_wx": {
     "desc": "Cloudy",
-    "temp": 49
+    "temp": 48
    },
    "wx": {
     "wind": 10,
@@ -167,7 +151,7 @@
    "total": 49.5,
    "espn_wx": {
     "desc": "Partly sunny",
-    "temp": 64
+    "temp": 66
    },
    "wx": {
     "wind": 9,
@@ -190,7 +174,7 @@
    "total": 47.5,
    "espn_wx": {
     "desc": "Mostly cloudy",
-    "temp": 67
+    "temp": 66
    }
   },
   "NELAC": {
@@ -238,7 +222,7 @@
    "total": 43.5,
    "espn_wx": {
     "desc": "Cloudy",
-    "temp": 68
+    "temp": 67
    },
    "wx": {
     "wind": 10,
@@ -261,7 +245,7 @@
    "total": 40.5,
    "espn_wx": {
     "desc": "Rain",
-    "temp": 51
+    "temp": 48
    },
    "wx": {
     "wind": 11,
@@ -367,8 +351,18 @@
   ],
   "BAL": [
    {
-    "name": "Mike Green",
-    "pos": "LB",
+    "name": "Derrick Henry",
+    "pos": "RB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Olaivavega Ioane",
+    "pos": "G",
+    "status": "Questionable"
+   },
+   {
+    "name": "Chidobe Awuzie",
+    "pos": "CB",
     "status": "Questionable"
    },
    {
@@ -379,31 +373,6 @@
    {
     "name": "Nnamdi Madubuike",
     "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Rashod Bateman",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Zay Flowers",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Aeneas Peebles",
-    "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "John Simpson",
-    "pos": "G",
-    "status": "Questionable"
-   },
-   {
-    "name": "Derrick Henry",
-    "pos": "RB",
     "status": "Questionable"
    }
   ],
@@ -436,6 +405,41 @@
   ],
   "CAR": [
    {
+    "name": "Darren Waller",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Tommy Tremble",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Jaelan Phillips",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Feleipe Franks",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Jackson Kuwatch",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Mitchell Evans",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
+    "name": "Patrick Jones II",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
     "name": "Tetairoa McMillan",
     "pos": "WR",
     "status": "Questionable"
@@ -450,7 +454,7 @@
    {
     "name": "Colston Loveland",
     "pos": "TE",
-    "status": "Out"
+    "status": "Questionable"
    },
    {
     "name": "Case Keenum",
@@ -657,6 +661,11 @@
   ],
   "HOU": [
    {
+    "name": "Dalton Schultz",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
     "name": "Sheldon Rankins",
     "pos": "DT",
     "status": "Questionable"
@@ -672,23 +681,8 @@
     "status": "Questionable"
    },
    {
-    "name": "Marvin Harrison Jr.",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
     "name": "Woody Marks",
     "pos": "RB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Logan Hall",
-    "pos": "DE",
-    "status": "Doubtful"
-   },
-   {
-    "name": "Jake Hummel",
-    "pos": "LB",
     "status": "Questionable"
    },
    {
@@ -832,6 +826,11 @@
   ],
   "LAC": [
    {
+    "name": "David Njoku",
+    "pos": "TE",
+    "status": "Questionable"
+   },
+   {
     "name": "Justin Herbert",
     "pos": "QB",
     "status": "Questionable"
@@ -864,11 +863,6 @@
    {
     "name": "Daiyan Henley",
     "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "David Njoku",
-    "pos": "TE",
     "status": "Questionable"
    },
    {
@@ -1317,23 +1311,23 @@
   ]
  },
  "news": {
-  "colston loveland": {
-   "h": "Bears TE Colston Loveland ruled out vs. Lions with knee injury",
-   "t": "2026-11-26T19:21:06Z"
+  "michael pittman": {
+   "h": "Steelers activate Michael Pittman Jr. off IR, sign Max Hurleman to active roster",
+   "t": "2026-11-26T21:25:14Z"
   },
-  "caleb williams": {
-   "h": "How Jeffery Simmons changed the Bears' defensive identity",
-   "t": "2026-11-26T17:16:52Z"
+  "ceedee lamb": {
+   "h": "NFL Week 12 arrivals: CeeDee Lamb leads arrivals ahead of Eagles-Cowboys",
+   "t": "2026-11-26T20:21:31Z"
   },
   "mason rudolph": {
    "h": "The Steelers are turning to Mason Rudolph to salvage their season. It's not the first time",
    "t": "2026-11-26T16:11:33Z"
   },
-  "josh allen": {
+  "patrick mahomes": {
    "h": "Why Stephen A. is backing the Bills to beat the Chiefs",
    "t": "2026-11-26T16:11:54Z"
   },
-  "patrick mahomes": {
+  "josh allen": {
    "h": "Why Stephen A. is backing the Bills to beat the Chiefs",
    "t": "2026-11-26T16:11:54Z"
   },
@@ -1361,180 +1355,160 @@
  "trend": {
   "chris rodriguez": {
    "rank": 2,
-   "adds": 1444257
+   "adds": 1449162
   },
   "deshaun watson": {
    "rank": 3,
-   "adds": 794640
+   "adds": 802968
   },
   "justice hill": {
    "rank": 5,
-   "adds": 673623
+   "adds": 677232
   },
   "konata mumpfield": {
    "rank": 6,
-   "adds": 650169
+   "adds": 652572
   },
   "chimere dike": {
    "rank": 8,
-   "adds": 547884
+   "adds": 550764
   },
   "samaje perine": {
    "rank": 9,
-   "adds": 447916
+   "adds": 450676
   },
   "ted hurst": {
    "rank": 10,
-   "adds": 385692
+   "adds": 387492
   },
   "jacory croskey merritt": {
    "rank": 13,
-   "adds": 367425
+   "adds": 368667
   },
   "fernando mendoza": {
    "rank": 14,
-   "adds": 362184
+   "adds": 364640
   },
   "tai felton": {
    "rank": 15,
-   "adds": 326298
+   "adds": 327696
   },
   "mason rudolph": {
    "rank": 16,
-   "adds": 326172
+   "adds": 326874
   },
   "geno smith": {
    "rank": 17,
-   "adds": 297672
+   "adds": 301312
   },
   "dylan sampson": {
    "rank": 19,
-   "adds": 264310
+   "adds": 265685
   },
   "jack bech": {
    "rank": 20,
-   "adds": 228178
+   "adds": 228422
   },
   "evan engram": {
    "rank": 21,
-   "adds": 210024
+   "adds": 215360
   },
   "omar cooper": {
    "rank": 22,
-   "adds": 200392
+   "adds": 201640
   },
   "jj mccarthy": {
    "rank": 24,
-   "adds": 159831
+   "adds": 161583
   },
   "darren waller": {
    "rank": 25,
-   "adds": 152658
+   "adds": 155070
   },
   "kc concepcion": {
    "rank": 26,
-   "adds": 147915
+   "adds": 149067
   },
   "antonio williams": {
    "rank": 30,
-   "adds": 119381
+   "adds": 119741
   },
   "brenton strange": {
    "rank": 31,
-   "adds": 115947
+   "adds": 118287
   },
   "jakobi meyers": {
    "rank": 32,
-   "adds": 113154
+   "adds": 114018
   },
   "xavier hutchinson": {
    "rank": 33,
-   "adds": 111580
+   "adds": 112560
   },
   "blake corum": {
    "rank": 35,
-   "adds": 106152
-  },
-  "devaughn vele": {
-   "rank": 36,
-   "adds": 104559
+   "adds": 107248
   },
   "corey kiner": {
+   "rank": 36,
+   "adds": 105432
+  },
+  "devaughn vele": {
    "rank": 37,
-   "adds": 104400
+   "adds": 105091
   },
   "rhamondre stevenson": {
    "rank": 38,
-   "adds": 104319
+   "adds": 104967
   },
   "emmett johnson": {
    "rank": 39,
-   "adds": 99522
+   "adds": 100971
   },
   "kyle pitts": {
    "rank": 40,
-   "adds": 96068
+   "adds": 97482
   },
   "caleb douglas": {
    "rank": 42,
-   "adds": 94328
+   "adds": 95024
   },
   "malik washington": {
    "rank": 44,
-   "adds": 88016
+   "adds": 88872
   },
   "mack hollins": {
    "rank": 45,
-   "adds": 86676
+   "adds": 87600
   },
   "kirk cousins": {
    "rank": 46,
-   "adds": 85832
+   "adds": 86840
   },
   "travis etienne": {
    "rank": 47,
-   "adds": 84510
+   "adds": 85182
   },
   "tyler shough": {
    "rank": 48,
-   "adds": 82264
+   "adds": 83384
   },
   "cj stroud": {
-   "rank": 50,
-   "adds": 75453
+   "rank": 49,
+   "adds": 76566
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "14 games",
+  "lines": "13 games",
   "weather": "8 outdoor games",
-  "injuries": "191 players listed",
+  "injuries": "193 players listed",
   "news": "10 players in headlines",
-  "google_news": "3 role-cut, 124 injury headlines; QB hurt: LAC, SF, WAS",
+  "google_news": "2 role-cut, 113 injury headlines; QB hurt: LAC, SF, WAS",
   "sleeper_trending": "36 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
-  "jared goff": {
-   "h": [
-    "Bears Fans Question Refs Over Jared Goff Fumble Ruling That Stayed With Lions on Thanksgiving",
-    "Ben Johnson Praises Jared Goff Ahead of Bears Lions Clash",
-    "Jared Goff gets exciting recognition before Lions vs. Bears Thanksgiving game"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Bears Fans Question Refs Over Jared Goff Fumble Ruling That Stayed With Lions on Thanksgiving"
-  },
-  "caleb williams": {
-   "h": [
-    "Chicago Bears quarterback Caleb Williams calls his own number on two-point conversion run",
-    "Caleb Williams\u2019 disaster leads to wild play in Bears-Lions Thanksgiving Day NFL game",
-    "Caleb Williams on Thanksgiving: National anthem moment, nails scrutiny and contract outlook"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Chicago Bears quarterback Caleb Williams calls his own number on two-point conversion run"
-  },
   "joe milton": {
    "h": [
     "Dak Prescott Makes Odd Joe Milton Comment Before Eagles-Cowboys",
@@ -1794,54 +1768,6 @@
    "cut": false,
    "inj": false,
    "worst": "Bryce Young & Panthers On Same Page Regarding Offseason Contract Extension"
-  },
-  "jahmyr gibbs": {
-   "h": [
-    "Can't-Miss Play: 70-YARD TD! Jahmyr Gibbs sprints past Bears for huge score on Thanksgiving",
-    "One Yard Was All Jahmyr Gibbs Needed to Pass Barry Sanders",
-    "Jahmyr Gibbs up to three touchdowns, Lions up 35-24"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Can't-Miss Play: 70-YARD TD! Jahmyr Gibbs sprints past Bears for huge score on Thanksgiving"
-  },
-  "dandre swift": {
-   "h": [
-    "Bears back within 26-24 on D\u2019Andre Swift TD run",
-    "Touchdown Chicago Bears! D'Andre Swift 30 yd 23-26 Q3 3:09",
-    "D'Andre Swift Fantasy Outlook & Stats"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Bears back within 26-24 on D\u2019Andre Swift TD run"
-  },
-  "kyle monangai": {
-   "h": [
-    "Touchdown Chicago Bears! Kyle Monangai 2 yd 16-19 Q3 10:40",
-    "Bears tie Lions 10-10 on Kyle Monangai TD",
-    "Touchdown Chicago Bears! Kyle Monangai 1 yd 10-10 Q2 4:07"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Bears Prepare for Lions Clash as Monangai Returns From Injury"
-  },
-  "luther burden": {
-   "h": [
-    "Fantasy Start or Sit Week 12: Monangai, Swift, Burden, Williams, Loveland, Odunze",
-    "Who Should I Start for Week 12? Caleb Williams, Jared Goff, Jahmyr Gibbs, D'Andre Swift, Kyle Monangai, Jameson Williams, Rome Odunze, Luther Burden III, Colston Loveland, Sam LaPorta",
-    "Luther Burden III vs. Lions Week 12: Three Expectations for Bears WR at Ford Field"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Luther Burden III Week 12 Outlook for Fantasy Football (2026)"
-  },
-  "sione vaki": {
-   "h": [
-    "Brock Purdy or Sione Vaki: Who Should I Start in Week 12? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Brock Purdy or Sione Vaki: Who Should I Start in Week 12? Fantasy Football"
   },
   "jashaun corbin": {
    "h": [
@@ -2276,91 +2202,6 @@
    "cut": false,
    "inj": false,
    "worst": "Carolina Panthers head coach Dave Canales praises running back Chuba Hubbard"
-  },
-  "rome odunze": {
-   "h": [
-    "Touchdown Chicago Bears! Rome Odunze 6 yd pass from Caleb Williams 38-35 Q4 0:03",
-    "\"Gonna Be a Bloodbath\": Bears WR Rome Odunze Fires Off Warning Shots Ahead of Thanksgiving Clash Against Lions",
-    "Rome Odunze looking to feast on Lions' defense on Thanksgiving"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Rome Odunze Week 12 Outlook for Fantasy Football (2026)"
-  },
-  "sam laporta": {
-   "h": [
-    "Lions Make Sam LaPorta Announcement Hours Before Thanksgiving Game",
-    "Jared Goff's 21st TD pass of 2026 hits LaPorta to boost Lions' lead late in first half",
-    "Touchdown Detroit Lions! Sam LaPorta 11 yd pass from Jared Goff 10-19 Q2 0:06"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Final Injury Report for Bears-Lions: Will Sam LaPorta, Roschon Johnson Play?"
-  },
-  "jameson williams": {
-   "h": [
-    "\"Jameson Williams is absolutely pathetic\"\"Just lost the game\": NFL fans blast Lions WR for deflecting Jared Goff's pass, causing an INT vs Bears",
-    "Fantasy Football Week 12: Start DeVonta Smith, Sit Jameson Williams",
-    "Goff dials launch codes to Jameson Williams for 39-yard gain and near-red-zone access"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Week 12: Start DeVonta Smith, Sit Jameson Williams"
-  },
-  "amon ra st brown": {
-   "h": [
-    "Goff's tight-window dime to St. Brown goes for 17-yard gain just beyond Thieneman's reach",
-    "\u2018He\u2019s Such a Troll,\u2019 \u2018Absolutely Amazing\u2019 \u2014 NFL World Reacts to Lions WR Amon-Ra St. Brown Using Bears HC Ben Johnson\u2019s Celebration",
-    "Amon-Ra St Brown kicks off Thanksgiving with ridiculous one-handed grab, stanky leg celebration"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Goff's tight-window dime to St. Brown goes for 17-yard gain just beyond Thieneman's reach"
-  },
-  "colston loveland": {
-   "h": [
-    "Bears Hit With Major Setback as TE Colston Loveland Ruled Out After Being Carted Off Following Nasty Collision",
-    "Bears TE Colston Loveland carted off with knee injury, ruled out",
-    "Bears TE Colston Loveland carted off with knee injury against Lions"
-   ],
-   "cut": true,
-   "inj": true,
-   "worst": "Bears Hit With Major Setback as TE Colston Loveland Ruled Out After Being Carted Off Following Nasty Collision"
-  },
-  "zavion thomas": {
-   "h": [
-    "Stat Predictions for Bears vs Lions Includes a Breakout Game for Zavion Thomas",
-    "Tyrell Shavers or Zavion Thomas: Who Should I Start in Week 12? Fantasy Football",
-    "Bears WR Zavion Thomas surprised Saints with his speed"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Tyrell Shavers or Zavion Thomas: Who Should I Start in Week 12? Fantasy Football"
-  },
-  "sam roush": {
-   "h": [
-    "Sam Roush or Tyrell Shavers: Who Should I Start in Week 12? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Sam Roush or Tyrell Shavers: Who Should I Start in Week 12? Fantasy Football"
-  },
-  "isaac teslaa": {
-   "h": [
-    "Isaac TeSlaa Week 12 Outlook for Fantasy Football (2026)"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Isaac TeSlaa Week 12 Outlook for Fantasy Football (2026)"
-  },
-  "kalif raymond": {
-   "h": [
-    "Ja'Kobi Lane or Kalif Raymond: Who Should I Start in Week 12? Fantasy Football",
-    "Jashaun Corbin or Kalif Raymond: Who Should I Start in Week 12? Fantasy Football"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Ja'Kobi Lane or Kalif Raymond: Who Should I Start in Week 12? Fantasy Football"
   },
   "brevyn spann ford": {
    "h": [
@@ -3344,6 +3185,26 @@
    "cut": false,
    "inj": false,
    "worst": "Ex-Lions QB Matthew Stafford Pays Emotional Tribute to Late Martha Firestone Ford"
+  },
+  "caleb williams": {
+   "h": [
+    "Chicago Bears quarterback Caleb Williams calls his own number on two-point conversion run",
+    "Caleb Williams\u2019 disaster leads to wild play in Bears-Lions Thanksgiving Day NFL game",
+    "Caleb Williams on Thanksgiving: National anthem moment, nails scrutiny and contract outlook"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Chicago Bears quarterback Caleb Williams calls his own number on two-point conversion run"
+  },
+  "jared goff": {
+   "h": [
+    "Bears Fans Question Refs Over Jared Goff Fumble Ruling That Stayed With Lions on Thanksgiving",
+    "Ben Johnson Praises Jared Goff Ahead of Bears Lions Clash",
+    "Jared Goff gets exciting recognition before Lions vs. Bears Thanksgiving game"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Bears Fans Question Refs Over Jared Goff Fumble Ruling That Stayed With Lions on Thanksgiving"
   },
   "justin herbert": {
    "h": [
