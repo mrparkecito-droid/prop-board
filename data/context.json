@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T18:31:15+00:00",
+ "generated": "2026-11-27T19:01:07+00:00",
  "games": {
   "DENPIT": {
    "home": "PIT",
@@ -11,16 +11,16 @@
     "DEN": -4.5,
     "PIT": 4.5
    },
-   "total": 37.5,
+   "total": 36.5,
    "espn_wx": {
     "desc": "Rain",
-    "temp": 41
+    "temp": 40
    },
    "wx": {
     "wind": 12,
     "gust": 31,
     "pop": 41,
-    "rain": 0.4,
+    "rain": 1.5,
     "temp": 37
    }
   },
@@ -41,7 +41,7 @@
    },
    "wx": {
     "wind": 12,
-    "gust": 32,
+    "gust": 37,
     "pop": 100,
     "rain": 0.2,
     "temp": 54
@@ -80,7 +80,7 @@
    },
    "wx": {
     "wind": 9,
-    "gust": 10,
+    "gust": 12,
     "pop": 6,
     "rain": 0.0,
     "temp": 78
@@ -190,7 +190,7 @@
    },
    "wx": {
     "wind": 10,
-    "gust": 22,
+    "gust": 24,
     "pop": 61,
     "rain": 0.0,
     "temp": 66
@@ -213,7 +213,7 @@
    },
    "wx": {
     "wind": 13,
-    "gust": 28,
+    "gust": 33,
     "pop": 100,
     "rain": 2.0,
     "temp": 50
@@ -295,22 +295,7 @@
    {
     "name": "Jahan Dotson",
     "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "Kendal Daniels",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
-    "name": "Za'Darius Smith",
-    "pos": "DE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Cameron Thomas",
-    "pos": "DE",
-    "status": "Questionable"
+    "status": "Out"
    }
   ],
   "BAL": [
@@ -480,6 +465,11 @@
     "status": "Questionable"
    },
    {
+    "name": "Derek Barnett",
+    "pos": "DE",
+    "status": "Out"
+   },
+   {
     "name": "Quincy Williams",
     "pos": "LB",
     "status": "Questionable"
@@ -502,11 +492,6 @@
    {
     "name": "Austin Barber",
     "pos": "OT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Derek Barnett",
-    "pos": "DE",
     "status": "Questionable"
    }
   ],
@@ -549,13 +534,33 @@
   ],
   "DEN": [
    {
-    "name": "Tyler Badie",
-    "pos": "RB",
-    "status": "Questionable"
-   },
-   {
     "name": "Taylor Rapp",
     "pos": "S",
+    "status": "Out"
+   },
+   {
+    "name": "Gavin Ortega",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Kage Casey",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
+    "name": "Sam Ehlinger",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
+    "name": "Lil'Jordan Humphrey",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
+    "name": "Dallen Bentley",
+    "pos": "TE",
     "status": "Out"
    }
   ],
@@ -672,28 +677,28 @@
   ],
   "IND": [
    {
-    "name": "Charvarius Ward",
-    "pos": "CB",
-    "status": "Questionable"
+    "name": "Seth McGowan",
+    "pos": "RB",
+    "status": "Out"
    },
    {
     "name": "Jerry Tillery",
     "pos": "DT",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
     "name": "Jalen Travis",
     "pos": "OT",
-    "status": "Questionable"
+    "status": "Out"
+   },
+   {
+    "name": "Charvarius Ward",
+    "pos": "CB",
+    "status": "Out"
    },
    {
     "name": "Will Mallory",
     "pos": "TE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Seth McGowan",
-    "pos": "RB",
     "status": "Out"
    }
   ],
@@ -1158,9 +1163,34 @@
   ],
   "PIT": [
    {
+    "name": "Kaden Wetjen",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
+    "name": "Gabriel Rubio",
+    "pos": "DE",
+    "status": "Out"
+   },
+   {
+    "name": "Sean Murphy-Bunting",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Eli Heidenreich",
+    "pos": "RB",
+    "status": "Out"
+   },
+   {
+    "name": "Drew Allar",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
     "name": "Cole Holcomb",
     "pos": "LB",
-    "status": "Questionable"
+    "status": "Out"
    },
    {
     "name": "Alex Highsmith",
@@ -1335,6 +1365,10 @@
   ]
  },
  "news": {
+  "josh johnson": {
+   "h": "Cardinals to start QB Josh Johnson again with Carson Beck (back spasms) out",
+   "t": "2026-11-27T18:14:23Z"
+  },
   "jaylen waddle": {
    "h": "Best friends Pat Surtain II, Jaylen Waddle ecstatic about reuniting on Broncos",
    "t": "2026-11-27T14:58:48Z"
@@ -1351,160 +1385,160 @@
  "trend": {
   "deshaun watson": {
    "rank": 2,
-   "adds": 512928
+   "adds": 493624
   },
   "chris rodriguez": {
    "rank": 3,
-   "adds": 428886
+   "adds": 397233
   },
   "konata mumpfield": {
    "rank": 5,
-   "adds": 309447
+   "adds": 291312
   },
   "justice hill": {
    "rank": 6,
-   "adds": 302760
+   "adds": 289557
   },
   "chimere dike": {
    "rank": 8,
-   "adds": 235467
+   "adds": 224478
   },
   "geno smith": {
    "rank": 9,
-   "adds": 227032
+   "adds": 219960
   },
   "samaje perine": {
    "rank": 10,
-   "adds": 220544
+   "adds": 208104
   },
   "sam roush": {
-   "rank": 12,
-   "adds": 195034
+   "rank": 11,
+   "adds": 207207
   },
   "joe milton": {
    "rank": 13,
-   "adds": 177572
-  },
-  "fernando mendoza": {
-   "rank": 14,
-   "adds": 174576
-  },
-  "evan engram": {
-   "rank": 15,
-   "adds": 165696
+   "adds": 179160
   },
   "brian thomas": {
+   "rank": 14,
+   "adds": 169850
+  },
+  "fernando mendoza": {
+   "rank": 15,
+   "adds": 166136
+  },
+  "evan engram": {
    "rank": 16,
-   "adds": 155990
+   "adds": 163400
   },
   "jakobi meyers": {
    "rank": 17,
-   "adds": 151674
-  },
-  "ted hurst": {
-   "rank": 18,
-   "adds": 146700
+   "adds": 155478
   },
   "josh cameron": {
+   "rank": 18,
+   "adds": 148562
+  },
+  "ted hurst": {
    "rank": 19,
-   "adds": 138232
+   "adds": 138576
   },
   "jacory croskey merritt": {
    "rank": 20,
-   "adds": 130356
+   "adds": 122139
   },
   "brenton strange": {
    "rank": 21,
-   "adds": 121887
+   "adds": 121491
   },
   "dylan sampson": {
    "rank": 22,
-   "adds": 117745
+   "adds": 110980
   },
   "jj mccarthy": {
-   "rank": 24,
-   "adds": 111381
+   "rank": 23,
+   "adds": 107406
   },
   "darren waller": {
-   "rank": 25,
-   "adds": 110232
-  },
-  "mason rudolph": {
-   "rank": 28,
-   "adds": 105728
+   "rank": 24,
+   "adds": 107118
   },
   "tai felton": {
-   "rank": 29,
-   "adds": 105576
+   "rank": 28,
+   "adds": 99966
   },
-  "emmett johnson": {
-   "rank": 30,
-   "adds": 94941
+  "mason rudolph": {
+   "rank": 29,
+   "adds": 99694
   },
   "blake corum": {
-   "rank": 31,
-   "adds": 91408
+   "rank": 30,
+   "adds": 90208
   },
-  "kc concepcion": {
-   "rank": 35,
-   "adds": 76950
+  "emmett johnson": {
+   "rank": 31,
+   "adds": 88209
   },
   "xavier hutchinson": {
+   "rank": 35,
+   "adds": 74368
+  },
+  "kc concepcion": {
    "rank": 36,
-   "adds": 76349
+   "adds": 73881
   },
   "mack hollins": {
    "rank": 37,
-   "adds": 68088
+   "adds": 66429
   },
   "kirk cousins": {
    "rank": 38,
-   "adds": 67304
+   "adds": 65512
   },
   "caleb douglas": {
    "rank": 39,
-   "adds": 63976
-  },
-  "corey kiner": {
-   "rank": 40,
-   "adds": 63606
-  },
-  "malik washington": {
-   "rank": 41,
-   "adds": 63336
+   "adds": 62184
   },
   "kyle pitts": {
+   "rank": 40,
+   "adds": 61593
+  },
+  "corey kiner": {
+   "rank": 41,
+   "adds": 61056
+  },
+  "malik washington": {
    "rank": 42,
-   "adds": 63077
+   "adds": 60920
   },
   "tyler shough": {
    "rank": 43,
-   "adds": 61056
+   "adds": 58944
   },
   "cj stroud": {
    "rank": 44,
-   "adds": 54691
+   "adds": 52955
   },
   "adonai mitchell": {
    "rank": 46,
-   "adds": 52656
+   "adds": 51968
   },
   "devaughn vele": {
-   "rank": 49,
-   "adds": 50911
+   "rank": 48,
+   "adds": 48643
   },
-  "travis etienne": {
+  "sam darnold": {
    "rank": 50,
-   "adds": 48072
+   "adds": 46203
   }
  },
  "buzz": {},
  "sources": {
   "lines": "12 games",
   "weather": "7 outdoor games",
-  "injuries": "205 players listed",
-  "news": "3 players in headlines",
-  "google_news": "5 role-cut, 90 injury headlines; QB hurt: BUF, CAR, JAX, LAC, SF, TB",
+  "injuries": "211 players listed",
+  "news": "4 players in headlines",
+  "google_news": "5 role-cut, 89 injury headlines; QB hurt: BUF, CAR, JAX, LAC, SF, TB",
   "sleeper_trending": "37 board players trending",
   "reddit": "unavailable"
  },
@@ -2154,16 +2188,6 @@
    "cut": false,
    "inj": false,
    "worst": "Kyle Pitts Sr. Week 12 Outlook - Falcons at Vikings"
-  },
-  "jahan dotson": {
-   "h": [
-    "Jahan Dotson Appears to be absent again Friday",
-    "Falcons' Jahan Dotson: Appears to be absent again Friday",
-    "Jahan Dotson (hamstring) misses practice again"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Jahan Dotson (hamstring) misses practice again"
   },
   "tj hockenson": {
    "h": [
