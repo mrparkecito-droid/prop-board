@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T17:31:06+00:00",
+ "generated": "2026-11-27T18:01:09+00:00",
  "games": {
   "DENPIT": {
    "home": "PIT",
@@ -20,7 +20,7 @@
     "wind": 12,
     "gust": 31,
     "pop": 41,
-    "rain": 0.0,
+    "rain": 0.4,
     "temp": 37
    }
   },
@@ -246,6 +246,11 @@
  "inj": {
   "ARI": [
    {
+    "name": "Carson Beck",
+    "pos": "QB",
+    "status": "Out"
+   },
+   {
     "name": "Karson Sharar",
     "pos": "LB",
     "status": "Questionable"
@@ -253,11 +258,6 @@
    {
     "name": "Hunter Long",
     "pos": "TE",
-    "status": "Questionable"
-   },
-   {
-    "name": "Carson Beck",
-    "pos": "QB",
     "status": "Questionable"
    },
    {
@@ -273,13 +273,13 @@
   ],
   "ATL": [
    {
-    "name": "Kendal Daniels",
-    "pos": "LB",
+    "name": "Jahan Dotson",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
-    "name": "Jahan Dotson",
-    "pos": "WR",
+    "name": "Kendal Daniels",
+    "pos": "LB",
     "status": "Questionable"
    },
    {
@@ -1306,13 +1306,18 @@
   ],
   "TEN": [
    {
-    "name": "Dorian Mausi",
-    "pos": "LB",
-    "status": "Questionable"
-   },
-   {
     "name": "Cor'Dale Flott",
     "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Terrell Burgess",
+    "pos": "S",
+    "status": "Out"
+   },
+   {
+    "name": "Dorian Mausi",
+    "pos": "LB",
     "status": "Questionable"
    }
   ],
@@ -1351,160 +1356,160 @@
  "trend": {
   "deshaun watson": {
    "rank": 2,
-   "adds": 537344
+   "adds": 510464
   },
   "chris rodriguez": {
    "rank": 3,
-   "adds": 468468
+   "adds": 425691
   },
   "konata mumpfield": {
    "rank": 5,
-   "adds": 333324
+   "adds": 308637
   },
   "justice hill": {
    "rank": 6,
-   "adds": 322146
+   "adds": 301698
   },
   "chimere dike": {
    "rank": 8,
-   "adds": 249597
+   "adds": 233226
+  },
+  "geno smith": {
+   "rank": 9,
+   "adds": 225784
   },
   "samaje perine": {
    "rank": 10,
-   "adds": 239480
+   "adds": 219692
   },
-  "geno smith": {
-   "rank": 11,
-   "adds": 235960
-  },
-  "fernando mendoza": {
+  "sam roush": {
    "rank": 12,
-   "adds": 185896
+   "adds": 181468
   },
   "joe milton": {
    "rank": 13,
-   "adds": 172996
+   "adds": 174564
+  },
+  "fernando mendoza": {
+   "rank": 14,
+   "adds": 173824
   },
   "evan engram": {
-   "rank": 14,
-   "adds": 167088
-  },
-  "sam roush": {
    "rank": 15,
-   "adds": 165207
+   "adds": 163624
   },
   "ted hurst": {
    "rank": 16,
-   "adds": 156546
-  },
-  "jacory croskey merritt": {
-   "rank": 17,
-   "adds": 141642
+   "adds": 145614
   },
   "jakobi meyers": {
-   "rank": 18,
-   "adds": 139746
-  },
-  "dylan sampson": {
-   "rank": 19,
-   "adds": 127610
+   "rank": 17,
+   "adds": 143856
   },
   "brian thomas": {
+   "rank": 18,
+   "adds": 142135
+  },
+  "jacory croskey merritt": {
+   "rank": 19,
+   "adds": 129465
+  },
+  "josh cameron": {
    "rank": 20,
-   "adds": 127170
+   "adds": 127904
   },
   "brenton strange": {
+   "rank": 21,
+   "adds": 119376
+  },
+  "dylan sampson": {
    "rank": 22,
-   "adds": 119637
+   "adds": 117175
   },
   "jj mccarthy": {
    "rank": 24,
-   "adds": 116241
-  },
-  "josh cameron": {
-   "rank": 25,
-   "adds": 115022
+   "adds": 110754
   },
   "darren waller": {
-   "rank": 27,
-   "adds": 114174
+   "rank": 26,
+   "adds": 109557
   },
   "mason rudolph": {
    "rank": 28,
-   "adds": 114082
+   "adds": 105396
   },
   "tai felton": {
    "rank": 29,
-   "adds": 113562
+   "adds": 104556
   },
   "emmett johnson": {
-   "rank": 31,
-   "adds": 106011
+   "rank": 30,
+   "adds": 94797
   },
   "blake corum": {
    "rank": 32,
-   "adds": 93216
+   "adds": 91048
   },
   "kc concepcion": {
    "rank": 35,
-   "adds": 81315
+   "adds": 76158
   },
   "xavier hutchinson": {
    "rank": 36,
-   "adds": 78918
+   "adds": 75579
   },
   "mack hollins": {
    "rank": 37,
-   "adds": 70032
+   "adds": 67449
   },
   "kirk cousins": {
    "rank": 38,
-   "adds": 69768
+   "adds": 66952
   },
   "corey kiner": {
    "rank": 39,
-   "adds": 67206
-  },
-  "malik washington": {
-   "rank": 40,
-   "adds": 66144
+   "adds": 63276
   },
   "caleb douglas": {
+   "rank": 40,
+   "adds": 63024
+  },
+  "malik washington": {
    "rank": 41,
-   "adds": 65720
+   "adds": 62592
   },
   "kyle pitts": {
    "rank": 42,
-   "adds": 63959
+   "adds": 62181
   },
   "tyler shough": {
    "rank": 43,
-   "adds": 63296
+   "adds": 60640
   },
   "cj stroud": {
-   "rank": 45,
-   "adds": 57036
-  },
-  "devaughn vele": {
-   "rank": 48,
-   "adds": 53620
+   "rank": 44,
+   "adds": 54439
   },
   "adonai mitchell": {
+   "rank": 47,
+   "adds": 51560
+  },
+  "devaughn vele": {
    "rank": 49,
-   "adds": 52840
+   "adds": 50400
   },
   "travis etienne": {
    "rank": 50,
-   "adds": 51918
+   "adds": 47994
   }
  },
  "buzz": {},
  "sources": {
   "lines": "12 games",
   "weather": "7 outdoor games",
-  "injuries": "205 players listed",
+  "injuries": "206 players listed",
   "news": "3 players in headlines",
-  "google_news": "3 role-cut, 90 injury headlines; QB hurt: ARI, LAC, TB",
+  "google_news": "3 role-cut, 89 injury headlines; QB hurt: LAC, TB",
   "sleeper_trending": "37 board players trending",
   "reddit": "unavailable"
  },
@@ -2884,16 +2889,6 @@
    "inj": true,
    "worst": "NFL injury tracker Week 12: Latest news, fantasy implications as Brock Purdy (ankle) misses practice again; Justin Herbert (concussion) remains in protocol; Parker Washington (shoulder) ruled out"
   },
-  "carson beck": {
-   "h": [
-    "Cardinals Rule Out Carson Beck, and Concerns Aren't Going Away",
-    "Carson Beck (back) absent again on Thursday",
-    "Cardinals injury report: Carson Beck sits out again on Thursday"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Cardinals injury report: Carson Beck sits out again on Thursday"
-  },
   "tommy devito": {
    "h": [
     "NFL Week 12 bold predictions: Giants' Abdul Carter, Cam Skattebo go OFF; Tommy DeVito cooks Chargers",
@@ -2906,7 +2901,6 @@
   }
  },
  "qbhurt": [
-  "ARI",
   "LAC",
   "TB"
  ]
