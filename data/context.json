@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T20:01:05+00:00",
+ "generated": "2026-11-27T20:31:04+00:00",
  "games": {
   "DENPIT": {
    "home": "PIT",
@@ -7,20 +7,17 @@
    "kick": "2026-11-27T20:00Z",
    "indoor": false,
    "neutral": false,
-   "spread": {
-    "DEN": -4.5,
-    "PIT": 4.5
-   },
-   "total": 36.5,
+   "spread": {},
+   "total": null,
    "espn_wx": {
     "desc": "18",
     "temp": 39
    },
    "wx": {
     "wind": 12,
-    "gust": 31,
+    "gust": 30,
     "pop": 42,
-    "rain": 1.5,
+    "rain": 0.8,
     "temp": 37
    }
   },
@@ -31,8 +28,8 @@
    "indoor": false,
    "neutral": false,
    "spread": {
-    "CIN": -10.0,
-    "NO": 10.0
+    "CIN": -9.5,
+    "NO": 9.5
    },
    "total": 48.5,
    "espn_wx": {
@@ -40,10 +37,10 @@
     "temp": 49
    },
    "wx": {
-    "wind": 12,
+    "wind": 13,
     "gust": 37,
     "pop": 100,
-    "rain": 0.2,
+    "rain": 0.15,
     "temp": 54
    }
   },
@@ -54,8 +51,8 @@
    "indoor": true,
    "neutral": false,
    "spread": {
-    "NYG": -6.0,
-    "IND": 6.0
+    "NYG": -5.5,
+    "IND": 5.5
    },
    "total": 41.5,
    "espn_wx": {
@@ -83,7 +80,7 @@
     "gust": 12,
     "pop": 6,
     "rain": 0.0,
-    "temp": 78
+    "temp": 77
    }
   },
   "ATLMIN": {
@@ -452,6 +449,11 @@
    }
   ],
   "CIN": [
+   {
+    "name": "Tee Higgins",
+    "pos": "WR",
+    "status": "Questionable"
+   },
    {
     "name": "Dalton Risner",
     "pos": "G",
@@ -872,13 +874,13 @@
     "status": "Doubtful"
    },
    {
-    "name": "Bill Murray",
-    "pos": "G",
+    "name": "Tyler Higbee",
+    "pos": "TE",
     "status": "Questionable"
    },
    {
-    "name": "Tyler Higbee",
-    "pos": "TE",
+    "name": "Bill Murray",
+    "pos": "G",
     "status": "Questionable"
    },
    {
@@ -951,6 +953,16 @@
   ],
   "MIN": [
    {
+    "name": "Isaiah Rodgers",
+    "pos": "CB",
+    "status": "Out"
+   },
+   {
+    "name": "Christian Darrisaw",
+    "pos": "OT",
+    "status": "Out"
+   },
+   {
     "name": "Jordan Addison",
     "pos": "WR",
     "status": "Out"
@@ -961,28 +973,13 @@
     "status": "Questionable"
    },
    {
-    "name": "Myles Price",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
     "name": "Kyler Murray",
     "pos": "QB",
     "status": "Questionable"
    },
    {
-    "name": "Isaiah Rodgers",
-    "pos": "CB",
-    "status": "Questionable"
-   },
-   {
     "name": "Jalen Redmond",
     "pos": "DT",
-    "status": "Questionable"
-   },
-   {
-    "name": "Christian Darrisaw",
-    "pos": "OT",
     "status": "Questionable"
    }
   ],
@@ -1390,161 +1387,165 @@
  "trend": {
   "deshaun watson": {
    "rank": 2,
-   "adds": 475456
+   "adds": 477688
   },
   "chris rodriguez": {
    "rank": 3,
-   "adds": 373617
+   "adds": 376263
   },
   "justice hill": {
    "rank": 5,
-   "adds": 278100
+   "adds": 279144
   },
   "konata mumpfield": {
    "rank": 6,
-   "adds": 275697
+   "adds": 276507
   },
   "sam roush": {
-   "rank": 8,
-   "adds": 228522
+   "rank": 7,
+   "adds": 240107
   },
   "chimere dike": {
    "rank": 9,
-   "adds": 215757
+   "adds": 217854
   },
   "geno smith": {
    "rank": 10,
-   "adds": 213424
-  },
-  "samaje perine": {
-   "rank": 11,
-   "adds": 197900
+   "adds": 214820
   },
   "brian thomas": {
+   "rank": 11,
+   "adds": 207210
+  },
+  "samaje perine": {
    "rank": 12,
-   "adds": 194235
+   "adds": 199176
   },
   "joe milton": {
-   "rank": 14,
-   "adds": 182880
+   "rank": 13,
+   "adds": 185856
   },
   "josh cameron": {
    "rank": 15,
-   "adds": 168468
-  },
-  "evan engram": {
-   "rank": 16,
-   "adds": 164960
+   "adds": 179602
   },
   "jakobi meyers": {
+   "rank": 16,
+   "adds": 170514
+  },
+  "evan engram": {
    "rank": 17,
-   "adds": 164700
+   "adds": 167920
   },
   "fernando mendoza": {
    "rank": 18,
-   "adds": 157832
+   "adds": 158560
   },
   "ted hurst": {
    "rank": 19,
-   "adds": 131232
+   "adds": 132018
   },
   "brenton strange": {
    "rank": 20,
-   "adds": 124920
+   "adds": 129339
   },
   "jacory croskey merritt": {
    "rank": 21,
-   "adds": 115641
-  },
-  "dylan sampson": {
-   "rank": 22,
-   "adds": 105500
+   "adds": 116568
   },
   "darren waller": {
+   "rank": 22,
+   "adds": 108270
+  },
+  "dylan sampson": {
    "rank": 23,
-   "adds": 105498
+   "adds": 106330
   },
   "jj mccarthy": {
    "rank": 24,
-   "adds": 103848
+   "adds": 104466
   },
   "tai felton": {
    "rank": 27,
-   "adds": 95976
+   "adds": 97626
   },
   "mason rudolph": {
    "rank": 29,
-   "adds": 91936
+   "adds": 92152
   },
   "blake corum": {
    "rank": 30,
-   "adds": 89080
+   "adds": 89384
   },
   "emmett johnson": {
    "rank": 31,
-   "adds": 83223
+   "adds": 83484
   },
   "xavier hutchinson": {
    "rank": 34,
-   "adds": 72905
+   "adds": 73913
   },
   "kc concepcion": {
    "rank": 35,
-   "adds": 71334
+   "adds": 72144
   },
   "mack hollins": {
    "rank": 37,
-   "adds": 65343
+   "adds": 66081
   },
   "kirk cousins": {
    "rank": 38,
-   "adds": 63912
+   "adds": 64288
   },
   "kyle pitts": {
    "rank": 39,
-   "adds": 61229
+   "adds": 62720
   },
   "caleb douglas": {
    "rank": 40,
-   "adds": 60832
+   "adds": 61528
   },
   "malik washington": {
    "rank": 41,
-   "adds": 59280
+   "adds": 60056
   },
   "corey kiner": {
    "rank": 42,
-   "adds": 59250
+   "adds": 59736
   },
   "tyler shough": {
    "rank": 43,
-   "adds": 57360
+   "adds": 57672
   },
   "adonai mitchell": {
-   "rank": 45,
-   "adds": 51944
+   "rank": 44,
+   "adds": 52936
   },
   "cj stroud": {
    "rank": 46,
-   "adds": 51604
+   "adds": 51919
   },
   "devaughn vele": {
    "rank": 47,
-   "adds": 47012
+   "adds": 47516
   },
   "sam darnold": {
    "rank": 49,
-   "adds": 45063
+   "adds": 45441
+  },
+  "travis etienne": {
+   "rank": 50,
+   "adds": 43722
   }
  },
  "buzz": {},
  "sources": {
-  "lines": "12 games",
+  "lines": "11 games",
   "weather": "7 outdoor games",
   "injuries": "212 players listed",
   "news": "4 players in headlines",
-  "google_news": "5 role-cut, 98 injury headlines; QB hurt: BUF, CAR, JAX, LAC, SF, TB",
-  "sleeper_trending": "37 board players trending",
+  "google_news": "7 role-cut, 102 injury headlines; QB hurt: CAR, CHI, JAX, LAC, SF, TB",
+  "sleeper_trending": "38 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
@@ -1552,7 +1553,7 @@
    "h": [
     "Mason Rudolph Passing Attempts Pick for Broncos vs. Steelers",
     "Who is Mason Rudolph? This is the Steelers\u2019 new starting quarterback against the Broncos",
-    "Steelers Bold Predictions: Mason Rudolph Leads Black Friday Upset vs. Broncos"
+    "Steelers: History Shows Mason Rudolph is in Trouble Against Broncos"
    ],
    "cut": false,
    "inj": false,
@@ -1560,13 +1561,13 @@
   },
   "bo nix": {
    "h": [
-    "Broncos, under Bo Nix, are much better at home than on the road",
-    "Bo Nix Passing Yards Pick for Broncos vs. Steelers",
-    "Who is Bo Nix married to? This is the Broncos QB\u2019s longtime sweetheart: Meet wife Izzy Nix"
+    "Ryan Fitzpatrick says criticism of Broncos QB Bo Nix 'crossed a line'",
+    "Ex-NFL QB Apologizes for \u2018Personal\u2019 Attack on Broncos QB Bo Nix",
+    "Bo Nix, Wife Izzy Have Special Reason to Be Thankful Before Broncos-Steelers Game"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Who Should I Start for Week 12? Bo Nix, Mason Rudolph, Jonah Coleman, Jaylen Warren, DK Metcalf, Courtland Sutton, Michael Pittman Jr., Jaylen Waddle, Pat Freiermuth, Pat Bryant"
+   "inj": false,
+   "worst": "Ryan Fitzpatrick says criticism of Broncos QB Bo Nix 'crossed a line'"
   },
   "michael penix": {
    "h": [
@@ -1580,23 +1581,23 @@
   },
   "kirk cousins": {
    "h": [
-    "Cam Newton Calls Out NFL\u2019s Racial Double Standard: Stefon Diggs' Emotion Is Criticized, While QBs Joe Burrow And Kirk Cousins Are Praised for Outbursts",
-    "Falcons' failed QB plan heads toward reunion game against Kirk Cousins and Vikings",
-    "Vikings-Falcons predictions: Will Kirk Cousins get the best of his former team?"
+    "Kirk Cousins Looks To Continue Good Record Against Former Teams As A Viking",
+    "NFL: Why Kyle Shanahan, Brock Purdy and San Francisco 49ers 'uncs' deserve Super Bowl moment, plus Kirk Cousins' revenge game and Sam Darnold pressure",
+    "Kirk Cousins Explains Sideline Exchange With Brian O'Neill Before Vikings Host Falcons"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Cam Newton Calls Out NFL\u2019s Racial Double Standard: Stefon Diggs' Emotion Is Criticized, While QBs Joe Burrow And Kirk Cousins Are Praised for Outbursts"
+   "worst": "Kirk Cousins Looks To Continue Good Record Against Former Teams As A Viking"
   },
   "cj stroud": {
    "h": [
+    "Week 12 Fantasy Football: NFL DFS GPP Tournament Top Plays Featuring CJ Stroud & Nico Collins",
     "Texans Make Announcement About C.J. Stroud After Attention-Grabbing Message",
-    "How to watch Houston Texans vs Baltimore Ravens NFL game LIVE: C.J. Stroud and the Texans look to maintain their surge, online streams, TV channels, and kick-off time",
-    "Upgrades In The Week 12 Fantasy Football Rankings: Quinshon Judkins, C.J. Stroud & More"
+    "How to watch Houston Texans vs Baltimore Ravens NFL game LIVE: C.J. Stroud and the Texans look to maintain their surge, online streams, TV channels, and kick-off time"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Upgrades In The Week 12 Fantasy Football Rankings: Quinshon Judkins, C.J. Stroud & More"
+   "worst": "Week 12 Fantasy Football: NFL DFS GPP Tournament Top Plays Featuring CJ Stroud & Nico Collins"
   },
   "jacoby brissett": {
    "h": [
@@ -1634,8 +1635,8 @@
     "Giants' J.J. McCarthy heaps praise on Cam Skattebo, Malachi Fields"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "Derius Davis or J.J. McCarthy: Who Should I Start in Week 12? Fantasy Football"
+   "inj": false,
+   "worst": "NY Giants\u2019 QB J.J. McCarthy knows team can\u2019t keep missing with the deep ball"
   },
   "anthony richardson": {
    "h": [
@@ -1651,7 +1652,7 @@
    "h": [
     "Geno Smith, Aaron Glenn eager for re-do vs. Dolphins in Week 12",
     "Who Should I Start for Week 12? Deshaun Watson, Cam Ward, Fernando Mendoza, C.J. Stroud, Anthony Richardson Sr., Brock Purdy, Geno Smith, Jayden Daniels, Kirk Cousins, J.J. McCarthy",
-    "Geno Smith leads Jets into Miami, 12 years after their last win there \u2014 with him as the quarterback - morning-times.com"
+    "Geno Smith leads Jets into Miami, 12 years after their last win there \u2014 with him as the quarterback"
    ],
    "cut": false,
    "inj": false,
@@ -1660,8 +1661,8 @@
   "kyle mccord": {
    "h": [
     "Kyle McCord or Tank Bigsby: Who Should I Pick Up? Fantasy Football (2026)",
-    "Dolphins Need Kyle McCord to Turn Growing Pains Into Progress",
-    "Kyle McCord or Mason Rudolph: Who Should I Start in Week 12? Fantasy Football"
+    "How to watch Miami Dolphins vs New York Jets NFL game LIVE: Dolphins set to start rookie QB Kyle McCord, online streams, TV channels, and kick-off time",
+    "Dolphins Need Kyle McCord to Turn Growing Pains Into Progress"
    ],
    "cut": false,
    "inj": true,
@@ -1669,17 +1670,17 @@
   },
   "cam ward": {
    "h": [
+    "Titans' Cam Ward is one loss away from making bleak NFL history",
     "Who Should I Start for Week 12? Deshaun Watson, Cam Ward, Fernando Mendoza, C.J. Stroud, Anthony Richardson Sr., Brock Purdy, Geno Smith, Jayden Daniels, Kirk Cousins, J.J. McCarthy",
-    "Cam Ward, Titans' offense surging, but too late in games",
-    "AFC Notes: Bhayshul Tuten, Cam Ward, Alec Pierce, Colts, Jaguars, Titans"
+    "Cam Ward, Titans' offense surging, but too late in games"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Who Should I Start for Week 12? Deshaun Watson, Cam Ward, Fernando Mendoza, C.J. Stroud, Anthony Richardson Sr., Brock Purdy, Geno Smith, Jayden Daniels, Kirk Cousins, J.J. McCarthy"
+   "worst": "Titans' Cam Ward is one loss away from making bleak NFL history"
   },
   "trevor lawrence": {
    "h": [
-    "Titans news: Tennessee's defense takes crucial hit in latest injury update for Trevor Lawrence, Jaguars clash",
+    "Titans defense takes crucial hit in latest injury update for Trevor Lawrence, Jaguars clash",
     "\u201cHe's Done for the Season\u201d: Jaguars Fans Fear the Worst as Trevor Lawrence Loses Key Target With Parker Washington Ruled Out Against Titans",
     "Trevor Lawrence Loses His Top Target Ahead of Tennessee Titans Rematch"
    ],
@@ -1689,16 +1690,17 @@
   },
   "tommy devito": {
    "h": [
+    "Patriots | Drake Maye ruled out, Tommy DeVito set for first start since 2024 vs. Chargers",
     "Tank Bigsby or Tommy DeVito: Who Should I Pick Up? Fantasy Football (2026)",
-    "Patriots\u2019 Tommy DeVito Gets Bad News on Key Weapon Before Chargers Game",
-    "Tommy DeVito Could Make His First Patriots Start Without AJ Brown"
+    "Patriots\u2019 Tommy DeVito Gets Bad News on Key Weapon Before Chargers Game"
    ],
-   "cut": false,
+   "cut": true,
    "inj": true,
-   "worst": "Tank Bigsby or Tommy DeVito: Who Should I Pick Up? Fantasy Football (2026)"
+   "worst": "Patriots | Drake Maye ruled out, Tommy DeVito set for first start since 2024 vs. Chargers"
   },
   "dj uiagalelei": {
    "h": [
+    "Chargers-Patriots Game Preview: How will Mike McDaniel warp the offense for D.J. Uiagalelei?",
     "Dj Uiagalelei or Tank Bigsby: Who Should I Pick Up? Fantasy Football (2026)",
     "Justin Herbert remains in concussion protocol as DJ Uiagalelei prepares for start"
    ],
@@ -1708,19 +1710,19 @@
   },
   "sam darnold": {
    "h": [
+    "NFL: Why Kyle Shanahan, Brock Purdy and San Francisco 49ers 'uncs' deserve Super Bowl moment, plus Kirk Cousins' revenge game and Sam Darnold pressure",
     "Seattle Seahawks QB Sam Darnold Faces a Bigger Test Than One Game",
-    "Sam Darnold Has to Reward Mike Macdonald\u2019s Confidence in NFL Week 12",
-    "Mike Macdonald Announces Sam Darnold Plan Ahead of Seahawks\u2019 Showdown With 49ers"
+    "Sam Darnold Has to Reward Mike Macdonald's Confidence in NFL Week 12"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Seattle Seahawks QB Sam Darnold Faces a Bigger Test Than One Game"
+   "worst": "NFL: Why Kyle Shanahan, Brock Purdy and San Francisco 49ers 'uncs' deserve Super Bowl moment, plus Kirk Cousins' revenge game and Sam Darnold pressure"
   },
   "brock purdy": {
    "h": [
+    "NFL: Why Kyle Shanahan, Brock Purdy and San Francisco 49ers 'uncs' deserve Super Bowl moment, plus Kirk Cousins' revenge game and Sam Darnold pressure",
     "NFL injury tracker Week 12: Latest news, fantasy implications as Brock Purdy (ankle) misses practice again; Justin Herbert (concussion) remains in protocol; Parker Washington (shoulder) ruled out",
-    "Bold quarterback predictions in NFL Week 12: Jayden Daniels, Brock Purdy & more",
-    "49ers Get Reassuring Mac Jones Verdict Amid Brock Purdy Injury"
+    "Bold quarterback predictions in NFL Week 12: Jayden Daniels, Brock Purdy & more"
    ],
    "cut": true,
    "inj": true,
@@ -1728,9 +1730,9 @@
   },
   "josh johnson": {
    "h": [
-    "Cardinals QB Carson Beck ruled out vs Commanders, Josh Johnson to start",
-    "Cardinals QB Carson Beck will miss second straight game, veteran Josh Johnson will start",
-    "Cardinals QB Carson Beck will miss second straight game, veteran Josh Johnson will start"
+    "Cardinals QB Carson Beck Out Against Commanders, Josh Johnson To Start Again",
+    "Cardinals QB Carson Beck will miss second straight game, veteran Josh Johnson will start - News-Press NOW",
+    "Cardinals QB Carson Beck ruled out vs Commanders, Josh Johnson to start"
    ],
    "cut": true,
    "inj": false,
@@ -1743,14 +1745,14 @@
     "Jayden Daniels Fantasy Outlook & Stats"
    ],
    "cut": false,
-   "inj": true,
-   "worst": "\"Things happen, and we move on\": Jayden Daniels speaks out about playing with Brandon Aiyuk as Commanders sign WR despite offseason beef"
+   "inj": false,
+   "worst": "Antonio Williams\u2019 Commanders breakout has Jayden Daniels thinking bigger"
   },
   "fernando mendoza": {
    "h": [
-    "Fernando Mendoza or Tank Bigsby: Who Should I Pick Up? Fantasy Football (2026)",
-    "NFL predictions: Fernando Mendoza searching for 1st win in Las Vegas Raiders-Cleveland Browns Week 12 Sunday Night Football",
-    "Raiders Make Fernando Mendoza Announcement After 2 NFL Starts"
+    "Todd Monken on Raiders rookie Fernando Mendoza: \u201cThere\u2019s a lot there to like\u201d",
+    "Fernando Mendoza found \u2018something special\u2019 in unlocking Raiders rising star",
+    "Raiders surprising move bestows major respect on Fernando Mendoza"
    ],
    "cut": false,
    "inj": true,
@@ -1758,19 +1760,19 @@
   },
   "deshaun watson": {
    "h": [
-    "NBC replaces Deshaun Watson on Raiders-Browns SNF promo graphic",
-    "NBC avoids Deshaun Watson in Thanksgiving SNF promo",
-    "Best NFL Week 12 Player Prop Bets: Watson, Meyers, Wilson Picks"
+    "Week 12 Fantasy Football Must-Start Sleepers: Chris Rodriguez, DeShaun Watson, And More",
+    "NBC removed polarizing Deshaun Watson from promo hyping Browns-Raiders \u2018SNF\u2019 clash",
+    "NBC removed polarizing Deshaun Watson from promo hyping Browns-Raiders \u2018SNF\u2019 clash"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "NBC replaces Deshaun Watson on Raiders-Browns SNF promo graphic"
+   "inj": true,
+   "worst": "Week 12 Fantasy Football Must-Start Sleepers: Chris Rodriguez, DeShaun Watson, And More"
   },
   "baker mayfield": {
    "h": [
     "Mayfield Tosses TD to Hurst III Before Halftime | Bucs vs. Lions Highlights",
-    "Buccaneers Get Baker Mayfield Injury Update Ahead of Panthers Game",
-    "Baker Mayfield Opens Up About The Time His Dad Completely Ruined Thanksgiving [VIDEO]"
+    "Bucs Rookie Ted Hurst III Credits Baker Mayfield After Two-Touchdown Game vs. Lions",
+    "Buccaneers Get Baker Mayfield Injury Update Ahead of Panthers Game"
    ],
    "cut": false,
    "inj": true,
@@ -1785,6 +1787,16 @@
    "cut": false,
    "inj": true,
    "worst": "Should I Drop Bryce Young for Fantasy Football Week 12? (2026) - NFL News"
+  },
+  "jonah coleman": {
+   "h": [
+    "Broncos Elevate Jonah Coleman as Steelers Start Mason Rudolph",
+    "Broncos vs. Steelers odds: Jonah Coleman among anytime touchdown scorer picks for NFL Black Friday Week 12",
+    "Broncos-Steelers Same Game Parlay: Steelers Points, the Under, Jaylen Warren and Jonah Coleman"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Broncos Elevate Jonah Coleman as Steelers Start Mason Rudolph"
   },
   "tyler badie": {
    "h": [
@@ -1806,32 +1818,22 @@
   },
   "rico dowdle": {
    "h": [
-    "Jashaun Corbin or Rico Dowdle: Who Should I Start in Week 12? Fantasy Football",
+    "CJ Daniels or Rico Dowdle: Who Should I Start in Week 12? Fantasy Football",
     "Rico Dowdle Week 12 Outlook - Broncos at Steelers"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jashaun Corbin or Rico Dowdle: Who Should I Start in Week 12? Fantasy Football"
+   "worst": "CJ Daniels or Rico Dowdle: Who Should I Start in Week 12? Fantasy Football"
   },
   "jaylen warren": {
    "h": [
     "Broncos-Steelers Same Game Parlay: Steelers Points, the Under, Jaylen Warren and Jonah Coleman",
     "Best Jaylen Warren prop bet for Steelers vs. Broncos on Friday 11/27/26",
-    "Steelers | Beat writer would \u2018expect to see a lot of\u2019 Jaylen Warren against Broncos"
+    "Steelers' Jaylen Warren Facing Biggest Game of Career"
    ],
    "cut": false,
    "inj": true,
    "worst": "Black Friday Fantasy Football Start 'Em Sit 'Em: Week 12 Steelers - Broncos: Jaylen Warren, Jonah Coleman, And More"
-  },
-  "jonah coleman": {
-   "h": [
-    "Broncos Elevate Jonah Coleman as Steelers Start Mason Rudolph",
-    "Broncos vs. Steelers odds: Jonah Coleman among anytime touchdown scorer picks for NFL Black Friday Week 12",
-    "Broncos-Steelers Same Game Parlay: Steelers Points, the Under, Jaylen Warren and Jonah Coleman"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Broncos Elevate Jonah Coleman as Steelers Start Mason Rudolph"
   },
   "bijan robinson": {
    "h": [
@@ -1884,7 +1886,8 @@
   },
   "samaje perine": {
    "h": [
-    "Is Samaje Perine stealing the Bengals\u2019 No. 1 RB role from Chase Brown?"
+    "Is Samaje Perine stealing the Bengals\u2019 No. 1 RB role from Chase Brown?",
+    "Omar Cooper or Samaje Perine: Who Should I Start in Week 12?"
    ],
    "cut": false,
    "inj": false,
@@ -1893,8 +1896,8 @@
   "chase brown": {
    "h": [
     "Is Samaje Perine stealing the Bengals\u2019 No. 1 RB role from Chase Brown?",
-    "Week 12 Fantasy Football Start/Sit Advice: What to do with Chase Brown, Mike Evans, more players",
-    "Fantasy Football Week 12 Running Back Start Em Sit Em: Chase Brown, D'Andre Swift, Quinshon Judkins"
+    "My Cause My Cleats: Chase Brown | COMMUNITY VIDEO",
+    "Week 12 Fantasy Football Start/Sit Advice: What to do with Chase Brown, Mike Evans, more players"
    ],
    "cut": false,
    "inj": true,
@@ -1902,9 +1905,9 @@
   },
   "jonathan taylor": {
    "h": [
+    "Colts Reclaim Offensive Identity: How Anthony Richardson and Jonathan Taylor Complement Each Other",
     "Week 12 Fantasy Football Fades & Busts: Jonathan Taylor, Garrett Wilson among players worth avoiding",
-    "Giants could learn what they were missing from Jonathan Taylor himself",
-    "Will Giants\u2019 failure to land Colts\u2019 Jonathan Taylor derail NFC East chase?"
+    "Giants could learn what they were missing from Jonathan Taylor himself"
    ],
    "cut": false,
    "inj": true,
@@ -1913,8 +1916,8 @@
   "cam skattebo": {
    "h": [
     "NFL Week 12 bold predictions: Giants' Abdul Carter, Cam Skattebo go OFF; Tommy DeVito cooks Chargers",
-    "Giants' J.J. McCarthy heaps praise on Cam Skattebo, Malachi Fields",
-    "Cam Skattebo believes he'll be a Giant for 'a long time' despite issues"
+    "NFL Week 12 bold predictions: Giants' Abdul Carter, Cam Skattebo go OFF; Tommy DeVito cooks Chargers",
+    "Giants' J.J. McCarthy heaps praise on Cam Skattebo, Malachi Fields"
    ],
    "cut": false,
    "inj": false,
@@ -1959,13 +1962,13 @@
   },
   "rhamondre stevenson": {
    "h": [
-    "In a season full of uncertainty, well-respected Rhamondre Stevenson has been a constant in the Patriots\u2019 offense",
     "Rhamondre Stevenson Not on initial Week 12 practice report",
-    "Week 12 Rhamondre Stevenson Fantasy Start or Sit 2026"
+    "Week 12 Rhamondre Stevenson Fantasy Start or Sit 2026",
+    "Rhamondre Stevenson Week 12 Outlook - Patriots at Chargers"
    ],
    "cut": false,
    "inj": false,
-   "worst": "In a season full of uncertainty, well-respected Rhamondre Stevenson has been a constant in the Patriots\u2019 offense"
+   "worst": "Rhamondre Stevenson Not on initial Week 12 practice report"
   },
   "corey kiner": {
    "h": [
@@ -2006,11 +2009,12 @@
   },
   "deebo samuel": {
    "h": [
+    "Jack Bech or Deebo Samuel Sr.",
     "Who Should I Start for Week 12? Caleb Douglas, David Montgomery, Jordyn Tyson, Deebo Samuel Sr., Ashton Jeanty, Cam Skattebo, Breece Hall, Bhayshul Tuten, Chase Brown"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Who Should I Start for Week 12? Caleb Douglas, David Montgomery, Jordyn Tyson, Deebo Samuel Sr., Ashton Jeanty, Cam Skattebo, Breece Hall, Bhayshul Tuten, Chase Brown"
+   "worst": "Jack Bech or Deebo Samuel Sr."
   },
   "christian mccaffrey": {
    "h": [
@@ -2048,6 +2052,14 @@
    "cut": false,
    "inj": false,
    "worst": "Bam Knight Week 12 Outlook - Commanders at Cardinals"
+  },
+  "austin ekeler": {
+   "h": [
+    "Austin Ekeler or Marvin Harrison Jr.: Who Should I Pick Up? Fantasy Football (2026)"
+   ],
+   "cut": false,
+   "inj": true,
+   "worst": "Austin Ekeler or Marvin Harrison Jr.: Who Should I Pick Up? Fantasy Football (2026)"
   },
   "tyler allgeier": {
    "h": [
@@ -2119,27 +2131,37 @@
    "h": [
     "Bucky Irving Week 12 Outlook - Panthers at Buccaneers",
     "Bucky Irving and Tampa Bay\u2019s Rushing Trio Face a New Carolina Defense on Monday Night",
-    "Why Irving & Hubbard Join the Fantasy Football Must-Start Ranks in Week 12"
+    "Saints Coach Praises Bucs' Bucky Irving"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Bucky Irving Week 12 Outlook - Panthers at Buccaneers"
+  },
+  "chuba hubbard": {
+   "h": [
+    "Week 12 Chuba Hubbard Fantasy Start or Sit 2026",
+    "Dave Canales praises Chuba Hubbard",
+    "Chuba Hubbard Week 12 Outlook - Panthers at Buccaneers"
    ],
    "cut": false,
    "inj": true,
    "worst": "Why Irving & Hubbard Join the Fantasy Football Must-Start Ranks in Week 12"
   },
-  "chuba hubbard": {
+  "pat freiermuth": {
    "h": [
-    "Chuba Hubbard Week 12 Outlook - Panthers at Buccaneers",
-    "Why Irving & Hubbard Join the Fantasy Football Must-Start Ranks in Week 12",
-    "Chuba Hubbard or Jonah Coleman | Who Should I Start Week 12"
+    "Broncos vs Steelers Black Friday Touchdown Props: Pat Freiermuth, Pat Bryant",
+    "Fantasy Football Tight Ends to Avoid: Johnson & Freiermuth",
+    "Who Should I Start for Week 12? Bo Nix, Mason Rudolph, Jonah Coleman, Jaylen Warren, DK Metcalf, Courtland Sutton, Michael Pittman Jr., Jaylen Waddle, Pat Freiermuth, Pat Bryant"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Why Irving & Hubbard Join the Fantasy Football Must-Start Ranks in Week 12"
+   "worst": "Fantasy Football Tight Ends to Avoid: Johnson & Freiermuth"
   },
   "max hurleman": {
    "h": [
     "Max Hurleman Catches Incredible Steelers Touchdown Stream of National Football League",
-    "Michigan Sets Football Finals as Steelers Sign Max Hurleman",
-    "Max Hurleman"
+    "Max Hurleman signed to 53-man roster",
+    "Max Hurleman signs with Steelers active roster"
    ],
    "cut": false,
    "inj": true,
@@ -2175,16 +2197,6 @@
    "inj": true,
    "worst": "DK Metcalf might have cost Aaron Rodgers his job with the Steelers"
   },
-  "pat freiermuth": {
-   "h": [
-    "Fantasy Football Tight Ends to Avoid: Johnson & Freiermuth",
-    "Who Should I Start for Week 12? Bo Nix, Mason Rudolph, Jonah Coleman, Jaylen Warren, DK Metcalf, Courtland Sutton, Michael Pittman Jr., Jaylen Waddle, Pat Freiermuth, Pat Bryant",
-    "Broncos-Steelers Player Props: Michael Pittman, Bo Nix and Pat Freiermuth Best Bets, NFL Week 12"
-   ],
-   "cut": false,
-   "inj": true,
-   "worst": "Fantasy Football Tight Ends to Avoid: Johnson & Freiermuth"
-  },
   "germie bernard": {
    "h": [
     "Broncos vs Steelers Player Props for Jonah Coleman, Courtland Sutton, Germie Bernard",
@@ -2197,13 +2209,13 @@
   },
   "pat bryant": {
    "h": [
+    "Marvin Harrison Jr. or Pat Bryant: Who Should I Pick Up? Fantasy Football (2026)",
     "Broncos vs Steelers Black Friday Touchdown Props: Pat Freiermuth, Pat Bryant",
-    "Who Should I Start for Week 12? Bo Nix, Mason Rudolph, Jonah Coleman, Jaylen Warren, DK Metcalf, Courtland Sutton, Michael Pittman Jr., Jaylen Waddle, Pat Freiermuth, Pat Bryant",
-    "Pat Bryant Week 12 Outlook for Fantasy Football (2026)"
+    "Who Should I Start for Week 12? Bo Nix, Mason Rudolph, Jonah Coleman, Jaylen Warren, DK Metcalf, Courtland Sutton, Michael Pittman Jr., Jaylen Waddle, Pat Freiermuth, Pat Bryant"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Who Should I Start for Week 12? Bo Nix, Mason Rudolph, Jonah Coleman, Jaylen Warren, DK Metcalf, Courtland Sutton, Michael Pittman Jr., Jaylen Waddle, Pat Freiermuth, Pat Bryant"
+   "worst": "Marvin Harrison Jr. or Pat Bryant: Who Should I Pick Up? Fantasy Football (2026)"
   },
   "jaylen waddle": {
    "h": [
@@ -2247,12 +2259,13 @@
   },
   "kyle pitts": {
    "h": [
+    "Kyle Pitts Sr. or Tank Bigsby: Who Should I Pick Up? Fantasy Football (2026)",
     "Kyle Pitts Sr. Week 12 Outlook - Falcons at Vikings",
     "CJ Daniels or Kyle Pitts Sr.: Who Should I Start in Week 12? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "CJ Daniels or Kyle Pitts Sr.: Who Should I Start in Week 12? Fantasy Football"
+   "worst": "Kyle Pitts Sr. or Tank Bigsby: Who Should I Pick Up? Fantasy Football (2026)"
   },
   "tj hockenson": {
    "h": [
@@ -2264,20 +2277,11 @@
    "inj": true,
    "worst": "Week 12 Fantasy Football Projections: Deshaun Watson, T.J. Hockenson Lead Standouts"
   },
-  "tai felton": {
-   "h": [
-    "Week 12 Tai Felton Fantasy Start or Sit 2026",
-    "Tai Felton upgraded to full practice"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Week 12 Tai Felton Fantasy Start or Sit 2026"
-  },
   "justin jefferson": {
    "h": [
     "Justin Jefferson Fantasy Outlook & Stats",
-    "A Black Friday Deal: A Signed Justin Jefferson Jersey in a Charity Auction",
-    "\u201cNFL Disrespected Us\u201d: NBA Champ Richard Jefferson Demands Revenge from Adam Silver on Thanksgiving"
+    "\u201cWe\u2019re Not Winning\u201d: Justin Jefferson Jumps to Kirk Cousins' Defense After Vikings QB\u2019s Verbal Altercation With Brian O\u2019Neill",
+    "Vikings Week 11 Mailbag: 49ers Loss, Aaron Rodgers Drama, Kirk Cousins, Justin Jefferson & More"
    ],
    "cut": false,
    "inj": false,
@@ -2285,13 +2289,13 @@
   },
   "marvin harrison": {
    "h": [
+    "Dezhaun Stribling or Marvin Harrison Jr.: Who Should I Pick Up? Fantasy Football (2026)",
     "Marvin Harrison Jr. Takes Big Step Toward Week 12 Return Against Baltimore Ravens",
-    "Marvin Harrison Jr. Turns in full practice Thursday",
-    "Marvin Harrison Jr. Upgraded to Full Practice Thursday - NFL News | Fantasy Football"
+    "Marvin Harrison Jr. Turns in full practice Thursday"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Texans Get Marvin Harrison Jr. Back, But WR Injury Woes Continue"
+   "worst": "Dezhaun Stribling or Marvin Harrison Jr.: Who Should I Pick Up? Fantasy Football (2026)"
   },
   "justice hill": {
    "h": [
@@ -2321,18 +2325,19 @@
   },
   "nico collins": {
    "h": [
+    "Week 12 Fantasy Football: NFL DFS GPP Tournament Top Plays Featuring CJ Stroud & Nico Collins",
     "Nico Collins Fantasy Outlook & Stats",
     "Why Nico Collins & Zay Flowers DOMINATE Fantasy Football Starts & Sits in Week 12"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Why Nico Collins & Zay Flowers DOMINATE Fantasy Football Starts & Sits in Week 12"
+   "worst": "Week 12 Fantasy Football: NFL DFS GPP Tournament Top Plays Featuring CJ Stroud & Nico Collins"
   },
   "dalton schultz": {
    "h": [
     "Who Should I Start for Week 12? Chig Okonkwo, Brenton Strange, George Kittle, Harold Fannin Jr., Isaiah Likely, Dalton Schultz, T.J. Hockenson, Mark Andrews, Mike Gesicki, Brock Bowers",
     "Texans Add Schultz to Injury Report Before Ravens",
-    "Dalton Schultz Limited by illness Thursday"
+    "Dalton Schultz limited in practice on Thursday"
    ],
    "cut": false,
    "inj": true,
@@ -2351,8 +2356,8 @@
   "rashod bateman": {
    "h": [
     "Marvin Harrison Jr. or Rashod Bateman: Who Should I Pick Up? Fantasy Football (2026)",
-    "Rashod Bateman (groin) limited Wednesday",
-    "Rashod Bateman practices in full Thursday"
+    "Rashod Bateman or Dallas Goedert: Who Should I Start in Week 12?",
+    "Rashod Bateman (groin) limited Wednesday"
    ],
    "cut": false,
    "inj": true,
@@ -2361,8 +2366,8 @@
   "mark andrews": {
    "h": [
     "Gesicki, Andrews and Waller: D Tier Fantasy Tight End Rankings",
-    "Who Should I Start for Week 12? Chig Okonkwo, Brenton Strange, George Kittle, Harold Fannin Jr., Isaiah Likely, Dalton Schultz, T.J. Hockenson, Mark Andrews, Mike Gesicki, Brock Bowers",
-    "Mark Andrews Needs Strong Finish to Hold Ravens Role With $9.1 Million Due in 2027"
+    "Mark Andrews Needs Strong Finish to Hold Ravens Role With $9.1 Million Due in 2027",
+    "Mark Andrews Week 12 Outlook - Ravens at Texans"
    ],
    "cut": false,
    "inj": true,
@@ -2412,21 +2417,22 @@
   },
   "chris olave": {
    "h": [
-    "Who Should I Start for Week 12? Jacory Croskey-Merritt, Jakobi Meyers, Antonio Williams, Chris Olave, Drake London, Denzel Boston, Chimere Dike, Omarion Hampton, Aaron Jones Sr., Carnell Tate"
+    "Who Should I Start for Week 12? Jacory Croskey-Merritt, Jakobi Meyers, Antonio Williams, Chris Olave, Drake London, Denzel Boston, Chimere Dike, Omarion Hampton, Aaron Jones Sr., Carnell Tate",
+    "Chris Olave or Michael Pittman Jr. or Tank Dell: Who Should I Start in Week 12? Fantasy Football"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Who Should I Start for Week 12? Jacory Croskey-Merritt, Jakobi Meyers, Antonio Williams, Chris Olave, Drake London, Denzel Boston, Chimere Dike, Omarion Hampton, Aaron Jones Sr., Carnell Tate"
+   "inj": true,
+   "worst": "Chris Olave or Michael Pittman Jr. or Tank Dell: Who Should I Start in Week 12? Fantasy Football"
   },
   "tee higgins": {
    "h": [
-    "Tee Higgins News Announced After Missing Bengals Practice",
-    "'The NFL Still Can\u2019t Decide What Is A Catch' \u2014 Parker Washington, Rashee Rice, Mike Evans and Tee Higgins Star In Comedy \u2018He Caught It, He Dropped It\u2019",
-    "Tee Higgins Fantasy Outlook & Stats"
+    "Bengals get concerning Tee Higgins update with new injury issue",
+    "Tee Higgins (hamstring) questionable vs. Saints",
+    "Fans claim NFL is 'rigged' as Tee Higgins TD stands after Parker Washington's wiped off"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Tee Higgins News Announced After Missing Bengals Practice"
+   "inj": true,
+   "worst": "Bengals get concerning Tee Higgins update with new injury issue"
   },
   "mike gesicki": {
    "h": [
@@ -2451,12 +2457,12 @@
   "tyler warren": {
    "h": [
     "B Tier Fantasy Tight End Rankings: Warren, Hockenson, Kincaid",
-    "Mitchell Evans or Tyler Warren: Who Should I Start in Week 12?",
-    "Tyler Warren Week 12 Outlook - Giants at Colts"
+    "Tyler Warren or Roman Wilson: Who Should I Start in Week 12?",
+    "Mitchell Evans or Tyler Warren: Who Should I Start in Week 12?"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "B Tier Fantasy Tight End Rankings: Warren, Hockenson, Kincaid"
+   "inj": true,
+   "worst": "Who Should I Start for Week 12? Bo Nix, Mason Rudolph, Jonah Coleman, Jaylen Warren, DK Metcalf, Courtland Sutton, Michael Pittman Jr., Jaylen Waddle, Pat Freiermuth, Pat Bryant"
   },
   "laquon treadwell": {
    "h": [
@@ -2488,7 +2494,7 @@
    "h": [
     "Week 12 WR/CB Matchups For Fantasy Football: Malik Nabers & More",
     "Week 12 NFL Player Props and Anytime TD Bets: Malik Nabers Set to Feast",
-    "J. McCarthy Finds Malik Nabers for Giants TD Stream of National Football League"
+    "Week 12 WR/CB Matchups: Evans, Nabers and More WRs"
    ],
    "cut": false,
    "inj": true,
@@ -2531,11 +2537,12 @@
   },
   "mason taylor": {
    "h": [
+    "Jets\u2019 Second-Year TE Mason Taylor Maturing Into a Complete Player",
     "Mason Taylor Week 12 Outlook - Jets at Dolphins"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Mason Taylor Week 12 Outlook - Jets at Dolphins"
+   "worst": "Jets\u2019 Second-Year TE Mason Taylor Maturing Into a Complete Player"
   },
   "kenyon sadiq": {
    "h": [
@@ -2550,7 +2557,8 @@
   "garrett wilson": {
    "h": [
     "Best NFL Week 12 Player Prop Bets: Watson, Meyers, Wilson Picks",
-    "Week 12 Fantasy Football Fades & Busts: Jonathan Taylor, Garrett Wilson among players worth avoiding"
+    "Week 12 Fantasy Football Fades & Busts: Jonathan Taylor, Garrett Wilson among players worth avoiding",
+    "49ers Trade: Are Mack, Sweat, Thomas Jr. or Wilson Next?"
    ],
    "cut": false,
    "inj": true,
@@ -2585,11 +2593,12 @@
   },
   "nate boerkircher": {
    "h": [
+    "Los Angeles Chargers or Nate Boerkircher: Who Should I Start in Week 12? Fantasy Football",
     "What Jaguars Can Expect from Nate Boerkircher, Other Rookies in the Impending Playoff Run"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "What Jaguars Can Expect from Nate Boerkircher, Other Rookies in the Impending Playoff Run"
+   "inj": true,
+   "worst": "Los Angeles Chargers or Nate Boerkircher: Who Should I Start in Week 12? Fantasy Football"
   },
   "calvin ridley": {
    "h": [
@@ -2601,13 +2610,13 @@
   },
   "travis hunter": {
    "h": [
-    "Roman Wilson or Travis Hunter: Who Should I Pick Up? Fantasy Football (2026)",
-    "Travis Hunter Role may not grow much sans Washington",
-    "Jaguars' Travis Hunter: Role may not grow much sans Washington"
+    "Ted Hurstiii or Travis Hunter: Who Should I Pick Up? Fantasy Football (2026)",
+    "Dezhaun Stribling or Travis Hunter: Who Should I Pick Up? Fantasy Football (2026)",
+    "Travis Hunter or Will Shipley: Who Should I Pick Up? Fantasy Football (2026)"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Roman Wilson or Travis Hunter: Who Should I Pick Up? Fantasy Football (2026)"
+   "worst": "Ted Hurstiii or Travis Hunter: Who Should I Pick Up? Fantasy Football (2026)"
   },
   "elic ayomanor": {
    "h": [
@@ -2640,23 +2649,23 @@
   },
   "josh cameron": {
    "h": [
-    "Fantasy Football Top 5 Underrated NFL DFS GPP Plays for Week 12: Play Josh Cameron with Parker Washington Out",
-    "Washington Sidelined, Jaguars to Lean on Rookie WR Cameron",
-    "Josh Cameron or Ted Hurstiii: Who Should I Pick Up? Fantasy Football (2026)"
+    "Week 12 Fantasy Football Rankings Outliers vs. Expert Consensus: Upgrade Josh Cameron & More Jags",
+    "Dezhaun Stribling or Josh Cameron: Who Should I Pick Up? Fantasy Football (2026)",
+    "Fantasy Football Top 5 Underrated NFL DFS GPP Plays for Week 12: Play Josh Cameron with Parker Washington Out"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Fantasy Football Top 5 Underrated NFL DFS GPP Plays for Week 12: Play Josh Cameron with Parker Washington Out"
+   "worst": "Week 12 Fantasy Football Rankings Outliers vs. Expert Consensus: Upgrade Josh Cameron & More Jags"
   },
   "brian thomas": {
    "h": [
-    "Brian Thomas Jr. or Rashod Bateman: Who Should I Pick Up? Fantasy Football (2026)",
-    "Brian Thomas Jr. or Chimere Dike: Who Should I Pick Up? Fantasy Football (2026)",
-    "Jaguars' Brian Thomas Jr. Trade Decision Is Already Paying Off After Parker Washington's Injury"
+    "Brian Thomas Jr. or Rj Harvey: Who Should I Pick Up? Fantasy Football (2026)",
+    "Jaguars' Brian Thomas Jr. Trade Decision Is Already Paying Off After Parker Washington's Injury",
+    "Should I Trade (PPR) Brian Thomas Jr. for Will Shipley (2026)?"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Brian Thomas Jr. or Rashod Bateman: Who Should I Pick Up? Fantasy Football (2026)"
+   "worst": "Brian Thomas Jr. or Rj Harvey: Who Should I Pick Up? Fantasy Football (2026)"
   },
   "brenton strange": {
    "h": [
@@ -2667,6 +2676,15 @@
    "cut": false,
    "inj": true,
    "worst": "Fantasy Football Start 'Em, Sit 'Em Picks: Emeka Egbuka, DK Metcalf, Jadarian Price, Brenton Strange"
+  },
+  "mack hollins": {
+   "h": [
+    "Mack Hollins Set for prominent Week 12 role",
+    "Mack Hollins News: Set for prominent Week 12 role"
+   ],
+   "cut": false,
+   "inj": false,
+   "worst": "Mack Hollins Set for prominent Week 12 role"
   },
   "hunter henry": {
    "h": [
@@ -2688,9 +2706,9 @@
   },
   "demario douglas": {
    "h": [
+    "DeMario Douglas Two key teammates out at WR",
     "DeMario Douglas or Omar Cooper Jr.: Who Should I Start in Week 12? Fantasy Football",
-    "Week 12 DeMario Douglas Fantasy Start or Sit 2026",
-    "Week 12 fantasy football WR start-sit: Douglas, Meyers, Mitchell, Waddle"
+    "Week 12 DeMario Douglas Fantasy Start or Sit 2026"
    ],
    "cut": false,
    "inj": true,
@@ -2698,9 +2716,9 @@
   },
   "mike evans": {
    "h": [
-    "Why the 49ers Can't Solely Rely on Mike Evans to Beat Seattle",
     "'The NFL Still Can\u2019t Decide What Is A Catch' \u2014 Parker Washington, Rashee Rice, Mike Evans and Tee Higgins Star In Comedy \u2018He Caught It, He Dropped It\u2019",
-    "Week 12 Fantasy Football Start/Sit Advice: What to do with Chase Brown, Mike Evans, more players"
+    "Week 12 Fantasy Football Start/Sit Advice: What to do with Chase Brown, Mike Evans, more players",
+    "Seahawks Told How to Handle Mike Evans Before 49ers Game"
    ],
    "cut": false,
    "inj": true,
@@ -2717,13 +2735,13 @@
   },
   "keenan allen": {
    "h": [
+    "Keenan Allen couldn\u2019t have landed in a better spot than 49ers to skyrocket HOF odds",
     "49ers\u2019 Kyle Shanahan reveals \u2018unc\u2019 package for Keenan Allen, Mike Evans",
-    "Keenan Allen returns to practice Thursday",
-    "49ers Get Keenan Allen Update Ahead of Seahawks Game"
+    "Keenan Allen returns to practice Thursday"
    ],
    "cut": false,
    "inj": false,
-   "worst": "49ers\u2019 Kyle Shanahan reveals \u2018unc\u2019 package for Keenan Allen, Mike Evans"
+   "worst": "Keenan Allen couldn\u2019t have landed in a better spot than 49ers to skyrocket HOF odds"
   },
   "jordan watkins": {
    "h": [
@@ -2767,7 +2785,7 @@
    "h": [
     "Cooper Kupp Praises Sam Darnold and Reflects on Seahawks Progress",
     "Cooper Kupp Praises Darnold Amid Rodgers Steelers Exit",
-    "Cooper Kupp Praises Darnold and Highlights Eastern Washington Ties"
+    "Cooper Kupp Praises Sam Darnold and Reflects on Seahawks Progress"
    ],
    "cut": false,
    "inj": false,
@@ -2786,6 +2804,7 @@
   "harrison wallace": {
    "h": [
     "Harrison Wallace III or Tank Bigsby: Who Should I Pick Up? Fantasy Football (2026)",
+    "Harrison Wallace III or KC Concepcion Jr.: Who Should I Start in Week 12? Fantasy Football",
     "Harrison Wallace III or Savion Williams: Who Should I Start in Week 12? Fantasy Football"
    ],
    "cut": false,
@@ -2804,7 +2823,8 @@
   },
   "simi fehoko": {
    "h": [
-    "Simi Fehoko or Tank Bigsby: Who Should I Pick Up? Fantasy Football (2026)"
+    "Simi Fehoko or Tank Bigsby: Who Should I Pick Up? Fantasy Football (2026)",
+    "Juwan Johnson or Simi Fehoko: Who Should I Start in Week 12? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
@@ -2886,30 +2906,30 @@
   },
   "jerry jeudy": {
    "h": [
-    "Jerry Jeudy or Ted Hurstiii: Who Should I Pick Up? Fantasy Football (2026)",
+    "Dezhaun Stribling or Jerry Jeudy: Who Should I Pick Up? Fantasy Football (2026)",
     "Javonte Williams or Jerry Jeudy or Ladd McConkey: Who Should I Start in Week 12? Fantasy Football"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Jerry Jeudy or Ted Hurstiii: Who Should I Pick Up? Fantasy Football (2026)"
+   "worst": "Dezhaun Stribling or Jerry Jeudy: Who Should I Pick Up? Fantasy Football (2026)"
   },
   "tez johnson": {
    "h": [
-    "Tez Johnson and Ted Hurst III: Fighting For Each Other | Bucs Players' Table"
+    "Juwan Johnson or Tez Johnson: Who Should I Start in Week 12? Fantasy Football"
    ],
    "cut": false,
-   "inj": false,
-   "worst": "Tez Johnson and Ted Hurst III: Fighting For Each Other | Bucs Players' Table"
+   "inj": true,
+   "worst": "Juwan Johnson or Tez Johnson: Who Should I Start in Week 12? Fantasy Football"
   },
   "ted hurst": {
    "h": [
-    "Ted Hurst III on Two-TD Day in Detroit: Improving Everyday | Press Conference",
     "Mayfield Tosses TD to Hurst III Before Halftime | Bucs vs. Lions Highlights",
+    "Ted Hurst III on Two-TD Day in Detroit: Improving Everyday | Press Conference",
     "Week 12 Ted Hurst III Fantasy Start or Sit 2026"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Ted Hurst III on Two-TD Day in Detroit: Improving Everyday | Press Conference"
+   "worst": "Mayfield Tosses TD to Hurst III Before Halftime | Bucs vs. Lions Highlights"
   },
   "emeka egbuka": {
    "h": [
@@ -2942,9 +2962,9 @@
   },
   "jalen coker": {
    "h": [
+    "Week 12 Jalen Coker Fantasy Start or Sit 2026",
     "NFL Week 12 Start \u2018Em, Sit \u2018Em WRs: Decisions for Drake London, Jalen Coker?",
-    "Start 'Em, Sit 'Em For Week 12 Fantasy Football Lineups: Start Deshaun Watson, Bench Jalen Coker",
-    "Jalen Coker or Omar Cooper Jr.: Who Should I Start in Week 12? Fantasy Football"
+    "Start 'Em, Sit 'Em For Week 12 Fantasy Football Lineups: Start Deshaun Watson, Bench Jalen Coker"
    ],
    "cut": true,
    "inj": true,
@@ -2952,19 +2972,19 @@
   },
   "darren waller": {
    "h": [
+    "Darren Waller (knee) limited on Friday",
     "Fantasy Football Depth Chart Debate: Darren Waller VS Tommy Tremble",
-    "Gesicki, Andrews and Waller: D Tier Fantasy Tight End Rankings",
-    "Darren Waller limited Thursday"
+    "Gesicki, Andrews and Waller: D Tier Fantasy Tight End Rankings"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Fantasy Football Depth Chart Debate: Darren Waller VS Tommy Tremble"
+   "worst": "Darren Waller (knee) limited on Friday"
   },
   "jordan love": {
    "h": [
     "Jordan Love Takes Blame After 2 INT in Packers' Loss vs. Rams in 1st-Ever Thanksgiving Eve Game",
-    "\u201cIt starts with me\u201d: Jordan Love takes full responsibility after Packers\u2019 second straight loss",
-    "Packers\u2019 Jordan Love Gets Brutally Honest After Two-Interception Game"
+    "Jordan Love Fantasy Outlook & Stats",
+    "Jordan Love stymied in second half in loss to Rams"
    ],
    "cut": false,
    "inj": false,
@@ -2972,39 +2992,39 @@
   },
   "matthew stafford": {
    "h": [
+    "Matthew Stafford Fantasy Outlook & Stats",
     "\"Roger Goodell is a Spineless Coward\": NFL Accused of Being \"Rigged\" Over Alleged Referee Bias Towards Matthew Stafford & Rams After Packers Loss",
-    "Stafford pays tribute to late Lions owner after her death at 101",
-    "Ex-Lions QB Matthew Stafford Pays Emotional Tribute to Late Martha Firestone Ford"
+    "Stafford pays tribute to late Lions owner after her death at 101"
    ],
    "cut": false,
    "inj": false,
-   "worst": "\"Roger Goodell is a Spineless Coward\": NFL Accused of Being \"Rigged\" Over Alleged Referee Bias Towards Matthew Stafford & Rams After Packers Loss"
+   "worst": "Matthew Stafford Fantasy Outlook & Stats"
   },
   "caleb williams": {
    "h": [
     "Caleb Williams Drops Epic Quote in Video After Clutch TD in Bears' Thanksgiving Win vs. Lions",
     "Caleb Williams earns bold Michael Jordan comparison",
-    "Williams wills Bears to Thanksgiving win over DET"
-   ],
-   "cut": false,
-   "inj": false,
-   "worst": "Caleb Williams Drops Epic Quote in Video After Clutch TD in Bears' Thanksgiving Win vs. Lions"
-  },
-  "patrick mahomes": {
-   "h": [
-    "Patrick Mahomes: 'We Played a Really Good Football Team Down to the Wire' | Postgame Press Conference - NFL Week 12",
-    "Brittany Mahomes\u2019 \u2018What a Joke\u2019 Rant Takes Aim at NFL Referees After Controversial Chiefs Bills Call",
-    "Brittany Mahomes Calls Overturned Call A \u2018Joke\u2019 After Chiefs\u2019 Thanksgiving Loss"
+    "How Colston Loveland's knee injury impacts Caleb Williams, Bears receiving corps"
    ],
    "cut": false,
    "inj": true,
-   "worst": "Patrick Mahomes: 'We Played a Really Good Football Team Down to the Wire' | Postgame Press Conference - NFL Week 12"
+   "worst": "How Colston Loveland's knee injury impacts Caleb Williams, Bears receiving corps"
+  },
+  "patrick mahomes": {
+   "h": [
+    "Patrick Mahomes Stands Up For Harrison Butker Amid Calls For Chiefs To Bench Him",
+    "Concerning Stat Suggests Patrick Mahomes, Chiefs Are Pretenders This Season",
+    "Patrick Mahomes: 'We Played a Really Good Football Team Down to the Wire' | Postgame Press Conference - NFL Week 12"
+   ],
+   "cut": true,
+   "inj": true,
+   "worst": "Patrick Mahomes Stands Up For Harrison Butker Amid Calls For Chiefs To Bench Him"
   },
   "josh allen": {
    "h": [
-    "Josh Allen vs. Jalen Hurts: Who Has Done More With Less?",
-    "\"Washed bum\" \"NFL is making sure it's your year\": Fans mock Josh Allen for admitting his struggles despite Bills' 7th straight win",
-    "Josh Allen injury: Sports doctor delivers bad news about Bills QB's knee as he continues to struggle after weeks"
+    "Amidst struggles, Bills' Josh Allen looks for answers",
+    "With Josh Allen struggling, Bills' defense and special teams make the difference in win over Chiefs",
+    "With Josh Allen struggling, Bills' defense and special teams make the difference in win over Chiefs"
    ],
    "cut": false,
    "inj": true,
@@ -3022,9 +3042,9 @@
   },
   "dak prescott": {
    "h": [
+    "\"The usual 'not my fault' guy\" \"Total fraud\": NFL fans blast Dak Prescott for admitting he was stunned after Cowboys' Thanksgiving loss",
     "NFL: Dak Prescott Breaks His Silence After Eagles' Epic Comeback and Drops a Bombshell Quote",
-    "Former NFL QB raises major question at Cowboys while emphasizing Dak Prescott is \"wasting his prime\"",
-    "Dak Prescott Needs to Request a Trade"
+    "Former NFL QB raises major question at Cowboys while emphasizing Dak Prescott is \"wasting his prime\""
    ],
    "cut": false,
    "inj": true,
@@ -3032,13 +3052,13 @@
   },
   "joe milton": {
    "h": [
+    "Tom Brady left \u2018speechless\u2019 by Joe Milton after historic Thanksgiving comeback vs. Cowboys",
     "Joe Milton Shines as Cowboys' Playoff Hopes Fade Fast",
-    "Joe Milton Stuns as Nick Sirianni Fuels Eagles Drama",
     "\u2018Mr. Rocket\u2019 Joe Milton breaks Next Gen Stats with explosive Eagles TDs vs. Cowboys"
    ],
    "cut": false,
    "inj": false,
-   "worst": "Joe Milton Shines as Cowboys' Playoff Hopes Fade Fast"
+   "worst": "Tom Brady left \u2018speechless\u2019 by Joe Milton after historic Thanksgiving comeback vs. Cowboys"
   },
   "justin herbert": {
    "h": [
@@ -3052,8 +3072,8 @@
   }
  },
  "qbhurt": [
-  "BUF",
   "CAR",
+  "CHI",
   "JAX",
   "LAC",
   "SF",
