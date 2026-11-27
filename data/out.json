@@ -5080,6 +5080,191 @@
    "news": ""
   },
   {
+   "game": "BALHOU",
+   "glabel": "BAL @ HOU",
+   "day": "Sun",
+   "player": "Zay Flowers",
+   "team": "BAL",
+   "opp": "HOU",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 40,
+   "ask": 83,
+   "bid": 80,
+   "vals": [
+    150.0,
+    -1,
+    84.0,
+    118.0,
+    53.0,
+    66.0,
+    137.0,
+    0.0,
+    6.0,
+    74.0,
+    97.0
+   ],
+   "over": 8,
+   "n": 11,
+   "proj": 84.8,
+   "al": [
+    [
+     1,
+     "BUF",
+     100.0
+    ],
+    [
+     2,
+     "CIN",
+     95.0
+    ],
+    [
+     3,
+     "IND",
+     20.0
+    ],
+    [
+     4,
+     "DAL",
+     189.0
+    ],
+    [
+     5,
+     "TEN",
+     53.0
+    ],
+    [
+     6,
+     "JAX",
+     83.0
+    ],
+    [
+     7,
+     "NYG",
+     111.0
+    ],
+    [
+     9,
+     "LAC",
+     58.0
+    ],
+    [
+     10,
+     "CLE",
+     74.0
+    ],
+    [
+     11,
+     "IND",
+     48.0
+    ]
+   ],
+   "dhit": 9,
+   "dn": 10,
+   "most": 8,
+   "per": 251.2,
+   "dstat": "pass yds",
+   "p": 78,
+   "roi": -6,
+   "pp": 82,
+   "hs": 70,
+   "dhs": 83,
+   "rks": 77,
+   "vs": 44,
+   "agree": 1,
+   "score": 52.3,
+   "flags": [],
+   "pc": 0.7816,
+   "praw": 0.8054,
+   "rg": "WR1",
+   "est": false,
+   "mid": 81.5,
+   "tk": "KXNFLRECYDS-26NOV29BALHOU-BALZFLOWERS4-40",
+   "ev": "KXNFLRECYDS-26NOV29BALHOU",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     0.4,
+     "BAL a 6.5-pt underdog, trailing teams throw more"
+    ],
+    [
+     -0.14,
+     "BAL projected for only 20 pts (O/U 47.5)"
+    ],
+    [
+     0.6,
+     "BAL has a top passing offense (2nd, 380 yds a game)."
+    ]
+   ],
+   "status": null,
+   "ppj": 83,
+   "pu": 81,
+   "uinfo": {
+    "qbsplit": {
+     "qb": "Jacoby Brissett",
+     "usual": "Lamar Jackson",
+     "new": 23,
+     "old": 30,
+     "n": 2
+    },
+    "share": [
+     25,
+     30,
+     34,
+     29,
+     35,
+     32,
+     19,
+     38,
+     15,
+     31
+    ],
+    "kind": "targets",
+    "snap": 75,
+    "snaps": [
+     82,
+     66,
+     88,
+     88
+    ],
+    "snap_last": 88,
+    "mu": 75.6,
+    "opp": 7.8,
+    "note": "With Brissett: only 23% of targets, down from 30% with Jackson."
+   },
+   "po": 14,
+   "pn": 17,
+   "pid": "9997",
+   "sx": 0.26,
+   "sxs": 63,
+   "mx": 0.26,
+   "mxs": 63,
+   "env": 0.34,
+   "dfac": 0.3,
+   "dfs": 65,
+   "off": 0.6,
+   "ofs": 80,
+   "cu": 69,
+   "avgm": 31.4,
+   "qf": -0.34,
+   "qfs": 33,
+   "qnote": "QB change: Jacoby Brissett starts (Lamar Jackson isn't projected to start). With him: cleared 40+ in 2 of 2 (74, 97).",
+   "qinfo": {
+    "qb": "Jacoby Brissett",
+    "same": false,
+    "with": 2,
+    "usual": "Lamar Jackson"
+   },
+   "risk": 1,
+   "tpts": 20.5,
+   "rank": 30,
+   "why": "Cleared 40+ in 8 of 11 games, by +31 on average (14 of 17 last season), Sleeper projects 84.8, HOU let 9 of 10 WR1s reach it, HOU allows the 8th most pass yds. QB change: Jacoby Brissett starts (Lamar Jackson isn't projected to start). With him: cleared 40+ in 2 of 2 (74, 97). With Brissett: only 23% of targets, down from 30% with Jackson. BAL has a top passing offense (2nd, 380 yds a game).. BAL a 6.5-pt underdog, trailing teams throw more. Watch: BAL projected for only 20 pts (O/U 47.5).",
+   "news": ""
+  },
+  {
    "game": "WASARI",
    "glabel": "WAS @ ARI",
    "day": "Sun",
@@ -5269,193 +5454,8 @@
    },
    "risk": 1,
    "tpts": 17.5,
-   "rank": 30,
-   "why": "Cleared 30+ in 11 of 11 games, by +33 on average (16 of 17 last season), Sleeper projects 58.6, WAS let 9 of 10 TE1s reach it, WAS allows the 2nd most pass yds. QB change: Carson Beck starts (Jacoby Brissett isn't projected to start). With him: cleared 30+ in 1 of 1 (37). With Beck: 29% of targets (1 game), about the same as with Brissett (30%). WAS gives up 62% more receiving yds to TE1s than average.. ARI a 6.5-pt underdog, trailing teams throw more. Watch: ARI's offense ranks 31st in passing (56 yds a game).; ARI projected for only 18 pts (O/U 41.5).",
-   "news": ""
-  },
-  {
-   "game": "BALHOU",
-   "glabel": "BAL @ HOU",
-   "day": "Sun",
-   "player": "Zay Flowers",
-   "team": "BAL",
-   "opp": "HOU",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 40,
-   "ask": 84,
-   "bid": 79,
-   "vals": [
-    150.0,
-    -1,
-    84.0,
-    118.0,
-    53.0,
-    66.0,
-    137.0,
-    0.0,
-    6.0,
-    74.0,
-    97.0
-   ],
-   "over": 8,
-   "n": 11,
-   "proj": 84.8,
-   "al": [
-    [
-     1,
-     "BUF",
-     100.0
-    ],
-    [
-     2,
-     "CIN",
-     95.0
-    ],
-    [
-     3,
-     "IND",
-     20.0
-    ],
-    [
-     4,
-     "DAL",
-     189.0
-    ],
-    [
-     5,
-     "TEN",
-     53.0
-    ],
-    [
-     6,
-     "JAX",
-     83.0
-    ],
-    [
-     7,
-     "NYG",
-     111.0
-    ],
-    [
-     9,
-     "LAC",
-     58.0
-    ],
-    [
-     10,
-     "CLE",
-     74.0
-    ],
-    [
-     11,
-     "IND",
-     48.0
-    ]
-   ],
-   "dhit": 9,
-   "dn": 10,
-   "most": 8,
-   "per": 251.2,
-   "dstat": "pass yds",
-   "p": 78,
-   "roi": -7,
-   "pp": 82,
-   "hs": 70,
-   "dhs": 83,
-   "rks": 77,
-   "vs": 43,
-   "agree": 1,
-   "score": 52.2,
-   "flags": [],
-   "pc": 0.7831,
-   "praw": 0.8054,
-   "rg": "WR1",
-   "est": false,
-   "mid": 81.5,
-   "tk": "KXNFLRECYDS-26NOV29BALHOU-BALZFLOWERS4-40",
-   "ev": "KXNFLRECYDS-26NOV29BALHOU",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     0.4,
-     "BAL a 6.5-pt underdog, trailing teams throw more"
-    ],
-    [
-     -0.14,
-     "BAL projected for only 20 pts (O/U 47.5)"
-    ],
-    [
-     0.6,
-     "BAL has a top passing offense (2nd, 380 yds a game)."
-    ]
-   ],
-   "status": null,
-   "ppj": 83,
-   "pu": 81,
-   "uinfo": {
-    "qbsplit": {
-     "qb": "Jacoby Brissett",
-     "usual": "Lamar Jackson",
-     "new": 23,
-     "old": 30,
-     "n": 2
-    },
-    "share": [
-     25,
-     30,
-     34,
-     29,
-     35,
-     32,
-     19,
-     38,
-     15,
-     31
-    ],
-    "kind": "targets",
-    "snap": 75,
-    "snaps": [
-     82,
-     66,
-     88,
-     88
-    ],
-    "snap_last": 88,
-    "mu": 75.6,
-    "opp": 7.8,
-    "note": "With Brissett: only 23% of targets, down from 30% with Jackson."
-   },
-   "po": 14,
-   "pn": 17,
-   "pid": "9997",
-   "sx": 0.26,
-   "sxs": 63,
-   "mx": 0.26,
-   "mxs": 63,
-   "env": 0.34,
-   "dfac": 0.3,
-   "dfs": 65,
-   "off": 0.6,
-   "ofs": 80,
-   "cu": 69,
-   "avgm": 31.4,
-   "qf": -0.34,
-   "qfs": 33,
-   "qnote": "QB change: Jacoby Brissett starts (Lamar Jackson isn't projected to start). With him: cleared 40+ in 2 of 2 (74, 97).",
-   "qinfo": {
-    "qb": "Jacoby Brissett",
-    "same": false,
-    "with": 2,
-    "usual": "Lamar Jackson"
-   },
-   "risk": 1,
-   "tpts": 20.5,
    "rank": 31,
-   "why": "Cleared 40+ in 8 of 11 games, by +31 on average (14 of 17 last season), Sleeper projects 84.8, HOU let 9 of 10 WR1s reach it, HOU allows the 8th most pass yds. QB change: Jacoby Brissett starts (Lamar Jackson isn't projected to start). With him: cleared 40+ in 2 of 2 (74, 97). With Brissett: only 23% of targets, down from 30% with Jackson. BAL has a top passing offense (2nd, 380 yds a game).. BAL a 6.5-pt underdog, trailing teams throw more. Watch: BAL projected for only 20 pts (O/U 47.5).",
+   "why": "Cleared 30+ in 11 of 11 games, by +33 on average (16 of 17 last season), Sleeper projects 58.6, WAS let 9 of 10 TE1s reach it, WAS allows the 2nd most pass yds. QB change: Carson Beck starts (Jacoby Brissett isn't projected to start). With him: cleared 30+ in 1 of 1 (37). With Beck: 29% of targets (1 game), about the same as with Brissett (30%). WAS gives up 62% more receiving yds to TE1s than average.. ARI a 6.5-pt underdog, trailing teams throw more. Watch: ARI's offense ranks 31st in passing (56 yds a game).; ARI projected for only 18 pts (O/U 41.5).",
    "news": ""
   },
   {
@@ -8126,6 +8126,176 @@
    "news": ""
   },
   {
+   "game": "SEASF",
+   "glabel": "SEA @ SF",
+   "day": "Sun",
+   "player": "Deebo Samuel Sr.",
+   "team": "SF",
+   "opp": "SEA",
+   "pos": "WR",
+   "role": "WR2",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 10,
+   "ask": 75,
+   "bid": 71,
+   "vals": [
+    48.0,
+    31.0,
+    80.0,
+    26.0,
+    21.0,
+    -1,
+    -1,
+    null,
+    -1,
+    31.0,
+    20.0
+   ],
+   "over": 7,
+   "n": 10,
+   "proj": 29.9,
+   "al": [
+    [
+     1,
+     "NE",
+     26.0
+    ],
+    [
+     2,
+     "ARI",
+     11.0
+    ],
+    [
+     3,
+     "WAS",
+     33.0
+    ],
+    [
+     4,
+     "LAC",
+     44.0
+    ],
+    [
+     5,
+     "SF",
+     45.0
+    ],
+    [
+     6,
+     "DEN",
+     19.0
+    ],
+    [
+     7,
+     "KC",
+     18.0
+    ],
+    [
+     8,
+     "CHI",
+     56.0
+    ],
+    [
+     9,
+     "ARI",
+     25.0
+    ],
+    [
+     10,
+     "LV",
+     10.0
+    ]
+   ],
+   "dhit": 10,
+   "dn": 10,
+   "most": 32,
+   "per": 166.2,
+   "dstat": "pass yds",
+   "p": 72,
+   "roi": -4,
+   "pp": 89,
+   "hs": 71,
+   "dhs": 92,
+   "rks": 0,
+   "vs": 46,
+   "agree": 2,
+   "score": 46.8,
+   "flags": [],
+   "pc": 0.7189,
+   "praw": 0.8285,
+   "rg": "WR2",
+   "est": false,
+   "mid": 73.0,
+   "tk": "KXNFLRECYDS-26NOV29SEASF-SFDSAMUEL19-10",
+   "ev": "KXNFLRECYDS-26NOV29SEASF",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     -0.34,
+     "SEA gives up 32% fewer receiving yds to WR2s than average."
+    ],
+    [
+     -0.02,
+     "His QB is playing hurt (injury news), so pass-game props lean on Kalshi."
+    ]
+   ],
+   "status": null,
+   "ppj": 89,
+   "pu": 90,
+   "uinfo": {
+    "share": [
+     21,
+     19,
+     0,
+     21,
+     11,
+     11,
+     15
+    ],
+    "kind": "targets",
+    "snap": 58,
+    "snaps": [
+     67,
+     43,
+     68,
+     52
+    ],
+    "snap_last": 52,
+    "mu": 31.2,
+    "opp": 3.8,
+    "note": ""
+   },
+   "po": 16,
+   "pn": 16,
+   "pid": "5872",
+   "sx": 0.0,
+   "sxs": 50,
+   "mx": -0.68,
+   "mxs": 16,
+   "env": -0.41,
+   "dfac": -0.23,
+   "dfs": 38,
+   "off": 0.09,
+   "ofs": 54,
+   "cu": 69,
+   "avgm": 15.7,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Brock Purdy",
+    "same": true,
+    "n": 10
+   },
+   "risk": 1,
+   "tpts": 23.2,
+   "rank": 47,
+   "why": "Cleared 10+ in 7 of 10 games, by +16 on average (16 of 16 last season), Sleeper projects 29.9, SEA let 10 of 10 WR2s reach it. Watch: SEA gives up 32% fewer receiving yds to WR2s than average.; His QB is playing hurt (injury news), so pass-game props lean on Kalshi..",
+   "news": ""
+  },
+  {
    "game": "DENPIT",
    "glabel": "DEN @ PIT (Fri)",
    "day": "Fri",
@@ -8303,178 +8473,8 @@
    },
    "risk": 1,
    "tpts": 16.5,
-   "rank": 47,
-   "why": "Cleared 2+ in 10 of 10 games, by +1 on average (12 of 17 last season), Sleeper projects 2.7, DEN let 9 of 10 TE1s reach it, DEN allows the 7th most pass yds. QB change: Mason Rudolph starts (Aaron Rodgers isn't projected to start). With him: cleared 2+ in 1 of 2 (1, 3). DEN gives up 21% more catches to TE1s than average.. PIT a 4.5-pt underdog, trailing teams throw more. Watch: PIT projected for only 16 pts (O/U 37.5).",
-   "news": ""
-  },
-  {
-   "game": "SEASF",
-   "glabel": "SEA @ SF",
-   "day": "Sun",
-   "player": "Deebo Samuel Sr.",
-   "team": "SF",
-   "opp": "SEA",
-   "pos": "WR",
-   "role": "WR2",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 10,
-   "ask": 76,
-   "bid": 71,
-   "vals": [
-    48.0,
-    31.0,
-    80.0,
-    26.0,
-    21.0,
-    -1,
-    -1,
-    null,
-    -1,
-    31.0,
-    20.0
-   ],
-   "over": 7,
-   "n": 10,
-   "proj": 29.9,
-   "al": [
-    [
-     1,
-     "NE",
-     26.0
-    ],
-    [
-     2,
-     "ARI",
-     11.0
-    ],
-    [
-     3,
-     "WAS",
-     33.0
-    ],
-    [
-     4,
-     "LAC",
-     44.0
-    ],
-    [
-     5,
-     "SF",
-     45.0
-    ],
-    [
-     6,
-     "DEN",
-     19.0
-    ],
-    [
-     7,
-     "KC",
-     18.0
-    ],
-    [
-     8,
-     "CHI",
-     56.0
-    ],
-    [
-     9,
-     "ARI",
-     25.0
-    ],
-    [
-     10,
-     "LV",
-     10.0
-    ]
-   ],
-   "dhit": 10,
-   "dn": 10,
-   "most": 32,
-   "per": 166.2,
-   "dstat": "pass yds",
-   "p": 72,
-   "roi": -5,
-   "pp": 89,
-   "hs": 71,
-   "dhs": 92,
-   "rks": 0,
-   "vs": 45,
-   "agree": 2,
-   "score": 46.7,
-   "flags": [],
-   "pc": 0.7236,
-   "praw": 0.8285,
-   "rg": "WR2",
-   "est": false,
-   "mid": 73.5,
-   "tk": "KXNFLRECYDS-26NOV29SEASF-SFDSAMUEL19-10",
-   "ev": "KXNFLRECYDS-26NOV29SEASF",
-   "ctx": 0,
-   "cxs": 50,
-   "reasons": [
-    [
-     -0.34,
-     "SEA gives up 32% fewer receiving yds to WR2s than average."
-    ],
-    [
-     -0.02,
-     "His QB is playing hurt (injury news), so pass-game props lean on Kalshi."
-    ]
-   ],
-   "status": null,
-   "ppj": 89,
-   "pu": 90,
-   "uinfo": {
-    "share": [
-     21,
-     19,
-     0,
-     21,
-     11,
-     11,
-     15
-    ],
-    "kind": "targets",
-    "snap": 58,
-    "snaps": [
-     67,
-     43,
-     68,
-     52
-    ],
-    "snap_last": 52,
-    "mu": 31.2,
-    "opp": 3.8,
-    "note": ""
-   },
-   "po": 16,
-   "pn": 16,
-   "pid": "5872",
-   "sx": 0.0,
-   "sxs": 50,
-   "mx": -0.68,
-   "mxs": 16,
-   "env": -0.41,
-   "dfac": -0.23,
-   "dfs": 38,
-   "off": 0.09,
-   "ofs": 54,
-   "cu": 69,
-   "avgm": 15.7,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Brock Purdy",
-    "same": true,
-    "n": 10
-   },
-   "risk": 1,
-   "tpts": 23.2,
    "rank": 48,
-   "why": "Cleared 10+ in 7 of 10 games, by +16 on average (16 of 16 last season), Sleeper projects 29.9, SEA let 10 of 10 WR2s reach it. Watch: SEA gives up 32% fewer receiving yds to WR2s than average.; His QB is playing hurt (injury news), so pass-game props lean on Kalshi..",
+   "why": "Cleared 2+ in 10 of 10 games, by +1 on average (12 of 17 last season), Sleeper projects 2.7, DEN let 9 of 10 TE1s reach it, DEN allows the 7th most pass yds. QB change: Mason Rudolph starts (Aaron Rodgers isn't projected to start). With him: cleared 2+ in 1 of 2 (1, 3). DEN gives up 21% more catches to TE1s than average.. PIT a 4.5-pt underdog, trailing teams throw more. Watch: PIT projected for only 16 pts (O/U 37.5).",
    "news": ""
   },
   {
@@ -9435,10 +9435,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 37,
-   "q": 35.5,
-   "p": 0.3735,
-   "sc": 16.1,
+   "ask": 40,
+   "q": 37.0,
+   "p": 0.3864,
+   "sc": 15.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV29BALHOU-HOUXHUTCHINSON19-40",
    "ev": "KXNFLRECYDS-26NOV29BALHOU",
@@ -10335,9 +10335,9 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 30,
-   "ask": 38,
-   "q": 36.0,
-   "p": 0.3483,
+   "ask": 37,
+   "q": 35.5,
+   "p": 0.3436,
    "sc": 7.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV29SEASF-SFDSAMUEL19-30",
@@ -10435,10 +10435,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 10,
-   "ask": 76,
-   "q": 73.5,
-   "p": 0.7236,
-   "sc": 46.7,
+   "ask": 75,
+   "q": 73.0,
+   "p": 0.7189,
+   "sc": 46.8,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV29SEASF-SFDSAMUEL19-10",
    "ev": "KXNFLRECYDS-26NOV29SEASF",
@@ -11212,6 +11212,78 @@
     ]
    },
    {
+    "key": "trevor lawrence",
+    "pl": "Trevor Lawrence",
+    "tm": "JAX",
+    "opp": "TEN",
+    "pos": "QB",
+    "role": "QB",
+    "g": "TENJAX",
+    "gl": "TEN @ JAX",
+    "dy": "Sun",
+    "id": "7523",
+    "lam": 0.43,
+    "pm": 0.349,
+    "p": 0.652,
+    "q": 95.5,
+    "ask": 97,
+    "tk": "KXNFLPASSTDSPROT-26NOV29TENJAC-JACTLAWRENCE16-1",
+    "ev": "KXNFLPASSTDSPROT-26NOV29TENJAC",
+    "tds": 0,
+    "n": 10,
+    "games_td": 0,
+    "ptd": 9.0,
+    "pn": 17,
+    "rz": 3,
+    "tdsh": 8,
+    "ts": null,
+    "tdr": 0.0,
+    "tpg": 2.8,
+    "pts": 31.5,
+    "sp": -14.5,
+    "tot": 48.5,
+    "d": {
+     "td": 4.0,
+     "n": 10,
+     "rank": 3,
+     "nteams": 32,
+     "ltd": 3.0,
+     "lrank": 19,
+     "leak": false,
+     "recent": [
+      0,
+      1.0
+     ]
+    },
+    "dfac": 1.34,
+    "debt": 0.8,
+    "hist": true,
+    "inj": "News",
+    "news": "Tommy DeVito or Trevor Lawrence: Who Should I Start in Week 12? Fantasy Football",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 200,
+     "p": 0.8,
+     "ask": 85,
+     "sc": 55.2
+    },
+    "tags": [
+     "Soft TD defense",
+     "Shootout script",
+     "Favored"
+    ],
+    "low": false,
+    "score": 62.8,
+    "why": [
+     "TEN has allowed 4.0 QB TDs in 10 games (3rd most); 3.0 all last season.",
+     "3% red-zone role, 2.8 touches a game.",
+     "No TDs yet in 10 games (9.0 in 17 last season).",
+     "JAX projected for 32 pts (O/U 48.5, favored by 14.5).",
+     "Injury news: Tommy DeVito or Trevor Lawrence: Who Should I Start in Week 12? Fantasy Football",
+     "Kalshi 96\u00a2 vs model 35%."
+    ]
+   },
+   {
     "key": "quinshon judkins",
     "pl": "Quinshon Judkins",
     "tm": "CLE",
@@ -11286,78 +11358,6 @@
      "CLE projected for 22 pts (O/U 39.5, favored by 4.5).",
      "Due: 1.6 TD debt (his role says he should have scored more).",
      "Injury news: Jashaun Corbin or Quinshon Judkins: Who Should I Start in Week 12? Fantasy Football"
-    ]
-   },
-   {
-    "key": "trevor lawrence",
-    "pl": "Trevor Lawrence",
-    "tm": "JAX",
-    "opp": "TEN",
-    "pos": "QB",
-    "role": "QB",
-    "g": "TENJAX",
-    "gl": "TEN @ JAX",
-    "dy": "Sun",
-    "id": "7523",
-    "lam": 0.43,
-    "pm": 0.349,
-    "p": 0.64,
-    "q": 93.0,
-    "ask": 95,
-    "tk": "KXNFLPASSTDS-26NOV29TENJAC-JACTLAWRENCE16-1",
-    "ev": "KXNFLPASSTDS-26NOV29TENJAC",
-    "tds": 0,
-    "n": 10,
-    "games_td": 0,
-    "ptd": 9.0,
-    "pn": 17,
-    "rz": 3,
-    "tdsh": 8,
-    "ts": null,
-    "tdr": 0.0,
-    "tpg": 2.8,
-    "pts": 31.5,
-    "sp": -14.5,
-    "tot": 48.5,
-    "d": {
-     "td": 4.0,
-     "n": 10,
-     "rank": 3,
-     "nteams": 32,
-     "ltd": 3.0,
-     "lrank": 19,
-     "leak": false,
-     "recent": [
-      0,
-      1.0
-     ]
-    },
-    "dfac": 1.34,
-    "debt": 0.8,
-    "hist": true,
-    "inj": "News",
-    "news": "Tommy DeVito or Trevor Lawrence: Who Should I Start in Week 12? Fantasy Football",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 200,
-     "p": 0.8,
-     "ask": 85,
-     "sc": 55.2
-    },
-    "tags": [
-     "Soft TD defense",
-     "Shootout script",
-     "Favored"
-    ],
-    "low": false,
-    "score": 62.8,
-    "why": [
-     "TEN has allowed 4.0 QB TDs in 10 games (3rd most); 3.0 all last season.",
-     "3% red-zone role, 2.8 touches a game.",
-     "No TDs yet in 10 games (9.0 in 17 last season).",
-     "JAX projected for 32 pts (O/U 48.5, favored by 14.5).",
-     "Injury news: Tommy DeVito or Trevor Lawrence: Who Should I Start in Week 12? Fantasy Football",
-     "Kalshi 93\u00a2 vs model 35%."
     ]
    },
    {
@@ -11647,6 +11647,77 @@
     ]
    },
    {
+    "key": "jayden daniels",
+    "pl": "Jayden Daniels",
+    "tm": "WAS",
+    "opp": "ARI",
+    "pos": "QB",
+    "role": "QB",
+    "g": "WASARI",
+    "gl": "WAS @ ARI",
+    "dy": "Sun",
+    "id": "11566",
+    "lam": 0.24,
+    "pm": 0.21,
+    "p": 0.553,
+    "q": 89.5,
+    "ask": 91,
+    "tk": "KXNFLPASSTDSPROT-26NOV29WASARI-WASJDANIELS5-1",
+    "ev": "KXNFLPASSTDSPROT-26NOV29WASARI",
+    "tds": 2.0,
+    "n": 8,
+    "games_td": 1,
+    "ptd": 2.0,
+    "pn": 7,
+    "rz": 11,
+    "tdsh": 7,
+    "ts": null,
+    "tdr": 4.2,
+    "tpg": 6.0,
+    "pts": 24.0,
+    "sp": -6.5,
+    "tot": 41.5,
+    "d": {
+     "td": 3.0,
+     "n": 11,
+     "rank": 7,
+     "nteams": 32,
+     "ltd": 2.0,
+     "lrank": 23,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 1.06,
+    "debt": -0.5,
+    "hist": true,
+    "inj": "News",
+    "news": "\"Things happen, and we move on\": Jayden Daniels speaks out about playing with Brandon Aiyuk as Commanders sign WR despite offseason beef",
+    "prop": {
+     "pr": "Rushing Yards",
+     "ln": 10,
+     "p": 0.842,
+     "ask": 89,
+     "sc": 62.9
+    },
+    "tags": [
+     "Soft TD defense",
+     "Favored"
+    ],
+    "low": false,
+    "score": 57.0,
+    "why": [
+     "ARI has allowed 3.0 QB TDs in 11 games (7th most); 2.0 all last season.",
+     "11% red-zone role, 4.2% TD rate, 6 touches a game.",
+     "2.0 TDs in 8 games, scored in 1 (2.0 in 7 last season).",
+     "WAS projected for 24 pts (O/U 41.5, favored by 6.5).",
+     "Injury news: \"Things happen, and we move on\": Jayden Daniels speaks out about playing with Brandon Aiyuk as Commanders sign WR despite offseason beef",
+     "Kalshi 90\u00a2 vs model 21%."
+    ]
+   },
+   {
     "key": "ollie gordon",
     "pl": "Ollie Gordon II",
     "tm": "MIA",
@@ -11727,9 +11798,9 @@
     "pm": 0.128,
     "p": 0.534,
     "q": 94.0,
-    "ask": 95,
-    "tk": "KXNFLPASSTDS-26NOV29NOCIN-CINJBURROW9-1",
-    "ev": "KXNFLPASSTDS-26NOV29NOCIN",
+    "ask": 98,
+    "tk": "KXNFLPASSTDSPROT-26NOV29NOCIN-CINJBURROW9-1",
+    "ev": "KXNFLPASSTDSPROT-26NOV29NOCIN",
     "tds": 3.0,
     "n": 10,
     "games_td": 3,
@@ -11849,77 +11920,6 @@
      "HOU projected for 27 pts (O/U 47.5, favored by 6.5).",
      "Due: 2.6 TD debt (his role says he should have scored more).",
      "Injury: listed questionable."
-    ]
-   },
-   {
-    "key": "jayden daniels",
-    "pl": "Jayden Daniels",
-    "tm": "WAS",
-    "opp": "ARI",
-    "pos": "QB",
-    "role": "QB",
-    "g": "WASARI",
-    "gl": "WAS @ ARI",
-    "dy": "Sun",
-    "id": "11566",
-    "lam": 0.24,
-    "pm": 0.21,
-    "p": 0.525,
-    "q": 84.0,
-    "ask": 87,
-    "tk": "KXNFLPASSTDS-26NOV29WASARI-WASJDANIELS5-1",
-    "ev": "KXNFLPASSTDS-26NOV29WASARI",
-    "tds": 2.0,
-    "n": 8,
-    "games_td": 1,
-    "ptd": 2.0,
-    "pn": 7,
-    "rz": 11,
-    "tdsh": 7,
-    "ts": null,
-    "tdr": 4.2,
-    "tpg": 6.0,
-    "pts": 24.0,
-    "sp": -6.5,
-    "tot": 41.5,
-    "d": {
-     "td": 3.0,
-     "n": 11,
-     "rank": 7,
-     "nteams": 32,
-     "ltd": 2.0,
-     "lrank": 23,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 1.06,
-    "debt": -0.5,
-    "hist": true,
-    "inj": "News",
-    "news": "\"Things happen, and we move on\": Jayden Daniels speaks out about playing with Brandon Aiyuk as Commanders sign WR despite offseason beef",
-    "prop": {
-     "pr": "Rushing Yards",
-     "ln": 10,
-     "p": 0.842,
-     "ask": 89,
-     "sc": 62.9
-    },
-    "tags": [
-     "Soft TD defense",
-     "Favored"
-    ],
-    "low": false,
-    "score": 57.0,
-    "why": [
-     "ARI has allowed 3.0 QB TDs in 11 games (7th most); 2.0 all last season.",
-     "11% red-zone role, 4.2% TD rate, 6 touches a game.",
-     "2.0 TDs in 8 games, scored in 1 (2.0 in 7 last season).",
-     "WAS projected for 24 pts (O/U 41.5, favored by 6.5).",
-     "Injury news: \"Things happen, and we move on\": Jayden Daniels speaks out about playing with Brandon Aiyuk as Commanders sign WR despite offseason beef",
-     "Kalshi 84\u00a2 vs model 21%."
     ]
    },
    {
@@ -12063,6 +12063,144 @@
     ]
    },
    {
+    "key": "bryce young",
+    "pl": "Bryce Young",
+    "tm": "CAR",
+    "opp": "TB",
+    "pos": "QB",
+    "role": "QB",
+    "g": "CARTB",
+    "gl": "CAR @ TB (Mon)",
+    "dy": "Mon",
+    "id": "9228",
+    "lam": 0.11,
+    "pm": 0.101,
+    "p": 0.508,
+    "q": 91.5,
+    "ask": 93,
+    "tk": "KXNFLPASSTDSPROT-26NOV30CARTB-CARBYOUNG9-1",
+    "ev": "KXNFLPASSTDSPROT-26NOV30CARTB",
+    "tds": 1.0,
+    "n": 10,
+    "games_td": 1,
+    "ptd": 2.0,
+    "pn": 16,
+    "rz": 7,
+    "tdsh": 5,
+    "ts": null,
+    "tdr": 7.1,
+    "tpg": 1.4,
+    "pts": 20.2,
+    "sp": 3.0,
+    "tot": 43.5,
+    "d": {
+     "td": 0,
+     "n": 10,
+     "rank": 32,
+     "nteams": 32,
+     "ltd": 6.0,
+     "lrank": 4,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.92,
+    "debt": 0.0,
+    "hist": true,
+    "inj": "News",
+    "news": "Panthers QB Bryce Young gets crucial injury update for Buccaneers game",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.844,
+     "ask": 92,
+     "sc": 58.2
+    },
+    "tags": [],
+    "low": true,
+    "score": 37.2,
+    "why": [
+     "TB has allowed 0 QB TDs in 10 games (32nd most); 6.0 all last season (4th most).",
+     "7% red-zone role, 7.1% TD rate, 1.4 touches a game.",
+     "1.0 TD in 10 games, scored in 1 (2.0 in 16 last season).",
+     "Low total: CAR projected for 20 pts (O/U 43.5, 3-pt underdog).",
+     "Injury news: Panthers QB Bryce Young gets crucial injury update for Buccaneers game",
+     "Kalshi 92\u00a2 vs model 10%."
+    ]
+   },
+   {
+    "key": "brock purdy",
+    "pl": "Brock Purdy",
+    "tm": "SF",
+    "opp": "SEA",
+    "pos": "QB",
+    "role": "QB",
+    "g": "SEASF",
+    "gl": "SEA @ SF",
+    "dy": "Sun",
+    "id": "8183",
+    "lam": 0.14,
+    "pm": 0.127,
+    "p": 0.506,
+    "q": 88.5,
+    "ask": 90,
+    "tk": "KXNFLPASSTDSPROT-26NOV29SEASF-SFBPURDY13-1",
+    "ev": "KXNFLPASSTDSPROT-26NOV29SEASF",
+    "tds": 2.0,
+    "n": 10,
+    "games_td": 2,
+    "ptd": 3.0,
+    "pn": 9,
+    "rz": 9,
+    "tdsh": 6,
+    "ts": null,
+    "tdr": 4.9,
+    "tpg": 4.1,
+    "pts": 23.2,
+    "sp": -3.0,
+    "tot": 43.5,
+    "d": {
+     "td": 1.0,
+     "n": 10,
+     "rank": 23,
+     "nteams": 32,
+     "ltd": 3.0,
+     "lrank": 17,
+     "leak": false,
+     "recent": [
+      0,
+      1.0
+     ]
+    },
+    "dfac": 0.83,
+    "debt": -0.5,
+    "hist": true,
+    "inj": "Questionable",
+    "news": "NFL injury tracker Week 12: Latest news, fantasy implications as Brock Purdy (ankle) misses practice again; Justin Herbert (concussion) remains in protocol",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.825,
+     "ask": 89,
+     "sc": 47.0
+    },
+    "tags": [
+     "Favored"
+    ],
+    "low": false,
+    "score": 41.0,
+    "why": [
+     "SEA has allowed 1.0 QB TD in 10 games (23rd most); 3.0 all last season.",
+     "9% red-zone role, 4.9% TD rate, 4.1 touches a game.",
+     "2.0 TDs in 10 games, scored in 2 (3.0 in 9 last season).",
+     "SF projected for 23 pts (O/U 43.5, favored by 3).",
+     "Injury news: NFL injury tracker Week 12: Latest news, fantasy implications as Brock Purdy (ankle) misses practice again; Justin Herbert (concussion) remains in protocol",
+     "Kalshi 88\u00a2 vs model 13%."
+    ]
+   },
+   {
     "key": "bijan robinson",
     "pl": "Bijan Robinson",
     "tm": "ATL",
@@ -12130,6 +12268,76 @@
      "43% red-zone role, 16% target share, 3% TD rate, 23 touches a game.",
      "7.0 TDs in 10 games, scored in 5 (11.0 in 17 last season).",
      "Low total: ATL projected for 17 pts (O/U 41.5, 7-pt underdog)."
+    ]
+   },
+   {
+    "key": "tyler shough",
+    "pl": "Tyler Shough",
+    "tm": "NO",
+    "opp": "CIN",
+    "pos": "QB",
+    "role": "QB",
+    "g": "NOCIN",
+    "gl": "NO @ CIN",
+    "dy": "Sun",
+    "id": "12545",
+    "lam": 0.21,
+    "pm": 0.187,
+    "p": 0.491,
+    "q": 79.5,
+    "ask": 81,
+    "tk": "KXNFLPASSTDSPROT-26NOV29NOCIN-NOTSHOUGH6-1",
+    "ev": "KXNFLPASSTDSPROT-26NOV29NOCIN",
+    "tds": 2.0,
+    "n": 10,
+    "games_td": 2,
+    "ptd": 3.0,
+    "pn": 11,
+    "rz": 13,
+    "tdsh": 9,
+    "ts": null,
+    "tdr": 4.7,
+    "tpg": 4.3,
+    "pts": 19.8,
+    "sp": 10.0,
+    "tot": 49.5,
+    "d": {
+     "td": 2.0,
+     "n": 10,
+     "rank": 12,
+     "nteams": 32,
+     "ltd": 2.0,
+     "lrank": 22,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.92,
+    "debt": -0.1,
+    "hist": true,
+    "inj": "News",
+    "news": "Mason Rudolph or Tyler Shough: Who Should I Start in Week 12? Fantasy Football",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 175,
+     "p": 0.802,
+     "ask": 85,
+     "sc": 46.9
+    },
+    "tags": [
+     "Shootout script"
+    ],
+    "low": true,
+    "score": 50.2,
+    "why": [
+     "CIN has allowed 2.0 QB TDs in 10 games (12th most); 2.0 all last season.",
+     "13% red-zone role, 4.7% TD rate, 4.3 touches a game.",
+     "2.0 TDs in 10 games, scored in 2 (3.0 in 11 last season).",
+     "Low total: NO projected for 20 pts (O/U 49.5, 10-pt underdog).",
+     "Injury news: Mason Rudolph or Tyler Shough: Who Should I Start in Week 12? Fantasy Football",
+     "Kalshi 80\u00a2 vs model 19%."
     ]
    },
    {
@@ -12209,6 +12417,75 @@
     ]
    },
    {
+    "key": "anthony richardson",
+    "pl": "Anthony Richardson Sr.",
+    "tm": "IND",
+    "opp": "NYG",
+    "pos": "QB",
+    "role": "QB",
+    "g": "NYGIND",
+    "gl": "NYG @ IND",
+    "dy": "Sun",
+    "id": "9229",
+    "lam": 0.01,
+    "pm": 0.013,
+    "p": 0.489,
+    "q": 96.5,
+    "ask": 98,
+    "tk": "KXNFLPASSTDSPROT-26NOV29NYGIND-INDARICHARDSON5-1",
+    "ev": "KXNFLPASSTDSPROT-26NOV29NYGIND",
+    "tds": 0,
+    "n": 2,
+    "games_td": 0,
+    "ptd": 0,
+    "pn": 2,
+    "rz": 0,
+    "tdsh": 0,
+    "ts": null,
+    "tdr": 0.0,
+    "tpg": 1.5,
+    "pts": 17.8,
+    "sp": 6.0,
+    "tot": 41.5,
+    "d": {
+     "td": 3.0,
+     "n": 10,
+     "rank": 5,
+     "nteams": 32,
+     "ltd": 5.0,
+     "lrank": 6,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 1.34,
+    "debt": 0.0,
+    "hist": true,
+    "inj": null,
+    "news": null,
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 100,
+     "p": 0.743,
+     "ask": 88,
+     "sc": 28.9
+    },
+    "tags": [
+     "Soft TD defense"
+    ],
+    "low": true,
+    "score": 26.9,
+    "why": [
+     "NYG has allowed 3.0 QB TDs in 10 games (5th most); 5.0 all last season (6th most).",
+     "0% red-zone role, 1.5 touches a game.",
+     "No TDs yet in 2 games (0 in 2 last season).",
+     "Low total: IND projected for 18 pts (O/U 41.5, 6-pt underdog).",
+     "Kalshi 96\u00a2 vs model 1%."
+    ]
+   },
+   {
     "key": "braelon allen",
     "pl": "Braelon Allen",
     "tm": "NYJ",
@@ -12285,72 +12562,142 @@
     ]
    },
    {
-    "key": "tyler shough",
-    "pl": "Tyler Shough",
-    "tm": "NO",
-    "opp": "CIN",
+    "key": "baker mayfield",
+    "pl": "Baker Mayfield",
+    "tm": "TB",
+    "opp": "CAR",
     "pos": "QB",
     "role": "QB",
-    "g": "NOCIN",
-    "gl": "NO @ CIN",
-    "dy": "Sun",
-    "id": "12545",
-    "lam": 0.21,
-    "pm": 0.187,
-    "p": 0.473,
-    "q": 76.0,
-    "ask": 77,
-    "tk": "KXNFLPASSTDS-26NOV29NOCIN-NOTSHOUGH6-1",
-    "ev": "KXNFLPASSTDS-26NOV29NOCIN",
-    "tds": 2.0,
-    "n": 10,
-    "games_td": 2,
-    "ptd": 3.0,
-    "pn": 11,
-    "rz": 13,
-    "tdsh": 9,
+    "g": "CARTB",
+    "gl": "CAR @ TB (Mon)",
+    "dy": "Mon",
+    "id": "4892",
+    "lam": 0.12,
+    "pm": 0.113,
+    "p": 0.484,
+    "q": 85.5,
+    "ask": 87,
+    "tk": "KXNFLPASSTDSPROT-26NOV30CARTB-TBBMAYFIELD6-1",
+    "ev": "KXNFLPASSTDSPROT-26NOV30CARTB",
+    "tds": 1.0,
+    "n": 7,
+    "games_td": 1,
+    "ptd": 1.0,
+    "pn": 17,
+    "rz": 6,
+    "tdsh": 4,
     "ts": null,
-    "tdr": 4.7,
-    "tpg": 4.3,
-    "pts": 19.8,
-    "sp": 10.0,
-    "tot": 49.5,
+    "tdr": 4.3,
+    "tpg": 3.3,
+    "pts": 23.2,
+    "sp": -3.0,
+    "tot": 43.5,
     "d": {
      "td": 2.0,
      "n": 10,
-     "rank": 12,
+     "rank": 11,
      "nteams": 32,
-     "ltd": 2.0,
-     "lrank": 22,
+     "ltd": 3.0,
+     "lrank": 15,
      "leak": false,
      "recent": [
       0,
       0
      ]
     },
-    "dfac": 0.92,
-    "debt": -0.1,
+    "dfac": 1.01,
+    "debt": 0.0,
     "hist": true,
     "inj": "News",
-    "news": "Mason Rudolph or Tyler Shough: Who Should I Start in Week 12? Fantasy Football",
+    "news": "Buccaneers Get Baker Mayfield Injury Update Ahead of Panthers Game",
     "prop": {
      "pr": "Passing Yards",
-     "ln": 175,
-     "p": 0.802,
-     "ask": 85,
-     "sc": 46.9
+     "ln": 150,
+     "p": 0.733,
+     "ask": 80,
+     "sc": 29.7
     },
     "tags": [
-     "Shootout script"
+     "Favored"
     ],
-    "low": true,
-    "score": 50.2,
+    "low": false,
+    "score": 42.8,
     "why": [
-     "CIN has allowed 2.0 QB TDs in 10 games (12th most); 2.0 all last season.",
-     "13% red-zone role, 4.7% TD rate, 4.3 touches a game.",
-     "2.0 TDs in 10 games, scored in 2 (3.0 in 11 last season).",
-     "Low total: NO projected for 20 pts (O/U 49.5, 10-pt underdog).",
-     "Injury news: Mason Rudolph or Tyler Shough: Who Should I Start in Week 12? Fantasy Football",
+     "CAR has allowed 2.0 QB TDs in 10 games (11th most); 3.0 all last season.",
+     "6% red-zone role, 4.3% TD rate, 3.3 touches a game.",
+     "1.0 TD in 7 games, scored in 1 (1.0 in 17 last season).",
+     "TB projected for 23 pts (O/U 43.5, favored by 3).",
+     "Injury news: Buccaneers Get Baker Mayfield Injury Update Ahead of Panthers Game",
+     "Kalshi 86\u00a2 vs model 11%."
+    ]
+   },
+   {
+    "key": "bo nix",
+    "pl": "Bo Nix",
+    "tm": "DEN",
+    "opp": "PIT",
+    "pos": "QB",
+    "role": "QB",
+    "g": "DENPIT",
+    "gl": "DEN @ PIT (Fri)",
+    "dy": "Fri",
+    "id": "11563",
+    "lam": 0.21,
+    "pm": 0.191,
+    "p": 0.473,
+    "q": 75.5,
+    "ask": 77,
+    "tk": "KXNFLPASSTDSPROT-26NOV27DENPIT-DENBNIX10-1",
+    "ev": "KXNFLPASSTDSPROT-26NOV27DENPIT",
+    "tds": 2.0,
+    "n": 10,
+    "games_td": 2,
+    "ptd": 5.0,
+    "pn": 17,
+    "rz": 11,
+    "tdsh": 10,
+    "ts": null,
+    "tdr": 4.7,
+    "tpg": 4.3,
+    "pts": 21.0,
+    "sp": -4.5,
+    "tot": 37.5,
+    "d": {
+     "td": 0,
+     "n": 10,
+     "rank": 31,
+     "nteams": 32,
+     "ltd": 5.0,
+     "lrank": 8,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.83,
+    "debt": -0.3,
+    "hist": true,
+    "inj": "News",
+    "news": "Avoid Starting Bo Nix In Fantasy Football?",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 150,
+     "p": 0.728,
+     "ask": 81,
+     "sc": 37.1
+    },
+    "tags": [
+     "Favored"
+    ],
+    "low": false,
+    "score": 47.5,
+    "why": [
+     "PIT has allowed 0 QB TDs in 10 games (31st most); 5.0 all last season (8th most).",
+     "11% red-zone role, 4.7% TD rate, 4.3 touches a game.",
+     "2.0 TDs in 10 games, scored in 2 (5.0 in 17 last season).",
+     "DEN projected for 21 pts (O/U 37.5, favored by 4.5).",
+     "Injury news: Avoid Starting Bo Nix In Fantasy Football?",
      "Kalshi 76\u00a2 vs model 19%."
     ]
    },
@@ -12423,284 +12770,6 @@
      "5.0 TDs in 11 games, scored in 4 (10.0 in 17 last season).",
      "Low total: LV projected for 18 pts (O/U 39.5, 4.5-pt underdog).",
      "Due: 3.2 TD debt (his role says he should have scored more)."
-    ]
-   },
-   {
-    "key": "bo nix",
-    "pl": "Bo Nix",
-    "tm": "DEN",
-    "opp": "PIT",
-    "pos": "QB",
-    "role": "QB",
-    "g": "DENPIT",
-    "gl": "DEN @ PIT (Fri)",
-    "dy": "Fri",
-    "id": "11563",
-    "lam": 0.21,
-    "pm": 0.191,
-    "p": 0.468,
-    "q": 74.5,
-    "ask": 75,
-    "tk": "KXNFLPASSTDS-26NOV27DENPIT-DENBNIX10-1",
-    "ev": "KXNFLPASSTDS-26NOV27DENPIT",
-    "tds": 2.0,
-    "n": 10,
-    "games_td": 2,
-    "ptd": 5.0,
-    "pn": 17,
-    "rz": 11,
-    "tdsh": 10,
-    "ts": null,
-    "tdr": 4.7,
-    "tpg": 4.3,
-    "pts": 21.0,
-    "sp": -4.5,
-    "tot": 37.5,
-    "d": {
-     "td": 0,
-     "n": 10,
-     "rank": 31,
-     "nteams": 32,
-     "ltd": 5.0,
-     "lrank": 8,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.83,
-    "debt": -0.3,
-    "hist": true,
-    "inj": "News",
-    "news": "Avoid Starting Bo Nix In Fantasy Football?",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.728,
-     "ask": 81,
-     "sc": 37.1
-    },
-    "tags": [
-     "Favored"
-    ],
-    "low": false,
-    "score": 47.5,
-    "why": [
-     "PIT has allowed 0 QB TDs in 10 games (31st most); 5.0 all last season (8th most).",
-     "11% red-zone role, 4.7% TD rate, 4.3 touches a game.",
-     "2.0 TDs in 10 games, scored in 2 (5.0 in 17 last season).",
-     "DEN projected for 21 pts (O/U 37.5, favored by 4.5).",
-     "Injury news: Avoid Starting Bo Nix In Fantasy Football?",
-     "Kalshi 74\u00a2 vs model 19%."
-    ]
-   },
-   {
-    "key": "baker mayfield",
-    "pl": "Baker Mayfield",
-    "tm": "TB",
-    "opp": "CAR",
-    "pos": "QB",
-    "role": "QB",
-    "g": "CARTB",
-    "gl": "CAR @ TB (Mon)",
-    "dy": "Mon",
-    "id": "4892",
-    "lam": 0.12,
-    "pm": 0.113,
-    "p": 0.462,
-    "q": 81.0,
-    "ask": 84,
-    "tk": "KXNFLPASSTDS-26NOV30CARTB-TBBMAYFIELD6-1",
-    "ev": "KXNFLPASSTDS-26NOV30CARTB",
-    "tds": 1.0,
-    "n": 7,
-    "games_td": 1,
-    "ptd": 1.0,
-    "pn": 17,
-    "rz": 6,
-    "tdsh": 4,
-    "ts": null,
-    "tdr": 4.3,
-    "tpg": 3.3,
-    "pts": 23.2,
-    "sp": -3.0,
-    "tot": 43.5,
-    "d": {
-     "td": 2.0,
-     "n": 10,
-     "rank": 11,
-     "nteams": 32,
-     "ltd": 3.0,
-     "lrank": 15,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 1.01,
-    "debt": 0.0,
-    "hist": true,
-    "inj": "News",
-    "news": "Buccaneers Get Baker Mayfield Injury Update Ahead of Panthers Game",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.733,
-     "ask": 80,
-     "sc": 29.7
-    },
-    "tags": [
-     "Favored"
-    ],
-    "low": false,
-    "score": 42.8,
-    "why": [
-     "CAR has allowed 2.0 QB TDs in 10 games (11th most); 3.0 all last season.",
-     "6% red-zone role, 4.3% TD rate, 3.3 touches a game.",
-     "1.0 TD in 7 games, scored in 1 (1.0 in 17 last season).",
-     "TB projected for 23 pts (O/U 43.5, favored by 3).",
-     "Injury news: Buccaneers Get Baker Mayfield Injury Update Ahead of Panthers Game",
-     "Kalshi 81\u00a2 vs model 11%."
-    ]
-   },
-   {
-    "key": "bryce young",
-    "pl": "Bryce Young",
-    "tm": "CAR",
-    "opp": "TB",
-    "pos": "QB",
-    "role": "QB",
-    "g": "CARTB",
-    "gl": "CAR @ TB (Mon)",
-    "dy": "Mon",
-    "id": "9228",
-    "lam": 0.11,
-    "pm": 0.101,
-    "p": 0.458,
-    "q": 81.5,
-    "ask": 85,
-    "tk": "KXNFLPASSTDS-26NOV30CARTB-CARBYOUNG9-1",
-    "ev": "KXNFLPASSTDS-26NOV30CARTB",
-    "tds": 1.0,
-    "n": 10,
-    "games_td": 1,
-    "ptd": 2.0,
-    "pn": 16,
-    "rz": 7,
-    "tdsh": 5,
-    "ts": null,
-    "tdr": 7.1,
-    "tpg": 1.4,
-    "pts": 20.2,
-    "sp": 3.0,
-    "tot": 43.5,
-    "d": {
-     "td": 0,
-     "n": 10,
-     "rank": 32,
-     "nteams": 32,
-     "ltd": 6.0,
-     "lrank": 4,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.92,
-    "debt": 0.0,
-    "hist": true,
-    "inj": "News",
-    "news": "Panthers QB Bryce Young gets crucial injury update for Buccaneers game",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.844,
-     "ask": 92,
-     "sc": 58.2
-    },
-    "tags": [],
-    "low": true,
-    "score": 37.2,
-    "why": [
-     "TB has allowed 0 QB TDs in 10 games (32nd most); 6.0 all last season (4th most).",
-     "7% red-zone role, 7.1% TD rate, 1.4 touches a game.",
-     "1.0 TD in 10 games, scored in 1 (2.0 in 16 last season).",
-     "Low total: CAR projected for 20 pts (O/U 43.5, 3-pt underdog).",
-     "Injury news: Panthers QB Bryce Young gets crucial injury update for Buccaneers game",
-     "Kalshi 82\u00a2 vs model 10%."
-    ]
-   },
-   {
-    "key": "brock purdy",
-    "pl": "Brock Purdy",
-    "tm": "SF",
-    "opp": "SEA",
-    "pos": "QB",
-    "role": "QB",
-    "g": "SEASF",
-    "gl": "SEA @ SF",
-    "dy": "Sun",
-    "id": "8183",
-    "lam": 0.14,
-    "pm": 0.127,
-    "p": 0.456,
-    "q": 78.5,
-    "ask": 81,
-    "tk": "KXNFLPASSTDS-26NOV29SEASF-SFBPURDY13-1",
-    "ev": "KXNFLPASSTDS-26NOV29SEASF",
-    "tds": 2.0,
-    "n": 10,
-    "games_td": 2,
-    "ptd": 3.0,
-    "pn": 9,
-    "rz": 9,
-    "tdsh": 6,
-    "ts": null,
-    "tdr": 4.9,
-    "tpg": 4.1,
-    "pts": 23.2,
-    "sp": -3.0,
-    "tot": 43.5,
-    "d": {
-     "td": 1.0,
-     "n": 10,
-     "rank": 23,
-     "nteams": 32,
-     "ltd": 3.0,
-     "lrank": 17,
-     "leak": false,
-     "recent": [
-      0,
-      1.0
-     ]
-    },
-    "dfac": 0.83,
-    "debt": -0.5,
-    "hist": true,
-    "inj": "Questionable",
-    "news": "NFL injury tracker Week 12: Latest news, fantasy implications as Brock Purdy (ankle) misses practice again; Justin Herbert (concussion) remains in protocol",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 150,
-     "p": 0.856,
-     "ask": 92,
-     "sc": 47.1
-    },
-    "tags": [
-     "Favored"
-    ],
-    "low": false,
-    "score": 41.0,
-    "why": [
-     "SEA has allowed 1.0 QB TD in 10 games (23rd most); 3.0 all last season.",
-     "9% red-zone role, 4.9% TD rate, 4.1 touches a game.",
-     "2.0 TDs in 10 games, scored in 2 (3.0 in 9 last season).",
-     "SF projected for 23 pts (O/U 43.5, favored by 3).",
-     "Injury news: NFL injury tracker Week 12: Latest news, fantasy implications as Brock Purdy (ankle) misses practice again; Justin Herbert (concussion) remains in protocol",
-     "Kalshi 78\u00a2 vs model 13%."
     ]
    },
    {
@@ -13551,6 +13620,74 @@
     ]
    },
    {
+    "key": "fernando mendoza",
+    "pl": "Fernando Mendoza",
+    "tm": "LV",
+    "opp": "CLE",
+    "pos": "QB",
+    "role": "QB",
+    "g": "LVCLE",
+    "gl": "LV @ CLE",
+    "dy": "Sun",
+    "id": "13269",
+    "lam": 0.06,
+    "pm": 0.057,
+    "p": 0.391,
+    "q": 72.5,
+    "ask": 74,
+    "tk": "KXNFLPASSTDSPROT-26NOV29LVCLE-LVFMENDOZA15-1",
+    "ev": "KXNFLPASSTDSPROT-26NOV29LVCLE",
+    "tds": 1.0,
+    "n": 3,
+    "games_td": 1,
+    "ptd": null,
+    "pn": null,
+    "rz": 4,
+    "tdsh": 4,
+    "ts": null,
+    "tdr": 9.1,
+    "tpg": 3.7,
+    "pts": 17.5,
+    "sp": 4.5,
+    "tot": 39.5,
+    "d": {
+     "td": 0,
+     "n": 10,
+     "rank": 26,
+     "nteams": 32,
+     "ltd": 1.0,
+     "lrank": 30,
+     "leak": false,
+     "recent": [
+      0,
+      0
+     ]
+    },
+    "dfac": 0.7,
+    "debt": -0.4,
+    "hist": true,
+    "inj": "News",
+    "news": "NFL Week 12 Fantasy Football: Can Brock Bowers Maintain Elite Production With Fernando Mendoza?",
+    "prop": {
+     "pr": "Passing Yards",
+     "ln": 125,
+     "p": 0.798,
+     "ask": 90,
+     "sc": 47.2
+    },
+    "tags": [],
+    "low": true,
+    "score": 24.1,
+    "why": [
+     "CLE has allowed 0 QB TDs in 10 games (26th most); 1.0 all last season.",
+     "4% red-zone role, 9.1% TD rate, 3.7 touches a game.",
+     "1.0 TD in 3 games, scored in 1.",
+     "Low total: LV projected for 18 pts (O/U 39.5, 4.5-pt underdog).",
+     "Injury news: NFL Week 12 Fantasy Football: Can Brock Bowers Maintain Elite Production With Fernando Mendoza?",
+     "Kalshi 72\u00a2 vs model 6%."
+    ]
+   },
+   {
     "key": "rhamondre stevenson",
     "pl": "Rhamondre Stevenson",
     "tm": "NE",
@@ -13760,74 +13897,6 @@
      "8% red-zone role, 20% target share, 9.2% TD rate, 7.6 touches a game.",
      "7.0 TDs in 10 games, scored in 5 (11.0 in 15 last season).",
      "CIN projected for 30 pts (O/U 49.5, favored by 10)."
-    ]
-   },
-   {
-    "key": "fernando mendoza",
-    "pl": "Fernando Mendoza",
-    "tm": "LV",
-    "opp": "CLE",
-    "pos": "QB",
-    "role": "QB",
-    "g": "LVCLE",
-    "gl": "LV @ CLE",
-    "dy": "Sun",
-    "id": "13269",
-    "lam": 0.06,
-    "pm": 0.057,
-    "p": 0.373,
-    "q": 69.0,
-    "ask": 71,
-    "tk": "KXNFLPASSTDS-26NOV29LVCLE-LVFMENDOZA15-1",
-    "ev": "KXNFLPASSTDS-26NOV29LVCLE",
-    "tds": 1.0,
-    "n": 3,
-    "games_td": 1,
-    "ptd": null,
-    "pn": null,
-    "rz": 4,
-    "tdsh": 4,
-    "ts": null,
-    "tdr": 9.1,
-    "tpg": 3.7,
-    "pts": 17.5,
-    "sp": 4.5,
-    "tot": 39.5,
-    "d": {
-     "td": 0,
-     "n": 10,
-     "rank": 26,
-     "nteams": 32,
-     "ltd": 1.0,
-     "lrank": 30,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 0.7,
-    "debt": -0.4,
-    "hist": true,
-    "inj": "News",
-    "news": "NFL Week 12 Fantasy Football: Can Brock Bowers Maintain Elite Production With Fernando Mendoza?",
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 125,
-     "p": 0.798,
-     "ask": 90,
-     "sc": 47.2
-    },
-    "tags": [],
-    "low": true,
-    "score": 24.1,
-    "why": [
-     "CLE has allowed 0 QB TDs in 10 games (26th most); 1.0 all last season.",
-     "4% red-zone role, 9.1% TD rate, 3.7 touches a game.",
-     "1.0 TD in 3 games, scored in 1.",
-     "Low total: LV projected for 18 pts (O/U 39.5, 4.5-pt underdog).",
-     "Injury news: NFL Week 12 Fantasy Football: Can Brock Bowers Maintain Elite Production With Fernando Mendoza?",
-     "Kalshi 69\u00a2 vs model 6%."
     ]
    },
    {
@@ -14569,11 +14638,11 @@
     "inj": "News",
     "news": "Week 12 WR/CB Matchups For Fantasy Football: Malik Nabers & More",
     "prop": {
-     "pr": "Receptions",
-     "ln": 3,
-     "p": 0.815,
-     "ask": 92,
-     "sc": 54.6
+     "pr": "Receiving Yards",
+     "ln": 30,
+     "p": 0.768,
+     "ask": 88,
+     "sc": 48.0
     },
     "tags": [
      "RZ share top-10",
@@ -14713,75 +14782,6 @@
      "14% red-zone role, 10% target share, 6.9% TD rate, 9.7 touches a game.",
      "6.0 TDs in 9 games, scored in 4 (1.0 in 11 last season).",
      "Low total: NO projected for 20 pts (O/U 49.5, 10-pt underdog)."
-    ]
-   },
-   {
-    "key": "anthony richardson",
-    "pl": "Anthony Richardson Sr.",
-    "tm": "IND",
-    "opp": "NYG",
-    "pos": "QB",
-    "role": "QB",
-    "g": "NYGIND",
-    "gl": "NYG @ IND",
-    "dy": "Sun",
-    "id": "9229",
-    "lam": 0.01,
-    "pm": 0.013,
-    "p": 0.304,
-    "q": 59.5,
-    "ask": 60,
-    "tk": "KXNFLPASSTDS-26NOV29NYGIND-INDARICHARDSON5-1",
-    "ev": "KXNFLPASSTDS-26NOV29NYGIND",
-    "tds": 0,
-    "n": 2,
-    "games_td": 0,
-    "ptd": 0,
-    "pn": 2,
-    "rz": 0,
-    "tdsh": 0,
-    "ts": null,
-    "tdr": 0.0,
-    "tpg": 1.5,
-    "pts": 17.8,
-    "sp": 6.0,
-    "tot": 41.5,
-    "d": {
-     "td": 3.0,
-     "n": 10,
-     "rank": 5,
-     "nteams": 32,
-     "ltd": 5.0,
-     "lrank": 6,
-     "leak": false,
-     "recent": [
-      0,
-      0
-     ]
-    },
-    "dfac": 1.34,
-    "debt": 0.0,
-    "hist": true,
-    "inj": null,
-    "news": null,
-    "prop": {
-     "pr": "Passing Yards",
-     "ln": 100,
-     "p": 0.743,
-     "ask": 88,
-     "sc": 28.9
-    },
-    "tags": [
-     "Soft TD defense"
-    ],
-    "low": true,
-    "score": 26.9,
-    "why": [
-     "NYG has allowed 3.0 QB TDs in 10 games (5th most); 5.0 all last season (6th most).",
-     "0% red-zone role, 1.5 touches a game.",
-     "No TDs yet in 2 games (0 in 2 last season).",
-     "Low total: IND projected for 18 pts (O/U 41.5, 6-pt underdog).",
-     "Kalshi 60\u00a2 vs model 1%."
     ]
    },
    {
@@ -15978,9 +15978,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 40,
-     "p": 0.783,
-     "ask": 84,
-     "sc": 52.2
+     "p": 0.782,
+     "ask": 83,
+     "sc": 52.3
     },
     "tags": [
      "High volume",
@@ -18098,9 +18098,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.724,
-     "ask": 76,
-     "sc": 46.7
+     "p": 0.719,
+     "ask": 75,
+     "sc": 46.8
     },
     "tags": [
      "Favored"
@@ -24473,7 +24473,7 @@
    10,
    11
   ],
-  "generated": "2026-11-27T07:26:47-08:00",
+  "generated": "2026-11-27T07:30:38-08:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [
    "Some markets weren't open when this was pulled. NE @ LAC: no priced passing markets yet. CAR @ TB (Mon): no priced receptions markets yet."
@@ -24497,7 +24497,7 @@
    "lines": "12 games",
    "weather": "7 outdoor games",
    "injuries": "205 players listed",
-   "news": "3 players in headlines",
+   "news": "5 players in headlines",
    "google_news": "4 role-cut, 87 injury headlines; QB hurt: ARI, CAR, LAC, SF, TB",
    "sleeper_trending": "37 board players trending",
    "reddit": "unavailable"
