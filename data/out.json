@@ -1034,7 +1034,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 15,
-   "ask": 88,
+   "ask": 87,
    "bid": 85,
    "vals": [
     55.0,
@@ -1115,20 +1115,20 @@
    "per": 240.8,
    "dstat": "pass yds",
    "p": 81,
-   "roi": -8,
+   "roi": -7,
    "pp": 91,
    "hs": 88,
    "dhs": 92,
    "rks": 58,
-   "vs": 42,
+   "vs": 43,
    "agree": 2,
-   "score": 64.8,
+   "score": 64.9,
    "flags": [],
-   "pc": 0.8124,
+   "pc": 0.8082,
    "praw": 0.9088,
    "rg": "WR1",
    "est": false,
-   "mid": 86.5,
+   "mid": 86.0,
    "tk": "KXNFLRECYDS-26NOV29WASARI-WASSDIGGS3-15",
    "ev": "KXNFLRECYDS-26NOV29WASARI",
    "ctx": 0,
@@ -1935,7 +1935,7 @@
    "stat": "rec",
    "prop": "Receptions",
    "line": 2,
-   "ask": 69,
+   "ask": 68,
    "bid": 64,
    "vals": [
     2.0,
@@ -2016,20 +2016,20 @@
    "per": 234.7,
    "dstat": "pass yds",
    "p": 63,
-   "roi": -9,
+   "roi": -8,
    "pp": 63,
    "hs": 77,
    "dhs": 85,
    "rks": 45,
-   "vs": 41,
+   "vs": 42,
    "agree": 2,
-   "score": 59.2,
+   "score": 59.3,
    "flags": [],
-   "pc": 0.6297,
+   "pc": 0.6256,
    "praw": 0.7524,
    "rg": "WR2",
    "est": false,
-   "mid": 66.5,
+   "mid": 66.0,
    "tk": "KXNFLREC-26NOV29NYGIND-NYGMFIELDS88-2",
    "ev": "KXNFLREC-26NOV29NYGIND",
    "ctx": 0.15,
@@ -3440,6 +3440,177 @@
    "news": ""
   },
   {
+   "game": "CARTB",
+   "glabel": "CAR @ TB (Mon)",
+   "day": "Mon",
+   "player": "Emeka Egbuka",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "rec",
+   "prop": "Receptions",
+   "line": 2,
+   "ask": 88,
+   "bid": 84,
+   "vals": [
+    5.0,
+    3.0,
+    5.0,
+    2.0,
+    6.0,
+    7.0,
+    -1,
+    -1,
+    3.0,
+    null,
+    2.0
+   ],
+   "over": 8,
+   "n": 10,
+   "proj": 3.6,
+   "al": [
+    [
+     1,
+     "CHI",
+     8.0
+    ],
+    [
+     2,
+     "ATL",
+     4.0
+    ],
+    [
+     3,
+     "CLE",
+     2.0
+    ],
+    [
+     4,
+     "DET",
+     8.0
+    ],
+    [
+     6,
+     "PHI",
+     7.0
+    ],
+    [
+     7,
+     "TB",
+     4.0
+    ],
+    [
+     8,
+     "GB",
+     8.0
+    ],
+    [
+     9,
+     "DEN",
+     5.0
+    ],
+    [
+     10,
+     "NO",
+     11.0
+    ],
+    [
+     11,
+     "BAL",
+     8.0
+    ]
+   ],
+   "dhit": 10,
+   "dn": 10,
+   "most": 24,
+   "per": 223.7,
+   "dstat": "pass yds",
+   "p": 82,
+   "roi": -6,
+   "pp": 83,
+   "hs": 71,
+   "dhs": 92,
+   "rks": 26,
+   "vs": 44,
+   "agree": 2,
+   "score": 55.4,
+   "flags": [],
+   "pc": 0.8242,
+   "praw": 0.8101,
+   "rg": "WR1",
+   "est": false,
+   "mid": 86.0,
+   "tk": "KXNFLREC-26NOV30CARTB-TBEEGBUKA2-2",
+   "ev": "KXNFLREC-26NOV30CARTB",
+   "ctx": 0,
+   "cxs": 50,
+   "reasons": [
+    [
+     -0.6,
+     "TB's offense ranks 30th in passing (161 yds a game)."
+    ],
+    [
+     -0.02,
+     "Snaps falling: 86% \u2192 76% \u2192 71%."
+    ]
+   ],
+   "status": null,
+   "ppj": 84,
+   "pu": 81,
+   "uinfo": {
+    "share": [
+     22,
+     15,
+     26,
+     15,
+     36,
+     39,
+     17,
+     16
+    ],
+    "kind": "targets",
+    "snap": 82,
+    "snaps": [
+     89,
+     86,
+     76,
+     71
+    ],
+    "snap_last": 71,
+    "mu": 3.3,
+    "opp": 6.1,
+    "note": ""
+   },
+   "po": 15,
+   "pn": 17,
+   "pid": "12514",
+   "sx": 0.0,
+   "sxs": 50,
+   "mx": -0.07,
+   "mxs": 46,
+   "env": -0.04,
+   "dfac": 0.3,
+   "dfs": 65,
+   "off": -0.6,
+   "ofs": 20,
+   "cu": 64,
+   "avgm": 1.3,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Baker Mayfield",
+    "same": true,
+    "n": 7
+   },
+   "risk": 1,
+   "tpts": 23.2,
+   "rank": 20,
+   "why": "Cleared 2+ in 8 of 10 games, by +1 on average (15 of 17 last season), Sleeper projects 3.6, CAR let 10 of 10 WR1s reach it. Watch: TB's offense ranks 30th in passing (161 yds a game).; Snaps falling: 86% \u2192 76% \u2192 71%..",
+   "news": ""
+  },
+  {
    "game": "ATLMIN",
    "glabel": "ATL @ MIN",
    "day": "Sun",
@@ -3632,7 +3803,7 @@
     "mid": 87.0,
     "tk": "KXNFLRECYDS-26NOV29ATLMIN-ATLDLONDON5-30"
    },
-   "rank": 20,
+   "rank": 21,
    "why": "Cleared 40+ in 8 of 10 games, by +40 on average (10 of 12 last season), Sleeper projects 85.7, MIN let 9 of 10 WR1s reach it. ATL a 7-pt underdog, trailing teams throw more. Zachariah Branch out, more targets to go around. Watch: ATL projected for only 17 pts (O/U 41.5); ATL's offense ranks 23rd in passing (205 yds a game)..",
    "news": ""
   },
@@ -3830,7 +4001,7 @@
    },
    "risk": 1,
    "tpts": 17.5,
-   "rank": 21,
+   "rank": 22,
    "why": "Cleared 30+ in 11 of 11 games, by +33 on average (16 of 17 last season), Sleeper projects 59.1, WAS let 9 of 10 TE1s reach it, WAS allows the 2nd most pass yds. QB change: Josh Johnson starts (Jacoby Brissett isn't projected to start). With him: cleared 30+ in 1 of 1 (54). With Johnson: 45% of targets (1 game), up from 28% with Brissett. WAS gives up 62% more receiving yds to TE1s than average.. ARI a 6.5-pt underdog, trailing teams throw more. Watch: ARI's offense ranks 31st in passing (56 yds a game).; ARI projected for only 18 pts (O/U 41.5).",
    "news": ""
   },
@@ -4020,7 +4191,7 @@
    },
    "risk": 0,
    "tpts": 17.5,
-   "rank": 22,
+   "rank": 23,
    "why": "Cleared 10+ in 9 of 11 games, by +44 on average (16 of 17 last season), Sleeper projects 38.2, CLE let 10 of 10 WR1s reach it. QB change: Fernando Mendoza starts (Kirk Cousins isn't projected to start). With him: cleared 10+ in 1 of 2 (9, 50). With Mendoza: 17% of targets, about the same as with Cousins (17%). LV a 4.5-pt underdog, trailing teams throw more. Watch: LV's offense ranks 32nd in passing (42 yds a game).; LV projected for only 18 pts (O/U 39.5).",
    "news": ""
   },
@@ -4141,7 +4312,7 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 22.0,
-   "rank": 23,
+   "rank": 24,
    "why": "Cleared 10+ in 8 of 9 games, by +20 on average, Sleeper projects 24.5, LV allows the 2nd most rush yds. Trending on Sleeper (#2 most added). Rain likely, should mean more runs. Watch: CLE's offense ranks 24th in rushing (96 yds a game)..",
    "news": ""
   },
@@ -4331,7 +4502,7 @@
    },
    "risk": 1,
    "tpts": 20.5,
-   "rank": 24,
+   "rank": 25,
    "why": "Cleared 10+ in 10 of 11 games, by +20 on average (13 of 17 last season), Sleeper projects 30.8, HOU let 8 of 10 TE1s reach it, HOU allows the 8th most pass yds. QB change: Jacoby Brissett starts (Lamar Jackson isn't projected to start). With him: cleared 10+ in 2 of 2 (82, 14). With Brissett: only 13% of targets, down from 18% with Jackson. BAL has a top passing offense (2nd, 380 yds a game).. BAL a 6.5-pt underdog, trailing teams throw more. Watch: BAL projected for only 20 pts (O/U 47.5); Injury in the news: rust/health risk, so the chance leans toward Kalshi's 78\u00a2..",
    "news": ""
   },
@@ -4508,7 +4679,7 @@
    },
    "risk": 1,
    "tpts": 29.0,
-   "rank": 25,
+   "rank": 26,
    "why": "Cleared 10+ in 8 of 10 games, by +18 on average (14 of 17 last season), Sleeper projects 17.6, NO let 8 of 10 lead RBs reach it. CIN has a top passing offense (3rd, 310 yds a game).. CIN projected for 29 pts (O/U 48.5). Watch: Rain likely (100% chance).",
    "news": ""
   },
@@ -4692,7 +4863,7 @@
    },
    "risk": 1,
    "tpts": 27.0,
-   "rank": 26,
+   "rank": 27,
    "why": "Cleared 3+ in 7 of 10 games, by +1 on average (15 of 15 last season), Sleeper projects 4.9, BAL let 11 of 11 WR1s reach it. His share of targets fell from 27% to 19%. HOU projected for 27 pts (O/U 47.5). Brevin Jordan out, more targets to go around. Watch: HOU favored by 6.5, may not need to throw late.",
    "news": ""
   },
@@ -4802,7 +4973,7 @@
    "qinfo": null,
    "risk": 0,
    "tpts": 23.5,
-   "rank": 27,
+   "rank": 28,
    "why": "Cleared 10+ in 4 of 6 games, by +10 on average (8 of 10 last season), Sleeper projects 19.6, IND allows the 4th most rush yds. Trending on Sleeper (#20 most added).",
    "news": ""
   },
@@ -4971,8 +5142,205 @@
    },
    "risk": 1,
    "tpts": 22.0,
-   "rank": 28,
+   "rank": 29,
    "why": "Cleared 5+ in 10 of 10 games, by +3 on average (15 of 17 last season), Sleeper projects 7.2, SF let 8 of 10 WR1s reach it. His share of targets is up from 46% to 59%. Watch: Snaps falling: 97% \u2192 76% \u2192 75%. His QB is playing hurt (injury news), so pass-game props lean on Kalshi..",
+   "news": ""
+  },
+  {
+   "game": "TENJAX",
+   "glabel": "TEN @ JAX",
+   "day": "Sun",
+   "player": "Jakobi Meyers",
+   "team": "JAX",
+   "opp": "TEN",
+   "pos": "WR",
+   "role": "WR1",
+   "stat": "recyds",
+   "prop": "Receiving Yards",
+   "line": 30,
+   "ask": 86,
+   "bid": 83,
+   "vals": [
+    40.0,
+    28.0,
+    64.0,
+    33.0,
+    37.0,
+    83.0,
+    null,
+    24.0,
+    65.0,
+    34.0,
+    85.0
+   ],
+   "over": 8,
+   "n": 10,
+   "proj": 65.1,
+   "al": [
+    [
+     1,
+     "NYJ",
+     79.0
+    ],
+    [
+     2,
+     "PHI",
+     117.0
+    ],
+    [
+     3,
+     "NYG",
+     26.0
+    ],
+    [
+     4,
+     "BAL",
+     118.0
+    ],
+    [
+     5,
+     "HOU",
+     65.0
+    ],
+    [
+     6,
+     "IND",
+     41.0
+    ],
+    [
+     7,
+     "CLE",
+     129.0
+    ],
+    [
+     8,
+     "CIN",
+     155.0
+    ],
+    [
+     10,
+     "JAX",
+     152.0
+    ],
+    [
+     11,
+     "DAL",
+     132.0
+    ]
+   ],
+   "dhit": 9,
+   "dn": 10,
+   "most": 1,
+   "per": 285.9,
+   "dstat": "pass yds",
+   "p": 79,
+   "roi": -8,
+   "pp": 79,
+   "hs": 76,
+   "dhs": 83,
+   "rks": 100,
+   "vs": 42,
+   "agree": 1,
+   "score": 52.6,
+   "flags": [],
+   "pc": 0.7888,
+   "praw": 0.8213,
+   "rg": "WR1",
+   "est": false,
+   "mid": 84.5,
+   "tk": "KXNFLRECYDS-26NOV29TENJAC-JACJMEYERS3-30",
+   "ev": "KXNFLRECYDS-26NOV29TENJAC",
+   "ctx": 0.58,
+   "cxs": 79,
+   "reasons": [
+    [
+     0.3,
+     "TEN secondary missing S Terrell Burgess, CB Cor'Dale Flott"
+    ],
+    [
+     0.2,
+     "Parker Washington out, more targets to go around"
+    ],
+    [
+     0.08,
+     "Trending on Sleeper (#8 most added)"
+    ],
+    [
+     -0.6,
+     "JAX favored by 14, may not need to throw late"
+    ],
+    [
+     0.5,
+     "JAX projected for 31 pts (O/U 48.5)"
+    ],
+    [
+     0.33,
+     "TEN gives up 27% more receiving yds to WR1s than average."
+    ],
+    [
+     0.34,
+     "JAX has a top passing offense (9th, 259 yds a game)."
+    ],
+    [
+     -0.04,
+     "His QB is playing hurt (injury news), so pass-game props lean on Kalshi."
+    ]
+   ],
+   "status": null,
+   "ppj": 84,
+   "pu": 74,
+   "uinfo": {
+    "share": [
+     10,
+     3,
+     30,
+     17,
+     8,
+     27,
+     19,
+     24,
+     19,
+     22
+    ],
+    "kind": "targets",
+    "snap": 76,
+    "snaps": [
+     54,
+     68,
+     81,
+     83
+    ],
+    "snap_last": 83,
+    "mu": 45.7,
+    "opp": 5.4,
+    "note": "His share of targets is up from 10% to 22%."
+   },
+   "po": 15,
+   "pn": 16,
+   "pid": "5947",
+   "sx": -0.1,
+   "sxs": 45,
+   "mx": 0.65,
+   "mxs": 82,
+   "env": 0.33,
+   "dfac": 0.3,
+   "dfs": 65,
+   "off": 0.34,
+   "ofs": 67,
+   "cu": 74,
+   "avgm": 19.3,
+   "qf": 0.0,
+   "qfs": 50,
+   "qnote": "",
+   "qinfo": {
+    "qb": "Trevor Lawrence",
+    "same": true,
+    "n": 10
+   },
+   "risk": 1,
+   "tpts": 31.2,
+   "rank": 30,
+   "why": "Cleared 30+ in 8 of 10 games, by +19 on average (15 of 16 last season), Sleeper projects 65.1, TEN let 9 of 10 WR1s reach it, TEN allows the most pass yds. His share of targets is up from 10% to 22%. JAX projected for 31 pts (O/U 48.5). JAX has a top passing offense (9th, 259 yds a game).. Watch: JAX favored by 14, may not need to throw late; His QB is playing hurt (injury news), so pass-game props lean on Kalshi..",
    "news": ""
   },
   {
@@ -5148,7 +5516,7 @@
    },
    "risk": 1,
    "tpts": 22.5,
-   "rank": 29,
+   "rank": 31,
    "why": "Cleared 3+ in 9 of 11 games, by +2 on average (6 of 7 last season), Sleeper projects 5.3, MIA let 10 of 10 WR1s reach it. Omar Cooper Jr. out, more targets to go around. MIA secondary missing CB JuJu Brents. Watch: NYJ favored by 5.5, may not need to throw late.",
    "news": ""
   },
@@ -5322,205 +5690,8 @@
    "qinfo": null,
    "risk": 0,
    "tpts": 23.5,
-   "rank": 30,
+   "rank": 32,
    "why": "Cleared 150+ in 4 of 6 games, by +31 on average (6 of 10 last season), Sleeper projects 256.1, IND let 10 of 11 QBs reach it. IND secondary missing CB Charvarius Ward. Trending on Sleeper (#20 most added). Watch: NYG favored by 5.5, may not need to throw late.",
-   "news": ""
-  },
-  {
-   "game": "TENJAX",
-   "glabel": "TEN @ JAX",
-   "day": "Sun",
-   "player": "Jakobi Meyers",
-   "team": "JAX",
-   "opp": "TEN",
-   "pos": "WR",
-   "role": "WR1",
-   "stat": "recyds",
-   "prop": "Receiving Yards",
-   "line": 30,
-   "ask": 87,
-   "bid": 83,
-   "vals": [
-    40.0,
-    28.0,
-    64.0,
-    33.0,
-    37.0,
-    83.0,
-    null,
-    24.0,
-    65.0,
-    34.0,
-    85.0
-   ],
-   "over": 8,
-   "n": 10,
-   "proj": 65.1,
-   "al": [
-    [
-     1,
-     "NYJ",
-     79.0
-    ],
-    [
-     2,
-     "PHI",
-     117.0
-    ],
-    [
-     3,
-     "NYG",
-     26.0
-    ],
-    [
-     4,
-     "BAL",
-     118.0
-    ],
-    [
-     5,
-     "HOU",
-     65.0
-    ],
-    [
-     6,
-     "IND",
-     41.0
-    ],
-    [
-     7,
-     "CLE",
-     129.0
-    ],
-    [
-     8,
-     "CIN",
-     155.0
-    ],
-    [
-     10,
-     "JAX",
-     152.0
-    ],
-    [
-     11,
-     "DAL",
-     132.0
-    ]
-   ],
-   "dhit": 9,
-   "dn": 10,
-   "most": 1,
-   "per": 285.9,
-   "dstat": "pass yds",
-   "p": 79,
-   "roi": -9,
-   "pp": 79,
-   "hs": 76,
-   "dhs": 83,
-   "rks": 100,
-   "vs": 41,
-   "agree": 1,
-   "score": 52.5,
-   "flags": [],
-   "pc": 0.7934,
-   "praw": 0.8213,
-   "rg": "WR1",
-   "est": false,
-   "mid": 85.0,
-   "tk": "KXNFLRECYDS-26NOV29TENJAC-JACJMEYERS3-30",
-   "ev": "KXNFLRECYDS-26NOV29TENJAC",
-   "ctx": 0.58,
-   "cxs": 79,
-   "reasons": [
-    [
-     0.3,
-     "TEN secondary missing S Terrell Burgess, CB Cor'Dale Flott"
-    ],
-    [
-     0.2,
-     "Parker Washington out, more targets to go around"
-    ],
-    [
-     0.08,
-     "Trending on Sleeper (#8 most added)"
-    ],
-    [
-     -0.6,
-     "JAX favored by 14, may not need to throw late"
-    ],
-    [
-     0.5,
-     "JAX projected for 31 pts (O/U 48.5)"
-    ],
-    [
-     0.33,
-     "TEN gives up 27% more receiving yds to WR1s than average."
-    ],
-    [
-     0.34,
-     "JAX has a top passing offense (9th, 259 yds a game)."
-    ],
-    [
-     -0.04,
-     "His QB is playing hurt (injury news), so pass-game props lean on Kalshi."
-    ]
-   ],
-   "status": null,
-   "ppj": 84,
-   "pu": 74,
-   "uinfo": {
-    "share": [
-     10,
-     3,
-     30,
-     17,
-     8,
-     27,
-     19,
-     24,
-     19,
-     22
-    ],
-    "kind": "targets",
-    "snap": 76,
-    "snaps": [
-     54,
-     68,
-     81,
-     83
-    ],
-    "snap_last": 83,
-    "mu": 45.7,
-    "opp": 5.4,
-    "note": "His share of targets is up from 10% to 22%."
-   },
-   "po": 15,
-   "pn": 16,
-   "pid": "5947",
-   "sx": -0.1,
-   "sxs": 45,
-   "mx": 0.65,
-   "mxs": 82,
-   "env": 0.33,
-   "dfac": 0.3,
-   "dfs": 65,
-   "off": 0.34,
-   "ofs": 67,
-   "cu": 74,
-   "avgm": 19.3,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": {
-    "qb": "Trevor Lawrence",
-    "same": true,
-    "n": 10
-   },
-   "risk": 1,
-   "tpts": 31.2,
-   "rank": 31,
-   "why": "Cleared 30+ in 8 of 10 games, by +19 on average (15 of 16 last season), Sleeper projects 65.1, TEN let 9 of 10 WR1s reach it, TEN allows the most pass yds. His share of targets is up from 10% to 22%. JAX projected for 31 pts (O/U 48.5). JAX has a top passing offense (9th, 259 yds a game).. Watch: JAX favored by 14, may not need to throw late; His QB is playing hurt (injury news), so pass-game props lean on Kalshi..",
    "news": ""
   },
   {
@@ -5704,7 +5875,7 @@
    },
    "risk": 1,
    "tpts": 20.5,
-   "rank": 32,
+   "rank": 33,
    "why": "Cleared 40+ in 8 of 11 games, by +31 on average (14 of 17 last season), Sleeper projects 84.8, HOU let 9 of 10 WR1s reach it, HOU allows the 8th most pass yds. QB change: Jacoby Brissett starts (Lamar Jackson isn't projected to start). With him: cleared 40+ in 2 of 2 (74, 97). With Brissett: only 23% of targets, down from 30% with Jackson. BAL has a top passing offense (2nd, 380 yds a game).. BAL a 6.5-pt underdog, trailing teams throw more. Watch: BAL projected for only 20 pts (O/U 47.5).",
    "news": ""
   },
@@ -5894,7 +6065,7 @@
    },
    "risk": 1,
    "tpts": 20.5,
-   "rank": 33,
+   "rank": 34,
    "why": "Cleared 2+ in 10 of 11 games, by +2 on average (13 of 17 last season), Sleeper projects 3.8, HOU let 8 of 10 TE1s reach it, HOU allows the 8th most pass yds. QB change: Jacoby Brissett starts (Lamar Jackson isn't projected to start). With him: cleared 2+ in 2 of 2 (8, 2). With Brissett: only 13% of targets, down from 18% with Jackson. BAL has a top passing offense (2nd, 380 yds a game).. BAL a 6.5-pt underdog, trailing teams throw more. Watch: BAL projected for only 20 pts (O/U 47.5); Injury in the news: rust/health risk, so the chance leans toward Kalshi's 79\u00a2..",
    "news": ""
   },
@@ -5910,7 +6081,7 @@
    "stat": "recyds",
    "prop": "Receiving Yards",
    "line": 30,
-   "ask": 87,
+   "ask": 86,
    "bid": 82,
    "vals": [
     59.0,
@@ -5985,7 +6156,7 @@
    "most": 11,
    "per": 242.6,
    "dstat": "pass yds",
-   "p": 80,
+   "p": 79,
    "roi": -8,
    "pp": 87,
    "hs": 85,
@@ -5995,11 +6166,11 @@
    "agree": 1,
    "score": 51.5,
    "flags": [],
-   "pc": 0.7977,
+   "pc": 0.7932,
    "praw": 0.8248,
    "rg": "WR2",
    "est": false,
-   "mid": 84.5,
+   "mid": 84.0,
    "tk": "KXNFLRECYDS-26NOV29NOCIN-CINTHIGGINS5-30",
    "ev": "KXNFLRECYDS-26NOV29NOCIN",
    "ctx": -0.5,
@@ -6083,7 +6254,7 @@
    },
    "risk": 1,
    "tpts": 29.0,
-   "rank": 34,
+   "rank": 35,
    "why": "Cleared 30+ in 9 of 10 games, by +57 on average (13 of 15 last season), Sleeper projects 82.8, NO let 7 of 10 WR2s reach it. His share of targets fell from 18% to 8%. CIN has a top passing offense (3rd, 310 yds a game).. CIN projected for 29 pts (O/U 48.5). Watch: CIN favored by 9.5, may not need to throw late; Listed questionable this week.",
    "news": "In the news: \"Bengals WR Tee Higgins dealing with 'sore' hamstring, says coach Zac Taylor\""
   },
@@ -6260,7 +6431,7 @@
    },
    "risk": 1,
    "tpts": 29.0,
-   "rank": 35,
+   "rank": 36,
    "why": "Cleared 3+ in 9 of 10 games, by +2 on average (12 of 17 last season), Sleeper projects 3.3, NO let 7 of 10 lead RBs reach it. CIN has a top passing offense (3rd, 310 yds a game).. CIN projected for 29 pts (O/U 48.5). Watch: Rain likely (100% chance).",
    "news": ""
   },
@@ -6438,7 +6609,7 @@
    },
    "risk": 1,
    "tpts": 22.0,
-   "rank": 36,
+   "rank": 37,
    "why": "Cleared 20+ in 8 of 10 games, by +26 on average, Sleeper projects 45.4, LV let 10 of 11 WR2s reach it, LV allows the 10th most pass yds. Watch: Rain likely (100% chance); CLE favored by 4.5, may not need to throw late.",
    "news": ""
   },
@@ -6623,7 +6794,7 @@
    },
    "risk": 0,
    "tpts": 17.2,
-   "rank": 37,
+   "rank": 38,
    "why": "Cleared 4+ in 8 of 10 games, by +1 on average (9 of 12 last season), Sleeper projects 5.2, MIN let 9 of 10 WR1s reach it. ATL a 7-pt underdog, trailing teams throw more. Zachariah Branch out, more targets to go around. Watch: ATL projected for only 17 pts (O/U 41.5); ATL's offense ranks 23rd in passing (205 yds a game)..",
    "news": ""
   },
@@ -6792,7 +6963,7 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 20.2,
-   "rank": 38,
+   "rank": 39,
    "why": "Cleared 175+ in 9 of 10 games, by +90 on average (7 of 16 last season), Sleeper projects 225.8, TB let 8 of 10 QBs reach it. CAR has a top passing offense (7th, 270 yds a game).. Watch: CAR projected for only 20 pts (O/U 43.5).",
    "news": ""
   },
@@ -6963,7 +7134,7 @@
    },
    "risk": 1,
    "tpts": 23.2,
-   "rank": 39,
+   "rank": 40,
    "why": "Cleared 15+ in 7 of 10 games, by +15 on average (16 of 17 last season), Sleeper projects 38.8, CAR let 10 of 10 WR1s reach it. Watch: TB's offense ranks 30th in passing (161 yds a game).; Snaps falling: 86% \u2192 76% \u2192 71%..",
    "news": ""
   },
@@ -7144,7 +7315,7 @@
    },
    "risk": 0,
    "tpts": 29.0,
-   "rank": 40,
+   "rank": 41,
    "why": "Cleared 50+ in 7 of 10 games, by +41 on average (12 of 16 last season), Sleeper projects 85.8, NO let 8 of 10 WR1s reach it. His share of targets is up from 12% to 22%. CIN has a top passing offense (3rd, 310 yds a game).. CIN projected for 29 pts (O/U 48.5). Watch: CIN favored by 9.5, may not need to throw late; Rain likely (100% chance).",
    "news": ""
   },
@@ -7322,7 +7493,7 @@
    },
    "risk": 1,
    "tpts": 20.5,
-   "rank": 41,
+   "rank": 42,
    "why": "Cleared 10+ in 10 of 10 games, by +34 on average (17 of 17 last season), Sleeper projects 20.3, SEA let 8 of 10 lead RBs reach it. QB change: Mac Jones starts (Brock Purdy is out). With him: cleared 10+ in 8 of 8 (72, 43, 67, 66). His share of targets fell from 24% to 12%. Watch: SEA gives up 18% fewer receiving yds to lead RBs than average.; SF projected for only 20 pts (O/U 42.5).",
    "news": ""
   },
@@ -7507,7 +7678,7 @@
    },
    "risk": 0,
    "tpts": 17.2,
-   "rank": 42,
+   "rank": 43,
    "why": "Cleared 2+ in 8 of 10 games, by +2 on average (17 of 17 last season), Sleeper projects 3.8, MIN let 9 of 10 lead RBs reach it. His share of targets fell from 48% to 12%. ATL a 7-pt underdog, backs catch more when trailing. MIN secondary missing CB Isaiah Rodgers. Watch: ATL projected for only 17 pts (O/U 41.5); MIN gives up 31% fewer catches to lead RBs than average..",
    "news": ""
   },
@@ -7704,7 +7875,7 @@
    },
    "risk": 1,
    "tpts": 31.2,
-   "rank": 43,
+   "rank": 44,
    "why": "Cleared 15+ in 9 of 10 games, by +23 on average (12 of 12 last season), Sleeper projects 52.9, TEN let 7 of 10 TE1s reach it, TEN allows the most pass yds. His share of targets fell from 15% to 7%. JAX projected for 31 pts (O/U 48.5). JAX has a top passing offense (9th, 259 yds a game).. Watch: JAX favored by 14, may not need to throw late; His QB is playing hurt (injury news), so pass-game props lean on Kalshi..",
    "news": ""
   },
@@ -7877,7 +8048,7 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 17.5,
-   "rank": 44,
+   "rank": 45,
    "why": "Cleared 125+ in 2 of 3 games, by +28 on average, Sleeper projects 184, CLE let 10 of 10 QBs reach it. LV a 4.5-pt underdog, trailing teams throw more. Trending on Sleeper (#19 most added). Watch: LV's offense ranks 32nd in passing (42 yds a game). First season as a regular starter.; LV projected for only 18 pts (O/U 39.5).",
    "news": ""
   },
@@ -8067,7 +8238,7 @@
    },
    "risk": 0,
    "tpts": 17.5,
-   "rank": 45,
+   "rank": 46,
    "why": "Cleared 2+ in 9 of 11 games, by +1 on average (16 of 17 last season), Sleeper projects 2.2, CLE let 10 of 10 WR1s reach it. QB change: Fernando Mendoza starts (Kirk Cousins isn't projected to start). With him: cleared 2+ in 1 of 2 (1, 2). With Mendoza: 17% of targets, about the same as with Cousins (17%). LV a 4.5-pt underdog, trailing teams throw more. Watch: LV's offense ranks 32nd in passing (42 yds a game).; LV projected for only 18 pts (O/U 39.5).",
    "news": ""
   },
@@ -8244,7 +8415,7 @@
    },
    "risk": 1,
    "tpts": 22.0,
-   "rank": 46,
+   "rank": 47,
    "why": "Cleared 10+ in 9 of 10 games, by +17 on average (15 of 16 last season), Sleeper projects 26, SF let 8 of 10 WR2s reach it. Watch: Low volume: about 3.2 targets a game as the WR2.; SF gives up 23% fewer receiving yds to WR2s than average..",
    "news": ""
   },
@@ -8366,7 +8537,7 @@
     ],
     [
      0.3,
-     "LV front missing DT Adam Butler, DT Tonka Hemingway, DT Tim Keenan III"
+     "LV front missing DT Tim Keenan III, DT Adam Butler, DT Tonka Hemingway"
     ],
     [
      0.21,
@@ -8429,8 +8600,8 @@
    "qinfo": null,
    "risk": 1,
    "tpts": 22.0,
-   "rank": 47,
-   "why": "Cleared 30+ in 7 of 10 games, by +12 on average (10 of 14 last season), Sleeper projects 65.9, LV let 11 of 11 lead RBs reach it, LV allows the 2nd most rush yds. His share of carries fell from 55% to 43%. LV gives up 40% more rushing yds to lead RBs than average.. LV front missing DT Adam Butler, DT Tonka Hemingway, DT Tim Keenan III. Watch: CLE's offense ranks 24th in rushing (96 yds a game)..",
+   "rank": 48,
+   "why": "Cleared 30+ in 7 of 10 games, by +12 on average (10 of 14 last season), Sleeper projects 65.9, LV let 11 of 11 lead RBs reach it, LV allows the 2nd most rush yds. His share of carries fell from 55% to 43%. LV gives up 40% more rushing yds to lead RBs than average.. LV front missing DT Tim Keenan III, DT Adam Butler, DT Tonka Hemingway. Watch: CLE's offense ranks 24th in rushing (96 yds a game)..",
    "news": ""
   },
   {
@@ -8598,7 +8769,7 @@
    },
    "risk": 1,
    "tpts": 22.0,
-   "rank": 48,
+   "rank": 49,
    "why": "Cleared 10+ in 8 of 10 games, by +13 on average (14 of 17 last season), Sleeper projects 25.4, SF let 9 of 10 TE1s reach it. His share of targets is up from 8% to 18%. Watch: His QB is playing hurt (injury news), so pass-game props lean on Kalshi..",
    "news": ""
   },
@@ -8715,7 +8886,7 @@
     ],
     [
      0.08,
-     "Trending on Sleeper (#22 most added)"
+     "Trending on Sleeper (#21 most added)"
     ],
     [
      -0.16,
@@ -8783,186 +8954,8 @@
    },
    "risk": 1,
    "tpts": 20.2,
-   "rank": 49,
-   "why": "Cleared 10+ in 9 of 10 games, by +26 on average (7 of 9 last season), Sleeper projects 35.3, TB let 9 of 10 TE1s reach it. CAR has a top passing offense (7th, 270 yds a game).. Trending on Sleeper (#22 most added). Watch: Listed questionable this week; CAR projected for only 20 pts (O/U 43.5).",
-   "news": ""
-  },
-  {
-   "game": "NYJMIA",
-   "glabel": "NYJ @ MIA",
-   "day": "Sun",
-   "player": "Geno Smith",
-   "team": "NYJ",
-   "opp": "MIA",
-   "pos": "QB",
-   "role": "QB",
-   "stat": "pass",
-   "prop": "Passing Yards",
-   "line": 150,
-   "ask": 80,
-   "bid": 79,
-   "vals": [
-    215.0,
-    247.0,
-    321.0,
-    119.0,
-    182.0,
-    252.0,
-    287.0,
-    290.0,
-    165.0,
-    148.0,
-    176.0
-   ],
-   "over": 9,
-   "n": 11,
-   "proj": 242.7,
-   "al": [
-    [
-     1,
-     "LV",
-     0.0
-    ],
-    [
-     2,
-     "SF",
-     287.0
-    ],
-    [
-     3,
-     "KC",
-     246.0
-    ],
-    [
-     4,
-     "MIN",
-     365.0
-    ],
-    [
-     5,
-     "CIN",
-     190.0
-    ],
-    [
-     7,
-     "NYJ",
-     287.0
-    ],
-    [
-     8,
-     "NE",
-     199.0
-    ],
-    [
-     9,
-     "DET",
-     170.0
-    ],
-    [
-     10,
-     "IND",
-     108.0
-    ],
-    [
-     11,
-     "BUF",
-     304.0
-    ]
-   ],
-   "dhit": 8,
-   "dn": 10,
-   "most": 26,
-   "per": 219.8,
-   "dstat": "pass yds",
-   "p": 73,
-   "roi": -9,
-   "pp": 92,
-   "hs": 77,
-   "dhs": 75,
-   "rks": 19,
-   "vs": 41,
-   "agree": 1,
-   "score": 46.0,
-   "flags": [],
-   "pc": 0.7313,
-   "praw": 0.8078,
-   "rg": "QB",
-   "est": false,
-   "mid": 79.5,
-   "tk": "KXNFLPASSYDS-26NOV29NYJMIA-NYJGSMITH7-150",
-   "ev": "KXNFLPASSYDS-26NOV29NYJMIA",
-   "ctx": 0.23,
-   "cxs": 62,
-   "reasons": [
-    [
-     0.15,
-     "MIA secondary missing CB JuJu Brents"
-    ],
-    [
-     0.08,
-     "Trending on Sleeper (#7 most added)"
-    ],
-    [
-     -0.21,
-     "NYJ favored by 5.5, may not need to throw late"
-    ],
-    [
-     -0.3,
-     "First season with NYJ, so last year's numbers carry less."
-    ]
-   ],
-   "status": null,
-   "ppj": 96,
-   "pu": 88,
-   "uinfo": {
-    "share": [
-     24.0,
-     41.0,
-     37.0,
-     15.0,
-     30.0,
-     30.0,
-     30.0,
-     32.0,
-     32.0,
-     21.0,
-     21.0
-    ],
-    "kind": "attempts",
-    "snap": 94,
-    "snaps": [
-     100,
-     100,
-     48,
-     100
-    ],
-    "snap_last": 100,
-    "mu": 202.7,
-    "opp": 28.0,
-    "note": ""
-   },
-   "po": 11,
-   "pn": 15,
-   "pid": "1373",
-   "sx": -0.21,
-   "sxs": 40,
-   "mx": -0.27,
-   "mxs": 36,
-   "env": -0.31,
-   "dfac": 0.0,
-   "dfs": 50,
-   "off": -0.3,
-   "ofs": 35,
-   "cu": 79,
-   "avgm": 68.4,
-   "qf": 0.0,
-   "qfs": 50,
-   "qnote": "",
-   "qinfo": null,
-   "risk": 0,
-   "tpts": 22.5,
    "rank": 50,
-   "why": "Cleared 150+ in 9 of 11 games, by +68 on average (11 of 15 last season), Sleeper projects 242.7, MIA let 8 of 10 QBs reach it. MIA secondary missing CB JuJu Brents. Trending on Sleeper (#7 most added). Watch: First season with NYJ, so last year's numbers carry less.; NYJ favored by 5.5, may not need to throw late.",
+   "why": "Cleared 10+ in 9 of 10 games, by +26 on average (7 of 9 last season), Sleeper projects 35.3, TB let 9 of 10 TE1s reach it. CAR has a top passing offense (7th, 270 yds a game).. Trending on Sleeper (#21 most added). Watch: Listed questionable this week; CAR projected for only 20 pts (O/U 43.5).",
    "news": ""
   }
  ],
@@ -9690,14 +9683,14 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 15,
-   "ask": 70,
-   "q": 67.5,
-   "p": 0.6577,
-   "sc": 36.8,
+   "ask": 69,
+   "q": 67.0,
+   "p": 0.6528,
+   "sc": 36.9,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV29BALHOU-BALMANDREWS89-15",
    "ev": "KXNFLRECYDS-26NOV29BALHOU",
-   "wy": "Cleared 15+ in 8 of 11 games, by +15 on average (11 of 17 last season), Sleeper projects 30.8, HOU let 7 of 10 TE1s reach it, HOU allows the 8th most pass yds. QB change: Jacoby Brissett starts (Lamar Jackson isn't projected to start). With him: cleared 15+ in 1 of 2 (82, 14). With Brissett: only 13% of targets, down from 18% with Jackson. BAL has a top passing offense (2nd, 380 yds a game).. BAL a 6.5-pt underdog, trailing teams throw more. Watch: BAL projected for only 20 pts (O/U 47.5); Injury in the news: rust/health risk, so the chance leans toward Kalshi's 68\u00a2..",
+   "wy": "Cleared 15+ in 8 of 11 games, by +15 on average (11 of 17 last season), Sleeper projects 30.8, HOU let 7 of 10 TE1s reach it, HOU allows the 8th most pass yds. QB change: Jacoby Brissett starts (Lamar Jackson isn't projected to start). With him: cleared 15+ in 1 of 2 (82, 14). With Brissett: only 13% of targets, down from 18% with Jackson. BAL has a top passing offense (2nd, 380 yds a game).. BAL a 6.5-pt underdog, trailing teams throw more. Watch: BAL projected for only 20 pts (O/U 47.5); Injury in the news: rust/health risk, so the chance leans toward Kalshi's 67\u00a2..",
    "id": "5012",
    "cx": 0,
    "nw": "",
@@ -9853,31 +9846,6 @@
    "nw": "",
    "dy": "Sun",
    "df": 0.0,
-   "xb": 0,
-   "rk": 0,
-   "pt": 19.5
-  },
-  {
-   "pl": "Chris Olave",
-   "tm": "NO",
-   "g": "NOCIN",
-   "gl": "NO @ CIN",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 80,
-   "ask": 41,
-   "q": 40.0,
-   "p": 0.3819,
-   "sc": 14.2,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26NOV29NOCIN-NOCOLAVE12-80",
-   "ev": "KXNFLRECYDS-26NOV29NOCIN",
-   "wy": "Cleared 80+ in 6 of 10 games, by +7 on average (6 of 16 last season), Sleeper projects 81.6, CIN let 2 of 10 WR1s reach it. His share of targets is up from 25% to 38%. NO a 9.5-pt underdog, trailing teams throw more. Juwan Johnson out, more targets to go around. Watch: NO projected for only 20 pts (O/U 48.5); Rain likely (100% chance).",
-   "id": "8144",
-   "cx": 0.05,
-   "nw": "",
-   "dy": "Sun",
-   "df": 0.3,
    "xb": 0,
    "rk": 0,
    "pt": 19.5
@@ -10283,31 +10251,6 @@
    "pt": 24.0
   },
   {
-   "pl": "Stefon Diggs",
-   "tm": "WAS",
-   "g": "WASARI",
-   "gl": "WAS @ ARI",
-   "st": "recyds",
-   "pr": "Receiving Yards",
-   "ln": 40,
-   "ask": 56,
-   "q": 54.0,
-   "p": 0.5207,
-   "sc": 39.8,
-   "est": 0,
-   "tk": "KXNFLRECYDS-26NOV29WASARI-WASSDIGGS3-40",
-   "ev": "KXNFLRECYDS-26NOV29WASARI",
-   "wy": "Cleared 40+ in 6 of 10 games, by +3 on average (9 of 17 last season), Sleeper projects 52.3, ARI let 11 of 11 WR1s reach it. His share of targets fell from 31% to 19%. WAS projected for 24 pts (O/U 41.5). Watch: WAS favored by 6.5, may not need to throw late; Injury in the news: rust/health risk, so the chance leans toward Kalshi's 54\u00a2..",
-   "id": "2449",
-   "cx": 0,
-   "nw": "",
-   "dy": "Sun",
-   "df": 0.3,
-   "xb": 0,
-   "rk": 1,
-   "pt": 24.0
-  },
-  {
    "pl": "Trey McBride",
    "tm": "ARI",
    "g": "WASARI",
@@ -10315,9 +10258,9 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 70,
-   "ask": 40,
-   "q": 38.5,
-   "p": 0.3655,
+   "ask": 39,
+   "q": 38.0,
+   "p": 0.3606,
    "sc": 4.7,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV29WASARI-ARITMCBRIDE85-70",
@@ -10390,9 +10333,9 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 40,
-   "ask": 76,
-   "q": 73.5,
-   "p": 0.7155,
+   "ask": 75,
+   "q": 73.0,
+   "p": 0.7106,
    "sc": 42.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV29WASARI-ARITMCBRIDE85-40",
@@ -10465,10 +10408,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 60,
-   "q": 57.5,
-   "p": 0.5592,
-   "sc": 49.5,
+   "ask": 59,
+   "q": 57.0,
+   "p": 0.5551,
+   "sc": 49.6,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV29LVCLE-LVTTUCKER1-25",
    "ev": "KXNFLRECYDS-26NOV29LVCLE",
@@ -10540,10 +10483,10 @@
    "st": "recyds",
    "pr": "Receiving Yards",
    "ln": 25,
-   "ask": 70,
-   "q": 67.5,
-   "p": 0.6574,
-   "sc": 35.9,
+   "ask": 69,
+   "q": 67.0,
+   "p": 0.6531,
+   "sc": 36.0,
    "est": 0,
    "tk": "KXNFLRECYDS-26NOV30CARTB-TBEEGBUKA2-25",
    "ev": "KXNFLRECYDS-26NOV30CARTB",
@@ -10716,9 +10659,9 @@
    "pr": "Receptions",
    "ln": 6,
    "ask": 35,
-   "q": 33.5,
-   "p": 0.3224,
-   "sc": 7.0,
+   "q": 34.0,
+   "p": 0.3266,
+   "sc": 7.1,
    "est": 0,
    "tk": "KXNFLREC-26NOV29BALHOU-HOUNCOLLINS12-6",
    "ev": "KXNFLREC-26NOV29BALHOU",
@@ -10765,10 +10708,10 @@
    "st": "rec",
    "pr": "Receptions",
    "ln": 4,
-   "ask": 71,
-   "q": 68.5,
-   "p": 0.6667,
-   "sc": 37.5,
+   "ask": 70,
+   "q": 68.0,
+   "p": 0.662,
+   "sc": 37.6,
    "est": 0,
    "tk": "KXNFLREC-26NOV29BALHOU-HOUNCOLLINS12-4",
    "ev": "KXNFLREC-26NOV29BALHOU",
@@ -10891,9 +10834,9 @@
    "pr": "Receptions",
    "ln": 7,
    "ask": 37,
-   "q": 36.0,
-   "p": 0.3502,
-   "sc": 12.8,
+   "q": 35.0,
+   "p": 0.3442,
+   "sc": 12.7,
    "est": 0,
    "tk": "KXNFLREC-26NOV29NOCIN-NOCOLAVE12-7",
    "ev": "KXNFLREC-26NOV29NOCIN",
@@ -11033,6 +10976,31 @@
    "pt": 17.5
   },
   {
+   "pl": "Emeka Egbuka",
+   "tm": "TB",
+   "g": "CARTB",
+   "gl": "CAR @ TB (Mon)",
+   "st": "rec",
+   "pr": "Receptions",
+   "ln": 4,
+   "ask": 49,
+   "q": 47.5,
+   "p": 0.4717,
+   "sc": 20.5,
+   "est": 0,
+   "tk": "KXNFLREC-26NOV30CARTB-TBEEGBUKA2-4",
+   "ev": "KXNFLREC-26NOV30CARTB",
+   "wy": "Cleared 4+ in 4 of 10 games, by -0.7 on average (10 of 17 last season), CAR let 9 of 10 WR1s reach it. Watch: TB's offense ranks 30th in passing (161 yds a game).; Snaps falling: 86% \u2192 76% \u2192 71%..",
+   "id": "12514",
+   "cx": 0,
+   "nw": "",
+   "dy": "Mon",
+   "df": 0.3,
+   "xb": 0,
+   "rk": 1,
+   "pt": 23.2
+  },
+  {
    "pl": "Chris Godwin Jr.",
    "tm": "TB",
    "g": "CARTB",
@@ -11137,9 +11105,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.73,
-     "ask": 80,
-     "sc": 33.7
+     "p": 0.728,
+     "ask": 79,
+     "sc": 33.8
     },
     "tags": [
      "Elite red zone role",
@@ -11490,11 +11458,11 @@
     "inj": "News",
     "news": "Chase Brown Week 12 Outlook for Fantasy Football (2026)",
     "prop": {
-     "pr": "Receptions",
-     "ln": 2,
-     "p": 0.883,
-     "ask": 91,
-     "sc": 76.0
+     "pr": "Receiving Yards",
+     "ln": 10,
+     "p": 0.793,
+     "ask": 83,
+     "sc": 53.9
     },
     "tags": [
      "High volume",
@@ -11780,9 +11748,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.713,
-     "ask": 81,
-     "sc": 35.5
+     "p": 0.704,
+     "ask": 79,
+     "sc": 35.6
     },
     "tags": [
      "Elite red zone role",
@@ -11991,7 +11959,7 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 20,
-     "p": 0.809,
+     "p": 0.812,
      "ask": 89,
      "sc": 28.9
     },
@@ -12211,8 +12179,8 @@
     "prop": {
      "pr": "Receptions",
      "ln": 4,
-     "p": 0.876,
-     "ask": 91,
+     "p": 0.871,
+     "ask": 90,
      "sc": 63.2
     },
     "tags": [
@@ -12917,8 +12885,8 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 25,
-     "p": 0.738,
-     "ask": 85,
+     "p": 0.742,
+     "ask": 86,
      "sc": 30.9
     },
     "tags": [
@@ -12989,8 +12957,8 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 30,
-     "p": 0.798,
-     "ask": 87,
+     "p": 0.793,
+     "ask": 86,
      "sc": 51.5
     },
     "tags": [
@@ -13132,9 +13100,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 15,
-     "p": 0.812,
-     "ask": 88,
-     "sc": 64.8
+     "p": 0.808,
+     "ask": 87,
+     "sc": 64.9
     },
     "tags": [
      "RZ share top-10",
@@ -13205,9 +13173,9 @@
     "prop": {
      "pr": "Rushing Yards",
      "ln": 10,
-     "p": 0.736,
-     "ask": 78,
-     "sc": 34.6
+     "p": 0.732,
+     "ask": 77,
+     "sc": 34.7
     },
     "tags": [
      "Soft TD defense",
@@ -13814,8 +13782,8 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 25,
-     "p": 0.836,
-     "ask": 90,
+     "p": 0.831,
+     "ask": 89,
      "sc": 66.6
     },
     "tags": [
@@ -14770,9 +14738,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.829,
-     "ask": 89,
-     "sc": 55.3
+     "p": 0.824,
+     "ask": 88,
+     "sc": 55.4
     },
     "tags": [
      "High volume",
@@ -14982,8 +14950,8 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.771,
-     "ask": 84,
+     "p": 0.766,
+     "ask": 83,
      "sc": 35.7
     },
     "tags": [
@@ -15055,9 +15023,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.73,
-     "ask": 90,
-     "sc": 33.5
+     "p": 0.725,
+     "ask": 89,
+     "sc": 33.6
     },
     "tags": [
      "Soft TD defense",
@@ -17806,7 +17774,7 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.772,
+     "p": 0.778,
      "ask": 88,
      "sc": 28.2
     },
@@ -18136,9 +18104,9 @@
     "prop": {
      "pr": "Receptions",
      "ln": 2,
-     "p": 0.808,
-     "ask": 90,
-     "sc": 40.2
+     "p": 0.818,
+     "ask": 92,
+     "sc": 40.1
     },
     "tags": [
      "Soft TD defense",
@@ -18471,8 +18439,8 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 20,
-     "p": 0.812,
-     "ask": 88,
+     "p": 0.807,
+     "ask": 87,
      "sc": 42.5
     },
     "tags": [
@@ -20531,9 +20499,9 @@
     "prop": {
      "pr": "Receiving Yards",
      "ln": 10,
-     "p": 0.713,
-     "ask": 75,
-     "sc": 36.2
+     "p": 0.709,
+     "ask": 74,
+     "sc": 36.3
     },
     "tags": [
      "Shootout script",
@@ -22889,7 +22857,7 @@
    10,
    11
   ],
-  "generated": "2026-11-27T18:30:35-08:00",
+  "generated": "2026-11-27T19:00:41-08:00",
   "league_source": "Sleeper box-score totals (PFR was unavailable)",
   "notes": [],
   "eyebrow": "Prop cheat sheet \u00b7 Week 12 \u00b7 Sun Nov 29 \u2013 Mon Nov 30",
@@ -22909,7 +22877,7 @@
   "ctx_sources": {
    "lines": "11 games",
    "weather": "6 outdoor games",
-   "injuries": "175 players listed",
+   "injuries": "174 players listed",
    "news": "5 players in headlines",
    "google_news": "6 role-cut, 100 injury headlines; QB hurt: ARI, DAL, JAX, SEA, SF",
    "sleeper_trending": "41 board players trending",
@@ -23213,12 +23181,6 @@
     "price": 0.076,
     "src": "quote",
     "nq": 9
-   },
-   {
-    "key": "Chris Godwin Jr.~recyds~25|J.J. McCarthy~rush~25|Malachi Fields~recyds~10|Stefon Diggs~recyds~40",
-    "price": 0.077,
-    "src": "quote",
-    "nq": 8
    },
    {
     "key": "Chris Godwin Jr.~recyds~25|Devaughn Vele~recyds~20|J.J. McCarthy~rush~25|Malachi Fields~recyds~15",
