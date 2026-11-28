@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T00:31:08+00:00",
+ "generated": "2026-11-28T01:01:06+00:00",
  "games": {
   "NOCIN": {
    "home": "CIN",
@@ -18,7 +18,7 @@
    },
    "wx": {
     "wind": 12,
-    "gust": 37,
+    "gust": 40,
     "pop": 100,
     "rain": 3.73,
     "temp": 53
@@ -57,7 +57,7 @@
    },
    "wx": {
     "wind": 8,
-    "gust": 12,
+    "gust": 9,
     "pop": 7,
     "rain": 0.0,
     "temp": 78
@@ -96,7 +96,7 @@
    },
    "wx": {
     "wind": 7,
-    "gust": 11,
+    "gust": 19,
     "pop": 4,
     "rain": 0.0,
     "temp": 68
@@ -167,7 +167,7 @@
    },
    "wx": {
     "wind": 11,
-    "gust": 24,
+    "gust": 26,
     "pop": 47,
     "rain": 0.0,
     "temp": 66
@@ -190,7 +190,7 @@
    },
    "wx": {
     "wind": 13,
-    "gust": 33,
+    "gust": 32,
     "pop": 100,
     "rain": 2.5,
     "temp": 50
@@ -587,6 +587,16 @@
   ],
   "HOU": [
    {
+    "name": "Brevin Jordan",
+    "pos": "TE",
+    "status": "Out"
+   },
+   {
+    "name": "Kayshon Boutte",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
     "name": "Keylan Rutledge",
     "pos": "G",
     "status": "Out"
@@ -597,18 +607,8 @@
     "status": "Questionable"
    },
    {
-    "name": "Brevin Jordan",
-    "pos": "TE",
-    "status": "Out"
-   },
-   {
     "name": "Danielle Hunter",
     "pos": "DE",
-    "status": "Out"
-   },
-   {
-    "name": "Kayshon Boutte",
-    "pos": "WR",
     "status": "Out"
    },
    {
@@ -618,6 +618,11 @@
    }
   ],
   "IND": [
+   {
+    "name": "Drew Ogletree",
+    "pos": "TE",
+    "status": "Questionable"
+   },
    {
     "name": "Will Mallory",
     "pos": "TE",
@@ -642,11 +647,6 @@
     "name": "Jalen Travis",
     "pos": "OT",
     "status": "Out"
-   },
-   {
-    "name": "Drew Ogletree",
-    "pos": "TE",
-    "status": "Questionable"
    }
   ],
   "JAX": [
@@ -851,6 +851,11 @@
   ],
   "MIA": [
    {
+    "name": "Jared Wayne",
+    "pos": "WR",
+    "status": "Out"
+   },
+   {
     "name": "JuJu Brents",
     "pos": "CB",
     "status": "Out"
@@ -858,11 +863,6 @@
    {
     "name": "Bradley Pinion",
     "pos": "P",
-    "status": "Out"
-   },
-   {
-    "name": "Jared Wayne",
-    "pos": "WR",
     "status": "Out"
    }
   ],
@@ -890,6 +890,11 @@
   ],
   "NE": [
    {
+    "name": "Reggie Gilliam",
+    "pos": "FB",
+    "status": "Questionable"
+   },
+   {
     "name": "Carlton Davis III",
     "pos": "CB",
     "status": "Out"
@@ -902,11 +907,6 @@
    {
     "name": "Walter Rouse",
     "pos": "OL",
-    "status": "Questionable"
-   },
-   {
-    "name": "Reggie Gilliam",
-    "pos": "FB",
     "status": "Questionable"
    },
    {
@@ -1116,13 +1116,8 @@
   ],
   "TB": [
    {
-    "name": "Tez Johnson",
-    "pos": "WR",
-    "status": "Questionable"
-   },
-   {
-    "name": "SirVocea Dennis",
-    "pos": "LB",
+    "name": "Benjamin Morrison",
+    "pos": "CB",
     "status": "Questionable"
    },
    {
@@ -1136,13 +1131,18 @@
     "status": "Questionable"
    },
    {
-    "name": "Elijah Simmons",
-    "pos": "DT",
+    "name": "Tez Johnson",
+    "pos": "WR",
     "status": "Questionable"
    },
    {
-    "name": "Benjamin Morrison",
-    "pos": "CB",
+    "name": "SirVocea Dennis",
+    "pos": "LB",
+    "status": "Questionable"
+   },
+   {
+    "name": "Elijah Simmons",
+    "pos": "DT",
     "status": "Questionable"
    }
   ],
@@ -1173,7 +1173,7 @@
   },
   "mac jones": {
    "h": "49ers rule QB Brock Purdy (ankle) out; Mac Jones to start vs. Seahawks",
-   "t": "2026-11-28T00:13:51Z"
+   "t": "2026-11-28T00:23:13Z"
   },
   "tee higgins": {
    "h": "Bengals WR Tee Higgins dealing with 'sore' hamstring, says coach Zac Taylor",
@@ -1189,165 +1189,169 @@
   }
  },
  "trend": {
-  "deshaun watson": {
-   "rank": 1,
-   "adds": 525864
-  },
   "chris rodriguez": {
+   "rank": 1,
+   "adds": 510714
+  },
+  "deshaun watson": {
    "rank": 2,
-   "adds": 525141
+   "adds": 503576
   },
   "brian thomas": {
    "rank": 4,
-   "adds": 339815
+   "adds": 346320
   },
   "sam roush": {
    "rank": 5,
-   "adds": 310296
+   "adds": 314300
+  },
+  "josh cameron": {
+   "rank": 6,
+   "adds": 258710
   },
   "geno smith": {
    "rank": 7,
-   "adds": 266028
-  },
-  "josh cameron": {
-   "rank": 8,
-   "adds": 254440
+   "adds": 257612
   },
   "jakobi meyers": {
    "rank": 9,
-   "adds": 223350
-  },
-  "konata mumpfield": {
-   "rank": 11,
-   "adds": 214335
+   "adds": 224208
   },
   "joe milton": {
+   "rank": 10,
+   "adds": 208816
+  },
+  "konata mumpfield": {
    "rank": 12,
-   "adds": 208776
-  },
-  "chimere dike": {
-   "rank": 13,
-   "adds": 195507
-  },
-  "justice hill": {
-   "rank": 14,
-   "adds": 195228
+   "adds": 188622
   },
   "dj uiagalelei": {
+   "rank": 13,
+   "adds": 186894
+  },
+  "chimere dike": {
+   "rank": 14,
+   "adds": 184221
+  },
+  "justice hill": {
    "rank": 15,
-   "adds": 179766
+   "adds": 174924
   },
   "samaje perine": {
    "rank": 16,
-   "adds": 176244
+   "adds": 162304
   },
   "evan engram": {
    "rank": 17,
-   "adds": 154480
+   "adds": 149440
   },
   "fernando mendoza": {
    "rank": 18,
-   "adds": 153624
+   "adds": 145520
   },
   "brenton strange": {
    "rank": 19,
-   "adds": 144360
+   "adds": 141336
   },
   "jj mccarthy": {
-   "rank": 21,
-   "adds": 130461
+   "rank": 20,
+   "adds": 126771
   },
   "ted hurst": {
    "rank": 22,
-   "adds": 111516
-  },
-  "jacory croskey merritt": {
-   "rank": 23,
-   "adds": 106695
+   "adds": 102960
   },
   "darren waller": {
+   "rank": 23,
+   "adds": 101025
+  },
+  "jacory croskey merritt": {
    "rank": 24,
-   "adds": 105057
+   "adds": 99162
   },
   "dylan sampson": {
    "rank": 25,
-   "adds": 97580
+   "adds": 90410
   },
   "tai felton": {
    "rank": 26,
-   "adds": 91170
+   "adds": 87258
   },
   "blake corum": {
    "rank": 27,
-   "adds": 86888
+   "adds": 84656
   },
   "kirk cousins": {
-   "rank": 29,
-   "adds": 82160
+   "rank": 28,
+   "adds": 80384
   },
   "tyler shough": {
-   "rank": 31,
-   "adds": 80360
+   "rank": 30,
+   "adds": 78544
   },
   "xavier hutchinson": {
    "rank": 33,
-   "adds": 69755
-  },
-  "emmett johnson": {
-   "rank": 34,
-   "adds": 66195
+   "adds": 66276
   },
   "kyle pitts": {
+   "rank": 34,
+   "adds": 61670
+  },
+  "emmett johnson": {
    "rank": 36,
-   "adds": 63441
+   "adds": 60255
   },
   "kc concepcion": {
    "rank": 37,
-   "adds": 63351
+   "adds": 59049
   },
   "mack hollins": {
    "rank": 38,
-   "adds": 61542
+   "adds": 58086
   },
-  "mason rudolph": {
+  "cj stroud": {
    "rank": 39,
-   "adds": 60506
+   "adds": 56385
   },
   "corey kiner": {
    "rank": 40,
-   "adds": 59064
-  },
-  "cj stroud": {
-   "rank": 41,
-   "adds": 58898
+   "adds": 55446
   },
   "caleb douglas": {
-   "rank": 43,
-   "adds": 56704
+   "rank": 41,
+   "adds": 53904
   },
   "sam darnold": {
-   "rank": 44,
-   "adds": 54921
+   "rank": 42,
+   "adds": 53394
   },
-  "malik washington": {
-   "rank": 45,
-   "adds": 53800
+  "mason rudolph": {
+   "rank": 43,
+   "adds": 53026
   },
   "adonai mitchell": {
+   "rank": 45,
+   "adds": 51112
+  },
+  "malik washington": {
    "rank": 46,
-   "adds": 53144
+   "adds": 50528
   },
   "devaughn vele": {
    "rank": 47,
-   "adds": 43134
+   "adds": 40579
+  },
+  "mac jones": {
+   "rank": 48,
+   "adds": 39172
   },
   "mike gesicki": {
-   "rank": 48,
-   "adds": 40056
+   "rank": 49,
+   "adds": 38572
   },
   "jordan mason": {
-   "rank": 49,
-   "adds": 39380
+   "rank": 50,
+   "adds": 36625
   }
  },
  "buzz": {},
@@ -1356,8 +1360,8 @@
   "weather": "6 outdoor games",
   "injuries": "176 players listed",
   "news": "5 players in headlines",
-  "google_news": "6 role-cut, 102 injury headlines; QB hurt: ARI, JAX",
-  "sleeper_trending": "40 board players trending",
+  "google_news": "5 role-cut, 102 injury headlines; QB hurt: ARI, JAX, SF",
+  "sleeper_trending": "41 board players trending",
   "reddit": "unavailable"
  },
  "gnews": {
@@ -1501,13 +1505,13 @@
   },
   "mac jones": {
    "h": [
-    "Mac Jones Issued Strong Message After 49ers Rule Out Brock Purdy",
-    "QB Brock Purdy to miss the 49ers\u2019 game vs. the Seahawks. Mac Jones will start in his place",
-    "QB Brock Purdy to miss the 49ers' game vs. the Seahawks. Mac Jones will start in his place"
+    "49ers\u2019 Mac Jones Gets Candid About Replacing Injured Brock Purdy",
+    "The 49ers get another tough test with backup QB Mac Jones set to face Seahawks' stout defense",
+    "Brock Purdy injury shows why Mac Jones trade was so expensive"
    ],
-   "cut": true,
+   "cut": false,
    "inj": true,
-   "worst": "49ers\u2019 Brock Purdy officially ruled out vs. Seahawks, Mac Jones will start"
+   "worst": "49ers\u2019 Mac Jones Gets Candid About Replacing Injured Brock Purdy"
   },
   "sam darnold": {
    "h": [
@@ -2765,6 +2769,7 @@
  },
  "qbhurt": [
   "ARI",
-  "JAX"
+  "JAX",
+  "SF"
  ]
 }
